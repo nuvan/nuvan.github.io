@@ -1,11 +1,14 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: Direction With Intent
+description: This is a description
+logo: MainArrow.svg # 120x120 px default image used for Twitter summary card
+teaser: MainArrow.svg # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+# DEV
+url: http://localhost:4000
+# PRD
+#url: http://nuvan.github.io
 
 # Jekyll configuration
 
@@ -21,14 +24,14 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
+  name: nuvan
+  email: nuno.valente@gmail.com
+  twitter: nuvan
   google:
     ad-client: 
-    ad-slot: 
+    ad-slot:
   bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: MainArrow.svg # 160x160 px image for author byline
 disqus-shortname:
 
 
