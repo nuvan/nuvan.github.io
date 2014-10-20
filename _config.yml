@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: DI
-description: This is a description
+title: Direction With Intent
+description: 
 logo: MainArrow.svg # 120x120 px default image used for Twitter summary card
 teaser: MainArrow.svg # 400x250 px default teaser image used in image archive grid
 locale:
