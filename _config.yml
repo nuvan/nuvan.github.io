@@ -9,7 +9,7 @@ locale:
 #url: http://localhost:4000
 # PRD
 url: http://nuvan.github.io
-
+base_url: nuvan.github.io
 # Jekyll configuration
 
 sass:
