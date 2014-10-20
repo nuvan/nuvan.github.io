@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title: Direction With Intent
+title: DI
 description: This is a description
 logo: MainArrow.svg # 120x120 px default image used for Twitter summary card
 teaser: MainArrow.svg # 400x250 px default teaser image used in image archive grid
 locale:
 # DEV
-url: http://nuvan.github.io
+url: http://localhost:4000
 # PRD
 #url: http://nuvan.github.io
 
