@@ -7,6 +7,7 @@ teaser: MainArrow.svg # 400x250 px default teaser image used in image archive gr
 locale:
 # DEV
 #url: http://localhost:4000
+#base_url: localhost:4000
 # PRD
 url: http://nuvan.github.io
 base_url: nuvan.github.io
