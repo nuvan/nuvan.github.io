@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 .sliding-menu-button {
-	position: absolute;
+	position: fixed;
 	top: $gutter * 1.3;
 	right: $gutter;
 	display: block;
