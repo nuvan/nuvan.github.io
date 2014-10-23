@@ -1,6 +1,8 @@
 // TYPOGRAPHY
 // --------------------------------------------------
 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,700italic);
+
 body {
 	font-family: $base-font;
 	color: $text-color;
@@ -17,7 +19,8 @@ li {
 
 // Headings
 h1, h2, h3, h4, h5, h6 {
-	font-family: $heading-font;
+    font-family: 'Lato', sans-serif;
+	//font-family: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 h1 {
