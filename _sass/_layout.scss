@@ -157,6 +157,8 @@
 	}
 	.page-title {
 		@include fill-parent;
+		color: #808386;
+
 	}
 	@at-root {
 		.page-content {
@@ -260,7 +262,7 @@
 			@include font-size(60);
 		}
 		@include media($large) {
-			@include font-size(72);
+			@include font-size(60);
 		}
 	}
 	h2 {
@@ -359,14 +361,16 @@
 		@include omega(4n);
 	}
 	.entry-date {
-		@include font-size(16,no);
-		color: lighten($text-color,25);
+		@include font-size(13,no);
+		color: #808386
 	}
 	.post-title {
-		@include font-size(18,no);
+		@include font-size(22,no, 26);
+		color: #333333
 	}
 	.post-excerpt {
-		@include font-size(16);
+		@include font-size(15);
+		color: #333333
 	}
 	.post-teaser {
 		position: relative;

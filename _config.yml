@@ -2,8 +2,8 @@
 
 title: Direction With Intent
 description: 
-logo: MainArrow.svg # 120x120 px default image used for Twitter summary card
-teaser: MainArrow.svg # 400x250 px default teaser image used in image archive grid
+logo: #MainArrow.svg # 120x120 px default image used for Twitter summary card
+teaser: #MainArrow.svg # 400x250 px default teaser image used in image archive grid
 locale:
 # DEV
 #url: http://localhost:4000
@@ -32,7 +32,7 @@ owner:
     ad-client: 
     ad-slot:
   bio: 
-  avatar: MainArrow.svg # 160x160 px image for author byline
+  avatar: #MainArrow.svg # 160x160 px image for author byline
 disqus-shortname:
 
 
