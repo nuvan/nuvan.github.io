@@ -6,11 +6,11 @@ logo: #MainArrow.svg # 120x120 px default image used for Twitter summary card
 teaser: #MainArrow.svg # 400x250 px default teaser image used in image archive grid
 locale:
 # DEV
-url: http://localhost:4000
-base_url: localhost:4000
+#url: http://localhost:4000
+#base_url: localhost:4000
 # PRD
-#url: http://nuvan.github.io
-#base_url: nuvan.github.io
+url: http://directionwithintent.com
+base_url: directionwithintent.com
 # Jekyll configuration
 
 sass:
