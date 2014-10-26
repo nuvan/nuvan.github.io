@@ -25,12 +25,12 @@ gems:
 
 # Site owner
 owner:
-  name: nuvan
+  name: Nuno Valente
   email: nuno.valente@gmail.com
   twitter: nuvan
   google:
-    ad-client: 
-    ad-slot:
+    ad-client: ca-pub-5324161887121686
+    ad-slot: 3257173456
   bio: 
   avatar: blog_awatar.jpg
 disqus-shortname: directionwithintent
