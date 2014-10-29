@@ -3,6 +3,7 @@ layout: article
 date: 2013-02-01
 title: "JRuby (Java) Encoding for LATIN-1 victims and how to detect issues"
 comments: true
+category: programming
 ads: true
 ---
 
