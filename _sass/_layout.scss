@@ -216,7 +216,7 @@
 		margin-left: -$gutter;
 		margin-right: -$gutter;
 		padding: 10px 0 20px;
-		background: lighten($border-color,5);
+		background: #FFFFFF;
 		@include media($medium) {
 			@include span-columns(3);
 			margin-left: 0;
