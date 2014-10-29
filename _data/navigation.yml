@@ -1,6 +1,6 @@
 # Site navigation links
 
 - title: JRuby JVM Hell
-  url: /fst
+  url: /jruby-jvm-encoding-flags
   excerpt: "JVM Flags are evil"
   image: #MainArrow.svg
