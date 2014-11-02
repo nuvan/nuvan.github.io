@@ -7,7 +7,7 @@ category: programming
 ads: true
 ---
 
-Once upon a time, I was developing a couple of extensions for Logstash [Link](http://logstash.net/).
+Once upon a time, I was developing a couple of extensions for [Logstash](http://logstash.net/).
 
 One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my proceses and started to mess with all of my good JVM configurations (some of them, I didn't even know that they existed).
 
@@ -37,4 +37,4 @@ By the way, if you ever want to check your encoding flags just add this to your 
       puts "#{key} : #{value}"
     end
 
-With this script you can print all of your JVM instance flags. Have fun!
+With this script, you can print all of your JVM instance flags. Have fun!
