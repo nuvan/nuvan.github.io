@@ -349,6 +349,7 @@
 .tile {
 	@include outer-container;
 	margin-bottom: $gutter;
+	margin-left: 2px; //font fir char gets cut on animations. For instance "J"
 	@include media($micro) {
 		@include fill-parent;
 	}
