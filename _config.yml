@@ -25,15 +25,15 @@ gems:
 
 # Site owner
 owner:
-  name: nuvan
+  name: Nuno Valente
   email: nuno.valente@gmail.com
   twitter: nuvan
   google:
-    ad-client: 
-    ad-slot:
+    ad-client: ca-pub-5324161887121686
+    ad-slot: 3257173456
   bio: 
   avatar: blog_awatar.jpg
-disqus-shortname: nuno_valente
+disqus-shortname: directionwithintent
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

@@ -20,6 +20,23 @@
 	50% { @include transform(translateY(-3px)); }
 	100% { @include transform(translateY(-6px)); }
 }
+
+@include keyframes(fadin) {
+  0%   { opacity: 0;   }
+  25%  { opacity: 0.4; }
+  50%  { opacity: 0.6; }
+  75%  { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+@include keyframes(fadout) {
+  0%   { opacity: 0;   }
+  25%  { opacity: 0.4; }
+  50%  { opacity: 0.6; }
+  75%  { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
 .hang {
 	display: inline-block;
 	@include animation-name(hang);
@@ -27,4 +44,14 @@
 	@include animation-timing-function(linear);
 	@include animation-iteration-count(infinite);
 	@include animation-direction(alternate);
+}
+
+.tiles {
+  display: inline-block;
+  @include animation-name(fadin);
+  @include animation-duration(1.3s);
+  @include animation-delay(0.0s);
+  @include animation-iteration-count(1);
+  @include animation-timing-function(linear);
+  @include animation-direction(alternate);
 }
