@@ -2,5 +2,10 @@
 
 - title: Programming
   url: /programming
-  excerpt: "Programming articles - tutorials - quick tips"
+  excerpt: "Programming articles, tutorials, quick tips"
+  image: #MainArrow.svg
+
+- title: Opinion
+  url: /opinion
+  excerpt: "Opinion articles on everything that matters"
   image: #MainArrow.svg
