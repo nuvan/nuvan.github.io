@@ -1,7 +1,7 @@
 ---
 layout: article
 date: 2013-02-01
-title: "JRuby (Java) Encoding for LATIN-1 victims and how to detect issues"
+title: "JRuby / JVM encoding flags"
 comments: true
 category: programming
 ads: true
@@ -9,7 +9,7 @@ ads: true
 
 Once upon a time, I was developing a couple of extensions for [Logstash](http://logstash.net/).
 
-One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my proceses and started to mess with all of my good JVM configurations (some of them, I didn't even know that they existed).
+One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn't even know that they existed).
 
 After some suffering, anger and hunger that all debugging processes bring, I've found an ancient JVM flag that my evil Red Hat server changed, just to see me cry, after several bad relationships with an assorted number of encodings.
 
