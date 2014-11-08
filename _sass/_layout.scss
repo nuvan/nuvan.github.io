@@ -345,22 +345,41 @@
 		}
 	}
 }
-// tiles
-.tile {
-	@include outer-container;
-	margin-bottom: $gutter;
-	margin-left: 2px; //font fir char gets cut on animations. For instance "J"
-	@include media($micro) {
-		@include fill-parent;
-	}
+
+
+@mixin bootstrap-container {
+    @include outer-container;
+    @include media($large)  { max-width:  1024px; }
+    @include media($medium) { max-width:  1024px; }
+    @include media($small)  { max-width:  750px; }
+}
+
+.rows-wrap {
+	@include bootstrap-container;
+	margin-left: 0;
+}
+
+.grid-row {
+	@include bootstrap-container;
+}
+
+.grid-cell-column {
 	@include media($small) {
 		@include span-columns(6);
 		@include omega(2n);
 	}
 	@include media($medium) {
-		@include span-columns(3);
-		@include omega(4n);
+		@include span-columns(4);
+    @include omega(3n);
 	}
+	@include media($micro) {
+		@include fill-parent;
+	}
+}
+
+.tile {
+	margin-bottom: $gutter;
+	margin-left: 2px; //font fir char gets cut on animations. For instance "J"
 	.entry-date {
 		@include font-size(13,no);
 		color: #808386;
