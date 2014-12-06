@@ -10,16 +10,16 @@
   <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 108 }}</p>
   
   <div class="post-meta">
-    <img class="entry-date-icon" src="images/icons/date.svg" alt="" height="12" width="12">
+    <img class="entry-date-icon" src="{{ site.url }}/images/icons/date.svg" alt="" height="12" width="12">
     <!--div class="entry-date-icon" style="background-image:url(//{{ site.base_url }}/images/icons/date.svg); background-repeat: no-repeat;">
     </div-->    
     <div class="entry-date date published">
       <time class="entry-date" datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" | upcase }}
       </time>
     </div>
-    <img class="comment-count-icon" src="images/icons/comments.svg" alt="" height="12" width="12">
+    <img class="comment-count-icon" src="{{ site.url }}/images/icons/comments.svg" alt="" height="12" width="12">
     <a class="comment-count" href="{{ site.url }}{{ post.url }}#disqus_thread"></a>
-    <img class="comment-like-icon" src="images/icons/like.svg" alt="" height="12" width="12">
+    <img class="comment-like-icon" src="{{ site.url }}/images/icons/like.svg" alt="" height="12" width="12">
     <!--a class="comment-like" href="{{ site.url }}{{ post.url }}#disqus_thread"></a-->
     <div class="comment-like" id="{{ post.title | slugify }}-share">stuff</div>
   </div>
