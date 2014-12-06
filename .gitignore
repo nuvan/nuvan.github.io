@@ -8,3 +8,4 @@ _asset_bundler_cache
 _drafts
 .sass-cache
 Gemfile.lock
+resources
