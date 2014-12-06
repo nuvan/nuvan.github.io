@@ -1,7 +1,6 @@
 ---
 layout: archive
 permalink: /
-title: "Latest Posts"
 ---
 
 <div id="main " role="main" class="fadin-anim">

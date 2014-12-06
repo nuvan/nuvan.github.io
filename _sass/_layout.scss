@@ -377,48 +377,6 @@
 	}
 }
 
-.tile {
-	margin-bottom: $gutter;
-	margin-left: 2px; //font fir char gets cut on animations. For instance "J"
-	.entry-date {
-		@include font-size(13,no);
-		color: #808386;
-	}
-	.line {
-		margin-top: 3%;
-		width: 15%;
-   		border-bottom: solid #808386;
-   		border-bottom-width: 2px;
-	}
-	.post-title {
-		@include font-size(22,no, 26);
-		color: #333333
-	}
-	.post-excerpt {
-		@include font-size(15);
-		color: #333333
-	}
-	.post-teaser {
-		position: relative;
-		display: block;
-		&:after {
-			content: '';
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background: rgba($base-color,0);
-			pointer-events: none;
-			@include transition(background 0.3s);
-		}
-		&:hover {
-			&:after {
-				background: rgba($base-color,0.2);
-			}
-		}
-	}
-}
 // footnotes
 .footnotes {
 	font-family: $alt-font;

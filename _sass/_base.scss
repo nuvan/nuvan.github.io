@@ -1,12 +1,13 @@
 // TYPOGRAPHY
 // --------------------------------------------------
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	color: $text-color;
 	@include font-size(16);
+	font-family: $base-font, sans-serif;
+	color: $text-color;
 }
 
 p {
@@ -19,10 +20,9 @@ li {
 
 // Headings
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
-	//font-family: $heading-font;
+    font-family: $base-font, sans-serif;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
-	font-weight:600;
+	font-weight:400;
 }
 h1 {
 	@include font-size(35);
@@ -68,7 +68,7 @@ a {
 figcaption {
 	padding-left: 2 * $gutter;
 	padding-right: 2 * $gutter;
-	font-family: $alt-font;
+	//font-family: $alt-font;
 	@include font-size(12,no,15);
 	color: lighten($text-color, 10);
 	text-align: center;

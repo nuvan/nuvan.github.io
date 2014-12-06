@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"-->
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
@@ -22,6 +23,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
     <meta name="google" content="notranslate" />
+
+    <meta property="fb-admins" content="{{page.fb-admins}}" />
 
     <style>
     .sliding-menu-content {
@@ -49,8 +52,12 @@
   </head>
 
   <body>
+    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.url }}/js/main.js"></script>
+    {% include fb_sdk_scripts.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
+
       <div class="page-lead" style="background-image:url(//{{ site.base_url }}/images/bg01_1600x800_mini.jpg)">
         <div class="wrap page-lead-content">
           <br>
@@ -69,8 +76,6 @@
       {% include footer.html %}
     </div>
 
-    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="{{ site.url }}/js/main.js"></script>
     
     {% if page.toc == true %}
     <script type="text/javascript">
@@ -96,5 +101,17 @@
     {% endif %}
 
   </body>
+
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'directionwithintent'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+  </script>
 
 </html>

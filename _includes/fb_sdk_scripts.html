@@ -1,0 +1,38 @@
+<script>
+
+    /*FB SDK initializtion*/
+     window.fbAsyncInit = function() {
+       FB.init({
+         appId      : fb_app_id,
+         xfbml      : true,
+         version    : 'v2.2'
+       });
+     };
+     (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+    
+    /*REST share count for each site on the front*/
+    
+  var fb_app_id  = {{site.fb_app_id}};
+  var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
+  $(document).ready(function(){ 
+    {% for post in site.posts %}
+    $.ajax({
+      url: query_url + '{{post.url}}',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#{{ post.title | slugify }}-share").html(data.count);
+      }
+      else {
+        $("#{{ post.title | slugify }}-share").html("0");
+      }
+    });
+   {% endfor %}
+  });
+</script>
