@@ -3,6 +3,9 @@ layout: article
 title: "PEG that data - Part 1"
 date: 2014-11-16
 category: programming
+image:
+  teaser:  peg_314x250.jpg
+  feature: peg_1600x800.jpg
 comments: true
 ads: true
 ---
