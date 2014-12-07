@@ -2,6 +2,9 @@
 layout: article
 title: "An Island and a Cloud."
 date: 2014-10-26
+image:
+  teaser: island_314x250.jpg
+  feature: island_1600x800.jpg
 comments: true
 ads: true
 category: opinion

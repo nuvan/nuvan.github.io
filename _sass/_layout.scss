@@ -11,6 +11,9 @@
 	}
 	.inner-wrap {
 		@include outer-container;
+		&:after {			
+			display: inline;
+		}
 	}
 }
 .site-title {
@@ -34,6 +37,7 @@
 // --------------------------------------------------
 
 .menu {
+	font-family: "Open Sans";
 	li {
 		float: left;
 		&:last-child a {
@@ -48,7 +52,7 @@
 			margin-right: $gutter;
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
 			height: $masthead-height;
-			font-family: $alt-font;
+  			font-family: $next-base-font;
 			&:before,
 			&:after {
 				content: '';
@@ -97,7 +101,7 @@
 			font-weight: 700;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
+			color: $white;
 			text-transform: uppercase;
 		}
 	}
@@ -206,6 +210,7 @@
 			.page-content {
 				@include reset-all;
 				@include fill-parent;
+				padding-top: 2em;
 			}
 		}
 	}
@@ -249,7 +254,7 @@
 	}
 }
 .page-lead-content {
-	padding: 1em;
+	padding: 5em, 1em, 5em, 1em;
 	@include media($medium) {
 		padding: 2em;
 	}

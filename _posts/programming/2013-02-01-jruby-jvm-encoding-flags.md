@@ -2,6 +2,9 @@
 layout: article
 date: 2013-02-01
 title: "JRuby / JVM encoding flags"
+image:
+  teaser:  jruby_314x250.jpg
+  feature: jruby_1600x800.jpg
 comments: true
 category: programming
 ads: true
