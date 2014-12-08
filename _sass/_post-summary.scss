@@ -1,115 +1,113 @@
-//inside article
-.tile {
-  margin-bottom: $gutter;
-  margin-left: 2px; //font fir char gets cut on animations. For instance "J"
-  .line {
-    margin-top: 3%;
-    width: 15%;
-      border-bottom: solid #808386;
-      border-bottom-width: 2px;
-  }
-  .post-title {
-    @include font-size(22,no, 26);
-    color: #333333
-  }
-  .post-excerpt {
-    @include font-size(15);
-    color: #333333
-  }
-  .post-teaser {
-    position: relative;
-    display: block;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: rgba($base-color,0);
-      pointer-events: none;
-      @include transition(background 0.3s);
-    }
-  }
-}
-
 article{
-  font-family: "Open Sans";
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 0.5em;
-  border: 1px solid transparent;
-  &:hover {
-    border: 1px solid #919191;
-  }
-  
-  .post-category {
-    text-transform: uppercase;
-    color: #919191;
-    @include font-size(11);
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-  }
-
-  .post-title {
-    font-family: $base-font;
-    text-transform: uppercase;
-    color: #333333;
-    margin-top: 0.5em;
-    margin-bottom: 0em;
-  }
-
-  .post-excerpt {
-    margin-top: 0.5em;
-    margin-bottom: 0em;
-    color: #333333;
-  }
-
-  .post-meta {
-    overflow:auto;
-    position:relative;
-    
-    .entry-date-icon {
-      display:inline-block;
-      margin: auto 0px auto auto;
-      width: 11px;
-      height: 11px;
-      text-align: center;
-    }
-    .entry-date {
-      display:inline-block;
-      @include font-size(11);
-      color: #808386;
-      margin-right: 10px;
-      //margin: auto 10px auto auto;
-      margin-bottom: 0px;
-    }
-    .comment-count-icon {
-      display:inline-block;
-      margin: auto 0px auto auto;
-      width: 11px;
-      height: 11px;
-    }
-    .comment-count {
-      display:inline-block;
-      @include font-size(11);
-      color: #808386;
-      margin: auto 0px auto auto;
-    }
-    .comment-like-icon {
-      display:inline-block;
-      margin: auto 0px auto auto;
-      width: 11px;
-      height: 11px;
-    }
-    .comment-like {
-      display:inline-block;
-      @include font-size(11);
-      color: #808386;
-      margin: auto 0px auto auto;
-    }
-
-
-  }
-
+    font-family: "Open Sans";
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    border: 1px solid transparent;  
 }
+
+  .tile {
+
+    margin-bottom: $gutter;
+    margin-left: 2px; //font fir char gets cut on animations. For instance "J"
+
+    .line {
+      margin-top: 3%;
+      width: 15%;
+        border-bottom: solid #808386;
+        border-bottom-width: 2px;
+    }
+    .post-title {
+      @include font-size(22,no, 26);
+      color: #333333
+    }
+    .post-excerpt {
+      @include font-size(15);
+      color: #333333
+    }
+    .post-teaser {
+      position: relative;
+      display: block;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba($base-color,0);
+        pointer-events: none;
+        @include transition(background 0.3s);
+      }
+    }
+    &:hover {
+      border: 1px solid #919191;
+    }
+    
+    .post-category {
+      text-transform: uppercase;
+      color: #919191;
+      @include font-size(11);
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  
+    .post-title {
+      font-family: $base-font;
+      text-transform: uppercase;
+      color: #333333;
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+    }
+  
+    .post-excerpt {
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+      color: #333333;
+    }
+  
+    .post-meta {
+      overflow:auto;
+      position:relative;
+      
+      .entry-date-icon {
+        display:inline-block;
+        margin: auto 0px auto auto;
+        width: 11px;
+        height: 11px;
+        text-align: center;
+      }
+      .entry-date {
+        display:inline-block;
+        @include font-size(11);
+        color: #808386;
+        margin-right: 10px;
+        //margin: auto 10px auto auto;
+        margin-bottom: 0px;
+      }
+      .comment-count-icon {
+        display:inline-block;
+        margin: auto 0px auto auto;
+        width: 11px;
+        height: 11px;
+      }
+      .comment-count {
+        display:inline-block;
+        @include font-size(11);
+        color: #808386;
+        margin: auto 0px auto auto;
+      }
+      .comment-like-icon {
+        display:inline-block;
+        margin: auto 0px auto auto;
+        width: 11px;
+        height: 11px;
+      }
+      .comment-like {
+        display:inline-block;
+        @include font-size(11);
+        color: #808386;
+        margin: auto 0px auto auto;
+      }
+    }
+  }
