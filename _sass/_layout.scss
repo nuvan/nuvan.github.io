@@ -104,7 +104,7 @@
         @include span-columns(9);
       }        
       @include media($huge) {
-        @include span-columns(12);
+        @include span-columns(9);
       }        
       @include omega();
       display: table;
