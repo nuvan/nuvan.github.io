@@ -54,23 +54,46 @@
   <body>
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
+    <script src="{{ site.url }}/js/header_fader.js"></script>
     {% include fb_sdk_scripts.html %}
-    {% include header.html %}
+    <header class="header absolute transparent naver">
+        <div id="masthead-article">
+          <div class="inner-wrap">
+            <a href="{{ site.url }}" class="site-title white-logo"></a>
+            <nav role="navigation-article" class="menu-article">
+              <ul>
+                {% for link in site.data.navigation %}
+                  {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                  {% else %}
+                    {% assign domain = site.url %}
+                  {% endif %}
+                  <li>
+                    <a class="white" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+                <li>
+                  <button type="button" class="js-menu-trigger sliding-menu-button-article menulines-button x2" role="button" aria-label="Toggle Navigation">
+                    <span class="menulines white">
+                    </span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
     {% include navigation-sliding.html %}
 
-      <div class="page-lead" style="background-image:url(//{{ site.base_url }}/images/bg01_1600x800_mini.jpg)">
+      <div class="page-lead home" style="background-image:url(//{{ site.base_url }}/images/bg01_1600x800_mini.jpg)">
         <div id="masthead">
           <div class="inner-wrap">
-            <a href="{{ site.url }}" class="site-title" style="background-image:url(//{{ site.base_url }}/images/white-dwi.svg); background-repeat: no-repeat; background-position: left center;"></a>
-            <nav role="navigation" class="menu top-menu">
-              {% include navigation.html %}
-            </nav>
           </div><!-- /.inner-wrap -->
         </div>
         <div class="wrap page-lead-content">
           <br>
-          <br>
           <h1>THINK THROUGH. EXECUTE.</h1>
+          <br>
           <br>
           <br>
         </div>

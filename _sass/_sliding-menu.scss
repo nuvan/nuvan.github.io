@@ -2,6 +2,33 @@
 // Based on code by Diego Eis
 // --------------------------------------------------
 
+.sliding-menu-button-article {
+	top: $gutter * 1.3;
+	right: $gutter;
+	width: $button-size * 1.5;
+	height: $button-size * 1.5;
+	background-color:rgba(0, 0, 0, 0.0);
+	outline: 0;
+	padding: 0;
+	border: 2.5px solid transparent;
+	cursor: pointer;
+	z-index: 5;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	@include media($medium) {
+		@include transform(0);
+	}
+	@include transition(right 600ms cubic-bezier(.645,.045,.355,1.000));
+	&.slide {
+		@include media($medium) {
+			right: 90%;
+		}
+		@include transition(right 600ms ease-in-out);
+	}
+}
+
+
 .sliding-menu-button {
 	top: $gutter * 1.3;
 	right: $gutter;
@@ -37,6 +64,7 @@
 	padding: em(22) 0;
 	text-align: center;
 	visibility: hidden;
+	z-index: 200;
 	@include media($medium) {
 		text-align: left;
 	}
@@ -53,7 +81,6 @@
 	@include transform(translateX(100%));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	background: $sliding-menu-background;
-	z-index: 5;
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
@@ -140,17 +167,44 @@
 	display: inline-block;
 	width: $button-size;
 	height: $button-size/7;
-	background: $white;
 	border-radius: $button-size/14; 
 	transition: $transition;
+	background-color: inherit;
 }
+// animated navicons
+// https://github.com/SaraSoueidan/navicon-transformicons
+// common to all three-liners
+@mixin menuline-white {
+	display: inline-block;
+	width: $button-size;
+	height: $button-size/7;
+	border-radius: $button-size/14; 
+	transition: $transition;
+	background-color: white;
+}
+
+@mixin menuline-black {
+	display: inline-block;
+	width: $button-size;
+	height: $button-size/7;
+	border-radius: $button-size/14; 
+	transition: $transition;
+	background-color: black;
+}
+
 // common to all three-liners
 .menulines {
-	@include menuline;
-	position: relative; 
+	&.black {
+		@include menuline-black;
+	}
+	&.white {
+		@include menuline-white;
+	}
+
+	position: relative;
 	&:before, &:after {
-	 @include menuline;
-		position: absolute;
+		@include menuline;
+	  	position: absolute;
 		left:0;
 		content: '';
 		-webkit-transform-origin: $button-size/14 center;
@@ -231,7 +285,7 @@
 // three-lines to x method 2
 .menulines-button.x2{
 		.menulines{
-			transition: background .3s .5s ease;
+			//transition: background .3s .5s ease;
 			&:before, &:after{
 				//set transform origin
 			-webkit-transform-origin: 50% 50%;
@@ -250,6 +304,7 @@
 			transition: top .3s ease, transform .3s .5s ease;//delay the formation of the x till the minus is formed  
 			top:0;
 			width: $button-size;
+			background-color: white;
 		}
 		&:before{
 			-webkit-transform: rotate3d(0,0,1,45deg); 

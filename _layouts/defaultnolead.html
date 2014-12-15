@@ -52,10 +52,38 @@
   <body>
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     {% include fb_sdk_scripts.html %}
-    {% include header.html %}
+    <header class="header fixed bottom-bordered">
+        <div id="masthead-article">
+          <div class="inner-wrap">
+            <a href="{{ site.url }}" class="site-title " style="background-image:url(//{{ site.base_url }}/images/black-dwi.svg); background-repeat: no-repeat; background-position: left center;"></a>
+            <nav role="navigation-article" class="menu-article">
+              <ul>
+                {% for link in site.data.navigation %}
+                  {% if link.url contains 'http' %}
+                    {% assign domain = '' %}
+                  {% else %}
+                    {% assign domain = site.url %}
+                  {% endif %}
+                  <li>
+                    <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+                <li>
+                  <button type="button" class="js-menu-trigger sliding-menu-button-article menulines-button x2" role="button" aria-label="Toggle Navigation">
+                    <span class="menulines black"></span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+    </header>
     {% include navigation-sliding.html %}
     {% include browser-upgrade.html %}
 
+    <div class="padder" style="height: 80px;">
+    </div>
 
     {{ content }}
 
