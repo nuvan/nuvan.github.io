@@ -73,10 +73,10 @@
 		@include size(87% 100%);
 	}
 	@include media($small) {
-		padding: em(70) 0;
+		padding: em(20) 0;
 	}
 	@include media($micro) {
-		padding: em(70) 0;
+		padding: em(20) 0;
 	}	
 	@include transform(translateX(100%));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
