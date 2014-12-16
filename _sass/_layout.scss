@@ -87,7 +87,15 @@
       &.black-logo {
         background-image:url(/images/black-dwi.svg);
       }
-
+      @include media($micro) {
+        margin-left: 10px;
+      }        
+      @include media($small) {
+        margin-left: 10px;
+      }
+      @include media($medium) {
+        margin-left: 5px;
+      }
     }
     .menu-article {
       @include span-columns(8);
@@ -363,9 +371,17 @@
   background-attachment: fixed;
   text-align: center;
   color: $white;
-  @include media($large) {
+  @include media($small) {
     background-size: cover;
     height: 300px;
+  }
+  @include media($medium) {
+    background-size: cover;
+    height: 300px;
+  }
+  @include media($large) {
+    background-size: cover;
+    height: 400px;
   }
   &.home {
     height: 400px;

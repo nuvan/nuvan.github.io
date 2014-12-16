@@ -50,12 +50,11 @@
   </head>
 
   <body>
-    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     {% include fb_sdk_scripts.html %}
     <header class="header fixed bottom-bordered">
         <div id="masthead-article">
           <div class="inner-wrap">
-            <a href="{{ site.url }}" class="site-title " style="background-image:url(//{{ site.base_url }}/images/black-dwi.svg); background-repeat: no-repeat; background-position: left center;"></a>
+            <a href="{{ site.url }}" class="site-title black-logo"></a>
             <nav role="navigation-article" class="menu-article">
               <ul>
                 {% for link in site.data.navigation %}
