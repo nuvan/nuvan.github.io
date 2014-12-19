@@ -99,10 +99,10 @@
       float: right;
       @include span-columns(10);
       @include media($micro) {
-        @include span-columns(6);
+        @include span-columns(5);
       }        
       @include media($small) {
-        @include span-columns(8);
+        @include span-columns(7);
       }        
       @include media($medium) {
         @include span-columns(9);
