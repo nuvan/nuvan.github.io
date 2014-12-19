@@ -17,25 +17,21 @@
   }
   .site-title {
     @include row;
-    @include media($large) {
-    @include span-columns(4);
-    }
-  padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
-  height: $masthead-height;
-  text-decoration: none;
-  color: $black;
-  font-family: $alt-font;
-  font-weight: 700;
-  @include font-size(20,no);
-  line-height: .5 * $masthead-height; // half the height to center vertically
-  text-transform: uppercase;
-    }
-
+    @include span-columns(1);
+    padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
+    height: $masthead-height;
+    text-decoration: none;
+    color: $black;
+    font-family: $alt-font;
+    font-weight: 700;
+    @include font-size(20,no);
+    line-height: .5 * $masthead-height; // half the height to center vertically
+    text-transform: uppercase;
+  }
 }
 
-//.naver {height:34px; width:500px; position:fixed; top:0; left:0; background-color:#6699ff; opacity:0;}
 .visible {opacity:1;}
-//.naver a {display:block; font-size:14px; line-height:14px; float:left; padding:10px;}
+
 .header {
   background-color: white;
   &.absolute {
@@ -72,7 +68,9 @@
   }
   .inner-wrap {
     position: relative;
-    @include outer-container;
+    //@include outer-container;
+    //margin-left: 100px;
+    //margin-right: 100px;
     .site-title {
       @include span-columns(1);
       float: left;
@@ -98,7 +96,8 @@
       }
     }
     .menu-article {
-      @include span-columns(8);
+      float: right;
+      @include span-columns(10);
       @include media($micro) {
         @include span-columns(6);
       }        
@@ -149,6 +148,7 @@
           padding-right: 20px;
         }
       }
+      &.floated{float: right;}
     }
   }
 }
