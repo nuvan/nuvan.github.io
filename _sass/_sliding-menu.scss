@@ -166,7 +166,7 @@
 @mixin menuline {
 	display: inline-block;
 	width: $button-size;
-	height: $button-size/7;
+	height: $button-size/6;
 	border-radius: $button-size/14; 
 	transition: $transition;
 	background-color: inherit;
@@ -186,7 +186,7 @@
 .menulines {
 	display: inline-block;
 	width: $button-size;
-	height: $button-size/7;
+	height: $button-size/6;
 	border-radius: $button-size/14; 
 	transition: $transition;
 	&.black {
@@ -202,25 +202,14 @@
 	  	position: absolute;
 		left:0;
 		content: '';
-		-webkit-transform-origin: $button-size/14 center;
-						transform-origin: $button-size/14 center;
+		//-webkit-transform-origin: $button-size/14 center;
+		//transform-origin: $button-size/14 center;
 	}
 	&:before { 
 		top: $button-size/4; 
 	}
 	&:after { 
 		top: -$button-size/4; 
-	}
-}
-// common to all three-liners
-.menulines-button:hover {
-	.menulines {
-		&:before { 
-			top: $button-size/3.5; 
-		}
-		&:after { 
-			top: -$button-size/3.5; 
-		}
 	}
 }
 // for both the arrow up and left icons
