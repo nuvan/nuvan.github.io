@@ -1,5 +1,4 @@
 	$(window).on('scroll', function() {
-    	console.log($(this).scrollTop());
     	if ($(this).scrollTop() > 400 && !$('.header').hasClass('fixed')) {
           $(".site-title").removeClass('white-logo');
           $(".site-title").addClass('black-logo');
@@ -10,8 +9,8 @@
           $(".header").removeClass('absolute');
           $(".header").addClass('fixed');
 
-          $(".menulines").removeClass('white');
-          $(".menulines").addClass('black');
+          $("button").removeClass('white');
+          $("button").addClass('black');
 
           $(".header").removeClass('transparent');
 
@@ -31,8 +30,8 @@
           $(".site-title").removeClass('black-logo');
           $(".site-title").addClass('white-logo');
 
-          $(".menulines").removeClass('black');
-          $(".menulines").addClass('white');
+          $("button").removeClass('black');
+          $("button").addClass('white');
 
           $(".header").removeClass('fixed');
           $(".header").addClass('absolute');

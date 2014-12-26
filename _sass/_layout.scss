@@ -144,6 +144,14 @@
           }
           button {
             padding-top: 10px;
+            font-size: xx-large;
+            height: 48px;
+            &.black {
+              color: black; 
+            }    
+            &.white {
+              color: white; 
+            }   
           }
           padding-right: 20px;
         }
