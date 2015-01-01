@@ -145,9 +145,14 @@
           }
           button {
             padding-top: 10px;
-            margin-bottom: 3px;
             font-size: xx-large;
-            height: 51px;
+            @include media($micro) {
+              height: 51px;
+            }
+            @include media($micro) {
+              height: 51px;
+            }
+            height: 48px;
             &.black {
               color: black; 
             }    
