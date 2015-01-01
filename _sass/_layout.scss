@@ -149,7 +149,7 @@
             @include media($micro) {
               height: 51px;
             }
-            @include media($micro) {
+            @include media($small) {
               height: 51px;
             }
             height: 48px;
