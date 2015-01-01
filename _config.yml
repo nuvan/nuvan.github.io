@@ -4,7 +4,7 @@ title: Direction With Intent
 description: Think Through. Execute.
 logo: DWI.svg # 120x120 px default image used for Twitter summary card
 teaser: DWI.svg # 400x250 px default teaser image used in image archive grid
-locale:
+locale: en_US
 
 paginate: 5
 paginate_path: "shares/page:num"
