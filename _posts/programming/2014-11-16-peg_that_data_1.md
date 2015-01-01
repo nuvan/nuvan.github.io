@@ -10,8 +10,6 @@ comments: true
 ads: true
 ---
 
-## Parsing Expression Grammars
-
 In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe languages, in the form of a set of rules that can be converted to string recognition mechanisms to parse the aforementioned languages.
 
 I could spend some paragraphs, poorly describing PEGs, but I'll leave this to a better-suited place for this subject: [Wikipedia - PEG](http://en.wikipedia.org/wiki/Parsing_expression_grammar). At the time of this article writing, Wikipedia holds a very well put description of PEGs and their nature.
