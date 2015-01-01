@@ -1,0 +1,33 @@
+---
+layout: defaultnolead
+---
+
+<div id="page-wrapper">
+<div id="main" role="main"> 
+  <article class="wrap" itemscope itemtype="http://schema.org/Article">
+    {% if page.categories %}{% include breadcrumbs.html %}{% endif %}
+    <div class="page-title">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div class="inner-wrap">
+      <nav class="toc"></nav><!-- /.toc -->
+      <div id="content" class="page-content" itemprop="articleBody">
+        <div class="share-container">
+            {{ content }}
+            <a href="{{ page.link }}" title="{{ page.title }}">{{ page.title }}</a>
+        </div>
+        <hr />
+        <footer class="page-footer">
+          {% if page.categories %}{% include share-author.html %}{% endif %}
+          {% if page.share != false %}{% include share-this.html %}{% endif %}
+          {% include page-meta.html %}
+        </footer><!-- /.footer -->
+        <aside>
+          {% if page.comments == true %}{% include comments.html %}{% endif %}
+        </aside>
+      </div><!-- /.content -->
+    </div><!-- /.inner-wrap -->
+    {% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+  </article><!-- ./wrap -->
+</div><!-- /#main -->
+</div>

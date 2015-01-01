@@ -6,10 +6,36 @@ article{
     border: 1px solid transparent;  
 }
 
-  .tile {
+@mixin post-title {
+      @include font-size(22,no, 26);
+      color: #333333;
+      font-family: $base-font;
+      text-transform: uppercase;
+      color: #333333;
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+      a {
+        text-decoration: none;
+      }
+}
+
+@mixin post-category {
+      text-transform: uppercase;
+      color: #919191;
+      @include font-size(11);
+}
+
+@mixin post-excerpt {
+      @include font-size(15);
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+      color: #333333;
+}
+
+.tile {
 
     margin-bottom: $gutter;
-    margin-left: 2px; //font fir char gets cut on animations. For instance "J"
+    margin-left: 2px; //font for char gets cut on animations. For instance "J"
 
     .line {
       margin-top: 3%;
@@ -18,13 +44,9 @@ article{
         border-bottom-width: 2px;
     }
     .post-title {
-      @include font-size(22,no, 26);
-      color: #333333
+      @include post-title;
     }
-    .post-excerpt {
-      @include font-size(15);
-      color: #333333
-    }
+
     .post-teaser {
       position: relative;
       display: block;
@@ -45,28 +67,13 @@ article{
     }
     
     .post-category {
-      text-transform: uppercase;
-      color: #919191;
-      @include font-size(11);
+      @include post-category;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
     }
-  
-    .post-title {
-      font-family: $base-font;
-      text-transform: uppercase;
-      color: #333333;
-      margin-top: 0.5em;
-      margin-bottom: 0em;
-      a {
-        text-decoration: none;
-      }
-    }
-  
+    
     .post-excerpt {
-      margin-top: 0.5em;
-      margin-bottom: 0em;
-      color: #333333;
+      @include post-excerpt;
     }
   
     .post-meta {
@@ -114,3 +121,67 @@ article{
       }
     }
   }
+
+.share-title {
+  margin-left: 16px;
+}
+
+.share {
+  @include outer-container;
+  margin-bottom: $gutter;
+  padding-bottom: 0.5em;
+  border: none; //removing border from article
+  .sh-elements {
+    @include span-columns(9);
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border: 1px solid transparent;  
+    &:hover {
+      border: 1px solid #919191;
+    }
+    .sh-left {
+      @include span-columns(4);
+    }
+    .sh-rigth {
+      @include span-columns(6);
+      &.wide{
+        @include span-columns(11);        
+      }
+      //@include omega();
+      .post-title {
+        @include post-title;
+        text-decoration: none;
+      }
+      .post-excerpt {
+        @include post-excerpt;
+        margin-bottom: 0.5em;
+        &.wide{
+          @include span-columns(11);        
+        }
+      }
+      .post-category {
+        @include post-category;
+        margin: 0;
+        padding: 0;
+        margin-top: -6px; //pushes text to div top hedge
+      }
+      .share-this {
+        .inline-btn{
+          a {
+            .base { 
+              opacity: 0.3;
+            }
+            &:hover .base { opacity: 1; }
+          }
+        }
+      }
+      .share-date {
+        @include font-size(11);
+        color: #808386;
+      }
+    }
+  }
+}
+
+

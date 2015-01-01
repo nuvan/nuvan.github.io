@@ -2,7 +2,6 @@
 layout: archive
 permalink: /
 ---
-
 <div id="main " role="main" class="fadin-anim">
   <div class="wrap">
       <div class="rows-wrap">
