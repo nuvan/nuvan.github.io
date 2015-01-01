@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 .sliding-menu-button-article {
-	top: $gutter * 1.3;
+	top: $gutter;
 	right: $gutter;
 	width: $button-size * 1.5;
 	height: $button-size * 1.5;
@@ -61,7 +61,7 @@
 	position: fixed;
 	top: 0;
 	right: 0;
-	padding: em(22) 0;
+	padding-top: 0.5em;
 	text-align: center;
 	visibility: hidden;
 	z-index: 200;

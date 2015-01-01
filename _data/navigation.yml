@@ -9,3 +9,8 @@
   url: /opinion
   excerpt: "Opinion articles on everything that matters"
   image: #MainArrow.svg
+
+- title: Shares
+  url: /shares
+  excerpt: "Keep informed with the latest curated articles from the web"
+  image: #MainArrow.svg
