@@ -125,14 +125,14 @@
           vertical-align:bottom;
           a {
             @include media($micro) {
-              display: none;
-              height: 0px;
-              width: 0px;
+              //display: none;
+              //height: 0px;
+              //width: 0px;
             }
             @include media($small) {
-              display: none;
-              height: 0px;
-              width: 0px;
+              //display: none;
+              //height: 0px;
+              //width: 0px;
             }
             &.black {
               color: black; 
@@ -144,7 +144,6 @@
           }
           button {
             padding-top: 10px;
-            padding-bottom: 3px;
             font-size: xx-large;
             height: 48px;
             &.black {
