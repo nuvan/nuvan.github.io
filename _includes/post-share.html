@@ -10,14 +10,29 @@
           <div class="post-category">
             {{ post.category }}
           </div>
-          <div class="post-title">
-            <a href="{{ site.url }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </div>
-          <div class="post-excerpt">
-            {{ post.excerpt | strip_html | truncate: 100 }}
-          </div>
+          {% if post.link %}
+            <div class="post-title">
+              <a href="{{ post.link }}">
+                {{ post.title }}
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="{{ post.link }}">
+                {{ post.excerpt | strip_html | truncate: 100 }}
+              </a>
+            </div>
+          {% else %}
+            <div class="post-title">
+              <a href="{{ site.url }}{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="{{ site.url }}{{ post.url }}">
+                {{ post.excerpt | strip_html | truncate: 100 }}
+              </a>
+            </div>
+          {% endif %}          
           <div class="share-this">
             {% include share-this.html %}
           </div>
@@ -27,14 +42,29 @@
           <div class="post-category">
             {{ post.category }}
           </div>
-          <div class="post-title">
-            <a href="{{ site.url }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </div>
-          <div class="post-excerpt wide">
-            {{ post.excerpt | strip_html | truncate: 260 }}
-          </div>
+          {% if post.link %}
+            <div class="post-title">
+              <a href="{{ post.link }}">
+                {{ post.title }}
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="{{ post.link }}">
+                {{ post.excerpt | strip_html | truncate: 260 }}
+              </a>
+            </div>
+          {% else %}
+            <div class="post-title">
+              <a href="{{ site.url }}{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="{{ site.url }}{{ post.url }}">
+                {{ post.excerpt | strip_html | truncate: 260 }}
+              </a>
+            </div>
+          {% endif %}          
           <div class="share-this">
             {% include share-this.html %}
           </div>

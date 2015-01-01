@@ -74,6 +74,9 @@ article{
     
     .post-excerpt {
       @include post-excerpt;
+      a {
+        text-decoration: none;
+      }
     }
   
     .post-meta {
@@ -159,7 +162,10 @@ article{
         &.wide{
           @include span-columns(11);        
         }
-      }
+        a {
+          text-decoration: none;
+        }
+    }
       .post-category {
         @include post-category;
         margin: 0;
