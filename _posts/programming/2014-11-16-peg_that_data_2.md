@@ -3,7 +3,6 @@ layout: article
 title: "PEG that data - Part 2"
 date: 2014-10-26
 category: programming
-category: programming
 image:
   teaser:  peg_314x250.jpg
   feature: peg_1600x800.jpg
