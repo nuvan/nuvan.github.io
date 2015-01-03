@@ -1,0 +1,11 @@
+<div class="post-meta">
+    <img class="entry-date-icon" src="{{ site.url }}/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" | upcase }}
+      </time>
+    {% if post.comments %}
+      <img class="comment-count-icon" src="{{ site.url }}/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="{{ site.url }}{{ post.url }}#disqus_thread"></a>
+    {% endif %}    
+    <img class="comment-like-icon" src="{{ site.url }}/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="{{ post.title | slugify }}-share">0</div>
+</div>
