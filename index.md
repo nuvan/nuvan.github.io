@@ -5,7 +5,7 @@ permalink: /
 <div id="main " role="main" class="fadin-anim">
   <div class="wrap">
       <div class="rows-wrap">
-        {% for post in site.posts %}
+        {% for post in site.posts limit 12%}
           {% cycle 'add rows': '<div class="grid-row">', nil, nil %}
             <div class="grid-cell-column">
               {% include post-grid.html %}
