@@ -74,6 +74,16 @@ article{
   }
 }
 
+@mixin inline-btn-small {
+  .inline-btn { 
+    a { div { span { display: none; } } }
+    i {
+      width: 10px;
+      &.fa-facebook { &:before { margin-left: 1px; } }
+    }
+  }
+}
+
 .tile {
 
     margin-bottom: $gutter;
@@ -212,11 +222,148 @@ article{
             }
           }
         }
+      }
+    }
+  }
+}
 
+@mixin adapt-tile {
+  .sh-elements {
+    font-family: "Open Sans";
+    width: 100%;
+    border: 1px solid transparent;
 
+    &:hover {
+      border: 1px solid #919191;
+    }
+
+    .sh-left {
+      //float: left;
+      width: 100%;
+      vertical-align:middle;      
+      a {
+        display:block;
+        text-align:center;
+        img {
+          vertical-align:middle;
+        }
+      }
+    }
+
+    .sh-rigth {
+      //clear: left; 
+      //float: left;
+      width: 100%;
+      .post-title {
+        @include post-title;
+      }
+
+      .post-category {
+        @include post-category;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+    
+      .post-excerpt {
+        @include post-excerpt;
+        a {
+          text-decoration: none;
+        }
+      }
+  
+      .post-meta {
+        overflow:auto;
+        position:relative;
+        @include post-meta;
+      }
+      .share-this {
+        padding-top: 0.5em;
+        @include inline-btn-small;
+        @include inline-btn-small;
       }
     }
   }
 }
 
 
+@mixin adapt-share {
+  @include outer-container;
+  margin-bottom: $gutter;
+  padding-bottom: 0.5em;
+  border: none; //removing border from article
+  .sh-elements {
+    @include span-columns(9);
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border: 1px solid transparent;
+    &:hover {
+      border: 1px solid #919191;
+    }
+    .sh-left {
+      @include span-columns(4);
+    }
+    .sh-rigth {
+      @include span-columns(6);
+      &.wide{
+        @include span-columns(11);        
+      }
+
+      .post-title {
+        @include post-title;
+        text-decoration: none;
+      }
+      .post-excerpt {
+        @include post-excerpt;
+        margin-bottom: 0.5em;
+        &.wide{
+          @include span-columns(11);        
+        }
+        a {
+          text-decoration: none;
+        }
+      }
+      .post-meta {
+        @include span-columns(11);
+        @include post-meta;        
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+      }
+      .post-category {
+        @include post-category;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        margin: 0;
+        padding: 0;
+        margin-top: -6px; //pushes text to div top hedge
+      }
+      .share-this {
+        @include span-columns(11);
+        .inline-btn {
+          a {
+            .base { 
+              opacity: 0.3;
+            }
+            &:hover .base { opacity: 1; }
+          }
+        }        
+        @include media($micro) {
+          @include inline-btn-small;
+        }
+        @include media($small) {
+          @include inline-btn-small;
+        }
+      }
+    }
+  }
+}
+
+.adapt-tile-to-share {
+  @include adapt-share;
+  @include media($micro) {
+    @include adapt-tile;
+  }  
+  @include media($small) {
+    @include adapt-tile;
+  }
+}

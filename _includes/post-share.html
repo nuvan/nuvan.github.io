@@ -1,8 +1,8 @@
-<article class="share">
+<article class="adapt-tile-to-share">
     <div class="sh-elements">
       {% if post.image.teaser %}
         <div class="sh-left">
-          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
               <img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="teaser">
           </a>
         </div>
@@ -18,7 +18,7 @@
             </div>
             <div class="post-excerpt">
               <a href="{{ post.link }}">
-                {{ post.excerpt | strip_html | truncate: 100 }}
+                {{ post.excerpt | strip_html | truncate: 120 }}
               </a>
             </div>
           {% else %}
@@ -29,7 +29,7 @@
             </div>
             <div class="post-excerpt">
               <a href="{{ site.url }}{{ post.url }}">
-                {{ post.excerpt | strip_html | truncate: 100 }}
+                {{ post.excerpt | strip_html | truncate: 120 }}
               </a>
             </div>
           {% endif %}          
