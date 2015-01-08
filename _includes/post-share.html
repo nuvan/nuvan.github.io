@@ -32,7 +32,10 @@
                 {{ post.excerpt | strip_html | truncate: 120 }}
               </a>
             </div>
-          {% endif %}          
+          {% endif %}
+
+          {% include post-meta.html %}
+
           <div class="share-this">
             {% include share-this.html %}
           </div>

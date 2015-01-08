@@ -79,14 +79,16 @@
 
     </header>
     {% include navigation-sliding.html %}
-    {% include browser-upgrade.html %}
 
     <div class="padder" style="height: 80px;">
     </div>
 
-    {{ content }}
 
-    {% include footer.html %}
+    <div id="page-wrapper">
+      {% include browser-upgrade.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
