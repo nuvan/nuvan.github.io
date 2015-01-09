@@ -3,7 +3,15 @@ article{
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0.5em;
-    border: 1px solid transparent;  
+    border: 1px solid transparent;
+    @include media($micro) {
+      border: none;
+      &:hover { border: none; }
+    }
+    @include media($small) {
+      border: none;
+      &:hover { border: none; }
+    }
 }
 
 @mixin post-title {
@@ -143,99 +151,13 @@ article{
   margin-left: 16px;
 }
 
-.share {
-  @include outer-container;
-  margin-bottom: $gutter;
-  padding-bottom: 0.5em;
-  border: none; //removing border from article
-  .sh-elements {
-    @include span-columns(9);
-    padding-left: 0.5em;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-    border: 1px solid transparent;  
-    &:hover {
-      border: 1px solid #919191;
-    }
-    .sh-left {
-      @include span-columns(4);
-    }
-    .sh-rigth {
-      @include span-columns(6);
-      &.wide{
-        @include span-columns(11);        
-      }
-
-      .post-title {
-        @include post-title;
-        text-decoration: none;
-      }
-      .post-excerpt {
-        @include post-excerpt;
-        margin-bottom: 0.5em;
-        &.wide{
-          @include span-columns(11);        
-        }
-        a {
-          text-decoration: none;
-        }
-      }
-      .post-meta {
-        @include span-columns(11);
-        @include post-meta;        
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-      }
-      .post-category {
-        @include post-category;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        margin: 0;
-        padding: 0;
-        margin-top: -6px; //pushes text to div top hedge
-      }
-      .share-this {
-        @include span-columns(11);
-        .inline-btn {
-          a {
-            .base { 
-              opacity: 0.3;
-            }
-            &:hover .base { opacity: 1; }
-          }
-        }        
-        @include media($micro) {
-          .inline-btn { 
-            a { div { span { display: none; } } }
-            i {
-              width: 10px;
-              &.fa-facebook { &:before { margin-left: 1px; } }
-            }
-          }
-        }
-        @include media($small) {
-          .inline-btn { 
-            a { div { span { display: none; } } }
-            i {
-              width: 10px;
-              &.fa-facebook { &:before { margin-left: 1px; } }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 @mixin adapt-tile {
+
   .sh-elements {
     font-family: "Open Sans";
     width: 100%;
-    border: 1px solid transparent;
-
-    &:hover {
-      border: 1px solid #919191;
-    }
+    border: none;
+    &:hover { border: none; }
 
     .sh-left {
       //float: left;
@@ -358,12 +280,22 @@ article{
   }
 }
 
-.adapt-tile-to-share {
-  @include adapt-share;
+article {
   @include media($micro) {
-    @include adapt-tile;
-  }  
+    border: none;
+    &:hover { border: none;}
+  }
   @include media($small) {
-    @include adapt-tile;
+    border: none;
+    &:hover { border: none;}
+  }
+  &.adapt-tile-to-share {
+    @include adapt-share;
+    @include media($micro) {
+      @include adapt-tile;
+    }  
+    @include media($small) {
+      @include adapt-tile;
+    }
   }
 }
