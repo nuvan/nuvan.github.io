@@ -17,6 +17,7 @@ paginate_path: "shares/page:num"
 url: http://directionwithintent.com
 base_url: directionwithintent.com
 
+#Build stuff
 sass:
     sass_dir: _sass
     style: compressed
@@ -25,7 +26,7 @@ markdown: kramdown
 highlighter: pygments
 gems:
   - jekyll-sitemap
-
+destination: ../directionwithintent/_site
 
 # Site owner
 owner:
