@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8">
+    <title>PEG that data - Part 2 • Direction With Intent</title>
+    <meta name="description" content="After Part 1 of PEG that data, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.
+
+">
+    <meta name="keywords" content="">
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="PEG that data - Part 2">
+	<meta name="twitter:description" content="After Part 1 of PEG that data, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.
+
+">
+	<meta name="twitter:site" content="@nuvan">
+	<meta name="twitter:creator" content="@nuvan">
+	
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content="http://localhost:4000/images/peg_1600x800.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="PEG that data - Part 2">
+	
+		<meta property="og:description" content="After Part 1 of PEG that data, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.
+
+">
+	
+	
+		<meta property="og:image" content="http://localhost:4000/images/peg_1600x800.jpg">
+	
+	
+	<meta property="og:image" content="http://localhost:4000/images/fbprofile.jpg">
+	<meta property="og:image" content="http://localhost:4000/images/bg01_1600x800_mini.jpg">
+	<meta property="og:image" content="http://localhost:4000/images/blog_awatar.jpg">
+	<meta property="og:url" content="http://localhost:4000/programming/peg_that_data_2/">
+	<meta property="og:site_name" content="Direction With Intent">
+
+    
+
+    <link rel="canonical" href="http://localhost:4000/programming/peg_that_data_2/">
+
+    <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
+    <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+    <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="google" content="notranslate" />
+
+    <style>
+    .sliding-menu-content {
+      top: 0;
+      right: 0;
+      text-align: center;
+      visibility: hidden;
+      height: 100%;
+      width: 100%;
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      -o-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    </style>
+
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="http://localhost:4000/js/vendor/html5shiv.min.js"></script>
+      <script src="http://localhost:4000/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <script>
+
+    /*FB SDK initializtion*/
+     window.fbAsyncInit = function() {
+       FB.init({
+         appId      : fb_app_id,
+         xfbml      : true,
+         version    : 'v2.2'
+       });
+     };
+     (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+    
+    /*REST share count for each site on the front*/
+    
+  var fb_app_id  = 761374523954113;
+  var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
+  $(document).ready(function(){ 
+    
+    $.ajax({
+      url: query_url + '/shares/193131/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#implement-a-real-time-sliding-window-application-using-amazon-kinesis-and-apache-storm-share").html(data.count);
+      }
+      else {
+        $("#implement-a-real-time-sliding-window-application-using-amazon-kinesis-and-apache-storm-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/192834-share/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#zero-to-353-pages-bringing-my-web-book-to-print-and-ebook-share").html(data.count);
+      }
+      else {
+        $("#zero-to-353-pages-bringing-my-web-book-to-print-and-ebook-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/163232-share/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#binaural-sound-with-the-web-audio-api-share").html(data.count);
+      }
+      else {
+        $("#binaural-sound-with-the-web-audio-api-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/peg_that_data_1/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#peg-that-data-part-1-share").html(data.count);
+      }
+      else {
+        $("#peg-that-data-part-1-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/no-image-one/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#no-image-one-share").html(data.count);
+      }
+      else {
+        $("#no-image-one-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/peg_that_data_3/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#peg-that-data-part-2-share").html(data.count);
+      }
+      else {
+        $("#peg-that-data-part-2-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/peg_that_data_2/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#peg-that-data-part-2-share").html(data.count);
+      }
+      else {
+        $("#peg-that-data-part-2-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/opinion/ground_and_cloud/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#an-island-and-a-cloud-share").html(data.count);
+      }
+      else {
+        $("#an-island-and-a-cloud-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/jruby-jvm-encoding-flags/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#jruby-jvm-encoding-flags-share").html(data.count);
+      }
+      else {
+        $("#jruby-jvm-encoding-flags-share").html("0");
+      }
+    });
+   
+  });
+</script>
+
+    <header class="header fixed bottom-bordered">
+        <div id="masthead-article">
+          <div class="inner-wrap">
+            <a href="http://localhost:4000" class="site-title black-logo"></a>
+            <nav role="navigation-article" class="menu-article floated">
+              <ul>
+                
+                  
+                    
+                  
+                  <li>
+                    <a href="http://localhost:4000/programming" >Programming</a>
+                  </li>
+                
+                  
+                    
+                  
+                  <li>
+                    <a href="http://localhost:4000/opinion" >Opinion</a>
+                  </li>
+                
+                  
+                    
+                  
+                  <li>
+                    <a href="http://localhost:4000/shares" >Shares</a>
+                  </li>
+                
+                <li>
+                  <button type="button" class="js-menu-trigger sliding-menu-button-article black">
+                    ☰
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+    </header>
+    <nav id="slided" role="navigation" class="js-menu sliding-menu-content">
+    <button type="button" class="js-menu-trigger sliding-menu-button menulines-button x2" role="button" aria-label="Toggle Navigation">
+	  <span class="menulines white-cross"></span>
+    </button>
+	<ul class="menu-item">
+		
+		  <li>
+            
+              
+            
+	        
+		    <a href="http://localhost:4000/programming" class="title">Programming</a>
+		    
+		      <p class="excerpt">
+		      	Programming articles, tutorials, quick tips
+		      </p>
+		    
+		  </li>
+		
+		  <li>
+            
+              
+            
+	        
+		    <a href="http://localhost:4000/opinion" class="title">Opinion</a>
+		    
+		      <p class="excerpt">
+		      	Opinion articles on everything that matters
+		      </p>
+		    
+		  </li>
+		
+		  <li>
+            
+              
+            
+	        
+		    <a href="http://localhost:4000/shares" class="title">Shares</a>
+		    
+		      <p class="excerpt">
+		      	Keep informed with the latest curated articles from the web
+		      </p>
+		    
+		  </li>
+		
+	</ul>
+</nav>
+
+<div class="js-menu-screen menu-screen"></div>
+
+    <div class="padder" style="height: 80px;">
+    </div>
+
+
+    <div id="page-wrapper">
+      <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+      
+  <div class="page-lead" style="background-image:url(//localhost:4000/images/peg_1600x800.jpg)">
+  </div>
+
+
+<div id="page-wrapper">
+<div id="main" role="main">	
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		<nav class="breadcrumbs">
+  <a href="http://localhost:4000">Home</a> <span class="divider">/</span> <a href="http://localhost:4000/programming/">Programming</a> <span class="divider">/</span>
+</nav><!-- /.breadcrumbs -->
+		<div class="page-title">
+			<h1>PEG that data - Part 2</h1>
+		</div>
+		<div class="inner-wrap">
+			<nav class="toc"></nav><!-- /.toc -->
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>After <a href="http://directionwithintent.com/programming/peg_that_data_1/">Part 1 of PEG that data</a>, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.</p>
+
+<p>To be honest, I’m not keen with this type of examples, but their value is undeniable to break entry barriers for matters that are a bit more exotic, in comparison with the typical programming tutorial. I usually rather prefer tutorials that are more close to real world problems. They spark creativity to build more interesting tools and to apply our newly gained knowledge to our day to day work.</p>
+
+<p>In order to build something more tangible let’s draw a more complex exercise to build a PEG that can be useful.</p>
+
+<h2 id="real-estate-search">Real Estate ‘Search’</h2>
+
+<p>Let’s consider a real estate website. Frequently, we are greeted with a multiple selection boxes and several range filters before our leading property results came in. This kind of interface is cumbersome and a nightmare of every UI/UX Engineer or web designer. If your mobile, then this multiple options menus are out of the question. This can be even harder if you are a real estate professional and need to do search queries every time a customer comes in your door with their dream house requirements.</p>
+
+<p>A simple PEG could simplify the search process making use of a single search box with auto-complete options. One might think that no one would learn a new language just to search a web site but even without considering the money involved in a real estate transaction, the time investment in search the right houses to put on a “to visit list” plus the visit time, should be sufficient deterrents to make a poorly informed search.</p>
+
+<p>Before spiking some code, take a bearing for our exercise. Our focus will be placed on building a very simple web application that takes input from a search box and delivers a result set of real estate properties that match our criteria. Instead of presenting this data in a simple list, we will take advantage of a map representation, to better pinpoint our home for the next seasons.</p>
+
+<h3 id="input">Input</h3>
+
+<p>The fundamental question that has to be done is “How would I ask for it?”. Instead of just thinking about the data, first and foremost one should start with the questions that the system should answer. A real estate investor would probably think to himself. “I want a property, near shore, with 2000 square meters at least, with an Olympic size pool, with a garage and with a luscious garden.”
+or maybe a new town arrival would say “I want to rent a house with 2 divisions and a bathroom for at most 500 a month.”. There are some patterns in these sentences that can be carried into our grammar even though we are not going accept free input. To give the impression that we are processing free input, we are going to supply an unsuspecting user with robust auto-complete options and steer him to an expression that makes sense in plain English and that can be parsed by our grammar. In part 3 of this tutorial, we will dedicate our full attention to this issue and build upon those sentence types. Also, we are going to play with some quantifiers such as “near” and well-known size types such as “Olympic”.</p>
+
+<h3 id="data">Data</h3>
+
+<p>As exemplified in the above sentence examples, there is an immense variety of features that one can think while searching for a property. For our exercise, we are going to consider the possibility of a small subset of options that can make our application rich enough in variety.
+Each real estate property will be represented with a <a href="http://http://geojson.org/">GeoJSON</a> Object. I’ll recommend a brief overview of the <a href="http://geojson.org/geojson-spec.html">GeoJSON spec</a> but for now we are going to use a very simple property specification with the following fields:</p>
+
+<ul>
+  <li>Position, to hold the property location coordinates;</li>
+  <li>Type. We will accept “House”, “Apartment” or “Hotel”;</li>
+  <li>Area, in square meters;</li>
+  <li>Bedrooms, total count;</li>
+  <li>Bathrooms, total count;</li>
+  <li>Living rooms, total count;</li>
+  <li>Garage, area if there is one;</li>
+  <li>Garden, area if there is one;</li>
+  <li>Pool, area if there is one;</li>
+  <li>Rent, monthly rent price if available for rent;</li>
+  <li>Buy, price if it’s up for sale;</li>
+</ul>
+
+<p>A GeoJSON sample for our description can be found below:</p>
+
+<pre><code>{
+    "type": "Feature",
+    "properties": {
+        "Type" : "Hotel",
+        "Area" : 616.98,
+        "Bedrooms" : 10,
+        "Bathrooms" : 4,
+        "Living rooms" : 4,
+        "Garage" : 50,
+        "Garden" : 1800.12,
+        "Pool" : 5,
+        "Buy" : 1000000
+    },
+    "geometry":{
+        "type": "Point",
+        "coordinates": [ 38.7041103,-9.3993705 ]
+    }
+}
+</code></pre>
+
+<p>Tracing our bullet point list to this sample is fairly trivial. We’ve just followed the GeoJSON spec for a custom data element where ‘properties’ holds our home location characteristics and ‘geometry’ holds a GeoJSON element, that represents a point location, defined by a single latitude/longitude coordinate.</p>
+
+<p>In Part 3, we commence building our application starting with a first grammar description for our assisted search input.</p>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+
+<div class="author-image">
+	<img src="http://localhost:4000/images/blog_awatar.jpg" alt="Nuno Valente">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <span itemprop="author">Nuno Valente</span></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+					
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=PEG%20that%20data%20-%20Part%202&amp;url=http://localhost:4000/programming/peg_that_data_2/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/programming/peg_that_data_2/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2014-10-26T00:00:00Z" itemprop="datePublished">October 26, 2014</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					<hr />
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_shortname = 'directionwithintent';
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		<div class="ads"><style>
+.responsive-ads { width: 300px; height: 200px; }
+@media(min-width: 520px) { .responsive-ads { width: 468px; height: 60px; } }
+@media(min-width: 768px) { .responsive-ads { width: 160px; height: 600px; } }
+</style>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle responsive-ads"
+	style="display:inline-block"
+	data-ad-client="ca-pub-5324161887121686"
+	data-ad-slot="3257173456"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><!-- /.ads -->
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+</div>
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+        
+      
+			<li><a href="http://localhost:4000" ></a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2015 <a href="http://localhost:4000">Direction With Intent - Think Through. Execute.</a>.</p>
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-56325808-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+</footer>
+
+    </div>
+
+    <script src="http://localhost:4000/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://localhost:4000/js/main.js"></script>
+    
+    
+
+  </body>
+
+</html>

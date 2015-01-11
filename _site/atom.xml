@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    
+
+    <title>Direction With Intent</title>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
+		<icon>http://localhost:4000/apple-touch-icon-precomposed.png</icon>
+    <subtitle>Think Through. Execute.</subtitle>
+    <link href="http://localhost:4000/atom.xml" rel="self"/>
+    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
+    <updated>2015-01-11T15:22:52+00:00</updated>
+    <id>http://localhost:4000/</id>
+    <author>
+			<name>Nuno Valente</name>
+			<uri>http://localhost:4000/</uri>
+			<email>nuno.valente@gmail.com</email>
+		</author>
+
+    
+    <entry>
+        <title>Implement a Real-time, Sliding-Window Application Using Amazon Kinesis and Apache Storm</title>
+        <link href="http://localhost:4000/shares/193131/"/>
+        <updated>2014-12-28T16:30:00+00:00</updated>
+        <id>http://localhost:4000/shares/193131</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Streams of data are becoming ubiquitous today – clickstreams, log streams, event streams, and more. The need for real-time processing of high-volume data streams is pushing the limits of traditional data processing infrastructures. Building a clickstream monitoring system, for example, where data is in the form of a continuous clickstream rather than discrete data sets, requires the use of continuous processing rather than ad-hoc, one-time queries.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Zero to 353 Pages: Bringing My Web Book to Print and eBook</title>
+        <link href="http://localhost:4000/shares/192834-share/"/>
+        <updated>2014-12-28T15:30:00+00:00</updated>
+        <id>http://localhost:4000/shares/192834-share</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;It’s a funny feeling to spend nearly six years making something and then finally hold it in your hand. It’s simultaneously, “This is it!” and “Is this it?” How can it be so small when it feels like such a big piece of my life?
+Most of that time, the book existed entirely on the web. It was less “book” and more “book-length manuscript that you can read with your browser”. The web site is still the book’s real home in some ways. If you want to know more about game programming and software architecture, take a look. You can read the whole thing online, for free, because I love you.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Binaural Sound with the Web Audio API</title>
+        <link href="http://localhost:4000/shares/163232-share/"/>
+        <updated>2014-12-28T13:30:00+00:00</updated>
+        <id>http://localhost:4000/shares/163232-share</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Head-related transfer functions describe the cues we receive that enable us to determine the direction a sound arrives from. We only have two ears. To be able to determine the direction the sound arrives from in 3D, our brain has to use all the information it can.&lt;/p&gt;
+
+&lt;p&gt;For example, the sound will often arrive at the other ear with a small delay. Also, there will often be a difference in the sound level at one ear, as compared to the other (especially at high frequencies). But, additionally, there is a ton of information available for our brain to use. Our shoulders reflect sound. Sound reflects and diffracts around our external ears (pinna). As our features, such as the shape of our pinna, are individual, so is the way our brain perceives sound in 3D.&lt;/p&gt;
+
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>PEG that data - Part 1</title>
+        <link href="http://localhost:4000/programming/peg_that_data_1/"/>
+        <updated>2014-11-16T00:00:00+00:00</updated>
+        <id>http://localhost:4000/programming/peg_that_data_1</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;http://localhost:4000/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe languages, in the form of a set of rules that can be converted to string recognition mechanisms to parse the aforementioned languages.&lt;/p&gt;
+
+&lt;p&gt;I could spend some paragraphs, poorly describing PEGs, but I’ll leave this to a better-suited place for this subject: &lt;a href=&quot;http://en.wikipedia.org/wiki/Parsing_expression_grammar&quot;&gt;Wikipedia - PEG&lt;/a&gt;. At the time of this article writing, Wikipedia holds a very well put description of PEGs and their nature.&lt;/p&gt;
+
+&lt;p&gt;If after reading that link you still feel a bit confuse with this matter maybe you should need to deepen your knowledge about programming languages but fear not. Don’t invest in a Computer Science course right now and bear with me for a while. I’ll want to begin by building the equivalent of the usual Hello World program as a PEG. Actually we can start by building a PEG that recognizes a “Hello World” string.&lt;/p&gt;
+
+&lt;p&gt;Complying with the rules that we’ve learned in the previously supplied link, let’s build our PEG.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello World&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What a pointless exercise indeed. The start expression only waits for input that matches exactly “Hello World” and that’s it.
+At this point, you maybe thinking that I’m in an exercise of spending time of my innocent readers but don’t get fooled by the simplicity of our first PEG.&lt;/p&gt;
+
+&lt;p&gt;Let’s build up on this PEG and accept more subjects for our greeting.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject
+Space    := &quot; &quot;   
+Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;While keeping this exercise very easy, we’ve introduced a rule that after a standard “Hello” greeting expects a white space and after that a Subject. This Subject can be one of the choices at right member of the Subject rule.&lt;/p&gt;
+
+&lt;p&gt;Our augmented PEG can recognize strings such as “Hello World”, “Hello Solar System”, “Hello Galaxy” or “Hello Universe”. Far beyond from those boring Hello World programs don’t you think?&lt;/p&gt;
+
+&lt;p&gt;Nevertheless if one wants to greet all the Subjects one needs four strings. What a waste of time and quotes. Let’s improve our PEG so that it can accept all of the Hello greetings in a single string.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
+Space    := &quot; &quot;
+Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A bit more complicated to read, but still we can follow easily the rules to build our greeting string.&lt;/p&gt;
+
+&lt;p&gt;The build path is the same one than our previous PEG. Our starting expression waits for a “Hello” string followed by a Space and after that for a Subject. Add a “.” at the end of a string and our PEG would happily accept our saluting.
+The difference now is that we’ve defined a group that may or may not exist afterward (No Schroedinger no…cho choooo. Out of here.).&lt;/p&gt;
+
+&lt;p&gt;This group &lt;code&gt;(Space ExpStart)?&lt;/code&gt; means that one can add another Space and follow that by our ExpStart in a recursive fashion. Now we can accept well-articulated greetings such as: “Hello World. Hello Solar System”, “Hello World. Hello Solar System. Hello Galaxy.” or even “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.”. If one wants we can repeat this string as long our keyboard complies and our PEG will accept this expression until your RAM cannot swap more space to disk.&lt;/p&gt;
+
+&lt;p&gt;Of course, it would be interesting to see our expressions being actually validated somewhere instead of relying only in a theoretical example. At the time of writing this article the &lt;a href=&quot;http://pegjs.majda.cz&quot;&gt;PEG.js&lt;/a&gt; project page had a great online version of a &lt;a href=&quot;http://pegjs.majda.cz/online&quot;&gt;PEG parser&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The PEG library provided by this project page will be used in our following articles so we might as well test it right away with our Hello World samples.&lt;/p&gt;
+
+&lt;p&gt;Just copy our last grammar expressions, converted below to the requested syntax, to the box “1 - Write your PEG.js grammar”.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart = &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
+Space    = &quot; &quot;
+Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If all goes well you will receive a green “Parser built successfully” message below the grammar input box.&lt;/p&gt;
+
+&lt;p&gt;To test our grammar just copy one of our accepted test strings in to the box “2 - Test generated parser with some input”. Let’s jump to the biggest one, “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.” and once again we hope to be presented with a green “Input parsed successfully.” box above. As a bonus, we can inspect the resulting syntax tree in a JSON array format provided in “Output”.&lt;/p&gt;
+
+&lt;p&gt;Let’s end our first PEG exercise. I’ll recommend a thorough reading of the PEG.js library syntax and options for our next article where we will dive deep into a interesting problem while building more than a syntax validator.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>No Image One</title>
+        <link href="http://localhost:4000/programming/no-image-one/"/>
+        <updated>2014-11-16T00:00:00+00:00</updated>
+        <id>http://localhost:4000/programming/no-image-one</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe languages, in the form of a set of rules that can be converted to string recognition mechanisms to parse the aforementioned languages.&lt;/p&gt;
+
+&lt;p&gt;I could spend some paragraphs, poorly describing PEGs, but I’ll leave this to a better-suited place for this subject: &lt;a href=&quot;http://en.wikipedia.org/wiki/Parsing_expression_grammar&quot;&gt;Wikipedia - PEG&lt;/a&gt;. At the time of this article writing, Wikipedia holds a very well put description of PEGs and their nature.&lt;/p&gt;
+
+&lt;p&gt;If after reading that link you still feel a bit confuse with this matter maybe you should need to deepen your knowledge about programming languages but fear not. Don’t invest in a Computer Science course right now and bear with me for a while. I’ll want to begin by building the equivalent of the usual Hello World program as a PEG. Actually we can start by building a PEG that recognizes a “Hello World” string.&lt;/p&gt;
+
+&lt;p&gt;Complying with the rules that we’ve learned in the previously supplied link, let’s build our PEG.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello World&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What a pointless exercise indeed. The start expression only waits for input that matches exactly “Hello World” and that’s it.
+At this point, you maybe thinking that I’m in an exercise of spending time of my innocent readers but don’t get fooled by the simplicity of our first PEG.&lt;/p&gt;
+
+&lt;p&gt;Let’s build up on this PEG and accept more subjects for our greeting.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject
+Space    := &quot; &quot;   
+Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;While keeping this exercise very easy, we’ve introduced a rule that after a standard “Hello” greeting expects a white space and after that a Subject. This Subject can be one of the choices at right member of the Subject rule.&lt;/p&gt;
+
+&lt;p&gt;Our augmented PEG can recognize strings such as “Hello World”, “Hello Solar System”, “Hello Galaxy” or “Hello Universe”. Far beyond from those boring Hello World programs don’t you think?&lt;/p&gt;
+
+&lt;p&gt;Nevertheless if one wants to greet all the Subjects one needs four strings. What a waste of time and quotes. Let’s improve our PEG so that it can accept all of the Hello greetings in a single string.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
+Space    := &quot; &quot;
+Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A bit more complicated to read, but still we can follow easily the rules to build our greeting string.&lt;/p&gt;
+
+&lt;p&gt;The build path is the same one than our previous PEG. Our starting expression waits for a “Hello” string followed by a Space and after that for a Subject. Add a “.” at the end of a string and our PEG would happily accept our saluting.
+The difference now is that we’ve defined a group that may or may not exist afterward (No Schroedinger no…cho choooo. Out of here.).&lt;/p&gt;
+
+&lt;p&gt;This group &lt;code&gt;(Space ExpStart)?&lt;/code&gt; means that one can add another Space and follow that by our ExpStart in a recursive fashion. Now we can accept well-articulated greetings such as: “Hello World. Hello Solar System”, “Hello World. Hello Solar System. Hello Galaxy.” or even “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.”. If one wants we can repeat this string as long our keyboard complies and our PEG will accept this expression until your RAM cannot swap more space to disk.&lt;/p&gt;
+
+&lt;p&gt;Of course, it would be interesting to see our expressions being actually validated somewhere instead of relying only in a theoretical example. At the time of writing this article the &lt;a href=&quot;http://pegjs.majda.cz&quot;&gt;PEG.js&lt;/a&gt; project page had a great online version of a &lt;a href=&quot;http://pegjs.majda.cz/online&quot;&gt;PEG parser&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The PEG library provided by this project page will be used in our following articles so we might as well test it right away with our Hello World samples.&lt;/p&gt;
+
+&lt;p&gt;Just copy our last grammar expressions, converted below to the requested syntax, to the box “1 - Write your PEG.js grammar”.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart = &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
+Space    = &quot; &quot;
+Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If all goes well you will receive a green “Parser built successfully” message below the grammar input box.&lt;/p&gt;
+
+&lt;p&gt;To test our grammar just copy one of our accepted test strings in to the box “2 - Test generated parser with some input”. Let’s jump to the biggest one, “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.” and once again we hope to be presented with a green “Input parsed successfully.” box above. As a bonus, we can inspect the resulting syntax tree in a JSON array format provided in “Output”.&lt;/p&gt;
+
+&lt;p&gt;Let’s end our first PEG exercise. I’ll recommend a thorough reading of the PEG.js library syntax and options for our next article where we will dive deep into a interesting problem while building more than a syntax validator.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>PEG that data - Part 2</title>
+        <link href="http://localhost:4000/programming/peg_that_data_3/"/>
+        <updated>2014-10-26T00:00:00+01:00</updated>
+        <id>http://localhost:4000/programming/peg_that_data_3</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;http://localhost:4000/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Let’s start by filtering our property array with a basic set of predicates. As mentioned before we are going to use PEG.js for this exercise so let’s start building our PEG representation using the PEG.js DSL.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;START = &quot;Houses that have &quot; | FILTER 
+&lt;/code&gt;&lt;/pre&gt;
+
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>PEG that data - Part 2</title>
+        <link href="http://localhost:4000/programming/peg_that_data_2/"/>
+        <updated>2014-10-26T00:00:00+01:00</updated>
+        <id>http://localhost:4000/programming/peg_that_data_2</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;http://localhost:4000/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;After &lt;a href=&quot;http://directionwithintent.com/programming/peg_that_data_1/&quot;&gt;Part 1 of PEG that data&lt;/a&gt;, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I’m not keen with this type of examples, but their value is undeniable to break entry barriers for matters that are a bit more exotic, in comparison with the typical programming tutorial. I usually rather prefer tutorials that are more close to real world problems. They spark creativity to build more interesting tools and to apply our newly gained knowledge to our day to day work.&lt;/p&gt;
+
+&lt;p&gt;In order to build something more tangible let’s draw a more complex exercise to build a PEG that can be useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;real-estate-search&quot;&gt;Real Estate ‘Search’&lt;/h2&gt;
+
+&lt;p&gt;Let’s consider a real estate website. Frequently, we are greeted with a multiple selection boxes and several range filters before our leading property results came in. This kind of interface is cumbersome and a nightmare of every UI/UX Engineer or web designer. If your mobile, then this multiple options menus are out of the question. This can be even harder if you are a real estate professional and need to do search queries every time a customer comes in your door with their dream house requirements.&lt;/p&gt;
+
+&lt;p&gt;A simple PEG could simplify the search process making use of a single search box with auto-complete options. One might think that no one would learn a new language just to search a web site but even without considering the money involved in a real estate transaction, the time investment in search the right houses to put on a “to visit list” plus the visit time, should be sufficient deterrents to make a poorly informed search.&lt;/p&gt;
+
+&lt;p&gt;Before spiking some code, take a bearing for our exercise. Our focus will be placed on building a very simple web application that takes input from a search box and delivers a result set of real estate properties that match our criteria. Instead of presenting this data in a simple list, we will take advantage of a map representation, to better pinpoint our home for the next seasons.&lt;/p&gt;
+
+&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
+
+&lt;p&gt;The fundamental question that has to be done is “How would I ask for it?”. Instead of just thinking about the data, first and foremost one should start with the questions that the system should answer. A real estate investor would probably think to himself. “I want a property, near shore, with 2000 square meters at least, with an Olympic size pool, with a garage and with a luscious garden.”
+or maybe a new town arrival would say “I want to rent a house with 2 divisions and a bathroom for at most 500 a month.”. There are some patterns in these sentences that can be carried into our grammar even though we are not going accept free input. To give the impression that we are processing free input, we are going to supply an unsuspecting user with robust auto-complete options and steer him to an expression that makes sense in plain English and that can be parsed by our grammar. In part 3 of this tutorial, we will dedicate our full attention to this issue and build upon those sentence types. Also, we are going to play with some quantifiers such as “near” and well-known size types such as “Olympic”.&lt;/p&gt;
+
+&lt;h3 id=&quot;data&quot;&gt;Data&lt;/h3&gt;
+
+&lt;p&gt;As exemplified in the above sentence examples, there is an immense variety of features that one can think while searching for a property. For our exercise, we are going to consider the possibility of a small subset of options that can make our application rich enough in variety.
+Each real estate property will be represented with a &lt;a href=&quot;http://http://geojson.org/&quot;&gt;GeoJSON&lt;/a&gt; Object. I’ll recommend a brief overview of the &lt;a href=&quot;http://geojson.org/geojson-spec.html&quot;&gt;GeoJSON spec&lt;/a&gt; but for now we are going to use a very simple property specification with the following fields:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Position, to hold the property location coordinates;&lt;/li&gt;
+  &lt;li&gt;Type. We will accept “House”, “Apartment” or “Hotel”;&lt;/li&gt;
+  &lt;li&gt;Area, in square meters;&lt;/li&gt;
+  &lt;li&gt;Bedrooms, total count;&lt;/li&gt;
+  &lt;li&gt;Bathrooms, total count;&lt;/li&gt;
+  &lt;li&gt;Living rooms, total count;&lt;/li&gt;
+  &lt;li&gt;Garage, area if there is one;&lt;/li&gt;
+  &lt;li&gt;Garden, area if there is one;&lt;/li&gt;
+  &lt;li&gt;Pool, area if there is one;&lt;/li&gt;
+  &lt;li&gt;Rent, monthly rent price if available for rent;&lt;/li&gt;
+  &lt;li&gt;Buy, price if it’s up for sale;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A GeoJSON sample for our description can be found below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &quot;type&quot;: &quot;Feature&quot;,
+    &quot;properties&quot;: {
+        &quot;Type&quot; : &quot;Hotel&quot;,
+        &quot;Area&quot; : 616.98,
+        &quot;Bedrooms&quot; : 10,
+        &quot;Bathrooms&quot; : 4,
+        &quot;Living rooms&quot; : 4,
+        &quot;Garage&quot; : 50,
+        &quot;Garden&quot; : 1800.12,
+        &quot;Pool&quot; : 5,
+        &quot;Buy&quot; : 1000000
+    },
+    &quot;geometry&quot;:{
+        &quot;type&quot;: &quot;Point&quot;,
+        &quot;coordinates&quot;: [ 38.7041103,-9.3993705 ]
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tracing our bullet point list to this sample is fairly trivial. We’ve just followed the GeoJSON spec for a custom data element where ‘properties’ holds our home location characteristics and ‘geometry’ holds a GeoJSON element, that represents a point location, defined by a single latitude/longitude coordinate.&lt;/p&gt;
+
+&lt;p&gt;In Part 3, we commence building our application starting with a first grammar description for our assisted search input.&lt;/p&gt;
+
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>An Island and a Cloud.</title>
+        <link href="http://localhost:4000/opinion/ground_and_cloud/"/>
+        <updated>2014-10-26T00:00:00+01:00</updated>
+        <id>http://localhost:4000/opinion/ground_and_cloud</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;http://localhost:4000/images/island_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;h2 id=&quot;apple-prison-more-like-apple-island&quot;&gt;Apple Prison? More like Apple Island.&lt;/h2&gt;
+
+&lt;p&gt;Four years ago, give or take a few months, I’ve changed my work and home machines to Apple systems, abandoning the mixed Windows/Linux environments that accompanied me since high school.&lt;/p&gt;
+
+&lt;p&gt;It was a quick change fueled by a couple of teammates and the fact that I’ve bought an iPhone a few months earlier. All my Windows machines were dead or in need of repair, and I was just sick of the finicky Vista that was installed by default in my current machine at that time. Those were dark times for Microsoft OSs.&lt;/p&gt;
+
+&lt;p&gt;The change was made and some months later I was completely sold to Apple Software and Hardware.&lt;/p&gt;
+
+&lt;p&gt;One of my favorite things about Apple is the seamless integration of all their products. Connecting my iPhone to my MacBook Pro and easily sync my data between devices, even though iTunes isn’t the best interface to accomplish my syncing needs. Also, the iCloud option for backing up my “mobile data” is also noteworthy although one needs to keep the data hygiene for the free tier.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I’m a victim of the &lt;a href=&quot;http://support.apple.com/en-en/TS4088&quot;&gt;mid-2010 MacBook Pro&lt;/a&gt; but even so, the combination of Apple software and hardware bring a level of reliability, far above average. Recently, I even boasted of my 127-day uptime to my teammates that usually restart their machines now and then. I know that any *nix user out there will claim even longer uptimes, but with a maintenance cost that I don’t want to pay every day. &lt;/p&gt;
+
+&lt;p&gt;Currently, I own a late-2013 MacBook Pro with retina display, 512 GB SSD drive plus a DDR3 memory total of 16 GB. Obviously, this isn’t a machine that the common user will take advantage of but for an I.T. professional like me, this is surely one of the best machines that my money could buy. Add the current Apple option of upgrading OSX free from charge and you have a system that can last for four or more years without the need of a drastic and expensive upgrade. As my fellow Software Engineers out there, I love to tinker with my hardware and software occasionally but that’s it. My machine is to work on, and not to bring me extra work just to keep it updated and running smoothly. I have joy and fun hacking away…But I would rather not do it every day.&lt;/p&gt;
+
+&lt;p&gt;If I need any piece of software for my tool belt, I just hit a few search queries and the App Store provides. Regardless of the fact that I don’t actually know the people and processes that Apple uses to accept a new App in their store I always have a sense of security of the available products. Having at least a primary barrier against mediocre software prevents the application spam that other vendors suffer from their so-called openness.&lt;/p&gt;
+
+&lt;p&gt;And because of the above reasons and so many more, many people would say that Apple software is evil for creating a prison that they cannot leave or decorate on their terms. In my opinion, this is not really a prison, but an exotic island where I can live happily without the diseases spreading on the continent. As a bonus, I can live knowing that the environment is cared, groomed and curated.&lt;/p&gt;
+
+&lt;h1 id=&quot;above-and-beyond&quot;&gt;Above and beyond&lt;/h1&gt;
+
+&lt;p&gt;“No man is an island” is a well-known quote and truth. We need to communicate and interact with others to grow, evolve, and produce something that everybody can be proud of. In order for this to happen, we need to leave our beautiful Island and interact with the harsh environment out there. In this area, I need to champion Google. &lt;/p&gt;
+
+&lt;p&gt;The Drive/Docs combination is amazing, for me, my team and several stakeholders of the projects where I’m currently committed to. The aforementioned pair brings a powerful tool to keep our product backlog stories, specs and assorted meeting minutes. Minutes that are edited concurrently between me (under the hat of team lead), a designer team account and a product owner. All this while ideas float around the meeting table. &lt;/p&gt;
+
+&lt;p&gt;Drive accommodates much storage giving us the sense that it is an infinite local share. I just hope that Google invests in improving Docs and Drive interfaces up to the level of most of Apple software. Now and then I need to restructure my Docs and Drive area, but the current interface surely needs refinements and a good UI/UX boost.&lt;/p&gt;
+
+&lt;p&gt;Gmail is widespread and Inbox is a step forward in solving the current e-mail hell. My personal mail account is Gmail, and the company where I’m currently working, has Gmail from their beginnings. I can’t remember a day that Google cloud services failed and caused embarrassment on my company services and processes. Add Google Chat on the mail interface and instantly kill many unnecessary e-mail exchanges.&lt;/p&gt;
+
+&lt;p&gt;So “Google” reads all my emails? No problem my friend. If I need to pay those services only by receiving targeted publicity (on a very discrete manner) then please do. Avoid sending me those ads for car rims that I do not care and sell me the smallest pocket wallet on the market. In the middle of that insurmountable pile of data, I’m a male 25-35 years old that is a geek and sports lover. My personal data is protected by numbers that grow every day just as though a flock survives predators with sheer confusion of Agile movement and bird count.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-environment&quot;&gt;My environment&lt;/h2&gt;
+
+&lt;p&gt;Monopoly is a game that I loved to play when I was a kid and even nowadays is a well-spent night with friends but is something that is very dangerous in the real world. I hope that none of these companies can achieve a market position that can dry completely all their competitors, but right now I choose to spend some years in this lovely Apple island with a Google cloudy sky.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>JRuby / JVM encoding flags</title>
+        <link href="http://localhost:4000/programming/jruby-jvm-encoding-flags/"/>
+        <updated>2013-02-01T00:00:00+00:00</updated>
+        <id>http://localhost:4000/programming/jruby-jvm-encoding-flags</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;http://localhost:4000/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Once upon a time, I was developing a couple of extensions for &lt;a href=&quot;http://logstash.net/&quot;&gt;Logstash&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn’t even know that they existed).&lt;/p&gt;
+
+&lt;p&gt;After some suffering, anger and hunger that all debugging processes bring, I’ve found an ancient JVM flag that my evil Red Hat server changed, just to see me cry, after several bad relationships with an assorted number of encodings.&lt;/p&gt;
+
+&lt;p&gt;sun.io.unicode.encoding=UnicodeBig (good OSX)&lt;/p&gt;
+
+&lt;p&gt;sun.io.unicode.encoding=UnicodeLittle ( evil Red Hat)&lt;/p&gt;
+
+&lt;p&gt;Loading up my JVM with -J-Dsun.io.unicode.encoding=UnicodeLittle saved the day.&lt;/p&gt;
+
+&lt;p&gt;By the way, if you ever want to check your encoding flags just add this to your JRuby script:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;java&#39;
+
+java_import java.util.Locale
+java_import java.util.Properties
+java_import java.util.Enumeration
+java_import java.lang.System
+
+{assorted code}
+
+p = System.getProperties();
+keys = p.keys();
+keys.each do |key|
+  value = p.get(key);
+  puts &quot;#{key} : #{value}&quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this script, you can print all of your JVM instance flags. Have fun!&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+</feed>
