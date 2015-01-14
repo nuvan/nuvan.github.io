@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-01-12T23:48:52+00:00</updated>
+    <updated>2015-01-14T08:54:23+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,23 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Meaningful transitions - Animation - Google design guidelines</title>
+        <link href="http://directionwithintent.com/shares/084905/"/>
+        <updated>2015-01-14T08:49:05+00:00</updated>
+        <id>http://directionwithintent.com/shares/084905</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Sometimes, it is difficult for a user to know where to look or understand how an element got from point A to point B. Carefully choreographed motion design can effectively guide the user’s attention and focus through multiple steps of a process or procedure, avoid confusion when layouts change or elements are rearranged, and improve the overall beauty of the experience. Motion design should serve a functional purpose.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Implement a Real-time, Sliding-Window Application Using Amazon Kinesis and Apache Storm</title>

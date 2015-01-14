@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/084905/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#meaningful-transitions-animation-google-design-guidelines-share").html(data.count);
+      }
+      else {
+        $("#meaningful-transitions-animation-google-design-guidelines-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/193131/',
       context: document.body
     }).done(function( data ) {

@@ -99,6 +99,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/084905/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#meaningful-transitions-animation-google-design-guidelines-share").html(data.count);
+      }
+      else {
+        $("#meaningful-transitions-animation-google-design-guidelines-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/193131/',
       context: document.body
     }).done(function( data ) {
@@ -344,7 +356,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">1 month and 3 weeks ago
+      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">1 month and 4 weeks ago
       </time>
       <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
       </time-->
@@ -384,7 +396,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">1 month and 3 weeks ago
+      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">1 month and 4 weeks ago
       </time>
       <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
       </time-->
