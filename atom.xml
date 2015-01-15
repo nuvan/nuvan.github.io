@@ -5,27 +5,27 @@
 
     <title>Direction With Intent</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-		<icon>http://localhost:4000/apple-touch-icon-precomposed.png</icon>
+		<icon>http://directionwithintent.com/apple-touch-icon-precomposed.png</icon>
     <subtitle>Think Through. Execute.</subtitle>
-    <link href="http://localhost:4000/atom.xml" rel="self"/>
-    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
-    <updated>2015-01-15T08:52:09+00:00</updated>
-    <id>http://localhost:4000/</id>
+    <link href="http://directionwithintent.com/atom.xml" rel="self"/>
+    <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
+    <updated>2015-01-15T08:55:25+00:00</updated>
+    <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
-			<uri>http://localhost:4000/</uri>
+			<uri>http://directionwithintent.com/</uri>
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
     
     <entry>
         <title>How Bad UX Makes Users Blame Themselves - UXPin</title>
-        <link href="http://localhost:4000/shares/084716/"/>
+        <link href="http://directionwithintent.com/shares/084716/"/>
         <updated>2015-01-15T08:47:16+00:00</updated>
-        <id>http://localhost:4000/shares/084716</id>
+        <id>http://directionwithintent.com/shares/084716</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
@@ -37,12 +37,12 @@
     
     <entry>
         <title>Meaningful transitions - Animation - Google design guidelines</title>
-        <link href="http://localhost:4000/shares/084905/"/>
+        <link href="http://directionwithintent.com/shares/084905/"/>
         <updated>2015-01-14T08:49:05+00:00</updated>
-        <id>http://localhost:4000/shares/084905</id>
+        <id>http://directionwithintent.com/shares/084905</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
@@ -54,12 +54,12 @@
     
     <entry>
         <title>Implement a Real-time, Sliding-Window Application Using Amazon Kinesis and Apache Storm</title>
-        <link href="http://localhost:4000/shares/193131/"/>
+        <link href="http://directionwithintent.com/shares/193131/"/>
         <updated>2014-12-28T16:30:00+00:00</updated>
-        <id>http://localhost:4000/shares/193131</id>
+        <id>http://directionwithintent.com/shares/193131</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
@@ -71,12 +71,12 @@
     
     <entry>
         <title>Zero to 353 Pages: Bringing My Web Book to Print and eBook</title>
-        <link href="http://localhost:4000/shares/192834-share/"/>
+        <link href="http://directionwithintent.com/shares/192834-share/"/>
         <updated>2014-12-28T15:30:00+00:00</updated>
-        <id>http://localhost:4000/shares/192834-share</id>
+        <id>http://directionwithintent.com/shares/192834-share</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
@@ -89,12 +89,12 @@ Most of that time, the book existed entirely on the web. It was less “book” 
     
     <entry>
         <title>Binaural Sound with the Web Audio API</title>
-        <link href="http://localhost:4000/shares/163232-share/"/>
+        <link href="http://directionwithintent.com/shares/163232-share/"/>
         <updated>2014-12-28T13:30:00+00:00</updated>
-        <id>http://localhost:4000/shares/163232-share</id>
+        <id>http://directionwithintent.com/shares/163232-share</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
@@ -109,16 +109,16 @@ Most of that time, the book existed entirely on the web. It was less “book” 
     
     <entry>
         <title>PEG that data - Part 1</title>
-        <link href="http://localhost:4000/programming/peg_that_data_1/"/>
+        <link href="http://directionwithintent.com/programming/peg_that_data_1/"/>
         <updated>2014-11-16T00:00:00+00:00</updated>
-        <id>http://localhost:4000/programming/peg_that_data_1</id>
+        <id>http://directionwithintent.com/programming/peg_that_data_1</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;http://localhost:4000/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe languages, in the form of a set of rules that can be converted to string recognition mechanisms to parse the aforementioned languages.&lt;/p&gt;
 
 &lt;p&gt;I could spend some paragraphs, poorly describing PEGs, but I’ll leave this to a better-suited place for this subject: &lt;a href=&quot;http://en.wikipedia.org/wiki/Parsing_expression_grammar&quot;&gt;Wikipedia - PEG&lt;/a&gt;. At the time of this article writing, Wikipedia holds a very well put description of PEGs and their nature.&lt;/p&gt;
@@ -180,12 +180,12 @@ Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &
     
     <entry>
         <title>No Image One</title>
-        <link href="http://localhost:4000/programming/no-image-one/"/>
+        <link href="http://directionwithintent.com/programming/no-image-one/"/>
         <updated>2014-11-16T00:00:00+00:00</updated>
-        <id>http://localhost:4000/programming/no-image-one</id>
+        <id>http://directionwithintent.com/programming/no-image-one</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
@@ -251,16 +251,16 @@ Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &
     
     <entry>
         <title>PEG that data - Part 2</title>
-        <link href="http://localhost:4000/programming/peg_that_data_3/"/>
+        <link href="http://directionwithintent.com/programming/peg_that_data_3/"/>
         <updated>2014-10-26T00:00:00+01:00</updated>
-        <id>http://localhost:4000/programming/peg_that_data_3</id>
+        <id>http://directionwithintent.com/programming/peg_that_data_3</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;http://localhost:4000/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Let’s start by filtering our property array with a basic set of predicates. As mentioned before we are going to use PEG.js for this exercise so let’s start building our PEG representation using the PEG.js DSL.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;START = &quot;Houses that have &quot; | FILTER 
@@ -273,16 +273,16 @@ Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &
     
     <entry>
         <title>PEG that data - Part 2</title>
-        <link href="http://localhost:4000/programming/peg_that_data_2/"/>
+        <link href="http://directionwithintent.com/programming/peg_that_data_2/"/>
         <updated>2014-10-26T00:00:00+01:00</updated>
-        <id>http://localhost:4000/programming/peg_that_data_2</id>
+        <id>http://directionwithintent.com/programming/peg_that_data_2</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;http://localhost:4000/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;After &lt;a href=&quot;http://directionwithintent.com/programming/peg_that_data_1/&quot;&gt;Part 1 of PEG that data&lt;/a&gt;, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.&lt;/p&gt;
 
 &lt;p&gt;To be honest, I’m not keen with this type of examples, but their value is undeniable to break entry barriers for matters that are a bit more exotic, in comparison with the typical programming tutorial. I usually rather prefer tutorials that are more close to real world problems. They spark creativity to build more interesting tools and to apply our newly gained knowledge to our day to day work.&lt;/p&gt;
@@ -353,16 +353,16 @@ Each real estate property will be represented with a &lt;a href=&quot;http://htt
     
     <entry>
         <title>An Island and a Cloud.</title>
-        <link href="http://localhost:4000/opinion/ground_and_cloud/"/>
+        <link href="http://directionwithintent.com/opinion/ground_and_cloud/"/>
         <updated>2014-10-26T00:00:00+01:00</updated>
-        <id>http://localhost:4000/opinion/ground_and_cloud</id>
+        <id>http://directionwithintent.com/opinion/ground_and_cloud</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;http://localhost:4000/images/island_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://directionwithintent.com/images/island_1600x800.jpg&quot;&gt;&lt;br/&gt;
         	&lt;h2 id=&quot;apple-prison-more-like-apple-island&quot;&gt;Apple Prison? More like Apple Island.&lt;/h2&gt;
 
 &lt;p&gt;Four years ago, give or take a few months, I’ve changed my work and home machines to Apple systems, abandoning the mixed Windows/Linux environments that accompanied me since high school.&lt;/p&gt;
@@ -402,16 +402,16 @@ Each real estate property will be represented with a &lt;a href=&quot;http://htt
     
     <entry>
         <title>JRuby / JVM encoding flags</title>
-        <link href="http://localhost:4000/programming/jruby-jvm-encoding-flags/"/>
+        <link href="http://directionwithintent.com/programming/jruby-jvm-encoding-flags/"/>
         <updated>2013-02-01T00:00:00+00:00</updated>
-        <id>http://localhost:4000/programming/jruby-jvm-encoding-flags</id>
+        <id>http://directionwithintent.com/programming/jruby-jvm-encoding-flags</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>http://localhost:4000/</uri>
+					<uri>http://directionwithintent.com/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;http://localhost:4000/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://directionwithintent.com/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Once upon a time, I was developing a couple of extensions for &lt;a href=&quot;http://logstash.net/&quot;&gt;Logstash&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn’t even know that they existed).&lt;/p&gt;
