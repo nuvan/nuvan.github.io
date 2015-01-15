@@ -3,45 +3,35 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>JRuby / JVM encoding flags • Direction With Intent</title>
-    <meta name="description" content="Once upon a time, I was developing a couple of extensions for Logstash.
-
-">
-    <meta name="keywords" content="">
+    <title>Shares • Direction With Intent</title>
+    
+    
     
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="JRuby / JVM encoding flags">
-	<meta name="twitter:description" content="Once upon a time, I was developing a couple of extensions for Logstash.
-
-">
+	<meta name="twitter:title" content="Shares">
+	
 	<meta name="twitter:site" content="@nuvan">
 	<meta name="twitter:creator" content="@nuvan">
 	
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="http://localhost:4000/images/jruby_1600x800.jpg">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content="http://localhost:4000/images/DWI.svg">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="JRuby / JVM encoding flags">
+	<meta property="og:title" content="Shares">
 	
-		<meta property="og:description" content="Once upon a time, I was developing a couple of extensions for Logstash.
-
-">
-	
-	
-		<meta property="og:image" content="http://localhost:4000/images/jruby_1600x800.jpg">
 	
 	
 	<meta property="og:image" content="http://localhost:4000/images/share01.jpg">
 	<meta property="og:image" content="http://localhost:4000/images/share02.jpg">
-	<meta property="og:url" content="http://localhost:4000/programming/jruby-jvm-encoding-flags/">
+	<meta property="og:url" content="http://localhost:4000/shares/page3/">
 	<meta property="og:site_name" content="Direction With Intent">
 
     
 
-    <link rel="canonical" href="http://localhost:4000/programming/jruby-jvm-encoding-flags/">
+    <link rel="canonical" href="http://localhost:4000/shares/page3/">
 
     <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -333,71 +323,59 @@
 
     <div id="page-wrapper">
       <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+      <div id="main " role="main" class="fadin-anim">
+  <div class="wrap">
+    <div class="share-title">
+        <h1>Shares</h1>
+    </div>
+    <div class="rows-wrap">
       
-  <div class="page-lead" style="background-image:url(//localhost:4000/images/jruby_1600x800.jpg)">
-  </div>
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="http://localhost:4000/programming/jruby-jvm-encoding-flags/" title="JRuby / JVM encoding flags" class="post-teaser">
+              <img src="http://localhost:4000/images/jruby_314x250.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            programming
+          </div>
+          
+            <div class="post-title">
+              <a href="http://localhost:4000/programming/jruby-jvm-encoding-flags/">
+                JRuby / JVM encoding flags
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="http://localhost:4000/programming/jruby-jvm-encoding-flags/">
+                Once upon a time, I was developing a couple of extensions for Logstash.
 
 
-<div id="page-wrapper">
-<div id="main" role="main">	
-	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		<nav class="breadcrumbs">
-  <a href="http://localhost:4000">Home</a> <span class="divider">/</span> <a href="http://localhost:4000/programming/">Programming</a> <span class="divider">/</span>
-</nav><!-- /.breadcrumbs -->
-		<div class="page-title">
-			<h1>JRuby / JVM encoding flags</h1>
-		</div>
-		<div class="inner-wrap">
-			<nav class="toc"></nav><!-- /.toc -->
-			<div id="content" class="page-content" itemprop="articleBody">
-				<p>Once upon a time, I was developing a couple of extensions for <a href="http://logstash.net/">Logstash</a>.</p>
+              </a>
+            </div>
+          
 
-<p>One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn’t even know that they existed).</p>
-
-<p>After some suffering, anger and hunger that all debugging processes bring, I’ve found an ancient JVM flag that my evil Red Hat server changed, just to see me cry, after several bad relationships with an assorted number of encodings.</p>
-
-<p>sun.io.unicode.encoding=UnicodeBig (good OSX)</p>
-
-<p>sun.io.unicode.encoding=UnicodeLittle ( evil Red Hat)</p>
-
-<p>Loading up my JVM with -J-Dsun.io.unicode.encoding=UnicodeLittle saved the day.</p>
-
-<p>By the way, if you ever want to check your encoding flags just add this to your JRuby script:</p>
-
-<pre><code>require 'java'
-
-java_import java.util.Locale
-java_import java.util.Properties
-java_import java.util.Enumeration
-java_import java.lang.System
-
-{assorted code}
-
-p = System.getProperties();
-keys = p.keys();
-keys.each do |key|
-  value = p.get(key);
-  puts "#{key} : #{value}"
-end
-</code></pre>
-
-<p>With this script, you can print all of your JVM instance flags. Have fun!</p>
-
-				<hr />
-				<footer class="page-footer">
-					
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://localhost:4000/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2013-02-01" itemprop="datePublished">1 year and 11 months ago
+      </time>
+      <!--time class="entry-date" datetime="2013-02-01" itemprop="datePublished">FEBRUARY 01, 2013 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="http://localhost:4000/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="http://localhost:4000/programming/jruby-jvm-encoding-flags/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="http://localhost:4000/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="jruby-jvm-encoding-flags-share">0</div>
+</div>
 
 
-<div class="author-image">
-	<img src="http://localhost:4000/images/blog_awatar.jpg" alt="Nuno Valente">
-</div><!-- ./author-image -->
-<div class="author-content">
-	<h3 class="author-name" >Written by <span itemprop="author">Nuno Valente</span></h3>
-	<p class="author-bio"></p>
-</div><!-- ./author-content -->
-					
+          <div class="share-this">
+            
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=JRuby%20/%20JVM%20encoding%20flags&amp;url=http://localhost:4000/programming/jruby-jvm-encoding-flags/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://localhost:4000/programming/jruby-jvm-encoding-flags/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
@@ -409,46 +387,44 @@ end
       <span>Share on Facebook</span>
       </div>
   </a>
+</div><!-- /.share-this -->
 
-					<div class="page-meta">
-	<p>Updated <time datetime="2013-02-01T00:00:00Z" itemprop="datePublished">February 01, 2013</time></p>
-</div><!-- /.page-meta -->
-				</footer><!-- /.footer -->
-				<aside>
-					<hr />
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	var disqus_shortname = 'directionwithintent';
+          </div>
+        </div>
+      
+    </div>
+</article>
 
-	/* * * DON'T EDIT BELOW THIS LINE * * */
-	(function() {
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				</aside>
-			</div><!-- /.content -->
-		</div><!-- /.inner-wrap -->
-		<div class="ads"><style>
-.responsive-ads { width: 300px; height: 200px; }
-@media(min-width: 520px) { .responsive-ads { width: 468px; height: 60px; } }
-@media(min-width: 768px) { .responsive-ads { width: 160px; height: 600px; } }
-</style>
+      
+    </div>
+    
+<div class="pagination">
+  
+    <a href="/shares/page2">&laquo; Prev</a>
+  
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle responsive-ads"
-	style="display:inline-block"
-	data-ad-client="ca-pub-5324161887121686"
-	data-ad-slot="3257173456"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div><!-- /.ads -->
-	</article><!-- ./wrap -->
-</div><!-- /#main -->
+  
+    
+      <a href="/shares/index.html">1</a>
+    
+  
+    
+      <a href="/shares/page2">2</a>
+    
+  
+    
+      <em>3</em>
+    
+  
+
+  
+    <span>Next &raquo;</span>
+  
 </div>
+
+  </div>
+</div>
+
 
       <footer role="contentinfo" id="site-footer">
 	<nav role="navigation" class="menu bottom-menu">
