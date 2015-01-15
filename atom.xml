@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-01-15T08:55:25+00:00</updated>
+    <updated>2015-01-15T09:06:00+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -245,28 +245,6 @@ Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &
 &lt;p&gt;To test our grammar just copy one of our accepted test strings in to the box “2 - Test generated parser with some input”. Let’s jump to the biggest one, “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.” and once again we hope to be presented with a green “Input parsed successfully.” box above. As a bonus, we can inspect the resulting syntax tree in a JSON array format provided in “Output”.&lt;/p&gt;
 
 &lt;p&gt;Let’s end our first PEG exercise. I’ll recommend a thorough reading of the PEG.js library syntax and options for our next article where we will dive deep into a interesting problem while building more than a syntax validator.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>PEG that data - Part 2</title>
-        <link href="http://directionwithintent.com/programming/peg_that_data_3/"/>
-        <updated>2014-10-26T00:00:00+01:00</updated>
-        <id>http://directionwithintent.com/programming/peg_that_data_3</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;http://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;Let’s start by filtering our property array with a basic set of predicates. As mentioned before we are going to use PEG.js for this exercise so let’s start building our PEG representation using the PEG.js DSL.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;START = &quot;Houses that have &quot; | FILTER 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;https://www.mapbox.com/industries/realestate/&lt;/p&gt;
 
         </content>
     </entry>

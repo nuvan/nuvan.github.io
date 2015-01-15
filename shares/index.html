@@ -178,18 +178,6 @@
     });
    
     $.ajax({
-      url: query_url + '/programming/peg_that_data_3/',
-      context: document.body
-    }).done(function( data ) {
-      if(data.count) {
-        $("#peg-that-data-part-2-share").html(data.count);
-      }
-      else {
-        $("#peg-that-data-part-2-share").html("0");
-      }
-    });
-   
-    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {
@@ -630,10 +618,6 @@ Most of that time, the book ex...
   
     
       <a href="/shares/page2">2</a>
-    
-  
-    
-      <a href="/shares/page3">3</a>
     
   
 
