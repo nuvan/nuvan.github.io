@@ -174,18 +174,6 @@
     });
    
     $.ajax({
-      url: query_url + '/programming/no-image-one/',
-      context: document.body
-    }).done(function( data ) {
-      if(data.count) {
-        $("#no-image-one-share").html(data.count);
-      }
-      else {
-        $("#no-image-one-share").html("0");
-      }
-    });
-   
-    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {

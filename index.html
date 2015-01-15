@@ -171,18 +171,6 @@
     });
    
     $.ajax({
-      url: query_url + '/programming/no-image-one/',
-      context: document.body
-    }).done(function( data ) {
-      if(data.count) {
-        $("#no-image-one-share").html(data.count);
-      }
-      else {
-        $("#no-image-one-share").html("0");
-      }
-    });
-   
-    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {
@@ -567,46 +555,6 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/programming/no-image-one/" title="No Image One" class="post-teaser">
-    
-      <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
-      
-  </a>
-  
-    <p class="post-category">
-      programming
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/programming/no-image-one/">
-      No Image One
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">2 months ago
-      </time>
-      <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
-      </time-->
-    
-      <img class="comment-count-icon" src="http://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12" />
-      <a class="comment-count" href="http://directionwithintent.com/programming/no-image-one/#disqus_thread"></a>
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="no-image-one-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_2/" title="PEG that data - Part 2" class="post-teaser">
     
       <img src="http://directionwithintent.com/images/peg_314x250.jpg" alt="teaser" itemprop="image" />
@@ -684,9 +632,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/jruby-jvm-encoding-flags/" title="JRuby / JVM encoding flags" class="post-teaser">
@@ -726,11 +674,10 @@
 </article>
 
             </div>
-          
+          </div>
         
       </div>
   </div>
-</div>
 </div>
 
 			</div><!-- /.page-content -->
