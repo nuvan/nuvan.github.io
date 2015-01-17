@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-01-17T11:33:50+00:00</updated>
+    <updated>2015-01-17T15:06:56+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,23 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Building Context Aware Apps | Toptal</title>
+        <link href="http://directionwithintent.com/shares/150655/"/>
+        <updated>2015-01-17T15:06:55+00:00</updated>
+        <id>http://directionwithintent.com/shares/150655</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Mobile phone usage across the globe is constantly increasing. As of 2013, around 73% of Internet users consumed content via a mobile device and this percentage is expected to reach &lt;a href=&quot;http://www.statista.com/topics/779/mobile-internet/&quot;&gt;close to 90%&lt;/a&gt; by 2017.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Why most unit testing is waste</title>

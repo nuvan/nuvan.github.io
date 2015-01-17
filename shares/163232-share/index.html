@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/150655/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#building-context-aware-apps-toptal-share").html(data.count);
+      }
+      else {
+        $("#building-context-aware-apps-toptal-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/113158/',
       context: document.body
     }).done(function( data ) {
