@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/113158/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#why-most-unit-testing-is-waste-share").html(data.count);
+      }
+      else {
+        $("#why-most-unit-testing-is-waste-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/084716/',
       context: document.body
     }).done(function( data ) {
@@ -338,6 +350,44 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/113158/" title="Why most unit testing is waste" class="post-teaser">
+    
+      <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
+      
+  </a>
+  
+    <p class="post-category">
+      shares
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/113158/">
+      Why most unit testing is waste
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Unit testing was a staple of the FORTRAN days, when a
+function was a function and was sometimes worthy of...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-01-17" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-01-17" itemprop="datePublished">JANUARY 17, 2015 11:31:58
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="why-most-unit-testing-is-waste-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084716/" title="How Bad UX Makes Users Blame Themselves - UXPin" class="post-teaser">
     
       <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
@@ -358,7 +408,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-01-15" itemprop="datePublished">yesterday
+      <time class="entry-date" datetime="2015-01-15" itemprop="datePublished">2 days ago
       </time>
       <!--time class="entry-date" datetime="2015-01-15" itemprop="datePublished">JANUARY 15, 2015 08:47:16
       </time-->
@@ -395,7 +445,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-01-14" itemprop="datePublished">2 days ago
+      <time class="entry-date" datetime="2015-01-14" itemprop="datePublished">3 days ago
       </time>
       <!--time class="entry-date" datetime="2015-01-14" itemprop="datePublished">JANUARY 14, 2015 08:49:05
       </time-->
@@ -407,9 +457,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/193131/" title="Implement a Real-time, Sliding-Window Application Using Amazon Kinesis and Apache Storm" class="post-teaser">
@@ -432,7 +482,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">2 weeks and 5 days ago
+      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">2 weeks and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2014-12-28" itemprop="datePublished">DECEMBER 28, 2014 16:30:00
       </time-->
@@ -444,9 +494,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/192834-share/" title="Zero to 353 Pages: Bringing My Web Book to Print and eBook" class="post-teaser">
@@ -469,7 +519,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">2 weeks and 5 days ago
+      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">2 weeks and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2014-12-28" itemprop="datePublished">DECEMBER 28, 2014 15:30:00
       </time-->
@@ -506,7 +556,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">2 weeks and 5 days ago
+      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">2 weeks and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2014-12-28" itemprop="datePublished">DECEMBER 28, 2014 13:30:00
       </time-->
@@ -518,9 +568,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_1/" title="PEG that data - Part 1" class="post-teaser">
@@ -543,7 +593,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">2 months and 1 day ago
+      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">2 months and 2 days ago
       </time>
       <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
       </time-->
@@ -558,9 +608,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_2/" title="PEG that data - Part 2" class="post-teaser">
@@ -640,9 +690,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/jruby-jvm-encoding-flags/" title="JRuby / JVM encoding flags" class="post-teaser">
@@ -682,10 +732,11 @@
 </article>
 
             </div>
-          </div>
+          
         
       </div>
   </div>
+</div>
 </div>
 
 			</div><!-- /.page-content -->

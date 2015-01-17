@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/113158/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#why-most-unit-testing-is-waste-share").html(data.count);
+      }
+      else {
+        $("#why-most-unit-testing-is-waste-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/084716/',
       context: document.body
     }).done(function( data ) {

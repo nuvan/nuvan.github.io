@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-01-16T20:43:04+00:00</updated>
+    <updated>2015-01-17T11:33:50+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,37 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Why most unit testing is waste</title>
+        <link href="http://directionwithintent.com/shares/113158/"/>
+        <updated>2015-01-17T11:31:58+00:00</updated>
+        <id>http://directionwithintent.com/shares/113158</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Unit testing was a staple of the FORTRAN days, when a
+function was a function and was sometimes worthy of functional
+testing. Computers computed, and functions and procedures
+represented units of computation. In those days the dominant
+design process composed complex external functionality from
+smaller chunks, which in turn orchestrated yet smaller chunks,
+and so on down to the level of well-understood primitives. Each
+layer supported the layers above it. You actually stood a good
+chance that you could trace the functionality of the things at the
+bottom, called functions and procedures, to the requirements
+that gave rise to them out at the human interface. There was
+hope that a good designer could understand a given function’s
+business purpose. And it was possible, at least in well-structured
+code, to reason about the calling tree. You could mentally
+simulate code execution in a code review.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>How Bad UX Makes Users Blame Themselves - UXPin</title>
