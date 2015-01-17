@@ -131,6 +131,18 @@
     });
    
     $.ajax({
+      url: query_url + '/163101/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#163101-share").html(data.count);
+      }
+      else {
+        $("#163101-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/084716/',
       context: document.body
     }).done(function( data ) {
@@ -437,6 +449,39 @@ function was a function and was sometimes worthy of...
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/163101/" title="163101" class="post-teaser">
+    
+      <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
+      
+  </a>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/163101/">
+      163101
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    As you may know, the Foreign Exchange (Forex) market is used for trading between currency pairs. But you ...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-01-17" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-01-17" itemprop="datePublished">JANUARY 17, 2015 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="163101-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          </div>
+        
+          <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084716/" title="How Bad UX Makes Users Blame Themselves - UXPin" class="post-teaser">
     
       <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
@@ -469,9 +514,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084905/" title="Meaningful transitions - Animation - Google design guidelines" class="post-teaser">
@@ -543,9 +588,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/192834-share/" title="Zero to 353 Pages: Bringing My Web Book to Print and eBook" class="post-teaser">
@@ -580,9 +625,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/163232-share/" title="Binaural Sound with the Web Audio API" class="post-teaser">
@@ -657,9 +702,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_2/" title="PEG that data - Part 2" class="post-teaser">
@@ -697,9 +742,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/opinion/ground_and_cloud/" title="An Island and a Cloud." class="post-teaser">
@@ -781,11 +826,10 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
       </div>
   </div>
-</div>
 </div>
 
 			</div><!-- /.page-content -->

@@ -137,6 +137,18 @@ Most of that time, the book existed entirely on the web. It was less “book” 
     });
    
     $.ajax({
+      url: query_url + '/163101/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#163101-share").html(data.count);
+      }
+      else {
+        $("#163101-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/084716/',
       context: document.body
     }).done(function( data ) {
