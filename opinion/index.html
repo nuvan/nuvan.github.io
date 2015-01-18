@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/235018/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#forex-algorithmic-trading-a-practical-tale-for-engineers-share").html(data.count);
+      }
+      else {
+        $("#forex-algorithmic-trading-a-practical-tale-for-engineers-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/150655/',
       context: document.body
     }).done(function( data ) {
