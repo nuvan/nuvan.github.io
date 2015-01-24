@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/085506/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#aws-re-invent-2014-pfc306-performance-tuning-amazon-ec2-instances-youtube-share").html(data.count);
+      }
+      else {
+        $("#aws-re-invent-2014-pfc306-performance-tuning-amazon-ec2-instances-youtube-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/235018/',
       context: document.body
     }).done(function( data ) {

@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-01-18T23:50:21+00:00</updated>
+    <updated>2015-01-24T11:01:23+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>AWS re:Invent 2014 | (PFC306) Performance Tuning Amazon EC2 Instances - YouTube
+</title>
+        <link href="http://directionwithintent.com/shares/085506/"/>
+        <updated>2015-01-19T08:55:06+00:00</updated>
+        <id>http://directionwithintent.com/shares/085506</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Netflix tunes Amazon EC2 instances for maximum performance. In this session, you learn how Netflix configures the fastest possible EC2 instances, while reducing latency outliers. This session explores the various Xen modes (e.g., HVM, PV, etc.) and how they are optimized for different workloads. Hear how Netflix chooses Linux kernel versions based on desired performance characteristics and receive a firsthand look at how they set kernel tunables, including hugepages. You also hear about Netflix’s use of SR-IOV to enable enhanced networking and their approach to observability, which can exonerate EC2 issues and direct attention back to application performance.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Forex Algorithmic Trading: A Practical Tale for Engineers

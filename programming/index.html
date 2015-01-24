@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/085506/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#aws-re-invent-2014-pfc306-performance-tuning-amazon-ec2-instances-youtube-share").html(data.count);
+      }
+      else {
+        $("#aws-re-invent-2014-pfc306-performance-tuning-amazon-ec2-instances-youtube-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/235018/',
       context: document.body
     }).done(function( data ) {
@@ -388,7 +400,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">2 months and 3 days ago
+      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">2 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
       </time-->
@@ -428,7 +440,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">2 months and 3 weeks ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">3 months ago
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->
