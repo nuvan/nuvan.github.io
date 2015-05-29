@@ -112,6 +112,42 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/085031/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#writing-a-full-text-search-engine-using-bloom-filters-stavros-39-stuff-share").html(data.count);
+      }
+      else {
+        $("#writing-a-full-text-search-engine-using-bloom-filters-stavros-39-stuff-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/084653/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#why-white-space-is-crucial-to-ux-design-co-design-business-design-share").html(data.count);
+      }
+      else {
+        $("#why-white-space-is-crucial-to-ux-design-co-design-business-design-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/201232/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#building-modern-web-applications-with-angularjs-and-play-framework-share").html(data.count);
+      }
+      else {
+        $("#building-modern-web-applications-with-angularjs-and-play-framework-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/085506/',
       context: document.body
     }).done(function( data ) {
