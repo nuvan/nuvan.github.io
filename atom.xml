@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-15T08:28:55+01:00</updated>
+    <updated>2015-06-15T18:30:00+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Building a Binary Classification Model with Amazon Machine Learning and Amazon Redshift
+</title>
+        <link href="http://directionwithintent.com/shares/182301/"/>
+        <updated>2015-06-15T18:23:01+01:00</updated>
+        <id>http://directionwithintent.com/shares/182301</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Many decisions in life are binary, answered either Yes or No. Many business problems also have binary answers. For example: “Is this transaction fraudulent?”, “Is this customer going to buy that product?”, or “Is this user going to churn?” In machine learning, this is called a binary classification problem. Many business decisions can be enhanced by accurately predicting the answer to a binary question.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Writing a full-text search engine using Bloom filters - Stavros&amp;#39; Stuff

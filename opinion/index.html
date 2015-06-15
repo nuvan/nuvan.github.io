@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/182301/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#building-a-binary-classification-model-with-amazon-machine-learning-and-amazon-redshift-share").html(data.count);
+      }
+      else {
+        $("#building-a-binary-classification-model-with-amazon-machine-learning-and-amazon-redshift-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/085031/',
       context: document.body
     }).done(function( data ) {
