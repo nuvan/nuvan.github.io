@@ -111,6 +111,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/195803/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-ultimate-introduction-to-agile-project-management-share").html(data.count);
+      }
+      else {
+        $("#the-ultimate-introduction-to-agile-project-management-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/085516/',
       context: document.body
     }).done(function( data ) {

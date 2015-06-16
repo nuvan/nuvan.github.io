@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-16T09:04:18+01:00</updated>
+    <updated>2015-06-16T20:00:36+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>The Ultimate Introduction To Agile Project Management
+</title>
+        <link href="http://directionwithintent.com/shares/195803/"/>
+        <updated>2015-06-16T19:58:03+01:00</updated>
+        <id>http://directionwithintent.com/shares/195803</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;You’re in charge of delivering your company’s latest and greatest initiative that’s going to change the face of “Widgets International” forever. It’s a software project that’ll engage and enthrall your customers, make your colleague’s lives easier, and make the company millions in revenue. There’s a great deal of anticipation, fervour, excitement, and expectation. You need to get it done as quickly as possible, so your business can start to reap the benefits. The future success of the company depends on you. All eyes are on you. You cannot fail.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Designing For Animation
