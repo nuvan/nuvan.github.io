@@ -111,6 +111,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/191809/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-color-psychology-for-impactful-web-design-designmodo-share").html(data.count);
+      }
+      else {
+        $("#understanding-color-psychology-for-impactful-web-design-designmodo-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/195803/',
       context: document.body
     }).done(function( data ) {

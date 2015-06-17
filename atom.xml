@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-16T20:00:36+01:00</updated>
+    <updated>2015-06-17T19:18:33+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Understanding Color Psychology for Impactful Web Design - Designmodo
+</title>
+        <link href="http://directionwithintent.com/shares/191809/"/>
+        <updated>2015-06-17T19:18:09+01:00</updated>
+        <id>http://directionwithintent.com/shares/191809</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;It’s no secret that &lt;strong&gt;color psychology&lt;/strong&gt; is used extensively in all aspects of design. From the colors used on day-to-day grocery items, to brand logos and website design, color is an important element that can convey a specific message to users.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>The Ultimate Introduction To Agile Project Management
