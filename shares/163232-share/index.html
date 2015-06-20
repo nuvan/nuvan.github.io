@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/133158/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-i-learned-to-stop-worrying-and-learned-to-love-to-crash-with-elixir-share").html(data.count);
+      }
+      else {
+        $("#how-i-learned-to-stop-worrying-and-learned-to-love-to-crash-with-elixir-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/191809/',
       context: document.body
     }).done(function( data ) {

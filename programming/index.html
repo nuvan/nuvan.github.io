@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/133158/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-i-learned-to-stop-worrying-and-learned-to-love-to-crash-with-elixir-share").html(data.count);
+      }
+      else {
+        $("#how-i-learned-to-stop-worrying-and-learned-to-love-to-crash-with-elixir-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/191809/',
       context: document.body
     }).done(function( data ) {
@@ -484,7 +496,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">7 months and 3 days ago
+      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">7 months and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
       </time-->
