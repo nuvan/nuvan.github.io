@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-25T19:49:23+01:00</updated>
+    <updated>2015-06-25T19:56:21+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,23 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title></title>
+        <link href="http://directionwithintent.com/shares/195550/"/>
+        <updated>2015-06-25T19:55:50+01:00</updated>
+        <id>http://directionwithintent.com/shares/195550</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	
+
+        </content>
+    </entry>
     
     <entry>
         <title>Neuralnet mlp - mlxtend
