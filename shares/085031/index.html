@@ -111,6 +111,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/194034/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#leaflet-interactive-web-maps-with-r-share").html(data.count);
+      }
+      else {
+        $("#leaflet-interactive-web-maps-with-r-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/133158/',
       context: document.body
     }).done(function( data ) {
