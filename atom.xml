@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-25T19:47:06+01:00</updated>
+    <updated>2015-06-25T19:49:23+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -31,7 +31,7 @@
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;&lt;strong&gt;For more details, please see the &lt;a href=&quot;https://github.com/rasbt/mlxtend/blob/master/mlxtend/classifier/neuralnet_mlp.py&quot;&gt;source code&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+        	&lt;p&gt;Implementation of a feedforward artificial neural network (multilayer perceptron, MLP). Although the code is fully working and can be used for common classification tasks, this implementation is not geared towards efficiency but clarity – the original code was written for demonstration purposes (a more detailed blog article and step by step walkthrough is going to follow).&lt;/p&gt;
 
         </content>
     </entry>
