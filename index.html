@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/194614/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#neuralnet-mlp-mlxtend-share").html(data.count);
+      }
+      else {
+        $("#neuralnet-mlp-mlxtend-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/194034/',
       context: document.body
     }).done(function( data ) {
@@ -494,6 +506,47 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/194614/" title="Neuralnet mlp - mlxtend
+" class="post-teaser">
+    
+      <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
+      
+  </a>
+  
+    <p class="post-category">
+      shares
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/194614/">
+      Neuralnet mlp - mlxtend
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    For more details, please see the source code.
+
+
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-06-25" itemprop="datePublished">JUNE 25, 2015 19:46:14
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="neuralnet-mlp-mlxtend-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/194034/" title="Leaflet: Interactive web maps with R
 " class="post-teaser">
     
@@ -567,9 +620,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/191809/" title="Understanding Color Psychology for Impactful Web Design - Designmodo
@@ -606,9 +659,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/195803/" title="The Ultimate Introduction To Agile Project Management
@@ -684,9 +737,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/182301/" title="Building a Binary Classification Model with Amazon Machine Learning and Amazon Redshift
@@ -723,9 +776,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/085031/" title="Writing a full-text search engine using Bloom filters - Stavros&#39; Stuff
@@ -801,9 +854,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/201232/" title="Building Modern Web Applications with AngularJS and Play Framework
@@ -840,9 +893,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/085506/" title="AWS re:Invent 2014 | (PFC306) Performance Tuning Amazon EC2 Instances - YouTube
@@ -918,9 +971,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/150655/" title="Building Context Aware Apps | Toptal" class="post-teaser">
@@ -955,9 +1008,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/113158/" title="Why most unit testing is waste" class="post-teaser">
@@ -1030,9 +1083,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084905/" title="Meaningful transitions - Animation - Google design guidelines" class="post-teaser">
@@ -1067,9 +1120,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/193131/" title="Implement a Real-time, Sliding-Window Application Using Amazon Kinesis and Apache Storm" class="post-teaser">
@@ -1141,9 +1194,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/163232-share/" title="Binaural Sound with the Web Audio API" class="post-teaser">
@@ -1178,9 +1231,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_1/" title="PEG that data - Part 1" class="post-teaser">
@@ -1258,9 +1311,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/opinion/ground_and_cloud/" title="An Island and a Cloud." class="post-teaser">
@@ -1300,9 +1353,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/jruby-jvm-encoding-flags/" title="JRuby / JVM encoding flags" class="post-teaser">

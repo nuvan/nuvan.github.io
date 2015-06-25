@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-25T19:43:03+01:00</updated>
+    <updated>2015-06-25T19:47:06+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Neuralnet mlp - mlxtend
+</title>
+        <link href="http://directionwithintent.com/shares/194614/"/>
+        <updated>2015-06-25T19:46:14+01:00</updated>
+        <id>http://directionwithintent.com/shares/194614</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;&lt;strong&gt;For more details, please see the &lt;a href=&quot;https://github.com/rasbt/mlxtend/blob/master/mlxtend/classifier/neuralnet_mlp.py&quot;&gt;source code&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Leaflet: Interactive web maps with R
