@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/200803/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#apple-has-published-a-great-free-learn-to-code-course-for-swift-share").html(data.count);
+      }
+      else {
+        $("#apple-has-published-a-great-free-learn-to-code-course-for-swift-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/194614/',
       context: document.body
     }).done(function( data ) {
@@ -506,6 +518,45 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/200803/" title="Apple has published a great free learn to code course for Swift
+" class="post-teaser">
+    
+      <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
+      
+  </a>
+  
+    <p class="post-category">
+      shares
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/200803/">
+      Apple has published a great free learn to code course for Swift
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    TL;DR: Apple has apparently, via some sort of collaboration with a university professor, published last w...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-06-26" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-06-26" itemprop="datePublished">JUNE 26, 2015 20:08:03
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="apple-has-published-a-great-free-learn-to-code-course-for-swift-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/194614/" title="Neuralnet mlp - mlxtend
 " class="post-teaser">
     
@@ -528,7 +579,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">today
+      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">yesterday
       </time>
       <!--time class="entry-date" datetime="2015-06-25" itemprop="datePublished">JUNE 25, 2015 19:46:14
       </time-->
@@ -567,7 +618,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">today
+      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">yesterday
       </time>
       <!--time class="entry-date" datetime="2015-06-25" itemprop="datePublished">JUNE 25, 2015 19:40:34
       </time-->
@@ -579,9 +630,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/133158/" title="How I Learned to Stop Worrying and Learned to Love to Crash (With Elixir)
@@ -606,7 +657,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-20" itemprop="datePublished">5 days ago
+      <time class="entry-date" datetime="2015-06-20" itemprop="datePublished">6 days ago
       </time>
       <!--time class="entry-date" datetime="2015-06-20" itemprop="datePublished">JUNE 20, 2015 13:31:58
       </time-->
@@ -618,9 +669,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/191809/" title="Understanding Color Psychology for Impactful Web Design - Designmodo
@@ -645,7 +696,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-17" itemprop="datePublished">1 week and 1 day ago
+      <time class="entry-date" datetime="2015-06-17" itemprop="datePublished">1 week and 2 days ago
       </time>
       <!--time class="entry-date" datetime="2015-06-17" itemprop="datePublished">JUNE 17, 2015 19:18:09
       </time-->
@@ -684,7 +735,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-16" itemprop="datePublished">1 week and 2 days ago
+      <time class="entry-date" datetime="2015-06-16" itemprop="datePublished">1 week and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2015-06-16" itemprop="datePublished">JUNE 16, 2015 19:58:03
       </time-->
@@ -696,9 +747,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/085516/" title="Designing For Animation
@@ -723,7 +774,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-16" itemprop="datePublished">1 week and 2 days ago
+      <time class="entry-date" datetime="2015-06-16" itemprop="datePublished">1 week and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2015-06-16" itemprop="datePublished">JUNE 16, 2015 08:55:16
       </time-->
@@ -735,9 +786,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/182301/" title="Building a Binary Classification Model with Amazon Machine Learning and Amazon Redshift
@@ -762,7 +813,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-06-15" itemprop="datePublished">1 week and 3 days ago
+      <time class="entry-date" datetime="2015-06-15" itemprop="datePublished">1 week and 4 days ago
       </time>
       <!--time class="entry-date" datetime="2015-06-15" itemprop="datePublished">JUNE 15, 2015 18:23:01
       </time-->
@@ -801,7 +852,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-05-29" itemprop="datePublished">3 weeks and 6 days ago
+      <time class="entry-date" datetime="2015-05-29" itemprop="datePublished">4 weeks ago
       </time>
       <!--time class="entry-date" datetime="2015-05-29" itemprop="datePublished">MAY 29, 2015 08:50:31
       </time-->
@@ -813,9 +864,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084653/" title="Why White Space Is Crucial To UX Design | Co.Design | business + design
@@ -840,7 +891,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-05-29" itemprop="datePublished">3 weeks and 6 days ago
+      <time class="entry-date" datetime="2015-05-29" itemprop="datePublished">4 weeks ago
       </time>
       <!--time class="entry-date" datetime="2015-05-29" itemprop="datePublished">MAY 29, 2015 08:46:53
       </time-->
@@ -852,9 +903,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/201232/" title="Building Modern Web Applications with AngularJS and Play Framework
@@ -879,7 +930,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-05-27" itemprop="datePublished">4 weeks and 1 day ago
+      <time class="entry-date" datetime="2015-05-27" itemprop="datePublished">4 weeks and 2 days ago
       </time>
       <!--time class="entry-date" datetime="2015-05-27" itemprop="datePublished">MAY 27, 2015 20:12:32
       </time-->
@@ -930,9 +981,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/235018/" title="Forex Algorithmic Trading: A Practical Tale for Engineers
@@ -969,9 +1020,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/150655/" title="Building Context Aware Apps | Toptal" class="post-teaser">
@@ -1044,9 +1095,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084716/" title="How Bad UX Makes Users Blame Themselves - UXPin" class="post-teaser">
@@ -1081,9 +1132,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084905/" title="Meaningful transitions - Animation - Google design guidelines" class="post-teaser">
@@ -1143,7 +1194,7 @@ function was a function and was sometimes worthy of...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">5 months and 4 weeks ago
+      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">6 months ago
       </time>
       <!--time class="entry-date" datetime="2014-12-28" itemprop="datePublished">DECEMBER 28, 2014 16:30:00
       </time-->
@@ -1155,9 +1206,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/192834-share/" title="Zero to 353 Pages: Bringing My Web Book to Print and eBook" class="post-teaser">
@@ -1180,7 +1231,7 @@ function was a function and was sometimes worthy of...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">5 months and 4 weeks ago
+      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">6 months ago
       </time>
       <!--time class="entry-date" datetime="2014-12-28" itemprop="datePublished">DECEMBER 28, 2014 15:30:00
       </time-->
@@ -1192,9 +1243,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/163232-share/" title="Binaural Sound with the Web Audio API" class="post-teaser">
@@ -1217,7 +1268,7 @@ function was a function and was sometimes worthy of...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">5 months and 4 weeks ago
+      <time class="entry-date" datetime="2014-12-28" itemprop="datePublished">6 months ago
       </time>
       <!--time class="entry-date" datetime="2014-12-28" itemprop="datePublished">DECEMBER 28, 2014 13:30:00
       </time-->
@@ -1269,9 +1320,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_2/" title="PEG that data - Part 2" class="post-teaser">
@@ -1294,7 +1345,7 @@ function was a function and was sometimes worthy of...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 2 days ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->
@@ -1309,9 +1360,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/opinion/ground_and_cloud/" title="An Island and a Cloud." class="post-teaser">
@@ -1336,7 +1387,7 @@ function was a function and was sometimes worthy of...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 2 days ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->
@@ -1393,11 +1444,10 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
       </div>
   </div>
-</div>
 </div>
 
 			</div><!-- /.page-content -->

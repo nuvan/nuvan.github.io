@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-06-25T19:58:28+01:00</updated>
+    <updated>2015-06-26T20:11:20+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,25 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Apple has published a great free learn to code course for Swift
+</title>
+        <link href="http://directionwithintent.com/shares/200803/"/>
+        <updated>2015-06-26T20:08:03+01:00</updated>
+        <id>http://directionwithintent.com/shares/200803</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;TL;DR: Apple has apparently, via some sort of collaboration with a university professor, published last week — during WWDC — a really solid-looking learn-to-code curriculum for Swift that is kind of on iTunes U but that is really on GitHub.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>Neuralnet mlp - mlxtend

@@ -113,6 +113,18 @@ Most of that time, the book existed entirely on the web. It was less “book” 
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/200803/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#apple-has-published-a-great-free-learn-to-code-course-for-swift-share").html(data.count);
+      }
+      else {
+        $("#apple-has-published-a-great-free-learn-to-code-course-for-swift-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/194614/',
       context: document.body
     }).done(function( data ) {
