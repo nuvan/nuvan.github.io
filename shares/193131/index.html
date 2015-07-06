@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/183320/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#start-using-landsat-on-aws-aws-official-blog-share").html(data.count);
+      }
+      else {
+        $("#start-using-landsat-on-aws-aws-official-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/200803/',
       context: document.body
     }).done(function( data ) {
