@@ -3,6 +3,30 @@
   
   
   <url>
+    <loc>http://directionwithintent.com/shares/080134/</loc>
+    
+    <lastmod>2015-07-07T08:01:34+01:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://directionwithintent.com/shares/080038/</loc>
+    
+    <lastmod>2015-07-07T08:00:38+01:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://directionwithintent.com/shares/075601/</loc>
+    
+    <lastmod>2015-07-07T07:56:01+01:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://directionwithintent.com/shares/183320/</loc>
     
     <lastmod>2015-07-06T18:33:20+01:00</lastmod>
@@ -205,28 +229,28 @@
   
   <url>
     <loc>http://directionwithintent.com/shares/</loc>
-    <lastmod>2015-07-06T18:35:17+01:00</lastmod>
+    <lastmod>2015-07-07T08:05:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://directionwithintent.com/programming/</loc>
-    <lastmod>2015-07-06T18:35:17+01:00</lastmod>
+    <lastmod>2015-07-07T08:05:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://directionwithintent.com/</loc>
-    <lastmod>2015-07-06T18:35:17+01:00</lastmod>
+    <lastmod>2015-07-07T08:05:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://directionwithintent.com/opinion/</loc>
-    <lastmod>2015-07-06T18:35:17+01:00</lastmod>
+    <lastmod>2015-07-07T08:05:11+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

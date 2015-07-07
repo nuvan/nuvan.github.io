@@ -112,6 +112,42 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/080134/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#recognising-a-bad-user-interface-at-first-glance-a-variety-of-dis-information-share").html(data.count);
+      }
+      else {
+        $("#recognising-a-bad-user-interface-at-first-glance-a-variety-of-dis-information-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/080038/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-arrow-an-advanced-kanban-board-jaxenter-share").html(data.count);
+      }
+      else {
+        $("#the-arrow-an-advanced-kanban-board-jaxenter-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/075601/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#scanning-for-vulnerabilities-in-just-10-minutes-with-vaddy-s-simple-url-crawler-share").html(data.count);
+      }
+      else {
+        $("#scanning-for-vulnerabilities-in-just-10-minutes-with-vaddy-s-simple-url-crawler-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/183320/',
       context: document.body
     }).done(function( data ) {
