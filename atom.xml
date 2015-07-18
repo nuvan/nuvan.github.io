@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-18T16:41:32+01:00</updated>
+    <updated>2015-07-18T16:56:02+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -19,11 +19,11 @@
 
     
     <entry>
-        <title>50 Beautifully Illustrated Graphics With Tips To Make You A Better Designer &amp;ndash; Design School
+        <title>Designing a Programming Language
 </title>
-        <link href="http://directionwithintent.com/shares/164118/"/>
-        <updated>2015-07-18T16:41:18+01:00</updated>
-        <id>http://directionwithintent.com/shares/164118</id>
+        <link href="http://directionwithintent.com/shares/165510/"/>
+        <updated>2015-07-18T16:55:10+01:00</updated>
+        <id>http://directionwithintent.com/shares/165510</id>
         <author>
 					<name>Nuno Valente</name>
 					<uri>http://directionwithintent.com/</uri>
@@ -31,7 +31,7 @@
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;Designers illustrate stories for their audience with the application of type, color, images and other graphic features. Like a writer when telling a story, there are specific tips and techniques that designers use to ensure the tone is correct and the messages are being brought to life.&lt;/p&gt;
+        	&lt;p&gt;Programming languages come in a variety of different paradigms. Even so, there tend to be two main camps along the language front. There are static languages and there are dynamic languages. To avoid too much history and any sort of in-depth analysis, this article will simplify things with a number of assumptions. One assumption we will make which might not always hold true is that programs written in static languages are compiled to machine code, while programs that are written in dynamic languages run in an interpreter.&lt;/p&gt;
 
         </content>
     </entry>
@@ -39,9 +39,9 @@
     <entry>
         <title>50 Beautifully Illustrated Graphics With Tips To Make You A Better Designer &amp;ndash; Design School
 </title>
-        <link href="http://directionwithintent.com/shares/163839/"/>
-        <updated>2015-07-18T16:38:39+01:00</updated>
-        <id>http://directionwithintent.com/shares/163839</id>
+        <link href="http://directionwithintent.com/shares/164118/"/>
+        <updated>2015-07-18T16:41:18+01:00</updated>
+        <id>http://directionwithintent.com/shares/164118</id>
         <author>
 					<name>Nuno Valente</name>
 					<uri>http://directionwithintent.com/</uri>

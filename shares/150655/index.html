@@ -108,19 +108,19 @@
   $(document).ready(function(){ 
     
     $.ajax({
-      url: query_url + '/shares/164118/',
+      url: query_url + '/shares/165510/',
       context: document.body
     }).done(function( data ) {
       if(data.count) {
-        $("#50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share").html(data.count);
+        $("#designing-a-programming-language-share").html(data.count);
       }
       else {
-        $("#50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share").html("0");
+        $("#designing-a-programming-language-share").html("0");
       }
     });
    
     $.ajax({
-      url: query_url + '/shares/163839/',
+      url: query_url + '/shares/164118/',
       context: document.body
     }).done(function( data ) {
       if(data.count) {
