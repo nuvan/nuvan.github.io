@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-07T08:05:11+01:00</updated>
+    <updated>2015-07-18T16:41:32+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,78 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>50 Beautifully Illustrated Graphics With Tips To Make You A Better Designer &amp;ndash; Design School
+</title>
+        <link href="http://directionwithintent.com/shares/164118/"/>
+        <updated>2015-07-18T16:41:18+01:00</updated>
+        <id>http://directionwithintent.com/shares/164118</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Designers illustrate stories for their audience with the application of type, color, images and other graphic features. Like a writer when telling a story, there are specific tips and techniques that designers use to ensure the tone is correct and the messages are being brought to life.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>50 Beautifully Illustrated Graphics With Tips To Make You A Better Designer &amp;ndash; Design School
+</title>
+        <link href="http://directionwithintent.com/shares/163839/"/>
+        <updated>2015-07-18T16:38:39+01:00</updated>
+        <id>http://directionwithintent.com/shares/163839</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Designers illustrate stories for their audience with the application of type, color, images and other graphic features. Like a writer when telling a story, there are specific tips and techniques that designers use to ensure the tone is correct and the messages are being brought to life.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>A curated list of awesome Machine Learning frameworks, libraries and software. - Mo-Data. Data made Easy
+</title>
+        <link href="http://directionwithintent.com/shares/183317/"/>
+        <updated>2015-07-09T18:33:17+01:00</updated>
+        <id>http://directionwithintent.com/shares/183317</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Link to Joseph Misiti (click on this link to get to the page with the full set of hyperlinks): &lt;a href=&quot;https://github.com/josephmisiti/awesome-machine-learning&quot; target=&quot;_blank&quot;&gt;A curated list of awesome Machine Learning frameworks, libraries and software.&lt;/a&gt; – .&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>DDD for Rails Developers. Part 1: Layered Architecture.
+</title>
+        <link href="http://directionwithintent.com/shares/093707/"/>
+        <updated>2015-07-07T09:37:07+01:00</updated>
+        <id>http://directionwithintent.com/shares/093707</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;There are many kinds of complexity that you have to deal with developing software and different kinds of applications will have very different sets of problems you need to solve. If you are building the next Twitter, scalability and fault-tolerance are the problems you are probably fighting. On the other hand, these problems are almost never an issue when working on enterprise applications. The complex domain is what you tackle when developing enterprise software. Business processes of a lot of companies are far from being trivial. Thus, refining the domain that provides loose coupling and will be flexible and maintainable in the future is extremely hard and requires a lot of practice and knowledge.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Recognising a Bad User Interface at First Glance | A variety of (dis)information
@@ -403,132 +475,6 @@ simulate code execution in a code review.&lt;/p&gt;
         <content type="html">
         	
         	&lt;p&gt;Sometimes, it is difficult for a user to know where to look or understand how an element got from point A to point B. Carefully choreographed motion design can effectively guide the user’s attention and focus through multiple steps of a process or procedure, avoid confusion when layouts change or elements are rearranged, and improve the overall beauty of the experience. Motion design should serve a functional purpose.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Implement a Real-time, Sliding-Window Application Using Amazon Kinesis and Apache Storm</title>
-        <link href="http://directionwithintent.com/shares/193131/"/>
-        <updated>2014-12-28T16:30:00+00:00</updated>
-        <id>http://directionwithintent.com/shares/193131</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Streams of data are becoming ubiquitous today – clickstreams, log streams, event streams, and more. The need for real-time processing of high-volume data streams is pushing the limits of traditional data processing infrastructures. Building a clickstream monitoring system, for example, where data is in the form of a continuous clickstream rather than discrete data sets, requires the use of continuous processing rather than ad-hoc, one-time queries.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Zero to 353 Pages: Bringing My Web Book to Print and eBook</title>
-        <link href="http://directionwithintent.com/shares/192834-share/"/>
-        <updated>2014-12-28T15:30:00+00:00</updated>
-        <id>http://directionwithintent.com/shares/192834-share</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;It’s a funny feeling to spend nearly six years making something and then finally hold it in your hand. It’s simultaneously, “This is it!” and “Is this it?” How can it be so small when it feels like such a big piece of my life?
-Most of that time, the book existed entirely on the web. It was less “book” and more “book-length manuscript that you can read with your browser”. The web site is still the book’s real home in some ways. If you want to know more about game programming and software architecture, take a look. You can read the whole thing online, for free, because I love you.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Binaural Sound with the Web Audio API</title>
-        <link href="http://directionwithintent.com/shares/163232-share/"/>
-        <updated>2014-12-28T13:30:00+00:00</updated>
-        <id>http://directionwithintent.com/shares/163232-share</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Head-related transfer functions describe the cues we receive that enable us to determine the direction a sound arrives from. We only have two ears. To be able to determine the direction the sound arrives from in 3D, our brain has to use all the information it can.&lt;/p&gt;
-
-&lt;p&gt;For example, the sound will often arrive at the other ear with a small delay. Also, there will often be a difference in the sound level at one ear, as compared to the other (especially at high frequencies). But, additionally, there is a ton of information available for our brain to use. Our shoulders reflect sound. Sound reflects and diffracts around our external ears (pinna). As our features, such as the shape of our pinna, are individual, so is the way our brain perceives sound in 3D.&lt;/p&gt;
-
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>PEG that data - Part 1</title>
-        <link href="http://directionwithintent.com/programming/peg_that_data_1/"/>
-        <updated>2014-11-16T00:00:00+00:00</updated>
-        <id>http://directionwithintent.com/programming/peg_that_data_1</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;http://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe languages, in the form of a set of rules that can be converted to string recognition mechanisms to parse the aforementioned languages.&lt;/p&gt;
-
-&lt;p&gt;I could spend some paragraphs, poorly describing PEGs, but I’ll leave this to a better-suited place for this subject: &lt;a href=&quot;http://en.wikipedia.org/wiki/Parsing_expression_grammar&quot;&gt;Wikipedia - PEG&lt;/a&gt;. At the time of this article writing, Wikipedia holds a very well put description of PEGs and their nature.&lt;/p&gt;
-
-&lt;p&gt;If after reading that link you still feel a bit confuse with this matter maybe you should need to deepen your knowledge about programming languages but fear not. Don’t invest in a Computer Science course right now and bear with me for a while. I’ll want to begin by building the equivalent of the usual Hello World program as a PEG. Actually we can start by building a PEG that recognizes a “Hello World” string.&lt;/p&gt;
-
-&lt;p&gt;Complying with the rules that we’ve learned in the previously supplied link, let’s build our PEG.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello World&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;What a pointless exercise indeed. The start expression only waits for input that matches exactly “Hello World” and that’s it.
-At this point, you maybe thinking that I’m in an exercise of spending time of my innocent readers but don’t get fooled by the simplicity of our first PEG.&lt;/p&gt;
-
-&lt;p&gt;Let’s build up on this PEG and accept more subjects for our greeting.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject
-Space    := &quot; &quot;   
-Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;While keeping this exercise very easy, we’ve introduced a rule that after a standard “Hello” greeting expects a white space and after that a Subject. This Subject can be one of the choices at right member of the Subject rule.&lt;/p&gt;
-
-&lt;p&gt;Our augmented PEG can recognize strings such as “Hello World”, “Hello Solar System”, “Hello Galaxy” or “Hello Universe”. Far beyond from those boring Hello World programs don’t you think?&lt;/p&gt;
-
-&lt;p&gt;Nevertheless if one wants to greet all the Subjects one needs four strings. What a waste of time and quotes. Let’s improve our PEG so that it can accept all of the Hello greetings in a single string.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
-Space    := &quot; &quot;
-Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A bit more complicated to read, but still we can follow easily the rules to build our greeting string.&lt;/p&gt;
-
-&lt;p&gt;The build path is the same one than our previous PEG. Our starting expression waits for a “Hello” string followed by a Space and after that for a Subject. Add a “.” at the end of a string and our PEG would happily accept our saluting.
-The difference now is that we’ve defined a group that may or may not exist afterward (No Schroedinger no…cho choooo. Out of here.).&lt;/p&gt;
-
-&lt;p&gt;This group &lt;code&gt;(Space ExpStart)?&lt;/code&gt; means that one can add another Space and follow that by our ExpStart in a recursive fashion. Now we can accept well-articulated greetings such as: “Hello World. Hello Solar System”, “Hello World. Hello Solar System. Hello Galaxy.” or even “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.”. If one wants we can repeat this string as long our keyboard complies and our PEG will accept this expression until your RAM cannot swap more space to disk.&lt;/p&gt;
-
-&lt;p&gt;Of course, it would be interesting to see our expressions being actually validated somewhere instead of relying only in a theoretical example. At the time of writing this article the &lt;a href=&quot;http://pegjs.majda.cz&quot;&gt;PEG.js&lt;/a&gt; project page had a great online version of a &lt;a href=&quot;http://pegjs.majda.cz/online&quot;&gt;PEG parser&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;The PEG library provided by this project page will be used in our following articles so we might as well test it right away with our Hello World samples.&lt;/p&gt;
-
-&lt;p&gt;Just copy our last grammar expressions, converted below to the requested syntax, to the box “1 - Write your PEG.js grammar”.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ExpStart = &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
-Space    = &quot; &quot;
-Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &quot;Universe&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If all goes well you will receive a green “Parser built successfully” message below the grammar input box.&lt;/p&gt;
-
-&lt;p&gt;To test our grammar just copy one of our accepted test strings in to the box “2 - Test generated parser with some input”. Let’s jump to the biggest one, “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.” and once again we hope to be presented with a green “Input parsed successfully.” box above. As a bonus, we can inspect the resulting syntax tree in a JSON array format provided in “Output”.&lt;/p&gt;
-
-&lt;p&gt;Let’s end our first PEG exercise. I’ll recommend a thorough reading of the PEG.js library syntax and options for our next article where we will dive deep into a interesting problem while building more than a syntax validator.&lt;/p&gt;
 
         </content>
     </entry>

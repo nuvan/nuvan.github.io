@@ -112,6 +112,54 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/164118/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share").html(data.count);
+      }
+      else {
+        $("#50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/163839/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share").html(data.count);
+      }
+      else {
+        $("#50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/183317/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#a-curated-list-of-awesome-machine-learning-frameworks-libraries-and-software-mo-data-data-made-easy-share").html(data.count);
+      }
+      else {
+        $("#a-curated-list-of-awesome-machine-learning-frameworks-libraries-and-software-mo-data-data-made-easy-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/093707/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#ddd-for-rails-developers-part-1-layered-architecture-share").html(data.count);
+      }
+      else {
+        $("#ddd-for-rails-developers-part-1-layered-architecture-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/080134/',
       context: document.body
     }).done(function( data ) {
