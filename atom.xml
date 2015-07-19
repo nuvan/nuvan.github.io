@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-18T16:56:02+01:00</updated>
+    <updated>2015-07-19T01:08:02+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Embrace event-driven computing: Amazon expands DynamoDB with streams, cross-region replication, and database triggers - All Things Distributed
+</title>
+        <link href="http://directionwithintent.com/shares/010736/"/>
+        <updated>2015-07-19T01:07:36+01:00</updated>
+        <id>http://directionwithintent.com/shares/010736</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In just three short years, Amazon DynamoDB has emerged as the backbone for many powerful Internet applications such as &lt;a href=&quot;https://www.youtube.com/watch?t=10&amp;amp;v=EPE7HRDPzKM&quot;&gt;AdRoll&lt;/a&gt;, &lt;a href=&quot;http://aws.amazon.com/solutions/case-studies/druva/&quot;&gt;Druva&lt;/a&gt;, &lt;a href=&quot;http://aws.amazon.com/solutions/case-studies/devicescape/&quot;&gt;DeviceScape&lt;/a&gt;, and &lt;a href=&quot;http://aws.amazon.com/solutions/case-studies/battle-camp/&quot;&gt;Battlecamp&lt;/a&gt;. Many happy developers are using DynamoDB to handle trillions of requests every day. I am excited to share with you that today we are expanding DynamoDB with streams, cross-region replication, and database triggers. In this blog post, I will explain how these three new capabilities empower you to build applications with distributed systems architecture and create responsive, reliable, and high-performance applications using DynamoDB that work at any scale.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Designing a Programming Language
@@ -458,23 +476,6 @@ simulate code execution in a code review.&lt;/p&gt;
         <content type="html">
         	
         	&lt;p&gt;When things go wrong, we want to know why as quickly and easily (but maybe not truthfully) as possible. But when technology is thrown into the mix, the problems are more complex. Our perceptions change. When something goes wrong with a user interface, the questions don’t always have easy answers.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Meaningful transitions - Animation - Google design guidelines</title>
-        <link href="http://directionwithintent.com/shares/084905/"/>
-        <updated>2015-01-14T08:49:05+00:00</updated>
-        <id>http://directionwithintent.com/shares/084905</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Sometimes, it is difficult for a user to know where to look or understand how an element got from point A to point B. Carefully choreographed motion design can effectively guide the user’s attention and focus through multiple steps of a process or procedure, avoid confusion when layouts change or elements are rearranged, and improve the overall beauty of the experience. Motion design should serve a functional purpose.&lt;/p&gt;
 
         </content>
     </entry>

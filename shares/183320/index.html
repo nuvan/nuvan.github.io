@@ -111,6 +111,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/010736/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#embrace-event-driven-computing-amazon-expands-dynamodb-with-streams-cross-region-replication-and-database-triggers-all-things-distributed-share").html(data.count);
+      }
+      else {
+        $("#embrace-event-driven-computing-amazon-expands-dynamodb-with-streams-cross-region-replication-and-database-triggers-all-things-distributed-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/165510/',
       context: document.body
     }).done(function( data ) {
