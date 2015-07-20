@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-19T01:08:02+01:00</updated>
+    <updated>2015-07-20T08:29:42+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -31,7 +31,7 @@
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;In just three short years, Amazon DynamoDB has emerged as the backbone for many powerful Internet applications such as &lt;a href=&quot;https://www.youtube.com/watch?t=10&amp;amp;v=EPE7HRDPzKM&quot;&gt;AdRoll&lt;/a&gt;, &lt;a href=&quot;http://aws.amazon.com/solutions/case-studies/druva/&quot;&gt;Druva&lt;/a&gt;, &lt;a href=&quot;http://aws.amazon.com/solutions/case-studies/devicescape/&quot;&gt;DeviceScape&lt;/a&gt;, and &lt;a href=&quot;http://aws.amazon.com/solutions/case-studies/battle-camp/&quot;&gt;Battlecamp&lt;/a&gt;. Many happy developers are using DynamoDB to handle trillions of requests every day. I am excited to share with you that today we are expanding DynamoDB with streams, cross-region replication, and database triggers. In this blog post, I will explain how these three new capabilities empower you to build applications with distributed systems architecture and create responsive, reliable, and high-performance applications using DynamoDB that work at any scale.&lt;/p&gt;
+        	&lt;p&gt;Many happy developers are using DynamoDB to handle trillions of requests every day. I am excited to share with you that today we are expanding DynamoDB with streams, cross-region replication, and database triggers. In this blog post, I will explain how these three new capabilities empower you to build applications with distributed systems architecture and create responsive, reliable, and high-performance applications using DynamoDB that work at any scale.&lt;/p&gt;
 
         </content>
     </entry>
