@@ -107,6 +107,42 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0722195153/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#system-resource-usage-monitor-forensics-share").html(data.count);
+      }
+      else {
+        $("#system-resource-usage-monitor-forensics-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/0722083018/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#snifer-security-cheatsheets-share").html(data.count);
+      }
+      else {
+        $("#snifer-security-cheatsheets-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/184215/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#under-the-hood-of-amazon-ec2-container-service-all-things-distributed-share").html(data.count);
+      }
+      else {
+        $("#under-the-hood-of-amazon-ec2-container-service-all-things-distributed-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/010736/',
       context: document.body
     }).done(function( data ) {
@@ -640,7 +676,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">8 months and 6 days ago
+      <time class="entry-date" datetime="2014-11-16" itemprop="datePublished">8 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2014-11-16" itemprop="datePublished">NOVEMBER 16, 2014 00:00:00
       </time-->
@@ -680,7 +716,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 3 weeks ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 4 weeks ago
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->

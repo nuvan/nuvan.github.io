@@ -108,6 +108,42 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0722195153/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#system-resource-usage-monitor-forensics-share").html(data.count);
+      }
+      else {
+        $("#system-resource-usage-monitor-forensics-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/0722083018/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#snifer-security-cheatsheets-share").html(data.count);
+      }
+      else {
+        $("#snifer-security-cheatsheets-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/shares/184215/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#under-the-hood-of-amazon-ec2-container-service-all-things-distributed-share").html(data.count);
+      }
+      else {
+        $("#under-the-hood-of-amazon-ec2-container-service-all-things-distributed-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/010736/',
       context: document.body
     }).done(function( data ) {
