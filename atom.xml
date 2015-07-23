@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-23T08:05:44+01:00</updated>
+    <updated>2015-07-23T08:45:28+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>GitHub Special: Data Scientists to Follow &amp;amp; Best Tutorials on GitHub
+</title>
+        <link href="http://directionwithintent.com/shares/0723084452/"/>
+        <updated>2015-07-23T08:44:52+01:00</updated>
+        <id>http://directionwithintent.com/shares/0723084452</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;If you haven’t tried this yet, it’s your turn now. I have compiled a list of some awesome Data Scientists on GitHub. In addition, you’ll also find the list of best data science tutorials available on GitHub. Specially for beginners, if don’t know about GitHub, here’s the quick introduction in simple words.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Uncertainty in Real-Time Fraud Detection
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;A few minutes ago I came across &lt;a href=&quot;https://news.ycombinator.com/item?id=6867102&quot;&gt;a Hacker News post&lt;/a&gt; that detailed a method of adding search to your static site. As you probably know, adding search to a static site is a bit tricky, because you can’t just send the query to a server and have the server process it and return the results. If you want full-text search, you have to implement something like an &lt;a href=&quot;http://en.wikipedia.org/wiki/Inverted_index&quot;&gt;inverted index&lt;/a&gt;.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Why White Space Is Crucial To UX Design | Co.Design | business + design
-</title>
-        <link href="http://directionwithintent.com/shares/084653/"/>
-        <updated>2015-05-29T08:46:53+01:00</updated>
-        <id>http://directionwithintent.com/shares/084653</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;White space can be broken down into four elements: visual white space (space surrounding graphics, icons, and images); layout white space (margins, paddings, and gutters); text white space (spacing between lines and spacing between letters); and content white space (space separating columns of text).&lt;/p&gt;
 
         </content>
     </entry>

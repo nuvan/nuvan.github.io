@@ -114,6 +114,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723084452/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#github-special-data-scientists-to-follow-amp-best-tutorials-on-github-share").html(data.count);
+      }
+      else {
+        $("#github-special-data-scientists-to-follow-amp-best-tutorials-on-github-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723080420/',
       context: document.body
     }).done(function( data ) {
