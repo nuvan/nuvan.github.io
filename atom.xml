@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-23T15:08:57+01:00</updated>
+    <updated>2015-07-23T15:54:13+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Binary pattern matching in Elixir with PNG parsing example
+</title>
+        <link href="http://directionwithintent.com/shares/0723155314/"/>
+        <updated>2015-07-23T15:53:14+01:00</updated>
+        <id>http://directionwithintent.com/shares/0723155314</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Dealing with binary data has always been a pickle in OOP language. Pattern matching is very fundemental to Elixir making the functions much more descriptive. I was very pleased to see that the pattern matching was not just limited to tuple, list etc. but extended to binary data as well.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Architecting Backend for a Social&amp;nbsp;Product - High Scalability -
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;&lt;strong&gt;Animation&lt;/strong&gt;, like any other facet of the web, &lt;a href=&quot;http://www.smashingmagazine.com/2015/05/14/functional-ux-design-animations/&quot;&gt;must&lt;/a&gt; &lt;a href=&quot;http://www.smashingmagazine.com/2014/11/18/the-state-of-animation-2014/&quot;&gt;be&lt;/a&gt; &lt;a href=&quot;http://www.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/&quot;&gt;designed&lt;/a&gt;. As web developers, we think about the effects of typography, layout, interaction, and shifting viewports, but when incorporating animation we have another factor to consider: time.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Building a Binary Classification Model with Amazon Machine Learning and Amazon Redshift
-</title>
-        <link href="http://directionwithintent.com/shares/182301/"/>
-        <updated>2015-06-15T18:23:01+01:00</updated>
-        <id>http://directionwithintent.com/shares/182301</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Many decisions in life are binary, answered either Yes or No. Many business problems also have binary answers. For example: “Is this transaction fraudulent?”, “Is this customer going to buy that product?”, or “Is this user going to churn?” In machine learning, this is called a binary classification problem. Many business decisions can be enhanced by accurately predicting the answer to a binary question.&lt;/p&gt;
 
         </content>
     </entry>

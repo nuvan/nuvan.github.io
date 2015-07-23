@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723155314/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#binary-pattern-matching-in-elixir-with-png-parsing-example-share").html(data.count);
+      }
+      else {
+        $("#binary-pattern-matching-in-elixir-with-png-parsing-example-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723150811/',
       context: document.body
     }).done(function( data ) {
