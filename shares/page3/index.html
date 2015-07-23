@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723150811/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#architecting-backend-for-a-social-nbsp-product-high-scalability-share").html(data.count);
+      }
+      else {
+        $("#architecting-backend-for-a-social-nbsp-product-high-scalability-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723084452/',
       context: document.body
     }).done(function( data ) {
@@ -695,6 +707,66 @@
           </div>
           
             <div class="post-title">
+              <a href="https://designschool.canva.com/blog/professional-design-tips/
+">
+                50 Beautifully Illustrated Graphics With Tips To Make You A Better Designer &ndash; Design School
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="https://designschool.canva.com/blog/professional-design-tips/
+">
+                Designers illustrate stories for their audience with the application of type, color, images and other graphic features. Like a writer when telling a story, there are specific tips and techniques that designers use to ensure the tone is correct and the messa...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-18" itemprop="datePublished">5 days ago
+      </time>
+      <!--time class="entry-date" datetime="2015-07-18" itemprop="datePublished">JULY 18, 2015 16:41:18
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="50-beautifully-illustrated-graphics-with-tips-to-make-you-a-better-designer-ndash-design-school-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/164118/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/164118/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.mo-data.com/a-curated-list-of-awesome-machine-learning-frameworks-libraries-and-software
 ">
                 A curated list of awesome Machine Learning frameworks, libraries and software. - Mo-Data. Data made Easy
@@ -932,66 +1004,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://blog.vaddy.net/post/122838610337/simple-url-crawler
-">
-                Scanning for vulnerabilities in just 10 minutes with VAddy’s simple URL crawler
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://blog.vaddy.net/post/122838610337/simple-url-crawler
-">
-                VAddy starts scanning for vulnerabilities after you have registered a test server and crawl data for your site. The crawl data includes URLs and parameters to scan; VAddy’s scanner learns the structure of your site from this information. To register crawl d...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 2 days ago
-      </time>
-      <!--time class="entry-date" datetime="2015-07-07" itemprop="datePublished">JULY 07, 2015 07:56:01
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="scanning-for-vulnerabilities-in-just-10-minutes-with-vaddy-s-simple-url-crawler-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/075601/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/075601/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -1030,6 +1042,10 @@
   
     
       <a href="/shares/page8">8</a>
+    
+  
+    
+      <a href="/shares/page9">9</a>
     
   
 

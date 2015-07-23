@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723150811/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#architecting-backend-for-a-social-nbsp-product-high-scalability-share").html(data.count);
+      }
+      else {
+        $("#architecting-backend-for-a-social-nbsp-product-high-scalability-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723084452/',
       context: document.body
     }).done(function( data ) {
