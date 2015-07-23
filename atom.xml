@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-23T15:54:13+01:00</updated>
+    <updated>2015-07-23T16:11:21+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Algorithmia Blog -Mining Product Hunt: Detecting Vote-Rings - Algorithmia Blog
+</title>
+        <link href="http://directionwithintent.com/shares/0723160943/"/>
+        <updated>2015-07-23T16:09:43+01:00</updated>
+        <id>http://directionwithintent.com/shares/0723160943</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we’ll start with how we acquired the data, and then drill down on our approach for the vote-ring problem.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Binary pattern matching in Elixir with PNG parsing example
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;You’re in charge of delivering your company’s latest and greatest initiative that’s going to change the face of “Widgets International” forever. It’s a software project that’ll engage and enthrall your customers, make your colleague’s lives easier, and make the company millions in revenue. There’s a great deal of anticipation, fervour, excitement, and expectation. You need to get it done as quickly as possible, so your business can start to reap the benefits. The future success of the company depends on you. All eyes are on you. You cannot fail.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Designing For Animation
-</title>
-        <link href="http://directionwithintent.com/shares/085516/"/>
-        <updated>2015-06-16T08:55:16+01:00</updated>
-        <id>http://directionwithintent.com/shares/085516</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;&lt;strong&gt;Animation&lt;/strong&gt;, like any other facet of the web, &lt;a href=&quot;http://www.smashingmagazine.com/2015/05/14/functional-ux-design-animations/&quot;&gt;must&lt;/a&gt; &lt;a href=&quot;http://www.smashingmagazine.com/2014/11/18/the-state-of-animation-2014/&quot;&gt;be&lt;/a&gt; &lt;a href=&quot;http://www.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/&quot;&gt;designed&lt;/a&gt;. As web developers, we think about the effects of typography, layout, interaction, and shifting viewports, but when incorporating animation we have another factor to consider: time.&lt;/p&gt;
 
         </content>
     </entry>

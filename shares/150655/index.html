@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723160943/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#algorithmia-blog-mining-product-hunt-detecting-vote-rings-algorithmia-blog-share").html(data.count);
+      }
+      else {
+        $("#algorithmia-blog-mining-product-hunt-detecting-vote-rings-algorithmia-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723155314/',
       context: document.body
     }).done(function( data ) {
