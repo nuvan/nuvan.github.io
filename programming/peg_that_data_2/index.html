@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723074848/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#create-a-character-voting-app-using-react-node-js-mongodb-and-socket-io-share").html(data.count);
+      }
+      else {
+        $("#create-a-character-voting-app-using-react-node-js-mongodb-and-socket-io-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0722195153/',
       context: document.body
     }).done(function( data ) {

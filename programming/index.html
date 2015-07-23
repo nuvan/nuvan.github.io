@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723074848/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#create-a-character-voting-app-using-react-node-js-mongodb-and-socket-io-share").html(data.count);
+      }
+      else {
+        $("#create-a-character-voting-app-using-react-node-js-mongodb-and-socket-io-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0722195153/',
       context: document.body
     }).done(function( data ) {
@@ -716,7 +728,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">8 months and 4 weeks ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">9 months ago
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->

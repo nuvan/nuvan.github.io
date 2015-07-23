@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-22T19:56:20+01:00</updated>
+    <updated>2015-07-23T07:49:18+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Create a character voting app using React, Node.js, MongoDB and Socket.IO
+</title>
+        <link href="http://directionwithintent.com/shares/0723074848/"/>
+        <updated>2015-07-23T07:48:48+01:00</updated>
+        <id>http://directionwithintent.com/shares/0723074848</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In this tutorial we are going to build a character voting app (inspired by &lt;em&gt;Facemash&lt;/em&gt; and &lt;em&gt;Hot or Not&lt;/em&gt;) for &lt;a href=&quot;http://www.eveonline.com/&quot;&gt;EVE Online&lt;/a&gt; - a massively multiplayer online game. Be sure to play this awesome soundtrack below to get yourself in the mood for this epicly long tutorial.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>System Resource Usage Monitor Forensics
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;Netflix tunes Amazon EC2 instances for maximum performance. In this session, you learn how Netflix configures the fastest possible EC2 instances, while reducing latency outliers. This session explores the various Xen modes (e.g., HVM, PV, etc.) and how they are optimized for different workloads. Hear how Netflix chooses Linux kernel versions based on desired performance characteristics and receive a firsthand look at how they set kernel tunables, including hugepages. You also hear about Netflix’s use of SR-IOV to enable enhanced networking and their approach to observability, which can exonerate EC2 issues and direct attention back to application performance.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Forex Algorithmic Trading: A Practical Tale for Engineers
-</title>
-        <link href="http://directionwithintent.com/shares/235018/"/>
-        <updated>2015-01-18T23:50:18+00:00</updated>
-        <id>http://directionwithintent.com/shares/235018</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;As you may know, the Foreign Exchange (Forex) market is used for trading between currency pairs. But you might not be aware that it’s the most liquid market in the world.&lt;/p&gt;
 
         </content>
     </entry>
