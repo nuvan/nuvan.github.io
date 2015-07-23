@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-23T08:00:38+01:00</updated>
+    <updated>2015-07-23T08:05:44+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Uncertainty in Real-Time Fraud Detection
+</title>
+        <link href="http://directionwithintent.com/shares/0723080420/"/>
+        <updated>2015-07-23T08:04:20+01:00</updated>
+        <id>http://directionwithintent.com/shares/0723080420</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;There are only a few complex event processing (CEP) fraud engines that support all of the varieties of uncertainty that reside in financial environments. Here, RTInsights contributor Ivo Correia discusses the need to support uncertainty—which may constitute a significant line of research and development for CEP engines.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Your PenTest Tools Arsenal InfoGraphic | CTF365 Blog
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;White space can be broken down into four elements: visual white space (space surrounding graphics, icons, and images); layout white space (margins, paddings, and gutters); text white space (spacing between lines and spacing between letters); and content white space (space separating columns of text).&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Building Modern Web Applications with AngularJS and Play Framework
-</title>
-        <link href="http://directionwithintent.com/shares/201232/"/>
-        <updated>2015-05-27T20:12:32+01:00</updated>
-        <id>http://directionwithintent.com/shares/201232</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Choosing the right tool for the right purpose goes a long way, especially when it comes to building modern web applications. A lot of us are familiar with AngularJS and how easy it makes developing robust web application front-ends. Although many will argue against the use of this popular web framework, it certainly has plenty to offer and can be &lt;a href=&quot;/angular-js/a-step-by-step-guide-to-your-first-angularjs-app&quot;&gt;an appropriate choice&lt;/a&gt; for a wide array of needs. On the other hand, the components that you use on the back-end will dictate a lot about the web application’s performance, as they have influence on the overall user experience. &lt;a href=&quot;https://www.playframework.com/&quot;&gt;Play&lt;/a&gt; is a high velocity web framework for Java and Scala. It is based on a lightweight, stateless, web-friendly architecture and follows MVC patterns and principles similar to Rails and Django.&lt;/p&gt;
 
         </content>
     </entry>

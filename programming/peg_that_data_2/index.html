@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723080420/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#uncertainty-in-real-time-fraud-detection-share").html(data.count);
+      }
+      else {
+        $("#uncertainty-in-real-time-fraud-detection-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723075918/',
       context: document.body
     }).done(function( data ) {
