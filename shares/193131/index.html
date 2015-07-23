@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0723075918/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#your-pentest-tools-arsenal-infographic-ctf365-blog-share").html(data.count);
+      }
+      else {
+        $("#your-pentest-tools-arsenal-infographic-ctf365-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723074848/',
       context: document.body
     }).done(function( data ) {
