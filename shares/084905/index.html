@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0724133025/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#product-development-the-hierarchy-of-needs-share").html(data.count);
+      }
+      else {
+        $("#product-development-the-hierarchy-of-needs-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723160943/',
       context: document.body
     }).done(function( data ) {

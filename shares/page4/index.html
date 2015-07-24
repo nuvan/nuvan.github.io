@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0724133025/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#product-development-the-hierarchy-of-needs-share").html(data.count);
+      }
+      else {
+        $("#product-development-the-hierarchy-of-needs-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0723160943/',
       context: document.body
     }).done(function( data ) {
@@ -731,6 +743,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.sitepoint.com/ddd-for-rails-developers-part-1-layered-architecture/
+">
+                DDD for Rails Developers. Part 1: Layered Architecture.
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.sitepoint.com/ddd-for-rails-developers-part-1-layered-architecture/
+">
+                There are many kinds of complexity that you have to deal with developing software and different kinds of applications will have very different sets of problems you need to solve. If you are building the next Twitter, scalability and fault-tolerance are the ...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 3 days ago
+      </time>
+      <!--time class="entry-date" datetime="2015-07-07" itemprop="datePublished">JULY 07, 2015 09:37:07
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="ddd-for-rails-developers-part-1-layered-architecture-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/093707/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/093707/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.hadermann.be/blog/134/recognising-a-bad-user-interface-at-first-glance/
 ">
                 Recognising a Bad User Interface at First Glance | A variety of (dis)information
@@ -749,7 +821,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 2 days ago
+      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2015-07-07" itemprop="datePublished">JULY 07, 2015 08:01:34
       </time-->
@@ -811,7 +883,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 2 days ago
+      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2015-07-07" itemprop="datePublished">JULY 07, 2015 08:00:38
       </time-->
@@ -871,7 +943,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 2 days ago
+      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2 weeks and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2015-07-07" itemprop="datePublished">JULY 07, 2015 07:56:01
       </time-->
@@ -933,7 +1005,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-06" itemprop="datePublished">2 weeks and 3 days ago
+      <time class="entry-date" datetime="2015-07-06" itemprop="datePublished">2 weeks and 4 days ago
       </time>
       <!--time class="entry-date" datetime="2015-07-06" itemprop="datePublished">JULY 06, 2015 18:33:20
       </time-->
@@ -953,68 +1025,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/183320/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="https://medium.com/ios-os-x-development/apple-has-published-a-great-free-learn-to-code-course-for-swift-on-github-feb5e4d70691
-">
-                Apple has published a great free learn to code course for Swift
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="https://medium.com/ios-os-x-development/apple-has-published-a-great-free-learn-to-code-course-for-swift-on-github-feb5e4d70691
-">
-                TL;DR: Apple has apparently, via some sort of collaboration with a university professor, published last week — during WWDC — a really solid-looking learn-to-code curriculum for Swift that is kind of on iTunes U but that is really on GitHub.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-26" itemprop="datePublished">3 weeks and 6 days ago
-      </time>
-      <!--time class="entry-date" datetime="2015-06-26" itemprop="datePublished">JUNE 26, 2015 20:08:03
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="apple-has-published-a-great-free-learn-to-code-course-for-swift-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/200803/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/200803/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-23T16:11:21+01:00</updated>
+    <updated>2015-07-24T13:32:14+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Product Development - The Hierarchy of Needs
+</title>
+        <link href="http://directionwithintent.com/shares/0724133025/"/>
+        <updated>2015-07-24T13:30:25+01:00</updated>
+        <id>http://directionwithintent.com/shares/0724133025</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;But what is valuable for my customers and users? Some time ago it was much easier to decide which features should be built into the next release - the business people told us. In those days software was mainly created for use in business or science. Nowadays software has become an integrated part of everyday life for just about everybody. The question what is most valuable could be answered much easier if customers and users are part of a well-known business context. But what may be valuable to customers whom I do not even know in an unstructured and completely individualized market?&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Algorithmia Blog -Mining Product Hunt: Detecting Vote-Rings - Algorithmia Blog
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;It’s no secret that &lt;strong&gt;color psychology&lt;/strong&gt; is used extensively in all aspects of design. From the colors used on day-to-day grocery items, to brand logos and website design, color is an important element that can convey a specific message to users.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>The Ultimate Introduction To Agile Project Management
-</title>
-        <link href="http://directionwithintent.com/shares/195803/"/>
-        <updated>2015-06-16T19:58:03+01:00</updated>
-        <id>http://directionwithintent.com/shares/195803</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;You’re in charge of delivering your company’s latest and greatest initiative that’s going to change the face of “Widgets International” forever. It’s a software project that’ll engage and enthrall your customers, make your colleague’s lives easier, and make the company millions in revenue. There’s a great deal of anticipation, fervour, excitement, and expectation. You need to get it done as quickly as possible, so your business can start to reap the benefits. The future success of the company depends on you. All eyes are on you. You cannot fail.&lt;/p&gt;
 
         </content>
     </entry>
