@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0725160249/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#making-apache-kafka-elastic-with-apache-mesos-share").html(data.count);
+      }
+      else {
+        $("#making-apache-kafka-elastic-with-apache-mesos-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0724133025/',
       context: document.body
     }).done(function( data ) {
