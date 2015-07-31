@@ -114,6 +114,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0731081142/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#creating-your-own-private-botnet-for-scanning-share").html(data.count);
+      }
+      else {
+        $("#creating-your-own-private-botnet-for-scanning-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0725160249/',
       context: document.body
     }).done(function( data ) {
