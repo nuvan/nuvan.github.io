@@ -114,6 +114,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0802233242/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#spark-sql-relational-data-processing-in-spark-share").html(data.count);
+      }
+      else {
+        $("#spark-sql-relational-data-processing-in-spark-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0802205940/',
       context: document.body
     }).done(function( data ) {

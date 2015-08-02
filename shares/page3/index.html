@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0802233242/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#spark-sql-relational-data-processing-in-spark-share").html(data.count);
+      }
+      else {
+        $("#spark-sql-relational-data-processing-in-spark-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0802205940/',
       context: document.body
     }).done(function( data ) {
@@ -815,6 +827,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html
+">
+                Architecting Backend for a Social&nbsp;Product - High Scalability -
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html
+">
+                This is aimed towards taking you through key architectural decisions which will make a social application a true next generation social product. The proposed changes addresses following attributes; a) availability b) reliability c) scalability d) performanc...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 3 days ago
+      </time>
+      <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 15:08:11
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="architecting-backend-for-a-social-nbsp-product-high-scalability-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0723150811/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723150811/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.analyticsvidhya.com/blog/2015/07/github-special-data-scientists-to-follow-best-tutorials/
 ">
                 GitHub Special: Data Scientists to Follow &amp; Best Tutorials on GitHub
@@ -1048,66 +1120,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="https://files.sans.org/summit/Digital_Forensics_and_Incident_Response_Summit_2015/PDFs/Windows8SRUMForensicsYogeshKhatri.pdf
-">
-                System Resource Usage Monitor Forensics
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="https://files.sans.org/summit/Digital_Forensics_and_Incident_Response_Summit_2015/PDFs/Windows8SRUMForensicsYogeshKhatri.pdf
-">
-                The Microsoft Windows 8 operating system has a newly added feature to track system resource usage, specifically process and network metrics over time. Process related information such as process owner, CPU cycles used, data bytes read/written, and network d...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-22" itemprop="datePublished">1 week and 4 days ago
-      </time>
-      <!--time class="entry-date" datetime="2015-07-22" itemprop="datePublished">JULY 22, 2015 19:51:53
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="system-resource-usage-monitor-forensics-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0722195153/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0722195153/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -1154,6 +1166,10 @@
   
     
       <a href="/shares/page10">10</a>
+    
+  
+    
+      <a href="/shares/page11">11</a>
     
   
 
