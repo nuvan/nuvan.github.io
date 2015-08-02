@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0802161916/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#getting-started-with-kafka-in-node-js-with-the-confluent-rest-proxy-share").html(data.count);
+      }
+      else {
+        $("#getting-started-with-kafka-in-node-js-with-the-confluent-rest-proxy-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0802151616/',
       context: document.body
     }).done(function( data ) {
