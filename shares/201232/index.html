@@ -114,6 +114,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803004917/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#forex-trading-diary-1-automated-forex-trading-with-the-oanda-api-quantstart-share").html(data.count);
+      }
+      else {
+        $("#forex-trading-diary-1-automated-forex-trading-with-the-oanda-api-quantstart-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0802233242/',
       context: document.body
     }).done(function( data ) {

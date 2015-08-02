@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-02T23:35:03+01:00</updated>
+    <updated>2015-08-03T00:50:01+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Forex Trading Diary #1 - Automated Forex Trading with the OANDA API - QuantStart
+</title>
+        <link href="http://directionwithintent.com/shares/0803004917/"/>
+        <updated>2015-08-03T00:49:17+01:00</updated>
+        <id>http://directionwithintent.com/shares/0803004917</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I previously mentioned in the QuantStart: 2014 In Review article that I would be spending some of 2015 writing about automated forex trading.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Spark SQL: Relational Data Processing in Spark
@@ -446,24 +464,6 @@
         <content type="html">
         	
         	&lt;p&gt;When I wrote my &lt;a href=&quot;http://www.hadermann.be/blog/121/enterprise-software-acquisition-whats-missing/&quot; target=&quot;_blank&quot;&gt;previous blog post&lt;/a&gt;, it dawned on me that a trained eye can often spot unfriendly software a mile away.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>The Arrow – An advanced Kanban board - JAXenter
-</title>
-        <link href="http://directionwithintent.com/shares/080038/"/>
-        <updated>2015-07-07T08:00:38+01:00</updated>
-        <id>http://directionwithintent.com/shares/080038</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;After his success with the Priority Pyramid, Tomas Rybing is back with another great way to organise your workflow via the Kanban methodology.&lt;/p&gt;
 
         </content>
     </entry>
