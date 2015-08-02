@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0802204952/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#a-neural-network-in-11-lines-of-python-part-1-i-am-trask-share").html(data.count);
+      }
+      else {
+        $("#a-neural-network-in-11-lines-of-python-part-1-i-am-trask-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0802161916/',
       context: document.body
     }).done(function( data ) {
