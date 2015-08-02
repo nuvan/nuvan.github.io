@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0802151616/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#introduction-to-monte-carlo-methods-share").html(data.count);
+      }
+      else {
+        $("#introduction-to-monte-carlo-methods-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0731081142/',
       context: document.body
     }).done(function( data ) {

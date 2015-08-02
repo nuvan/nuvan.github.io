@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-07-31T08:13:43+01:00</updated>
+    <updated>2015-08-02T15:17:13+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Introduction To Monte Carlo Methods
+</title>
+        <link href="http://directionwithintent.com/shares/0802151616/"/>
+        <updated>2015-08-02T15:16:16+01:00</updated>
+        <id>http://directionwithintent.com/shares/0802151616</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I&#39;m going to keep this tutorial light on math, because the goal is just to give a general understanding. Monte Carlo methods originated from the Manhattan Project, as a way to simulate the distance neutrons would travel through through various materials [1]. Ideas using sampling had been around for a little while, but they took off…&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Creating your own private botnet for scanning.
@@ -447,24 +465,6 @@
         <content type="html">
         	
         	&lt;p&gt;Implementation of a feedforward artificial neural network (multilayer perceptron, MLP). Although the code is fully working and can be used for common classification tasks, this implementation is not geared towards efficiency but clarity – the original code was written for demonstration purposes (a more detailed blog article and step by step walkthrough is going to follow).&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Leaflet: Interactive web maps with R
-</title>
-        <link href="http://directionwithintent.com/shares/194034/"/>
-        <updated>2015-06-25T19:40:34+01:00</updated>
-        <id>http://directionwithintent.com/shares/194034</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;We are excited to announce that a new package &lt;strong&gt;leaflet&lt;/strong&gt; has been released on CRAN. The R package &lt;strong&gt;leaflet&lt;/strong&gt; is an interface to the JavaScript library &lt;a href=&quot;http://leafletjs.com/&quot; target=&quot;_blank&quot;&gt;Leaflet&lt;/a&gt; to create interactive web maps. It was developed on top of the &lt;strong&gt;&lt;a href=&quot;http://htmlwidgets.org&quot; target=&quot;_blank&quot;&gt;htmlwidgets&lt;/a&gt;&lt;/strong&gt; framework, which means the maps can be rendered in R Markdown (v2) documents, Shiny apps, and RStudio IDE / the R console. Please see &lt;a href=&quot;http://rstudio.github.io/leaflet&quot; target=&quot;_blank&quot;&gt;http://rstudio.github.io/leaflet&lt;/a&gt; for the full documentation. To install the package, run&lt;/p&gt;
 
         </content>
     </entry>
