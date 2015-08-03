@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803190003/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#announcing-pulsar-real-time-analytics-at-scale-share").html(data.count);
+      }
+      else {
+        $("#announcing-pulsar-real-time-analytics-at-scale-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803185637/',
       context: document.body
     }).done(function( data ) {
@@ -935,6 +947,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.stavros.io/posts/bloom-filter-search-engine/
+">
+                Writing a full-text search engine using Bloom filters - Stavros&#39; Stuff
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.stavros.io/posts/bloom-filter-search-engine/
+">
+                A few minutes ago I came across a Hacker News post that detailed a method of adding search to your static site. As you probably know, adding search to a static site is a bit tricky, because you can’t just send the query to a server and have the server proce...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-05-29" itemprop="datePublished">2 months and 6 days ago
+      </time>
+      <!--time class="entry-date" datetime="2015-05-29" itemprop="datePublished">MAY 29, 2015 08:50:31
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="writing-a-full-text-search-engine-using-bloom-filters-stavros-39-stuff-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/085031/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/085031/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.fastcodesign.com/3046656/why-white-space-is-crucial-to-ux-design
 ">
                 Why White Space Is Crucial To UX Design | Co.Design | business + design
@@ -1168,65 +1240,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.toptal.com/mobile/context-aware-apps-and-complex-event-processing">
-                Building Context Aware Apps | Toptal
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.toptal.com/mobile/context-aware-apps-and-complex-event-processing">
-                Mobile phone usage across the globe is constantly increasing. As of 2013, around 73% of Internet users consumed content via a mobile device and this percentage is expected to reach close to 90% by 2017.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-01-17" itemprop="datePublished">6 months and 2 weeks ago
-      </time>
-      <!--time class="entry-date" datetime="2015-01-17" itemprop="datePublished">JANUARY 17, 2015 15:06:55
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="building-context-aware-apps-toptal-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/150655/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/150655/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -1281,6 +1294,10 @@
   
     
       <a href="/shares/page12">12</a>
+    
+  
+    
+      <a href="/shares/page13">13</a>
     
   
 

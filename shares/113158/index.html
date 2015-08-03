@@ -150,6 +150,18 @@ simulate code execution in a code review.
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803190003/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#announcing-pulsar-real-time-analytics-at-scale-share").html(data.count);
+      }
+      else {
+        $("#announcing-pulsar-real-time-analytics-at-scale-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803185637/',
       context: document.body
     }).done(function( data ) {
