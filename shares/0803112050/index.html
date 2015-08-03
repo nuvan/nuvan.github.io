@@ -3,22 +3,9 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Why most unit testing is waste • Direction With Intent</title>
-    <meta name="description" content="Unit testing was a staple of the FORTRAN days, when a
-function was a function and was sometimes worthy of functional
-testing. Computers computed, and functions and procedures
-represented units of computation. In those days the dominant
-design process composed complex external functionality from
-smaller chunks, which in turn orchestrated yet smaller chunks,
-and so on down to the level of well-understood primitives. Each
-layer supported the layers above it. You actually stood a good
-chance that you could trace the functionality of the things at the
-bottom, called functions and procedures, to the requirements
-that gave rise to them out at the human interface. There was
-hope that a good designer could understand a given function’s
-business purpose. And it was possible, at least in well-structured
-code, to reason about the calling tree. You could mentally
-simulate code execution in a code review.
+    <title>CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
+ • Direction With Intent</title>
+    <meta name="description" content="Many of the things that I blog about lately seem to involve interesting combinations of two or more AWS services and today’s post is no exception. Before I dig in, I’d like to briefly introduce all of the services that I plan to name-drop later in this post. Some of this will be review material, but I do like to make sure that every one of my posts makes sense to someone who knows little or nothing about AWS.
 
 ">
     <meta name="keywords" content="">
@@ -27,23 +14,10 @@ simulate code execution in a code review.
     	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
-	<meta name="twitter:title" content="Why most unit testing is waste">
+	<meta name="twitter:title" content="CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
+">
 	
-		<meta name="twitter:description" content="Unit testing was a staple of the FORTRAN days, when a
-function was a function and was sometimes worthy of functional
-testing. Computers computed, and functions and procedures
-represented units of computation. In those days the dominant
-design process composed complex external functionality from
-smaller chunks, which in turn orchestrated yet smaller chunks,
-and so on down to the level of well-understood primitives. Each
-layer supported the layers above it. You actually stood a good
-chance that you could trace the functionality of the things at the
-bottom, called functions and procedures, to the requirements
-that gave rise to them out at the human interface. There was
-hope that a good designer could understand a given function’s
-business purpose. And it was possible, at least in well-structured
-code, to reason about the calling tree. You could mentally
-simulate code execution in a code review.
+		<meta name="twitter:description" content="Many of the things that I blog about lately seem to involve interesting combinations of two or more AWS services and today’s post is no exception. Before I dig in, I’d like to briefly introduce all of the services that I plan to name-drop later in this post. Some of this will be review material, but I do like to make sure that every one of my posts makes sense to someone who knows little or nothing about AWS.
 
 ">
 	
@@ -58,23 +32,10 @@ simulate code execution in a code review.
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Why most unit testing is waste">
+	<meta property="og:title" content="CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
+">
 	
-		<meta property="og:description" content="Unit testing was a staple of the FORTRAN days, when a
-function was a function and was sometimes worthy of functional
-testing. Computers computed, and functions and procedures
-represented units of computation. In those days the dominant
-design process composed complex external functionality from
-smaller chunks, which in turn orchestrated yet smaller chunks,
-and so on down to the level of well-understood primitives. Each
-layer supported the layers above it. You actually stood a good
-chance that you could trace the functionality of the things at the
-bottom, called functions and procedures, to the requirements
-that gave rise to them out at the human interface. There was
-hope that a good designer could understand a given function’s
-business purpose. And it was possible, at least in well-structured
-code, to reason about the calling tree. You could mentally
-simulate code execution in a code review.
+		<meta property="og:description" content="Many of the things that I blog about lately seem to involve interesting combinations of two or more AWS services and today’s post is no exception. Before I dig in, I’d like to briefly introduce all of the services that I plan to name-drop later in this post. Some of this will be review material, but I do like to make sure that every one of my posts makes sense to someone who knows little or nothing about AWS.
 
 ">
 	
@@ -82,12 +43,12 @@ simulate code execution in a code review.
 	
 	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
 	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/shares/113158/">
+	<meta property="og:url" content="http://directionwithintent.com/shares/0803112050/">
 	<meta property="og:site_name" content="Direction With Intent">
 
     
 
-    <link rel="canonical" href="http://directionwithintent.com/shares/113158/">
+    <link rel="canonical" href="http://directionwithintent.com/shares/0803112050/">
 
     <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -926,27 +887,16 @@ simulate code execution in a code review.
   <a href="http://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="http://directionwithintent.com/shares/">Shares</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
     <div class="page-title">
-      <h1><a href="http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf" title="Why most unit testing is waste">Why most unit testing is waste</a></h1>
+      <h1><a href="https://aws.amazon.com/blogs/aws/cloudwatch-logs-subscription-consumer-elasticsearch-kibana-dashboards/
+" title="CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
+">CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
+</a></h1>
     </div>
     <div class="inner-wrap">
       <nav class="toc"></nav><!-- /.toc -->
       <div id="content" class="page-content" itemprop="articleBody">
         <div class="share-container">
-            <p>Unit testing was a staple of the FORTRAN days, when a
-function was a function and was sometimes worthy of functional
-testing. Computers computed, and functions and procedures
-represented units of computation. In those days the dominant
-design process composed complex external functionality from
-smaller chunks, which in turn orchestrated yet smaller chunks,
-and so on down to the level of well-understood primitives. Each
-layer supported the layers above it. You actually stood a good
-chance that you could trace the functionality of the things at the
-bottom, called functions and procedures, to the requirements
-that gave rise to them out at the human interface. There was
-hope that a good designer could understand a given function’s
-business purpose. And it was possible, at least in well-structured
-code, to reason about the calling tree. You could mentally
-simulate code execution in a code review.</p>
+            <p>Many of the things that I blog about lately seem to involve interesting combinations of two or more AWS services and today’s post is no exception. Before I dig in, I’d like to briefly introduce all of the services that I plan to name-drop later in this post. Some of this will be review material, but I do like to make sure that every one of my posts makes sense to someone who knows little or nothing about AWS.</p>
 
         </div>
         <hr />
@@ -963,13 +913,14 @@ simulate code execution in a code review.</p>
 </div>
           
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Why%20most%20unit%20testing%20is%20waste&amp;url=http://directionwithintent.com/shares/113158/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=CloudWatch%20Logs%20Subscription%20Consumer%20+%20Elasticsearch%20+%20Kibana%20Dashboards%20|%20AWS%20Official%20Blog
+&amp;url=http://directionwithintent.com/shares/0803112050/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
     </div>
   </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/113158/" target="_blank">
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803112050/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -977,7 +928,7 @@ simulate code execution in a code review.</p>
   </a>
 
           <div class="page-meta">
-	<p>Updated <time datetime="2015-01-17T11:31:58Z" itemprop="datePublished">January 17, 2015</time></p>
+	<p>Updated <time datetime="2015-08-03T11:20:50Z" itemprop="datePublished">August 03, 2015</time></p>
 </div><!-- /.page-meta -->
         </footer><!-- /.footer -->
         <aside>

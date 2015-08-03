@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803112050/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#cloudwatch-logs-subscription-consumer-elasticsearch-kibana-dashboards-aws-official-blog-share").html(data.count);
+      }
+      else {
+        $("#cloudwatch-logs-subscription-consumer-elasticsearch-kibana-dashboards-aws-official-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803110316/',
       context: document.body
     }).done(function( data ) {
@@ -875,6 +887,68 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.shellntel.com/blog/2015/6/12/creating-your-own-private-botnet-for-scanning
+">
+                Creating your own private botnet for scanning.
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.shellntel.com/blog/2015/6/12/creating-your-own-private-botnet-for-scanning
+">
+                Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. 
+
+
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-31" itemprop="datePublished">3 days ago
+      </time>
+      <!--time class="entry-date" datetime="2015-07-31" itemprop="datePublished">JULY 31, 2015 08:11:42
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="creating-your-own-private-botnet-for-scanning-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0731081142/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0731081142/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.confluent.io/blog/making-apache-kafka-elastic-with-apache-mesos
 ">
                 Making Apache Kafka Elastic With Apache Mesos
@@ -1106,66 +1180,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html
-">
-                Architecting Backend for a Social&nbsp;Product - High Scalability -
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html
-">
-                This is aimed towards taking you through key architectural decisions which will make a social application a true next generation social product. The proposed changes addresses following attributes; a) availability b) reliability c) scalability d) performanc...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 4 days ago
-      </time>
-      <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 15:08:11
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="architecting-backend-for-a-social-nbsp-product-high-scalability-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0723150811/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723150811/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -1216,6 +1230,10 @@
   
     
       <a href="/shares/page11">11</a>
+    
+  
+    
+      <a href="/shares/page12">12</a>
     
   
 

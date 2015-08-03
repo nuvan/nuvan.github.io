@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803112050/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#cloudwatch-logs-subscription-consumer-elasticsearch-kibana-dashboards-aws-official-blog-share").html(data.count);
+      }
+      else {
+        $("#cloudwatch-logs-subscription-consumer-elasticsearch-kibana-dashboards-aws-official-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803110316/',
       context: document.body
     }).done(function( data ) {
