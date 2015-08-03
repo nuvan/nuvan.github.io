@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803012838/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#intro-to-webgl-with-three-js-share").html(data.count);
+      }
+      else {
+        $("#intro-to-webgl-with-three-js-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803010009/',
       context: document.body
     }).done(function( data ) {
@@ -851,6 +863,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.toptal.com/java/building-modern-web-applications-with-angularjs-and-play-framework
+">
+                Building Modern Web Applications with AngularJS and Play Framework
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.toptal.com/java/building-modern-web-applications-with-angularjs-and-play-framework
+">
+                Choosing the right tool for the right purpose goes a long way, especially when it comes to building modern web applications. A lot of us are familiar with AngularJS and how easy it makes developing robust web application front-ends. Although many will argue...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-05-27" itemprop="datePublished">2 months and 1 week ago
+      </time>
+      <!--time class="entry-date" datetime="2015-05-27" itemprop="datePublished">MAY 27, 2015 20:12:32
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="building-modern-web-applications-with-angularjs-and-play-framework-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/201232/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/201232/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="https://www.youtube.com/watch?v=7Cyd22kOqWc
 ">
                 AWS re:Invent 2014 | (PFC306) Performance Tuning Amazon EC2 Instances - YouTube
@@ -1069,63 +1141,6 @@ design process compos...
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/113158/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://blog.uxpin.com/6069/bad-ux-makes-users-blame/">
-                How Bad UX Makes Users Blame Themselves - UXPin
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://blog.uxpin.com/6069/bad-ux-makes-users-blame/">
-                When things go wrong, we want to know why as quickly and easily (but maybe not truthfully) as possible. But when technology is thrown into the mix, the problems are more complex. Our perceptions change. When something goes wrong with a user interface, the q...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-01-15" itemprop="datePublished">6 months and 2 weeks ago
-      </time>
-      <!--time class="entry-date" datetime="2015-01-15" itemprop="datePublished">JANUARY 15, 2015 08:47:16
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="how-bad-ux-makes-users-blame-themselves-uxpin-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/084716/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/084716/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

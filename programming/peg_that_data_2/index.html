@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803012838/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#intro-to-webgl-with-three-js-share").html(data.count);
+      }
+      else {
+        $("#intro-to-webgl-with-three-js-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803010009/',
       context: document.body
     }).done(function( data ) {
