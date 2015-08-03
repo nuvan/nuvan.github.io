@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803010009/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#hack-like-a-pro-metasploit-for-the-aspiring-hacker-part-1-primer-amp-overview-share").html(data.count);
+      }
+      else {
+        $("#hack-like-a-pro-metasploit-for-the-aspiring-hacker-part-1-primer-amp-overview-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803004917/',
       context: document.body
     }).done(function( data ) {

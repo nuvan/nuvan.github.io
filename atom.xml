@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-03T00:50:01+01:00</updated>
+    <updated>2015-08-03T01:00:29+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Hack Like a Pro: Metasploit for the Aspiring Hacker, Part 1 (Primer &amp;amp; Overview)
+</title>
+        <link href="http://directionwithintent.com/shares/0803010009/"/>
+        <updated>2015-08-03T01:00:09+01:00</updated>
+        <id>http://directionwithintent.com/shares/0803010009</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I have written many tutorials on hacking using Metasploit, including leaving no evidence behind and exploring the inner architecture. Also, there are my Metasploit cheat sheets for commands and hacking scripts.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Forex Trading Diary #1 - Automated Forex Trading with the OANDA API - QuantStart
@@ -446,24 +464,6 @@
         <content type="html">
         	
         	&lt;p&gt;There are many kinds of complexity that you have to deal with developing software and different kinds of applications will have very different sets of problems you need to solve. If you are building the next Twitter, scalability and fault-tolerance are the problems you are probably fighting. On the other hand, these problems are almost never an issue when working on enterprise applications. The complex domain is what you tackle when developing enterprise software. Business processes of a lot of companies are far from being trivial. Thus, refining the domain that provides loose coupling and will be flexible and maintainable in the future is extremely hard and requires a lot of practice and knowledge.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Recognising a Bad User Interface at First Glance | A variety of (dis)information
-</title>
-        <link href="http://directionwithintent.com/shares/080134/"/>
-        <updated>2015-07-07T08:01:34+01:00</updated>
-        <id>http://directionwithintent.com/shares/080134</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;When I wrote my &lt;a href=&quot;http://www.hadermann.be/blog/121/enterprise-software-acquisition-whats-missing/&quot; target=&quot;_blank&quot;&gt;previous blog post&lt;/a&gt;, it dawned on me that a trained eye can often spot unfriendly software a mile away.&lt;/p&gt;
 
         </content>
     </entry>
