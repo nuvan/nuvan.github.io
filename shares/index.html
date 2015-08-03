@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803185637/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#full-text-search-algorithm-in-javascript-burak-kanber-s-blog-share").html(data.count);
+      }
+      else {
+        $("#full-text-search-algorithm-in-javascript-burak-kanber-s-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803173554/',
       context: document.body
     }).done(function( data ) {
@@ -923,6 +935,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://burakkanber.com/blog/machine-learning-full-text-search-in-javascript-relevance-scoring/
+">
+                Full-Text Search Algorithm in Javascript - Burak Kanber's Blog
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://burakkanber.com/blog/machine-learning-full-text-search-in-javascript-relevance-scoring/
+">
+                Full-text search, unlike most of the topics in this machine learning series, is a problem that most web developers have encountered at some point in their daily work. A client asks you to put a search field somewhere, and you write some SQL along the lines ...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 18:56:37
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="full-text-search-algorithm-in-javascript-burak-kanber-s-blog-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0803185637/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803185637/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="https://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis
 ">
                 District Data Labs - Modern Methods for Sentiment Analysis
@@ -1139,68 +1211,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803112050/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="https://dzone.com/articles/deep-learning-sentiment
-">
-                Deep Learning Sentiment Analysis for Movie Reviews using Neo4j
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="https://dzone.com/articles/deep-learning-sentiment
-">
-                Sentiment analysis uses natural language processing to extract features of a text that relate to subjective information found in source materials.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">today
-      </time>
-      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 11:03:16
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="deep-learning-sentiment-analysis-for-movie-reviews-using-neo4j-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0803110316/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803110316/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
