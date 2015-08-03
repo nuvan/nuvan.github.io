@@ -111,6 +111,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803173554/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#district-data-labs-modern-methods-for-sentiment-analysis-share").html(data.count);
+      }
+      else {
+        $("#district-data-labs-modern-methods-for-sentiment-analysis-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803113230/',
       context: document.body
     }).done(function( data ) {
