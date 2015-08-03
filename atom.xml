@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-03T11:26:29+01:00</updated>
+    <updated>2015-08-03T11:37:24+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Implementing and analyzing online experiments
+</title>
+        <link href="http://directionwithintent.com/shares/0803113230/"/>
+        <updated>2015-08-03T11:32:30+01:00</updated>
+        <id>http://directionwithintent.com/shares/0803113230</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Randomized experiments are the gold standard for understanding and quantifying causal relationships. This talk is divided into two parts corresponding to before and after the experiment is run.  In the first section, we discuss how to design and implement online experiments using PlanOut, an open-source toolkit for advanced online experimentation used at Facebook. We will show how basic “A/B tests”, within-subjects designs, as well as more sophisticated experiments can be implemented.  In the second section, we cover methods to estimate causal quantities of interest and construct appropriate confidence intervals. Particular attention will be given to scalable methods suitable for “big data”, including working with weighted data and clustered bootstrapping.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
@@ -446,24 +464,6 @@
         <content type="html">
         	
         	&lt;p&gt;In my last post about Amazon EC2 Container Service (Amazon ECS), I discussed the two key components of running modern distributed applications on a cluster:  reliable state management and flexible scheduling. Amazon ECS makes building and running containerized applications simple, but how that happens is what makes Amazon ECS interesting. Today, I want to explore the Amazon ECS architecture and what this architecture enables.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Embrace event-driven computing: Amazon expands DynamoDB with streams, cross-region replication, and database triggers - All Things Distributed
-</title>
-        <link href="http://directionwithintent.com/shares/010736/"/>
-        <updated>2015-07-19T01:07:36+01:00</updated>
-        <id>http://directionwithintent.com/shares/010736</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Many happy developers are using DynamoDB to handle trillions of requests every day. I am excited to share with you that today we are expanding DynamoDB with streams, cross-region replication, and database triggers. In this blog post, I will explain how these three new capabilities empower you to build applications with distributed systems architecture and create responsive, reliable, and high-performance applications using DynamoDB that work at any scale.&lt;/p&gt;
 
         </content>
     </entry>

@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803113230/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#implementing-and-analyzing-online-experiments-share").html(data.count);
+      }
+      else {
+        $("#implementing-and-analyzing-online-experiments-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803112555/',
       context: document.body
     }).done(function( data ) {
