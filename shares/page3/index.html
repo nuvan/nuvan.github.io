@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803112555/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#spin-up-a-docker-dev-test-environment-in-60-minutes-or-less-blog-joyent-share").html(data.count);
+      }
+      else {
+        $("#spin-up-a-docker-dev-test-environment-in-60-minutes-or-less-blog-joyent-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803112050/',
       context: document.body
     }).done(function( data ) {
@@ -887,6 +899,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://alexhwoods.com/2015/07/25/introduction-to-monte-carlo-methods/
+">
+                Introduction To Monte Carlo Methods
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://alexhwoods.com/2015/07/25/introduction-to-monte-carlo-methods/
+">
+                I'm going to keep this tutorial light on math, because the goal is just to give a general understanding. Monte Carlo methods originated from the Manhattan Project, as a way to simulate the distance neutrons would travel through through various materials [1]...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-02" itemprop="datePublished">yesterday
+      </time>
+      <!--time class="entry-date" datetime="2015-08-02" itemprop="datePublished">AUGUST 02, 2015 15:16:16
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="introduction-to-monte-carlo-methods-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0802151616/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0802151616/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.shellntel.com/blog/2015/6/12/creating-your-own-private-botnet-for-scanning
 ">
                 Creating your own private botnet for scanning.
@@ -1105,66 +1177,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723160943/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://zohaib.me/binary-pattern-matching-in-elixir/
-">
-                Binary pattern matching in Elixir with PNG parsing example
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://zohaib.me/binary-pattern-matching-in-elixir/
-">
-                Dealing with binary data has always been a pickle in OOP language. Pattern matching is very fundemental to Elixir making the functions much more descriptive. I was very pleased to see that the pattern matching was not just limited to tuple, list etc. but ex...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 4 days ago
-      </time>
-      <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 15:53:14
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="binary-pattern-matching-in-elixir-with-png-parsing-example-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0723155314/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723155314/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

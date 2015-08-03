@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0803112555/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#spin-up-a-docker-dev-test-environment-in-60-minutes-or-less-blog-joyent-share").html(data.count);
+      }
+      else {
+        $("#spin-up-a-docker-dev-test-environment-in-60-minutes-or-less-blog-joyent-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803112050/',
       context: document.body
     }).done(function( data ) {
