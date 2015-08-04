@@ -150,6 +150,18 @@ simulate code execution in a code review.
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0804124829/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my-smashing-magazine-share").html(data.count);
+      }
+      else {
+        $("#how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my-smashing-magazine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804115824/',
       context: document.body
     }).done(function( data ) {

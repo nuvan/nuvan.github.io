@@ -107,6 +107,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0804124829/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my-smashing-magazine-share").html(data.count);
+      }
+      else {
+        $("#how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my-smashing-magazine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804115824/',
       context: document.body
     }).done(function( data ) {
@@ -974,6 +986,45 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0804124829/" title="How To Build A Ruby Gem With Bundler, Test-Driven Development, Travis CI And Coveralls, Oh My! – Smashing Magazine
+" class="post-teaser">
+    
+      <!--img src="http://directionwithintent.com/images/DWI.svg" alt="teaser" itemprop="image"-->
+      
+  </a>
+  
+    <p class="post-category">
+      shares
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0804124829/">
+      How To Build A Ruby Gem With Bundler, Test-Driven Development, Travis CI And Coveralls, Oh My! – Smashing Magazine
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Ruby is a great language. It was designed to foster happiness and productivity in developers, all the whi...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-08-04" itemprop="datePublished">AUGUST 04, 2015 12:48:29
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my-smashing-magazine-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0804115824/" title="The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
 " class="post-teaser">
     
@@ -1047,9 +1098,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803185637/" title="Full-Text Search Algorithm in Javascript - Burak Kanber's Blog
@@ -1086,9 +1137,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803173554/" title="District Data Labs - Modern Methods for Sentiment Analysis
@@ -1164,9 +1215,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803112555/" title="Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
@@ -1203,9 +1254,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803112050/" title="CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
@@ -1281,9 +1332,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803012838/" title="Intro to WebGL with Three.js
@@ -1322,9 +1373,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803010009/" title="Hack Like a Pro: Metasploit for the Aspiring Hacker, Part 1 (Primer &amp; Overview)
@@ -1400,9 +1451,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0802233242/" title="Spark SQL: Relational Data Processing in Spark
@@ -1439,9 +1490,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0802205940/" title="Lynis 2.1.1 - Security Auditing Tool for Unix/Linux Systems
@@ -1517,9 +1568,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0802161916/" title="Getting started with Kafka in node.js with the Confluent REST Proxy
@@ -1556,9 +1607,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0802151616/" title="Introduction To Monte Carlo Methods
@@ -1634,9 +1685,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0725160249/" title="Making Apache Kafka Elastic With Apache Mesos
@@ -1673,9 +1724,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0724133025/" title="Product Development - The Hierarchy of Needs
@@ -1751,9 +1802,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0723155314/" title="Binary pattern matching in Elixir with PNG parsing example
@@ -1790,9 +1841,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0723150811/" title="Architecting Backend for a Social&nbsp;Product - High Scalability -
@@ -1868,9 +1919,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0723080420/" title="Uncertainty in Real-Time Fraud Detection
@@ -1907,9 +1958,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0723075918/" title="Your PenTest Tools Arsenal InfoGraphic | CTF365 Blog
@@ -1985,9 +2036,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0722195153/" title="System Resource Usage Monitor Forensics
@@ -2024,9 +2075,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0722083018/" title="Snifer/security-cheatsheets
@@ -2102,9 +2153,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/010736/" title="Embrace event-driven computing: Amazon expands DynamoDB with streams, cross-region replication, and database triggers - All Things Distributed
@@ -2141,9 +2192,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/165510/" title="Designing a Programming Language
@@ -2219,9 +2270,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/183317/" title="A curated list of awesome Machine Learning frameworks, libraries and software. - Mo-Data. Data made Easy
@@ -2258,9 +2309,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/093707/" title="DDD for Rails Developers. Part 1: Layered Architecture.
@@ -2336,9 +2387,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/080038/" title="The Arrow – An advanced Kanban board - JAXenter
@@ -2375,9 +2426,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/075601/" title="Scanning for vulnerabilities in just 10 minutes with VAddy’s simple URL crawler
@@ -2453,9 +2504,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/200803/" title="Apple has published a great free learn to code course for Swift
@@ -2492,9 +2543,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/194614/" title="Neuralnet mlp - mlxtend
@@ -2570,9 +2621,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/133158/" title="How I Learned to Stop Worrying and Learned to Love to Crash (With Elixir)
@@ -2609,9 +2660,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/191809/" title="Understanding Color Psychology for Impactful Web Design - Designmodo
@@ -2687,9 +2738,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/085516/" title="Designing For Animation
@@ -2726,9 +2777,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/182301/" title="Building a Binary Classification Model with Amazon Machine Learning and Amazon Redshift
@@ -2804,9 +2855,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084653/" title="Why White Space Is Crucial To UX Design | Co.Design | business + design
@@ -2843,9 +2894,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/201232/" title="Building Modern Web Applications with AngularJS and Play Framework
@@ -2921,9 +2972,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/235018/" title="Forex Algorithmic Trading: A Practical Tale for Engineers
@@ -2960,9 +3011,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/150655/" title="Building Context Aware Apps | Toptal" class="post-teaser">
@@ -3035,9 +3086,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084716/" title="How Bad UX Makes Users Blame Themselves - UXPin" class="post-teaser">
@@ -3072,9 +3123,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/084905/" title="Meaningful transitions - Animation - Google design guidelines" class="post-teaser">
@@ -3146,9 +3197,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/192834-share/" title="Zero to 353 Pages: Bringing My Web Book to Print and eBook" class="post-teaser">
@@ -3183,9 +3234,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/163232-share/" title="Binaural Sound with the Web Audio API" class="post-teaser">
@@ -3260,9 +3311,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/programming/peg_that_data_2/" title="PEG that data - Part 2" class="post-teaser">
@@ -3300,9 +3351,9 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/opinion/ground_and_cloud/" title="An Island and a Cloud." class="post-teaser">
@@ -3384,11 +3435,10 @@ function was a function and was sometimes worthy of...
 </article>
 
             </div>
-          
+          </div>
         
       </div>
   </div>
-</div>
 </div>
 
 			</div><!-- /.page-content -->

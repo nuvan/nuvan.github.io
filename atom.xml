@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-04T12:02:46+01:00</updated>
+    <updated>2015-08-04T12:49:39+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>How To Build A Ruby Gem With Bundler, Test-Driven Development, Travis CI And Coveralls, Oh My! – Smashing Magazine
+</title>
+        <link href="http://directionwithintent.com/shares/0804124829/"/>
+        <updated>2015-08-04T12:48:29+01:00</updated>
+        <id>http://directionwithintent.com/shares/0804124829</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Ruby is a great language. It was designed to foster happiness and productivity in developers, all the while providing tools that are effective and yet focused on simplicity. One of the tools available to the Rubyist is the RubyGems package manager. It enables us both to include gems (i.e. packaged code) that we can reuse in our own applications and to package our own code as a gem to share with the Ruby community. We’ll be focusing on the latter in this article.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
@@ -446,24 +464,6 @@
         <content type="html">
         	
         	&lt;p&gt;There are only a few complex event processing (CEP) fraud engines that support all of the varieties of uncertainty that reside in financial environments. Here, RTInsights contributor Ivo Correia discusses the need to support uncertainty—which may constitute a significant line of research and development for CEP engines.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Your PenTest Tools Arsenal InfoGraphic | CTF365 Blog
-</title>
-        <link href="http://directionwithintent.com/shares/0723075918/"/>
-        <updated>2015-07-23T07:59:18+01:00</updated>
-        <id>http://directionwithintent.com/shares/0723075918</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Though there are hundreds and hundreds of information security tools and each month we see tens of other that appear, most of responders was focused on a few well established tools. Bellow you have the answers of 871 security professionals that choose to fill in the survey.&lt;/p&gt;
 
         </content>
     </entry>
