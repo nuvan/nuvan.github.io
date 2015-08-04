@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0804155555/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share").html(data.count);
+      }
+      else {
+        $("#scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804124829/',
       context: document.body
     }).done(function( data ) {
@@ -961,6 +973,72 @@
         <h1>Posts Tagged &ldquo;tutorial&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+            <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
+">
+                scikit-learn video #1: Intro to machine learning with scikit-learn
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
+">
+                Have you tried out a few Kaggle competitions, but you aren't quite sure what you're supposed to be doing? Or perhaps you've heard all the talk in the Kaggle forums about Python's scikit-learn library, but you haven't figured out how to take advantage of thi...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2015-08-04" itemprop="datePublished">AUGUST 04, 2015 15:55:55
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Posts%20Tagged%20&amp;ldquo;tutorial&amp;rdquo;&amp;url=http://directionwithintent.com/shares/0804155555/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0804155555/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+          
+        
       
         
           

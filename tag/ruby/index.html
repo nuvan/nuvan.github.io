@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0804155555/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share").html(data.count);
+      }
+      else {
+        $("#scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804124829/',
       context: document.body
     }).done(function( data ) {
@@ -961,6 +973,12 @@
         <h1>Posts Tagged &ldquo;ruby&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
       
         
           
