@@ -8,7 +8,7 @@
     <meta name="description" content="Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. 
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="security, tutorial">
     
       
     	<!-- Twitter Cards -->
@@ -113,6 +113,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

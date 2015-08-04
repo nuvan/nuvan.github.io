@@ -8,7 +8,7 @@
     <meta name="description" content="Designers illustrate stories for their audience with the application of type, color, images and other graphic features. Like a writer when telling a story, there are specific tips and techniques that designers use to ensure the tone is correct and the messages are being brought to life.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="design">
     
       
     	<!-- Twitter Cards -->
@@ -113,6 +113,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

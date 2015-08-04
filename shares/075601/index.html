@@ -8,7 +8,7 @@
     <meta name="description" content="VAddy starts scanning for vulnerabilities after you have registered a test server and crawl data for your site. The crawl data includes URLs and parameters to scan; VAddy’s scanner learns the structure of your site from this information. To register crawl data, you have needed to configure your browser’s proxy settings (IP address and port number) to point to VAddy’s servers and then visit the website you wish to scan.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="security, scanner">
     
       
     	<!-- Twitter Cards -->
@@ -113,6 +113,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

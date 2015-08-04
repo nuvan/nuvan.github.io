@@ -8,7 +8,7 @@
     <meta name="description" content="Though there are hundreds and hundreds of information security tools and each month we see tens of other that appear, most of responders was focused on a few well established tools. Bellow you have the answers of 871 security professionals that choose to fill in the survey.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="security">
     
       
     	<!-- Twitter Cards -->
@@ -113,6 +113,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

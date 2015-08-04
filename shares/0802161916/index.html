@@ -8,7 +8,7 @@
     <meta name="description" content="Previously, I posted about Confluent’s open source Kafka REST Proxy, which provides easy access to a Kafka cluster from any language. That post focused on the motivation, low-level examples, and implementation of the REST Proxy. In this post, I want to follow up by showing how quickly you can create a wrapper for your favorite language and use that wrapper to build applications. With the REST Proxy, you only need a couple of hours to go from zero to comprehensive Kafka support for your preferred language.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="messaging, kafka">
     
       
     	<!-- Twitter Cards -->
@@ -110,6 +110,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

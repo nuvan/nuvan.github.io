@@ -8,7 +8,7 @@
     <meta name="description" content="These security cheatsheets are part of a project for the Ethical Hacking and Penetration Testing course offered at the University of Florida. Expanding on the default set of cheatsheets, the purpose of these cheatsheets are to aid penetration testers/CTF participants/security enthusiasts in remembering commands that are useful, but not frequently used.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="security">
     
       
     	<!-- Twitter Cards -->
@@ -113,6 +113,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

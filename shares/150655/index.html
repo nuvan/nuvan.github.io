@@ -7,7 +7,7 @@
     <meta name="description" content="Mobile phone usage across the globe is constantly increasing. As of 2013, around 73% of Internet users consumed content via a mobile device and this percentage is expected to reach close to 90% by 2017.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="tutorial, mobile">
     
       
     	<!-- Twitter Cards -->
@@ -107,6 +107,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

@@ -8,7 +8,7 @@
     <meta name="description" content="Apache Kafka is a distributed, high-throughput, low-latency publish-subscribe messaging system. Since it was open-sourced in 2011, Apache Kafka has been adopted widely across the industry at web companies like LinkedIn, Netflix, and Uber, as well as traditional enterprises like Cisco and Goldman Sachs.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="messaging">
     
       
     	<!-- Twitter Cards -->
@@ -110,6 +110,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body

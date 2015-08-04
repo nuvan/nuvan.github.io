@@ -111,6 +111,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0804115824/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html(data.count);
+      }
+      else {
+        $("#the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0803190003/',
       context: document.body
     }).done(function( data ) {
