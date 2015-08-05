@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805201446/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#getting-functional-with-javascript-part-1-share").html(data.count);
+      }
+      else {
+        $("#getting-functional-with-javascript-part-1-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805200047/',
       context: document.body
     }).done(function( data ) {
@@ -1035,6 +1047,14 @@
         <h1>Posts Tagged &ldquo;scanner&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
+          
+        
       
         
           
