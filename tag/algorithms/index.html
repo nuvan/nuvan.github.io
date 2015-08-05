@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805123717/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#fruitywifi-wireless-network-auditing-tool-darknet-the-darkside-share").html(data.count);
+      }
+      else {
+        $("#fruitywifi-wireless-network-auditing-tool-darknet-the-darkside-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805123411/',
       context: document.body
     }).done(function( data ) {
@@ -985,6 +997,12 @@
         <h1>Posts Tagged &ldquo;algorithms&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
       
         
           
