@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805200047/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#introducing-the-logstash-http-input-plugin-share").html(data.count);
+      }
+      else {
+        $("#introducing-the-logstash-http-input-plugin-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805164737/',
       context: document.body
     }).done(function( data ) {
@@ -1033,6 +1045,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.allthingsdistributed.com/2015/07/under-the-hood-of-the-amazon-ec2-container-service.html
+">
+                Under the Hood of Amazon EC2 Container Service - All Things Distributed
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.allthingsdistributed.com/2015/07/under-the-hood-of-the-amazon-ec2-container-service.html
+">
+                In my last post about Amazon EC2 Container Service (Amazon ECS), I discussed the two key components of running modern distributed applications on a cluster:  reliable state management and flexible scheduling. Amazon ECS makes building and running containeri...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-20" itemprop="datePublished">2015-07-20 18:42:15 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-07-20" itemprop="datePublished">JULY 20, 2015 18:42:15
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="under-the-hood-of-amazon-ec2-container-service-all-things-distributed-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/184215/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/184215/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.allthingsdistributed.com/2015/07/dynamodb-streams.html
 ">
                 Embrace event-driven computing: Amazon expands DynamoDB with streams, cross-region replication, and database triggers - All Things Distributed
@@ -1251,66 +1323,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/183317/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.sitepoint.com/ddd-for-rails-developers-part-1-layered-architecture/
-">
-                DDD for Rails Developers. Part 1: Layered Architecture.
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.sitepoint.com/ddd-for-rails-developers-part-1-layered-architecture/
-">
-                There are many kinds of complexity that you have to deal with developing software and different kinds of applications will have very different sets of problems you need to solve. If you are building the next Twitter, scalability and fault-tolerance are the ...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-07" itemprop="datePublished">2015-07-07 09:37:07 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-07-07" itemprop="datePublished">JULY 07, 2015 09:37:07
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="ddd-for-rails-developers-part-1-layered-architecture-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/093707/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/093707/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805200047/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#introducing-the-logstash-http-input-plugin-share").html(data.count);
+      }
+      else {
+        $("#introducing-the-logstash-http-input-plugin-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805164737/',
       context: document.body
     }).done(function( data ) {
@@ -1035,6 +1047,12 @@
         
           
         
+      
+        
+          
+        
+          
+        
           
         
       
@@ -1294,7 +1312,7 @@
             <div class="post-excerpt wide">
               <a href="http://engineering-blog.alphasights.com/how-i-learned-to-stop-worrying-and-learned-to-love-the-crash/
 ">
-                That’s what I kept hearing. To be honest, it’s taken me a while to grok this. It wasn’t until I designed and implemented a few systems with a focus on a Process based architecture that the philosophy really clicked. Now, it’s core to my thinking and it’s en...
+                That’s what I kept hearing. To be honest, it's taken me a while to grok this. It wasn't until I designed and implemented a few systems with a focus on a Process based architecture that the philosophy really clicked. Now, it's core to my thinking and it's en...
               </a>
             </div>
           

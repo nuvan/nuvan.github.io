@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805200047/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#introducing-the-logstash-http-input-plugin-share").html(data.count);
+      }
+      else {
+        $("#introducing-the-logstash-http-input-plugin-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805164737/',
       context: document.body
     }).done(function( data ) {
@@ -1023,6 +1035,12 @@
         <h1>Posts Tagged &ldquo;webgl&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
       
         
           

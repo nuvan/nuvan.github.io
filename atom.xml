@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-05T17:34:30+01:00</updated>
+    <updated>2015-08-05T20:03:21+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Introducing the Logstash HTTP input plugin
+</title>
+        <link href="http://directionwithintent.com/shares/0805200047/"/>
+        <updated>2015-08-05T20:00:47+01:00</updated>
+        <id>http://directionwithintent.com/shares/0805200047</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Logstash has been missing a way to receive data through HTTP requests, but not anymore! The logstash-input-http plugin is now available for everyone! Also, starting with Logstash 1.5.2, it is included as one of the default plugins that are distributed with the official release.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Making sense of streamgraphs - Visualising Data
@@ -449,24 +467,6 @@
         <content type="html">
         	
         	&lt;p&gt;Apache Kafka is a distributed, high-throughput, low-latency publish-subscribe messaging system. Since it was open-sourced in 2011, Apache Kafka has been adopted widely across the industry at web companies like LinkedIn, Netflix, and Uber, as well as traditional enterprises like Cisco and Goldman Sachs.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Product Development - The Hierarchy of Needs
-</title>
-        <link href="http://directionwithintent.com/shares/0724133025/"/>
-        <updated>2015-07-24T13:30:25+01:00</updated>
-        <id>http://directionwithintent.com/shares/0724133025</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;But what is valuable for my customers and users? Some time ago it was much easier to decide which features should be built into the next release - the business people told us. In those days software was mainly created for use in business or science. Nowadays software has become an integrated part of everyday life for just about everybody. The question what is most valuable could be answered much easier if customers and users are part of a well-known business context. But what may be valuable to customers whom I do not even know in an unstructured and completely individualized market?&lt;/p&gt;
 
         </content>
     </entry>

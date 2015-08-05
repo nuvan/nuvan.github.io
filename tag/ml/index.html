@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805200047/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#introducing-the-logstash-http-input-plugin-share").html(data.count);
+      }
+      else {
+        $("#introducing-the-logstash-http-input-plugin-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805164737/',
       context: document.body
     }).done(function( data ) {
@@ -1032,6 +1044,12 @@
       
         
           
+        
+          
+        
+      
+        
+          
             <article class="adapt-tile-to-share">
     <div class="sh-elements">
       
@@ -1134,7 +1152,7 @@
             <div class="post-excerpt wide">
               <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
 ">
-                Have you tried out a few Kaggle competitions, but you aren’t quite sure what you’re supposed to be doing? Or perhaps you’ve heard all the talk in the Kaggle forums about Python’s scikit-learn library, but you haven’t figured out how to take advantage of thi...
+                Have you tried out a few Kaggle competitions, but you aren't quite sure what you're supposed to be doing? Or perhaps you've heard all the talk in the Kaggle forums about Python's scikit-learn library, but you haven't figured out how to take advantage of thi...
               </a>
             </div>
           
@@ -1534,7 +1552,7 @@
             <div class="post-excerpt wide">
               <a href="http://blog.algorithmia.com/post/124542129914/mining-product-hunt-detecting-vote-rings
 ">
-                We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we’ll start with how we acquired the da...
+                We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we&rsquo;ll start with how we acquired ...
               </a>
             </div>
           
@@ -1632,7 +1650,7 @@
             <div class="post-excerpt wide">
               <a href="http://www.mo-data.com/a-curated-list-of-awesome-machine-learning-frameworks-libraries-and-software
 ">
-                Link to Joseph Misiti (click on this link to get to the page with the full set of hyperlinks): A curated list of awesome Machine Learning frameworks, libraries and software. – .
+                Link to Joseph Misiti (click on this link to get to the page with the full set of hyperlinks): A curated list of awesome Machine Learning frameworks, libraries and software. &#8211; .
 
 
               </a>
