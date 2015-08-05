@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-04T16:24:24+01:00</updated>
+    <updated>2015-08-05T12:35:28+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Asm.js and WebGL for Unity and Unreal Engine
+</title>
+        <link href="http://directionwithintent.com/shares/0805123411/"/>
+        <updated>2015-08-05T12:34:11+01:00</updated>
+        <id>http://directionwithintent.com/shares/0805123411</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;This article is part of a web dev series from Microsoft. Thank you for supporting the partners who make SitePoint possible.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>scikit-learn video #1: Intro to machine learning with scikit-learn
@@ -446,24 +464,6 @@
         <content type="html">
         	
         	&lt;p&gt;&lt;span&gt;This is aimed towards taking you through key architectural decisions which will make a social application a true next generation social product. The proposed changes addresses following attributes; a) availability b) reliability c) scalability d) performance and flexibility towards extensions (not modifications)&lt;/span&gt;&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>GitHub Special: Data Scientists to Follow &amp;amp; Best Tutorials on GitHub
-</title>
-        <link href="http://directionwithintent.com/shares/0723084452/"/>
-        <updated>2015-07-23T08:44:52+01:00</updated>
-        <id>http://directionwithintent.com/shares/0723084452</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;If you haven’t tried this yet, it’s your turn now. I have compiled a list of some awesome Data Scientists on GitHub. In addition, you’ll also find the list of best data science tutorials available on GitHub. Specially for beginners, if don’t know about GitHub, here’s the quick introduction in simple words.&lt;/p&gt;
 
         </content>
     </entry>

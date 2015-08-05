@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805123411/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html(data.count);
+      }
+      else {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804155555/',
       context: document.body
     }).done(function( data ) {
@@ -983,6 +995,68 @@
           </div>
           
             <div class="post-title">
+              <a href="https://aws.amazon.com/blogs/aws/start-using-landsat-on-aws/
+">
+                Start Using Landsat on AWS | AWS Official Blog
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="https://aws.amazon.com/blogs/aws/start-using-landsat-on-aws/
+">
+                My colleague Jed Sundwall wrote the guest post below to show you how one of the newest AWS Public Data Sets is being put to use.
+
+
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-06" itemprop="datePublished">2015-07-06 18:33:20 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-07-06" itemprop="datePublished">JULY 06, 2015 18:33:20
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="start-using-landsat-on-aws-aws-official-blog-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/183320/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/183320/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="https://medium.com/ios-os-x-development/apple-has-published-a-great-free-learn-to-code-course-for-swift-on-github-feb5e4d70691
 ">
                 Apple has published a great free learn to code course for Swift
@@ -1001,7 +1075,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-26" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2015-06-26" itemprop="datePublished">2015-06-26 20:08:03 +0100
       </time>
       <!--time class="entry-date" datetime="2015-06-26" itemprop="datePublished">JUNE 26, 2015 20:08:03
       </time-->
@@ -1061,7 +1135,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">2015-06-25 19:46:14 +0100
       </time>
       <!--time class="entry-date" datetime="2015-06-25" itemprop="datePublished">JUNE 25, 2015 19:46:14
       </time-->
@@ -1121,7 +1195,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">2015-06-25 19:40:34 +0100
       </time>
       <!--time class="entry-date" datetime="2015-06-25" itemprop="datePublished">JUNE 25, 2015 19:40:34
       </time-->
@@ -1181,7 +1255,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-20" itemprop="datePublished">1 month and 2 weeks ago
+      <time class="entry-date" datetime="2015-06-20" itemprop="datePublished">2015-06-20 13:31:58 +0100
       </time>
       <!--time class="entry-date" datetime="2015-06-20" itemprop="datePublished">JUNE 20, 2015 13:31:58
       </time-->
@@ -1201,68 +1275,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/133158/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://designmodo.com/color-psychology-web-design
-">
-                Understanding Color Psychology for Impactful Web Design - Designmodo
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://designmodo.com/color-psychology-web-design
-">
-                It’s no secret that color psychology is used extensively in all aspects of design. From the colors used on day-to-day grocery items, to brand logos and website design, color is an important element that can convey a specific message to users.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-17" itemprop="datePublished">1 month and 2 weeks ago
-      </time>
-      <!--time class="entry-date" datetime="2015-06-17" itemprop="datePublished">JUNE 17, 2015 19:18:09
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="understanding-color-psychology-for-impactful-web-design-designmodo-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/191809/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/191809/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -1372,7 +1384,7 @@
 
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
-    
+
     
 
   </body>

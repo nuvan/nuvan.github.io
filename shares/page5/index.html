@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805123411/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html(data.count);
+      }
+      else {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804155555/',
       context: document.body
     }).done(function( data ) {
@@ -983,6 +995,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.confluent.io/blog/making-apache-kafka-elastic-with-apache-mesos
+">
+                Making Apache Kafka Elastic With Apache Mesos
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.confluent.io/blog/making-apache-kafka-elastic-with-apache-mesos
+">
+                Apache Kafka is a distributed, high-throughput, low-latency publish-subscribe messaging system. Since it was open-sourced in 2011, Apache Kafka has been adopted widely across the industry at web companies like LinkedIn, Netflix, and Uber, as well as traditi...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-07-25" itemprop="datePublished">2015-07-25 16:02:49 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-07-25" itemprop="datePublished">JULY 25, 2015 16:02:49
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="making-apache-kafka-elastic-with-apache-mesos-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0725160249/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0725160249/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.infoq.com/articles/quality-hierarchy-needs
 ">
                 Product Development - The Hierarchy of Needs
@@ -999,7 +1071,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-24" itemprop="datePublished">1 week and 4 days ago
+      <time class="entry-date" datetime="2015-07-24" itemprop="datePublished">2015-07-24 13:30:25 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-24" itemprop="datePublished">JULY 24, 2015 13:30:25
       </time-->
@@ -1059,7 +1131,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 5 days ago
+      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">2015-07-23 16:09:43 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 16:09:43
       </time-->
@@ -1119,7 +1191,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 5 days ago
+      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">2015-07-23 15:53:14 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 15:53:14
       </time-->
@@ -1179,7 +1251,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 5 days ago
+      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">2015-07-23 15:08:11 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 15:08:11
       </time-->
@@ -1199,66 +1271,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723150811/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.analyticsvidhya.com/blog/2015/07/github-special-data-scientists-to-follow-best-tutorials/
-">
-                GitHub Special: Data Scientists to Follow &amp; Best Tutorials on GitHub
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.analyticsvidhya.com/blog/2015/07/github-special-data-scientists-to-follow-best-tutorials/
-">
-                If you haven’t tried this yet, it’s your turn now. I have compiled a list of some awesome Data Scientists on GitHub. In addition, you’ll also find the list of best data science tutorials available on GitHub. Specially for beginners, if don’t know about GitH...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 5 days ago
-      </time>
-      <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 08:44:52
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="github-special-data-scientists-to-follow-amp-best-tutorials-on-github-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0723084452/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723084452/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -1368,7 +1380,7 @@
 
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
-    
+
     
 
   </body>

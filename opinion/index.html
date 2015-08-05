@@ -82,6 +82,7 @@
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
     <script src="http://directionwithintent.com/js/header_fader.js"></script>
+    <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
     <script>
 
     /*FB SDK initializtion*/
@@ -106,6 +107,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0805123411/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html(data.count);
+      }
+      else {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0804155555/',
       context: document.body
@@ -1014,7 +1027,7 @@
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">9 months and 1 week ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">2014-10-26 00:00:00 +0100
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->
@@ -1035,6 +1048,42 @@
   </div>
 </div>
 </div>
+
+
+      <!--div id="search">
+        <form action="/search" method="get">
+          <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+        </form>
+      </div>
+
+      <section id="search-results" style="display: none;">
+        <p>Search results</p>
+        <div class="entries"></div>
+      </section>
+
+    <script type="text/javascript">
+      $(function() {
+        $('#search-query').lunrSearch({
+          indexUrl: '/js/index.json',   // Url for the .json file containing search index data
+          results : '#search-results',  // selector for containing search results element
+          entries : '.entries',         // selector for search entries containing element (contained within results above)
+          template: '#search-results-template'  // selector for Mustache.js template
+        });
+      });
+    </script>
+
+    
+    <script id="search-results-template" type="text/mustache">
+      {{#entries}}
+        <article>
+          <h3>
+            {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+            <a href="{{url}}">{{title}}</a>
+          </h3>
+        </article>
+      {{/entries}}
+    </script>
+    -->
 
 
       <footer role="contentinfo" id="site-footer">
@@ -1061,7 +1110,7 @@
 
     </div>
 
-    
+
     
 
   </body>

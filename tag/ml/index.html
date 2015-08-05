@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805123411/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html(data.count);
+      }
+      else {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804155555/',
       context: document.body
     }).done(function( data ) {
@@ -976,6 +988,14 @@
       
         
           
+        
+          
+        
+          
+        
+      
+        
+          
             <article class="adapt-tile-to-share">
     <div class="sh-elements">
       
@@ -1001,7 +1021,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">today
+      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">2015-08-04 15:55:55 +0100
       </time>
       <!--time class="entry-date" datetime="2015-08-04" itemprop="datePublished">AUGUST 04, 2015 15:55:55
       </time-->
@@ -1089,7 +1109,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">yesterday
+      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 17:35:54 +0100
       </time>
       <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 17:35:54
       </time-->
@@ -1153,7 +1173,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">yesterday
+      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 11:32:30 +0100
       </time>
       <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 11:32:30
       </time-->
@@ -1223,7 +1243,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">yesterday
+      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 11:03:16 +0100
       </time>
       <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 11:03:16
       </time-->
@@ -1311,7 +1331,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-02" itemprop="datePublished">2 days ago
+      <time class="entry-date" datetime="2015-08-02" itemprop="datePublished">2015-08-02 20:49:52 +0100
       </time>
       <!--time class="entry-date" datetime="2015-08-02" itemprop="datePublished">AUGUST 02, 2015 20:49:52
       </time-->
@@ -1401,7 +1421,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">1 week and 5 days ago
+      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">2015-07-23 16:09:43 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 16:09:43
       </time-->
@@ -1501,7 +1521,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-09" itemprop="datePublished">3 weeks and 5 days ago
+      <time class="entry-date" datetime="2015-07-09" itemprop="datePublished">2015-07-09 18:33:17 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-09" itemprop="datePublished">JULY 09, 2015 18:33:17
       </time-->
@@ -1643,7 +1663,7 @@
 
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
-    
+
     
 
   </body>

@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805123411/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html(data.count);
+      }
+      else {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804155555/',
       context: document.body
     }).done(function( data ) {
@@ -1143,7 +1155,7 @@ Subject  = "World" / "Solar System" / "Galaxy" / "Universe"
 
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
-    
+
     
 
   </body>

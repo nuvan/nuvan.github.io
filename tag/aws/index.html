@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805123411/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html(data.count);
+      }
+      else {
+        $("#asm-js-and-webgl-for-unity-and-unreal-engine-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0804155555/',
       context: document.body
     }).done(function( data ) {
@@ -979,6 +991,14 @@
         
           
         
+          
+        
+      
+        
+          
+        
+          
+        
       
         
           
@@ -1155,7 +1175,7 @@
           
           <div class="post-meta">
     <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-06" itemprop="datePublished">4 weeks and 1 day ago
+      <time class="entry-date" datetime="2015-07-06" itemprop="datePublished">2015-07-06 18:33:20 +0100
       </time>
       <!--time class="entry-date" datetime="2015-07-06" itemprop="datePublished">JULY 06, 2015 18:33:20
       </time-->
@@ -1279,7 +1299,7 @@
 
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
-    
+
     
 
   </body>
