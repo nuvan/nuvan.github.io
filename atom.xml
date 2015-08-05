@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-05T12:39:25+01:00</updated>
+    <updated>2015-08-05T12:43:23+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>K-nearest neighbors in python - Dataquest Blog
+</title>
+        <link href="http://directionwithintent.com/shares/0805124132/"/>
+        <updated>2015-08-05T12:41:32+01:00</updated>
+        <id>http://directionwithintent.com/shares/0805124132</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In this post, we’ll be using the K-nearest neighbors algorithm to predict how many points NBA players scored in the 2013-2014 season. Along the way, we’ll learn about euclidean distance and figure out which NBA players are the most similar to Lebron James.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>FruityWifi - Wireless Network Auditing Tool - Darknet - The Darkside
@@ -446,24 +464,6 @@
         <content type="html">
         	
         	&lt;p&gt;We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we’ll start with how we acquired the data, and then drill down on our approach for the vote-ring problem.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Binary pattern matching in Elixir with PNG parsing example
-</title>
-        <link href="http://directionwithintent.com/shares/0723155314/"/>
-        <updated>2015-07-23T15:53:14+01:00</updated>
-        <id>http://directionwithintent.com/shares/0723155314</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Dealing with binary data has always been a pickle in OOP language. Pattern matching is very fundemental to Elixir making the functions much more descriptive. I was very pleased to see that the pattern matching was not just limited to tuple, list etc. but extended to binary data as well.&lt;/p&gt;
 
         </content>
     </entry>

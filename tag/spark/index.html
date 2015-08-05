@@ -102,6 +102,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805124132/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#k-nearest-neighbors-in-python-dataquest-blog-share").html(data.count);
+      }
+      else {
+        $("#k-nearest-neighbors-in-python-dataquest-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805123717/',
       context: document.body
     }).done(function( data ) {
@@ -997,6 +1009,14 @@
         <h1>Posts Tagged &ldquo;spark&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
+          
+        
       
         
           
