@@ -113,6 +113,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805164737/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#making-sense-of-streamgraphs-visualising-data-share").html(data.count);
+      }
+      else {
+        $("#making-sense-of-streamgraphs-visualising-data-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805124132/',
       context: document.body
     }).done(function( data ) {

@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0805164737/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#making-sense-of-streamgraphs-visualising-data-share").html(data.count);
+      }
+      else {
+        $("#making-sense-of-streamgraphs-visualising-data-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805124132/',
       context: document.body
     }).done(function( data ) {
@@ -1005,43 +1017,7 @@
 
     <div id="page-wrapper">
       <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
-            <!--div id="search">
-        <form action="/search" method="get">
-          <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-        </form>
-      </div>
-
-      <section id="search-results" style="display: none;">
-        <p>Search results</p>
-        <div class="entries"></div>
-      </section>
-
-    <script type="text/javascript">
-      $(function() {
-        $('#search-query').lunrSearch({
-          indexUrl: '/js/index.json',   // Url for the .json file containing search index data
-          results : '#search-results',  // selector for containing search results element
-          entries : '.entries',         // selector for search entries containing element (contained within results above)
-          template: '#search-results-template'  // selector for Mustache.js template
-        });
-      });
-    </script>
-
-    
-    <script id="search-results-template" type="text/mustache">
-      {{#entries}}
-        <article>
-          <h3>
-            {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
-            <a href="{{url}}">{{title}}</a>
-          </h3>
-        </article>
-      {{/entries}}
-    </script>
-    -->
-
-
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+      <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 <div id="main" role="main" class="fadin-anim">
   <div class="wrap">
     <div class="share-title">
