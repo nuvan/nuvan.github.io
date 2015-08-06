@@ -3,21 +3,21 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Creating your own private botnet for scanning.
+    <title>Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
  • Direction With Intent</title>
-    <meta name="description" content="Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. 
+    <meta name="description" content="After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned how to push data into AWS Kinesis which is amazing, however it has its disadvantages. On the flip side there is the new AWS API Gateway which I also haven’t spent much time on, so that’s a perfect thing to learn. After some tinkering, I found that while AWS API Gateway -&gt; Lambda -&gt; DynamoDB might sound complicated, it’s actually quite easy.
 
 ">
-    <meta name="keywords" content="security, tutorial">
+    <meta name="keywords" content="tutorial, aws, dynamodb, lambda">
     
       
     	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
-	<meta name="twitter:title" content="Creating your own private botnet for scanning.
+	<meta name="twitter:title" content="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
 ">
 	
-		<meta name="twitter:description" content="Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. 
+		<meta name="twitter:description" content="After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned how to push data into AWS Kinesis which is amazing, however it has its disadvantages. On the flip side there is the new AWS API Gateway which I also haven’t spent much time on, so that’s a perfect thing to learn. After some tinkering, I found that while AWS API Gateway -&gt; Lambda -&gt; DynamoDB might sound complicated, it’s actually quite easy.
 
 ">
 	
@@ -32,25 +32,25 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Creating your own private botnet for scanning.
+	<meta property="og:title" content="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
 ">
 	
-		<meta property="og:description" content="Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. 
+		<meta property="og:description" content="After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned how to push data into AWS Kinesis which is amazing, however it has its disadvantages. On the flip side there is the new AWS API Gateway which I also haven’t spent much time on, so that’s a perfect thing to learn. After some tinkering, I found that while AWS API Gateway -&gt; Lambda -&gt; DynamoDB might sound complicated, it’s actually quite easy.
 
 ">
 	
 	
 	
-		<meta property="og:image" content="https://static1.squarespace.com/static/555e03d8e4b0d64b51005ec7/t/5591b8f1e4b03f664861961f/1435613426483/screenshot.png?format=1000w
+		<meta property="og:image" content="https://snowulf.com/wp-content/uploads/2015/08/reinvent_launch-page_illustration_lambda.png
 ">
 	
 	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
 	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/shares/0731081142/">
+	<meta property="og:url" content="http://directionwithintent.com/shares/0806173012/">
 	<meta property="og:site_name" content="Direction With Intent">
 
 
-    <link rel="canonical" href="http://directionwithintent.com/shares/0731081142/">
+    <link rel="canonical" href="http://directionwithintent.com/shares/0806173012/">
 
     <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -1072,16 +1072,16 @@
   <a href="http://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="http://directionwithintent.com/shares/">Shares</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
     <div class="page-title">
-      <h1><a href="http://www.shellntel.com/blog/2015/6/12/creating-your-own-private-botnet-for-scanning
-" title="Creating your own private botnet for scanning.
-">Creating your own private botnet for scanning.
+      <h1><a href="https://snowulf.com/2015/08/05/tutorial-aws-api-gateway-to-lambda-to-dynamodb/
+" title="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
+">Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
 </a></h1>
     </div>
     <div class="inner-wrap">
       <nav class="toc"></nav><!-- /.toc -->
       <div id="content" class="page-content" itemprop="articleBody">
         <div class="share-container">
-            <p>Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. </p>
+            <p>After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned how to push data into AWS Kinesis which is amazing, however it has its disadvantages. On the flip side there is the new AWS API Gateway which I also haven’t spent much time on, so that’s a perfect thing to learn. After some tinkering, I found that while AWS API Gateway -&gt; Lambda -&gt; DynamoDB might sound complicated, it’s actually quite easy.</p>
 
         </div>
         <hr />
@@ -1098,14 +1098,14 @@
 </div>
           
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Creating%20your%20own%20private%20botnet%20for%20scanning.
-&amp;url=http://directionwithintent.com/shares/0731081142/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Tutorial:%20AWS%20API%20Gateway%20to%20Lambda%20to%20DynamoDB%20|%20Snowulf
+&amp;url=http://directionwithintent.com/shares/0806173012/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
     </div>
   </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0731081142/" target="_blank">
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0806173012/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -1113,7 +1113,7 @@
   </a>
 
           <div class="page-meta">
-	<p>Updated <time datetime="2015-07-31T08:11:42Z" itemprop="datePublished">July 31, 2015</time></p>
+	<p>Updated <time datetime="2015-08-06T17:30:12Z" itemprop="datePublished">August 06, 2015</time></p>
 </div><!-- /.page-meta -->
         </footer><!-- /.footer -->
         <aside>

@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0806173012/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share").html(data.count);
+      }
+      else {
+        $("#tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805201446/',
       context: document.body
     }).done(function( data ) {
@@ -1057,6 +1069,66 @@
           </div>
           
             <div class="post-title">
+              <a href="https://snowulf.com/2015/08/05/tutorial-aws-api-gateway-to-lambda-to-dynamodb/
+">
+                Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="https://snowulf.com/2015/08/05/tutorial-aws-api-gateway-to-lambda-to-dynamodb/
+">
+                After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned h...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-06" itemprop="datePublished">2015-08-06 17:30:12 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-06" itemprop="datePublished">AUGUST 06, 2015 17:30:12
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0806173012/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0806173012/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://www.datchley.name/getting-functional-with-javascript-part-1/
 ">
                 Getting Functional with Javascript (Part 1)
@@ -1292,66 +1364,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.darknet.org.uk/2015/08/fruitywifi-wireless-network-auditing-tool/
-">
-                FruityWifi - Wireless Network Auditing Tool - Darknet - The Darkside
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.darknet.org.uk/2015/08/fruitywifi-wireless-network-auditing-tool/
-">
-                FruityWifi is an open source wireless network auditing tool, it allows the user to deploy advanced attacks by directly using the web interface or by sending messages to it. Initially the application was created to be used with the Raspberry-Pi, but it can b...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-05" itemprop="datePublished">2015-08-05 12:37:17 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-05" itemprop="datePublished">AUGUST 05, 2015 12:37:17
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="fruitywifi-wireless-network-auditing-tool-darknet-the-darkside-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0805123717/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805123717/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -1414,6 +1426,10 @@
   
     
       <a href="/shares/page14">14</a>
+    
+  
+    
+      <a href="/shares/page15">15</a>
     
   
 

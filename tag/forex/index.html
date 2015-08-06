@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0806173012/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share").html(data.count);
+      }
+      else {
+        $("#tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0805201446/',
       context: document.body
     }).done(function( data ) {
@@ -1047,6 +1059,16 @@
         <h1>Posts Tagged &ldquo;forex&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
         
           
