@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0808004859/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#an-introduction-to-statistical-learning-with-applications-in-r-share").html(data.count);
+      }
+      else {
+        $("#an-introduction-to-statistical-learning-with-applications-in-r-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0806173012/',
       context: document.body
     }).done(function( data ) {
@@ -1062,6 +1074,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
@@ -1080,7 +1101,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
         
       </li>
     
@@ -1089,7 +1110,25 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
         
       </li>
     
@@ -1134,7 +1173,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1152,7 +1191,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
         
       </li>
     
@@ -1179,7 +1218,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1188,7 +1227,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
         
       </li>
     
@@ -1206,7 +1245,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
         
       </li>
     
@@ -1224,7 +1263,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
         
       </li>
     
@@ -1287,7 +1326,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
+        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
         
       </li>
     

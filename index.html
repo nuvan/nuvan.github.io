@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0808004859/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#an-introduction-to-statistical-learning-with-applications-in-r-share").html(data.count);
+      }
+      else {
+        $("#an-introduction-to-statistical-learning-with-applications-in-r-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0806173012/',
       context: document.body
     }).done(function( data ) {
@@ -1057,6 +1069,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
@@ -1075,7 +1096,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
         
       </li>
     
@@ -1084,7 +1105,25 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
         
       </li>
     
@@ -1129,7 +1168,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1147,7 +1186,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
         
       </li>
     
@@ -1174,7 +1213,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1183,7 +1222,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
         
       </li>
     
@@ -1201,7 +1240,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
         
       </li>
     
@@ -1219,7 +1258,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
         
       </li>
     
@@ -1282,7 +1321,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
+        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
         
       </li>
     
@@ -1322,6 +1361,45 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0808004859/" title="An Introduction to Statistical Learning with Applications in R
+" class="post-teaser">
+    
+      
+    
+  </a>
+  
+    <p class="post-category">
+      shares
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0808004859/">
+      An Introduction to Statistical Learning with Applications in R
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Statistical learning refers to a set of tools for modeling and understanding complex datasets. It is a re...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-08" itemprop="datePublished">2015-08-08 00:48:59 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-08" itemprop="datePublished">AUGUST 08, 2015 00:48:59
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="an-introduction-to-statistical-learning-with-applications-in-r-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0806173012/" title="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
@@ -1400,9 +1478,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805200047/" title="Introducing the Logstash HTTP input plugin
@@ -1442,9 +1520,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805164737/" title="Making sense of streamgraphs - Visualising Data
@@ -1523,9 +1601,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805123717/" title="FruityWifi - Wireless Network Auditing Tool - Darknet - The Darkside
@@ -1565,9 +1643,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805123411/" title="Asm.js and WebGL for Unity and Unreal Engine
@@ -1649,9 +1727,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0804124829/" title="How To Build A Ruby Gem With Bundler, Test-Driven Development, Travis CI And Coveralls, Oh My! – Smashing Magazine
@@ -1691,9 +1769,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0804115824/" title="The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
@@ -1772,9 +1850,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803185637/" title="Full-Text Search Algorithm in Javascript - Burak Kanber's Blog
@@ -1811,9 +1889,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803173554/" title="District Data Labs - Modern Methods for Sentiment Analysis
@@ -1889,9 +1967,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803112555/" title="Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
@@ -1928,9 +2006,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0803112050/" title="CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
@@ -2001,47 +2079,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="deep-learning-sentiment-analysis-for-movie-reviews-using-neo4j-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0803012838/" title="Intro to WebGL with Three.js
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      shares
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0803012838/">
-      Intro to WebGL with Three.js
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    JavaScript API for rendering interactive 2D and 3D graphics inside an HTML canvas element.
-
-
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 01:28:38 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 01:28:38
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="intro-to-webgl-with-three-js-share">0</div>
 </div>
 
 </article>
