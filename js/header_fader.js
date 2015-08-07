@@ -1,44 +1,43 @@
-	$(window).on('scroll', function() {
-    	if ($(this).scrollTop() > 400 && !$('.header').hasClass('fixed')) {
-          $(".site-title").removeClass('white-logo');
-          $(".site-title").addClass('black-logo');
+  $(window).on('scroll', function() {
+      if ($(this).scrollTop() > 400 && !$('header').hasClass('fixed') && $('header').hasClass('naver')) {
 
-          $("nav ul li a").removeClass('white');
-          $("nav ul li a").addClass('black');
+          $(".naver").removeClass('white-logo').addClass('black-logo');
 
-          $(".header").removeClass('absolute');
-          $(".header").addClass('fixed');
+          $("nav ul li a").removeClass('white').addClass('black');
 
-          $("button").removeClass('white');
-          $("button").addClass('black');
+          $(".site-title").removeClass('white-logo').addClass('black-logo');
 
-          $(".header").removeClass('transparent');
+          $(".header").removeClass('absolute').addClass('fixed');
 
-          $(".header").addClass('bottom-bordered');
+          $("button").removeClass('white').addClass('black');
+
+          $(".header").removeClass('transparent').addClass('bottom-bordered');
 
           //$( '.header' ).switchClass( "absolute", "fixed", 1000, "easeInOutQuad" );
           //$('.naver').animate({opacity : 1}, 'fast', function() {
-          // 	$(this).addClass('visible').removeAttr('style');
-       	  //});
-    	} else if ($(this).scrollTop() <= 400 && $('.header').hasClass('fixed')) {
+          //  $(this).addClass('visible').removeAttr('style');
+          //});
+      } else if ($(this).scrollTop() <= 400 && $('header').hasClass('fixed') && $('header').hasClass('naver')) {
           //$('.header').switchClass( "fixed", "absolute", 1000, "easeInOutQuad" );
           $(".header").removeClass('bottom-bordered');
 
           $("nav ul li a").removeClass('black');
           $("nav ul li a").addClass('white');
 
-          $(".site-title").removeClass('black-logo');
-          $(".site-title").addClass('white-logo');
+          //if it's a default. defaultnolead should not swith this color
+          $("button").removeClass('black').addClass('white');
 
-          $("button").removeClass('black');
-          $("button").addClass('white');
+          $(".site-title").removeClass('black-logo').addClass('white-logo');
+
+          $(".naver").removeClass('white-logo');
+          $(".naver").addClass('black-logo');
 
           $(".header").removeClass('fixed');
           $(".header").addClass('absolute');
 
           $(".header").addClass('transparent');
-       		//$('.naver').animate({opacity : 0}, 'fast', function() {
-          // 		$(this).removeClass('visible').removeAttr('style');
-       		//});
-    	}
-	});
+          //$('.naver').animate({opacity : 0}, 'fast', function() {
+          //    $(this).removeClass('visible').removeAttr('style');
+          //});
+      }
+  });
