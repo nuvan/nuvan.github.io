@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-08T14:49:34+01:00</updated>
+    <updated>2015-08-08T14:56:12+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Mining of Massive Datasets - Standford University - free eBook
+</title>
+        <link href="http://directionwithintent.com/shares/0808145453/"/>
+        <updated>2015-08-08T14:54:53+01:00</updated>
+        <id>http://directionwithintent.com/shares/0808145453</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Matrix Computations on the GPU in Clojure (in TFLOPS!)
@@ -449,24 +467,6 @@
         <content type="html">
         	
         	&lt;p&gt;I have written many tutorials on hacking using Metasploit, including leaving no evidence behind and exploring the inner architecture. Also, there are my Metasploit cheat sheets for commands and hacking scripts.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Forex Trading Diary #1 - Automated Forex Trading with the OANDA API - QuantStart
-</title>
-        <link href="http://directionwithintent.com/shares/0803004917/"/>
-        <updated>2015-08-03T00:49:17+01:00</updated>
-        <id>http://directionwithintent.com/shares/0803004917</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;I previously mentioned in the QuantStart: 2014 In Review article that I would be spending some of 2015 writing about automated forex trading.&lt;/p&gt;
 
         </content>
     </entry>
