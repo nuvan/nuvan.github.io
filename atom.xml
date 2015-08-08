@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-08T00:51:26+01:00</updated>
+    <updated>2015-08-08T01:06:41+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Architects Should Code: The Architect&#39;s Misconception
+</title>
+        <link href="http://directionwithintent.com/shares/0808010314/"/>
+        <updated>2015-08-08T01:03:14+01:00</updated>
+        <id>http://directionwithintent.com/shares/0808010314</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;The responsibility of an architect reaches far past design and business concerns. Their designs implementation is ultimately their only measure of success; they should get their hands dirty and help.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>An Introduction to Statistical Learning with Applications in R
@@ -449,24 +467,6 @@
         <content type="html">
         	
         	&lt;p&gt;&lt;b&gt;Summary:&lt;/b&gt; I learn best with toy code that I can play with. This tutorial teaches backpropagation via a very simple toy example, a short python implementation.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Getting started with Kafka in node.js with the Confluent REST Proxy
-</title>
-        <link href="http://directionwithintent.com/shares/0802161916/"/>
-        <updated>2015-08-02T16:19:16+01:00</updated>
-        <id>http://directionwithintent.com/shares/0802161916</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Previously, I posted about Confluent’s open source Kafka REST Proxy, which provides easy access to a Kafka cluster from any language. That post focused on the motivation, low-level examples, and implementation of the REST Proxy. In this post, I want to follow up by showing how quickly you can create a wrapper for your favorite language and use that wrapper to build applications. With the REST Proxy, you only need a couple of hours to go from zero to comprehensive Kafka support for your preferred language.&lt;/p&gt;
 
         </content>
     </entry>

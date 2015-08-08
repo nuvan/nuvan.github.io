@@ -113,6 +113,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0808010314/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#architects-should-code-the-architect-s-misconception-share").html(data.count);
+      }
+      else {
+        $("#architects-should-code-the-architect-s-misconception-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0808004859/',
       context: document.body
     }).done(function( data ) {
@@ -1111,6 +1123,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
         
       </li>
@@ -1174,7 +1195,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
+        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
         
       </li>
     
@@ -1192,7 +1213,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1219,52 +1240,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
         
       </li>
     
@@ -1282,7 +1258,34 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
         
       </li>
     
@@ -1292,6 +1295,24 @@
             
           
         <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1327,7 +1348,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
+        <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
     
