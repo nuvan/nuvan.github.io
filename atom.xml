@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-08T11:59:32+01:00</updated>
+    <updated>2015-08-08T12:40:17+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Think Bayes - Bayesian Statistics Made Simple (free eBook)
+</title>
+        <link href="http://directionwithintent.com/shares/0808123619/"/>
+        <updated>2015-08-08T12:36:19+01:00</updated>
+        <id>http://directionwithintent.com/shares/0808123619</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;An introduction to Bayesian statistics using simple Python programs instead of complicated math. Free eBook from Green Tea Press available at http://greenteapress.com&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Bayesian Methods for Hackers - GitHub Open Source Book
@@ -449,24 +467,6 @@
         <content type="html">
         	
         	&lt;p&gt;Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative queries and optimized storage), and lets SQL users call complex analytics libraries in Spark (e.g., machine learning).&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Lynis 2.1.1 - Security Auditing Tool for Unix/Linux Systems
-</title>
-        <link href="http://directionwithintent.com/shares/0802205940/"/>
-        <updated>2015-08-02T20:59:40+01:00</updated>
-        <id>http://directionwithintent.com/shares/0802205940</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Lynis is an open source security auditing tool. Commonly used by system administrators, security professionals and auditors, to evaluate the security defenses of their Linux/Unix based systems. It runs on the host itself, so it can perform very extensive security scans.&lt;/p&gt;
 
         </content>
     </entry>
