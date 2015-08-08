@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0808144706/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#matrix-computations-on-the-gpu-in-clojure-in-tflops-share").html(data.count);
+      }
+      else {
+        $("#matrix-computations-on-the-gpu-in-clojure-in-tflops-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0808124358/',
       context: document.body
     }).done(function( data ) {
@@ -1084,6 +1096,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
@@ -1102,7 +1123,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
     
@@ -1120,7 +1141,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1138,7 +1159,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/cep" class="title">CEP</a>
         
       </li>
     
@@ -1147,7 +1168,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
         
       </li>
     
@@ -1201,7 +1231,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/cep" class="title">CEP</a>
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
         
       </li>
     
@@ -1210,7 +1240,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
+        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
         
       </li>
     
@@ -1219,7 +1249,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
+        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
         
       </li>
     
@@ -1246,7 +1276,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
         
       </li>
     
@@ -1264,7 +1294,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
         
       </li>
     
@@ -1273,7 +1303,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
+        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1291,7 +1321,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
+        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
         
       </li>
     
@@ -1309,7 +1339,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
         
       </li>
     
@@ -1318,7 +1348,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
     
@@ -1336,7 +1366,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
+        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
     
@@ -1372,7 +1402,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
         
       </li>
     
@@ -1392,6 +1422,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html
+">
+                Matrix Computations on the GPU in Clojure (in TFLOPS!)
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html
+">
+                Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you’d write yours...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-08" itemprop="datePublished">2015-08-08 14:47:06 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-08" itemprop="datePublished">AUGUST 08, 2015 14:47:06
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="matrix-computations-on-the-gpu-in-clojure-in-tflops-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0808144706/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0808144706/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -1637,66 +1727,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="https://snowulf.com/2015/08/05/tutorial-aws-api-gateway-to-lambda-to-dynamodb/
-">
-                Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="https://snowulf.com/2015/08/05/tutorial-aws-api-gateway-to-lambda-to-dynamodb/
-">
-                After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned h...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-06" itemprop="datePublished">2015-08-06 17:30:12 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-06" itemprop="datePublished">AUGUST 06, 2015 17:30:12
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0806173012/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0806173012/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -1763,6 +1793,10 @@
   
     
       <a href="/shares/page15">15</a>
+    
+  
+    
+      <a href="/shares/page16">16</a>
     
   
 

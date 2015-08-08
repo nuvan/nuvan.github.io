@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-08T14:37:49+01:00</updated>
+    <updated>2015-08-08T14:49:34+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Matrix Computations on the GPU in Clojure (in TFLOPS!)
+</title>
+        <link href="http://directionwithintent.com/shares/0808144706/"/>
+        <updated>2015-08-08T14:47:06+01:00</updated>
+        <id>http://directionwithintent.com/shares/0808144706</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you’d write yourself.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Think Bayes - Bayesian Statistics Made Simple ( free eBook )
@@ -449,24 +467,6 @@
         <content type="html">
         	
         	&lt;p&gt;I previously mentioned in the QuantStart: 2014 In Review article that I would be spending some of 2015 writing about automated forex trading.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Spark SQL: Relational Data Processing in Spark
-</title>
-        <link href="http://directionwithintent.com/shares/0802233242/"/>
-        <updated>2015-08-02T23:32:42+01:00</updated>
-        <id>http://directionwithintent.com/shares/0802233242</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative queries and optimized storage), and lets SQL users call complex analytics libraries in Spark (e.g., machine learning).&lt;/p&gt;
 
         </content>
     </entry>
