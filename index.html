@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0810014008/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#smerity-com-question-answering-on-the-facebook-babi-dataset-using-recurrent-neural-networks-and-175-lines-of-python-keras-share").html(data.count);
+      }
+      else {
+        $("#smerity-com-question-answering-on-the-facebook-babi-dataset-using-recurrent-neural-networks-and-175-lines-of-python-keras-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0808145453/',
       context: document.body
     }).done(function( data ) {
@@ -1468,6 +1480,48 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0810014008/" title="Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
+" class="post-teaser">
+    
+      
+        <img src="http://smerity.com/media/images/articles/2015/keras_qa_model.png
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0810014008/">
+      Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Interested in a getting started in deep learning for NLP? Investigate how you can perform question answer...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-10" itemprop="datePublished">2015-08-10 01:40:08 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-10" itemprop="datePublished">AUGUST 10, 2015 01:40:08
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="smerity-com-question-answering-on-the-facebook-babi-dataset-using-recurrent-neural-networks-and-175-lines-of-python-keras-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808145453/" title="Mining of Massive Datasets - Standford University - free eBook
 " class="post-teaser">
     
@@ -1541,9 +1595,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808124358/" title="Think Bayes - Bayesian Statistics Made Simple - free eBook
@@ -1580,9 +1634,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808115525/" title="Bayesian Methods for Hackers - GitHub Open Source Book
@@ -1664,9 +1718,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808004859/" title="An Introduction to Statistical Learning with Applications in R
@@ -1703,9 +1757,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0806173012/" title="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
@@ -1784,9 +1838,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805200047/" title="Introducing the Logstash HTTP input plugin
@@ -1826,9 +1880,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805164737/" title="Making sense of streamgraphs - Visualising Data
@@ -1907,9 +1961,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805123717/" title="FruityWifi - Wireless Network Auditing Tool - Darknet - The Darkside
@@ -1949,9 +2003,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805123411/" title="Asm.js and WebGL for Unity and Unreal Engine
@@ -2033,9 +2087,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0804124829/" title="How To Build A Ruby Gem With Bundler, Test-Driven Development, Travis CI And Coveralls, Oh My! – Smashing Magazine
@@ -2075,9 +2129,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0804115824/" title="The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
@@ -2151,45 +2205,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="announcing-pulsar-real-time-analytics-at-scale-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0803185637/" title="Full-Text Search Algorithm in Javascript - Burak Kanber's Blog
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0803185637/">
-      Full-Text Search Algorithm in Javascript - Burak Kanber's Blog
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    Full-text search, unlike most of the topics in this machine learning series, is a problem that most web d...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 18:56:37 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 18:56:37
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="full-text-search-algorithm-in-javascript-burak-kanber-s-blog-share">0</div>
 </div>
 
 </article>

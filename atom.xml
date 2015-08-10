@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-08T14:58:56+01:00</updated>
+    <updated>2015-08-10T01:42:15+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
+</title>
+        <link href="http://directionwithintent.com/shares/0810014008/"/>
+        <updated>2015-08-10T01:40:08+01:00</updated>
+        <id>http://directionwithintent.com/shares/0810014008</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Interested in a getting started in deep learning for NLP? Investigate how you can perform question answering with Keras in only 175 lines of Python&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Mining of Massive Datasets - Standford University - free eBook
@@ -449,24 +467,6 @@
         <content type="html">
         	
         	&lt;p&gt;JavaScript API for rendering interactive 2D and 3D graphics inside an HTML canvas element.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Hack Like a Pro: Metasploit for the Aspiring Hacker, Part 1 (Primer &amp;amp; Overview)
-</title>
-        <link href="http://directionwithintent.com/shares/0803010009/"/>
-        <updated>2015-08-03T01:00:09+01:00</updated>
-        <id>http://directionwithintent.com/shares/0803010009</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;I have written many tutorials on hacking using Metasploit, including leaving no evidence behind and exploring the inner architecture. Also, there are my Metasploit cheat sheets for commands and hacking scripts.&lt;/p&gt;
 
         </content>
     </entry>

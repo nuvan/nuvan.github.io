@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0810014008/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#smerity-com-question-answering-on-the-facebook-babi-dataset-using-recurrent-neural-networks-and-175-lines-of-python-keras-share").html(data.count);
+      }
+      else {
+        $("#smerity-com-question-answering-on-the-facebook-babi-dataset-using-recurrent-neural-networks-and-175-lines-of-python-keras-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0808145453/',
       context: document.body
     }).done(function( data ) {
@@ -1443,6 +1455,12 @@
         <h1>Posts Tagged &ldquo;tools&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
       
         
           
