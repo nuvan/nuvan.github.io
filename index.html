@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0818082855/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#let-s-build-a-simple-interpreter-part-1-ruslan-s-blog-share").html(data.count);
+      }
+      else {
+        $("#let-s-build-a-simple-interpreter-part-1-ruslan-s-blog-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0810014330/',
       context: document.body
     }).done(function( data ) {
@@ -1144,15 +1156,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
@@ -1162,7 +1165,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
+        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
         
       </li>
     
@@ -1171,7 +1174,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
     
@@ -1198,6 +1201,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
@@ -1207,7 +1219,25 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/cep" class="title">CEP</a>
+        <a href="http://directionwithintent.com/tag/real-time" class="title">REAL-TIME</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
         
       </li>
     
@@ -1270,7 +1300,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/real-time" class="title">REAL-TIME</a>
+        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
         
       </li>
     
@@ -1279,7 +1309,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/cep" class="title">CEP</a>
         
       </li>
     
@@ -1297,7 +1327,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
+        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1342,43 +1372,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1396,7 +1390,43 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1414,7 +1444,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1450,7 +1480,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1490,6 +1520,45 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0818082855/" title="Let's Build A Simple Interpreter. Part 1. - Ruslan's Blog
+" class="post-teaser">
+    
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0818082855/">
+      Let's Build A Simple Interpreter. Part 1. - Ruslan's Blog
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    “If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure wh...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-18" itemprop="datePublished">2015-08-18 08:28:55 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-18" itemprop="datePublished">AUGUST 18, 2015 08:28:55
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="let-s-build-a-simple-interpreter-part-1-ruslan-s-blog-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0810014330/" title="Writing AWS Lambda Functions in Clojure | AWS Compute Blog
@@ -1570,9 +1639,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808145453/" title="Mining of Massive Datasets - Standford University - free eBook
@@ -1609,9 +1678,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808144706/" title="Matrix Computations on the GPU in Clojure (in TFLOPS!)
@@ -1687,9 +1756,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808115525/" title="Bayesian Methods for Hackers - GitHub Open Source Book
@@ -1729,9 +1798,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808010314/" title="Architects Should Code: The Architect's Misconception
@@ -1810,9 +1879,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0806173012/" title="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
@@ -1852,9 +1921,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805201446/" title="Getting Functional with Javascript (Part 1)
@@ -1933,9 +2002,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805164737/" title="Making sense of streamgraphs - Visualising Data
@@ -1975,9 +2044,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805124132/" title="K-nearest neighbors in python - Dataquest Blog
@@ -2056,9 +2125,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805123411/" title="Asm.js and WebGL for Unity and Unreal Engine
@@ -2098,9 +2167,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0804155555/" title="scikit-learn video #1: Intro to machine learning with scikit-learn
@@ -2177,45 +2246,6 @@ AWS Lambda’s Java sup...
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my-smashing-magazine-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0804115824/" title="The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0804115824/">
-      The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    There are many performance tools nowadays for Linux, but how do they all fit together, and when do we use...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">2015-08-04 11:58:24 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-04" itemprop="datePublished">AUGUST 04, 2015 11:58:24
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="the-netflix-tech-blog-netflix-at-velocity-2015-linux-performance-tools-share">0</div>
 </div>
 
 </article>
