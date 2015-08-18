@@ -113,6 +113,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0818083419/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#a-beginner-s-guide-to-understanding-ux-design-share").html(data.count);
+      }
+      else {
+        $("#a-beginner-s-guide-to-understanding-ux-design-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0818082855/',
       context: document.body
     }).done(function( data ) {
@@ -1162,7 +1174,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
         
       </li>
     
@@ -1171,7 +1183,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
     
@@ -1189,7 +1201,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
     
@@ -1216,7 +1237,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
+        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
     
@@ -1225,7 +1246,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/real-time" class="title">REAL-TIME</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1297,7 +1318,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
         
       </li>
     
@@ -1306,7 +1327,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
+        <a href="http://directionwithintent.com/tag/real-time" class="title">REAL-TIME</a>
         
       </li>
     
@@ -1396,25 +1417,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1432,7 +1435,25 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1450,7 +1471,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1486,7 +1507,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     

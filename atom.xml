@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-18T08:31:47+01:00</updated>
+    <updated>2015-08-18T08:36:00+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>A beginner&#39;s guide to understanding UX design
+</title>
+        <link href="http://directionwithintent.com/shares/0818083419/"/>
+        <updated>2015-08-18T08:34:19+01:00</updated>
+        <id>http://directionwithintent.com/shares/0818083419</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;If you are thinking of working on your conversion optimization and landing page optimization, understanding UX design is essential. As you know, we write a lot about the user, the single visitor that arrives on your site or landing page and needs to be triggered and helped around. UX design helps make sure that during this process the most important person isn’t left out of the mix: The user.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Let&#39;s Build A Simple Interpreter. Part 1. - Ruslan&#39;s Blog
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;I was a Joyent customer before I joined as an employee. I discovered Joyent’s infrastructure automation solutions while looking for a hybrid cloud solution that would allow me to run dev and test code in a private environment and production in a public cloud with a global presence. The Triton Elastic Container Infrastructure (formerly SmartDataCenter or SDC7) that powers Joyent’s public cloud is open source and available for anybody to install to power private clouds, allowing users to enjoy the same platform everywhere. It’s free for use as open source, but enterprises of all sizes take advantage of our commercial support offerings.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>CloudWatch Logs Subscription Consumer + Elasticsearch + Kibana Dashboards | AWS Official Blog
-</title>
-        <link href="http://directionwithintent.com/shares/0803112050/"/>
-        <updated>2015-08-03T11:20:50+01:00</updated>
-        <id>http://directionwithintent.com/shares/0803112050</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Many of the things that I blog about lately seem to involve interesting combinations of two or more AWS services and today’s post is no exception. Before I dig in, I’d like to briefly introduce all of the services that I plan to name-drop later in this post. Some of this will be review material, but I do like to make sure that every one of my posts makes sense to someone who knows little or nothing about AWS.&lt;/p&gt;
 
         </content>
     </entry>
