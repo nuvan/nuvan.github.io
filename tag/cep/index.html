@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0819075645/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-a-kalman-filter-works-in-pictures-bzarg-share").html(data.count);
+      }
+      else {
+        $("#how-a-kalman-filter-works-in-pictures-bzarg-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0818083419/',
       context: document.body
     }).done(function( data ) {
@@ -1518,6 +1530,10 @@
         <h1>Posts Tagged &ldquo;cep&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
       
         
           
