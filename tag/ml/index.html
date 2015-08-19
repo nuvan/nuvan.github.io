@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0819080646/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-bayes-a-look-at-the-likelihood-share").html(data.count);
+      }
+      else {
+        $("#understanding-bayes-a-look-at-the-likelihood-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0819075645/',
       context: document.body
     }).done(function( data ) {
@@ -1530,6 +1542,70 @@
         <h1>Posts Tagged &ldquo;ml&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+            <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://alexanderetz.com/2015/04/15/understanding-bayes-a-look-at-the-likelihood/
+">
+                Understanding Bayes: A Look at the Likelihood
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://alexanderetz.com/2015/04/15/understanding-bayes-a-look-at-the-likelihood/
+">
+                Much of the discussion in psychology surrounding Bayesian inference focuses on priors. Should we embrace priors, or should we be skeptical? When are Bayesian methods sensitive to specification of the prior, and when do the data effectively overwhelm it? Sho...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-19" itemprop="datePublished">2015-08-19 08:06:46 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-19" itemprop="datePublished">AUGUST 19, 2015 08:06:46
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="understanding-bayes-a-look-at-the-likelihood-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Posts%20Tagged%20&amp;ldquo;ml&amp;rdquo;&amp;url=http://directionwithintent.com/shares/0819080646/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0819080646/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+          
+        
       
         
           

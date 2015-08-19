@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0819080646/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-bayes-a-look-at-the-likelihood-share").html(data.count);
+      }
+      else {
+        $("#understanding-bayes-a-look-at-the-likelihood-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0819075645/',
       context: document.body
     }).done(function( data ) {
@@ -1555,6 +1567,48 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0819080646/" title="Understanding Bayes: A Look at the Likelihood
+" class="post-teaser">
+    
+      
+        <img src="https://nicebrain.files.wordpress.com/2015/04/figure-1.png
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0819080646/">
+      Understanding Bayes: A Look at the Likelihood
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Much of the discussion in psychology surrounding Bayesian inference focuses on priors. Should we embrace ...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-19" itemprop="datePublished">2015-08-19 08:06:46 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-19" itemprop="datePublished">AUGUST 19, 2015 08:06:46
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="understanding-bayes-a-look-at-the-likelihood-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819075645/" title="How a Kalman filter works, in pictures | Bzarg
 " class="post-teaser">
     
@@ -1631,9 +1685,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818082855/" title="Let's Build A Simple Interpreter. Part 1. - Ruslan's Blog
@@ -1670,9 +1724,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0810014330/" title="Writing AWS Lambda Functions in Clojure | AWS Compute Blog
@@ -1753,9 +1807,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808145453/" title="Mining of Massive Datasets - Standford University - free eBook
@@ -1792,9 +1846,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808144706/" title="Matrix Computations on the GPU in Clojure (in TFLOPS!)
@@ -1870,9 +1924,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808115525/" title="Bayesian Methods for Hackers - GitHub Open Source Book
@@ -1912,9 +1966,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808010314/" title="Architects Should Code: The Architect's Misconception
@@ -1993,9 +2047,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0806173012/" title="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
@@ -2035,9 +2089,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805201446/" title="Getting Functional with Javascript (Part 1)
@@ -2116,9 +2170,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805164737/" title="Making sense of streamgraphs - Visualising Data
@@ -2158,9 +2212,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0805124132/" title="K-nearest neighbors in python - Dataquest Blog
@@ -2234,48 +2288,6 @@ AWS Lambda’s Java sup...
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="fruitywifi-wireless-network-auditing-tool-darknet-the-darkside-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0805123411/" title="Asm.js and WebGL for Unity and Unreal Engine
-" class="post-teaser">
-    
-      
-        <img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1438686828Unity01-development-stack.png
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0805123411/">
-      Asm.js and WebGL for Unity and Unreal Engine
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    This article is part of a web dev series from Microsoft. Thank you for supporting the partners who make S...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-05" itemprop="datePublished">2015-08-05 12:34:11 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-05" itemprop="datePublished">AUGUST 05, 2015 12:34:11
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="asm-js-and-webgl-for-unity-and-unreal-engine-share">0</div>
 </div>
 
 </article>

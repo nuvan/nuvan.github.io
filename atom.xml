@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-19T07:57:48+01:00</updated>
+    <updated>2015-08-19T08:07:13+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Understanding Bayes: A Look at the Likelihood
+</title>
+        <link href="http://directionwithintent.com/shares/0819080646/"/>
+        <updated>2015-08-19T08:06:46+01:00</updated>
+        <id>http://directionwithintent.com/shares/0819080646</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Much of the discussion in psychology surrounding Bayesian inference focuses on priors. Should we embrace priors, or should we be skeptical? When are Bayesian methods sensitive to specification of the prior, and when do the data effectively overwhelm it? Should we use context specific prior distributions or should we use general defaults? These are all great questions and great discussions to be having.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>How a Kalman filter works, in pictures | Bzarg
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;Sentiment analysis is a common application of Natural Language Processing (NLP) methodologies, particularly classification, whose goal is to extract the emotional content in text. In this way, sentiment analysis can be seen as a method to quantify qualitative data with some sentiment score. While sentiment is largely subjective, sentiment quantification has enjoyed many useful implementations, such as businesses gaining understanding about consumer reactions to a product, or detecting hateful speech in online comments.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Implementing and analyzing online experiments
-</title>
-        <link href="http://directionwithintent.com/shares/0803113230/"/>
-        <updated>2015-08-03T11:32:30+01:00</updated>
-        <id>http://directionwithintent.com/shares/0803113230</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Randomized experiments are the gold standard for understanding and quantifying causal relationships. This talk is divided into two parts corresponding to before and after the experiment is run.  In the first section, we discuss how to design and implement online experiments using PlanOut, an open-source toolkit for advanced online experimentation used at Facebook. We will show how basic “A/B tests”, within-subjects designs, as well as more sophisticated experiments can be implemented.  In the second section, we cover methods to estimate causal quantities of interest and construct appropriate confidence intervals. Particular attention will be given to scalable methods suitable for “big data”, including working with weighted data and clustered bootstrapping.&lt;/p&gt;
 
         </content>
     </entry>

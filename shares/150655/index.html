@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0819080646/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-bayes-a-look-at-the-likelihood-share").html(data.count);
+      }
+      else {
+        $("#understanding-bayes-a-look-at-the-likelihood-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0819075645/',
       context: document.body
     }).done(function( data ) {
