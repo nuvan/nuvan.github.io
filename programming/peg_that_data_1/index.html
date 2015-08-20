@@ -114,6 +114,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0820081348/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#eventually-consistent-transactions-share").html(data.count);
+      }
+      else {
+        $("#eventually-consistent-transactions-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0820080936/',
       context: document.body
     }).done(function( data ) {
@@ -1238,7 +1250,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
+        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
     
@@ -1247,7 +1259,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
+        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
     
@@ -1283,7 +1295,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1355,7 +1376,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
+        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
         
       </li>
     
@@ -1364,7 +1385,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1400,7 +1421,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
+        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
         
       </li>
     
@@ -1445,15 +1466,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
@@ -1481,7 +1493,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1490,7 +1502,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1508,6 +1520,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1517,7 +1538,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1553,7 +1574,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
