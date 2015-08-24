@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-24T08:03:03+01:00</updated>
+    <updated>2015-08-24T08:05:02+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Getting Started with Docker: Simplifying Devops
+</title>
+        <link href="http://directionwithintent.com/shares/0824080425/"/>
+        <updated>2015-08-24T08:04:25+01:00</updated>
+        <id>http://directionwithintent.com/shares/0824080425</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;If you like whales, or are simply interested in quick and painless continuous delivery of your software to production, then I invite you to read this introductory Docker Tutorial. Everything seems to indicate that software containers are the future of IT, so let’s go for a quick dip with the container whales Moby Dock and Molly.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Building an MVC Application with Spring Framework: A Beginner&#39;s Tutorial
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;Ruby is a great language. It was designed to foster happiness and productivity in developers, all the while providing tools that are effective and yet focused on simplicity. One of the tools available to the Rubyist is the RubyGems package manager. It enables us both to include gems (i.e. packaged code) that we can reuse in our own applications and to package our own code as a gem to share with the Ruby community. We’ll be focusing on the latter in this article.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>The Netflix Tech Blog: Netflix at Velocity 2015: Linux Performance Tools
-</title>
-        <link href="http://directionwithintent.com/shares/0804115824/"/>
-        <updated>2015-08-04T11:58:24+01:00</updated>
-        <id>http://directionwithintent.com/shares/0804115824</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;There are many performance tools nowadays for Linux, but how do they all fit together, and when do we use them? At Velocity 2015, I gave a 90 minute tutorial on. I’ve spoken on this topic before, but given a 90 minute time slot I was able to include more methodologies, tools, and live demonstrations, making it the most complete tour of the topic I’ve done.&lt;/p&gt;
 
         </content>
     </entry>
