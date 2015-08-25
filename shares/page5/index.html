@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0825080638/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#deploy-your-rails-app-to-aws-share").html(data.count);
+      }
+      else {
+        $("#deploy-your-rails-app-to-aws-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080126/',
       context: document.body
     }).done(function( data ) {
@@ -1258,6 +1270,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1267,7 +1288,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1447,7 +1468,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1483,7 +1504,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1528,15 +1549,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
@@ -1564,7 +1576,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1573,7 +1585,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1591,6 +1603,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1600,7 +1621,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1636,7 +1657,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1656,6 +1677,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="https://www.elastic.co/blog/introducing-logstash-input-http-plugin
+">
+                Introducing the Logstash HTTP input plugin
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="https://www.elastic.co/blog/introducing-logstash-input-http-plugin
+">
+                Logstash has been missing a way to receive data through HTTP requests, but not anymore! The logstash-input-http plugin is now available for everyone! Also, starting with Logstash 1.5.2, it is included as one of the default plugins that are distributed with ...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-05" itemprop="datePublished">2015-08-05 20:00:47 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-05" itemprop="datePublished">AUGUST 05, 2015 20:00:47
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="introducing-the-logstash-http-input-plugin-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0805200047/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805200047/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -1886,66 +1967,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805123411/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
-">
-                scikit-learn video #1: Intro to machine learning with scikit-learn
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
-">
-                Have you tried out a few Kaggle competitions, but you aren’t quite sure what you’re supposed to be doing? Or perhaps you’ve heard all the talk in the Kaggle forums about Python’s scikit-learn library, but you haven’t figured out how to take advantage of thi...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">2015-08-04 15:55:55 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-04" itemprop="datePublished">AUGUST 04, 2015 15:55:55
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0804155555/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0804155555/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

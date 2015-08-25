@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0825080638/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#deploy-your-rails-app-to-aws-share").html(data.count);
+      }
+      else {
+        $("#deploy-your-rails-app-to-aws-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080126/',
       context: document.body
     }).done(function( data ) {
@@ -1258,6 +1270,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1267,7 +1288,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1447,7 +1468,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1483,7 +1504,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1528,15 +1549,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
@@ -1564,7 +1576,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1573,7 +1585,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1591,6 +1603,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1600,7 +1621,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1636,7 +1657,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1656,6 +1677,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="https://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis
+">
+                District Data Labs - Modern Methods for Sentiment Analysis
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="https://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis
+">
+                Sentiment analysis is a common application of Natural Language Processing (NLP) methodologies, particularly classification, whose goal is to extract the emotional content in text. In this way, sentiment analysis can be seen as a method to quantify qualitati...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 17:35:54 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 17:35:54
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="district-data-labs-modern-methods-for-sentiment-analysis-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0803173554/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803173554/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -1884,68 +1965,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803110316/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://davidscottlyons.com/threejs/presentations/frontporch14/
-">
-                Intro to WebGL with Three.js
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://davidscottlyons.com/threejs/presentations/frontporch14/
-">
-                JavaScript API for rendering interactive 2D and 3D graphics inside an HTML canvas element.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 01:28:38 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 01:28:38
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="intro-to-webgl-with-three-js-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0803012838/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803012838/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

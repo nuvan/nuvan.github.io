@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-25T08:03:02+01:00</updated>
+    <updated>2015-08-25T08:07:34+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Deploy Your Rails App to AWS
+</title>
+        <link href="http://directionwithintent.com/shares/0825080638/"/>
+        <updated>2015-08-25T08:06:38+01:00</updated>
+        <id>http://directionwithintent.com/shares/0825080638</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS) using Capistrano.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>How does a relational database work - Coding Geek
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;This article is part of a web dev series from Microsoft. Thank you for supporting the partners who make SitePoint possible.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>scikit-learn video #1: Intro to machine learning with scikit-learn
-</title>
-        <link href="http://directionwithintent.com/shares/0804155555/"/>
-        <updated>2015-08-04T15:55:55+01:00</updated>
-        <id>http://directionwithintent.com/shares/0804155555</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Have you tried out a few Kaggle competitions, but you aren’t quite sure what you’re supposed to be doing? Or perhaps you’ve heard all the talk in the Kaggle forums about Python’s scikit-learn library, but you haven’t figured out how to take advantage of this powerful tool for machine learning? If so, this post is for you!&lt;/p&gt;
 
         </content>
     </entry>

@@ -3,21 +3,21 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
+    <title>Deploy Your Rails App to AWS
  • Direction With Intent</title>
-    <meta name="description" content="I was a Joyent customer before I joined as an employee. I discovered Joyent’s infrastructure automation solutions while looking for a hybrid cloud solution that would allow me to run dev and test code in a private environment and production in a public cloud with a global presence. The Triton Elastic Container Infrastructure (formerly SmartDataCenter or SDC7) that powers Joyent’s public cloud is open source and available for anybody to install to power private clouds, allowing users to enjoy the same platform everywhere. It’s free for use as open source, but enterprises of all sizes take advantage of our commercial support offerings.
+    <meta name="description" content="As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS) using Capistrano.
 
 ">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="tutorial, ruby, rails, aws">
     
       
     	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
-	<meta name="twitter:title" content="Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
+	<meta name="twitter:title" content="Deploy Your Rails App to AWS
 ">
 	
-		<meta name="twitter:description" content="I was a Joyent customer before I joined as an employee. I discovered Joyent’s infrastructure automation solutions while looking for a hybrid cloud solution that would allow me to run dev and test code in a private environment and production in a public cloud with a global presence. The Triton Elastic Container Infrastructure (formerly SmartDataCenter or SDC7) that powers Joyent’s public cloud is open source and available for anybody to install to power private clouds, allowing users to enjoy the same platform everywhere. It’s free for use as open source, but enterprises of all sizes take advantage of our commercial support offerings.
+		<meta name="twitter:description" content="As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS) using Capistrano.
 
 ">
 	
@@ -26,28 +26,31 @@
 	
 	
 	
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="http://directionwithintent.com/images/fbprofile.jpg">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content="http://directionwithintent.com/images/DWI.svg">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
+	<meta property="og:title" content="Deploy Your Rails App to AWS
 ">
 	
-		<meta property="og:description" content="I was a Joyent customer before I joined as an employee. I discovered Joyent’s infrastructure automation solutions while looking for a hybrid cloud solution that would allow me to run dev and test code in a private environment and production in a public cloud with a global presence. The Triton Elastic Container Infrastructure (formerly SmartDataCenter or SDC7) that powers Joyent’s public cloud is open source and available for anybody to install to power private clouds, allowing users to enjoy the same platform everywhere. It’s free for use as open source, but enterprises of all sizes take advantage of our commercial support offerings.
+		<meta property="og:description" content="As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS) using Capistrano.
 
 ">
 	
 	
+	
+		<meta property="og:image" content="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1439638315Fotolia_83050031_Subscription_Monthly_M.jpg
+">
 	
 	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
 	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/shares/0803112555/">
+	<meta property="og:url" content="http://directionwithintent.com/shares/0825080638/">
 	<meta property="og:site_name" content="Direction With Intent">
 
 
-    <link rel="canonical" href="http://directionwithintent.com/shares/0803112555/">
+    <link rel="canonical" href="http://directionwithintent.com/shares/0825080638/">
 
     <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -1687,16 +1690,16 @@
   <a href="http://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="http://directionwithintent.com/shares/">Shares</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
     <div class="page-title">
-      <h1><a href="https://www.joyent.com/blog/spin-up-a-docker-dev-test-environment-in-60-minutes-or-less
-" title="Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
-">Spin up a Docker dev/test Environment in 60 Minutes or Less - Blog - Joyent
+      <h1><a href="http://www.sitepoint.com/deploy-your-rails-app-to-aws/
+" title="Deploy Your Rails App to AWS
+">Deploy Your Rails App to AWS
 </a></h1>
     </div>
     <div class="inner-wrap">
       <nav class="toc"></nav><!-- /.toc -->
       <div id="content" class="page-content" itemprop="articleBody">
         <div class="share-container">
-            <p>I was a Joyent customer before I joined as an employee. I discovered Joyent’s infrastructure automation solutions while looking for a hybrid cloud solution that would allow me to run dev and test code in a private environment and production in a public cloud with a global presence. The Triton Elastic Container Infrastructure (formerly SmartDataCenter or SDC7) that powers Joyent’s public cloud is open source and available for anybody to install to power private clouds, allowing users to enjoy the same platform everywhere. It’s free for use as open source, but enterprises of all sizes take advantage of our commercial support offerings.</p>
+            <p>As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS) using Capistrano.</p>
 
         </div>
         <hr />
@@ -1713,14 +1716,14 @@
 </div>
           
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Spin%20up%20a%20Docker%20dev/test%20Environment%20in%2060%20Minutes%20or%20Less%20-%20Blog%20-%20Joyent
-&amp;url=http://directionwithintent.com/shares/0803112555/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Deploy%20Your%20Rails%20App%20to%20AWS
+&amp;url=http://directionwithintent.com/shares/0825080638/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
     </div>
   </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803112555/" target="_blank">
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0825080638/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -1728,7 +1731,7 @@
   </a>
 
           <div class="page-meta">
-	<p>Updated <time datetime="2015-08-03T11:25:55Z" itemprop="datePublished">August 03, 2015</time></p>
+	<p>Updated <time datetime="2015-08-25T08:06:38Z" itemprop="datePublished">August 25, 2015</time></p>
 </div><!-- /.page-meta -->
         </footer><!-- /.footer -->
         <aside>

@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0825080638/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#deploy-your-rails-app-to-aws-share").html(data.count);
+      }
+      else {
+        $("#deploy-your-rails-app-to-aws-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080126/',
       context: document.body
     }).done(function( data ) {
@@ -1258,6 +1270,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1267,7 +1288,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1447,7 +1468,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1483,7 +1504,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1528,15 +1549,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
@@ -1564,7 +1576,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1573,7 +1585,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1591,6 +1603,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1600,7 +1621,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1636,7 +1657,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1656,6 +1677,16 @@
         <h1>Posts Tagged &ldquo;algorithms&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
         
           
@@ -1913,7 +1944,7 @@
             <div class="post-excerpt wide">
               <a href="http://alexhwoods.com/2015/07/25/introduction-to-monte-carlo-methods/
 ">
-                I&#039;m going to keep this tutorial light on math, because the goal is just to give a general understanding. Monte Carlo methods originated from the Manhattan Project, as a way to simulate the distance neutrons would travel through through various material...
+                I'm going to keep this tutorial light on math, because the goal is just to give a general understanding. Monte Carlo methods originated from the Manhattan Project, as a way to simulate the distance neutrons would travel through through various materials [1]...
               </a>
             </div>
           
@@ -1989,7 +2020,7 @@
             <div class="post-excerpt wide">
               <a href="http://blog.algorithmia.com/post/124542129914/mining-product-hunt-detecting-vote-rings
 ">
-                We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we&rsquo;ll start with how we acquired ...
+                We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we’ll start with how we acquired the da...
               </a>
             </div>
           

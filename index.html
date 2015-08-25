@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0825080638/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#deploy-your-rails-app-to-aws-share").html(data.count);
+      }
+      else {
+        $("#deploy-your-rails-app-to-aws-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080126/',
       context: document.body
     }).done(function( data ) {
@@ -1261,6 +1273,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1270,7 +1291,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1450,7 +1471,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1486,7 +1507,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1531,15 +1552,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
@@ -1567,7 +1579,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1576,7 +1588,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1594,6 +1606,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1603,7 +1624,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1639,7 +1660,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1679,6 +1700,48 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0825080638/" title="Deploy Your Rails App to AWS
+" class="post-teaser">
+    
+      
+        <img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1439638315Fotolia_83050031_Subscription_Monthly_M.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0825080638/">
+      Deploy Your Rails App to AWS
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    As developers, we are usually concerned about the development part of any application. We don’t think muc...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-25" itemprop="datePublished">2015-08-25 08:06:38 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-25" itemprop="datePublished">AUGUST 25, 2015 08:06:38
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="deploy-your-rails-app-to-aws-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080126/" title="How does a relational database work - Coding Geek
@@ -1760,9 +1823,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080224/" title="Building an MVC Application with Spring Framework: A Beginner's Tutorial
@@ -1802,9 +1865,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820081348/" title="Eventually Consistent Transactions
@@ -1886,9 +1949,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819080646/" title="Understanding Bayes: A Look at the Likelihood
@@ -1928,9 +1991,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819075645/" title="How a Kalman filter works, in pictures | Bzarg
@@ -2009,9 +2072,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818082855/" title="Let's Build A Simple Interpreter. Part 1. - Ruslan's Blog
@@ -2048,9 +2111,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0810014330/" title="Writing AWS Lambda Functions in Clojure | AWS Compute Blog
@@ -2131,9 +2194,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808145453/" title="Mining of Massive Datasets - Standford University - free eBook
@@ -2170,9 +2233,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808144706/" title="Matrix Computations on the GPU in Clojure (in TFLOPS!)
@@ -2248,9 +2311,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808115525/" title="Bayesian Methods for Hackers - GitHub Open Source Book
@@ -2290,9 +2353,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808010314/" title="Architects Should Code: The Architect's Misconception
@@ -2366,48 +2429,6 @@ AWS Lambda’s Java sup...
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="an-introduction-to-statistical-learning-with-applications-in-r-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0806173012/" title="Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
-" class="post-teaser">
-    
-      
-        <img src="https://snowulf.com/wp-content/uploads/2015/08/reinvent_launch-page_illustration_lambda.png
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0806173012/">
-      Tutorial: AWS API Gateway to Lambda to DynamoDB | Snowulf
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and ...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-06" itemprop="datePublished">2015-08-06 17:30:12 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-06" itemprop="datePublished">AUGUST 06, 2015 17:30:12
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="tutorial-aws-api-gateway-to-lambda-to-dynamodb-snowulf-share">0</div>
 </div>
 
 </article>

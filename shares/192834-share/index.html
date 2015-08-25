@@ -115,6 +115,18 @@ Most of that time, the book existed entirely on the web. It was less “book” 
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0825080638/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#deploy-your-rails-app-to-aws-share").html(data.count);
+      }
+      else {
+        $("#deploy-your-rails-app-to-aws-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080126/',
       context: document.body
     }).done(function( data ) {
@@ -1269,6 +1281,15 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1278,7 +1299,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1458,7 +1479,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1494,7 +1515,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1539,15 +1560,6 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
@@ -1575,7 +1587,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1584,7 +1596,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1602,6 +1614,15 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1611,7 +1632,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1647,7 +1668,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
