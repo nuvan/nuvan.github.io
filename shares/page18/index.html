@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0825080126/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-does-a-relational-database-work-coding-geek-share").html(data.count);
+      }
+      else {
+        $("#how-does-a-relational-database-work-coding-geek-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0824080425/',
       context: document.body
     }).done(function( data ) {
@@ -1291,15 +1303,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
@@ -1309,7 +1312,25 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
     
@@ -1336,7 +1357,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1399,7 +1420,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
         
       </li>
     
@@ -1408,7 +1429,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
         
       </li>
     
@@ -1462,7 +1483,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1507,15 +1528,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
@@ -1543,7 +1555,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1552,7 +1564,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1570,6 +1582,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1579,7 +1600,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1615,7 +1636,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1635,6 +1656,70 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="http://directionwithintent.com/programming/peg_that_data_2/" title="PEG that data - Part 2" class="post-teaser">
+              <img src="http://directionwithintent.com/images/peg_314x250.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            programming
+          </div>
+          
+            <div class="post-title">
+              <a href="http://directionwithintent.com/programming/peg_that_data_2/">
+                PEG that data - Part 2
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="http://directionwithintent.com/programming/peg_that_data_2/">
+                After Part 1 of PEG that data, we’ve learned how to create a very basic parser to recognize simple “Hello World” type...
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">2014-10-26 00:00:00 +0100
+      </time>
+      <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="http://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="http://directionwithintent.com/programming/peg_that_data_2/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="peg-that-data-part-2-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/programming/peg_that_data_2/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/programming/peg_that_data_2/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
