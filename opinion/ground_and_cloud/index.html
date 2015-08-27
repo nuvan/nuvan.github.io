@@ -114,6 +114,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0827081105/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#extending-seven-bridges-genomics-with-amazon-redshift-and-r-share").html(data.count);
+      }
+      else {
+        $("#extending-seven-bridges-genomics-with-amazon-redshift-and-r-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080638/',
       context: document.body
     }).done(function( data ) {
@@ -1262,7 +1274,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
+        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
         
       </li>
     
@@ -1271,7 +1283,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
         
       </li>
     
@@ -1352,7 +1364,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1388,7 +1409,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1442,7 +1463,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
         
       </li>
     
@@ -1451,7 +1472,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
+        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
         
       </li>
     
@@ -1478,7 +1499,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1514,7 +1535,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1559,15 +1580,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
@@ -1595,7 +1607,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1604,7 +1616,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1622,6 +1634,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1631,7 +1652,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1667,7 +1688,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     

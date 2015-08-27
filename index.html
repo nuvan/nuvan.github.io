@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0827081105/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#extending-seven-bridges-genomics-with-amazon-redshift-and-r-share").html(data.count);
+      }
+      else {
+        $("#extending-seven-bridges-genomics-with-amazon-redshift-and-r-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0825080638/',
       context: document.body
     }).done(function( data ) {
@@ -1255,7 +1267,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
+        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
         
       </li>
     
@@ -1264,7 +1276,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
         
       </li>
     
@@ -1345,7 +1357,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1381,7 +1402,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1435,7 +1456,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
         
       </li>
     
@@ -1444,7 +1465,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
+        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
         
       </li>
     
@@ -1471,7 +1492,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1507,7 +1528,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1552,15 +1573,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
@@ -1588,7 +1600,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1597,7 +1609,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1615,6 +1627,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1624,7 +1645,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1660,7 +1681,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1700,6 +1721,45 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
+" class="post-teaser">
+    
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0827081105/">
+      Extending Seven Bridges Genomics with Amazon Redshift and R
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    We will walk through an end-to-end genomics analysis using the Seven Bridges Genomics platform, an AWS ad...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-08-27" itemprop="datePublished">2015-08-27 08:11:05 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-27" itemprop="datePublished">AUGUST 27, 2015 08:11:05
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="extending-seven-bridges-genomics-with-amazon-redshift-and-r-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080638/" title="Deploy Your Rails App to AWS
@@ -1781,9 +1841,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080425/" title="Getting Started with Docker: Simplifying Devops
@@ -1823,9 +1883,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080224/" title="Building an MVC Application with Spring Framework: A Beginner's Tutorial
@@ -1907,9 +1967,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820080936/" title="Kaizen: Get a Little Better Each Day | The Art of Manliness
@@ -1949,9 +2009,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819080646/" title="Understanding Bayes: A Look at the Likelihood
@@ -2030,9 +2090,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818083419/" title="A beginner's guide to understanding UX design
@@ -2072,9 +2132,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818082855/" title="Let's Build A Simple Interpreter. Part 1. - Ruslan's Blog
@@ -2152,9 +2212,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0810014008/" title="Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
@@ -2194,9 +2254,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808145453/" title="Mining of Massive Datasets - Standford University - free eBook
@@ -2272,9 +2332,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808124358/" title="Think Bayes - Bayesian Statistics Made Simple - free eBook
@@ -2311,9 +2371,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0808115525/" title="Bayesian Methods for Hackers - GitHub Open Source Book
@@ -2390,45 +2450,6 @@ AWS Lambda’s Java sup...
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="architects-should-code-the-architect-s-misconception-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0808004859/" title="An Introduction to Statistical Learning with Applications in R
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0808004859/">
-      An Introduction to Statistical Learning with Applications in R
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    Statistical learning refers to a set of tools for modeling and understanding complex datasets. It is a re...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-08" itemprop="datePublished">2015-08-08 00:48:59 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-08" itemprop="datePublished">AUGUST 08, 2015 00:48:59
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="an-introduction-to-statistical-learning-with-applications-in-r-share">0</div>
 </div>
 
 </article>

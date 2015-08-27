@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-25T08:07:34+01:00</updated>
+    <updated>2015-08-27T08:12:08+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Extending Seven Bridges Genomics with Amazon Redshift and R
+</title>
+        <link href="http://directionwithintent.com/shares/0827081105/"/>
+        <updated>2015-08-27T08:11:05+01:00</updated>
+        <id>http://directionwithintent.com/shares/0827081105</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;We will walk through an end-to-end genomics analysis using the Seven Bridges Genomics platform, an AWS advanced technology partner that offers a solution for data scientists looking to analyze large-scale, next-generation, sequencing (NGS) data securely. We will also demonstrate how easy it is to extend this platform to use the additional analytics capabilities offered by AWS. First, we will identify the genetic “variants” in an individual—what makes them unique—and then conduct a comparison of variation across a group of people.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Deploy Your Rails App to AWS
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;FruityWifi is an open source wireless network auditing tool, it allows the user to deploy advanced attacks by directly using the web interface or by sending messages to it. Initially the application was created to be used with the Raspberry-Pi, but it can be installed on any Debian based system.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Asm.js and WebGL for Unity and Unreal Engine
-</title>
-        <link href="http://directionwithintent.com/shares/0805123411/"/>
-        <updated>2015-08-05T12:34:11+01:00</updated>
-        <id>http://directionwithintent.com/shares/0805123411</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;This article is part of a web dev series from Microsoft. Thank you for supporting the partners who make SitePoint possible.&lt;/p&gt;
 
         </content>
     </entry>
