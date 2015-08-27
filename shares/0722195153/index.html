@@ -113,6 +113,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0827183938/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#sentiment-analysis-using-doc2vec-pandamonium-share").html(data.count);
+      }
+      else {
+        $("#sentiment-analysis-using-doc2vec-pandamonium-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0827081105/',
       context: document.body
     }).done(function( data ) {

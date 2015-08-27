@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0827183938/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#sentiment-analysis-using-doc2vec-pandamonium-share").html(data.count);
+      }
+      else {
+        $("#sentiment-analysis-using-doc2vec-pandamonium-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0827081105/',
       context: document.body
     }).done(function( data ) {
@@ -1704,6 +1716,12 @@
         
           
         
+      
+        
+          
+        
+          
+        
           
         
       
@@ -1779,7 +1797,7 @@
             <div class="post-excerpt wide">
               <a href="http://ruslanspivak.com/lsbasi-part1/
 ">
-                “If you don't know how compilers work, then you don't know how computers work. If you're not 100% sure whether you know how compilers work, then you don't know how they work.” — Steve Yegge There you have it. Think about it. It doesn't really matter ...
+                “If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure whether you know how compilers work, then you don’t know how they work.” — Steve Yegge There you have it. Think about it. It doesn’t really matter …
 
 
               </a>

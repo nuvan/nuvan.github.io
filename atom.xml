@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-27T08:12:08+01:00</updated>
+    <updated>2015-08-27T18:41:09+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Sentiment Analysis Using Doc2Vec | Pandamonium
+</title>
+        <link href="http://directionwithintent.com/shares/0827183938/"/>
+        <updated>2015-08-27T18:39:38+01:00</updated>
+        <id>http://directionwithintent.com/shares/0827183938</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s so special about these vectors you ask? Well, similar words are near each other. Furthermore, these vectors represent how we use the words. For example, v_man - v_woman is approximately equal to v_king - v_queen, illustrating the relationship that “man is to woman as king is to queen”. This process, in NLP voodoo, is called word embedding. &lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;In this post, we’ll be using the K-nearest neighbors algorithm to predict how many points NBA players scored in the 2013-2014 season. Along the way, we’ll learn about euclidean distance and figure out which NBA players are the most similar to Lebron James.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>FruityWifi - Wireless Network Auditing Tool - Darknet - The Darkside
-</title>
-        <link href="http://directionwithintent.com/shares/0805123717/"/>
-        <updated>2015-08-05T12:37:17+01:00</updated>
-        <id>http://directionwithintent.com/shares/0805123717</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;FruityWifi is an open source wireless network auditing tool, it allows the user to deploy advanced attacks by directly using the web interface or by sending messages to it. Initially the application was created to be used with the Raspberry-Pi, but it can be installed on any Debian based system.&lt;/p&gt;
 
         </content>
     </entry>

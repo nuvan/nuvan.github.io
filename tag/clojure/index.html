@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0827183938/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#sentiment-analysis-using-doc2vec-pandamonium-share").html(data.count);
+      }
+      else {
+        $("#sentiment-analysis-using-doc2vec-pandamonium-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0827081105/',
       context: document.body
     }).done(function( data ) {
@@ -1704,6 +1716,12 @@
         
           
         
+      
+        
+          
+        
+          
+        
           
         
       
@@ -1791,7 +1809,7 @@
 ">
                 Tim Wagner, AWS Lambda General Manager
 Bryan Moffatt, AWS Lambda Software Developer
-AWS Lambda's Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we'll see how it can...
+AWS Lambda’s Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we’ll see how it can...
               </a>
             </div>
           
@@ -1871,7 +1889,7 @@ AWS Lambda's Java support also makes it easy to write Lambda functions in other 
             <div class="post-excerpt wide">
               <a href="http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html
 ">
-                Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you'd write yours...
+                Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you’d write yours...
               </a>
             </div>
           

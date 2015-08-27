@@ -3,21 +3,21 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Spark SQL: Relational Data Processing in Spark
+    <title>Sentiment Analysis Using Doc2Vec | Pandamonium
  • Direction With Intent</title>
-    <meta name="description" content="Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative queries and optimized storage), and lets SQL users call complex analytics libraries in Spark (e.g., machine learning).
+    <meta name="description" content="Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s so special about these vectors you ask? Well, similar words are near each other. Furthermore, these vectors represent how we use the words. For example, v_man - v_woman is approximately equal to v_king - v_queen, illustrating the relationship that “man is to woman as king is to queen”. This process, in NLP voodoo, is called word embedding. 
 
 ">
-    <meta name="keywords" content="sql, spark">
+    <meta name="keywords" content="tutorial, ml">
     
       
     	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
-	<meta name="twitter:title" content="Spark SQL: Relational Data Processing in Spark
+	<meta name="twitter:title" content="Sentiment Analysis Using Doc2Vec | Pandamonium
 ">
 	
-		<meta name="twitter:description" content="Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative queries and optimized storage), and lets SQL users call complex analytics libraries in Spark (e.g., machine learning).
+		<meta name="twitter:description" content="Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s so special about these vectors you ask? Well, similar words are near each other. Furthermore, these vectors represent how we use the words. For example, v_man - v_woman is approximately equal to v_king - v_queen, illustrating the relationship that “man is to woman as king is to queen”. This process, in NLP voodoo, is called word embedding. 
 
 ">
 	
@@ -32,10 +32,10 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Spark SQL: Relational Data Processing in Spark
+	<meta property="og:title" content="Sentiment Analysis Using Doc2Vec | Pandamonium
 ">
 	
-		<meta property="og:description" content="Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative queries and optimized storage), and lets SQL users call complex analytics libraries in Spark (e.g., machine learning).
+		<meta property="og:description" content="Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s so special about these vectors you ask? Well, similar words are near each other. Furthermore, these vectors represent how we use the words. For example, v_man - v_woman is approximately equal to v_king - v_queen, illustrating the relationship that “man is to woman as king is to queen”. This process, in NLP voodoo, is called word embedding. 
 
 ">
 	
@@ -43,11 +43,11 @@
 	
 	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
 	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/shares/0802233242/">
+	<meta property="og:url" content="http://directionwithintent.com/shares/0827183938/">
 	<meta property="og:site_name" content="Direction With Intent">
 
 
-    <link rel="canonical" href="http://directionwithintent.com/shares/0802233242/">
+    <link rel="canonical" href="http://directionwithintent.com/shares/0827183938/">
 
     <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -1720,16 +1720,16 @@
   <a href="http://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="http://directionwithintent.com/shares/">Shares</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
     <div class="page-title">
-      <h1><a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf
-" title="Spark SQL: Relational Data Processing in Spark
-">Spark SQL: Relational Data Processing in Spark
+      <h1><a href="http://linanqiu.github.io/2015/05/20/word2vec-sentiment/
+" title="Sentiment Analysis Using Doc2Vec | Pandamonium
+">Sentiment Analysis Using Doc2Vec | Pandamonium
 </a></h1>
     </div>
     <div class="inner-wrap">
       <nav class="toc"></nav><!-- /.toc -->
       <div id="content" class="page-content" itemprop="articleBody">
         <div class="share-container">
-            <p>Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative queries and optimized storage), and lets SQL users call complex analytics libraries in Spark (e.g., machine learning).</p>
+            <p>Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s so special about these vectors you ask? Well, similar words are near each other. Furthermore, these vectors represent how we use the words. For example, v_man - v_woman is approximately equal to v_king - v_queen, illustrating the relationship that “man is to woman as king is to queen”. This process, in NLP voodoo, is called word embedding. </p>
 
         </div>
         <hr />
@@ -1746,14 +1746,14 @@
 </div>
           
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Spark%20SQL:%20Relational%20Data%20Processing%20in%20Spark
-&amp;url=http://directionwithintent.com/shares/0802233242/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Sentiment%20Analysis%20Using%20Doc2Vec%20|%20Pandamonium
+&amp;url=http://directionwithintent.com/shares/0827183938/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
     </div>
   </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0802233242/" target="_blank">
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0827183938/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -1761,7 +1761,7 @@
   </a>
 
           <div class="page-meta">
-	<p>Updated <time datetime="2015-08-02T23:32:42Z" itemprop="datePublished">August 02, 2015</time></p>
+	<p>Updated <time datetime="2015-08-27T18:39:38Z" itemprop="datePublished">August 27, 2015</time></p>
 </div><!-- /.page-meta -->
         </footer><!-- /.footer -->
         <aside>
