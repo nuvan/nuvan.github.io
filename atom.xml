@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-27T18:41:09+01:00</updated>
+    <updated>2015-08-28T20:47:44+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
+</title>
+        <link href="http://directionwithintent.com/shares/0828204609/"/>
+        <updated>2015-08-28T20:46:09+01:00</updated>
+        <id>http://directionwithintent.com/shares/0828204609</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;With Amazon Kinesis developers can quickly store, collate and access large, distributed data streams such as access logs, click streams and IoT data in real-time. The question then becomes, how can we access and leverage this data for use in data applications running in Amazon EMR? There are many ways to solve this problem, but the solution should be simple, fault tolerant and highly scalable. In this post I demonstrate a micro-batch system that delivers this solution by processing a simulated real-time data stream using Amazon Kinesis with Cascading on Amazon EMR. We will also join our Amazon Kinesis stream with data residing in a file in Amazon S3 and write our results to Amazon Redshift using cascading-jdbc-redshift which leverages Amazon Redshift’s COPY command.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Sentiment Analysis Using Doc2Vec | Pandamonium
@@ -451,24 +469,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
 
 &lt;p&gt;Besides the header link, you can find the
 &lt;a href=&quot;http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf&quot;&gt;original paper here&lt;/a&gt;&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>K-nearest neighbors in python - Dataquest Blog
-</title>
-        <link href="http://directionwithintent.com/shares/0805124132/"/>
-        <updated>2015-08-05T12:41:32+01:00</updated>
-        <id>http://directionwithintent.com/shares/0805124132</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;In this post, we’ll be using the K-nearest neighbors algorithm to predict how many points NBA players scored in the 2013-2014 season. Along the way, we’ll learn about euclidean distance and figure out which NBA players are the most similar to Lebron James.&lt;/p&gt;
 
         </content>
     </entry>

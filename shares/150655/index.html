@@ -110,6 +110,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0828204609/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#integrating-amazon-kinesis-amazon-s3-and-amazon-redshift-with-cascading-on-amazon-emr-share").html(data.count);
+      }
+      else {
+        $("#integrating-amazon-kinesis-amazon-s3-and-amazon-redshift-with-cascading-on-amazon-emr-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0827183938/',
       context: document.body
     }).done(function( data ) {
@@ -1318,7 +1330,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
         
       </li>
     
@@ -1337,6 +1349,15 @@
             
           
         <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1381,15 +1402,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
@@ -1417,7 +1429,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1507,7 +1519,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1534,7 +1546,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
