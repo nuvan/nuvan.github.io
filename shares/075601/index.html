@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0901090330/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-security-flaws-work-the-buffer-overflow-share").html(data.count);
+      }
+      else {
+        $("#how-security-flaws-work-the-buffer-overflow-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0901085721/',
       context: document.body
     }).done(function( data ) {
@@ -1420,6 +1432,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
@@ -1447,7 +1468,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1537,7 +1558,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1564,7 +1585,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1573,7 +1594,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1618,15 +1639,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
@@ -1654,7 +1666,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1663,7 +1675,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1681,6 +1693,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1690,7 +1711,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1726,7 +1747,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
         
       </li>
     

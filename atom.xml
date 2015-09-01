@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-01T08:59:03+01:00</updated>
+    <updated>2015-09-01T09:04:19+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>How security flaws work: The buffer overflow
+</title>
+        <link href="http://directionwithintent.com/shares/0901090330/"/>
+        <updated>2015-09-01T09:03:30+01:00</updated>
+        <id>http://directionwithintent.com/shares/0901090330</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;The buffer overflow has long been a feature of the computer security landscape. In fact the first self-propagating Internet worm—1988’s Morris Worm—used a buffer overflow in the Unix finger daemon to spread from machine to machine. Twenty-seven years later, buffer overflows remain a source of problems. Windows infamously revamped its security focus after two buffer overflow-driven exploits in the early 2000s. And just this May, a buffer overflow found in a Linux driver left (potentially) millions of home and small office routers vulnerable to attack.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Linux workstation security checklist
@@ -448,24 +466,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;After reading about currying, partial application and other functional programming techniques, some are left wondering when they would would use them?&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Introducing the Logstash HTTP input plugin
-</title>
-        <link href="http://directionwithintent.com/shares/0805200047/"/>
-        <updated>2015-08-05T20:00:47+01:00</updated>
-        <id>http://directionwithintent.com/shares/0805200047</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Logstash has been missing a way to receive data through HTTP requests, but not anymore! The logstash-input-http plugin is now available for everyone! Also, starting with Logstash 1.5.2, it is included as one of the default plugins that are distributed with the official release.&lt;/p&gt;
 
         </content>
     </entry>

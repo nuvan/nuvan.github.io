@@ -108,6 +108,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0901090330/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#how-security-flaws-work-the-buffer-overflow-share").html(data.count);
+      }
+      else {
+        $("#how-security-flaws-work-the-buffer-overflow-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0901085721/',
       context: document.body
     }).done(function( data ) {
@@ -1411,6 +1423,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
@@ -1438,7 +1459,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1528,7 +1549,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1555,7 +1576,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1564,7 +1585,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1609,15 +1630,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
@@ -1645,7 +1657,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1654,7 +1666,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1672,6 +1684,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1681,7 +1702,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1717,7 +1738,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
         
       </li>
     
@@ -1757,6 +1778,48 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0901090330/" title="How security flaws work: The buffer overflow
+" class="post-teaser">
+    
+      
+        <img src="http://cdn.arstechnica.net/wp-content/uploads/2015/08/buffer-overflow-640x329.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0901090330/">
+      How security flaws work: The buffer overflow
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    The buffer overflow has long been a feature of the computer security landscape. In fact the first self-pr...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-09-01" itemprop="datePublished">2015-09-01 09:03:30 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-01" itemprop="datePublished">SEPTEMBER 01, 2015 09:03:30
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="how-security-flaws-work-the-buffer-overflow-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -1835,9 +1898,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827183938/" title="Sentiment Analysis Using Doc2Vec | Pandamonium
@@ -1874,9 +1937,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -1955,9 +2018,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080126/" title="How does a relational database work - Coding Geek
@@ -1997,9 +2060,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080425/" title="Getting Started with Docker: Simplifying Devops
@@ -2081,9 +2144,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820081348/" title="Eventually Consistent Transactions
@@ -2123,9 +2186,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820080936/" title="Kaizen: Get a Little Better Each Day | The Art of Manliness
@@ -2207,9 +2270,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819075645/" title="How a Kalman filter works, in pictures | Bzarg
@@ -2246,9 +2309,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818083419/" title="A beginner's guide to understanding UX design
@@ -2327,9 +2390,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0810014330/" title="Writing AWS Lambda Functions in Clojure | AWS Compute Blog
@@ -2368,9 +2431,9 @@ AWS Lambda’s Java sup...
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0810014008/" title="Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
@@ -2444,45 +2507,6 @@ AWS Lambda’s Java sup...
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="mining-of-massive-datasets-standford-university-free-ebook-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0808144706/" title="Matrix Computations on the GPU in Clojure (in TFLOPS!)
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0808144706/">
-      Matrix Computations on the GPU in Clojure (in TFLOPS!)
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java ...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-08" itemprop="datePublished">2015-08-08 14:47:06 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-08" itemprop="datePublished">AUGUST 08, 2015 14:47:06
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="matrix-computations-on-the-gpu-in-clojure-in-tflops-share">0</div>
 </div>
 
 </article>
