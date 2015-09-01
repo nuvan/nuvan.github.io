@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-08-28T20:47:44+01:00</updated>
+    <updated>2015-09-01T08:59:03+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Linux workstation security checklist
+</title>
+        <link href="http://directionwithintent.com/shares/0901085721/"/>
+        <updated>2015-09-01T08:57:21+01:00</updated>
+        <id>http://directionwithintent.com/shares/0901085721</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;This is a set of recommendations used by the Linux Foundation for their systems administrators. All of LF employees are remote workers and we use this set of guidelines to ensure that a sysadmin’s system passes core security requirements in order to reduce the risk of it becoming an attack vector against the rest of our infrastructure.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
@@ -448,27 +466,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;Logstash has been missing a way to receive data through HTTP requests, but not anymore! The logstash-input-http plugin is now available for everyone! Also, starting with Logstash 1.5.2, it is included as one of the default plugins that are distributed with the official release.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Making sense of streamgraphs - Visualising Data
-</title>
-        <link href="http://directionwithintent.com/shares/0805164737/"/>
-        <updated>2015-08-05T16:47:37+01:00</updated>
-        <id>http://directionwithintent.com/shares/0805164737</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Over the past couple of months I’ve noticed a number of new examples of streamgraphs working their way around the web. It has prompted me to finally get around to visiting this subject because these graphs always seem to stir great debate, one which seems to perfectly encapsulate the ongoing challenges faced within the visualization field.&lt;/p&gt;
-
-&lt;p&gt;Besides the header link, you can find the
-&lt;a href=&quot;http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf&quot;&gt;original paper here&lt;/a&gt;&lt;/p&gt;
 
         </content>
     </entry>

@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0901085721/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#linux-workstation-security-checklist-share").html(data.count);
+      }
+      else {
+        $("#linux-workstation-security-checklist-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0828204609/',
       context: document.body
     }).done(function( data ) {
@@ -1732,6 +1744,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://rasbt.github.io/mlxtend/docs/classifier/neuralnet_mlp/
+">
+                Neuralnet mlp - mlxtend
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://rasbt.github.io/mlxtend/docs/classifier/neuralnet_mlp/
+">
+                Implementation of a feedforward artificial neural network (multilayer perceptron, MLP). Although the code is fully working and can be used for common classification tasks, this implementation is not geared towards efficiency but clarity – the original code ...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-06-25" itemprop="datePublished">2015-06-25 19:46:14 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-06-25" itemprop="datePublished">JUNE 25, 2015 19:46:14
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="neuralnet-mlp-mlxtend-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/194614/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/194614/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://blog.rstudio.org/2015/06/24/leaflet-interactive-web-maps-with-r/
 ">
                 Leaflet: Interactive web maps with R
@@ -1950,68 +2022,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/195803/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.smashingmagazine.com/2015/06/08/practical-techniques-on-designing-animation/
-">
-                Designing For Animation
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.smashingmagazine.com/2015/06/08/practical-techniques-on-designing-animation/
-">
-                Animation, like any other facet of the web, must be designed. As web developers, we think about the effects of typography, layout, interaction, and shifting viewports, but when incorporating animation we have another factor to consider: time.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-06-16" itemprop="datePublished">2015-06-16 08:55:16 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-06-16" itemprop="datePublished">JUNE 16, 2015 08:55:16
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="designing-for-animation-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/085516/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/085516/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

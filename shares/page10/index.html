@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0901085721/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#linux-workstation-security-checklist-share").html(data.count);
+      }
+      else {
+        $("#linux-workstation-security-checklist-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0828204609/',
       context: document.body
     }).done(function( data ) {
@@ -1732,6 +1744,66 @@
           </div>
           
             <div class="post-title">
+              <a href="http://www.confluent.io/blog/getting-started-with-kafka-in-node.js-with-the-confluent-rest-proxy
+">
+                Getting started with Kafka in node.js with the Confluent REST Proxy
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.confluent.io/blog/getting-started-with-kafka-in-node.js-with-the-confluent-rest-proxy
+">
+                Previously, I posted about Confluent’s open source Kafka REST Proxy, which provides easy access to a Kafka cluster from any language. That post focused on the motivation, low-level examples, and implementation of the REST Proxy. In this post, I want to foll...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-02" itemprop="datePublished">2015-08-02 16:19:16 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-02" itemprop="datePublished">AUGUST 02, 2015 16:19:16
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="getting-started-with-kafka-in-node-js-with-the-confluent-rest-proxy-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0802161916/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0802161916/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
               <a href="http://alexhwoods.com/2015/07/25/introduction-to-monte-carlo-methods/
 ">
                 Introduction To Monte Carlo Methods
@@ -1950,66 +2022,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0724133025/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://blog.algorithmia.com/post/124542129914/mining-product-hunt-detecting-vote-rings
-">
-                Algorithmia Blog -Mining Product Hunt: Detecting Vote-Rings - Algorithmia Blog
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://blog.algorithmia.com/post/124542129914/mining-product-hunt-detecting-vote-rings
-">
-                We like showcasing practical algorithms on interesting datasets. This post is part of a series of posts that explore some algorithms by applying them on the Product Hunt dataset. Since this is the first of the series, we’ll start with how we acquired the da...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-23" itemprop="datePublished">2015-07-23 16:09:43 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-07-23" itemprop="datePublished">JULY 23, 2015 16:09:43
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="algorithmia-blog-mining-product-hunt-detecting-vote-rings-algorithmia-blog-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0723160943/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0723160943/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

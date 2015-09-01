@@ -104,6 +104,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0901085721/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#linux-workstation-security-checklist-share").html(data.count);
+      }
+      else {
+        $("#linux-workstation-security-checklist-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0828204609/',
       context: document.body
     }).done(function( data ) {
@@ -1722,6 +1734,10 @@
         <h1>Posts Tagged &ldquo;mobile&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
       
         
           
