@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-01T09:04:19+01:00</updated>
+    <updated>2015-09-01T19:19:37+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Voice controlled PHP apps with API.ai
+</title>
+        <link href="http://directionwithintent.com/shares/0901191859/"/>
+        <updated>2015-09-01T19:18:59+01:00</updated>
+        <id>http://directionwithintent.com/shares/0901191859</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In this tutorial we’ll be looking into Api.ai, an API that lets us build apps which understand natural language, much like Siri. It can accept either text or speech as input, which it then parses and returns a JSON string that can be interpreted by the code that we write.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>How security flaws work: The buffer overflow
@@ -448,24 +466,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;After last week’s Internet Of Things hack session, I became fascinated with all the fun IoT projects and technologies there are to play with. Everything you do, requires data to go into the cloud, so I figured I’d start there. In the hack series I learned how to push data into AWS Kinesis which is amazing, however it has its disadvantages. On the flip side there is the new AWS API Gateway which I also haven’t spent much time on, so that’s a perfect thing to learn. After some tinkering, I found that while AWS API Gateway -&amp;gt; Lambda -&amp;gt; DynamoDB might sound complicated, it’s actually quite easy.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Getting Functional with Javascript (Part 1)
-</title>
-        <link href="http://directionwithintent.com/shares/0805201446/"/>
-        <updated>2015-08-05T20:14:46+01:00</updated>
-        <id>http://directionwithintent.com/shares/0805201446</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;After reading about currying, partial application and other functional programming techniques, some are left wondering when they would would use them?&lt;/p&gt;
 
         </content>
     </entry>
