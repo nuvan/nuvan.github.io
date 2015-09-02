@@ -90,6 +90,14 @@ Most of that time, the book existed entirely on the web. It was less “book” 
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
     <script src="http://directionwithintent.com/js/header_fader.js"></script>
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"light-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
     <script>
 
     /*FB SDK initializtion*/
@@ -114,6 +122,18 @@ Most of that time, the book existed entirely on the web. It was less “book” 
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0902082636/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#software-costs-estimation-in-agile-project-management-share").html(data.count);
+      }
+      else {
+        $("#software-costs-estimation-in-agile-project-management-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0901191859/',
       context: document.body
@@ -1434,7 +1454,16 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1452,7 +1481,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1461,7 +1490,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1497,7 +1526,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1533,7 +1562,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1542,7 +1571,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1587,7 +1616,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1614,7 +1643,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1623,7 +1652,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1668,15 +1697,6 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
@@ -1704,7 +1724,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1713,7 +1733,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1731,6 +1751,15 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1740,7 +1769,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1776,7 +1805,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     

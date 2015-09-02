@@ -83,6 +83,14 @@
     <script src="http://directionwithintent.com/js/main.js"></script>
     <script src="http://directionwithintent.com/js/header_fader.js"></script>
     <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"light-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
     <script>
 
     /*FB SDK initializtion*/
@@ -107,6 +115,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0902082636/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#software-costs-estimation-in-agile-project-management-share").html(data.count);
+      }
+      else {
+        $("#software-costs-estimation-in-agile-project-management-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0901191859/',
       context: document.body
@@ -1426,7 +1446,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1444,7 +1473,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1453,7 +1482,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1489,7 +1518,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1525,7 +1554,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1534,7 +1563,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1579,7 +1608,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1606,7 +1635,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1615,7 +1644,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1660,15 +1689,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
@@ -1696,7 +1716,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1705,7 +1725,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1723,6 +1743,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1732,7 +1761,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1768,7 +1797,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1808,6 +1837,48 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0902082636/" title="Software Costs Estimation In Agile Project Management
+" class="post-teaser">
+    
+      
+        <img src="http://assets.toptal.io/uploads/blog/post_image/90225/image001-403f69525caf4cfb05fe8656e625b3e5.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0902082636/">
+      Software Costs Estimation In Agile Project Management
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    One of the hardest things to do in software development is to determine how long and how much it will tak...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-09-02" itemprop="datePublished">2015-09-02 08:26:36 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-02" itemprop="datePublished">SEPTEMBER 02, 2015 08:26:36
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="software-costs-estimation-in-agile-project-management-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901191859/" title="Voice controlled PHP apps with API.ai
@@ -1889,9 +1960,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -1931,9 +2002,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0828204609/" title="Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
@@ -2009,9 +2080,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -2048,9 +2119,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080638/" title="Deploy Your Rails App to AWS
@@ -2132,9 +2203,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080425/" title="Getting Started with Docker: Simplifying Devops
@@ -2174,9 +2245,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080224/" title="Building an MVC Application with Spring Framework: A Beginner's Tutorial
@@ -2258,9 +2329,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820080936/" title="Kaizen: Get a Little Better Each Day | The Art of Manliness
@@ -2300,9 +2371,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819080646/" title="Understanding Bayes: A Look at the Likelihood
@@ -2381,9 +2452,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818083419/" title="A beginner's guide to understanding UX design
@@ -2423,9 +2494,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0818082855/" title="Let's Build A Simple Interpreter. Part 1. - Ruslan's Blog
@@ -2498,48 +2569,6 @@ AWS Lambda’s Java sup...
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="writing-aws-lambda-functions-in-clojure-aws-compute-blog-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0810014008/" title="Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
-" class="post-teaser">
-    
-      
-        <img src="http://smerity.com/media/images/articles/2015/keras_qa_model.png
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0810014008/">
-      Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    Interested in a getting started in deep learning for NLP? Investigate how you can perform question answer...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-10" itemprop="datePublished">2015-08-10 01:40:08 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-10" itemprop="datePublished">AUGUST 10, 2015 01:40:08
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="smerity-com-question-answering-on-the-facebook-babi-dataset-using-recurrent-neural-networks-and-175-lines-of-python-keras-share">0</div>
 </div>
 
 </article>

@@ -79,6 +79,14 @@
     <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="http://directionwithintent.com/js/main.js"></script>
     <script src="http://directionwithintent.com/js/header_fader.js"></script>
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"light-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
     <script>
 
     /*FB SDK initializtion*/
@@ -103,6 +111,18 @@
   var query_url  = "http://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){ 
     
+    $.ajax({
+      url: query_url + '/shares/0902082636/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#software-costs-estimation-in-agile-project-management-share").html(data.count);
+      }
+      else {
+        $("#software-costs-estimation-in-agile-project-management-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/shares/0901191859/',
       context: document.body
@@ -1423,7 +1443,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1441,7 +1470,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1450,7 +1479,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1486,7 +1515,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1522,7 +1551,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1531,7 +1560,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1576,7 +1605,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1603,7 +1632,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1612,7 +1641,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1657,15 +1686,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
@@ -1693,7 +1713,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1702,7 +1722,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1720,6 +1740,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1729,7 +1758,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1765,7 +1794,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1785,6 +1814,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf
+">
+                Spark SQL: Relational Data Processing in Spark
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf
+">
+                Spark SQL is a new module in Apache Spark that integrates relational processing with Spark’s functional programming API. Built on our experience with Shark, Spark SQL lets Spark programmers leverage the benefits of relational processing (e.g., declarative q...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-02" itemprop="datePublished">2015-08-02 23:32:42 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-02" itemprop="datePublished">AUGUST 02, 2015 23:32:42
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="spark-sql-relational-data-processing-in-spark-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0802233242/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0802233242/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2028,68 +2117,6 @@
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.shellntel.com/blog/2015/6/12/creating-your-own-private-botnet-for-scanning
-">
-                Creating your own private botnet for scanning.
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.shellntel.com/blog/2015/6/12/creating-your-own-private-botnet-for-scanning
-">
-                Often while scanning a network with nmap or other similar tools, at some point a NIDS or firewall will detect and block me.  This is irritating.  I wondered, what would happen if I could route my scans/attacks through a series of proxy servers. 
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-07-31" itemprop="datePublished">2015-07-31 08:11:42 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-07-31" itemprop="datePublished">JULY 31, 2015 08:11:42
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="creating-your-own-private-botnet-for-scanning-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0731081142/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0731081142/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -2172,6 +2199,10 @@
   
     
       <a href="/shares/page19">19</a>
+    
+  
+    
+      <a href="/shares/page20">20</a>
     
   
 
