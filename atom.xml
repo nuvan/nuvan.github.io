@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-02T08:27:13+01:00</updated>
+    <updated>2015-09-03T18:50:06+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
+</title>
+        <link href="http://directionwithintent.com/shares/0903184803/"/>
+        <updated>2015-09-03T18:48:03+01:00</updated>
+        <id>http://directionwithintent.com/shares/0903184803</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In this series, we’ll be using AngularJS and Firebase to create a simple web application from scratch. It will be a simple blogging application where the user can sign in or sign up and publish a blog post.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Software Costs Estimation In Agile Project Management
@@ -448,24 +466,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;The responsibility of an architect reaches far past design and business concerns. Their designs implementation is ultimately their only measure of success; they should get their hands dirty and help.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>An Introduction to Statistical Learning with Applications in R
-</title>
-        <link href="http://directionwithintent.com/shares/0808004859/"/>
-        <updated>2015-08-08T00:48:59+01:00</updated>
-        <id>http://directionwithintent.com/shares/0808004859</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Statistical learning refers to a set of tools for modeling and understanding complex datasets. It is a recently developed area in statistics and blends with parallel developments in computer science and, in particular, machine learning. The field encompasses many methods such as the lasso and sparse regression, classification and regression trees, and boosting and support vector machines. With the explosion of “Big Data” problems, statistical learning has become a very hot field in many scientific areas as well as marketing, finance, and other business disciplines. People with statistical learning skills are in high demand.&lt;/p&gt;
 
         </content>
     </entry>
