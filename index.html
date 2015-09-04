@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0904200115/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#hello-elixir-wow-share").html(data.count);
+      }
+      else {
+        $("#hello-elixir-wow-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0904195716/',
       context: document.body
     }).done(function( data ) {
@@ -1398,6 +1410,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1408,15 +1429,6 @@
             
           
         <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1443,7 +1455,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1881,6 +1893,48 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
+" class="post-teaser">
+    
+      
+        <img src="http://rob.conery.io/wp-content/uploads/2015/09/elixir_1.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0904200115/">
+      Hello Elixir. Wow.
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    I don’t know anything about Elixir, but I very much want to learn it. I like learning new things – I feel...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-09-04" itemprop="datePublished">2015-09-04 20:01:15 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-04" itemprop="datePublished">SEPTEMBER 04, 2015 20:01:15
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="hello-elixir-wow-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
 " class="post-teaser">
     
@@ -1960,9 +2014,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0902082636/" title="Software Costs Estimation In Agile Project Management
@@ -2002,9 +2056,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901191859/" title="Voice controlled PHP apps with API.ai
@@ -2086,9 +2140,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -2128,9 +2182,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0828204609/" title="Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
@@ -2206,9 +2260,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -2245,9 +2299,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080638/" title="Deploy Your Rails App to AWS
@@ -2329,9 +2383,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080425/" title="Getting Started with Docker: Simplifying Devops
@@ -2371,9 +2425,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080224/" title="Building an MVC Application with Spring Framework: A Beginner's Tutorial
@@ -2455,9 +2509,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820080936/" title="Kaizen: Get a Little Better Each Day | The Art of Manliness
@@ -2497,9 +2551,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0819080646/" title="Understanding Bayes: A Look at the Likelihood
@@ -2573,48 +2627,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="how-a-kalman-filter-works-in-pictures-bzarg-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0818083419/" title="A beginner's guide to understanding UX design
-" class="post-teaser">
-    
-      
-        <img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/08/uxdesign.jpg
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0818083419/">
-      A beginner's guide to understanding UX design
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    If you are thinking of working on your conversion optimization and landing page optimization, understandi...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-18" itemprop="datePublished">2015-08-18 08:34:19 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-18" itemprop="datePublished">AUGUST 18, 2015 08:34:19
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="a-beginner-s-guide-to-understanding-ux-design-share">0</div>
 </div>
 
 </article>

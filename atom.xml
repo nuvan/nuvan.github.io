@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-04T19:58:29+01:00</updated>
+    <updated>2015-09-04T20:01:48+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Hello Elixir. Wow.
+</title>
+        <link href="http://directionwithintent.com/shares/0904200115/"/>
+        <updated>2015-09-04T20:01:15+01:00</updated>
+        <id>http://directionwithintent.com/shares/0904200115</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I don’t know anything about Elixir, but I very much want to learn it. I like learning new things – I feel it’s required for our industry. It’s easy to feel a twinge of snark about this, I feel that too, every day. But every now and again something comes along and I just find myself getting pulled right in.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Implementing a Neural Network from Scratch - An Introduction
@@ -449,24 +467,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;An introduction to Bayesian statistics using simple Python programs instead of complicated math. Free eBook from Green Tea Press available at http://greenteapress.com&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Bayesian Methods for Hackers - GitHub Open Source Book
-</title>
-        <link href="http://directionwithintent.com/shares/0808115525/"/>
-        <updated>2015-08-08T11:55:25+01:00</updated>
-        <id>http://directionwithintent.com/shares/0808115525</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a so-what feeling about Bayesian inference. In fact, this was the author’s own prior opinion.&lt;/p&gt;
 
         </content>
     </entry>

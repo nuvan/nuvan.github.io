@@ -127,6 +127,18 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0904200115/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#hello-elixir-wow-share").html(data.count);
+      }
+      else {
+        $("#hello-elixir-wow-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0904195716/',
       context: document.body
     }).done(function( data ) {
@@ -1410,6 +1422,15 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
@@ -1420,15 +1441,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
             
           
         <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1455,7 +1467,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
