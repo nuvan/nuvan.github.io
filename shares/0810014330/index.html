@@ -127,6 +127,18 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0904195716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#implementing-a-neural-network-from-scratch-an-introduction-share").html(data.count);
+      }
+      else {
+        $("#implementing-a-neural-network-from-scratch-an-introduction-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0903184803/',
       context: document.body
     }).done(function( data ) {

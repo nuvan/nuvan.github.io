@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-03T18:50:06+01:00</updated>
+    <updated>2015-09-04T19:58:29+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,25 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Implementing a Neural Network from Scratch - An Introduction
+</title>
+        <link href="http://directionwithintent.com/shares/0904195716/"/>
+        <updated>2015-09-04T19:57:16+01:00</updated>
+        <id>http://directionwithintent.com/shares/0904195716</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
+Get the code: To follow along, all the code is also available as an iPython notebook on Github.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
@@ -448,24 +467,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a so-what feeling about Bayesian inference. In fact, this was the author’s own prior opinion.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Architects Should Code: The Architect&#39;s Misconception
-</title>
-        <link href="http://directionwithintent.com/shares/0808010314/"/>
-        <updated>2015-08-08T01:03:14+01:00</updated>
-        <id>http://directionwithintent.com/shares/0808010314</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;The responsibility of an architect reaches far past design and business concerns. Their designs implementation is ultimately their only measure of success; they should get their hands dirty and help.&lt;/p&gt;
 
         </content>
     </entry>

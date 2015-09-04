@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0904195716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#implementing-a-neural-network-from-scratch-an-introduction-share").html(data.count);
+      }
+      else {
+        $("#implementing-a-neural-network-from-scratch-an-introduction-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0903184803/',
       context: document.body
     }).done(function( data ) {
@@ -1844,6 +1856,12 @@
         <h1>Posts Tagged &ldquo;python&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
       
         
           

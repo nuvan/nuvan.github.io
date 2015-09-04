@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0904195716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#implementing-a-neural-network-from-scratch-an-introduction-share").html(data.count);
+      }
+      else {
+        $("#implementing-a-neural-network-from-scratch-an-introduction-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0903184803/',
       context: document.body
     }).done(function( data ) {
@@ -1844,6 +1856,73 @@
         <h1>Posts Tagged &ldquo;tutorial&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+            <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
+">
+                Implementing a Neural Network from Scratch - An Introduction
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
+">
+                In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
+G...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-09-04" itemprop="datePublished">2015-09-04 19:57:16 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-04" itemprop="datePublished">SEPTEMBER 04, 2015 19:57:16
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="implementing-a-neural-network-from-scratch-an-introduction-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Posts%20Tagged%20&amp;ldquo;tutorial&amp;rdquo;&amp;url=http://directionwithintent.com/shares/0904195716/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0904195716/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
+          
+        
+          
+        
       
         
           
