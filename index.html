@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0905164416/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#from-kafka-to-zeromq-for-real-time-log-aggregation-share").html(data.count);
+      }
+      else {
+        $("#from-kafka-to-zeromq-for-real-time-log-aggregation-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0904200115/',
       context: document.body
     }).done(function( data ) {
@@ -1401,7 +1413,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
     
@@ -1410,7 +1422,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
     
@@ -1428,7 +1440,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
         
       </li>
     
@@ -1438,6 +1459,15 @@
             
           
         <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
         
       </li>
     
@@ -1482,7 +1512,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
+        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
         
       </li>
     
@@ -1590,7 +1620,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1599,7 +1629,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
         
       </li>
     
@@ -1734,15 +1764,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
@@ -1761,25 +1782,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1806,7 +1809,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1816,6 +1819,33 @@
             
           
         <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -1851,7 +1881,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1891,6 +1921,45 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
+" class="post-teaser">
+    
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0905164416/">
+      From Kafka to ZeroMQ for real-time log aggregation
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    This post is about ditching Kafka in favor of ZeroMQ, based on a year-long experience of using Kafka for ...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-09-05" itemprop="datePublished">2015-09-05 16:44:16 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-05" itemprop="datePublished">SEPTEMBER 05, 2015 16:44:16
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="from-kafka-to-zeromq-for-real-time-log-aggregation-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
@@ -1972,9 +2041,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
@@ -2014,9 +2083,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0902082636/" title="Software Costs Estimation In Agile Project Management
@@ -2098,9 +2167,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901090330/" title="How security flaws work: The buffer overflow
@@ -2140,9 +2209,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -2221,9 +2290,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827183938/" title="Sentiment Analysis Using Doc2Vec | Pandamonium
@@ -2260,9 +2329,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -2341,9 +2410,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080126/" title="How does a relational database work - Coding Geek
@@ -2383,9 +2452,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0824080425/" title="Getting Started with Docker: Simplifying Devops
@@ -2467,9 +2536,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820081348/" title="Eventually Consistent Transactions
@@ -2509,9 +2578,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0820080936/" title="Kaizen: Get a Little Better Each Day | The Art of Manliness
@@ -2588,45 +2657,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="understanding-bayes-a-look-at-the-likelihood-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0819075645/" title="How a Kalman filter works, in pictures | Bzarg
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0819075645/">
-      How a Kalman filter works, in pictures | Bzarg
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    Surprisingly few software engineers and scientists seem to know about it, and that makes me sad because i...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-19" itemprop="datePublished">2015-08-19 07:56:45 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-19" itemprop="datePublished">AUGUST 19, 2015 07:56:45
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="how-a-kalman-filter-works-in-pictures-bzarg-share">0</div>
 </div>
 
 </article>

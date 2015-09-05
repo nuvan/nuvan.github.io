@@ -127,6 +127,18 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0905164416/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#from-kafka-to-zeromq-for-real-time-log-aggregation-share").html(data.count);
+      }
+      else {
+        $("#from-kafka-to-zeromq-for-real-time-log-aggregation-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0904200115/',
       context: document.body
     }).done(function( data ) {
@@ -1413,7 +1425,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
     
@@ -1422,7 +1434,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
     
@@ -1440,7 +1452,16 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
         
       </li>
     
@@ -1450,6 +1471,15 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
             
           
         <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
         
       </li>
     
@@ -1494,7 +1524,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
+        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
         
       </li>
     
@@ -1602,7 +1632,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1611,7 +1641,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
         
       </li>
     
@@ -1746,15 +1776,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
@@ -1773,25 +1794,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1818,7 +1821,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1828,6 +1831,33 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
             
           
         <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -1863,7 +1893,7 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
