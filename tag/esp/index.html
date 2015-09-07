@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0907083625/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#neural-networks-and-deep-learning-free-ebook-share").html(data.count);
+      }
+      else {
+        $("#neural-networks-and-deep-learning-free-ebook-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0907082653/',
       context: document.body
     }).done(function( data ) {
@@ -1919,6 +1931,12 @@
         <h1>Posts Tagged &ldquo;esp&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
       
         
           

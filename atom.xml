@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-07T08:29:39+01:00</updated>
+    <updated>2015-09-07T08:37:38+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,30 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Neural networks and deep learning - free eBook
+</title>
+        <link href="http://directionwithintent.com/shares/0907083625/"/>
+        <updated>2015-09-07T08:36:25+01:00</updated>
+        <id>http://directionwithintent.com/shares/0907083625</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Neural Networks and Deep Learning is a free online book. The book will teach you about:&lt;/p&gt;
+
+&lt;p&gt;Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data
+Deep learning, a powerful set of techniques for learning in neural networks
+Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning.
+For more details about the approach taken in the book, see here. Or you can jump directly to Chapter 1 and get started.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>SIMP - NSA security compliance framework
@@ -455,24 +479,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;Interested in a getting started in deep learning for NLP? Investigate how you can perform question answering with Keras in only 175 lines of Python&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Mining of Massive Datasets - Standford University - free eBook
-</title>
-        <link href="http://directionwithintent.com/shares/0808145453/"/>
-        <updated>2015-08-08T14:54:53+01:00</updated>
-        <id>http://directionwithintent.com/shares/0808145453</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.&lt;/p&gt;
 
         </content>
     </entry>
