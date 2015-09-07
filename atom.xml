@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-05T16:49:14+01:00</updated>
+    <updated>2015-09-07T08:29:39+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,30 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>SIMP - NSA security compliance framework
+</title>
+        <link href="http://directionwithintent.com/shares/0907082653/"/>
+        <updated>2015-09-07T08:26:53+01:00</updated>
+        <id>http://directionwithintent.com/shares/0907082653</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;SIMP is a framework that aims to provide a reasonable combination of security compliance and operational flexibility.&lt;/p&gt;
+
+&lt;p&gt;The ultimate goal of the project is to provide a complete management environment focused on compliance with the various profiles in the SCAP Security Guide Project and industry best practice.&lt;/p&gt;
+
+&lt;p&gt;Though it is fully capable out of the box, the intent of SIMP is to be molded to your target environment in such a way that deviations are easily identifiable to both Operations Teams and Security Officers.&lt;/p&gt;
+
+&lt;p&gt;At this time, there are no commercial requirements for the use of SIMP outside of the purchase of Red Hat Enterprise Linux licenses as applicable.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>From Kafka to ZeroMQ for real-time log aggregation
@@ -449,24 +473,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
         <content type="html">
         	
         	&lt;p&gt;At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Matrix Computations on the GPU in Clojure (in TFLOPS!)
-</title>
-        <link href="http://directionwithintent.com/shares/0808144706/"/>
-        <updated>2015-08-08T14:47:06+01:00</updated>
-        <id>http://directionwithintent.com/shares/0808144706</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you’d write yourself.&lt;/p&gt;
 
         </content>
     </entry>

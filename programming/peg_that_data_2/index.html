@@ -122,6 +122,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0907082653/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#simp-nsa-security-compliance-framework-share").html(data.count);
+      }
+      else {
+        $("#simp-nsa-security-compliance-framework-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0905164416/',
       context: document.body
     }).done(function( data ) {
@@ -1492,6 +1504,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
@@ -1681,7 +1702,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1699,7 +1720,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1726,7 +1747,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1735,7 +1756,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1763,15 +1784,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1816,7 +1828,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1825,7 +1837,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1843,6 +1855,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1852,7 +1873,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1888,7 +1909,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
+        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
         
       </li>
     
