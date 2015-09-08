@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-07T08:37:38+01:00</updated>
+    <updated>2015-09-08T08:45:02+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>How Agari Uses Airbnb&#39;s Airflow as a Smarter Cron - High Scalability -
+</title>
+        <link href="http://directionwithintent.com/shares/0908084413/"/>
+        <updated>2015-09-08T08:44:13+01:00</updated>
+        <id>http://directionwithintent.com/shares/0908084413</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Neural networks and deep learning - free eBook
@@ -461,24 +479,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         	&lt;p&gt;Tim Wagner, AWS Lambda General Manager
 Bryan Moffatt, AWS Lambda Software Developer
 AWS Lambda’s Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we’ll see how it can be done with Clojure.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Smerity.com: Question answering on the Facebook bAbi dataset using recurrent neural networks and 175 lines of Python + Keras
-</title>
-        <link href="http://directionwithintent.com/shares/0810014008/"/>
-        <updated>2015-08-10T01:40:08+01:00</updated>
-        <id>http://directionwithintent.com/shares/0810014008</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Interested in a getting started in deep learning for NLP? Investigate how you can perform question answering with Keras in only 175 lines of Python&lt;/p&gt;
 
         </content>
     </entry>

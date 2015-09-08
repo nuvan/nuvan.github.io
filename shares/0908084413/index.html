@@ -3,21 +3,21 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Mining of Massive Datasets - Standford University - free eBook
+    <title>How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
  • Direction With Intent</title>
-    <meta name="description" content="At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.
+    <meta name="description" content="This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
 
 ">
-    <meta name="keywords" content="books, data-mining, ml">
+    <meta name="keywords" content="article, architecture">
     
       
     	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
-	<meta name="twitter:title" content="Mining of Massive Datasets - Standford University - free eBook
+	<meta name="twitter:title" content="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
 ">
 	
-		<meta name="twitter:description" content="At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.
+		<meta name="twitter:description" content="This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
 
 ">
 	
@@ -26,28 +26,31 @@
 	
 	
 	
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="http://directionwithintent.com/images/fbprofile.jpg">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content="http://directionwithintent.com/images/DWI.svg">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Mining of Massive Datasets - Standford University - free eBook
+	<meta property="og:title" content="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
 ">
 	
-		<meta property="og:description" content="At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.
+		<meta property="og:description" content="This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
 
 ">
 	
 	
+	
+		<meta property="og:image" content="https://farm1.staticflickr.com/603/21113613415_29b75cf871_m.jpg
+">
 	
 	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
 	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/shares/0808145453/">
+	<meta property="og:url" content="http://directionwithintent.com/shares/0908084413/">
 	<meta property="og:site_name" content="Direction With Intent">
 
 
-    <link rel="canonical" href="http://directionwithintent.com/shares/0808145453/">
+    <link rel="canonical" href="http://directionwithintent.com/shares/0908084413/">
 
     <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -1962,16 +1965,16 @@
   <a href="http://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="http://directionwithintent.com/shares/">Shares</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
     <div class="page-title">
-      <h1><a href="http://infolab.stanford.edu/~ullman/mmds/bookL.pdf
-" title="Mining of Massive Datasets - Standford University - free eBook
-">Mining of Massive Datasets - Standford University - free eBook
+      <h1><a href="http://highscalability.com/blog/2015/9/3/how-agari-uses-airbnbs-airflow-as-a-smarter-cron.html
+" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
+">How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
 </a></h1>
     </div>
     <div class="inner-wrap">
       <nav class="toc"></nav><!-- /.toc -->
       <div id="content" class="page-content" itemprop="articleBody">
         <div class="share-container">
-            <p>At the highest level of description, this book is about data mining. However, it focuses on data mining of very large amounts of data, that is, data so large it does not fit in main memory. Because of the emphasis on size, many of our examples are about the Web or data derived from the Web. Further, the book takes an algorithmic point of view: data mining is about applying algorithms to data, rather than using data to “train” a machine-learning engine of some sort.</p>
+            <p>This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.</p>
 
         </div>
         <hr />
@@ -1988,14 +1991,14 @@
 </div>
           
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Mining%20of%20Massive%20Datasets%20-%20Standford%20University%20-%20free%20eBook
-&amp;url=http://directionwithintent.com/shares/0808145453/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=How%20Agari%20Uses%20Airbnb&#39;s%20Airflow%20as%20a%20Smarter Cron%20-%20High%20Scalability%20-
+&amp;url=http://directionwithintent.com/shares/0908084413/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
     </div>
   </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0808145453/" target="_blank">
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0908084413/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -2003,7 +2006,7 @@
   </a>
 
           <div class="page-meta">
-	<p>Updated <time datetime="2015-08-08T14:54:53Z" itemprop="datePublished">August 08, 2015</time></p>
+	<p>Updated <time datetime="2015-09-08T08:44:13Z" itemprop="datePublished">September 08, 2015</time></p>
 </div><!-- /.page-meta -->
         </footer><!-- /.footer -->
         <aside>
