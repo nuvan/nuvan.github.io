@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0926160454/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#software-costs-estimation-in-agile-project-management-share").html(data.count);
+      }
+      else {
+        $("#software-costs-estimation-in-agile-project-management-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0926155959/',
       context: document.body
     }).done(function( data ) {
@@ -1458,7 +1470,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
     
@@ -1476,7 +1488,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
     
@@ -1486,24 +1498,6 @@
             
           
         <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1522,6 +1516,24 @@
             
           
         <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1557,6 +1569,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
@@ -1575,7 +1596,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1620,7 +1650,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1629,7 +1659,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1665,7 +1695,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1719,7 +1749,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
         
       </li>
     
@@ -1737,7 +1767,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1755,7 +1785,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1782,70 +1812,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/search" class="title">SEARCH</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1863,7 +1830,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/search" class="title">SEARCH</a>
         
       </li>
     
@@ -1872,7 +1839,52 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -1890,7 +1902,25 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
         
       </li>
     
@@ -1908,7 +1938,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
+        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1944,7 +1974,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
         
       </li>
     
@@ -1964,6 +1994,68 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://www.datchley.name/getting-functional-with-javascript-part-1/
+">
+                Getting Functional with Javascript (Part 1)
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.datchley.name/getting-functional-with-javascript-part-1/
+">
+                After reading about currying, partial application and other functional programming techniques, some are left wondering when they would would use them?
+
+
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-05" itemprop="datePublished">2015-08-05 20:14:46 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-05" itemprop="datePublished">AUGUST 05, 2015 20:14:46
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="getting-functional-with-javascript-part-1-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0805201446/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805201446/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2192,68 +2284,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805123717/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.sitepoint.com/asm-js-and-webgl-for-unity-and-unreal-engine/
-">
-                Asm.js and WebGL for Unity and Unreal Engine
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.sitepoint.com/asm-js-and-webgl-for-unity-and-unreal-engine/
-">
-                This article is part of a web dev series from Microsoft. Thank you for supporting the partners who make SitePoint possible.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-05" itemprop="datePublished">2015-08-05 12:34:11 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-05" itemprop="datePublished">AUGUST 05, 2015 12:34:11
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="asm-js-and-webgl-for-unity-and-unreal-engine-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0805123411/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805123411/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

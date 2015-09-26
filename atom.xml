@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-26T16:01:18+01:00</updated>
+    <updated>2015-09-26T16:05:25+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Software Costs Estimation In Agile Project Management
+</title>
+        <link href="http://directionwithintent.com/shares/0926160454/"/>
+        <updated>2015-09-26T16:04:54+01:00</updated>
+        <id>http://directionwithintent.com/shares/0926160454</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;One of the hardest things to do in software development is to determine how long and how much it will take to deliver a new software product. Should it be so hard? The answer is not straightforward.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Agari - Leveraging AWS to Build a Scalable Data Pipeline
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;If you are thinking of working on your conversion optimization and landing page optimization, understanding UX design is essential. As you know, we write a lot about the user, the single visitor that arrives on your site or landing page and needs to be triggered and helped around. UX design helps make sure that during this process the most important person isn’t left out of the mix: The user.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Let&#39;s Build A Simple Interpreter. Part 1. - Ruslan&#39;s Blog
-</title>
-        <link href="http://directionwithintent.com/shares/0818082855/"/>
-        <updated>2015-08-18T08:28:55+01:00</updated>
-        <id>http://directionwithintent.com/shares/0818082855</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;“If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure whether you know how compilers work, then you don’t know how they work.” — Steve Yegge There you have it. Think about it. It doesn’t really matter …&lt;/p&gt;
 
         </content>
     </entry>

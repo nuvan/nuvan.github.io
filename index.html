@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0926160454/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#software-costs-estimation-in-agile-project-management-share").html(data.count);
+      }
+      else {
+        $("#software-costs-estimation-in-agile-project-management-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0926155959/',
       context: document.body
     }).done(function( data ) {
@@ -1461,7 +1473,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
     
@@ -1479,7 +1491,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
     
@@ -1489,24 +1501,6 @@
             
           
         <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1525,6 +1519,24 @@
             
           
         <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1560,6 +1572,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
@@ -1578,7 +1599,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1623,7 +1653,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1632,7 +1662,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1668,7 +1698,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1722,7 +1752,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
         
       </li>
     
@@ -1740,7 +1770,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1758,7 +1788,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1785,70 +1815,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/search" class="title">SEARCH</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1866,7 +1833,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/search" class="title">SEARCH</a>
         
       </li>
     
@@ -1875,7 +1842,52 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -1893,7 +1905,25 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
         
       </li>
     
@@ -1911,7 +1941,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
+        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1947,7 +1977,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
         
       </li>
     
@@ -1987,6 +2017,48 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0926160454/" title="Software Costs Estimation In Agile Project Management
+" class="post-teaser">
+    
+      
+        <img src="http://assets.toptal.io/uploads/blog/post_image/90225/image001-403f69525caf4cfb05fe8656e625b3e5.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0926160454/">
+      Software Costs Estimation In Agile Project Management
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    One of the hardest things to do in software development is to determine how long and how much it will tak...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-09-26" itemprop="datePublished">2015-09-26 16:04:54 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-26" itemprop="datePublished">SEPTEMBER 26, 2015 16:04:54
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="software-costs-estimation-in-agile-project-management-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0926155959/" title="Agari - Leveraging AWS to Build a Scalable Data Pipeline
@@ -2065,9 +2137,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0907083625/" title="Neural networks and deep learning - free eBook
@@ -2106,9 +2178,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0907082653/" title="SIMP - NSA security compliance framework
@@ -2187,9 +2259,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
@@ -2229,9 +2301,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
@@ -2313,9 +2385,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0902082636/" title="Software Costs Estimation In Agile Project Management
@@ -2355,9 +2427,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901191859/" title="Voice controlled PHP apps with API.ai
@@ -2439,9 +2511,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -2481,9 +2553,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0828204609/" title="Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
@@ -2559,9 +2631,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -2598,9 +2670,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0825080638/" title="Deploy Your Rails App to AWS
@@ -2677,48 +2749,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="how-does-a-relational-database-work-coding-geek-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0824080425/" title="Getting Started with Docker: Simplifying Devops
-" class="post-teaser">
-    
-      
-        <img src="http://assets.toptal.io/uploads/blog/post_image/90213/82mahmud-01-146fe4db3b7ed7b02cd3fca90d722b58.jpg
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0824080425/">
-      Getting Started with Docker: Simplifying Devops
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    If you like whales, or are simply interested in quick and painless continuous delivery of your software t...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-24" itemprop="datePublished">2015-08-24 08:04:25 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-24" itemprop="datePublished">AUGUST 24, 2015 08:04:25
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="getting-started-with-docker-simplifying-devops-share">0</div>
 </div>
 
 </article>
