@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0929075836/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#getting-started-with-openhab-home-automation-on-raspberry-pi-share").html(data.count);
+      }
+      else {
+        $("#getting-started-with-openhab-home-automation-on-raspberry-pi-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0926160454/',
       context: document.body
     }).done(function( data ) {
@@ -1482,7 +1494,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
         
       </li>
     
@@ -1500,16 +1512,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
     
@@ -1536,7 +1539,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1546,6 +1549,15 @@
             
           
         <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1599,7 +1611,25 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1653,7 +1683,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1662,7 +1692,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1698,7 +1728,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1770,7 +1800,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1788,7 +1818,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1815,7 +1845,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1824,7 +1854,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1842,7 +1872,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
         
       </li>
     
@@ -1852,24 +1882,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1905,15 +1917,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
@@ -1932,7 +1935,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1942,6 +1945,33 @@
             
           
         <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
         
       </li>
     
@@ -1977,7 +2007,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -2017,6 +2047,45 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/0929075836/" title="Getting Started with OpenHAB Home Automation on Raspberry Pi
+" class="post-teaser">
+    
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/0929075836/">
+      Getting Started with OpenHAB Home Automation on Raspberry Pi
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    OpenHAB is a mature, open source home automation platform that runs on a variety of hardware and is proto...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-09-29" itemprop="datePublished">2015-09-29 07:58:36 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-09-29" itemprop="datePublished">SEPTEMBER 29, 2015 07:58:36
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="getting-started-with-openhab-home-automation-on-raspberry-pi-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0926160454/" title="Software Costs Estimation In Agile Project Management
@@ -2095,9 +2164,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0908084413/" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
@@ -2137,9 +2206,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0907083625/" title="Neural networks and deep learning - free eBook
@@ -2220,9 +2289,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
@@ -2259,9 +2328,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
@@ -2343,9 +2412,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
@@ -2385,9 +2454,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0902082636/" title="Software Costs Estimation In Agile Project Management
@@ -2469,9 +2538,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901090330/" title="How security flaws work: The buffer overflow
@@ -2511,9 +2580,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -2592,9 +2661,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827183938/" title="Sentiment Analysis Using Doc2Vec | Pandamonium
@@ -2631,9 +2700,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827081105/" title="Extending Seven Bridges Genomics with Amazon Redshift and R
@@ -2707,48 +2776,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="deploy-your-rails-app-to-aws-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0825080126/" title="How does a relational database work - Coding Geek
-" class="post-teaser">
-    
-      
-        <img src="http://coding-geek.com/wp-content/uploads/2015/08/main_databases.jpg
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0825080126/">
-      How does a relational database work - Coding Geek
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    When it comes to relational databases, I can’t help thinking that something is missing. They’re used ever...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-25" itemprop="datePublished">2015-08-25 08:01:26 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-25" itemprop="datePublished">AUGUST 25, 2015 08:01:26
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="how-does-a-relational-database-work-coding-geek-share">0</div>
 </div>
 
 </article>

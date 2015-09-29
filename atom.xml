@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-26T16:05:25+01:00</updated>
+    <updated>2015-09-29T07:59:05+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Getting Started with OpenHAB Home Automation on Raspberry Pi
+</title>
+        <link href="http://directionwithintent.com/shares/0929075836/"/>
+        <updated>2015-09-29T07:58:36+01:00</updated>
+        <id>http://directionwithintent.com/shares/0929075836</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;OpenHAB is a mature, open source home automation platform that runs on a variety of hardware and is protocol agnostic, meaning it can connect to nearly any home automation hardware on the market today. If you’ve been frustrated with the number of manufacturer specific apps you need to run just to control your lights, then I’ve got great news for you: OpenHAB is the solution you’ve been looking for – it’s the most flexible smart home hub you’ll ever find.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Software Costs Estimation In Agile Project Management
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;Surprisingly few software engineers and scientists seem to know about it, and that makes me sad because it is such a general and powerful tool for combining information in the presence of uncertainty. At times its ability to extract accurate information seems almost magical and if it sounds like I’m talking this up too much, then take a look at this previously posted video where I demonstrate a Kalman filter figuring out the orientation of a free-floating body by looking at its velocity. Totally neat!&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>A beginner&#39;s guide to understanding UX design
-</title>
-        <link href="http://directionwithintent.com/shares/0818083419/"/>
-        <updated>2015-08-18T08:34:19+01:00</updated>
-        <id>http://directionwithintent.com/shares/0818083419</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;If you are thinking of working on your conversion optimization and landing page optimization, understanding UX design is essential. As you know, we write a lot about the user, the single visitor that arrives on your site or landing page and needs to be triggered and helped around. UX design helps make sure that during this process the most important person isn’t left out of the mix: The user.&lt;/p&gt;
 
         </content>
     </entry>

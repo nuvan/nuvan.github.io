@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0929075836/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#getting-started-with-openhab-home-automation-on-raspberry-pi-share").html(data.count);
+      }
+      else {
+        $("#getting-started-with-openhab-home-automation-on-raspberry-pi-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0926160454/',
       context: document.body
     }).done(function( data ) {
@@ -1479,7 +1491,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
         
       </li>
     
@@ -1497,16 +1509,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
     
@@ -1533,7 +1536,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1543,6 +1546,15 @@
             
           
         <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1596,7 +1608,25 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1650,7 +1680,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1659,7 +1689,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1695,7 +1725,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1767,7 +1797,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1785,7 +1815,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1812,7 +1842,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1821,7 +1851,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1839,7 +1869,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
         
       </li>
     
@@ -1849,24 +1879,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1902,15 +1914,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
@@ -1929,7 +1932,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1939,6 +1942,33 @@
             
           
         <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
         
       </li>
     
@@ -1974,7 +2004,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -1994,6 +2024,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://thenextweb.com/dd/2015/08/12/a-beginners-guide-to-understanding-ux-design/
+">
+                A beginner's guide to understanding UX design
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://thenextweb.com/dd/2015/08/12/a-beginners-guide-to-understanding-ux-design/
+">
+                If you are thinking of working on your conversion optimization and landing page optimization, understanding UX design is essential. As you know, we write a lot about the user, the single visitor that arrives on your site or landing page and needs to be trig...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-18" itemprop="datePublished">2015-08-18 08:34:19 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-18" itemprop="datePublished">AUGUST 18, 2015 08:34:19
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="a-beginner-s-guide-to-understanding-ux-design-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0818083419/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0818083419/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2241,66 +2331,6 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html
-">
-                Matrix Computations on the GPU in Clojure (in TFLOPS!)
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html
-">
-                Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you’d write yours...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-08" itemprop="datePublished">2015-08-08 14:47:06 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-08" itemprop="datePublished">AUGUST 08, 2015 14:47:06
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="matrix-computations-on-the-gpu-in-clojure-in-tflops-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0808144706/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0808144706/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -2391,6 +2421,10 @@ AWS Lambda’s Java support also makes it easy to write Lambda functions in othe
   
     
       <a href="/shares/page21">21</a>
+    
+  
+    
+      <a href="/shares/page22">22</a>
     
   
 
