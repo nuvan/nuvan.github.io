@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1006081539/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#building-a-json-api-with-rails-5-share").html(data.count);
+      }
+      else {
+        $("#building-a-json-api-with-rails-5-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0929075836/',
       context: document.body
     }).done(function( data ) {
@@ -1530,7 +1542,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1539,7 +1551,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1557,7 +1569,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1566,7 +1578,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1612,6 +1624,15 @@
             
           
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1683,7 +1704,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1692,7 +1713,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1728,7 +1749,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1800,7 +1821,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1818,7 +1839,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1845,7 +1866,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1854,7 +1875,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1882,15 +1903,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1935,7 +1947,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1944,7 +1956,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1962,6 +1974,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1971,7 +1992,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -2007,7 +2028,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/ror" class="title">ROR</a>
         
       </li>
     
@@ -2047,6 +2068,48 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/1006081539/" title="Building a JSON API with Rails 5
+" class="post-teaser">
+    
+      
+        <img src="http://blog.codeship.com/wp-content/uploads/2015/09/Building-a-JSON-API-in-Rails-5.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/1006081539/">
+      Building a JSON API with Rails 5
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Leigh Halliday is a developer at theScore. He writes about Ruby, Rails, and software development on his p...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-10-06" itemprop="datePublished">2015-10-06 08:15:39 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-10-06" itemprop="datePublished">OCTOBER 06, 2015 08:15:39
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="building-a-json-api-with-rails-5-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0929075836/" title="Getting Started with OpenHAB Home Automation on Raspberry Pi
@@ -2125,9 +2188,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0926155959/" title="Agari - Leveraging AWS to Build a Scalable Data Pipeline
@@ -2164,9 +2227,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0908084413/" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
@@ -2247,9 +2310,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0907082653/" title="SIMP - NSA security compliance framework
@@ -2289,9 +2352,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
@@ -2370,9 +2433,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
@@ -2412,9 +2475,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
@@ -2496,9 +2559,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901191859/" title="Voice controlled PHP apps with API.ai
@@ -2538,9 +2601,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901090330/" title="How security flaws work: The buffer overflow
@@ -2622,9 +2685,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0828204609/" title="Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
@@ -2661,9 +2724,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0827183938/" title="Sentiment Analysis Using Doc2Vec | Pandamonium
@@ -2734,48 +2797,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="extending-seven-bridges-genomics-with-amazon-redshift-and-r-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0825080638/" title="Deploy Your Rails App to AWS
-" class="post-teaser">
-    
-      
-        <img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1439638315Fotolia_83050031_Subscription_Monthly_M.jpg
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0825080638/">
-      Deploy Your Rails App to AWS
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    As developers, we are usually concerned about the development part of any application. We don’t think muc...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-25" itemprop="datePublished">2015-08-25 08:06:38 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-25" itemprop="datePublished">AUGUST 25, 2015 08:06:38
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="deploy-your-rails-app-to-aws-share">0</div>
 </div>
 
 </article>

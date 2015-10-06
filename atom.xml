@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-09-29T07:59:05+01:00</updated>
+    <updated>2015-10-06T08:16:44+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Building a JSON API with Rails 5
+</title>
+        <link href="http://directionwithintent.com/shares/1006081539/"/>
+        <updated>2015-10-06T08:15:39+01:00</updated>
+        <id>http://directionwithintent.com/shares/1006081539</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Leigh Halliday is a developer at theScore. He writes about Ruby, Rails, and software development on his personal site.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Getting Started with OpenHAB Home Automation on Raspberry Pi
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;Much of the discussion in psychology surrounding Bayesian inference focuses on priors. Should we embrace priors, or should we be skeptical? When are Bayesian methods sensitive to specification of the prior, and when do the data effectively overwhelm it? Should we use context specific prior distributions or should we use general defaults? These are all great questions and great discussions to be having.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>How a Kalman filter works, in pictures | Bzarg
-</title>
-        <link href="http://directionwithintent.com/shares/0819075645/"/>
-        <updated>2015-08-19T07:56:45+01:00</updated>
-        <id>http://directionwithintent.com/shares/0819075645</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Surprisingly few software engineers and scientists seem to know about it, and that makes me sad because it is such a general and powerful tool for combining information in the presence of uncertainty. At times its ability to extract accurate information seems almost magical and if it sounds like I’m talking this up too much, then take a look at this previously posted video where I demonstrate a Kalman filter figuring out the orientation of a free-floating body by looking at its velocity. Totally neat!&lt;/p&gt;
 
         </content>
     </entry>

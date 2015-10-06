@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1006081539/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#building-a-json-api-with-rails-5-share").html(data.count);
+      }
+      else {
+        $("#building-a-json-api-with-rails-5-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0929075836/',
       context: document.body
     }).done(function( data ) {
@@ -1527,7 +1539,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1536,7 +1548,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1554,7 +1566,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1563,7 +1575,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1609,6 +1621,15 @@
             
           
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1680,7 +1701,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1689,7 +1710,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1725,7 +1746,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1797,7 +1818,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1815,7 +1836,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1842,7 +1863,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1851,7 +1872,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1879,15 +1900,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1932,7 +1944,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1941,7 +1953,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1959,6 +1971,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1968,7 +1989,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -2004,7 +2025,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/ror" class="title">ROR</a>
         
       </li>
     
@@ -2024,6 +2045,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://www.toptal.com/devops/getting-started-with-docker-simplifying-devops
+">
+                Getting Started with Docker: Simplifying Devops
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www.toptal.com/devops/getting-started-with-docker-simplifying-devops
+">
+                If you like whales, or are simply interested in quick and painless continuous delivery of your software to production, then I invite you to read this introductory Docker Tutorial. Everything seems to indicate that software containers are the future of IT, s...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-24" itemprop="datePublished">2015-08-24 08:04:25 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-24" itemprop="datePublished">AUGUST 24, 2015 08:04:25
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="getting-started-with-docker-simplifying-devops-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0824080425/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0824080425/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2252,66 +2333,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0819080646/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
-">
-                How a Kalman filter works, in pictures | Bzarg
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
-">
-                Surprisingly few software engineers and scientists seem to know about it, and that makes me sad because it is such a general and powerful tool for combining information in the presence of uncertainty. At times its ability to extract accurate information see...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-19" itemprop="datePublished">2015-08-19 07:56:45 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-19" itemprop="datePublished">AUGUST 19, 2015 07:56:45
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="how-a-kalman-filter-works-in-pictures-bzarg-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0819075645/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0819075645/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

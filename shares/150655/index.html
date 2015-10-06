@@ -118,6 +118,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1006081539/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#building-a-json-api-with-rails-5-share").html(data.count);
+      }
+      else {
+        $("#building-a-json-api-with-rails-5-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0929075836/',
       context: document.body
     }).done(function( data ) {
@@ -1533,7 +1545,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1542,7 +1554,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1560,7 +1572,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1569,7 +1581,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1615,6 +1627,15 @@
             
           
         <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1686,7 +1707,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1695,7 +1716,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1731,7 +1752,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1803,7 +1824,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1821,7 +1842,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1848,7 +1869,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1857,7 +1878,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1885,15 +1906,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1938,7 +1950,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1947,7 +1959,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -1965,6 +1977,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -1974,7 +1995,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -2010,7 +2031,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/ror" class="title">ROR</a>
         
       </li>
     
