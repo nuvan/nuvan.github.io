@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1010172900/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-support-vector-machine-algorithm-from-examples-along-with-code-share").html(data.count);
+      }
+      else {
+        $("#understanding-support-vector-machine-algorithm-from-examples-along-with-code-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1010152402/',
       context: document.body
     }).done(function( data ) {
@@ -1551,7 +1563,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
         
       </li>
     
@@ -1578,15 +1590,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
         
       </li>
@@ -1596,7 +1599,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1605,7 +1608,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1623,6 +1626,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
@@ -1632,7 +1644,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1731,7 +1752,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1740,7 +1761,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1776,7 +1797,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1848,7 +1869,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1866,7 +1887,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -1893,7 +1914,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -1902,7 +1923,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1930,15 +1951,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1983,7 +1995,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -1992,7 +2004,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -2010,6 +2022,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -2019,7 +2040,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
         
       </li>
     
@@ -2055,7 +2076,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
+        <a href="http://directionwithintent.com/tag/svm" class="title">SVM</a>
         
       </li>
     
@@ -2075,6 +2096,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
+">
+                scikit-learn video #1: Intro to machine learning with scikit-learn
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
+">
+                Have you tried out a few Kaggle competitions, but you aren’t quite sure what you’re supposed to be doing? Or perhaps you’ve heard all the talk in the Kaggle forums about Python’s scikit-learn library, but you haven’t figured out how to take advantage of thi...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-04" itemprop="datePublished">2015-08-04 15:55:55 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-04" itemprop="datePublished">AUGUST 04, 2015 15:55:55
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="scikit-learn-video-1-intro-to-machine-learning-with-scikit-learn-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0804155555/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0804155555/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2301,66 +2382,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803185637/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="https://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis
-">
-                District Data Labs - Modern Methods for Sentiment Analysis
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="https://districtdatalabs.silvrback.com/modern-methods-for-sentiment-analysis
-">
-                Sentiment analysis is a common application of Natural Language Processing (NLP) methodologies, particularly classification, whose goal is to extract the emotional content in text. In this way, sentiment analysis can be seen as a method to quantify qualitati...
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-03" itemprop="datePublished">2015-08-03 17:35:54 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-03" itemprop="datePublished">AUGUST 03, 2015 17:35:54
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="district-data-labs-modern-methods-for-sentiment-analysis-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0803173554/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0803173554/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1010172900/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-support-vector-machine-algorithm-from-examples-along-with-code-share").html(data.count);
+      }
+      else {
+        $("#understanding-support-vector-machine-algorithm-from-examples-along-with-code-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1010152402/',
       context: document.body
     }).done(function( data ) {
@@ -1554,7 +1566,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
         
       </li>
     
@@ -1581,15 +1593,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
         
       </li>
@@ -1599,7 +1602,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1608,7 +1611,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1626,6 +1629,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
@@ -1635,7 +1647,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1734,7 +1755,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1743,7 +1764,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1779,7 +1800,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1851,7 +1872,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1869,7 +1890,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -1896,7 +1917,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -1905,7 +1926,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1933,15 +1954,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1986,7 +1998,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -1995,7 +2007,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -2013,6 +2025,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -2022,7 +2043,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
         
       </li>
     
@@ -2058,7 +2079,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
+        <a href="http://directionwithintent.com/tag/svm" class="title">SVM</a>
         
       </li>
     
@@ -2098,6 +2119,48 @@
       <div class="rows-wrap">
         
           <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/1010172900/" title="Understanding Support Vector Machine algorithm from examples (along with code)
+" class="post-teaser">
+    
+      
+        <img src="http://www.analyticsvidhya.com/wp-content/uploads/2015/10/learn5.jpg
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/1010172900/">
+      Understanding Support Vector Machine algorithm from examples (along with code)
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    “Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both clas...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-10-10" itemprop="datePublished">2015-10-10 17:29:00 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-10-10" itemprop="datePublished">OCTOBER 10, 2015 17:29:00
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="understanding-support-vector-machine-algorithm-from-examples-along-with-code-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/1010152402/" title="Game Development with D
@@ -2176,9 +2239,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0929075836/" title="Getting Started with OpenHAB Home Automation on Raspberry Pi
@@ -2215,9 +2278,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0926160454/" title="Software Costs Estimation In Agile Project Management
@@ -2296,9 +2359,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0908084413/" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
@@ -2338,9 +2401,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0907083625/" title="Neural networks and deep learning - free eBook
@@ -2421,9 +2484,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
@@ -2460,9 +2523,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
@@ -2544,9 +2607,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
@@ -2586,9 +2649,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0902082636/" title="Software Costs Estimation In Agile Project Management
@@ -2670,9 +2733,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901090330/" title="How security flaws work: The buffer overflow
@@ -2712,9 +2775,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0901085721/" title="Linux workstation security checklist
@@ -2788,45 +2851,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="integrating-amazon-kinesis-amazon-s3-and-amazon-redshift-with-cascading-on-amazon-emr-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0827183938/" title="Sentiment Analysis Using Doc2Vec | Pandamonium
-" class="post-teaser">
-    
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0827183938/">
-      Sentiment Analysis Using Doc2Vec | Pandamonium
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s ...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-08-27" itemprop="datePublished">2015-08-27 18:39:38 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-27" itemprop="datePublished">AUGUST 27, 2015 18:39:38
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="sentiment-analysis-using-doc2vec-pandamonium-share">0</div>
 </div>
 
 </article>

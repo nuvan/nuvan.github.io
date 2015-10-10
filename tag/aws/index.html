@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1010172900/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#understanding-support-vector-machine-algorithm-from-examples-along-with-code-share").html(data.count);
+      }
+      else {
+        $("#understanding-support-vector-machine-algorithm-from-examples-along-with-code-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1010152402/',
       context: document.body
     }).done(function( data ) {
@@ -1551,7 +1563,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
         
       </li>
     
@@ -1578,15 +1590,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
         
       </li>
@@ -1596,7 +1599,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1605,7 +1608,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1623,6 +1626,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
@@ -1632,7 +1644,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1731,7 +1752,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1740,7 +1761,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1776,7 +1797,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1848,7 +1869,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1866,7 +1887,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -1893,7 +1914,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -1902,7 +1923,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1930,15 +1951,6 @@
             
           
         <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -1983,7 +1995,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -1992,7 +2004,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -2010,6 +2022,15 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
@@ -2019,7 +2040,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
         
       </li>
     
@@ -2055,7 +2076,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
+        <a href="http://directionwithintent.com/tag/svm" class="title">SVM</a>
         
       </li>
     
@@ -2075,6 +2096,14 @@
         <h1>Posts Tagged &ldquo;aws&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
+          
+        
+          
+        
+          
+        
       
         
           

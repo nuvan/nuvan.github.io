@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-10-10T15:25:06+01:00</updated>
+    <updated>2015-10-10T17:31:22+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Understanding Support Vector Machine algorithm from examples (along with code)
+</title>
+        <link href="http://directionwithintent.com/shares/1010172900/"/>
+        <updated>2015-10-10T17:29:00+01:00</updated>
+        <id>http://directionwithintent.com/shares/1010172900</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;“Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Game Development with D
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;Eventually Consistent Transactions - Burckhardt et al. 2012 There&#39;s another ECOOP&#39;15 paper I&#39;d like to cover this week - Burckhardt et al.&#39;s &quot;Global Sequence Protocol.&quot; But that paper builds on the notion of Cloud Types (similar in spirit to CRDTs, and not something I&#39;ve personally come across before), which in turn builds on work on…&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Kaizen: Get a Little Better Each Day | The Art of Manliness
-</title>
-        <link href="http://directionwithintent.com/shares/0820080936/"/>
-        <updated>2015-08-20T08:09:36+01:00</updated>
-        <id>http://directionwithintent.com/shares/0820080936</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;The Kaizen approach to self-improvement completely circumvents the unproductive ups and downs all too common to the quest. By breaking down big, overwhelming goals into super small, discrete pieces, Kaizen encourages action. The small successes you experience with your baby steps feed on each other and start building some momentum, which leads to taking bigger and bigger actions.&lt;/p&gt;
 
         </content>
     </entry>
