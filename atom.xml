@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-10-10T17:31:22+01:00</updated>
+    <updated>2015-10-10T17:53:36+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Learn React.js: Ridiculously Simple Forms
+</title>
+        <link href="http://directionwithintent.com/shares/1010175239/"/>
+        <updated>2015-10-10T17:52:39+01:00</updated>
+        <id>http://directionwithintent.com/shares/1010175239</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;So – you’ve got the hang of React, and you’ve even built a little app. But after making your app look nice, you remember that you also need to make it work. And that’s when you start searching for form libraries. First you look for tools to structure data and event flow. Then you shift focus to libraries which reduce repetition in form components. And while you’re at it, tools which validate user input would certainly help.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Understanding Support Vector Machine algorithm from examples (along with code)
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;Java is often said to be too complicated and to take too long to build simple applications. Nonetheless, Java provides a stable platform with a very mature ecosystem around it, which makes it a wonderful option for developing robust software.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Eventually Consistent Transactions
-</title>
-        <link href="http://directionwithintent.com/shares/0820081348/"/>
-        <updated>2015-08-20T08:13:48+01:00</updated>
-        <id>http://directionwithintent.com/shares/0820081348</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Eventually Consistent Transactions - Burckhardt et al. 2012 There&#39;s another ECOOP&#39;15 paper I&#39;d like to cover this week - Burckhardt et al.&#39;s &quot;Global Sequence Protocol.&quot; But that paper builds on the notion of Cloud Types (similar in spirit to CRDTs, and not something I&#39;ve personally come across before), which in turn builds on work on…&lt;/p&gt;
 
         </content>
     </entry>
