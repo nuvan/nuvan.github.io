@@ -3,23 +3,21 @@
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Implementing a Neural Network from Scratch - An Introduction
+    <title>How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
  • Direction With Intent</title>
-    <meta name="description" content="In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
-Get the code: To follow along, all the code is also available as an iPython notebook on Github.
+    <meta name="description" content="Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if you want to take the show on the road, you’ll want an easily portable rig. Enter Kali Linux and the Raspberry Pi.
 
 ">
-    <meta name="keywords" content="tutorial, ml">
+    <meta name="keywords" content="tutorial, raspberrypi, security">
     
       
     	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
-	<meta name="twitter:title" content="Implementing a Neural Network from Scratch - An Introduction
+	<meta name="twitter:title" content="How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
 ">
 	
-		<meta name="twitter:description" content="In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
-Get the code: To follow along, all the code is also available as an iPython notebook on Github.
+		<meta name="twitter:description" content="Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if you want to take the show on the road, you’ll want an easily portable rig. Enter Kali Linux and the Raspberry Pi.
 
 ">
 	
@@ -34,26 +32,25 @@ Get the code: To follow along, all the code is also available as an iPython note
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Implementing a Neural Network from Scratch - An Introduction
+	<meta property="og:title" content="How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
 ">
 	
-		<meta property="og:description" content="In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
-Get the code: To follow along, all the code is also available as an iPython notebook on Github.
+		<meta property="og:description" content="Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if you want to take the show on the road, you’ll want an easily portable rig. Enter Kali Linux and the Raspberry Pi.
 
 ">
 	
 	
 	
-		<meta property="og:image" content="http://www.wildml.com/wp-content/uploads/2015/09/nn-from-scratch-dataset.png
+		<meta property="og:image" content="https://i.kinja-img.com/gawker-media/image/upload/s--NDAn8gep--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/1495511607957502758.gif
 ">
 	
 	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
 	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/shares/0904195716/">
+	<meta property="og:url" content="http://directionwithintent.com/shares/1031172936/">
 	<meta property="og:site_name" content="Direction With Intent">
 
 
-    <link rel="canonical" href="http://directionwithintent.com/shares/0904195716/">
+    <link rel="canonical" href="http://directionwithintent.com/shares/1031172936/">
 
     <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
     <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -2145,17 +2142,16 @@ Get the code: To follow along, all the code is also available as an iPython note
   <a href="http://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="http://directionwithintent.com/shares/">Shares</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
     <div class="page-title">
-      <h1><a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
-" title="Implementing a Neural Network from Scratch - An Introduction
-">Implementing a Neural Network from Scratch - An Introduction
+      <h1><a href="http://lifehacker.com/how-to-build-a-portable-hacking-station-with-a-raspberr-1739297918
+" title="How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
+">How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
 </a></h1>
     </div>
     <div class="inner-wrap">
       <nav class="toc"></nav><!-- /.toc -->
       <div id="content" class="page-content" itemprop="articleBody">
         <div class="share-container">
-            <p>In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
-Get the code: To follow along, all the code is also available as an iPython notebook on Github.</p>
+            <p>Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if you want to take the show on the road, you’ll want an easily portable rig. Enter Kali Linux and the Raspberry Pi.</p>
 
         </div>
         <hr />
@@ -2172,14 +2168,14 @@ Get the code: To follow along, all the code is also available as an iPython note
 </div>
           
 <div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Implementing%20a%20Neural%20Network%20from%20Scratch%20-%20An%20Introduction
-&amp;url=http://directionwithintent.com/shares/0904195716/&amp;via=nuvan" target="_blank">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=How%20to%20Build%20a%20Portable%20Hacking%20Station%20with%20a%20Raspberry%20Pi%20and%20Kali%20Linux
+&amp;url=http://directionwithintent.com/shares/1031172936/&amp;via=nuvan" target="_blank">
     <div class="base">
       <i class="fa fa-twitter" aria-hidden="true"></i> 
       <span>Share on Twitter</span>
     </div>
   </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0904195716/" target="_blank">
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/1031172936/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>
@@ -2187,7 +2183,7 @@ Get the code: To follow along, all the code is also available as an iPython note
   </a>
 
           <div class="page-meta">
-	<p>Updated <time datetime="2015-09-04T19:57:16Z" itemprop="datePublished">September 04, 2015</time></p>
+	<p>Updated <time datetime="2015-10-31T17:29:36Z" itemprop="datePublished">October 31, 2015</time></p>
 </div><!-- /.page-meta -->
         </footer><!-- /.footer -->
         <aside>

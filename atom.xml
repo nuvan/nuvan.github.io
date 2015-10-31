@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-10-10T17:53:36+01:00</updated>
+    <updated>2015-10-31T17:32:06+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
+</title>
+        <link href="http://directionwithintent.com/shares/1031172936/"/>
+        <updated>2015-10-31T17:29:36+00:00</updated>
+        <id>http://directionwithintent.com/shares/1031172936</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if you want to take the show on the road, you’ll want an easily portable rig. Enter Kali Linux and the Raspberry Pi.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Learn React.js: Ridiculously Simple Forms
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;If you like whales, or are simply interested in quick and painless continuous delivery of your software to production, then I invite you to read this introductory Docker Tutorial. Everything seems to indicate that software containers are the future of IT, so let’s go for a quick dip with the container whales Moby Dock and Molly.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Building an MVC Application with Spring Framework: A Beginner&#39;s Tutorial
-</title>
-        <link href="http://directionwithintent.com/shares/0824080224/"/>
-        <updated>2015-08-24T08:02:24+01:00</updated>
-        <id>http://directionwithintent.com/shares/0824080224</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Java is often said to be too complicated and to take too long to build simple applications. Nonetheless, Java provides a stable platform with a very mature ecosystem around it, which makes it a wonderful option for developing robust software.&lt;/p&gt;
 
         </content>
     </entry>
