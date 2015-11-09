@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1109092826/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#this-diy-wireless-keylogger-fits-anywhere-looks-like-a-wall-charger-share").html(data.count);
+      }
+      else {
+        $("#this-diy-wireless-keylogger-fits-anywhere-looks-like-a-wall-charger-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1031172936/',
       context: document.body
     }).done(function( data ) {
@@ -1542,24 +1554,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
@@ -1578,6 +1572,33 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
         
       </li>
@@ -1587,7 +1608,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
+        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1597,6 +1618,15 @@
             
           
         <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
         
       </li>
     
@@ -1623,7 +1653,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1632,7 +1662,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
         
       </li>
     
@@ -1650,24 +1680,6 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
         <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
@@ -1677,7 +1689,16 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1704,7 +1725,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1785,7 +1806,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
         
       </li>
     
@@ -1794,7 +1815,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1830,7 +1851,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1902,7 +1923,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1920,7 +1941,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1947,7 +1968,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -1956,7 +1977,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
+        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -1992,7 +2013,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
+        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -2001,25 +2022,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
-        
-      </li>
-    
-      <li>
-            
-              
-            
-          
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -2037,7 +2040,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
         
       </li>
     
@@ -2055,7 +2058,25 @@
               
             
           
+        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
         <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
+        
+      </li>
+    
+      <li>
+            
+              
+            
+          
+        <a href="http://directionwithintent.com/tag/svm" class="title">SVM</a>
         
       </li>
     
@@ -2073,7 +2094,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/svm" class="title">SVM</a>
+        <a href="http://directionwithintent.com/tag/react" class="title">REACT</a>
         
       </li>
     
@@ -2109,7 +2130,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/react" class="title">REACT</a>
+        <a href="http://directionwithintent.com/tag/arduino" class="title">ARDUINO</a>
         
       </li>
     
@@ -2129,6 +2150,66 @@
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-rigth wide">
+          <div class="post-category">
+            shares
+          </div>
+          
+            <div class="post-title">
+              <a href="http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf
+">
+                An Introduction to Statistical Learning with Applications in R
+
+              </a>
+            </div>
+            <div class="post-excerpt wide">
+              <a href="http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf
+">
+                Statistical learning refers to a set of tools for modeling and understanding complex datasets. It is a recently developed area in statistics and blends with parallel developments in computer science and, in particular, machine learning. The field encompasse...
+              </a>
+            </div>
+          
+          
+          <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2015-08-08" itemprop="datePublished">2015-08-08 00:48:59 +0100
+      </time>
+      <!--time class="entry-date" datetime="2015-08-08" itemprop="datePublished">AUGUST 08, 2015 00:48:59
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="an-introduction-to-statistical-learning-with-applications-in-r-share">0</div>
+</div>
+     
+          
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0808004859/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0808004859/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2357,68 +2438,6 @@
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805164737/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-rigth wide">
-          <div class="post-category">
-            shares
-          </div>
-          
-            <div class="post-title">
-              <a href="https://www.dataquest.io/blog/k-nearest-neighbors/
-">
-                K-nearest neighbors in python - Dataquest Blog
-
-              </a>
-            </div>
-            <div class="post-excerpt wide">
-              <a href="https://www.dataquest.io/blog/k-nearest-neighbors/
-">
-                In this post, we’ll be using the K-nearest neighbors algorithm to predict how many points NBA players scored in the 2013-2014 season. Along the way, we’ll learn about euclidean distance and figure out which NBA players are the most similar to Lebron James.
-
-
-              </a>
-            </div>
-          
-          
-          <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2015-08-05" itemprop="datePublished">2015-08-05 12:41:32 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-08-05" itemprop="datePublished">AUGUST 05, 2015 12:41:32
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="k-nearest-neighbors-in-python-dataquest-blog-share">0</div>
-</div>
-     
-          
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=http://directionwithintent.com/shares/0805124132/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://directionwithintent.com/shares/0805124132/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

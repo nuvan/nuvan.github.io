@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2015-10-31T17:32:06+00:00</updated>
+    <updated>2015-11-09T09:29:24+00:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>This DIY Wireless Keylogger Fits Anywhere, Looks Like a Wall Charger
+</title>
+        <link href="http://directionwithintent.com/shares/1109092826/"/>
+        <updated>2015-11-09T09:28:26+00:00</updated>
+        <id>http://directionwithintent.com/shares/1109092826</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;The “KeySweeper” is a tiny, arduino-powered wireless sniffer that captures data sent by your wireless keyboard to its receiver. That’s right—it’s a keylogger, and it doesn’t have to be plugged into your computer to work.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;When it comes to relational databases, I can’t help thinking that something is missing. They’re used everywhere. There are many different databases: from the small and useful SQLite to the powerful Teradata. But, there are only a few articles that explain how a database works. You can google by yourself “how does a relational database work” to see how few results there are. Moreover, those articles are short. Now, if you look for the last trendy technologies (Big Data, NoSQL or JavaScript), you’ll find more in-depth articles explaining how they work.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Getting Started with Docker: Simplifying Devops
-</title>
-        <link href="http://directionwithintent.com/shares/0824080425/"/>
-        <updated>2015-08-24T08:04:25+01:00</updated>
-        <id>http://directionwithintent.com/shares/0824080425</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;If you like whales, or are simply interested in quick and painless continuous delivery of your software to production, then I invite you to read this introductory Docker Tutorial. Everything seems to indicate that software containers are the future of IT, so let’s go for a quick dip with the container whales Moby Dock and Molly.&lt;/p&gt;
 
         </content>
     </entry>
