@@ -116,6 +116,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1111084412/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability-share").html(data.count);
+      }
+      else {
+        $("#what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1109092826/',
       context: document.body
     }).done(function( data ) {
@@ -1692,7 +1704,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1701,7 +1713,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1728,7 +1740,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1737,7 +1749,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -2175,6 +2187,48 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="http://directionwithintent.com/shares/1111084412/" title="What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
+" class="post-teaser">
+    
+      
+        <img src="https://foxglovesecurity.files.wordpress.com/2015/10/weblogic-dump.png?w=300
+" alt="teaser" itemprop="image" />
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="http://directionwithintent.com/shares/1111084412/">
+      What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    By @breenmachine “What? The most underrated, underhyped vulnerability of 2015 has recently come to my att...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2015-11-11" itemprop="datePublished">2015-11-11 08:44:12 +0000
+      </time>
+      <!--time class="entry-date" datetime="2015-11-11" itemprop="datePublished">NOVEMBER 11, 2015 08:44:12
+      </time-->
+        
+    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/1109092826/" title="This DIY Wireless Keylogger Fits Anywhere, Looks Like a Wall Charger
 " class="post-teaser">
     
@@ -2254,9 +2308,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/1010175239/" title="Learn React.js: Ridiculously Simple Forms
@@ -2296,9 +2350,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/1010172900/" title="Understanding Support Vector Machine algorithm from examples (along with code)
@@ -2377,9 +2431,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/1006081539/" title="Building a JSON API with Rails 5
@@ -2419,9 +2473,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0929075836/" title="Getting Started with OpenHAB Home Automation on Raspberry Pi
@@ -2500,9 +2554,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0926155959/" title="Agari - Leveraging AWS to Build a Scalable Data Pipeline
@@ -2539,9 +2593,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0908084413/" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
@@ -2622,9 +2676,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0907082653/" title="SIMP - NSA security compliance framework
@@ -2664,9 +2718,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
@@ -2745,9 +2799,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
@@ -2787,9 +2841,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="http://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
@@ -2866,48 +2920,6 @@
         
     <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="software-costs-estimation-in-agile-project-management-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0901191859/" title="Voice controlled PHP apps with API.ai
-" class="post-teaser">
-    
-      
-        <img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1440253290Fotolia_81821967_Subscription_Monthly_M-1024x682.jpg
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0901191859/">
-      Voice controlled PHP apps with API.ai
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    In this tutorial we’ll be looking into Api.ai, an API that lets us build apps which understand natural la...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-09-01" itemprop="datePublished">2015-09-01 19:18:59 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-09-01" itemprop="datePublished">SEPTEMBER 01, 2015 19:18:59
-      </time-->
-        
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="voice-controlled-php-apps-with-api-ai-share">0</div>
 </div>
 
 </article>

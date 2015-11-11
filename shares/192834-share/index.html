@@ -123,6 +123,18 @@ Most of that time, the book existed entirely on the web. It was less “book” 
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/1111084412/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability-share").html(data.count);
+      }
+      else {
+        $("#what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1109092826/',
       context: document.body
     }).done(function( data ) {
@@ -1700,7 +1712,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1709,7 +1721,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1736,7 +1748,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1745,7 +1757,7 @@ Most of that time, the book existed entirely on the web. It was less “book” 
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
