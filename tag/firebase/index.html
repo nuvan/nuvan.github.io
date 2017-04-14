@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2301,7 +2315,7 @@
             <div class="post-excerpt wide">
               <a href="http://code.tutsplus.com/series/creating-a-web-app-from-scratch-using-angularjs-and-firebase--cms-717
 ">
-                In this series, we'll be using AngularJS and Firebase to create a simple web application from scratch. It will be a simple blogging application where the user can sign in or sign up and publish a blog post.
+                In this series, we’ll be using AngularJS and Firebase to create a simple web application from scratch. It will be a simple blogging application where the user can sign in or sign up and publish a blog post.
 
 
               </a>

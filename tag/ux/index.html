@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2162,6 +2174,8 @@
         <h1>Posts Tagged &ldquo;ux&rdquo;</h1>
     </div>
     <div class="rows-wrap">
+      
+        
       
         
           

@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="http://directionwithintent.com/atom.xml" rel="self"/>
     <link href="http://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2017-04-14T19:48:17+01:00</updated>
+    <updated>2017-04-14T20:17:40+01:00</updated>
     <id>http://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Persuasive Design: Using Advanced Psychology Effectively
+</title>
+        <link href="http://directionwithintent.com/shares/0414201716/"/>
+        <updated>2017-04-14T20:17:16+01:00</updated>
+        <id>http://directionwithintent.com/shares/0414201716</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Persuasive design isn’t evil. It’s a tool, and like any tool, it can be misused. However, with the right research and thoughtful application, it can be a valuable addition to any designer’s toolkit. Toptal designer Bronwen Rees explains how using persuasive design, social and psychological principles can be used to influence user behaviors.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
@@ -459,24 +477,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;We will walk through an end-to-end genomics analysis using the Seven Bridges Genomics platform, an AWS advanced technology partner that offers a solution for data scientists looking to analyze large-scale, next-generation, sequencing (NGS) data securely. We will also demonstrate how easy it is to extend this platform to use the additional analytics capabilities offered by AWS. First, we will identify the genetic “variants” in an individual—what makes them unique—and then conduct a comparison of variation across a group of people.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Deploy Your Rails App to AWS
-</title>
-        <link href="http://directionwithintent.com/shares/0825080638/"/>
-        <updated>2015-08-25T08:06:38+01:00</updated>
-        <id>http://directionwithintent.com/shares/0825080638</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>http://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS) using Capistrano.&lt;/p&gt;
 
         </content>
     </entry>

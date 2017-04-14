@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2489,7 +2503,7 @@
             <div class="post-excerpt wide">
               <a href="http://www.visualisingdata.com/2010/08/making-sense-of-streamgraphs/
 ">
-                Over the past couple of months I've noticed a number of new examples of streamgraphs working their way around the web. It has prompted me to finally get around to visiting this subject because these graphs always seem to stir great debate, one which seems t...
+                Over the past couple of months I’ve noticed a number of new examples of streamgraphs working their way around the web. It has prompted me to finally get around to visiting this subject because these graphs always seem to stir great debate, one which seems t...
               </a>
             </div>
           

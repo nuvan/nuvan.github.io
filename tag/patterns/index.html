@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2375,7 +2389,7 @@
             <div class="post-excerpt wide">
               <a href="http://blog.acolyer.org/2015/08/10/eventually-consistent-transactions/
 ">
-                Eventually Consistent Transactions - Burckhardt et al. 2012 There&#039;s another ECOOP&#039;15 paper I&#039;d like to cover this week - Burckhardt et al.&#039;s &quot;Global Sequence Protocol.&quot; But that paper builds on the notion of Cloud Types (simila...
+                Eventually Consistent Transactions - Burckhardt et al. 2012 There's another ECOOP'15 paper I'd like to cover this week - Burckhardt et al.'s "Global Sequence Protocol." But that paper builds on the notion of Cloud Types (similar in spirit to CRDTs, and not ...
               </a>
             </div>
           

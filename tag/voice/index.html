@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2313,7 +2327,7 @@
             <div class="post-excerpt wide">
               <a href="http://www.sitepoint.com/voice-controlled-php-apps-with-api-ai/
 ">
-                In this tutorial we'll be looking into Api.ai, an API that lets us build apps which understand natural language, much like Siri. It can accept either text or speech as input, which it then parses and returns a JSON string that can be interpreted by the code...
+                In this tutorial we’ll be looking into Api.ai, an API that lets us build apps which understand natural language, much like Siri. It can accept either text or speech as input, which it then parses and returns a JSON string that can be interpreted by the code...
               </a>
             </div>
           

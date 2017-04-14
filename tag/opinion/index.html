@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2452,7 +2466,6 @@
               <a href="http://www.infoq.com/articles/architects-should-code-bryson
 ">
                 The responsibility of an architect reaches far past design and business concerns. Their designs implementation is ultimately their only measure of success; they should get their hands dirty and help.
-
 
 
               </a>

@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2255,7 +2269,7 @@
             <div class="post-excerpt wide">
               <a href="http://highscalability.com/blog/2015/9/3/how-agari-uses-airbnbs-airflow-as-a-smarter-cron.html
 ">
-                This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb's open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
+                This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
 
 
               </a>
@@ -2443,7 +2457,7 @@
             <div class="post-excerpt wide">
               <a href="http://arstechnica.com/security/2015/08/how-security-flaws-work-the-buffer-overflow/
 ">
-                The buffer overflow has long been a feature of the computer security landscape. In fact the first self-propagating Internet worm—1988's Morris Worm—used a buffer overflow in the Unix finger daemon to spread from machine to machine. Twenty-seven years later,...
+                The buffer overflow has long been a feature of the computer security landscape. In fact the first self-propagating Internet worm—1988’s Morris Worm—used a buffer overflow in the Unix finger daemon to spread from machine to machine. Twenty-seven years later,...
               </a>
             </div>
           

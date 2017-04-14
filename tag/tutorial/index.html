@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
             <article class="adapt-tile-to-share">
     <div class="sh-elements">
@@ -2183,7 +2197,7 @@
             <div class="post-excerpt wide">
               <a href="http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
 ">
-                By @breenmachine "What? The most underrated, underhyped vulnerability of 2015 has recently come to my attention, and I&#039;m about to bring it to yours. No one gave it a fancy name, there were no press releases, nobody called Mandiant to come put out the f...
+                By @breenmachine “What? The most underrated, underhyped vulnerability of 2015 has recently come to my attention, and I'm about to bring it to yours. No one gave it a fancy name, there were no press releases, nobody called Mandiant to come put out the fires....
               </a>
             </div>
           
@@ -2846,7 +2860,7 @@ G...
             <div class="post-excerpt wide">
               <a href="http://code.tutsplus.com/series/creating-a-web-app-from-scratch-using-angularjs-and-firebase--cms-717
 ">
-                In this series, we'll be using AngularJS and Firebase to create a simple web application from scratch. It will be a simple blogging application where the user can sign in or sign up and publish a blog post.
+                In this series, we’ll be using AngularJS and Firebase to create a simple web application from scratch. It will be a simple blogging application where the user can sign in or sign up and publish a blog post.
 
 
               </a>
@@ -2920,7 +2934,7 @@ G...
             <div class="post-excerpt wide">
               <a href="http://www.sitepoint.com/voice-controlled-php-apps-with-api-ai/
 ">
-                In this tutorial we'll be looking into Api.ai, an API that lets us build apps which understand natural language, much like Siri. It can accept either text or speech as input, which it then parses and returns a JSON string that can be interpreted by the code...
+                In this tutorial we’ll be looking into Api.ai, an API that lets us build apps which understand natural language, much like Siri. It can accept either text or speech as input, which it then parses and returns a JSON string that can be interpreted by the code...
               </a>
             </div>
           
@@ -3430,7 +3444,7 @@ G...
             <div class="post-excerpt wide">
               <a href="http://ruslanspivak.com/lsbasi-part1/
 ">
-                “If you don't know how compilers work, then you don't know how computers work. If you're not 100% sure whether you know how compilers work, then you don't know how they work.” — Steve Yegge There you have it. Think about it. It doesn't really matter ...
+                “If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure whether you know how compilers work, then you don’t know how they work.” — Steve Yegge There you have it. Think about it. It doesn’t really matter …
 
 
               </a>
@@ -3502,7 +3516,7 @@ G...
 ">
                 Tim Wagner, AWS Lambda General Manager
 Bryan Moffatt, AWS Lambda Software Developer
-AWS Lambda's Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we'll see how it can...
+AWS Lambda’s Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we’ll see how it can...
               </a>
             </div>
           
@@ -3646,7 +3660,7 @@ AWS Lambda's Java support also makes it easy to write Lambda functions in other 
             <div class="post-excerpt wide">
               <a href="http://neanderthal.uncomplicate.org/articles/tutorial_opencl.html
 ">
-                Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you'd write yours...
+                Multiplication of large matrices is more than 500x faster with Neanderthal than with optimized pure Java libraries, 25x faster than Neanderthal native engine and some thousands times faster than the nested looping code with primitives that you’d write yours...
               </a>
             </div>
           
@@ -4102,7 +4116,7 @@ AWS Lambda's Java support also makes it easy to write Lambda functions in other 
             <div class="post-excerpt wide">
               <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/
 ">
-                Have you tried out a few Kaggle competitions, but you aren't quite sure what you're supposed to be doing? Or perhaps you've heard all the talk in the Kaggle forums about Python's scikit-learn library, but you haven't figured out how to take advantage of thi...
+                Have you tried out a few Kaggle competitions, but you aren’t quite sure what you’re supposed to be doing? Or perhaps you’ve heard all the talk in the Kaggle forums about Python’s scikit-learn library, but you haven’t figured out how to take advantage of thi...
               </a>
             </div>
           

@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2317,7 +2331,7 @@
             <div class="post-excerpt wide">
               <a href="http://highscalability.com/blog/2015/9/3/how-agari-uses-airbnbs-airflow-as-a-smarter-cron.html
 ">
-                This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb's open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
+                This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.
 
 
               </a>

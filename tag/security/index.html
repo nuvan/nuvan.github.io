@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2185,7 +2199,7 @@
             <div class="post-excerpt wide">
               <a href="http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
 ">
-                By @breenmachine "What? The most underrated, underhyped vulnerability of 2015 has recently come to my attention, and I&#039;m about to bring it to yours. No one gave it a fancy name, there were no press releases, nobody called Mandiant to come put out the f...
+                By @breenmachine “What? The most underrated, underhyped vulnerability of 2015 has recently come to my attention, and I'm about to bring it to yours. No one gave it a fancy name, there were no press releases, nobody called Mandiant to come put out the fires....
               </a>
             </div>
           
@@ -2563,7 +2577,7 @@
             <div class="post-excerpt wide">
               <a href="http://arstechnica.com/security/2015/08/how-security-flaws-work-the-buffer-overflow/
 ">
-                The buffer overflow has long been a feature of the computer security landscape. In fact the first self-propagating Internet worm—1988's Morris Worm—used a buffer overflow in the Unix finger daemon to spread from machine to machine. Twenty-seven years later,...
+                The buffer overflow has long been a feature of the computer security landscape. In fact the first self-propagating Internet worm—1988’s Morris Worm—used a buffer overflow in the Unix finger daemon to spread from machine to machine. Twenty-seven years later,...
               </a>
             </div>
           
@@ -2629,7 +2643,7 @@
             <div class="post-excerpt wide">
               <a href="https://github.com/lfit/itpol/blob/master/linux-workstation-security.md
 ">
-                This is a set of recommendations used by the Linux Foundation for their systems administrators. All of LF employees are remote workers and we use this set of guidelines to ensure that a sysadmin's system passes core security requirements in order to reduce ...
+                This is a set of recommendations used by the Linux Foundation for their systems administrators. All of LF employees are remote workers and we use this set of guidelines to ensure that a sysadmin’s system passes core security requirements in order to reduce ...
               </a>
             </div>
           

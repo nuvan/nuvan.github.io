@@ -112,6 +112,18 @@
   $(document).ready(function(){ 
     
     $.ajax({
+      url: query_url + '/shares/0414201716/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html(data.count);
+      }
+      else {
+        $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/1111084412/',
       context: document.body
     }).done(function( data ) {
@@ -2164,6 +2176,8 @@
     <div class="rows-wrap">
       
         
+      
+        
           
         
           
@@ -2589,7 +2603,7 @@
 ">
                 Tim Wagner, AWS Lambda General Manager
 Bryan Moffatt, AWS Lambda Software Developer
-AWS Lambda's Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we'll see how it can...
+AWS Lambda’s Java support also makes it easy to write Lambda functions in other jvm-based languages. Previously we looked at doing this for Scala; today we’ll see how it can...
               </a>
             </div>
           
