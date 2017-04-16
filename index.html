@@ -2,6 +2,11 @@
 <html>
 <!--html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"-->
   <head>
+    <script type="text/javascript">
+    var host = "directionwithintent.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
     <meta charset="utf-8">
     <title>Direction With Intent</title>
     
@@ -23,7 +28,7 @@
 	
 	
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="http://directionwithintent.com/images/fbprofile.jpg">
+		<meta name="twitter:image" content="https://directionwithintent.com/images/fbprofile.jpg">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
@@ -32,18 +37,19 @@
 	
 	
 	
-	<meta property="og:image" content="http://directionwithintent.com/images/share01.jpg">
-	<meta property="og:image" content="http://directionwithintent.com/images/share02.jpg">
-	<meta property="og:url" content="http://directionwithintent.com/">
+	<meta property="og:image" content="https://directionwithintent.com/images/share01.jpg">
+	<meta property="og:image" content="https://directionwithintent.com/images/share02.jpg">
+	<meta property="og:url" content="https://directionwithintent.com/">
 	<meta property="og:site_name" content="Direction With Intent">
 
     
 
-    <link rel="canonical" href="http://directionwithintent.com/">
+    <!--link rel="canonical" href=" { { site.url } }{ { page.url } }" /-->
+    <link rel="canonical" href="https://directionwithintent.com/">
 
-    <link href="http://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
-    <link href="http://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
-    <link rel="shortcut icon" href="http://directionwithintent.com/favicon.png">
+    <link href="https://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
+    <link href="https://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+    <link rel="shortcut icon" href="https://directionwithintent.com/favicon.png">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -69,19 +75,19 @@
     }
     </style>
 
-    <link rel="stylesheet" href="http://directionwithintent.com/css/main.css">
+    <link rel="stylesheet" href="https://directionwithintent.com/css/main.css">
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="http://directionwithintent.com/js/vendor/html5shiv.min.js"></script>
-      <script src="http://directionwithintent.com/js/vendor/respond.min.js"></script>
+      <script src="https://directionwithintent.com/js/vendor/html5shiv.min.js"></script>
+      <script src="https://directionwithintent.com/js/vendor/respond.min.js"></script>
     <![endif]-->
 
   </head>
 
   <body>
-    <script src="http://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="http://directionwithintent.com/js/main.js"></script>
-    <script src="http://directionwithintent.com/js/header_fader.js"></script>
+    <script src="https://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://directionwithintent.com/js/main.js"></script>
+    <script src="https://directionwithintent.com/js/header_fader.js"></script>
     <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <script type="text/javascript">
@@ -1448,6 +1454,18 @@
     });
    
     $.ajax({
+      url: query_url + '/programming/serverless_to_the_core/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#going-serverless-to-the-core-share").html(data.count);
+      }
+      else {
+        $("#going-serverless-to-the-core-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {
@@ -1489,7 +1507,7 @@
     <header class="header absolute transparent naver">
         <div id="masthead-article">
           <div class="inner-wrap">
-            <a href="http://directionwithintent.com" class="site-title white-logo"></a>
+            <a href="https://directionwithintent.com" class="site-title white-logo"></a>
             <nav role="navigation-article" class="menu-article floated">
               <ul>
                 
@@ -1497,21 +1515,21 @@
                     
                   
                   <li>
-                    <a class="white" href="http://directionwithintent.com/tag/tutorial" >TUTORIAL</a>
+                    <a class="white" href="https://directionwithintent.com/tag/tutorial" >TUTORIAL</a>
                   </li>
                 
                   
                     
                   
                   <li>
-                    <a class="white" href="http://directionwithintent.com/tag/ml" >ML</a>
+                    <a class="white" href="https://directionwithintent.com/tag/ml" >ML</a>
                   </li>
                 
                   
                     
                   
                   <li>
-                    <a class="white" href="http://directionwithintent.com/tag/security" >SECURITY</a>
+                    <a class="white" href="https://directionwithintent.com/tag/security" >SECURITY</a>
                   </li>
                 
                 <li>
@@ -1536,7 +1554,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tutorial" class="title">TUTORIAL</a>
+        <a href="https://directionwithintent.com/tag/tutorial" class="title">TUTORIAL</a>
         
       </li>
     
@@ -1545,7 +1563,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ml" class="title">ML</a>
+        <a href="https://directionwithintent.com/tag/ml" class="title">ML</a>
         
       </li>
     
@@ -1554,7 +1572,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/security" class="title">SECURITY</a>
+        <a href="https://directionwithintent.com/tag/security" class="title">SECURITY</a>
         
       </li>
     
@@ -1563,7 +1581,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/aws" class="title">AWS</a>
+        <a href="https://directionwithintent.com/tag/aws" class="title">AWS</a>
         
       </li>
     
@@ -1572,7 +1590,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/books" class="title">BOOKS</a>
+        <a href="https://directionwithintent.com/tag/books" class="title">BOOKS</a>
         
       </li>
     
@@ -1581,7 +1599,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
+        <a href="https://directionwithintent.com/tag/algorithms" class="title">ALGORITHMS</a>
         
       </li>
     
@@ -1590,7 +1608,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
+        <a href="https://directionwithintent.com/tag/javascript" class="title">JAVASCRIPT</a>
         
       </li>
     
@@ -1599,7 +1617,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
+        <a href="https://directionwithintent.com/tag/elixir" class="title">ELIXIR</a>
         
       </li>
     
@@ -1608,7 +1626,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/article" class="title">ARTICLE</a>
+        <a href="https://directionwithintent.com/tag/article" class="title">ARTICLE</a>
         
       </li>
     
@@ -1617,7 +1635,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
+        <a href="https://directionwithintent.com/tag/bayesian" class="title">BAYESIAN</a>
         
       </li>
     
@@ -1626,7 +1644,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
+        <a href="https://directionwithintent.com/tag/architecture" class="title">ARCHITECTURE</a>
         
       </li>
     
@@ -1635,7 +1653,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/design" class="title">DESIGN</a>
+        <a href="https://directionwithintent.com/tag/design" class="title">DESIGN</a>
         
       </li>
     
@@ -1644,7 +1662,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
+        <a href="https://directionwithintent.com/tag/messaging" class="title">MESSAGING</a>
         
       </li>
     
@@ -1653,7 +1671,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
+        <a href="https://directionwithintent.com/tag/kafka" class="title">KAFKA</a>
         
       </li>
     
@@ -1662,7 +1680,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/esp" class="title">ESP</a>
+        <a href="https://directionwithintent.com/tag/esp" class="title">ESP</a>
         
       </li>
     
@@ -1671,7 +1689,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ruby" class="title">RUBY</a>
+        <a href="https://directionwithintent.com/tag/ruby" class="title">RUBY</a>
         
       </li>
     
@@ -1680,7 +1698,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/agile" class="title">AGILE</a>
+        <a href="https://directionwithintent.com/tag/agile" class="title">AGILE</a>
         
       </li>
     
@@ -1689,7 +1707,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/tools" class="title">TOOLS</a>
+        <a href="https://directionwithintent.com/tag/tools" class="title">TOOLS</a>
         
       </li>
     
@@ -1698,7 +1716,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
+        <a href="https://directionwithintent.com/tag/raspberrypi" class="title">RASPBERRYPI</a>
         
       </li>
     
@@ -1707,7 +1725,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
+        <a href="https://directionwithintent.com/tag/clojure" class="title">CLOJURE</a>
         
       </li>
     
@@ -1716,7 +1734,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/java" class="title">JAVA</a>
+        <a href="https://directionwithintent.com/tag/java" class="title">JAVA</a>
         
       </li>
     
@@ -1725,7 +1743,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spring" class="title">SPRING</a>
+        <a href="https://directionwithintent.com/tag/spring" class="title">SPRING</a>
         
       </li>
     
@@ -1734,7 +1752,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/db" class="title">DB</a>
+        <a href="https://directionwithintent.com/tag/db" class="title">DB</a>
         
       </li>
     
@@ -1743,7 +1761,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/docker" class="title">DOCKER</a>
+        <a href="https://directionwithintent.com/tag/docker" class="title">DOCKER</a>
         
       </li>
     
@@ -1752,7 +1770,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/rails" class="title">RAILS</a>
+        <a href="https://directionwithintent.com/tag/rails" class="title">RAILS</a>
         
       </li>
     
@@ -1761,7 +1779,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
+        <a href="https://directionwithintent.com/tag/bioinformatics" class="title">BIOINFORMATICS</a>
         
       </li>
     
@@ -1770,7 +1788,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
+        <a href="https://directionwithintent.com/tag/patterns" class="title">PATTERNS</a>
         
       </li>
     
@@ -1779,7 +1797,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
+        <a href="https://directionwithintent.com/tag/productivity" class="title">PRODUCTIVITY</a>
         
       </li>
     
@@ -1788,7 +1806,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ux" class="title">UX</a>
+        <a href="https://directionwithintent.com/tag/ux" class="title">UX</a>
         
       </li>
     
@@ -1797,7 +1815,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
+        <a href="https://directionwithintent.com/tag/interpreter" class="title">INTERPRETER</a>
         
       </li>
     
@@ -1806,7 +1824,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
+        <a href="https://directionwithintent.com/tag/phyton" class="title">PHYTON</a>
         
       </li>
     
@@ -1815,7 +1833,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
+        <a href="https://directionwithintent.com/tag/data-mining" class="title">DATA-MINING</a>
         
       </li>
     
@@ -1824,7 +1842,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/gpu" class="title">GPU</a>
+        <a href="https://directionwithintent.com/tag/gpu" class="title">GPU</a>
         
       </li>
     
@@ -1833,7 +1851,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/product" class="title">PRODUCT</a>
+        <a href="https://directionwithintent.com/tag/product" class="title">PRODUCT</a>
         
       </li>
     
@@ -1842,7 +1860,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
+        <a href="https://directionwithintent.com/tag/management" class="title">MANAGEMENT</a>
         
       </li>
     
@@ -1851,7 +1869,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        <a href="https://directionwithintent.com/tag/opinion" class="title">OPINION</a>
         
       </li>
     
@@ -1860,7 +1878,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/r" class="title">R</a>
+        <a href="https://directionwithintent.com/tag/r" class="title">R</a>
         
       </li>
     
@@ -1869,7 +1887,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
+        <a href="https://directionwithintent.com/tag/statistics" class="title">STATISTICS</a>
         
       </li>
     
@@ -1878,7 +1896,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/php" class="title">PHP</a>
+        <a href="https://directionwithintent.com/tag/php" class="title">PHP</a>
         
       </li>
     
@@ -1887,7 +1905,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
+        <a href="https://directionwithintent.com/tag/lambda" class="title">LAMBDA</a>
         
       </li>
     
@@ -1896,7 +1914,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
+        <a href="https://directionwithintent.com/tag/dynamodb" class="title">DYNAMODB</a>
         
       </li>
     
@@ -1905,7 +1923,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/fp" class="title">FP</a>
+        <a href="https://directionwithintent.com/tag/fp" class="title">FP</a>
         
       </li>
     
@@ -1914,7 +1932,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
+        <a href="https://directionwithintent.com/tag/elastic" class="title">ELASTIC</a>
         
       </li>
     
@@ -1923,7 +1941,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
+        <a href="https://directionwithintent.com/tag/graphs" class="title">GRAPHS</a>
         
       </li>
     
@@ -1932,7 +1950,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
+        <a href="https://directionwithintent.com/tag/visualization" class="title">VISUALIZATION</a>
         
       </li>
     
@@ -1941,7 +1959,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/python" class="title">PYTHON</a>
+        <a href="https://directionwithintent.com/tag/python" class="title">PYTHON</a>
         
       </li>
     
@@ -1950,7 +1968,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/voice" class="title">VOICE</a>
+        <a href="https://directionwithintent.com/tag/voice" class="title">VOICE</a>
         
       </li>
     
@@ -1959,7 +1977,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
+        <a href="https://directionwithintent.com/tag/webgl" class="title">WEBGL</a>
         
       </li>
     
@@ -1968,7 +1986,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
+        <a href="https://directionwithintent.com/tag/angular" class="title">ANGULAR</a>
         
       </li>
     
@@ -1977,7 +1995,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/real-time" class="title">REAL-TIME</a>
+        <a href="https://directionwithintent.com/tag/real-time" class="title">REAL-TIME</a>
         
       </li>
     
@@ -1986,7 +2004,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/cep" class="title">CEP</a>
+        <a href="https://directionwithintent.com/tag/cep" class="title">CEP</a>
         
       </li>
     
@@ -1995,7 +2013,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
+        <a href="https://directionwithintent.com/tag/firebase" class="title">FIREBASE</a>
         
       </li>
     
@@ -2004,7 +2022,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
+        <a href="https://directionwithintent.com/tag/automation" class="title">AUTOMATION</a>
         
       </li>
     
@@ -2013,7 +2031,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/search" class="title">SEARCH</a>
+        <a href="https://directionwithintent.com/tag/search" class="title">SEARCH</a>
         
       </li>
     
@@ -2022,7 +2040,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/spark" class="title">SPARK</a>
+        <a href="https://directionwithintent.com/tag/spark" class="title">SPARK</a>
         
       </li>
     
@@ -2031,7 +2049,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/sql" class="title">SQL</a>
+        <a href="https://directionwithintent.com/tag/sql" class="title">SQL</a>
         
       </li>
     
@@ -2040,7 +2058,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mq" class="title">MQ</a>
+        <a href="https://directionwithintent.com/tag/mq" class="title">MQ</a>
         
       </li>
     
@@ -2049,7 +2067,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
+        <a href="https://directionwithintent.com/tag/zeromq" class="title">ZEROMQ</a>
         
       </li>
     
@@ -2058,7 +2076,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/ror" class="title">ROR</a>
+        <a href="https://directionwithintent.com/tag/ror" class="title">ROR</a>
         
       </li>
     
@@ -2067,7 +2085,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
+        <a href="https://directionwithintent.com/tag/infosec" class="title">INFOSEC</a>
         
       </li>
     
@@ -2076,7 +2094,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/D" class="title">D</a>
+        <a href="https://directionwithintent.com/tag/D" class="title">D</a>
         
       </li>
     
@@ -2085,7 +2103,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
+        <a href="https://directionwithintent.com/tag/scanner" class="title">SCANNER</a>
         
       </li>
     
@@ -2094,7 +2112,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/game" class="title">GAME</a>
+        <a href="https://directionwithintent.com/tag/game" class="title">GAME</a>
         
       </li>
     
@@ -2103,7 +2121,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/svm" class="title">SVM</a>
+        <a href="https://directionwithintent.com/tag/svm" class="title">SVM</a>
         
       </li>
     
@@ -2112,7 +2130,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
+        <a href="https://directionwithintent.com/tag/mapping" class="title">MAPPING</a>
         
       </li>
     
@@ -2121,7 +2139,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/react" class="title">REACT</a>
+        <a href="https://directionwithintent.com/tag/react" class="title">REACT</a>
         
       </li>
     
@@ -2130,7 +2148,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/trading" class="title">TRADING</a>
+        <a href="https://directionwithintent.com/tag/trading" class="title">TRADING</a>
         
       </li>
     
@@ -2139,7 +2157,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/forex" class="title">FOREX</a>
+        <a href="https://directionwithintent.com/tag/forex" class="title">FOREX</a>
         
       </li>
     
@@ -2148,7 +2166,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/mobile" class="title">MOBILE</a>
+        <a href="https://directionwithintent.com/tag/mobile" class="title">MOBILE</a>
         
       </li>
     
@@ -2157,7 +2175,7 @@
               
             
           
-        <a href="http://directionwithintent.com/tag/arduino" class="title">ARDUINO</a>
+        <a href="https://directionwithintent.com/tag/arduino" class="title">ARDUINO</a>
         
       </li>
     
@@ -2199,7 +2217,7 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0414201716/" title="Persuasive Design: Using Advanced Psychology Effectively
+  <a href="https://directionwithintent.com/shares/0414201716/" title="Persuasive Design: Using Advanced Psychology Effectively
 " class="post-teaser">
     
       
@@ -2214,7 +2232,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0414201716/">
+    <a href="https://directionwithintent.com/shares/0414201716/">
       Persuasive Design: Using Advanced Psychology Effectively
 
     </a>
@@ -2223,13 +2241,13 @@
     Persuasive design isn’t evil. It’s a tool, and like any tool, it can be misused. However, with the right ...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">2017-04-14 20:17:16 +0100
       </time>
       <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 20:17:16
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="persuasive-design-using-advanced-psychology-effectively-share">0</div>
 </div>
 
@@ -2241,7 +2259,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1111084412/" title="What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
+  <a href="https://directionwithintent.com/shares/1111084412/" title="What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
 " class="post-teaser">
     
       
@@ -2256,7 +2274,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1111084412/">
+    <a href="https://directionwithintent.com/shares/1111084412/">
       What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
 
     </a>
@@ -2265,13 +2283,13 @@
     By @breenmachine “What? The most underrated, underhyped vulnerability of 2015 has recently come to my att...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-11-11" itemprop="datePublished">2015-11-11 08:44:12 +0000
       </time>
       <!--time class="entry-date" datetime="2015-11-11" itemprop="datePublished">NOVEMBER 11, 2015 08:44:12
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability-share">0</div>
 </div>
 
@@ -2283,7 +2301,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1109092826/" title="This DIY Wireless Keylogger Fits Anywhere, Looks Like a Wall Charger
+  <a href="https://directionwithintent.com/shares/1109092826/" title="This DIY Wireless Keylogger Fits Anywhere, Looks Like a Wall Charger
 " class="post-teaser">
     
       
@@ -2298,7 +2316,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1109092826/">
+    <a href="https://directionwithintent.com/shares/1109092826/">
       This DIY Wireless Keylogger Fits Anywhere, Looks Like a Wall Charger
 
     </a>
@@ -2307,13 +2325,13 @@
     The “KeySweeper” is a tiny, arduino-powered wireless sniffer that captures data sent by your wireless key...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-11-09" itemprop="datePublished">2015-11-09 09:28:26 +0000
       </time>
       <!--time class="entry-date" datetime="2015-11-09" itemprop="datePublished">NOVEMBER 09, 2015 09:28:26
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="this-diy-wireless-keylogger-fits-anywhere-looks-like-a-wall-charger-share">0</div>
 </div>
 
@@ -2325,7 +2343,7 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1031172936/" title="How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
+  <a href="https://directionwithintent.com/shares/1031172936/" title="How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
 " class="post-teaser">
     
       
@@ -2340,7 +2358,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1031172936/">
+    <a href="https://directionwithintent.com/shares/1031172936/">
       How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
 
     </a>
@@ -2349,13 +2367,13 @@
     Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if ...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-10-31" itemprop="datePublished">2015-10-31 17:29:36 +0000
       </time>
       <!--time class="entry-date" datetime="2015-10-31" itemprop="datePublished">OCTOBER 31, 2015 17:29:36
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="how-to-build-a-portable-hacking-station-with-a-raspberry-pi-and-kali-linux-share">0</div>
 </div>
 
@@ -2367,7 +2385,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1010175239/" title="Learn React.js: Ridiculously Simple Forms
+  <a href="https://directionwithintent.com/shares/1010175239/" title="Learn React.js: Ridiculously Simple Forms
 " class="post-teaser">
     
       
@@ -2382,7 +2400,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1010175239/">
+    <a href="https://directionwithintent.com/shares/1010175239/">
       Learn React.js: Ridiculously Simple Forms
 
     </a>
@@ -2391,13 +2409,13 @@
     So – you’ve got the hang of React, and you’ve even built a little app. But after making your app look nic...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-10-10" itemprop="datePublished">2015-10-10 17:52:39 +0100
       </time>
       <!--time class="entry-date" datetime="2015-10-10" itemprop="datePublished">OCTOBER 10, 2015 17:52:39
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="learn-react-js-ridiculously-simple-forms-share">0</div>
 </div>
 
@@ -2409,7 +2427,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1010172900/" title="Understanding Support Vector Machine algorithm from examples (along with code)
+  <a href="https://directionwithintent.com/shares/1010172900/" title="Understanding Support Vector Machine algorithm from examples (along with code)
 " class="post-teaser">
     
       
@@ -2424,7 +2442,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1010172900/">
+    <a href="https://directionwithintent.com/shares/1010172900/">
       Understanding Support Vector Machine algorithm from examples (along with code)
 
     </a>
@@ -2433,13 +2451,13 @@
     “Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both clas...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-10-10" itemprop="datePublished">2015-10-10 17:29:00 +0100
       </time>
       <!--time class="entry-date" datetime="2015-10-10" itemprop="datePublished">OCTOBER 10, 2015 17:29:00
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="understanding-support-vector-machine-algorithm-from-examples-along-with-code-share">0</div>
 </div>
 
@@ -2451,7 +2469,7 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1010152402/" title="Game Development with D
+  <a href="https://directionwithintent.com/shares/1010152402/" title="Game Development with D
 " class="post-teaser">
     
       
@@ -2463,7 +2481,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1010152402/">
+    <a href="https://directionwithintent.com/shares/1010152402/">
       Game Development with D
 
     </a>
@@ -2472,13 +2490,13 @@
     D along with the Dgame package allow for quick game prototyping and development, epecially when compared ...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-10-10" itemprop="datePublished">2015-10-10 15:24:02 +0100
       </time>
       <!--time class="entry-date" datetime="2015-10-10" itemprop="datePublished">OCTOBER 10, 2015 15:24:02
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="game-development-with-d-share">0</div>
 </div>
 
@@ -2490,7 +2508,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/1006081539/" title="Building a JSON API with Rails 5
+  <a href="https://directionwithintent.com/shares/1006081539/" title="Building a JSON API with Rails 5
 " class="post-teaser">
     
       
@@ -2505,7 +2523,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/1006081539/">
+    <a href="https://directionwithintent.com/shares/1006081539/">
       Building a JSON API with Rails 5
 
     </a>
@@ -2514,13 +2532,13 @@
     Leigh Halliday is a developer at theScore. He writes about Ruby, Rails, and software development on his p...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-10-06" itemprop="datePublished">2015-10-06 08:15:39 +0100
       </time>
       <!--time class="entry-date" datetime="2015-10-06" itemprop="datePublished">OCTOBER 06, 2015 08:15:39
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="building-a-json-api-with-rails-5-share">0</div>
 </div>
 
@@ -2532,7 +2550,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0929075836/" title="Getting Started with OpenHAB Home Automation on Raspberry Pi
+  <a href="https://directionwithintent.com/shares/0929075836/" title="Getting Started with OpenHAB Home Automation on Raspberry Pi
 " class="post-teaser">
     
       
@@ -2544,7 +2562,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0929075836/">
+    <a href="https://directionwithintent.com/shares/0929075836/">
       Getting Started with OpenHAB Home Automation on Raspberry Pi
 
     </a>
@@ -2553,13 +2571,13 @@
     OpenHAB is a mature, open source home automation platform that runs on a variety of hardware and is proto...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-29" itemprop="datePublished">2015-09-29 07:58:36 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-29" itemprop="datePublished">SEPTEMBER 29, 2015 07:58:36
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="getting-started-with-openhab-home-automation-on-raspberry-pi-share">0</div>
 </div>
 
@@ -2571,7 +2589,7 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0926160454/" title="Software Costs Estimation In Agile Project Management
+  <a href="https://directionwithintent.com/shares/0926160454/" title="Software Costs Estimation In Agile Project Management
 " class="post-teaser">
     
       
@@ -2586,7 +2604,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0926160454/">
+    <a href="https://directionwithintent.com/shares/0926160454/">
       Software Costs Estimation In Agile Project Management
 
     </a>
@@ -2595,13 +2613,13 @@
     One of the hardest things to do in software development is to determine how long and how much it will tak...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-26" itemprop="datePublished">2015-09-26 16:04:54 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-26" itemprop="datePublished">SEPTEMBER 26, 2015 16:04:54
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="software-costs-estimation-in-agile-project-management-share">0</div>
 </div>
 
@@ -2613,7 +2631,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0926155959/" title="Agari - Leveraging AWS to Build a Scalable Data Pipeline
+  <a href="https://directionwithintent.com/shares/0926155959/" title="Agari - Leveraging AWS to Build a Scalable Data Pipeline
 " class="post-teaser">
     
       
@@ -2625,7 +2643,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0926155959/">
+    <a href="https://directionwithintent.com/shares/0926155959/">
       Agari - Leveraging AWS to Build a Scalable Data Pipeline
 
     </a>
@@ -2634,13 +2652,13 @@
     Data-rich companies (e.g. LinkedIn, Facebook, Google, and Twitter) have historically built custom data pi...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-26" itemprop="datePublished">2015-09-26 15:59:59 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-26" itemprop="datePublished">SEPTEMBER 26, 2015 15:59:59
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="agari-leveraging-aws-to-build-a-scalable-data-pipeline-share">0</div>
 </div>
 
@@ -2652,7 +2670,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0908084413/" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
+  <a href="https://directionwithintent.com/shares/0908084413/" title="How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
 " class="post-teaser">
     
       
@@ -2667,7 +2685,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0908084413/">
+    <a href="https://directionwithintent.com/shares/0908084413/">
       How Agari Uses Airbnb's Airflow as a Smarter Cron - High Scalability -
 
     </a>
@@ -2676,13 +2694,13 @@
     This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airfl...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-08" itemprop="datePublished">2015-09-08 08:44:13 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-08" itemprop="datePublished">SEPTEMBER 08, 2015 08:44:13
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="how-agari-uses-airbnb-s-airflow-as-a-smarter-cron-high-scalability-share">0</div>
 </div>
 
@@ -2694,7 +2712,7 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0907083625/" title="Neural networks and deep learning - free eBook
+  <a href="https://directionwithintent.com/shares/0907083625/" title="Neural networks and deep learning - free eBook
 " class="post-teaser">
     
       
@@ -2706,7 +2724,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0907083625/">
+    <a href="https://directionwithintent.com/shares/0907083625/">
       Neural networks and deep learning - free eBook
 
     </a>
@@ -2717,13 +2735,13 @@
 
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-07" itemprop="datePublished">2015-09-07 08:36:25 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-07" itemprop="datePublished">SEPTEMBER 07, 2015 08:36:25
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="neural-networks-and-deep-learning-free-ebook-share">0</div>
 </div>
 
@@ -2735,7 +2753,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0907082653/" title="SIMP - NSA security compliance framework
+  <a href="https://directionwithintent.com/shares/0907082653/" title="SIMP - NSA security compliance framework
 " class="post-teaser">
     
       
@@ -2750,7 +2768,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0907082653/">
+    <a href="https://directionwithintent.com/shares/0907082653/">
       SIMP - NSA security compliance framework
 
     </a>
@@ -2759,13 +2777,13 @@
     SIMP is a framework that aims to provide a reasonable combination of security compliance and operational ...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-07" itemprop="datePublished">2015-09-07 08:26:53 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-07" itemprop="datePublished">SEPTEMBER 07, 2015 08:26:53
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="simp-nsa-security-compliance-framework-share">0</div>
 </div>
 
@@ -2777,7 +2795,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
+  <a href="https://directionwithintent.com/shares/0905164416/" title="From Kafka to ZeroMQ for real-time log aggregation
 " class="post-teaser">
     
       
@@ -2789,7 +2807,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0905164416/">
+    <a href="https://directionwithintent.com/shares/0905164416/">
       From Kafka to ZeroMQ for real-time log aggregation
 
     </a>
@@ -2798,13 +2816,13 @@
     This post is about ditching Kafka in favor of ZeroMQ, based on a year-long experience of using Kafka for ...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-05" itemprop="datePublished">2015-09-05 16:44:16 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-05" itemprop="datePublished">SEPTEMBER 05, 2015 16:44:16
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="from-kafka-to-zeromq-for-real-time-log-aggregation-share">0</div>
 </div>
 
@@ -2816,7 +2834,7 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
+  <a href="https://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
 " class="post-teaser">
     
       
@@ -2831,7 +2849,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0904200115/">
+    <a href="https://directionwithintent.com/shares/0904200115/">
       Hello Elixir. Wow.
 
     </a>
@@ -2840,13 +2858,13 @@
     I don’t know anything about Elixir, but I very much want to learn it. I like learning new things – I feel...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-04" itemprop="datePublished">2015-09-04 20:01:15 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-04" itemprop="datePublished">SEPTEMBER 04, 2015 20:01:15
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="hello-elixir-wow-share">0</div>
 </div>
 
@@ -2858,7 +2876,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
+  <a href="https://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
 " class="post-teaser">
     
       
@@ -2873,7 +2891,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0904195716/">
+    <a href="https://directionwithintent.com/shares/0904195716/">
       Implementing a Neural Network from Scratch - An Introduction
 
     </a>
@@ -2882,13 +2900,13 @@
     In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-04" itemprop="datePublished">2015-09-04 19:57:16 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-04" itemprop="datePublished">SEPTEMBER 04, 2015 19:57:16
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="implementing-a-neural-network-from-scratch-an-introduction-share">0</div>
 </div>
 
@@ -2900,7 +2918,7 @@
           
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="http://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
+  <a href="https://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
 " class="post-teaser">
     
       
@@ -2915,7 +2933,7 @@
     </p>
   
   <h2 class="post-title" itemprop="name">
-    <a href="http://directionwithintent.com/shares/0903184803/">
+    <a href="https://directionwithintent.com/shares/0903184803/">
       Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
 
     </a>
@@ -2924,13 +2942,13 @@
     In this series, we’ll be using AngularJS and Firebase to create a simple web application from scratch. It...
   </p>
   <div class="post-meta">
-    <img class="entry-date-icon" src="http://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
       <time class="entry-date" datetime="2015-09-03" itemprop="datePublished">2015-09-03 18:48:03 +0100
       </time>
       <!--time class="entry-date" datetime="2015-09-03" itemprop="datePublished">SEPTEMBER 03, 2015 18:48:03
       </time-->
         
-    <img class="comment-like-icon" src="http://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="creating-a-web-app-from-scratch-using-angularjs-and-firebase-tuts-code-tutorials-share">0</div>
 </div>
 
@@ -2955,11 +2973,11 @@
       
         
       
-			<li><a href="http://directionwithintent.com" ></a></li>
+			<li><a href="https://directionwithintent.com" ></a></li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2017 <a href="http://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+	<p class="copyright">&#169; 2017 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
