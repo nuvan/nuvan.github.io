@@ -122,6 +122,18 @@
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/shares/0422152231/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#3-ways-to-improve-your-visual-design-skills-share").html(data.count);
+      }
+      else {
+        $("#3-ways-to-improve-your-visual-design-skills-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0414201716/',
       context: document.body
     }).done(function( data ) {
@@ -130,6 +142,18 @@
       }
       else {
         $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/serverless_to_the_core/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#going-serverless-to-the-net-core-share").html(data.count);
+      }
+      else {
+        $("#going-serverless-to-the-net-core-share").html("0");
       }
     });
    
@@ -1454,18 +1478,6 @@
     });
    
     $.ajax({
-      url: query_url + '/programming/serverless_to_the_core/',
-      context: document.body
-    }).done(function( data ) {
-      if(data.count) {
-        $("#going-serverless-to-the-core-share").html(data.count);
-      }
-      else {
-        $("#going-serverless-to-the-core-share").html("0");
-      }
-    });
-   
-    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {
@@ -2217,6 +2229,45 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/shares/0422152231/" title="3 ways to improve your visual design skills
+" class="post-teaser">
+    
+      
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">shares</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/shares/0422152231/">
+      3 ways to improve your visual design skills
+
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    I’ve noticed a trend after screening dozens of junior designer portfolios. Designers (mostly from bootcam...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2017-04-22" itemprop="datePublished">2017-04-22 15:22:31 +0100
+      </time>
+      <!--time class="entry-date" datetime="2017-04-22" itemprop="datePublished">APRIL 22, 2017 15:22:31
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="3-ways-to-improve-your-visual-design-skills-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/0414201716/" title="Persuasive Design: Using Advanced Psychology Effectively
 " class="post-teaser">
     
@@ -2257,6 +2308,46 @@
           
         
           
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/programming/serverless_to_the_core/" title="Going Serverless² To The (.Net)Core" class="post-teaser">
+    
+      <img src="https://directionwithintent.com/images/peg_314x250.jpg" alt="teaser" itemprop="image" />
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">programming</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/programming/serverless_to_the_core/">
+      Going Serverless² To The (.Net)Core
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    At Metric ( https://metric.pt) we are moving a considerable amount of data crunching processes from our d...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">2017-04-14 00:00:00 +0100
+      </time>
+      <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12" />
+      <a class="comment-count" href="https://directionwithintent.com/programming/serverless_to_the_core/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="going-serverless-to-the-net-core-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          </div>
+        
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/1111084412/" title="What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
@@ -2338,9 +2429,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/1031172936/" title="How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
@@ -2380,9 +2471,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/1010175239/" title="Learn React.js: Ridiculously Simple Forms
@@ -2464,9 +2555,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/1010152402/" title="Game Development with D
@@ -2503,9 +2594,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/1006081539/" title="Building a JSON API with Rails 5
@@ -2584,9 +2675,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/0926160454/" title="Software Costs Estimation In Agile Project Management
@@ -2626,9 +2717,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/0926155959/" title="Agari - Leveraging AWS to Build a Scalable Data Pipeline
@@ -2707,9 +2798,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/0907083625/" title="Neural networks and deep learning - free eBook
@@ -2748,9 +2839,9 @@
 </article>
 
             </div>
-          
+          </div>
         
-          
+          <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/0907082653/" title="SIMP - NSA security compliance framework
@@ -2829,9 +2920,9 @@
 </article>
 
             </div>
-          </div>
+          
         
-          <div class="grid-row">
+          
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/shares/0904200115/" title="Hello Elixir. Wow.
@@ -2866,90 +2957,6 @@
         
     <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="hello-elixir-wow-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="https://directionwithintent.com/shares/0904195716/" title="Implementing a Neural Network from Scratch - An Introduction
-" class="post-teaser">
-    
-      
-        <img src="http://www.wildml.com/wp-content/uploads/2015/09/nn-from-scratch-dataset.png
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="https://directionwithintent.com/shares/0904195716/">
-      Implementing a Neural Network from Scratch - An Introduction
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-09-04" itemprop="datePublished">2015-09-04 19:57:16 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-09-04" itemprop="datePublished">SEPTEMBER 04, 2015 19:57:16
-      </time-->
-        
-    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="implementing-a-neural-network-from-scratch-an-introduction-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="https://directionwithintent.com/shares/0903184803/" title="Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
-" class="post-teaser">
-    
-      
-        <img src="https://cms-assets.tutsplus.com/uploads/users/34/syllabuses/717/preview_image/angular-js-firebase.png
-" alt="teaser" itemprop="image" />
-      
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">shares</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="https://directionwithintent.com/shares/0903184803/">
-      Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
-
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    In this series, we’ll be using AngularJS and Firebase to create a simple web application from scratch. It...
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2015-09-03" itemprop="datePublished">2015-09-03 18:48:03 +0100
-      </time>
-      <!--time class="entry-date" datetime="2015-09-03" itemprop="datePublished">SEPTEMBER 03, 2015 18:48:03
-      </time-->
-        
-    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="creating-a-web-app-from-scratch-using-angularjs-and-firebase-tuts-code-tutorials-share">0</div>
 </div>
 
 </article>

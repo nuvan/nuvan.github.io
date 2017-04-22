@@ -112,6 +112,18 @@
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/shares/0422152231/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#3-ways-to-improve-your-visual-design-skills-share").html(data.count);
+      }
+      else {
+        $("#3-ways-to-improve-your-visual-design-skills-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0414201716/',
       context: document.body
     }).done(function( data ) {
@@ -120,6 +132,18 @@
       }
       else {
         $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/serverless_to_the_core/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#going-serverless-to-the-net-core-share").html(data.count);
+      }
+      else {
+        $("#going-serverless-to-the-net-core-share").html("0");
       }
     });
    
@@ -1444,18 +1468,6 @@
     });
    
     $.ajax({
-      url: query_url + '/programming/serverless_to_the_core/',
-      context: document.body
-    }).done(function( data ) {
-      if(data.count) {
-        $("#going-serverless-to-the-core-share").html(data.count);
-      }
-      else {
-        $("#going-serverless-to-the-core-share").html("0");
-      }
-    });
-   
-    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {
@@ -2190,6 +2202,10 @@
         
       
         
+      
+        
+      
+        
           
         
           
@@ -2833,8 +2849,6 @@
           
         
           
-        
-      
         
       
         

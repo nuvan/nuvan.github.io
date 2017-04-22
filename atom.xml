@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2017-04-16T22:34:30+01:00</updated>
+    <updated>2017-04-22T15:24:05+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,6 +17,24 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>3 ways to improve your visual design skills
+</title>
+        <link href="https://directionwithintent.com/shares/0422152231/"/>
+        <updated>2017-04-22T15:22:31+01:00</updated>
+        <id>https://directionwithintent.com/shares/0422152231</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;I’ve noticed a trend after screening dozens of junior designer portfolios. Designers (mostly from bootcamps) were heavily focused on UX and evangelizing the Design Thinking mindset popularized by consultancies like IDEO. What lacked was the ability to breath life into designs, and portfolios fell flat in showcasing visual design fundamentals taught in art school.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Persuasive Design: Using Advanced Psychology Effectively
@@ -32,6 +50,23 @@
         <content type="html">
         	
         	&lt;p&gt;Persuasive design isn’t evil. It’s a tool, and like any tool, it can be misused. However, with the right research and thoughtful application, it can be a valuable addition to any designer’s toolkit. Toptal designer Bronwen Rees explains how using persuasive design, social and psychological principles can be used to influence user behaviors.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Going Serverless² To The (.Net)Core</title>
+        <link href="https://directionwithintent.com/programming/serverless_to_the_core/"/>
+        <updated>2017-04-14T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/programming/serverless_to_the_core</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;At Metric ( https://metric.pt) we are moving a considerable amount of data crunching processes from our databases that aren’t scaling very well.&lt;/p&gt;
 
         </content>
     </entry>
@@ -441,42 +476,6 @@ Get the code: To follow along, all the code is also available as an iPython note
         <content type="html">
         	
         	&lt;p&gt;With Amazon Kinesis developers can quickly store, collate and access large, distributed data streams such as access logs, click streams and IoT data in real-time. The question then becomes, how can we access and leverage this data for use in data applications running in Amazon EMR? There are many ways to solve this problem, but the solution should be simple, fault tolerant and highly scalable. In this post I demonstrate a micro-batch system that delivers this solution by processing a simulated real-time data stream using Amazon Kinesis with Cascading on Amazon EMR. We will also join our Amazon Kinesis stream with data residing in a file in Amazon S3 and write our results to Amazon Redshift using cascading-jdbc-redshift which leverages Amazon Redshift’s COPY command.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Sentiment Analysis Using Doc2Vec | Pandamonium
-</title>
-        <link href="https://directionwithintent.com/shares/0827183938/"/>
-        <updated>2015-08-27T18:39:38+01:00</updated>
-        <id>https://directionwithintent.com/shares/0827183938</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Word2Vec is dope. In short, it takes in a corpus, and churns out vectors for each of those words. What’s so special about these vectors you ask? Well, similar words are near each other. Furthermore, these vectors represent how we use the words. For example, v_man - v_woman is approximately equal to v_king - v_queen, illustrating the relationship that “man is to woman as king is to queen”. This process, in NLP voodoo, is called word embedding. &lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Extending Seven Bridges Genomics with Amazon Redshift and R
-</title>
-        <link href="https://directionwithintent.com/shares/0827081105/"/>
-        <updated>2015-08-27T08:11:05+01:00</updated>
-        <id>https://directionwithintent.com/shares/0827081105</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;We will walk through an end-to-end genomics analysis using the Seven Bridges Genomics platform, an AWS advanced technology partner that offers a solution for data scientists looking to analyze large-scale, next-generation, sequencing (NGS) data securely. We will also demonstrate how easy it is to extend this platform to use the additional analytics capabilities offered by AWS. First, we will identify the genetic “variants” in an individual—what makes them unique—and then conduct a comparison of variation across a group of people.&lt;/p&gt;
 
         </content>
     </entry>

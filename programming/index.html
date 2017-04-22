@@ -122,6 +122,18 @@
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/shares/0422152231/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#3-ways-to-improve-your-visual-design-skills-share").html(data.count);
+      }
+      else {
+        $("#3-ways-to-improve-your-visual-design-skills-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/shares/0414201716/',
       context: document.body
     }).done(function( data ) {
@@ -130,6 +142,18 @@
       }
       else {
         $("#persuasive-design-using-advanced-psychology-effectively-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/serverless_to_the_core/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#going-serverless-to-the-net-core-share").html(data.count);
+      }
+      else {
+        $("#going-serverless-to-the-net-core-share").html("0");
       }
     });
    
@@ -1454,18 +1478,6 @@
     });
    
     $.ajax({
-      url: query_url + '/programming/serverless_to_the_core/',
-      context: document.body
-    }).done(function( data ) {
-      if(data.count) {
-        $("#going-serverless-to-the-core-share").html(data.count);
-      }
-      else {
-        $("#going-serverless-to-the-core-share").html("0");
-      }
-    });
-   
-    $.ajax({
       url: query_url + '/programming/peg_that_data_2/',
       context: document.body
     }).done(function( data ) {
@@ -2211,6 +2223,46 @@
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/programming/serverless_to_the_core/" title="Going Serverless² To The (.Net)Core" class="post-teaser">
+    
+      <img src="https://directionwithintent.com/images/peg_314x250.jpg" alt="teaser" itemprop="image" />
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">programming</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/programming/serverless_to_the_core/">
+      Going Serverless² To The (.Net)Core
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    At Metric ( https://metric.pt) we are moving a considerable amount of data crunching processes from our d...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">2017-04-14 00:00:00 +0100
+      </time>
+      <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12" />
+      <a class="comment-count" href="https://directionwithintent.com/programming/serverless_to_the_core/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="going-serverless-to-the-net-core-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          
+        
+          
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/programming/peg_that_data_1/" title="PEG that data - Part 1" class="post-teaser">
     
       <img src="https://directionwithintent.com/images/peg_314x250.jpg" alt="teaser" itemprop="image" />
@@ -2241,47 +2293,6 @@
         
     <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
     <div class="comment-like" id="peg-that-data-part-1-share">0</div>
-</div>
-
-</article>
-
-            </div>
-          
-        
-          
-            <div class="grid-cell-column">
-              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
-  <a href="https://directionwithintent.com/programming/serverless_to_the_core/" title="Going Serverless² To The Core" class="post-teaser">
-    
-      <img src="https://directionwithintent.com/images/peg_314x250.jpg" alt="teaser" itemprop="image" />
-    
-  </a>
-  
-    <p class="post-category">
-      <a href="/shares">programming</a>
-    </p>
-  
-  <h2 class="post-title" itemprop="name">
-    <a href="https://directionwithintent.com/programming/serverless_to_the_core/">
-      Going Serverless² To The Core
-    </a>
-  </h2>
-  <p class="post-excerpt" itemprop="description">
-    
-
-  </p>
-  <div class="post-meta">
-    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">2014-10-26 00:00:00 +0100
-      </time>
-      <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
-      </time-->
-    
-      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12" />
-      <a class="comment-count" href="https://directionwithintent.com/programming/serverless_to_the_core/#disqus_thread"></a>
-        
-    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
-    <div class="comment-like" id="going-serverless-to-the-core-share">0</div>
 </div>
 
 </article>
