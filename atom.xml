@@ -5,477 +5,408 @@
 
     <title>Direction With Intent</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-		<icon>https://directionwithintent.com/apple-touch-icon-precomposed.png</icon>
+		<icon>https://nuvan.github.io/apple-touch-icon-precomposed.png</icon>
     <subtitle>Think Through. Execute.</subtitle>
-    <link href="https://directionwithintent.com/atom.xml" rel="self"/>
-    <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2017-04-22T15:29:44+01:00</updated>
-    <id>https://directionwithintent.com/</id>
+    <link href="https://nuvan.github.io/atom.xml" rel="self"/>
+    <link href="https://nuvan.github.io/" rel="alternate" type="text/html"/>
+    <updated>2019-05-12T21:11:49+01:00</updated>
+    <id>https://nuvan.github.io/</id>
     <author>
 			<name>Nuno Valente</name>
-			<uri>https://directionwithintent.com/</uri>
+			<uri>https://nuvan.github.io/</uri>
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
     
     <entry>
-        <title>3 ways to improve your visual design skills
-</title>
-        <link href="https://directionwithintent.com/shares/0422152908/"/>
-        <updated>2017-04-22T15:22:31+01:00</updated>
-        <id>https://directionwithintent.com/shares/0422152908</id>
+        <title>The most precise words you can find</title>
+        <link href="https://nuvan.github.io/product/the-most-precise-words/"/>
+        <updated>2017-04-14T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/product/the-most-precise-words</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;I’ve noticed a trend after screening dozens of junior designer portfolios. Designers (mostly from bootcamps) were heavily focused on UX and evangelizing the Design Thinking mindset popularized by consultancies like IDEO. What lacked was the ability to breath life into designs, and portfolios fell flat in showcasing visual design fundamentals taught in art school.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Persuasive Design: Using Advanced Psychology Effectively
-</title>
-        <link href="https://directionwithintent.com/shares/0414201716/"/>
-        <updated>2017-04-14T20:17:16+01:00</updated>
-        <id>https://directionwithintent.com/shares/0414201716</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Persuasive design isn’t evil. It’s a tool, and like any tool, it can be misused. However, with the right research and thoughtful application, it can be a valuable addition to any designer’s toolkit. Toptal designer Bronwen Rees explains how using persuasive design, social and psychological principles can be used to influence user behaviors.&lt;/p&gt;
+        	&lt;p&gt;The most precise words you can find&lt;/p&gt;
 
         </content>
     </entry>
     
     <entry>
         <title>Going Serverless² To The (.Net)Core</title>
-        <link href="https://directionwithintent.com/programming/serverless_to_the_core/"/>
+        <link href="https://nuvan.github.io/programming/serverless_to_the_core/"/>
         <updated>2017-04-14T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/programming/serverless_to_the_core</id>
+        <id>https://nuvan.github.io/programming/serverless_to_the_core</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;https://nuvan.github.io/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;At Metric ( https://metric.pt) we are moving a considerable amount of data crunching processes from our databases that aren’t scaling very well.&lt;/p&gt;
 
         </content>
     </entry>
     
     <entry>
-        <title>What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.
-</title>
-        <link href="https://directionwithintent.com/shares/1111084412/"/>
-        <updated>2015-11-11T08:44:12+00:00</updated>
-        <id>https://directionwithintent.com/shares/1111084412</id>
+        <title>Radioactive Data</title>
+        <link href="https://nuvan.github.io/product/radioative-data/"/>
+        <updated>2017-04-14T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/product/radioative-data</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;By @breenmachine “What? The most underrated, underhyped vulnerability of 2015 has recently come to my attention, and I&#39;m about to bring it to yours. No one gave it a fancy name, there were no press releases, nobody called Mandiant to come put out the fires. In fact, even though proof of concept code was released…”&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>This DIY Wireless Keylogger Fits Anywhere, Looks Like a Wall Charger
-</title>
-        <link href="https://directionwithintent.com/shares/1109092826/"/>
-        <updated>2015-11-09T09:28:26+00:00</updated>
-        <id>https://directionwithintent.com/shares/1109092826</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;The “KeySweeper” is a tiny, arduino-powered wireless sniffer that captures data sent by your wireless keyboard to its receiver. That’s right—it’s a keylogger, and it doesn’t have to be plugged into your computer to work.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux
-</title>
-        <link href="https://directionwithintent.com/shares/1031172936/"/>
-        <updated>2015-10-31T17:29:36+00:00</updated>
-        <id>https://directionwithintent.com/shares/1031172936</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Cracking Wi-Fi passwords, spoofing accounts, and testing networks for exploits is all fun enough, but if you want to take the show on the road, you’ll want an easily portable rig. Enter Kali Linux and the Raspberry Pi.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Learn React.js: Ridiculously Simple Forms
-</title>
-        <link href="https://directionwithintent.com/shares/1010175239/"/>
-        <updated>2015-10-10T17:52:39+01:00</updated>
-        <id>https://directionwithintent.com/shares/1010175239</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;So – you’ve got the hang of React, and you’ve even built a little app. But after making your app look nice, you remember that you also need to make it work. And that’s when you start searching for form libraries. First you look for tools to structure data and event flow. Then you shift focus to libraries which reduce repetition in form components. And while you’re at it, tools which validate user input would certainly help.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Understanding Support Vector Machine algorithm from examples (along with code)
-</title>
-        <link href="https://directionwithintent.com/shares/1010172900/"/>
-        <updated>2015-10-10T17:29:00+01:00</updated>
-        <id>https://directionwithintent.com/shares/1010172900</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;“Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Game Development with D
-</title>
-        <link href="https://directionwithintent.com/shares/1010152402/"/>
-        <updated>2015-10-10T15:24:02+01:00</updated>
-        <id>https://directionwithintent.com/shares/1010152402</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;D along with the Dgame package allow for quick game prototyping and development, epecially when compared to C++ and its equivalent graphics packages. This tutorial will show you how to create a simple game engine and implementation using the engine.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Building a JSON API with Rails 5
-</title>
-        <link href="https://directionwithintent.com/shares/1006081539/"/>
-        <updated>2015-10-06T08:15:39+01:00</updated>
-        <id>https://directionwithintent.com/shares/1006081539</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Leigh Halliday is a developer at theScore. He writes about Ruby, Rails, and software development on his personal site.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Getting Started with OpenHAB Home Automation on Raspberry Pi
-</title>
-        <link href="https://directionwithintent.com/shares/0929075836/"/>
-        <updated>2015-09-29T07:58:36+01:00</updated>
-        <id>https://directionwithintent.com/shares/0929075836</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;OpenHAB is a mature, open source home automation platform that runs on a variety of hardware and is protocol agnostic, meaning it can connect to nearly any home automation hardware on the market today. If you’ve been frustrated with the number of manufacturer specific apps you need to run just to control your lights, then I’ve got great news for you: OpenHAB is the solution you’ve been looking for – it’s the most flexible smart home hub you’ll ever find.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Software Costs Estimation In Agile Project Management
-</title>
-        <link href="https://directionwithintent.com/shares/0926160454/"/>
-        <updated>2015-09-26T16:04:54+01:00</updated>
-        <id>https://directionwithintent.com/shares/0926160454</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;One of the hardest things to do in software development is to determine how long and how much it will take to deliver a new software product. Should it be so hard? The answer is not straightforward.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Agari - Leveraging AWS to Build a Scalable Data Pipeline
-</title>
-        <link href="https://directionwithintent.com/shares/0926155959/"/>
-        <updated>2015-09-26T15:59:59+01:00</updated>
-        <id>https://directionwithintent.com/shares/0926155959</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Data-rich companies (e.g. LinkedIn, Facebook, Google, and Twitter) have historically built custom data pipelines over bare metal in custom-designed data centers. In order to meet strict requirements on data security, fault-tolerance, cost control, job scalability, and uptime, they need to closely manage their core technology.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>How Agari Uses Airbnb&#39;s Airflow as a Smarter Cron - High Scalability -
-</title>
-        <link href="https://directionwithintent.com/shares/0908084413/"/>
-        <updated>2015-09-08T08:44:13+01:00</updated>
-        <id>https://directionwithintent.com/shares/0908084413</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;This is a guest repost by Siddharth Anand, Data Architect at Agari, on Airbnb’s open source project Airflow, a workflow scheduler for data pipelines. Some think Airflow has a superior approach.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Neural networks and deep learning - free eBook
-</title>
-        <link href="https://directionwithintent.com/shares/0907083625/"/>
-        <updated>2015-09-07T08:36:25+01:00</updated>
-        <id>https://directionwithintent.com/shares/0907083625</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Neural Networks and Deep Learning is a free online book. The book will teach you about:&lt;/p&gt;
-
-&lt;p&gt;Neural networks, a beautiful biologically-inspired programming paradigm which enables a computer to learn from observational data
-Deep learning, a powerful set of techniques for learning in neural networks
-Neural networks and deep learning currently provide the best solutions to many problems in image recognition, speech recognition, and natural language processing. This book will teach you many of the core concepts behind neural networks and deep learning.
-For more details about the approach taken in the book, see here. Or you can jump directly to Chapter 1 and get started.&lt;/p&gt;
+        	&lt;p&gt;Radioactive Data&lt;/p&gt;
 
 
         </content>
     </entry>
     
     <entry>
-        <title>SIMP - NSA security compliance framework
-</title>
-        <link href="https://directionwithintent.com/shares/0907082653/"/>
-        <updated>2015-09-07T08:26:53+01:00</updated>
-        <id>https://directionwithintent.com/shares/0907082653</id>
+        <title>Mexa Effect</title>
+        <link href="https://nuvan.github.io/product/mexa-effect/"/>
+        <updated>2017-04-14T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/product/mexa-effect</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;SIMP is a framework that aims to provide a reasonable combination of security compliance and operational flexibility.&lt;/p&gt;
+        	&lt;p&gt;Mexa Effect&lt;/p&gt;
 
-&lt;p&gt;The ultimate goal of the project is to provide a complete management environment focused on compliance with the various profiles in the SCAP Security Guide Project and industry best practice.&lt;/p&gt;
-
-&lt;p&gt;Though it is fully capable out of the box, the intent of SIMP is to be molded to your target environment in such a way that deviations are easily identifiable to both Operations Teams and Security Officers.&lt;/p&gt;
-
-&lt;p&gt;At this time, there are no commercial requirements for the use of SIMP outside of the purchase of Red Hat Enterprise Linux licenses as applicable.&lt;/p&gt;
 
         </content>
     </entry>
     
     <entry>
-        <title>From Kafka to ZeroMQ for real-time log aggregation
-</title>
-        <link href="https://directionwithintent.com/shares/0905164416/"/>
-        <updated>2015-09-05T16:44:16+01:00</updated>
-        <id>https://directionwithintent.com/shares/0905164416</id>
+        <title>Future Coding</title>
+        <link href="https://nuvan.github.io/product/future-coding/"/>
+        <updated>2017-04-14T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/product/future-coding</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;This post is about ditching Kafka in favor of ZeroMQ, based on a year-long experience of using Kafka for real-time log aggregation in a production setting of Auth0 Webtasks. What, why, and how - read on.&lt;/p&gt;
+        	&lt;p&gt;Future Coding&lt;/p&gt;
+
 
         </content>
     </entry>
     
     <entry>
-        <title>Hello Elixir. Wow.
-</title>
-        <link href="https://directionwithintent.com/shares/0904200115/"/>
-        <updated>2015-09-04T20:01:15+01:00</updated>
-        <id>https://directionwithintent.com/shares/0904200115</id>
+        <title>Procrustean Beds of Product Management</title>
+        <link href="https://nuvan.github.io/programming/avoiding-procrustes-bed/"/>
+        <updated>2017-04-14T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/programming/avoiding-procrustes-bed</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	
-        	&lt;p&gt;I don’t know anything about Elixir, but I very much want to learn it. I like learning new things – I feel it’s required for our industry. It’s easy to feel a twinge of snark about this, I feel that too, every day. But every now and again something comes along and I just find myself getting pulled right in.&lt;/p&gt;
+        	&lt;img src=&quot;https://nuvan.github.io/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;In the Greek Mythology, Procrustes posed as a gentle caretaker, offered accommodation to any passing traveller. After an invitation for a satisfying meal, he provided a good night’s rest in his exceptional bed. Procrustes described it as having the unique property that its length exactly matched whomsoever lay down upon it. What Procrustes didn’t volunteer was the method by which this “one-size-fits-all” was achieved, namely as soon as the guest lay down Procrustes went to work upon him, stretching him on the rack if he was too short for the bed and chopping off his legs if he was too long. (Adapted from Procrustes — MythWeb (http://www.mythweb.com/teachers/why/basics/procrustes.html))&lt;/p&gt;
+
+&lt;p&gt;In a Product Management position, one can imagine the many procrustean beds that are built for the private residents, i.e., engineering, quality assurance, operations, sales, etc. or for the passing traveller such as prospect trials, consultants, brokers and, existing clients. Let us refer to them as internal if they are to be fitted for in-house stakeholders, or external if they “accommodate” visitors that aren’t part of the company inner circle.
+In this series, I’m going to focus on the external ones and mostly derived from my experience in B2B environments. The ones that may hinder revenue goals directly and create friction in the overall evolution of the product.&lt;/p&gt;
+
+&lt;p&gt;The prospect client’s trial is a moment of utmost importance and, especially when a product or service has a broad and/or complex feature base. It doesn’t stand for itself. It needs an attentive caretaker that invites the freshly arrived visitor to have the best possible experience and, that can steer him on how to take advantage of the available amenities. Eager as we are, to make an excellent first impression and, to close the deal in the shortest amount of time ( because trials always have a cost ) we invite the user to feel at ease and at the same time we push him to experiment our star features. With the least amount of effort, we show him how to achieve our product promised outcomes. While the caretaker and the user roam around, showcasing the product end to end and iterating over the feature spectrum, we fall into the mistake of force fitting the client to the feature, whether the use case applies or not.&lt;/p&gt;
+
+&lt;p&gt;As it should be expected of a product team, we want and need to be creative. We seek inspiration in every problem that we face but sometimes, repeating empty metaphors such as “thinking outside the box”. And regrettably, we try to find solutions on the spot, for the prospect client workflows, habits and, tools, that are allegedly defective, unorganised, inexistent, &lt;insert another=&quot;&quot; problem=&quot;&quot; here=&quot;&quot;&gt;. On the other hand, a small void or even a domain that we’ve managed to exclude from our road-map can bring havoc when a client merely hints the fact of nonexistent work in that regard. Instead, we should take our notes and seclude our selfs, for a moment, where we can summon our creativity and muster our planning abilities towards a well-designed solution. On the spot, thinking and instant client fitting is the moments where we start amputating the prospect expectations and with the best of intentions in mind but ignoring the prospect client true needs and creating product fragilities. Doing this we fall into an uberous mind trap. Let’s delve into one type of this situations. The dreadful and pernicious Workaround.&lt;/insert&gt;&lt;/p&gt;
+
+&lt;p&gt;The Workaround&lt;/p&gt;
+
+&lt;p&gt;It is a well-known term in the Engineering class and many times used ad nauseam. Whether it is the best option at a time of need, laziness, schedule compression, damage control or just a temporary patch. It is a well-known term in the engineering class and many times used ad nauseam. Whether it is the best option at a time of need, laziness, schedule compression, damage control or just a temporary patch. A seasoned Software Engineer evidently used it on several occasions and sometimes wakes a night, shivering with the memories of some that still work on a machine somewhere.&lt;/p&gt;
+
+&lt;p&gt;In Product Development, the Workaround has a very similar set of characteristics. It is some process or small addition that will leverage an alternative pathway of one or more features to attain, what we believe to be a quick win. Sometimes with the objective of solving an unexpected user need or capricious desire. Sometimes it’s a cover up of an edge case that the product team did not address correctly or just ignored because they’ve fallen into a pseudo-statistical fallacy.&lt;/p&gt;
+
+&lt;p&gt;The Workaround trigger usually occurs in a commercial or technical tour of the product. May it be a sincere question that has a genuine need behind or a more technical person that wants to show off his wits. Occasionally can be a snarky remark that may compare his current work environment or another tool that he tried recently with our own, and something is definitely missing in his eyes.
+The fear and anxiety of not being able to entertain the user, makes us create a parallel thread with a request that the product team scramble the issue searching a way to meet our client expectations. It should not be a problem if at that moment a backlog entry is dutifully filled with a good picture of the issue, that popped up from the conversation, and a reasonable amount of time is taken to consider the proposition. It is a problem when we bypass our product development processes, and the proposed solution involves small feature adjustments that didn’t pass a thorough impact analysis. It is a problem when even avoiding the most minor alteration, it is the result of a collage of one or more features, or maybe, just making use of a feature quirk and painting it as a fully fledged product of human ingenuity. Unfortunately, the Workaround, most of the times results in a non-fluid and/or semi-automatic action plan, requiring the user to withstand some pain or to exert himself to do the same thing that he did or have seen in action before. At the exit of the Workaround, we claim victory if a significant amount of work that the user already does in a streamlined fashion or seen it being executed in the same way can be achieved in our product. We think that we’ve kept the user going, but we don’t see that the user is limping on its way. It may take just a small extra effort to vindicate the capabilities of our product but at the cost of an amputation.&lt;/p&gt;
+
+&lt;p&gt;For the attentive and sharp reader, another Procrustean Bed can be found A Posteriori. At the exit of the Workaround and this one with the bed and victim roles switched. This one can kill our product vision and eventually our product. Remember that for the Workaround to be put in place, some small change in our product had to be made. Even when we’ve just managed to pipeline a feature output to another as input, and with some caretaker good will. We’ve adjusted our product to fit that particular prospect or even client need at that precise moment in time without measuring the consequences of those actions. Expectations were created, and new plumbing was added disregarding our architecture, use cases and requirements. To do this, we’ve amputated, rearranged, bypassed and plug it again changing our product morphology. Again, with the best of intentions, to show how exceptional is our team and product. If we exit the Workaround multiple times, it is granted that our product will die in the bed that was made with our client’s hands.&lt;/p&gt;
+
+&lt;p&gt;The Workaround is avoidable, and it should be considered an anti-pattern in product development and management. It is damaging for our client prospects, and it is deadly for our product. Take the necessary precautions when you meet with the prospect of a Workaround and make time for fixing it before the product vitality seeps out from all of those newly created ins and outs.&lt;/p&gt;
+
+&lt;p&gt;Do you know more Procrustean Beds in Product Development and Management? Leave your comments and let’s have a chat.&lt;/p&gt;
+
+&lt;p&gt;Procrustean services and products on the wild&lt;/p&gt;
+
+&lt;p&gt;After reading this piece one might wonder that no procrustean bed should be a success since it destroys vital parts of the client work, team, company, etc. The reality is quite different and a quick inspection of our surroundings with this thought in mind will show us that sometimes people jump into those beds and accept the punishment in exchange of some promise of greatness.&lt;/p&gt;
+
+&lt;p&gt;Twitter is an excellent example of a procrustean bed. In this type of services, critical mass has a bandwagon effect that, most of the users aren’t even forced to lay their content on it, while amputating themselves in colorful headlines that the arbitrary 140 character limit can contain. All of them with the fear of missing out the short exposure and afraid that they will not be a part of a vaporous and fleeting zeitgeist.&lt;/p&gt;
+
+&lt;p&gt;Future Feature&lt;/p&gt;
+
+&lt;p&gt;The second one, the Phantom Feature, is definitely more dangerous in a long run. While the Workaround may create a local problem with a specific client and with time and patience, the debt that the Workaround created may be paid in installments, the Phantom feature can put the product road map and vision at risk. Usually this will only happen after a product end to end trial seemed successful. The trial prospect found the product suitable enough to engage in the real proposition that he expects tho be solved. Our shiny product withstood all of the uses and abuses from our trial prospect and we may even have fallen into the Workaround trap…one or more times…because the feeling of a closed deal is too strong to ignore. In the end the client remarks. “This is great, but if you guys want to ( reading between the lines: have the privilege of ) work with us, we need this small ( hint: it isn’t small ) 
+customization/feature/migration”. Done deal, let’s get to work and get paid for it. But, when the work unfolds it’s multiple facets in the face f the product team, we realize that we need to put alll of our chips in this client and few resources will be available to grow and implement what it was initially our project of greatness.&lt;/p&gt;
+
+&lt;p&gt;Sometimes is the star feature that the potential buyer doesn’t really need and we push him for a test use case that makes the product shine, but the user motivation wither. Sometimes is the closing anxiety that over-stretches the benefits of a particular module in the overall product experience and makes it seem more prominent than the product core features. And, sometimes is the dramatic paradigm shift that the user needs to endure if he wants to take advantage of the brilliant future that we promise him in a vision that isn’t always quite clear to him.&lt;/p&gt;
+
+&lt;p&gt;We’ve created future expectations on the mind of our trial prospect. Expectations that probably aren’t the real deal when we manage to create extra plumbing for the new and exclusive Workaround. Expectations that this is the modus operandi with him, because he his really special when the first monthly payment arrives.&lt;/p&gt;
+
+&lt;p&gt;As the client base grows, one needs to attend the customer’s requests properly so that extensions or newly additions don’t have a negative impact on your existing user base and don’t create commercial valleys that prevent roaming into unexplored prospects.&lt;/p&gt;
+
 
         </content>
     </entry>
     
     <entry>
-        <title>Implementing a Neural Network from Scratch - An Introduction
-</title>
-        <link href="https://directionwithintent.com/shares/0904195716/"/>
-        <updated>2015-09-04T19:57:16+01:00</updated>
-        <id>https://directionwithintent.com/shares/0904195716</id>
+        <title>PEG that data - Part 1</title>
+        <link href="https://nuvan.github.io/programming/peg_that_data_1/"/>
+        <updated>2014-11-16T00:00:00+00:00</updated>
+        <id>https://nuvan.github.io/programming/peg_that_data_1</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	
-        	&lt;p&gt;In this post we will implement a simple 3-layer neural network from scratch. We won’t derive all the math that’s required, but I will try to give an intuitive explanation of what we are doing. I will also point to resources for you read up on the details.
-Get the code: To follow along, all the code is also available as an iPython notebook on Github.&lt;/p&gt;
+        	&lt;img src=&quot;https://nuvan.github.io/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;In simple (maybe simplistic) terms, Parsing Expression Grammars or just PEGs are formalisms that describe languages, in the form of a set of rules that can be converted to string recognition mechanisms to parse the aforementioned languages.&lt;/p&gt;
+
+&lt;p&gt;I could spend some paragraphs, poorly describing PEGs, but I’ll leave this to a better-suited place for this subject: &lt;a href=&quot;http://en.wikipedia.org/wiki/Parsing_expression_grammar&quot;&gt;Wikipedia - PEG&lt;/a&gt;. At the time of this article writing, Wikipedia holds a very well put description of PEGs and their nature.&lt;/p&gt;
+
+&lt;p&gt;If after reading that link you still feel a bit confuse with this matter maybe you should need to deepen your knowledge about programming languages but fear not. Don’t invest in a Computer Science course right now and bear with me for a while. I’ll want to begin by building the equivalent of the usual Hello World program as a PEG. Actually we can start by building a PEG that recognizes a “Hello World” string.&lt;/p&gt;
+
+&lt;p&gt;Complying with the rules that we’ve learned in the previously supplied link, let’s build our PEG.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello World&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What a pointless exercise indeed. The start expression only waits for input that matches exactly “Hello World” and that’s it.
+At this point, you maybe thinking that I’m in an exercise of spending time of my innocent readers but don’t get fooled by the simplicity of our first PEG.&lt;/p&gt;
+
+&lt;p&gt;Let’s build up on this PEG and accept more subjects for our greeting.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject
+Space    := &quot; &quot;   
+Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;While keeping this exercise very easy, we’ve introduced a rule that after a standard “Hello” greeting expects a white space and after that a Subject. This Subject can be one of the choices at right member of the Subject rule.&lt;/p&gt;
+
+&lt;p&gt;Our augmented PEG can recognize strings such as “Hello World”, “Hello Solar System”, “Hello Galaxy” or “Hello Universe”. Far beyond from those boring Hello World programs don’t you think?&lt;/p&gt;
+
+&lt;p&gt;Nevertheless if one wants to greet all the Subjects one needs four strings. What a waste of time and quotes. Let’s improve our PEG so that it can accept all of the Hello greetings in a single string.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart := &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
+Space    := &quot; &quot;
+Subject  := &quot;World&quot; | &quot;Solar System&quot; | &quot;Galaxy&quot; | &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A bit more complicated to read, but still we can follow easily the rules to build our greeting string.&lt;/p&gt;
+
+&lt;p&gt;The build path is the same one than our previous PEG. Our starting expression waits for a “Hello” string followed by a Space and after that for a Subject. Add a “.” at the end of a string and our PEG would happily accept our saluting.
+The difference now is that we’ve defined a group that may or may not exist afterward (No Schroedinger no…cho choooo. Out of here.).&lt;/p&gt;
+
+&lt;p&gt;This group &lt;code&gt;(Space ExpStart)?&lt;/code&gt; means that one can add another Space and follow that by our ExpStart in a recursive fashion. Now we can accept well-articulated greetings such as: “Hello World. Hello Solar System”, “Hello World. Hello Solar System. Hello Galaxy.” or even “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.”. If one wants we can repeat this string as long our keyboard complies and our PEG will accept this expression until your RAM cannot swap more space to disk.&lt;/p&gt;
+
+&lt;p&gt;Of course, it would be interesting to see our expressions being actually validated somewhere instead of relying only in a theoretical example. At the time of writing this article the &lt;a href=&quot;http://pegjs.majda.cz&quot;&gt;PEG.js&lt;/a&gt; project page had a great online version of a &lt;a href=&quot;http://pegjs.majda.cz/online&quot;&gt;PEG parser&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The PEG library provided by this project page will be used in our following articles so we might as well test it right away with our Hello World samples.&lt;/p&gt;
+
+&lt;p&gt;Just copy our last grammar expressions, converted below to the requested syntax, to the box “1 - Write your PEG.js grammar”.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ExpStart = &quot;Hello&quot; Space Subject &quot;.&quot; (Space ExpStart)?
+Space    = &quot; &quot;
+Subject  = &quot;World&quot; / &quot;Solar System&quot; / &quot;Galaxy&quot; / &quot;Universe&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If all goes well you will receive a green “Parser built successfully” message below the grammar input box.&lt;/p&gt;
+
+&lt;p&gt;To test our grammar just copy one of our accepted test strings in to the box “2 - Test generated parser with some input”. Let’s jump to the biggest one, “Hello World. Hello Solar System. Hello Galaxy. Hello Universe.” and once again we hope to be presented with a green “Input parsed successfully.” box above. As a bonus, we can inspect the resulting syntax tree in a JSON array format provided in “Output”.&lt;/p&gt;
+
+&lt;p&gt;Let’s end our first PEG exercise. I’ll recommend a thorough reading of the PEG.js library syntax and options for our next article where we will dive deep into a interesting problem while building more than a syntax validator.&lt;/p&gt;
 
         </content>
     </entry>
     
     <entry>
-        <title>Creating a Web App From Scratch Using AngularJS and Firebase - Tuts+ Code Tutorials
-</title>
-        <link href="https://directionwithintent.com/shares/0903184803/"/>
-        <updated>2015-09-03T18:48:03+01:00</updated>
-        <id>https://directionwithintent.com/shares/0903184803</id>
+        <title>PEG that data - Part 2</title>
+        <link href="https://nuvan.github.io/programming/peg_that_data_2/"/>
+        <updated>2014-10-26T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/programming/peg_that_data_2</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	
-        	&lt;p&gt;In this series, we’ll be using AngularJS and Firebase to create a simple web application from scratch. It will be a simple blogging application where the user can sign in or sign up and publish a blog post.&lt;/p&gt;
+        	&lt;img src=&quot;https://nuvan.github.io/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;After &lt;a href=&quot;http://directionwithintent.com/programming/peg_that_data_1/&quot;&gt;Part 1 of PEG that data&lt;/a&gt;, we’ve learned how to create a very basic parser to recognize simple “Hello World” type expressions. Although our exercise was quite unassuming, it demonstrated the basic principles of these formalisms and with PEG.js we’ve accomplished a concrete result with our first grammar.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I’m not keen with this type of examples, but their value is undeniable to break entry barriers for matters that are a bit more exotic, in comparison with the typical programming tutorial. I usually rather prefer tutorials that are more close to real world problems. They spark creativity to build more interesting tools and to apply our newly gained knowledge to our day to day work.&lt;/p&gt;
+
+&lt;p&gt;In order to build something more tangible let’s draw a more complex exercise to build a PEG that can be useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;real-estate-search&quot;&gt;Real Estate ‘Search’&lt;/h2&gt;
+
+&lt;p&gt;Let’s consider a real estate website. Frequently, we are greeted with a multiple selection boxes and several range filters before our leading property results came in. This kind of interface is cumbersome and a nightmare of every UI/UX Engineer or web designer. If your mobile, then this multiple options menus are out of the question. This can be even harder if you are a real estate professional and need to do search queries every time a customer comes in your door with their dream house requirements.&lt;/p&gt;
+
+&lt;p&gt;A simple PEG could simplify the search process making use of a single search box with auto-complete options. One might think that no one would learn a new language just to search a web site but even without considering the money involved in a real estate transaction, the time investment in search the right houses to put on a “to visit list” plus the visit time, should be sufficient deterrents to make a poorly informed search.&lt;/p&gt;
+
+&lt;p&gt;Before spiking some code, take a bearing for our exercise. Our focus will be placed on building a very simple web application that takes input from a search box and delivers a result set of real estate properties that match our criteria. Instead of presenting this data in a simple list, we will take advantage of a map representation, to better pinpoint our home for the next seasons.&lt;/p&gt;
+
+&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
+
+&lt;p&gt;The fundamental question that has to be done is “How would I ask for it?”. Instead of just thinking about the data, first and foremost one should start with the questions that the system should answer. A real estate investor would probably think to himself. “I want a property, near shore, with 2000 square meters at least, with an Olympic size pool, with a garage and with a luscious garden.”
+or maybe a new town arrival would say “I want to rent a house with 2 divisions and a bathroom for at most 500 a month.”. There are some patterns in these sentences that can be carried into our grammar even though we are not going accept free input. To give the impression that we are processing free input, we are going to supply an unsuspecting user with robust auto-complete options and steer him to an expression that makes sense in plain English and that can be parsed by our grammar. In part 3 of this tutorial, we will dedicate our full attention to this issue and build upon those sentence types. Also, we are going to play with some quantifiers such as “near” and well-known size types such as “Olympic”.&lt;/p&gt;
+
+&lt;h3 id=&quot;data&quot;&gt;Data&lt;/h3&gt;
+
+&lt;p&gt;As exemplified in the above sentence examples, there is an immense variety of features that one can think while searching for a property. For our exercise, we are going to consider the possibility of a small subset of options that can make our application rich enough in variety.
+Each real estate property will be represented with a &lt;a href=&quot;http://http://geojson.org/&quot;&gt;GeoJSON&lt;/a&gt; Object. I’ll recommend a brief overview of the &lt;a href=&quot;http://geojson.org/geojson-spec.html&quot;&gt;GeoJSON spec&lt;/a&gt; but for now we are going to use a very simple property specification with the following fields:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Position, to hold the property location coordinates;&lt;/li&gt;
+  &lt;li&gt;Type. We will accept “House”, “Apartment” or “Hotel”;&lt;/li&gt;
+  &lt;li&gt;Area, in square meters;&lt;/li&gt;
+  &lt;li&gt;Bedrooms, total count;&lt;/li&gt;
+  &lt;li&gt;Bathrooms, total count;&lt;/li&gt;
+  &lt;li&gt;Living rooms, total count;&lt;/li&gt;
+  &lt;li&gt;Garage, area if there is one;&lt;/li&gt;
+  &lt;li&gt;Garden, area if there is one;&lt;/li&gt;
+  &lt;li&gt;Pool, area if there is one;&lt;/li&gt;
+  &lt;li&gt;Rent, monthly rent price if available for rent;&lt;/li&gt;
+  &lt;li&gt;Buy, price if it’s up for sale;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A GeoJSON sample for our description can be found below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &quot;type&quot;: &quot;Feature&quot;,
+    &quot;properties&quot;: {
+        &quot;Type&quot; : &quot;Hotel&quot;,
+        &quot;Area&quot; : 616.98,
+        &quot;Bedrooms&quot; : 10,
+        &quot;Bathrooms&quot; : 4,
+        &quot;Living rooms&quot; : 4,
+        &quot;Garage&quot; : 50,
+        &quot;Garden&quot; : 1800.12,
+        &quot;Pool&quot; : 5,
+        &quot;Buy&quot; : 1000000
+    },
+    &quot;geometry&quot;:{
+        &quot;type&quot;: &quot;Point&quot;,
+        &quot;coordinates&quot;: [ 38.7041103,-9.3993705 ]
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tracing our bullet point list to this sample is fairly trivial. We’ve just followed the GeoJSON spec for a custom data element where ‘properties’ holds our home location characteristics and ‘geometry’ holds a GeoJSON element, that represents a point location, defined by a single latitude/longitude coordinate.&lt;/p&gt;
+
+&lt;p&gt;In Part 3, we commence building our application starting with a first grammar description for our assisted search input.&lt;/p&gt;
+
 
         </content>
     </entry>
     
     <entry>
-        <title>Software Costs Estimation In Agile Project Management
-</title>
-        <link href="https://directionwithintent.com/shares/0902082636/"/>
-        <updated>2015-09-02T08:26:36+01:00</updated>
-        <id>https://directionwithintent.com/shares/0902082636</id>
+        <title>An Island and a Cloud.</title>
+        <link href="https://nuvan.github.io/opinion/ground_and_cloud/"/>
+        <updated>2014-10-26T00:00:00+01:00</updated>
+        <id>https://nuvan.github.io/opinion/ground_and_cloud</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	
-        	&lt;p&gt;One of the hardest things to do in software development is to determine how long and how much it will take to deliver a new software product. Should it be so hard? The answer is not straightforward.&lt;/p&gt;
+        	&lt;img src=&quot;https://nuvan.github.io/images/island_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;h2 id=&quot;apple-prison-more-like-apple-island&quot;&gt;Apple Prison? More like Apple Island.&lt;/h2&gt;
+
+&lt;p&gt;Four years ago, give or take a few months, I’ve changed my work and home machines to Apple systems, abandoning the mixed Windows/Linux environments that accompanied me since high school.&lt;/p&gt;
+
+&lt;p&gt;It was a quick change fueled by a couple of teammates and the fact that I’ve bought an iPhone a few months earlier. All my Windows machines were dead or in need of repair, and I was just sick of the finicky Vista that was installed by default in my current machine at that time. Those were dark times for Microsoft OSs.&lt;/p&gt;
+
+&lt;p&gt;The change was made and some months later I was completely sold to Apple Software and Hardware.&lt;/p&gt;
+
+&lt;p&gt;One of my favorite things about Apple is the seamless integration of all their products. Connecting my iPhone to my MacBook Pro and easily sync my data between devices, even though iTunes isn’t the best interface to accomplish my syncing needs. Also, the iCloud option for backing up my “mobile data” is also noteworthy although one needs to keep the data hygiene for the free tier.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I’m a victim of the &lt;a href=&quot;http://support.apple.com/en-en/TS4088&quot;&gt;mid-2010 MacBook Pro&lt;/a&gt; but even so, the combination of Apple software and hardware bring a level of reliability, far above average. Recently, I even boasted of my 127-day uptime to my teammates that usually restart their machines now and then. I know that any *nix user out there will claim even longer uptimes, but with a maintenance cost that I don’t want to pay every day. &lt;/p&gt;
+
+&lt;p&gt;Currently, I own a late-2013 MacBook Pro with retina display, 512 GB SSD drive plus a DDR3 memory total of 16 GB. Obviously, this isn’t a machine that the common user will take advantage of but for an I.T. professional like me, this is surely one of the best machines that my money could buy. Add the current Apple option of upgrading OSX free from charge and you have a system that can last for four or more years without the need of a drastic and expensive upgrade. As my fellow Software Engineers out there, I love to tinker with my hardware and software occasionally but that’s it. My machine is to work on, and not to bring me extra work just to keep it updated and running smoothly. I have joy and fun hacking away…But I would rather not do it every day.&lt;/p&gt;
+
+&lt;p&gt;If I need any piece of software for my tool belt, I just hit a few search queries and the App Store provides. Regardless of the fact that I don’t actually know the people and processes that Apple uses to accept a new App in their store I always have a sense of security of the available products. Having at least a primary barrier against mediocre software prevents the application spam that other vendors suffer from their so-called openness.&lt;/p&gt;
+
+&lt;p&gt;And because of the above reasons and so many more, many people would say that Apple software is evil for creating a prison that they cannot leave or decorate on their terms. In my opinion, this is not really a prison, but an exotic island where I can live happily without the diseases spreading on the continent. As a bonus, I can live knowing that the environment is cared, groomed and curated.&lt;/p&gt;
+
+&lt;h1 id=&quot;above-and-beyond&quot;&gt;Above and beyond&lt;/h1&gt;
+
+&lt;p&gt;“No man is an island” is a well-known quote and truth. We need to communicate and interact with others to grow, evolve, and produce something that everybody can be proud of. In order for this to happen, we need to leave our beautiful Island and interact with the harsh environment out there. In this area, I need to champion Google. &lt;/p&gt;
+
+&lt;p&gt;The Drive/Docs combination is amazing, for me, my team and several stakeholders of the projects where I’m currently committed to. The aforementioned pair brings a powerful tool to keep our product backlog stories, specs and assorted meeting minutes. Minutes that are edited concurrently between me (under the hat of team lead), a designer team account and a product owner. All this while ideas float around the meeting table. &lt;/p&gt;
+
+&lt;p&gt;Drive accommodates much storage giving us the sense that it is an infinite local share. I just hope that Google invests in improving Docs and Drive interfaces up to the level of most of Apple software. Now and then I need to restructure my Docs and Drive area, but the current interface surely needs refinements and a good UI/UX boost.&lt;/p&gt;
+
+&lt;p&gt;Gmail is widespread and Inbox is a step forward in solving the current e-mail hell. My personal mail account is Gmail, and the company where I’m currently working, has Gmail from their beginnings. I can’t remember a day that Google cloud services failed and caused embarrassment on my company services and processes. Add Google Chat on the mail interface and instantly kill many unnecessary e-mail exchanges.&lt;/p&gt;
+
+&lt;p&gt;So “Google” reads all my emails? No problem my friend. If I need to pay those services only by receiving targeted publicity (on a very discrete manner) then please do. Avoid sending me those ads for car rims that I do not care and sell me the smallest pocket wallet on the market. In the middle of that insurmountable pile of data, I’m a male 25-35 years old that is a geek and sports lover. My personal data is protected by numbers that grow every day just as though a flock survives predators with sheer confusion of Agile movement and bird count.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-environment&quot;&gt;My environment&lt;/h2&gt;
+
+&lt;p&gt;Monopoly is a game that I loved to play when I was a kid and even nowadays is a well-spent night with friends but is something that is very dangerous in the real world. I hope that none of these companies can achieve a market position that can dry completely all of their competitors, but right now I choose to spend some years in this lovely Apple island with a Google cloudy sky.&lt;/p&gt;
 
         </content>
     </entry>
     
     <entry>
-        <title>Voice controlled PHP apps with API.ai
-</title>
-        <link href="https://directionwithintent.com/shares/0901191859/"/>
-        <updated>2015-09-01T19:18:59+01:00</updated>
-        <id>https://directionwithintent.com/shares/0901191859</id>
+        <title>JRuby / JVM encoding flags</title>
+        <link href="https://nuvan.github.io/programming/jruby-jvm-encoding-flags/"/>
+        <updated>2013-02-01T00:00:00+00:00</updated>
+        <id>https://nuvan.github.io/programming/jruby-jvm-encoding-flags</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>https://nuvan.github.io/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	
-        	&lt;p&gt;In this tutorial we’ll be looking into Api.ai, an API that lets us build apps which understand natural language, much like Siri. It can accept either text or speech as input, which it then parses and returns a JSON string that can be interpreted by the code that we write.&lt;/p&gt;
+        	&lt;img src=&quot;https://nuvan.github.io/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Once upon a time, I was developing a couple of extensions for &lt;a href=&quot;http://logstash.net/&quot;&gt;Logstash&lt;/a&gt;.&lt;/p&gt;
 
-        </content>
-    </entry>
-    
-    <entry>
-        <title>How security flaws work: The buffer overflow
-</title>
-        <link href="https://directionwithintent.com/shares/0901090330/"/>
-        <updated>2015-09-01T09:03:30+01:00</updated>
-        <id>https://directionwithintent.com/shares/0901090330</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;The buffer overflow has long been a feature of the computer security landscape. In fact the first self-propagating Internet worm—1988’s Morris Worm—used a buffer overflow in the Unix finger daemon to spread from machine to machine. Twenty-seven years later, buffer overflows remain a source of problems. Windows infamously revamped its security focus after two buffer overflow-driven exploits in the early 2000s. And just this May, a buffer overflow found in a Linux driver left (potentially) millions of home and small office routers vulnerable to attack.&lt;/p&gt;
+&lt;p&gt;One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn’t even know that they existed).&lt;/p&gt;
 
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Linux workstation security checklist
-</title>
-        <link href="https://directionwithintent.com/shares/0901085721/"/>
-        <updated>2015-09-01T08:57:21+01:00</updated>
-        <id>https://directionwithintent.com/shares/0901085721</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;This is a set of recommendations used by the Linux Foundation for their systems administrators. All of LF employees are remote workers and we use this set of guidelines to ensure that a sysadmin’s system passes core security requirements in order to reduce the risk of it becoming an attack vector against the rest of our infrastructure.&lt;/p&gt;
+&lt;p&gt;After some suffering, anger and hunger that all debugging processes bring, I’ve found an ancient JVM flag that my evil Red Hat server changed, just to see me cry, after several bad relationships with an assorted number of encodings.&lt;/p&gt;
 
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Integrating Amazon Kinesis, Amazon S3 and Amazon Redshift with Cascading on Amazon EMR
-</title>
-        <link href="https://directionwithintent.com/shares/0828204609/"/>
-        <updated>2015-08-28T20:46:09+01:00</updated>
-        <id>https://directionwithintent.com/shares/0828204609</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;With Amazon Kinesis developers can quickly store, collate and access large, distributed data streams such as access logs, click streams and IoT data in real-time. The question then becomes, how can we access and leverage this data for use in data applications running in Amazon EMR? There are many ways to solve this problem, but the solution should be simple, fault tolerant and highly scalable. In this post I demonstrate a micro-batch system that delivers this solution by processing a simulated real-time data stream using Amazon Kinesis with Cascading on Amazon EMR. We will also join our Amazon Kinesis stream with data residing in a file in Amazon S3 and write our results to Amazon Redshift using cascading-jdbc-redshift which leverages Amazon Redshift’s COPY command.&lt;/p&gt;
+&lt;p&gt;sun.io.unicode.encoding=UnicodeBig (good OSX)&lt;/p&gt;
+
+&lt;p&gt;sun.io.unicode.encoding=UnicodeLittle ( evil Red Hat)&lt;/p&gt;
+
+&lt;p&gt;Loading up my JVM with -J-Dsun.io.unicode.encoding=UnicodeLittle saved the day.&lt;/p&gt;
+
+&lt;p&gt;By the way, if you ever want to check your encoding flags just add this to your JRuby script:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;java&#39;
+
+java_import java.util.Locale
+java_import java.util.Properties
+java_import java.util.Enumeration
+java_import java.lang.System
+
+{assorted code}
+
+p = System.getProperties();
+keys = p.keys();
+keys.each do |key|
+  value = p.get(key);
+  puts &quot;#{key} : #{value}&quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this script, you can print all of your JVM instance flags. Have fun!&lt;/p&gt;
 
         </content>
     </entry>
