@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://nuvan.github.io/atom.xml" rel="self"/>
     <link href="https://nuvan.github.io/" rel="alternate" type="text/html"/>
-    <updated>2019-05-12T21:44:56+01:00</updated>
+    <updated>2019-05-12T22:13:56+01:00</updated>
     <id>https://nuvan.github.io/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -20,9 +20,9 @@
     
     <entry>
         <title>Procrustean Beds of Product Management</title>
-        <link href="https://nuvan.github.io/programming/avoiding-procrustes-bed/"/>
+        <link href="https://nuvan.github.io/product/avoiding-procrustes-bed/"/>
         <updated>2017-04-14T00:00:00+01:00</updated>
-        <id>https://nuvan.github.io/programming/avoiding-procrustes-bed</id>
+        <id>https://nuvan.github.io/product/avoiding-procrustes-bed</id>
         <author>
 					<name>Nuno Valente</name>
 					<uri>https://nuvan.github.io/</uri>
