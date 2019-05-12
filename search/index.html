@@ -135,6 +135,18 @@
       }
     });
    
+    $.ajax({
+      url: query_url + '/programming/jruby-jvm-encoding-flags/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#jruby-jvm-encoding-flags-share").html(data.count);
+      }
+      else {
+        $("#jruby-jvm-encoding-flags-share").html("0");
+      }
+    });
+   
   });
 </script>
 

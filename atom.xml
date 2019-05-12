@@ -9,7 +9,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://nuvan.github.io/atom.xml" rel="self"/>
     <link href="https://nuvan.github.io/" rel="alternate" type="text/html"/>
-    <updated>2019-05-12T21:17:21+01:00</updated>
+    <updated>2019-05-12T21:31:16+01:00</updated>
     <id>https://nuvan.github.io/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -120,6 +120,54 @@ customization/feature/migration”. Done deal, let’s get to work and get paid 
 &lt;h2 id=&quot;my-environment&quot;&gt;My environment&lt;/h2&gt;
 
 &lt;p&gt;Monopoly is a game that I loved to play when I was a kid and even nowadays is a well-spent night with friends but is something that is very dangerous in the real world. I hope that none of these companies can achieve a market position that can dry completely all of their competitors, but right now I choose to spend some years in this lovely Apple island with a Google cloudy sky.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>JRuby / JVM encoding flags</title>
+        <link href="https://nuvan.github.io/programming/jruby-jvm-encoding-flags/"/>
+        <updated>2013-02-01T00:00:00+00:00</updated>
+        <id>https://nuvan.github.io/programming/jruby-jvm-encoding-flags</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://nuvan.github.io/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://nuvan.github.io/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Once upon a time, I was developing a couple of extensions for &lt;a href=&quot;http://logstash.net/&quot;&gt;Logstash&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn’t even know that they existed).&lt;/p&gt;
+
+&lt;p&gt;After some suffering, anger and hunger that all debugging processes bring, I’ve found an ancient JVM flag that my evil Red Hat server changed, just to see me cry, after several bad relationships with an assorted number of encodings.&lt;/p&gt;
+
+&lt;p&gt;sun.io.unicode.encoding=UnicodeBig (good OSX)&lt;/p&gt;
+
+&lt;p&gt;sun.io.unicode.encoding=UnicodeLittle ( evil Red Hat)&lt;/p&gt;
+
+&lt;p&gt;Loading up my JVM with -J-Dsun.io.unicode.encoding=UnicodeLittle saved the day.&lt;/p&gt;
+
+&lt;p&gt;By the way, if you ever want to check your encoding flags just add this to your JRuby script:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;java&#39;
+
+java_import java.util.Locale
+java_import java.util.Properties
+java_import java.util.Enumeration
+java_import java.lang.System
+
+{assorted code}
+
+p = System.getProperties();
+keys = p.keys();
+keys.each do |key|
+  value = p.get(key);
+  puts &quot;#{key} : #{value}&quot;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this script, you can print all of your JVM instance flags. Have fun!&lt;/p&gt;
 
         </content>
     </entry>
