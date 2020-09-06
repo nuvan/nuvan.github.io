@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/product/balancing_your__good__beliefs_with_user_needs/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#balancing-your-good-beliefs-with-the-user-needs-share").html(data.count);
+      }
+      else {
+        $("#balancing-your-good-beliefs-with-the-user-needs-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/product/avoiding-procrustes-bed/',
       context: document.body
     }).done(function( data ) {
@@ -302,14 +314,7 @@ The fear and anxiety of not being able to entertain the user, makes us create a 
 @media(min-width: 768px) { .responsive-ads { width: 160px; height: 600px; } }
 </style>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle responsive-ads"
-	style="display:inline-block"
-	data-ad-client="ca-pub-5324161887121686"
-	data-ad-slot="3257173456"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div><!-- /.ads -->
+<script data-ad-client="ca-pub-5324161887121686" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></div><!-- /.ads -->
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
 </div>

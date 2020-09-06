@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/product/balancing_your__good__beliefs_with_user_needs/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#balancing-your-good-beliefs-with-the-user-needs-share").html(data.count);
+      }
+      else {
+        $("#balancing-your-good-beliefs-with-the-user-needs-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/product/avoiding-procrustes-bed/',
       context: document.body
     }).done(function( data ) {
