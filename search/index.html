@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/product/hortator/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#hortator-an-antiquity-word-for-the-modern-times-share").html(data.count);
+      }
+      else {
+        $("#hortator-an-antiquity-word-for-the-modern-times-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/product/balancing_your__good__beliefs_with_user_needs/',
       context: document.body
     }).done(function( data ) {
