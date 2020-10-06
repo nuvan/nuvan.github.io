@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/product/on-diderots-effect-applications/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#on-diderot-s-effect-applications-share").html(data.count);
+      }
+      else {
+        $("#on-diderot-s-effect-applications-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/product/hortator/',
       context: document.body
     }).done(function( data ) {
@@ -268,7 +280,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2013-02-01" itemprop="datePublished">7 years and 7 months ago
+      <time class="entry-date" datetime="2013-02-01" itemprop="datePublished">7 years and 8 months ago
       </time>
       <!--time class="entry-date" datetime="2013-02-01" itemprop="datePublished">FEBRUARY 01, 2013 00:00:00
       </time-->
