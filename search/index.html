@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/software-engineering/the-code-does-not-wear-company-colors/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#code-does-not-wear-company-colours-share").html(data.count);
+      }
+      else {
+        $("#code-does-not-wear-company-colours-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/product/on-diderots-effect-applications/',
       context: document.body
     }).done(function( data ) {

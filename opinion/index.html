@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/software-engineering/the-code-does-not-wear-company-colors/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#code-does-not-wear-company-colours-share").html(data.count);
+      }
+      else {
+        $("#code-does-not-wear-company-colours-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/product/on-diderots-effect-applications/',
       context: document.body
     }).done(function( data ) {
@@ -280,7 +292,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">5 years and 11 months ago
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">6 years and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
       </time-->

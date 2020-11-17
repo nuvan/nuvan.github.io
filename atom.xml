@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2020-10-06T21:03:29+01:00</updated>
+    <updated>2020-11-17T21:05:24+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,45 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Code does not wear company colours</title>
+        <link href="https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/"/>
+        <updated>2020-11-12T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;After a few projects and some nasty burns, eventually, any engineer understands that the code doesn’t care. It will compile, or it will be interpreted, it will run, and it will fail or succeed, but in the end, it will not care.&lt;/p&gt;
+
+&lt;p&gt;If you’ve been out and about in the community, you’ll probably read or listen something along the lines:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://groups.google.com/g/mailing.freebsd.hackers/c/DylcvbPzW5g?pli=1&quot;&gt;“It is not X programming language job to stop you from shooting your foot. If you so choose to do so, then it is X programming language job to deliver Mr Bullet to Mr Foot in the most efficient way it knows.”&lt;/a&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Code will do what is programmed to do, but it really doesn’t care.&lt;/p&gt;
+
+&lt;p&gt;So, when your sprinkle your company name, that you value so much, on variables, classes, components, agents and even on your bare metal machines (Use the Cloud Luke), code still doesn’t care. It will not read clearer, run faster nor debug quicker even if you try to dress it with your company colours.&lt;/p&gt;
+
+&lt;p&gt;And up to this point, you think that I’m right but not adding much. You do know that code doesn’t care and singularity is far ahead. So why should you bother with names…and why this rambling?&lt;/p&gt;
+
+&lt;p&gt;Well, I’ll end it with a word: Rebranding.&lt;/p&gt;
+
+&lt;p&gt;Drop’s the mic and leaves the building.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;You can find Terry Lambert’s original quote within the linked thread. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>On Diderot's Effect Applications</title>
