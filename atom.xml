@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2020-11-17T21:05:24+00:00</updated>
+    <updated>2020-12-14T19:58:08+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,47 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>On Alarm Dumb Numbness - A Primer</title>
+        <link href="https://directionwithintent.com/software-engineering/alarm-dumb-numbness-primer/"/>
+        <updated>2020-12-13T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/software-engineering/alarm-dumb-numbness-primer</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/lanl-rods-too-close.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;If you’re like most of the human workforce on this planet, you have to wake almost every day at a specific time, adhering to a more or less well-defined schedule. To help you with that particular event of the day, you’ll probably recruit the help of an “alarm clock” to keep you aligned with your job time tables and to avoid a wrong turn on your employment status.&lt;/p&gt;
+
+&lt;p&gt;When your “alarm clock” blares in the morning, you have a few options to &lt;a href=&quot;https://www.youtube.com/watch?v=izWCU4Y61o4&quot;&gt;deal with it&lt;/a&gt;, but the end game is quite clear. Get up and take some action.&lt;/p&gt;
+
+&lt;p&gt;There is a clear objective for this “alarm”. Stop your sleeping cycle. And usually, it is successful. Your senses can’t avoid it if configured adequately in terms of sound/vibration unless you’re affected by some ailment that makes you unconscious or insensitive. The reaction time may vary, of course.&lt;/p&gt;
+
+&lt;p&gt;This is probably the most common artificial “alarm” of the modern world, but this isn’t an alarm (hence the double commas around the alarm word) no matter what they say. Bear with me, please.&lt;/p&gt;
+
+&lt;p&gt;What’s the most trivial alarm that a human being can get without any artificial supplement?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Queue jeopardy think music.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, that’s right.
+Pain.&lt;/p&gt;
+
+&lt;p&gt;Get your hand to close off a flame, and your sensory receptors will send a loud and clear message straight to your brain, making a roundabout in your spinal cord, and back again for that burn familiar feeling.
+This is the most basic alarm that a human can get. Many abnormal external stimuli that put you in danger or directly violate your body integrity, assuming that you don’t have any health condition preventing you from sensing them, will generate an almost instantaneous alarm forcing you to retreat from the pain source.&lt;/p&gt;
+
+&lt;p&gt;Without boring you much more on the primer, from my examples, we can extract two types of event that require an alert system, but only one of those is an alarm. In one situation, an external alert is necessary for some action to be taken. The second one refers to an abnormal event that triggers an internal alarm when a boundary is about to be violated or already was.&lt;/p&gt;
+
+&lt;p&gt;Before going further, it is important to distinguish both since they get confused in the day to day lingo. On System Design and Engineering, the conversation needs to be clear and concise.&lt;/p&gt;
+
+&lt;p&gt;In the “On Alarm Dum Numbness” series of posts, I’m going to delve into alarm management, hopefully, providing a thought structure that can make you avoid some of my past mistakes when designing alarm systems, or to be more precise, ad hoc sets of alerts and alarms that eventually fail to serve their purpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’re curious about this post thumbnail, check &lt;a href=&quot;https://www.sciencemag.org/news/2017/06/near-disaster-federal-nuclear-weapons-laboratory-takes-hidden-toll-america-s-arsenal&quot;&gt;this article from Sciencemag&lt;/a&gt; explaining how a disaster was about to happen&lt;/em&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Code does not wear company colours</title>

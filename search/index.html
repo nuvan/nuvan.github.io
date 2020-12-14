@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/software-engineering/alarm-dumb-numbness-primer/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#on-alarm-dumb-numbness-a-primer-share").html(data.count);
+      }
+      else {
+        $("#on-alarm-dumb-numbness-a-primer-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/software-engineering/the-code-does-not-wear-company-colors/',
       context: document.body
     }).done(function( data ) {
