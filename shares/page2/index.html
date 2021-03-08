@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8">
+    <title>Shares • Direction With Intent</title>
+    
+    
+    
+    	<!-- Twitter Cards -->
+	<!-- https://dev.twitter.com/cards/markup -->
+	<!-- https://dev.twitter.com/cards/types -->
+	<meta name="twitter:title" content="Shares">
+	
+		<meta name="twitter:description" content="Think Through. Execute.">
+	
+	
+		<meta name="twitter:site" content="@nuvan">
+	
+	
+		<meta name="twitter:creator" content="@nuvan">
+	
+	
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content="https://directionwithintent.com/images/fbprofile.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Shares">
+	
+	
+	
+	<meta property="og:image" content="https://directionwithintent.com/images/share01.jpg">
+	<meta property="og:image" content="https://directionwithintent.com/images/share02.jpg">
+	<meta property="og:url" content="https://directionwithintent.com/shares/page2/">
+	<meta property="og:site_name" content="Direction With Intent">
+
+
+    <link rel="canonical" href="https://directionwithintent.com/shares/page2/">
+
+    <link href="https://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
+    <link href="https://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+    <link rel="shortcut icon" href="https://directionwithintent.com/favicon.png">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="google" content="notranslate" />
+
+    <style>
+    .sliding-menu-content {
+      top: 0;
+      right: 0;
+      text-align: center;
+      visibility: hidden;
+      height: 100%;
+      width: 100%;
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      -o-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    </style>
+
+    <link rel="stylesheet" href="https://directionwithintent.com/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://directionwithintent.com/js/vendor/html5shiv.min.js"></script>
+      <script src="https://directionwithintent.com/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <script src="https://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://directionwithintent.com/js/main.js"></script>
+    <script src="https://directionwithintent.com/js/header_fader.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  }
+})});
+</script>
+    <script>
+
+    /*FB SDK initializtion*/
+     window.fbAsyncInit = function() {
+       FB.init({
+         appId      : fb_app_id,
+         xfbml      : true,
+         version    : 'v2.2'
+       });
+     };
+     (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+
+    /*REST share count for each site on the front*/
+
+  var fb_app_id  = 761374523954113;
+  var query_url  = "https://graph.facebook.com/?id=http://directionwithintent.com";
+  $(document).ready(function(){
+    
+    $.ajax({
+      url: query_url + '/mvjournal/mvjournal_1/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-february-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-february-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/software-engineering/alarm-dumb-numbness-primer/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#on-alarm-dumb-numbness-a-primer-share").html(data.count);
+      }
+      else {
+        $("#on-alarm-dumb-numbness-a-primer-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/software-engineering/the-code-does-not-wear-company-colors/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#code-does-not-wear-company-colours-share").html(data.count);
+      }
+      else {
+        $("#code-does-not-wear-company-colours-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/product/on-diderots-effect-applications/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#on-diderot-s-effect-applications-share").html(data.count);
+      }
+      else {
+        $("#on-diderot-s-effect-applications-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/product/hortator/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#hortator-an-antiquity-word-for-the-modern-times-share").html(data.count);
+      }
+      else {
+        $("#hortator-an-antiquity-word-for-the-modern-times-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/product/balancing_your__good__beliefs_with_user_needs/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#balancing-your-good-beliefs-with-the-user-needs-share").html(data.count);
+      }
+      else {
+        $("#balancing-your-good-beliefs-with-the-user-needs-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/product/avoiding-procrustes-bed/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#procrustean-beds-of-product-management-share").html(data.count);
+      }
+      else {
+        $("#procrustean-beds-of-product-management-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/opinion/ground_and_cloud/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#an-island-and-a-cloud-share").html(data.count);
+      }
+      else {
+        $("#an-island-and-a-cloud-share").html("0");
+      }
+    });
+   
+    $.ajax({
+      url: query_url + '/programming/jruby-jvm-encoding-flags/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#jruby-jvm-encoding-flags-share").html(data.count);
+      }
+      else {
+        $("#jruby-jvm-encoding-flags-share").html("0");
+      }
+    });
+   
+  });
+</script>
+
+    <header class="header fixed bottom-bordered">
+        <div id="masthead-article">
+          <div class="inner-wrap">
+            <a href="https://directionwithintent.com" class="site-title black-logo"></a>
+            <nav role="navigation-article" class="menu-article floated">
+              <ul>
+                
+                <li>
+                  <button type="button" class="js-menu-trigger sliding-menu-button-article black">
+                    ☰
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+    </header>
+
+    <nav id="slided" role="navigation" class="js-menu sliding-menu-content">
+    <button type="button" class="js-menu-trigger sliding-menu-button menulines-button x2" role="button" aria-label="Toggle Navigation">
+    <span class="menulines white-cross"></span>
+    </button>
+  <ul class="menu-item">
+    
+  </ul>
+</nav>
+
+<div class="js-menu-screen menu-screen"></div>
+
+    <div class="padder" style="height: 80px;">
+    </div>
+
+    <div id="page-wrapper">
+      <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+      <div id="main " role="main" class="fadin-anim">
+  <div class="wrap">
+    <div class="share-title">
+        <h1>Shares</h1>
+    </div>
+    <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/" title="Balancing your (good) beliefs with the user needs." class="post-teaser">
+              <img src="https://directionwithintent.com/images/model_T_1909_1600x1012.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            product
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/">
+                Balancing your (good) beliefs with the user needs.
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/">
+                “If I had asked people what they wanted, they would have said faster horses.”
+
+
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">6 months and 1 week ago
+      </time>
+      <!--time class="entry-date" datetime="2020-09-02" itemprop="datePublished">SEPTEMBER 02, 2020 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="balancing-your-good-beliefs-with-the-user-needs-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="https://directionwithintent.com/product/avoiding-procrustes-bed/" title="Procrustean Beds of Product Management" class="post-teaser">
+              <img src="https://directionwithintent.com/images/peg_314x250.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            product
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/product/avoiding-procrustes-bed/">
+                Procrustean Beds of Product Management
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/product/avoiding-procrustes-bed/">
+                In the Greek Mythology, Procrustes posed as a gentle caretaker, offered accommodation to any passing traveller. After...
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">3 years and 10 months ago
+      </time>
+      <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="https://directionwithintent.com/product/avoiding-procrustes-bed/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="procrustean-beds-of-product-management-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/product/avoiding-procrustes-bed/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/product/avoiding-procrustes-bed/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="https://directionwithintent.com/opinion/ground_and_cloud/" title="An Island and a Cloud." class="post-teaser">
+              <img src="https://directionwithintent.com/images/island_314x250.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            opinion
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/opinion/ground_and_cloud/">
+                An Island and a Cloud.
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/opinion/ground_and_cloud/">
+                Apple Prison? More like Apple Island.
+
+
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">6 years and 4 months ago
+      </time>
+      <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="https://directionwithintent.com/opinion/ground_and_cloud/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="an-island-and-a-cloud-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/opinion/ground_and_cloud/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/opinion/ground_and_cloud/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="https://directionwithintent.com/programming/jruby-jvm-encoding-flags/" title="JRuby / JVM encoding flags" class="post-teaser">
+              <img src="https://directionwithintent.com/images/jruby_314x250.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            programming
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/programming/jruby-jvm-encoding-flags/">
+                JRuby / JVM encoding flags
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/programming/jruby-jvm-encoding-flags/">
+                Once upon a time, I was developing a couple of extensions for Logstash.
+
+
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2013-02-01" itemprop="datePublished">8 years and 1 month ago
+      </time>
+      <!--time class="entry-date" datetime="2013-02-01" itemprop="datePublished">FEBRUARY 01, 2013 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="https://directionwithintent.com/programming/jruby-jvm-encoding-flags/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="jruby-jvm-encoding-flags-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/programming/jruby-jvm-encoding-flags/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/programming/jruby-jvm-encoding-flags/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+    </div>
+    
+<div class="pagination">
+  
+    <a href="/shares/">&laquo; Prev</a>
+  
+
+  
+    
+      <a href="/shares/index.html">1</a>
+    
+  
+    
+      <em>2</em>
+    
+  
+
+  
+    <span>Next &raquo;</span>
+  
+</div>
+
+  </div>
+</div>
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://directionwithintent.com" ></a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2021 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-56325808-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+</footer>
+
+    </div>
+
+    <!--script src="https://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script-->
+    <script src="https://directionwithintent.com/js/main.js"></script>
+
+    
+
+  </body>
+
+</html>
