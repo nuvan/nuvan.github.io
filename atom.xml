@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-03-08T14:20:33+00:00</updated>
+    <updated>2021-03-09T09:06:13+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,7 +17,7 @@
 
     
     <entry>
-        <title>MV Journal - February</title>
+        <title>MV Journal - Premiere.</title>
         <link href="https://directionwithintent.com/mvjournal/mvjournal_1/"/>
         <updated>2021-03-01T00:00:00+00:00</updated>
         <id>https://directionwithintent.com/mvjournal/mvjournal_1</id>
@@ -28,7 +28,17 @@
 				</author>
         <content type="html">
         	&lt;img src=&quot;https://directionwithintent.com/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;h2 id=&quot;more-fuel-for-the-btc-fire&quot;&gt;More fuel for the BTC fire.&lt;/h2&gt;
+        	&lt;p&gt;First, let me give you a warm welcome, reader. This is the first installation of the bi-monthly MV Journal article series. This Direction With Intent post series is sponsored by &lt;a href=&quot;https://multivision.pt&quot;&gt;Multivision&lt;/a&gt; and will be part of the official communication for employees, clients and any stakeholder with enough patience for the author. Every couple of weeks, I’ll be writing about the tech-related news and events that sparked our interest or had a global impact on the industry, trying to make a clear divide between facts and opinion. I would also like to thank Multivision for the trust deposited on my content here at Direction With Intent. Although my opinion isn’t necessarily representative of the company and administration, it’s part of the human ensemble that constitutes the company. Every word will be written with the required respect for the reader and responsible for carrying the company brand value.&lt;/p&gt;
+
+&lt;p&gt;Cutting to the chase, here are the topics of this first issue:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#more-fuel-for-the-btc-fire&quot;&gt;More fuel for the BTC fire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mr-bezos-switches-gears&quot;&gt;Mr Bezos switches gears&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#media-battles-down-under&quot;&gt;Media battles Down Under&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;more-fuel-for-the-btc-fire&quot;&gt;More fuel for the BTC fire&lt;/h2&gt;
 
 &lt;p&gt;A decade ago, I bought my first Bitcoin. At that time, you could carry a wallet in a standard thumb drive and using a third party for storing a Bitcoin was noobish at least.
 My plan was to get a few of those sweet digital hashes and go on a shopping spree in the now-deceased Silk Road dark web marketplace. I didn’t even know how much I would need for whatever illegal stuff I could buy without getting arrested for it :) but feeling like a Black Hat was a thrill.
@@ -40,10 +50,10 @@ My plan failed, and I didn’t buy anything, but some months later, I sold my la
 
 &lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/coinbasebtc.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;At the time of writing this piece, BTC rallies again for another all-time high.&lt;/strong&gt;
-&lt;strong&gt;Although Mr Elon isn’t the single responsible for the previous colossal increase in value, surely he had a considerable impact on the virtual currency trading exchanges making him a whale in the market.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At the time of writing this piece, BTC rallies again for another all-time high.
+Although Mr Elon isn’t the single responsible for the previous colossal increase in value, surely he had a considerable impact on the virtual currency trading exchanges making him a whale in the market.&lt;/p&gt;
 
-&lt;p&gt;Not only that but, Tesla might even accept BTC payments in a near future.
+&lt;p&gt;Not only that but from now on, Tesla will accept payments in BTC. 
 Yes! It seems that some Teslas will roll out from the factories after presenting some cryptographic hashes to the dealer. Fun times indeed!&lt;/p&gt;
 
 &lt;h3 id=&quot;update---no-mountain-is-too-high-for-bitcoin&quot;&gt;Update - No mountain is too high for Bitcoin&lt;/h3&gt;
@@ -52,7 +62,9 @@ Yes! It seems that some Teslas will roll out from the factories after presenting
 
 &lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/stillrising.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;bezos-switches-gears&quot;&gt;Bezos switches gears&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;mr-bezos-switches-gears&quot;&gt;Mr Bezos switches gears&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://image.cnbcfm.com/api/v1/image/104961749-Jeff_doordesk.png?v=1529477304&amp;amp;w=1400&amp;amp;h=950&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -60,7 +72,7 @@ Yes! It seems that some Teslas will roll out from the factories after presenting
 Since the beginning, Mr Bezos pushed the company with a groundhoggian philosophy of meeting every new day like day one. That also means that frugality was a keyword when considering any investment. Some decades later, many offices still sport desks made of doors as a homage to those initial years.
 Nowadays, Mr Bezos leads a world conglomerate that ships almost everything you can imagine while being the IT backbone of other mega services such as Netflix and Outsystems. On the side, he still holds the Washington Post, keeping the dying business of the press very much alive.&lt;/p&gt;
 
-&lt;p&gt;The move announced last month shouldn’t be a big surprise for many, although a much delayed one. Since 2016, Mr Bezos has created a small circle of trusted execs to help run the empire’s day-to-day. &lt;strong&gt;Everyone was waiting for the CEO torch to fall into their hands. Andy Jassey was the lucky one&lt;/strong&gt; if you think that a 24/7 job with thousands of workers relying on your decisions means luck.
+&lt;p&gt;The move announced this week shouldn’t be a big surprise for many, although a much delayed one. Since 2016, Mr Bezos created a small circle of trusted execs to help run the empire’s day-to-day. Everyone was waiting that the CEO torch falls into their hands. Andy Jassey was the lucky one if you think that a 24/7 job with thousands of workers relying on your decisions means luck.
 Mr Andy, responsible for the massive success that AWS is nowadays, will hold the keys of all Amazon aspects, from retail to the cloud. A big responsibility for sure and with challenges that Mr Bezos will happily delegate for the following years.&lt;/p&gt;
 
 &lt;p&gt;Mr Bezos is not going anywhere. He lifted himself to the chairman position, but the audience guess is that he’ll be there for the tough days that eventually will meet the company as he already warned.&lt;/p&gt;
@@ -69,7 +81,9 @@ Mr Andy, responsible for the massive success that AWS is nowadays, will hold the
 
 &lt;p&gt;Here at Multivision, we wish well to Mr Bezos and his transition, hoping to see some of those Blue Origin ships delivering packages to Mars colonies.&lt;/p&gt;
 
-&lt;h2 id=&quot;media-battles-down-under&quot;&gt;Media battles Down Under.&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;media-battles-down-under&quot;&gt;Media battles Down Under&lt;/h2&gt;
 
 &lt;p&gt;From time to time, we see some doubtful tech legislation popping up here and there on the globe—some with good intents but usually grounding themselves on ill-informed politicians.&lt;/p&gt;
 
@@ -77,7 +91,7 @@ Mr Andy, responsible for the massive success that AWS is nowadays, will hold the
 “Let’s just make Australians safer over Christmas,” said Mr Bill Shorten, leader of the opposition at the time. It’s not a wonder that the IT sector still remains unconvinced. Just ask Atlassian for their thoughts.&lt;/p&gt;
 
 &lt;p&gt;This time we see another controversial law, to say it at least. While it doesn’t seem as dangerous as the TOLA Act, it will significantly impact the average internet information consumer.
-&lt;strong&gt;The (https://www.accc.gov.au/focus-areas/digital-platforms/news-media-bargaining-code) News Media Bargaining Code passed the Aussi parliament on 17 February. The law targets the American IT tech giants Facebook and Google, requiring public deals with media agencies to keep the ability to share and maintain links to their media outlets. This law initiative aims to rebalance the news industry, making the aforementioned content distributors liable for paying repurposed content.&lt;/strong&gt;&lt;/p&gt;
+The (https://www.accc.gov.au/focus-areas/digital-platforms/news-media-bargaining-code) News Media Bargaining Code passed the Aussi parliament on 17 February. The law targets the American IT tech giants Facebook and Google, requiring public deals with media agencies to keep the ability to share and maintain links to their media outlets. This law initiative aims to rebalance the news industry, making the aforementioned content distributors liable for paying repurposed content.&lt;/p&gt;
 
 &lt;p&gt;At the time of writing this piece, the table has been set and played. Facebook left the proverbial Aussie news building while Google forged deals with the largest news providers. From now on, links to Australian news content will be “restricted” within Facebook. Take my test in the image as an example. (link to the pic)
 Nevertheless, you can still share your favourite Australian topics with your groups of friends on Whatsapp. Let’s see for how long.
@@ -85,7 +99,7 @@ On the other hand, and with much more at stake than Facebook, Google accepted pa
 
 &lt;h3 id=&quot;global-shakedown-an-opinion&quot;&gt;Global shakedown, an opinion.&lt;/h3&gt;
 
-&lt;p&gt;This decision’s ripples are already being felt in other countries, with some elected officials supporting similar initiatives at their borders. We might even see, country by country, a follow up of the same tactic, appeasing local news businesses and voters. &lt;strong&gt;The most significant impact will probably come from the EU, which has successfully implemented its creative taxation proposals for companies operating within the Schengen space. The most recent victim is Netflix and other services with a similar expression in the digital streaming domain.&lt;/strong&gt; In the same political lingo, the consumer is warned that the tax protects local content production. That remains to be measured and seen, as in most cases.
+&lt;p&gt;This decision’s ripples are already being felt in other countries, with some elected officials supporting similar initiatives at their borders. We might even see, country by country, a follow up of the same tactic, appeasing local news businesses and voters. The most significant impact will probably come from the EU, which has successfully implemented its creative taxation proposals for companies operating within the Schengen space. The most recent victim is Netflix and other services with a similar expression in the digital streaming domain. In the same political lingo, the consumer is warned that the tax protects local content production. That remains to be measured and seen, as in most cases.
 The same premise applies to the new Aussie law. Nowhere is written that the funds channelled from the tech giant will be used in the news sector.&lt;/p&gt;
 
 &lt;p&gt;One should expect lawmakers to create fair conditions for the consumer and product or service provider, but in this instance, the final consumer is left out of a B2B deal, where a conglomerate of businesses says that another company is using their product or service without their consent. In fact, the product or service is massaged to be relevant in the content providers’ rankings that benefit from the shakedown. It’s served in the businesses on volition, using less than kosher tactics to make them the top of the search or the most shared article of the hour. Instead of paying for the dissemination service, it is the other way around. The dissemination service pays for the privilege of providing content shards and referral traffic to the source.
@@ -93,7 +107,9 @@ While it can be said that Google will also use the full content within one of it
 
 &lt;p&gt;Like the TOLA act, we see that the Australian government needs support from the new generations that understand the integrated tech world. Not entirely, but better.&lt;/p&gt;
 
-&lt;h3 id=&quot;facebook-falls-in-linesort-of&quot;&gt;Facebook falls in line…sort of&lt;/h3&gt;
+&lt;h3 id=&quot;update---facebook-falls-in-line&quot;&gt;Update - Facebook falls in line.&lt;/h3&gt;
+
+&lt;p&gt;After showing a hard hand, Facebook nevertheless adjusted to the regulation. To be fair, Facebook’s action triggered the Australian parliament to revise some of the law’s most draconian options. One of the most important ones allows for a quick Facebook escape button. The platform will reserve the right to block any disputed content that doesn’t fall in its negotiation perimeter and avoid getting caught with its back against the wall of a forced business.&lt;/p&gt;
 
 
         </content>
