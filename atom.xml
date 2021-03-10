@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-03-09T09:22:48+00:00</updated>
+    <updated>2021-03-10T22:40:13+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,9 +17,9 @@
 
     
     <entry>
-        <title>MV Journal - Premiere.</title>
+        <title>MV Journal Feb 22 - March 9, Premiere</title>
         <link href="https://directionwithintent.com/mvjournal/mvjournal_1/"/>
-        <updated>2021-03-01T00:00:00+00:00</updated>
+        <updated>2021-03-10T00:00:00+00:00</updated>
         <id>https://directionwithintent.com/mvjournal/mvjournal_1</id>
         <author>
 					<name>Nuno Valente</name>
@@ -27,7 +27,7 @@
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_1.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;First, let me give you a warm welcome, reader. This is the first installation of the semimonthly MV Journal article series. This Direction With Intent post series is sponsored by &lt;a href=&quot;https://multivision.pt&quot;&gt;Multivision&lt;/a&gt; and will be part of the official communication for employees, clients and any stakeholder with enough patience for the author. Every couple of weeks, I’ll be writing about the tech-related news and events that sparked our interest or had a global impact on the industry, trying to make a clear divide between facts and opinion. I would also like to thank Multivision for the trust deposited on my content here at Direction With Intent. Although my opinion isn’t necessarily representative of the company and administration, it’s part of the human ensemble that constitutes the company. Every word will be written with the required respect for the reader and responsible for carrying the company brand value.&lt;/p&gt;
 
 &lt;p&gt;Cutting to the chase, here are the topics of this first issue:&lt;/p&gt;
@@ -56,7 +56,7 @@ Although Mr Elon isn’t the single responsible for the previous colossal increa
 &lt;p&gt;Not only that but from now on, Tesla will accept payments in BTC. 
 Yes! It seems that some Teslas will roll out from the factories after presenting some cryptographic hashes to the dealer. Fun times indeed!&lt;/p&gt;
 
-&lt;h3 id=&quot;update---no-mountain-is-too-high-for-bitcoin&quot;&gt;Update - No mountain is too high for Bitcoin&lt;/h3&gt;
+&lt;h4 id=&quot;update---no-mountain-is-too-high-for-bitcoin&quot;&gt;Update - No mountain is too high for Bitcoin&lt;/h4&gt;
 
 &lt;p&gt;Since this is the first MV Journal release, there is some lag between the written pieces and the date we publish them. Below we can still see that the BTC value at Coindesk is pushing the limits, and even with some less than kosher tweets from Mr Elon, one can still imagine that the rally is far from ending this soon.&lt;/p&gt;
 
@@ -100,7 +100,7 @@ The &lt;a href=&quot;https://www.accc.gov.au/focus-areas/digital-platforms/news-
 &lt;p&gt;Nevertheless, you can still share your favourite Australian topics with your groups of friends on Whatsapp. Let’s see for how long.
 On the other hand, and with much more at stake than Facebook, Google accepted paying up, keeping their business intact and even increasing its Google News content portfolio.&lt;/p&gt;
 
-&lt;h3 id=&quot;global-shakedown-an-opinion&quot;&gt;Global shakedown, an opinion.&lt;/h3&gt;
+&lt;h4 id=&quot;global-shakedown-an-opinion&quot;&gt;Global shakedown, an opinion.&lt;/h4&gt;
 
 &lt;p&gt;This decision’s ripples are already being felt in other countries, with some elected officials supporting similar initiatives at their borders. We might even see, country by country, a follow up of the same tactic, appeasing local news businesses and voters. The most significant impact will probably come from the EU, which has successfully implemented its creative taxation proposals for companies operating within the Schengen space. The most recent victim is Netflix and other services with a similar expression in the digital streaming domain. In the same political lingo, the consumer is warned that the tax protects local content production. That remains to be measured and seen, as in most cases.
 The same premise applies to the new Aussie law. Nowhere is written that the funds channelled from the tech giant will be used in the news sector.&lt;/p&gt;
@@ -110,7 +110,7 @@ While it can be said that Google will also use the full content within one of it
 
 &lt;p&gt;Like the TOLA act, we see that the Australian government needs support from the new generations that understand the integrated tech world. Not entirely, but better.&lt;/p&gt;
 
-&lt;h3 id=&quot;update---facebook-falls-in-line&quot;&gt;Update - Facebook falls in line.&lt;/h3&gt;
+&lt;h4 id=&quot;update---facebook-falls-in-line&quot;&gt;Update - Facebook falls in line.&lt;/h4&gt;
 
 &lt;p&gt;After showing a hard hand, Facebook nevertheless adjusted to the regulation. To be fair, Facebook’s action triggered the Australian parliament to revise some of the law’s most draconian options. One of the most important ones allows for a quick Facebook escape button. The platform will reserve the right to block any disputed content that doesn’t fall in its negotiation perimeter and avoid getting caught with its back against the wall of a forced business.&lt;/p&gt;
 
