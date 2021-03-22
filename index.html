@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_2/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-march-9-march-23-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-march-9-march-23-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_1/',
       context: document.body
     }).done(function( data ) {
@@ -297,6 +309,43 @@ window.cookieconsent.initialise({
   <div class="wrap">
       <div class="rows-wrap">
           <div class="grid-row">
+            
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/mvjournal/mvjournal_2/" title="MV Journal March 9 - March 23" class="post-teaser">
+    
+      <img src="https://directionwithintent.com/images/Blog_MVJournal_2.png" alt="teaser" itemprop="image" />
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">mvjournal</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/mvjournal/mvjournal_2/">
+      MV Journal March 9 - March 23
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    The second edition already? And what a couple of weeks.
+
+
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2021-03-22" itemprop="datePublished">MARCH 22, 2021 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="mv-journal-march-9-march-23-share">0</div>
+</div>
+
+</article>
+
+            </div>
             
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">

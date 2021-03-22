@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_2/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-march-9-march-23-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-march-9-march-23-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_1/',
       context: document.body
     }).done(function( data ) {
@@ -269,6 +281,72 @@ window.cookieconsent.initialise({
         <h1>Shares</h1>
     </div>
     <div class="rows-wrap">
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
+          <a href="https://directionwithintent.com/product/hortator/" title="Hortator, an Antiquity word for the modern times" class="post-teaser">
+              <img src="https://directionwithintent.com/images/hortator_1771x1771.png" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            product
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/product/hortator/">
+                Hortator, an Antiquity word for the modern times
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/product/hortator/">
+                Hortator, a Latin word meaning “one who encourages.”
+
+
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">6 months and 1 week ago
+      </time>
+      <!--time class="entry-date" datetime="2020-09-13" itemprop="datePublished">SEPTEMBER 13, 2020 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="https://directionwithintent.com/product/hortator/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="hortator-an-antiquity-word-for-the-modern-times-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/product/hortator/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/product/hortator/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
       
         <article class="adapt-tile-to-share">
     <div class="sh-elements">
