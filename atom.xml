@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-03-20T20:14:27+00:00</updated>
+    <updated>2021-03-22T10:54:31+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,109 +15,6 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
-    
-    <entry>
-        <title>MV Journal March 9 - March 22</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_2/"/>
-        <updated>2021-03-20T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_2</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_2.png&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;The second edition already? And what a couple of weeks.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#ovh-roof-was-on-fire-and-we-dodged-that-bullet&quot;&gt;OVH roof was on fire, and we dodged that bullet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#nfts-digital-uniqueness-paying-off&quot;&gt;NFTs Digital Uniqueness paying off&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;ovh-roof-was-on-fire-and-we-dodged-that-bullet&quot;&gt;OVH roof was on fire, and we dodged that bullet&lt;/h2&gt;
-&lt;h5 id=&quot;march-13th&quot;&gt;&lt;em&gt;March 13th&lt;/em&gt;&lt;/h5&gt;
-
-&lt;p&gt;From time to time, I need to have a talk about backups at the office, and if you ever worked with me, you’re already familiar with the rhetorical:&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;
-
-    &lt;strong&gt;&lt;em&gt;“What if our data centre burned to a crisp?”&lt;/em&gt;&lt;/strong&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;For other reasons, I also use the “What if Jonh gets hit by a car?” but I digress. Some years ago, I found out that I wasn’t that original and, this particular type of problem is already known by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Bus_factor&quot;&gt;Bus Factor&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;March 10th, I bet many System Administrators got immense heartburn after losing pings to their cherished machines and learning later that their data sublimed after one OVH Strasburg data centre got utterly destroyed by fire while a second one was heavily damaged in the incident.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetovh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While the fire was still running, the whole Strasburg site had to be disconnected, putting every machine offline and out of businesses reach.
-You can find OVH’s statement in the following &lt;a href=&quot;https://www.ovh.ie/news/press/cpl1786.fire-our-strasbourg-site&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s no secret that Multivision is an OVH client, but fortunately, we weren’t significantly affected by the incident since we only had a few development machines at that location.
-We can only wish the best of luck to every business out there that might stop to a halt after this tragic incident and a speedy OVH recovery as well.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, even if you didn’t get affected by this accident, the event should be enough to remind us all that even the smallest business should always keep in mind the 3-2-1 backup rule:&lt;/p&gt;
-
-&lt;p&gt;3 data copies&lt;/p&gt;
-
-&lt;p&gt;2 types of storage&lt;/p&gt;
-
-&lt;p&gt;1 copy offsite&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;nfts-digital-uniqueness-paying-off&quot;&gt;NFTs Digital Uniqueness paying off&lt;/h2&gt;
-&lt;h5 id=&quot;march-11&quot;&gt;&lt;em&gt;March 11&lt;/em&gt;&lt;/h5&gt;
-
-&lt;p&gt;In our premiere issue, we’ve covered [Bitcoin’s value skyrocketing] (https://directionwithintent.com/mvjournal/mvjournal_1/#more-fuel-for-the-btc-fire), creating digital millionaires in a few weeks, not to mention the people that are saving valuable digital hashes for future speculative movements.
-This week, we will cover another type of digital asset that is taking creators and investors attention.&lt;/p&gt;
-
-&lt;p&gt;Mr Mike Winkelmann, also know in the digital art industry as Beeple sold one of his digital artworks for 69 million dollars with the famous auction house Christie’s.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;
-
-&lt;strong&gt;And what the proud owner got?&lt;/strong&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;This: &lt;a href=&quot;https://onlineonly.christies.com/s/first-open-beeple/beeple-b-1981-1/112924&quot;&gt;Everydays - The First 5000 days&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;But make no mistake. The owner didn’t pick up a physical art piece. The lucky buyer received a data file from the transaction, notwithstanding a unique digital file minted as an NFT.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetbeeple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sure, Mr Beeple. We get the feeling.&lt;/p&gt;
-
-&lt;p&gt;Keep up and make the best of it!&lt;/p&gt;
-
-&lt;h3 id=&quot;non-fungible-token--nft--a-primer&quot;&gt;Non-fungible Token ( NFT ), a primer.&lt;/h3&gt;
-
-&lt;p&gt;69 million dollars is a ridiculous amount of money for most mortals, but this wasn’t Mr Beeple’s first rodeo selling an NTF. A month before this record-breaking number, another original Beeple was sold for 6.6 million dollars of &lt;a href=&quot;https://en.wikipedia.org/wiki/Ethereum&quot;&gt;Ether&lt;/a&gt;. The piece was initially sold last year by Mr Beeple himself for the modest amount of 66.666,66 dollars.&lt;/p&gt;
-
-&lt;p&gt;But what’s a Non-fungible Token?&lt;/p&gt;
-
-&lt;p&gt;Based on the ubiquitous Blockchain, the technology allows a user to uniquely identify a collection of bytes making him the de-facto owner of the collection and possible signed copies. Although you can create infinite copies of the same byte collection, it’s always possible to establish the provenance of such a collection and even the transactional history of the ensemble querying the underlying NFT blockchain.&lt;/p&gt;
-
-&lt;p&gt;With the previous explanation in mind, it is easy to understand how to map this digital property set to the physical world. Assume that the author of a book only signs one hundred copies of is the first edition. A first edition might turn the printers for thousands of book copies, but only a fraction will have that valuable scribble of your favourite author.
-NFTs allow for the same type of scarcity in the digital world. An entity can create a set of digitally signed copies that reside in the implementation of a Blockchain. From that point on, the copy can switch hands with a typical transaction in the network.&lt;/p&gt;
-
-&lt;h3 id=&quot;art-but-what-else&quot;&gt;Art, but what else?&lt;/h3&gt;
-
-&lt;p&gt;When writing this article, I explained the technology to a friend of mine in a casual conversation, which made him remember something very similar. He pointed out that the NBA was doing something similar with the &lt;a href=&quot;https://www.nbatopshot.com/&quot;&gt;Top Shot&lt;/a&gt; business. He described that collectors bought “moments” instead of physical cards, giving the impression that it was a brand approved “scam”.&lt;/p&gt;
-
-&lt;p&gt;After some light digging, I’ve found out that they are leveraging NFTs for this endeavour in a partnership between the NBA and Dapper Labs, a well-known software house that develops games using Blockchain.&lt;/p&gt;
-
-&lt;p&gt;My take on NFTs would be precisely this. Every collectable that we might think can be translated to this medium, but not only that.&lt;/p&gt;
-
-&lt;p&gt;Consider the games World of Warcraft or Fortnite, where weapons and avatars can be digitally minted. Game collectors could actually own the first sword that brought down Kel’Thuzad or a unique avatar for official competitions of a Battle Royal event.&lt;/p&gt;
-
-&lt;p&gt;In my opinion, we are still some years from having digital assets on par with physical objects, but I would not be surprised if my son’s son invests in NFT markets daily.&lt;/p&gt;
-
-
-        </content>
-    </entry>
     
     <entry>
         <title>MV Journal Feb 22 - March 9, Premiere</title>
