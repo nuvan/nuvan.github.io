@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-03-22T13:59:42+00:00</updated>
+    <updated>2021-04-05T21:28:10+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,78 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal March 23 - April 06</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_3/"/>
+        <updated>2021-04-05T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_3</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_3.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;With all eyes and hearts deeply enthralled with the Ever Given fiasco and the Covid-19 season that never ends, it was hard to find those tech gems from these last two weeks. Loosen your seatbelts because this will be a slow and scenic ride, with mildly interesting facts, of course.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#ruby-on-rails-7-ever-given-moment&quot;&gt;Ruby On Rails 7 Ever Given moment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#a-floc-flies-under-the-radar&quot;&gt;A FLoC flies under the radar&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;ruby-on-rails-7-ever-given-moment&quot;&gt;Ruby On Rails 7 Ever Given moment&lt;/h1&gt;
+
+&lt;p&gt;The title is too obvious, but it’s hard to avoid the snafu of the moment.
+Quite recently, the Ruby On Rails team announced that version 7 was bound to be released in one of the most important events of the community, &lt;a href=&quot;https://railsconf.com/&quot;&gt;RailsConf 2021&lt;/a&gt;. The conference, held since 2006, gathers a large swath of technology enthusiasts.
+Unfortunately for the overall community, interest in the framework is dwindling down, but not so much that one can predict a “the end is nigh” scenario.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://ssl.gstatic.com/trends_nrtr/2431_RC04/embed_loader.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt; trends.embed.renderExploreWidget(&quot;TIMESERIES&quot;, {&quot;comparisonItem&quot;:[{&quot;keyword&quot;:&quot;ruby on rails&quot;,&quot;geo&quot;:&quot;&quot;,&quot;time&quot;:&quot;today 5-y&quot;}],&quot;category&quot;:0,&quot;property&quot;:&quot;&quot;}, {&quot;exploreQuery&quot;:&quot;date=today%205-y&amp;q=ruby%20on%20rails&quot;,&quot;guestPath&quot;:&quot;https://trends.google.com:443/trends/embed/&quot;});
+&lt;/script&gt;
+
+&lt;p&gt;Although one can see the framework popularity becoming a problem, it still musters technology giants such as Shopify, GitHub, Airbnb, VMWare, and many more. Even if no new large projects come to fruition, products and services will not evolve or maintain themselves.&lt;/p&gt;
+
+&lt;p&gt;Version 7 promises much, but we’re not here to review the release. It would be best if you took a peek at the &lt;a href=&quot;https://edgeguides.rubyonrails.org/7_0_release_notes.html&quot;&gt;release notes&lt;/a&gt; for that information.&lt;/p&gt;
+
+&lt;p&gt;As in all open source projects that depend on large communities of contributors, sometimes they rely too much on single players and put too much faith in due diligence from every project. Open Source can be unruly, even with professionals dedicating their time and resources to greater causes and community respect. The component development distributed approach spreads the work and the risk. Still, any large project should take steps to avoid crumbling when a minor project decides to pull out, even when there is a legitimate reason.
+Of course, that core development of the framework isn’t significantly impacted since platform and framework developers tend to avoid external dependencies changes while meddling with lines of code at their own machines.&lt;/p&gt;
+
+&lt;p&gt;The true problem comes when the merchandise needs to be delivered to alfa and beta testers via public package repositories. Each installation pulls the latest gem or latest changes directly from the source code repository. Community testing will not find every potential bug but smoothes many rough edges that a core developer team can’t test in due time. It’s even worst when the automatic test suite doesn’t pass from continuous integration and development tools, preventing any package from even partial testing.&lt;/p&gt;
+
+&lt;p&gt;“Vendorizing” might mitigate the problem, but it will not solve the puzzle. The term with unknown origin but stemming from the Ruby community refers to the technique of including stable versions of the dependencies within the source code of a project. It would help early adopters to keep testing a technology, avoiding rogue dependency changes. The process would require compiling from the source code instead of using the usual package channels. The drawbacks are obvious. At release time, core developer teams would need to check if their dependencies are still kosher while removing them from the repository before creating a new pristine package. More process and bureaucracy isn’t appealing but sometimes are required at some professional levels.&lt;/p&gt;
+
+&lt;p&gt;At the moment of writing this piece, the release date changed to “to be announced”. Let’s hope that Ruby on Rails floats again soon.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-floc-flies-under-the-radar&quot;&gt;A FLoC flies under the radar.&lt;/h1&gt;
+
+&lt;p&gt;Ad targeting it’s one of the biggest business weapons in the &lt;a href=&quot;https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp&quot;&gt;FANG’s&lt;/a&gt; club panoply.
+The Ads business per se is valued at numbers that few humans understand. Still, they are marketed to advertisers at even larger values when the Ad publisher states that it can optimise publicity investments targeting the best audience for their product or service.&lt;/p&gt;
+
+&lt;p&gt;Ad publishers and buyers primarily relied on the “third party cookie” to achieve the promised optimisation. The simple technique of saving small blocks of data in the client machine within the browser space allows for smoother web surfing when talking about first-party cookies. Still, it also opens up tracking of the user when it comes from a third-party provider. The simplest example possible can be described with the fictional visit to www.foo.com. Within www.foo.com, which leaves its first-party cookie, there is an Ad for bar.com with the right ( with the browser permission ) to drop a third party cookie. Every site with a bar.com Ad will understand where the user has been on the web from this point on. Enter Ad targeting.&lt;/p&gt;
+
+&lt;p&gt;Since the beginning, third party cookies became a privacy concern, and even in the ’90s, they were considered prejudicial for the safety of the end-user. Imagine a world without HTTPS where all traffic flows open to interception.
+In the last decade, we’ve seen efforts from browser brands to clean up this door, but when Ad publishers own or invest in browser development, it’s hard to understand how this would work without the force of law. In Europe, we’ve seen what that might bring. After the GDPR’s enactment, web sites decided to avoid the European customer altogether, albeit few. The majority added the mandatory form that asks the user to select which third party cookies you want to accept and their purposes. If you’re a European user, you’ve already felt the user experience degradation everywhere.&lt;/p&gt;
+
+&lt;p&gt;On March 30, Google flipped a switch for 0.5% of Chrome’s user base on restricted geographies. On top of the third-party cookie, Chrome will build the user FLoC ID and send it back to advertisers in the first phase of the technology with real users.&lt;/p&gt;
+
+&lt;p&gt;FLoC stands for Federated Learning of Cohorts. Considering a low-resolution explanation, the FLoC ID will replace individual tracking with third-party cookies using group signatures. The group signature should be transient, but it will store your online behaviour in a piece of data that matches other users behaviour. A signature will fall in multiple cohorts, allowing advertisers to target groups of users with similar interests and behaviours.&lt;/p&gt;
+
+&lt;p&gt;There is much to be said about the technology and if it really works on the user behalf, but everything points out to more significant problems with groups of users while avoiding singling out a specific user. To get a better picture, we advise a visit to the &lt;a href=&quot;https://github.com/WICG/floc&quot;&gt;official repository&lt;/a&gt; and a broader analysis from the &lt;a href=&quot;https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea&quot;&gt;Electronic Frontier Foundation&lt;/a&gt;. Although they present a dire future for the web, we want to focus on the user choice issue.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-experiment&quot;&gt;An Experiment&lt;/h2&gt;
+
+&lt;p&gt;Imagine that a corporation or government decides to experiment with a new way of delivering a vitamin to a broad spectrum of the population. They choose to embed it into the water distribution of some locations and see how it goes.
+While some readers are already appalled with such a proposition, this is what frequently happens on the web. Vitamins aren’t a water feature, and tracking isn’t a web feature. Nevertheless, social experiments like the one that Google is doing with FLoC are a dime a dozen. After opening the FLoC feature toggle, Google gave no warning to users that are a part of the experiment.
+Even using “experiment” is mainly abusing the word. It seems that FLoC will stay for some years, and we should see it as it is. A technology trial.
+One might not care about tracking and even accept paying the price to avoid random Ad spam, but assuming that the software that runs on a user machine can switch behaviour without user consent is more difficult to understand.
+There is a way of opting out of the experiment but at the cost of crippling existing features. The user needs to disable all third-party cookies explicitly. If your privacy concerns are serious, you’ve probably made this decision in the past, but consider users that rely on single sign-on portals and need to lose unrelated facilities to avoid experimentation.&lt;/p&gt;
+
+&lt;p&gt;The first FLoC flight is already in the air, and time will tell if the technology stands, but users should be informed that they are part of worldwide social experiments, and be provided with a lever to exit the ride at any time.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal March 9 - March 23</title>

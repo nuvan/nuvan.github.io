@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_3/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-march-23-april-06-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-march-23-april-06-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_2/',
       context: document.body
     }).done(function( data ) {
@@ -286,6 +298,67 @@ window.cookieconsent.initialise({
     <div class="sh-elements">
       
         <div class="sh-left">
+          <a href="https://directionwithintent.com/mvjournal/mvjournal_3/" title="MV Journal March 23 - April 06" class="post-teaser">
+              <img src="https://directionwithintent.com/images/Blog_MVJournal_3.png" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            mvjournal
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/mvjournal/mvjournal_3/">
+                MV Journal March 23 - April 06
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/mvjournal/mvjournal_3/">
+                With all eyes and hearts deeply enthralled with the Ever Given fiasco and the Covid-19 season that never ends, it was...
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2021-04-05" itemprop="datePublished">APRIL 05, 2021 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="mv-journal-march-23-april-06-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/mvjournal/mvjournal_3/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_3/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
           <a href="https://directionwithintent.com/mvjournal/mvjournal_2/" title="MV Journal March 9 - March 23" class="post-teaser">
               <img src="https://directionwithintent.com/images/Blog_MVJournal_2.png" alt="teaser">
           </a>
@@ -311,7 +384,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">today
+      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-03-22" itemprop="datePublished">MARCH 22, 2021 00:00:00
       </time-->
@@ -372,7 +445,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">1 week and 5 days ago
+      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">3 weeks and 5 days ago
       </time>
       <!--time class="entry-date" datetime="2021-03-10" itemprop="datePublished">MARCH 10, 2021 00:00:00
       </time-->
@@ -433,7 +506,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">3 months and 1 week ago
+      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">3 months and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-12-13" itemprop="datePublished">DECEMBER 13, 2020 00:00:00
       </time-->
@@ -497,7 +570,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">4 months and 1 week ago
+      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">4 months and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-11-12" itemprop="datePublished">NOVEMBER 12, 2020 00:00:00
       </time-->
@@ -534,70 +607,6 @@ window.cookieconsent.initialise({
 </article>
 
       
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-left">
-          <a href="https://directionwithintent.com/product/on-diderots-effect-applications/" title="On Diderot's Effect Applications" class="post-teaser">
-              <img src="https://directionwithintent.com/images/diderot_300x300.jpg" alt="teaser">
-          </a>
-        </div>
-        <div class="sh-rigth">
-          <div class="post-category">
-            product
-          </div>
-          
-            <div class="post-title">
-              <a href="https://directionwithintent.com/product/on-diderots-effect-applications/">
-                On Diderot's Effect Applications
-              </a>
-            </div>
-            <div class="post-excerpt">
-              <a href="https://directionwithintent.com/product/on-diderots-effect-applications/">
-                The Diderot Effect is an application of belief reinforcement on a self-identity stereotype within the context of cons...
-              </a>
-            </div>
-          
-
-          <div class="post-meta">
-    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">5 months and 3 weeks ago
-      </time>
-      <!--time class="entry-date" datetime="2020-10-01" itemprop="datePublished">OCTOBER 01, 2020 00:00:00
-      </time-->
-    
-      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
-      <a class="comment-count" href="https://directionwithintent.com/product/on-diderots-effect-applications/#disqus_thread"></a>
-        
-    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="on-diderot-s-effect-applications-share">0</div>
-</div>
-
-
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/product/on-diderots-effect-applications/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/product/on-diderots-effect-applications/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-        </div>
-      
-    </div>
-</article>
-
-      
     </div>
     
 <div class="pagination">
@@ -612,6 +621,10 @@ window.cookieconsent.initialise({
   
     
       <a href="/shares/page2">2</a>
+    
+  
+    
+      <a href="/shares/page3">3</a>
     
   
 
