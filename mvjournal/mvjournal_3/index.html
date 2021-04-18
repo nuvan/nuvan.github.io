@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_4/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-april-5-april-19-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-april-5-april-19-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_3/',
       context: document.body
     }).done(function( data ) {
@@ -346,7 +358,7 @@ Of course, that core development of the framework isn’t significantly impacted
 
 <h1 id="a-floc-flies-under-the-radar">A FLoC flies under the radar.</h1>
 
-<p>Ad targeting it’s one of the biggest business weapons in the <a href="https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp">FANG’s</a> club panoply.
+<p>Ad targeting its one of the biggest business weapons in the <a href="https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp">FANG’s</a> club panoply.
 The Ads business per se is valued at numbers that few humans understand. Still, they are marketed to advertisers at even larger values when the Ad publisher states that it can optimise publicity investments targeting the best audience for their product or service.</p>
 
 <p>Ad publishers and buyers primarily relied on the “third party cookie” to achieve the promised optimisation. The simple technique of saving small blocks of data in the client machine within the browser space allows for smoother web surfing when talking about first-party cookies. Still, it also opens up tracking of the user when it comes from a third-party provider. The simplest example possible can be described with the fictional visit to www.foo.com. Within www.foo.com, which leaves its first-party cookie, there is an Ad for bar.com with the right ( with the browser permission ) to drop a third party cookie. Every site with a bar.com Ad will understand where the user has been on the web from this point on. Enter Ad targeting.</p>

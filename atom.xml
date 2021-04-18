@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-04-05T21:28:10+01:00</updated>
+    <updated>2021-04-18T23:09:51+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,77 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal April 5 - April 19</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_4/"/>
+        <updated>2021-04-18T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_4</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_2.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;It seems that we are living through a slow world reboot. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Ever_Given#2021_Suez_Canal_grounding&quot;&gt;traffic of massive boats can flow through international waters unencumbered again&lt;/a&gt;. Pharmaceutical companies trickle jabs to every nation with gradual global adoption revealing minor bugs here and there. Excluding &lt;a href=&quot;https://ourworldindata.org/covid-vaccinations&quot;&gt;early adopters that are far ahead&lt;/a&gt;, we can see a new major version of life rolling out with ease, bringing us to another edition of the MV Journal.
+Yes, you are right. This is sooner than expected, but we are syncing our releases with Multivision’s newsletters.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-old-facebook-leak-that-is-new-again&quot;&gt;The old Facebook leak that is new again&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mv-journal-follow-up&quot;&gt;MV Journal Follow-up&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;the-old-facebook-leak-that-is-new-again&quot;&gt;The old Facebook leak that is new again&lt;/h1&gt;
+
+&lt;p&gt;If you’re a frequent Facebook user, you’ve probably got the warning that some of your private data were leaked, and I’m not (only) talking about the most recent word on the grapevine.&lt;/p&gt;
+
+&lt;p&gt;Some of my readers still didn’t care about social media at the time
+ but Harvey Jones and José Hiram Soltren presented a &lt;a href=&quot;http://groups.csail.mit.edu/mac/classes/6.805/student-papers/fall05-papers/facebook.pdf&quot;&gt;paper&lt;/a&gt; in 2005 where amongst several topics they referred the potential privacy issue with the information posted on the platform. Their work included an analysis of user posts, publicly available at the time, from more than 70K users from different schools. The information was obtained with a simple &lt;a href=&quot;https://en.wikipedia.org/wiki/Data_scraping&quot;&gt;data scrapping script&lt;/a&gt;. To better situate the reader, we need to remember that Facebook was designed primarily for the USA’s Ivy League colleges.&lt;/p&gt;
+
+&lt;p&gt;A couple of years later, the company started allowing search engines to index profile pages and soon tried to monetize user information about rented Blockbuster videos. The business idea set back Mr Zuckerberg a  total of 9.5 million dollars after a class action suit that invoked the [Video Privacy Protection Act], and it was the first actual learning moment for the company. &lt;a href=&quot;https://en.wikipedia.org/wiki/Information_wants_to_be_free&quot;&gt;Information wants to be free&lt;/a&gt;, but if it isn’t yours, you should lock it up as hard as the IT allows it.&lt;/p&gt;
+
+&lt;p&gt;2021 and &lt;a href=&quot;https://www.techrepublic.com/article/facebook-data-privacy-scandal-a-cheat-sheet&quot;&gt;many leaks later&lt;/a&gt;, we get another warning from almost every online tech media outlet. 533 million users got their phone numbers exposed from a breach that was allegedly reported and closed in 2019. You’ve probably “liked” a link to this report on your Facebook page.
+Facebook claims that the data is old, and the attack vector is closed. The story says that someone or a group of someones exploited the phone search feature and collected the data but looking for any Facebook warning about the issue at the time yields no information. If one pushes back the search a year early, we see that Facebook dropped the feature in 2018.&lt;/p&gt;
+
+&lt;p&gt;Claiming that the data is old serves only as an excuse for the media. And a weak one indeed.
+Facebook is a global platform. Considering the last decade of operations and counting the leaks that were made public,  it is quite possible to create rich data sets with user timelines, valuable for criminal or commercial endeavours.
+We also know that Cybersecurity is a challenging topic and drives a trillion-dollar industry. Even the safest systems in the world are not impervious to data breaches, but what we usually get from platforms such as Facebook are IT blunders or plain irresponsibility with data management.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-shadow-of-shadow-profiles&quot;&gt;The shadow of Shadow Profiles&lt;/h2&gt;
+
+&lt;p&gt;This type of data breach isn’t limited to registered users.&lt;/p&gt;
+
+&lt;p&gt;Large enterprises made of multiple mergers and acquisitions eventually face the single sign-on battle. It is usual to pull user data from every information system to get a picture of the company employees and access requirements to create partial profiles to bootstrap the process.
+Facebook took a similar path to build user profiles for non-users. If you recall, handy features to sync contacts from phonebooks and mail lists started showing up a decade ago in every mobile device. They allowed merging social profiles with your contacts, enabling quick access to any app using a single index that matched mail address with phone number with LinkedIn profile and with, of course, your Facebook profile.
+Even if your privacy concerns keep you on the sidelines of the social media arena, you might have been leaked as well, thanks to the contacts of your closest friends.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-now-what&quot;&gt;And now what?&lt;/h2&gt;
+
+&lt;p&gt;We are still living through the legal infancy of global digital corporations. To be fair, legal systems worldwide aren’t equipped to deal with technology pace and &lt;a href=&quot;https://www.bbc.com/news/world-australia-46463029&quot;&gt;state legislation is flawed&lt;/a&gt; to say the least. The EU, amongst other state ensembles, are taking the first steps to penalize poor data security and management, but one cannot see systems like GDPR as a final option. It is still up to the user to take responsibility for their data and avoid oversharing. Data technology literacy needs to be taken seriously and taught to younger generations in Instagram, Snapchat and Tik Tok bubbles so that pandatum leaks don’t impact users’ and their virtual neighbour’s lives.&lt;/p&gt;
+
+&lt;h1 id=&quot;mv-journal-follow-up&quot;&gt;MV Journal Follow-up&lt;/h1&gt;
+
+&lt;p&gt;The last week featured a few topics worthy of mention, but I want to open up a new section on our esteemed MV Journal series.
+Media is fast, too much nowadays. It burns hearts and souls with pressing topics but discards them as quickly as they are read. Retractions, corrections and follow-ups are rare to be seen, and we want to pay our dues to the latter, hoping that the first two don’t happen so soon in our publications.
+So without further ado, let’s pick some of our previous posts and see what happened since.&lt;/p&gt;
+
+&lt;h3 id=&quot;mv-journal-premiere&quot;&gt;MV Journal Premiere&lt;/h3&gt;
+
+&lt;p&gt;This particular edition got an update before “going to the presses” but left one point untouched.
+In the piece &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_1/#mr-bezos-switches-gears&quot;&gt;Mr Bezos switches gears&lt;/a&gt;, we’ve introduced the new Amazon CEO but at the expense of a vacant position in AWS. Mr Andy took the CEO baton, but there is already someone to fill in the seat.
+Mr Adam Selipsky currently leads Tableau Software and will replace Mr Andy in May. He’s not an outsider. With an 11 year stint at AWS before moving to Tableau he will come with a challenge well cut for him. Bringing his deep understanding of the cloud business that propelled Tableau to a spectacular exit to the Salesforce conglomerate.&lt;/p&gt;
+
+&lt;h3 id=&quot;march-24th-until-april-6th&quot;&gt;March 24th until April 6th&lt;/h3&gt;
+
+&lt;p&gt;Our last edition revealed the new user tracking agenda from Google in the piece &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_3/#a-floc-flies-under-the-radar&quot;&gt;A FLoc flies under the radar&lt;/a&gt;.
+After deploying their experiment, Google had to wait for the backlash, but it didn’t come from the user world.
+Vivaldi, Edge, Brave and Mozilla already made their statements, and they will not fly with Google’s FLoC. At least for now.
+Most of the companies showed a lack of interest or even repudiated the technology, pledging non-adoption. For now, this is great for the end-user that will get a wide array of options to cater for their privacy needs. Nevertheless, I don’t think that this is going to be the end of it. Unless browser technology keeps being subsidized by joint ventures of large tech companies, eventually the money will become an issue, and as we’ve seen, only large corporations such as Microsoft and Google can keep dollars flowing into developers hands. We are probably going to see developments in the near future so stay tuned to our releases.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal March 23 - April 06</title>
@@ -60,7 +131,7 @@ Of course, that core development of the framework isn’t significantly impacted
 
 &lt;h1 id=&quot;a-floc-flies-under-the-radar&quot;&gt;A FLoC flies under the radar.&lt;/h1&gt;
 
-&lt;p&gt;Ad targeting it’s one of the biggest business weapons in the &lt;a href=&quot;https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp&quot;&gt;FANG’s&lt;/a&gt; club panoply.
+&lt;p&gt;Ad targeting its one of the biggest business weapons in the &lt;a href=&quot;https://www.investopedia.com/terms/f/fang-stocks-fb-amzn.asp&quot;&gt;FANG’s&lt;/a&gt; club panoply.
 The Ads business per se is valued at numbers that few humans understand. Still, they are marketed to advertisers at even larger values when the Ad publisher states that it can optimise publicity investments targeting the best audience for their product or service.&lt;/p&gt;
 
 &lt;p&gt;Ad publishers and buyers primarily relied on the “third party cookie” to achieve the promised optimisation. The simple technique of saving small blocks of data in the client machine within the browser space allows for smoother web surfing when talking about first-party cookies. Still, it also opens up tracking of the user when it comes from a third-party provider. The simplest example possible can be described with the fictional visit to www.foo.com. Within www.foo.com, which leaves its first-party cookie, there is an Ad for bar.com with the right ( with the browser permission ) to drop a third party cookie. Every site with a bar.com Ad will understand where the user has been on the web from this point on. Enter Ad targeting.&lt;/p&gt;

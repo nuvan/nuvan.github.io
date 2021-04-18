@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_4/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-april-5-april-19-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-april-5-april-19-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_3/',
       context: document.body
     }).done(function( data ) {
@@ -338,7 +350,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">3 months and 3 weeks ago
+      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">4 months and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2020-12-13" itemprop="datePublished">DECEMBER 13, 2020 00:00:00
       </time-->
@@ -378,7 +390,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">4 months and 3 weeks ago
+      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">5 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2020-11-12" itemprop="datePublished">NOVEMBER 12, 2020 00:00:00
       </time-->

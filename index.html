@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_4/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-april-5-april-19-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-april-5-april-19-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_3/',
       context: document.body
     }).done(function( data ) {
@@ -324,6 +336,41 @@ window.cookieconsent.initialise({
             
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/mvjournal/mvjournal_4/" title="MV Journal April 5 - April 19" class="post-teaser">
+    
+      <img src="https://directionwithintent.com/images/Blog_MVJournal_2.png" alt="teaser" itemprop="image" />
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">mvjournal</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/mvjournal/mvjournal_4/">
+      MV Journal April 5 - April 19
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    It seems that we are living through a slow world reboot. The traffic of massive boats can flow through in...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">today
+      </time>
+      <!--time class="entry-date" datetime="2021-04-18" itemprop="datePublished">APRIL 18, 2021 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="mv-journal-april-5-april-19-share">0</div>
+</div>
+
+</article>
+
+            </div>
+            
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/mvjournal/mvjournal_3/" title="MV Journal March 23 - April 06" class="post-teaser">
     
       <img src="https://directionwithintent.com/images/Blog_MVJournal_3.png" alt="teaser" itemprop="image" />
@@ -344,7 +391,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">today
+      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">1 week and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2021-04-05" itemprop="datePublished">APRIL 05, 2021 00:00:00
       </time-->
@@ -381,7 +428,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">2 weeks ago
+      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">3 weeks and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2021-03-22" itemprop="datePublished">MARCH 22, 2021 00:00:00
       </time-->
@@ -416,7 +463,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">3 weeks and 5 days ago
+      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">1 month and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2021-03-10" itemprop="datePublished">MARCH 10, 2021 00:00:00
       </time-->
@@ -451,7 +498,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">3 months and 3 weeks ago
+      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">4 months and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2020-12-13" itemprop="datePublished">DECEMBER 13, 2020 00:00:00
       </time-->
@@ -489,7 +536,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">4 months and 3 weeks ago
+      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">5 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2020-11-12" itemprop="datePublished">NOVEMBER 12, 2020 00:00:00
       </time-->
@@ -527,7 +574,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">6 months and 6 days ago
+      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">6 months and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-10-01" itemprop="datePublished">OCTOBER 01, 2020 00:00:00
       </time-->
@@ -567,7 +614,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">6 months and 3 weeks ago
+      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">7 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2020-09-13" itemprop="datePublished">SEPTEMBER 13, 2020 00:00:00
       </time-->
@@ -607,7 +654,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">7 months and 5 days ago
+      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">7 months and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-09-02" itemprop="datePublished">SEPTEMBER 02, 2020 00:00:00
       </time-->
@@ -645,7 +692,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">3 years and 11 months ago
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 5 days ago
       </time>
       <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
       </time-->
