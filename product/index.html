@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_5/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-april-19-may-3-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-april-19-may-3-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_4/',
       context: document.body
     }).done(function( data ) {
@@ -350,7 +362,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">6 months and 2 weeks ago
+      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">7 months and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2020-10-01" itemprop="datePublished">OCTOBER 01, 2020 00:00:00
       </time-->
@@ -392,7 +404,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">7 months and 1 week ago
+      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">7 months and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-09-13" itemprop="datePublished">SEPTEMBER 13, 2020 00:00:00
       </time-->
@@ -434,7 +446,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">7 months and 2 weeks ago
+      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">8 months and 2 days ago
       </time>
       <!--time class="entry-date" datetime="2020-09-02" itemprop="datePublished">SEPTEMBER 02, 2020 00:00:00
       </time-->
@@ -474,7 +486,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 5 days ago
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
       </time-->

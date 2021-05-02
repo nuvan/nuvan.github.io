@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-04-18T23:09:51+01:00</updated>
+    <updated>2021-05-02T22:17:55+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,125 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal April 19 - May 3</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_5/"/>
+        <updated>2021-04-18T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_5</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_5.png&quot;&gt;&lt;br/&gt;
+        	&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#waking-up-at-basecamp&quot;&gt;Waking up at Basecamp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cloudflare-conspiracy-in-portugal&quot;&gt;Cloudflare Conspiracy in Portugal &lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;waking-up-at-basecamp&quot;&gt;Waking up at Basecamp&lt;/h1&gt;
+&lt;h5 id=&quot;may-1st&quot;&gt;&lt;em&gt;May 1st&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/dhh&quot;&gt;Mr David Heinemeier Hansson&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/jasonfried&quot;&gt;Mr Jason Fried&lt;/a&gt; carved an extraordinarily successful company from the boom and bust of the dot com era.
+&lt;a href=&quot;https://basecamp.com/&quot;&gt;Basecamp&lt;/a&gt;, formerly registered as 37Signals, was founded in 1999 as the typical digital agency focused on the shiny web world that was about to burst. Nevertheless, the company survived through tough times and rebooted itself in 2004, leveraging the work of Mr David Heinemeier Hansson, or DHH as he is known on the web, that culminated in the Ruby On Rails first release. A good mix between European and American stock took the company to stardom and created a Siliconish culture that many developers sought to work for.&lt;/p&gt;
+
+&lt;p&gt;A full remote company that opted out of the Unicorn stables and kept its core values, avoiding what the founders thought would be unsustainable growth and unreasonable demands from investors. And it worked.
+Ruby On Rails became one of the most successful web development frameworks, and version 7 was about to hit the public repositories, as we mentioned some weeks ago. 
+Basecamp becomes a bastion for Open Source within the Ruby environment and sets the tone for remote work in the software development market. Along the way, they &lt;a href=&quot;https://basecamp.com/books&quot;&gt;publish several acclaimed books, one being featured in the bestseller list of the New York Times&lt;/a&gt;. The company strives to share what it takes to become another Basecamp and how to avoid the pitfalls of the startup era.&lt;/p&gt;
+
+&lt;p&gt;Software at Basecamp is opinionated. Obviously, you don’t expect that technology expresses its feelings about the way that it is used. The expression is based on how the Software was designed to steer and encourage end-users to work with it. Opinionate Software imposes work pathways and rules intending to create frictionless experiences. Ruby On Rails is a great example, and the “On Rails” part says it all. The first versions of the framework were groundbreaking. Making a web application with a LAMP stack require the developer to keep architecture traceability from the top of his head. Each iteration could yield a different way of doing things which hampers the integration of new developers of even day-to-day maintenance. Rails leverage the dynamic features of Ruby to establish a working path for every project. A developer could be utterly ignorant of business rules, but diving into a new codebase would be like a walk in the park and a very familiar one indeed.&lt;/p&gt;
+
+&lt;p&gt;Company leaders and hired developers were aligned on product and software development topics which helps pushing forward Basecamp’s agenda. To work at Basecamp, you should be opinionated and with product development skills. From designers to customer support employees, Basecamp built a team that was well integrated with the culture and promoted it.&lt;/p&gt;
+
+&lt;p&gt;Without disconnecting themselves from Basecamp and Rails, Mr David Heinemeier Hansson and Mr Jason Fried become very active online, promoting their political and business views mixed with Basecamp’s company culture topics and spreading their feelings online.&lt;/p&gt;
+
+&lt;p&gt;From Apple&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/dhhapple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;to Zoom&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/dhhzoom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;,there is always a target that they could point out in the Twittersphere.&lt;/p&gt;
+
+&lt;p&gt;It wasn’t unusual that their employees matched their beliefs, not only strengthening their points of view but inadvertently mixing business with pleasure to a point where one can not distinguish the borders.&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-dei&quot;&gt;Enter DEI&lt;/h2&gt;
+
+&lt;p&gt;Mr Jason Fried made an appearance in 2017 at an &lt;a href=&quot;https://www.inc.com/magazine/201709/jason-fried/2017-inc5000-diversity-in-the-workforce.html&quot;&gt;Inc’s article&lt;/a&gt; where he suggested that his company didn’t make the necessary efforts to promote a diverse environment, but the work already started, and they couldn’t wait for a transition. They need to be the drive of it.
+This was a clear signal to the Diversity, Equity/Equality and, Inclusion movement.
+Some years have passed since that piece was produced, and last year, a new employee took this matter with his own hands and started a DEI Council to push forward some ideas into company policies. As usual for DEI dieharders, it was necessary to shovel out old skeletons and make apologies public. An old Basecamp name list was made visible to everyone at the company as an example that something must be done.
+Some senior employees built a list of funny client names in their spare time as comic relief from the day-to-day business issues. Eventually, the list becomes an uncomfortable joke for some, and after a while, the jig was up.
+Whether the issue was solved by the company or by the passing of time is unclear, but it served its purpose to address the alleged uninterest of the leaders in the new DEI council. Escalating small issues as the root of all evil was the first step, and this time, Mr David and Mr Jason thought that it was time to intervene.
+While their intervention assumed the blame of a name list that was fundamentally wrong in MR David’s view, it wasn’t something that should be blown out of proportion and dismissed the issue with some rationality. The reaction was building up within company borders.&lt;/p&gt;
+
+&lt;p&gt;After taking his own time and a few weeks later, Mr Jason published a new company policy that “societal and political discussions” were banned from their office place, meaning, their Basecamp software instance.
+After coming down to this point in the article, the reader might already see what happens when trying to stifle opinion in an opinionated company.&lt;/p&gt;
+
+&lt;p&gt;The first backlash was internal and brute to the point of trying to get action from HR against company founders.
+Doubling down on the new policy, Mr David took a huge management decision and offered severance packages to everyone that didn’t agree with the status quo from now on.&lt;/p&gt;
+
+&lt;p&gt;Below you can find a list of tweets from multiple Basecamp ex-employees when writing this piece. More or less, a third of the company left Basecamp, but the problem goes beyond virtual walls.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/zachwaugh/status/1388190748189802501?s=12&quot;&gt;Zach Waugh&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/georgeclaghorn/status/1388131009531719680?s=12&quot;&gt;George Claghorn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/kaspth/status/1380616358266871810?s=20&quot;&gt;Kasper Timm Hansen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/dylanginsburg/status/1388199059983413257?s=20&quot;&gt;Dylan Ginsburg&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;… and many more.&lt;/p&gt;
+
+&lt;p&gt;Some of the names are active contributors to Rails and Ruby. They influence the development community. Although it’s straightforward for a company like Basecamp to replenish its human resources, it’s tough to recoup the social capital built on top of the community.&lt;/p&gt;
+
+&lt;p&gt;The next weeks are crucial for Ruby on Rails and Basecamp, and it would be unfortunate if this event accelerated the graph that &lt;a href=&quot;&quot;&gt;we’ve shown in our past article&lt;/a&gt;. Ruby on Rails and the Ruby community still have a lot to pour down into the technology zeitgeist, and it would be a shame to see that a minor or unexisting DEI issue might affect the tech community cohesion.&lt;/p&gt;
+
+&lt;h1 id=&quot;cloudflare-conspiracy-in-portugal&quot;&gt;Cloudflare Conspiracy in Portugal&lt;/h1&gt;
+&lt;h5 id=&quot;april-29th&quot;&gt;&lt;em&gt;April 29th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;We do know that Portugal is a drop of water in the technology ocean. Featuring a few Unicorns in our borders is a proud thing to have, but we shouldn’t be fooled by the reach of technology prowess.
+Trusting in well-established companies with a proven track record is a good rule of thumb, and when the &lt;a href=&quot;https://www.ine.pt/xportal/xmain?xpgid=ine_main&amp;amp;xpid=INE&quot;&gt;National Statistics Institute&lt;/a&gt; hired &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;Cloudflare&lt;/a&gt; to help with the security and availability of the &lt;a href=&quot;https://censos2021.ine.pt/&quot;&gt;Portuguese Census site&lt;/a&gt; they were making a good choice, one thinks.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloudflare-even-in-portugal&quot;&gt;Cloudflare, even in Portugal&lt;/h2&gt;
+
+&lt;p&gt;November 4, Mr Matthew Prince made a &lt;a href=&quot;https://twitter.com/eastdakota/status/1323947883201142786?lang=en&quot;&gt;poignant tweet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/mattprincetweet.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;tagging the Portuguese Prime Minister and Mr Paddy Cosgrave. Mr Matthew is the co-founder and CEO of a well-known company, Cloudflare.&lt;/p&gt;
+
+&lt;p&gt;It seems that the Portuguese Government wasn’t following through with some promises that it made to bring tech talent to Portugal.
+It remains unclear if this was simply an American entrepreneur having a taste of Portuguese bureaucratic inefficiencies or if we saw backstage promises that couldn’t be fulfilled. The aftermath of the social exposure was dealt with behind doors, and nothing was spoken publicly afterwards.&lt;/p&gt;
+
+&lt;p&gt;Fast forward some years, and Cloudflare is hiring heavily for Lisbon. At the time of writing this piece, we saw seventy positions available. This is a significant investment in the Portuguese technology environment and brings a small country closer to companies with a planetary scale.&lt;/p&gt;
+
+&lt;h2 id=&quot;cloudflare-why-not&quot;&gt;Cloudflare. Why not?&lt;/h2&gt;
+
+&lt;p&gt;Taking the previous segment into our attention is essential to consider NEI’s option. Cloudflare isn’t only a big company that could provide good service to NEI. It is also an important company to retain and bring talent from the tech world. We can’t tell for sure that the decision was taken with political backstage action, but even if it wasn’t, it was a good option for the services that NEI’s required and for the Portuguese partnership.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-conspiracy&quot;&gt;The conspiracy&lt;/h2&gt;
+
+&lt;p&gt;As we can see with more frequency, conspiracies and false news spread like wildfire. A single Facebook post that we aren’t linking here to avoid distributing even more bad content of this type was replicated and explored by several actors. Portuguese Census data was being transferred and stored outside national borders.
+If this was true, it was a big slipup of the Portuguese Government and a clear violation of the European GDPR.
+NEI’s reaction to the conspiracy was to end Cloudflare’s contract even after both explaining publicly that private data wasn’t stored in Cloudflare’s servers. They even pointed out that for Cloudflare services to work correctly, it is better to use edge locations instead of relocating connections to a data centre on the other side of the world.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-technology&quot;&gt;The technology&lt;/h2&gt;
+
+&lt;p&gt;Cloudflare’s provides services for availability and security. The idea is to provide secure links to an application and keeping it up and running even when some addresses suffer high traffic periods or direct DooS attacks.
+Static assets are cached, but dynamic content is outside of Cloudflare’s control. This means that user input is also outside of Cloudflare’s services, and client servers should be responsible for persisting any user interactions.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-law&quot;&gt;The law&lt;/h2&gt;
+
+&lt;p&gt;Unclear at best.  In fact, there is the chance that Portuguese data flows to servers outside of national borders while in traffic. This should not be a problem for GDPR, but grey areas might squeeze some precedents if the case is taken to the courts.&lt;/p&gt;
+
+&lt;p&gt;We do hope that rationality prevails and NEI’s can reinstate their contract with Cloudflare. There isn’t any technical reason that makes this a dangerous or risky deal for Portuguese data. On the other hand, we are still in murky GDPR waters, and we could get a hand slap from Brussels bureaucrats nonetheless. If that happened, it would break the trust with a great company that opted to invest in a country in dire need of foreign capital.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal April 5 - April 19</title>
@@ -27,7 +146,7 @@
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_2.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_3.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;It seems that we are living through a slow world reboot. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Ever_Given#2021_Suez_Canal_grounding&quot;&gt;traffic of massive boats can flow through international waters unencumbered again&lt;/a&gt;. Pharmaceutical companies trickle jabs to every nation with gradual global adoption revealing minor bugs here and there. Excluding &lt;a href=&quot;https://ourworldindata.org/covid-vaccinations&quot;&gt;early adopters that are far ahead&lt;/a&gt;, we can see a new major version of life rolling out with ease, bringing us to another edition of the MV Journal.
 Yes, you are right. This is sooner than expected, but we are syncing our releases with Multivision’s newsletters.&lt;/p&gt;
 

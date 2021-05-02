@@ -28,7 +28,7 @@ Yes, you are right. This is sooner than expected, but we are syncing our release
 	
 	
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="https://directionwithintent.com/images/Banner_MVJournal_banner_2.png">
+		<meta name="twitter:image" content="https://directionwithintent.com/images/Banner_MVJournal_banner_3.png">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
@@ -41,7 +41,7 @@ Yes, you are right. This is sooner than expected, but we are syncing our release
 ">
 	
 	
-		<meta property="og:image" content="https://directionwithintent.com/images/Banner_MVJournal_banner_2.png">
+		<meta property="og:image" content="https://directionwithintent.com/images/Banner_MVJournal_banner_3.png">
 	
 	
 	<meta property="og:image" content="https://directionwithintent.com/images/share01.jpg">
@@ -130,6 +130,18 @@ window.cookieconsent.initialise({
   var query_url  = "https://graph.facebook.com/?id=http://directionwithintent.com";
   $(document).ready(function(){
     
+    $.ajax({
+      url: query_url + '/mvjournal/mvjournal_5/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-april-19-may-3-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-april-19-may-3-share").html("0");
+      }
+    });
+   
     $.ajax({
       url: query_url + '/mvjournal/mvjournal_4/',
       context: document.body
@@ -313,7 +325,7 @@ window.cookieconsent.initialise({
     <div id="page-wrapper">
       <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
       
-  <div class="page-lead" style="background-image:url(//directionwithintent.com/images/Banner_MVJournal_banner_2.png)">
+  <div class="page-lead" style="background-image:url(//directionwithintent.com/images/Banner_MVJournal_banner_3.png)">
   </div>
 
 
