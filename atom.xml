@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-05-04T16:07:42+01:00</updated>
+    <updated>2021-05-16T21:31:49+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,86 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal May 3 - May 17</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_6/"/>
+        <updated>2021-05-16T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_6</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_6.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Security and privacy. If you ask individuals if they want them, they will probably say yes, but few will actively choose them, leaving the community even more exposed to be exploited by businesses and criminals. This week we take a dive into Apple privacy and government insecurity.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#apple-ad-nudge&quot;&gt;Apple Ad Nudge &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#life-hacking&quot;&gt;Life Hacking &lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;apple-ad-nudge&quot;&gt;Apple Ad Nudge&lt;/h1&gt;
+
+&lt;p&gt;In 2017 Mr Richard Thaler and Mr Cass Sunstein got one of those calls that you can’t miss. Well, to be accurate, Mr Thaler failed to pick up the 4:00 AM call from Sweden, and one can understand, but that is another story.&lt;/p&gt;
+
+&lt;p&gt;The prize in memory of Mr Alfred Nobel rewarded their work on a controversial theory. Nudge, which is also the name of their book about the subject, tells us, among other things, that the power of default options can be a massive driver of policymaking without compromising a citizen agency. While, in fact, we might argue that some defaults might be pernicious when the agent doesn’t know all the options, one can appreciate the benefits of good default options. Take, for instance, the organ donor option in your driver’s licence or medical id card. Inertia will regulate swats of citizens to ignore the choice, and if the default selection is “not allowed”, it is proven that a large proportion of citizens will ignore the alternative even though they might be inclined to take the altruistic choice. Switch the onus of negation to the subject, and you’ll get near the opposite result contributing positively to society in general.&lt;/p&gt;
+
+&lt;h2 id=&quot;ios-choices&quot;&gt;iOS Choices&lt;/h2&gt;
+
+&lt;p&gt;The first time iOS users had the chance of switching their choice regarding ad targetting was in September 2016 when Apple released iOS 10. From that point on, users could mask their presence on the internet by switching a single toggle in their device settings. In December 2020, Apple stated that approximately 20% of users opted out of tracking.&lt;/p&gt;
+
+&lt;p&gt;The initial Nudge here was quite clear. Ad targeting benefited the expansion of the iOS platform, especially from users who, on average, spend much more than users from other systems such as Android. And don’t forget to take into consideration the previous releases that just ignored the user preference regarding privacy. The first iPhone was launched 9 years before. Enough time to grab a significant ad market share.&lt;/p&gt;
+
+&lt;p&gt;Since 2019, Apple is giving signals of changes around privacy, and this is a subject that gains significant traction from several internet players. Even &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_3/#a-floc-flies-under-the-radar&quot;&gt;Google saw their latest effort repelled by almost all browsers, as you’ve probably read here.&lt;/a&gt;
+Although one can’t pinpoint Apple’s true rationale for the change, besides the privacy concern that is publically promoted, it is a development that matches the risk from some other Apple options in the past. For instance, dropping the headphones jack caused a considerable reaction from users and hardware vendors. Everyone agreed that it was a drastic option, even if you were keen on Bluetooth alternatives. Nevertheless, we see some years later that wireless headphones are here to stay, at least for a while, and have become widely adopted by mobile device users.
+This time, it will be difficult to lead by example since the most significant competitor isn’t quite interested in taking the same route. Android, being part of Alphabet, will probably avoid berating Google’s ad business.&lt;/p&gt;
+
+&lt;p&gt;As of today, 4% of users opted in with the new ad tracking option when the estimates pointed to 10 to 15% adoption, which was already alarming numbers for advertisers. But using the word advertisers dilutes the most significant players that are worrying about this option and leading the pack we have nonetheless than Facebook.&lt;/p&gt;
+
+&lt;p&gt;It isn’t clear if most Facebook users understand that they are an asset to ad-hungry companies. Whether we are talking about Instagram or Facebook, publicity is the most significant income slice for the company and losing big spenders will impact their value proposition.&lt;/p&gt;
+
+&lt;p&gt;We can speculate that mitigation strategies are already in place by many ad specialists, but Apple claims that it will penalize app developers that try to infringe user privacy options. We can take this as a serious warning since Netflix and Fortnite precedents are still vivid, and in the case of Epic Games, Fortnite’s owner, it is still up for deliberation in American courts.&lt;/p&gt;
+
+&lt;p&gt;We believe that the “private by default” Nudge will be adopted by many businesses, but the price tag might be too hefty for the end-user. Without a clear path to discriminate user preferences, digital advertising will need to start using probabilistic approaches or even the dreaded “digital prime-time” where buying the best time slots on a UTC frontier will be available to businesses with the capital for mass-market publicity, leaving small business out of user’s sights.&lt;/p&gt;
+
+&lt;p&gt;Of course, this is an extreme prediction for the ad market, but the next year will be crucial for the business. With privacy nudges everywhere, from GDPR to the end of third party cookies, it’s going to be read ocean for advertisers and a blue ocean for ad disruptors.&lt;/p&gt;
+
+&lt;h1 id=&quot;life-hacking&quot;&gt;Life Hacking&lt;/h1&gt;
+
+&lt;p&gt;Captain Crunch and Joybubbles.
+It isn’t the name of a comic book nor a TV show for kids. The pair of whimsical characters go back to the early 70s when America was still at war with Vietnam. They are known to be the first hackers in the wild, taking advantage of flaws in the AT&amp;amp;T telephone network architecture to make free phone calls.
+Those were simpler times, technologically speaking, and hackers (phreakers if you want to be precise), while disruptive to some entities, didn’t present a real risk for citizens.&lt;/p&gt;
+
+&lt;p&gt;Enter the ’90s, and incidents become more severe but still without any worldwide impact. Some hacker groups can take control of bank accounts, and penetrating governmental institutions becomes a badge of honour in the community. The sequence of events brings down the powerful bureaucracy of the United States, and laws are passed to condemn agents that conquer unauthorized access to third party systems.&lt;/p&gt;
+
+&lt;p&gt;Superpower governments start to get annoyed with kids and hacker ensembles that act like they own the internet. They understand that a new battleground emerges from the globalization of technology and adjust resources to avoid being outgunned by other players. Enigma in the second world war should be an excellent example of how a clear vision of the enemy information flow can decide the victor. Cyberwarfare begins, first without real consequences, only as a spy versus spy competition, at least from the point of view of an ordinary citizen, until Stuxnet is made public.&lt;/p&gt;
+
+&lt;p&gt;Allegedly, Stuxnet was the product of a USA/Israel joint venture to stifle the atomic efforts from Iran but take this with a teaspoon of salt since nothing is confirmed and several specialists made conjectures about the topic. Nevertheless, the final product is a remarkable piece of Software with a very well-defined purpose in a narrow range of equipment. Too much of a coincidence that Iran saw their nuclear program suffer setbacks from an onslaught of the virus.&lt;/p&gt;
+
+&lt;p&gt;From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar but with a rigid barrier to overcome. How to transfer money without leaving a trace?&lt;/p&gt;
+
+&lt;p&gt;The combination of ransomware and the advent of cryptocurrencies took the cybercrime business to new heights. Freezing data and systems of a target using advanced cryptographic Software via the normal attack vectors is the equivalent of a pointed gun. Making the target comply with a secure money transfer requires an extra step. Provide clear instructions on how to buy a digital asset and transfer it in a safe and timely fashion to an anonymous wallet on the other side of the world or even in the office next door. That can be quickly done by attaching an extra piece of Software or just a document to help the unfortunate victim. After that, the cybercriminal just has to wait that a successful transfer is made to provide the cryptographic key in exchange.&lt;/p&gt;
+
+&lt;p&gt;This can be a shooting game in the dark and wait for a top-up of the donation box. Automation can deal with transfer confirmation and key delivery, making time for the cybercriminal to be on top of new attack vectors or updating botnets that drag the web, fishing fresh new targets. An this might be the crux of the matter. A slice of the cybercriminals makes random attacks. A computer is a target, whether it is a bank or a hospital. Last year it was documented &lt;a href=&quot;https://www.nytimes.com/2020/09/18/world/europe/cyber-attack-germany-ransomeware-death.html&quot;&gt;the first death, suspect of a ransomware attack to a hospital&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;May 7. The Colonial Pipeline in the United States, one of the most critical oil transport pipes, suffers a ransomware attack that forces management to close the fuel faucet. In a few days, after the word got public, gasoline prices start to rise, with citizens raiding gas pumps and filling every container at hand. This event took a week and a day to resolve, raising alarms everywhere in the government and the federal bureau of investigation.
+DarkSide, the group of hackers who assumed the responsibility for the attack, later made statements that reveal regrets about the incident. With a half-apology, they’ve declared that targets would be scrutinized beforehand to avoid social distress. This was too little too late, of course, but at least no deaths related to the incident were tallied.&lt;/p&gt;
+
+&lt;p&gt;The concerns with this type of random attack are clear, but they raise even more issues when governments only think security threats should be fenced from governmental systems. Private endeavours are the backbone of an economy, and the dimension of some should become a governmental concern as well, speaking in terms of obliging one with the security that the state should provide.&lt;/p&gt;
+
+&lt;p&gt;But has the state the capacity of protecting systems, whether they are within the governmental sphere or not? In 2019 an ex-employee of a Kansas water supply station hacked the system and fudged with the values of some chemicals used to treat the water. The incident could have affected the water supply of thousands of citizens, causing health problems on a massive scale. Incidents with utilities are more frequent and expose vulnerabilities in old and unpatched equipment. Utilities aren’t a sexy infrastructure and easy targets for cyberwarfare. Probably we shouldn’t wait for governmental institutions that sometimes lag with technology deployment at their own sites.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-defend&quot;&gt;How to defend?&lt;/h2&gt;
+
+&lt;p&gt;Security should be at the forefront of software development and not as a system after-patch. Country critical systems should be isolated from the web until security is taken seriously when developing and deploying newer systems. This has a cost, of course. It will take more time and money to set up safe facilities, usually cumbersome for operations because of the security hops and checks that one has to take to manage them.&lt;/p&gt;
+
+&lt;p&gt;Mr Max Tegmark is one of the founders of Future of Life. An institution that tries to tackle the important technological humanity endeavours that bring immense benefits but significant risks as well. One of the foundation areas of interest is Artificial Intelligence and the safety of such systems. In a “Making Sense” conversation with Mr Sam Harris, he points out the “security first” mindset when putting humans on the moon. He states that we need to revisit and reuse the same guidelines when developing systems that can backfire, leaving humans in a dire situation.
+I would argue that Mr Tegmark could expand those concerns to existing dull technology, ignored and taken for granted by all, but a pillar of the human status quo.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal April 19 - May 3</title>
