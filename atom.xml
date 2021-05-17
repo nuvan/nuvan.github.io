@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-05-16T21:31:49+01:00</updated>
+    <updated>2021-05-17T21:43:31+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -19,7 +19,7 @@
     <entry>
         <title>MV Journal May 3 - May 17</title>
         <link href="https://directionwithintent.com/mvjournal/mvjournal_6/"/>
-        <updated>2021-05-16T00:00:00+01:00</updated>
+        <updated>2021-05-17T00:00:00+01:00</updated>
         <id>https://directionwithintent.com/mvjournal/mvjournal_6</id>
         <author>
 					<name>Nuno Valente</name>
@@ -73,7 +73,12 @@ Those were simpler times, technologically speaking, and hackers (phreakers if yo
 
 &lt;p&gt;Allegedly, Stuxnet was the product of a USA/Israel joint venture to stifle the atomic efforts from Iran but take this with a teaspoon of salt since nothing is confirmed and several specialists made conjectures about the topic. Nevertheless, the final product is a remarkable piece of Software with a very well-defined purpose in a narrow range of equipment. Too much of a coincidence that Iran saw their nuclear program suffer setbacks from an onslaught of the virus.&lt;/p&gt;
 
-&lt;p&gt;From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar but with a rigid barrier to overcome. How to transfer money without leaving a trace?&lt;/p&gt;
+&lt;p&gt;From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar using ransomware software. A few variants can be found, but the modus operandi is usually the same. 
+Infect the target machine via a known vector
+Encrypt data or steal sensitive information.
+Ask for a ransom to decrypt the target’s precious bytes or threaten them with data exposure.
+Wait for donations.
+&lt;a href=&quot;https://digitalguardian.com/blog/history-ransomware-attacks-biggest-and-worst-ransomware-attacks-all-time&quot;&gt;The first one that we know about was delivered by mail in standard floppy disks and with a PO box address to where targets should send the money&lt;/a&gt;. After so many Hollywood films, one can clearly point out the flaw in the plan. How to get money anonymously without leaving a trace?&lt;/p&gt;
 
 &lt;p&gt;The combination of ransomware and the advent of cryptocurrencies took the cybercrime business to new heights. Freezing data and systems of a target using advanced cryptographic Software via the normal attack vectors is the equivalent of a pointed gun. Making the target comply with a secure money transfer requires an extra step. Provide clear instructions on how to buy a digital asset and transfer it in a safe and timely fashion to an anonymous wallet on the other side of the world or even in the office next door. That can be quickly done by attaching an extra piece of Software or just a document to help the unfortunate victim. After that, the cybercriminal just has to wait that a successful transfer is made to provide the cryptographic key in exchange.&lt;/p&gt;
 
@@ -84,7 +89,7 @@ DarkSide, the group of hackers who assumed the responsibility for the attack, la
 
 &lt;p&gt;The concerns with this type of random attack are clear, but they raise even more issues when governments only think security threats should be fenced from governmental systems. Private endeavours are the backbone of an economy, and the dimension of some should become a governmental concern as well, speaking in terms of obliging one with the security that the state should provide.&lt;/p&gt;
 
-&lt;p&gt;But has the state the capacity of protecting systems, whether they are within the governmental sphere or not? In 2019 an ex-employee of a Kansas water supply station hacked the system and fudged with the values of some chemicals used to treat the water. The incident could have affected the water supply of thousands of citizens, causing health problems on a massive scale. Incidents with utilities are more frequent and expose vulnerabilities in old and unpatched equipment. Utilities aren’t a sexy infrastructure and easy targets for cyberwarfare. Probably we shouldn’t wait for governmental institutions that sometimes lag with technology deployment at their own sites.&lt;/p&gt;
+&lt;p&gt;But has the state the capacity of protecting systems, whether they are within the governmental sphere or not? In 2019 an ex-employee of a Kansas water supply station hacked the system and fudged with the values of some chemicals used to treat the water. The incident could have affected the water supply of thousands of citizens, causing health problems on a massive scale. Incidents with utilities are more frequent and expose vulnerabilities in old and unpatched equipment. Utilities aren’t a sexy infrastructure and an easy target for cyberwarfare. Probably we shouldn’t wait for governmental institutions that sometimes lag with technology deployment at their own sites.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-defend&quot;&gt;How to defend?&lt;/h2&gt;
 
@@ -92,6 +97,7 @@ DarkSide, the group of hackers who assumed the responsibility for the attack, la
 
 &lt;p&gt;Mr Max Tegmark is one of the founders of Future of Life. An institution that tries to tackle the important technological humanity endeavours that bring immense benefits but significant risks as well. One of the foundation areas of interest is Artificial Intelligence and the safety of such systems. In a “Making Sense” conversation with Mr Sam Harris, he points out the “security first” mindset when putting humans on the moon. He states that we need to revisit and reuse the same guidelines when developing systems that can backfire, leaving humans in a dire situation.
 I would argue that Mr Tegmark could expand those concerns to existing dull technology, ignored and taken for granted by all, but a pillar of the human status quo.&lt;/p&gt;
+
 
         </content>
     </entry>
