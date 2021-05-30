@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-05-17T21:46:33+01:00</updated>
+    <updated>2021-05-30T22:22:45+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,98 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal May 17 - May 31</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_7/"/>
+        <updated>2021-05-16T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_7</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_7.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Last week we saw the end of the first legal battle that pitted Epic Games against a technology behemoth, Apple. Fortnite’s owner wants to revolutionize how app markets work and, to that end, made a bold move against the most prominent market makers for mobile applications: Apple and Google. 
+While some fight for dollars in digital markets, others try to improve the shopping experience in physical markets. At this side of the pond, a [Sensei] and [SONAE] joint venture opened the first grab and go cashier-less supermarket experience in Portugal following [Amazon GO] lead.
+Save a few minutes of your time and dive in at another MV Journal issue.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#grab-and-go-shopping-like-a-ninja&quot;&gt;Grab and go. Shopping like a Ninja.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#market-wars-with-epic-battles&quot;&gt;Market wars with Epic battles&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;grab-and-go-shopping-like-a-ninja&quot;&gt;Grab and go. Shopping like a Ninja.&lt;/h1&gt;
+&lt;h5 id=&quot;may-26th&quot;&gt;&lt;em&gt;May 26th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;April 2018, at the end of an informal social dinner after a well packed Lisbon AWS User Group Meetup, one of the Spain AWS presenters was checking if his Revolut credit card would be accepted by our payment terminals. My co-organizer quickly pointed out that Revolut had good service in Portugal, but he avoided using his physical credit card almost all the time.&lt;/p&gt;
+
+&lt;p&gt;“How do you pay stuff and get physical money if necessary?” asked the technologist.&lt;/p&gt;
+
+&lt;p&gt;“Just using my smartphone as a QR code reader and issuing draw codes for our ATMs with &lt;a href=&quot;https://www.mbway.pt&quot;&gt;MBWay&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The AWS technologist looked confused, but most of my fellow compatriots took the statement with a nonchalant demeanour.&lt;/p&gt;
+
+&lt;p&gt;First, let me stress that our dinner friend presented bleeding-edge technology from AWS in our humble user group. This is a person that sees innovation daily, and he still looked surprised by our conversation.&lt;/p&gt;
+
+&lt;p&gt;Modernity usually creeps in bits. It takes a while to understand that we are immersed in its hot waters, and when we notice it, it’s already too late to get out. Portugal is one of the best places for validating new technology, and our ATM network and services are an excellent example of it.&lt;/p&gt;
+
+&lt;p&gt;A few months before our User Group, Amazon was debuting Go. The first cashier-less store where a client just picks what he wants and leaves the store, removing one of the most significant friction points between the customer and the brand. No more waiting for payment in the queue.&lt;/p&gt;
+
+&lt;p&gt;May 2021, almost three years later, we’ve seen the first replica of Amazon Go, opening its doors to the public in Portugal. The partnership between &lt;a href=&quot;https://www.sonae.pt&quot;&gt;SONAE&lt;/a&gt; and &lt;a href=&quot;https://www.sensei.tech&quot;&gt;Sensei&lt;/a&gt; , two Portuguese companies, brought us &lt;a href=&quot;https://labs.continente.pt&quot;&gt;Continente Labs&lt;/a&gt;. A new cashier-less supermarket store packed with bleeding-edge image tracking systems and weight sensors, picking up client actions and tallying the expense.&lt;/p&gt;
+
+&lt;p&gt;While the technology is impressive, it still has a steep bill attached to it—almost a million euros for 150 square meters that cannot be fully exploited to squeeze the investment. As in most innovations, first-comers pay the price while others will reap the benefits of a mature technology a few cycles in the future.&lt;/p&gt;
+
+&lt;p&gt;To be fair, this isn’t the first cashier-less store that promises no queues at the end. Another Portuguese brand already had a similar concept store with client tracking and automated payments at the exit. &lt;a href=&quot;https://www.pingodoce.pt/lojas/pingo-doce-go-nova&quot;&gt;Pingo Doce Lab Store&lt;/a&gt; does the same. In 2019 &lt;a href=&quot;https://www.jeronimomartins.com&quot;&gt;Jerónimo Martins&lt;/a&gt;, the owner of the Pingo Doce brand, opened a bigger store on &lt;a href=&quot;https://www2.novasbe.unl.pt/en/&quot;&gt;NOVA SBE&lt;/a&gt; campus with the objective of testing and developing new technologies for their brick and mortar stores. The big difference is the way that the client interacts with the products that he wants. You can’t just pick up and leave. You’ll need an NFC smartphone to read product tags and confirm their pick up.&lt;/p&gt;
+
+&lt;p&gt;One thinks how long the technology of both brands will expand to the remaining stores. Some probably will have to wait many years since a typical supermarket takes 2000 square meters. A single 150 square meter store took 20 Kilometers of cabling. Many smaller stores in large cities are the best target of an upgrade if the experience becomes successful, but the usual Portuguese supermarket will have to wait for some technology breakthroughs. From what we see, Pingo Doce’s trial wasn’t pushed to other stores, but one has to consider that between 2019 and our current day, home deliveries took the lion share of clients and brands preoccupations.
+Maybe in a world with less COVID, we can see a renewed interest in physical stores and investments to improve a client shopping experience, but until we are back to fully open and restrictionless days, one cannot see such spending making sense.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-waiting-game&quot;&gt;The waiting game&lt;/h2&gt;
+
+&lt;p&gt;A European study puts supermarket queuing times in the podium of waiting with an average time of &lt;a href=&quot;https://www.acrwebsite.org/volumes/11474/volumes/e01/E-01&quot;&gt;20.2 minutes per shopping trip&lt;/a&gt;. In our experience, we’ve felt that the numbers are pretty generous.
+Queueing theory deals with these numbers and ways of making them shorter on average. From roundabouts to the great teachings of Eliah Goldratt on how to defeat the bottleneck, we’ve played this game since the first time that a resource was busy. Wouldn’t it be nice to avoid it altogether?
+Cashier-less stores are a pleasant proposition. In and out without a fuss. Go through the checkpoint and get billed at the exit avoiding human interaction with any store employee. Imagine how technology has been removing queues from your life. From bills to the lottery, skip the storefront and go online, avoiding synchronization with other humans.&lt;/p&gt;
+
+&lt;p&gt;So, why not avoid going to the store altogether?&lt;/p&gt;
+
+&lt;p&gt;The COVID pandemic pushed retailers to deploy and improve home delivery services. With many workers furlough or working from home, waiting for grocery delivery isn’t a problem. Supermarket chains can schedule deliveries easily while shoppers are happily waiting. When businesses open again and workers are at the office, delivery hours will shorten for many. Fees will probably get higher for prime time.&lt;/p&gt;
+
+&lt;p&gt;Whether we opt for home delivery or visiting a supermarket, we hope that we can forget that shopping queues ever existed in the next few years.&lt;/p&gt;
+
+&lt;h1 id=&quot;market-wars-with-epic-battles&quot;&gt;Market Wars with Epic Battles&lt;/h1&gt;
+&lt;h5 id=&quot;may-29th&quot;&gt;&lt;em&gt;May 29th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;It is hard to negate that Apple is at the forefront of product development and innovation. Having a device from Apple is a luxury even coveted in Cuba, and having the money to buy it will probably set up back for a big part of your salary or, you probably are in a mid/top tier of wealth earners.&lt;/p&gt;
+
+&lt;p&gt;While some have the chance of holding a piece of Apple’s equipment even at the cost of a kidney, which actually happened with a Chinese citizen, others have a big purse to buy it and even spend more dollars in software.
+The near-luxury status of Apple makes everything Apple-related very enticing for businesses. Wheater you are selling accessories or digital goods.&lt;/p&gt;
+
+&lt;p&gt;Fortnite, one of the most profitable games from Epic Games, was making a bundle selling game passes and in-app purchases such as avatar and equipment skins for almost every game platform.
+While the absolute values aren’t public, some estimates point that 1.2 billion dollars flowed through Apple App Store, leaving a commission of approximately 350 million dollars. While everything was working as intended for Apple, Epic didn’t share the same opinion.&lt;/p&gt;
+
+&lt;p&gt;Apple isn’t the only market-maker for smartphone applications, although it controls its hardware and software distribution. Google also has its Play Store, which houses a wealthy library of applications for Android. The difference between both is well-known. While Apple doesn’t allow sideloading applications nor third party markets, Google leaves some space for competition.
+Nevertheless, Google’s Play Store has the most extensive footprint in the Android app market, and it isn’t hard to understand why. The brand matters, and client’s put their trust in Google’s products. On the other hand, Google doesn’t help competitors either. They actually penalize third-party stores making them hard to install or even flagging them as unsafe. &lt;a href=&quot;&quot;&gt;Aptoid&lt;/a&gt;, a Portuguese third-party app market, found it early in their business since 2014 battles with each new Android version. Mulivision’s floor neighbours can tell you a story or two about Google’s behaviours.&lt;/p&gt;
+
+&lt;p&gt;Whether in Google’s Play Store or Apples App Store, you have to pay a 30% commission, but only after making a million dollars in Apple’s case. Until then you get a discount rate of 15%. For each dollar that your app extracts from a user, 30 cents go to the market maker. Epic went with the rules initially, but eventually, the company CEO thought it was too much, although it’s a fee found in almost all gaming app markets. On one occasion, Mr Tim Sweeney, Epic’s co-founder and CEO, even suggested that an 8% fee would be enough to make Apple’s and Google’s markets profitable.&lt;/p&gt;
+
+&lt;p&gt;Log story short, Epic’s CEO decided to launch a Fortnite version in both markets that sidestepped Google’s and Apple’s fees, but after a few hours, both versions were removed, with Epic being kicked from both stores.&lt;/p&gt;
+
+&lt;p&gt;For a company is very hard to take with a friendly demeanour a client’s take stating how much you should make or how much profit is fair, especially when considering non-essential digital goods. But this is precisely what Apple and Google need to defend at the court. Their profit is appropriate, and that the exclusion of third party markets in Apple’s case is for the user benefit.&lt;/p&gt;
+
+&lt;p&gt;What should make us all even more confused is that Steam, Valve’s digital game store, also asks for the same fees as Google and Apple, but Epic is ok with it, probably because Fornite isn’t on their online shelves. Apple even asked for Valve’s numbers to make their case but was denied by the company.&lt;/p&gt;
+
+&lt;p&gt;According to pundits and lawmakers, it’s unclear if any of Epic’s battles will win any Market war, but the probability is low. No date was set, and months will pass before any decision is made public. In between, Epic will continue to push its agenda leveraging &lt;a href=&quot;https://www.bbc.com/news/technology-56941173&quot;&gt;European Union’s decision against Apple practices within the App Store&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, Apple’s also took a swing at another Epic’s moneymaker, but with even more dire consequences for Epic. Epic’s iOS and macOS accounts were about to be closed after Epic’s Fortnite account was removed. One of those is responsible for maintaining the development and support of Unreal Engine. The gaming library is probably the basis for a large chunk of first-person shooter games, and Epic gets 5% royalties from big earners.
+&lt;a href=&quot;https://www.theverge.com/2020/8/26/21402443/epic-fortnite-apple-unreal-engine-ios-game-developers-lawsuit&quot;&gt;While Epic took a full-frontal assault at digital giants, it left a broadly exposed flank that can be exploited by its adversaries.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Let us wait a few months but hoping that greed doesn’t affect most developers and brands that earn their livings from these markets, and some, using endangered libraries.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal May 3 - May 17</title>
