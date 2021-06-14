@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_8/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-may-31-june-14-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-may-31-june-14-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_7/',
       context: document.body
     }).done(function( data ) {
@@ -372,6 +384,41 @@ window.cookieconsent.initialise({
             
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/mvjournal/mvjournal_8/" title="MV Journal May 31 - June 14" class="post-teaser">
+    
+      <img src="https://directionwithintent.com/images/Blog_MVJournal_8.png" alt="teaser" itemprop="image" />
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">mvjournal</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/mvjournal/mvjournal_8/">
+      MV Journal May 31 - June 14
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Would you pay 3 dollars per month to get an undo feature in your favourite blogging platform? I wouldn’t,...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2021-06-13" itemprop="datePublished">yesterday
+      </time>
+      <!--time class="entry-date" datetime="2021-06-13" itemprop="datePublished">JUNE 13, 2021 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="mv-journal-may-31-june-14-share">0</div>
+</div>
+
+</article>
+
+            </div>
+            
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/mvjournal/mvjournal_7/" title="MV Journal May 17 - May 31" class="post-teaser">
     
       <img src="https://directionwithintent.com/images/Blog_MVJournal_7.png" alt="teaser" itemprop="image" />
@@ -392,7 +439,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-05-30" itemprop="datePublished">yesterday
+      <time class="entry-date" datetime="2021-05-30" itemprop="datePublished">2 weeks and 1 day ago
       </time>
       <!--time class="entry-date" datetime="2021-05-30" itemprop="datePublished">MAY 30, 2021 00:00:00
       </time-->
@@ -427,7 +474,7 @@ window.cookieconsent.initialise({
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-05-16" itemprop="datePublished">2 weeks and 1 day ago
+      <time class="entry-date" datetime="2021-05-16" itemprop="datePublished">4 weeks and 1 day ago
       </time>
       <!--time class="entry-date" datetime="2021-05-16" itemprop="datePublished">MAY 16, 2021 00:00:00
       </time-->
@@ -463,7 +510,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">1 month and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-04-18" itemprop="datePublished">APRIL 18, 2021 00:00:00
       </time-->
@@ -498,7 +545,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">1 month and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-04-18" itemprop="datePublished">APRIL 18, 2021 00:00:00
       </time-->
@@ -533,7 +580,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">1 month and 3 weeks ago
+      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">2 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2021-04-05" itemprop="datePublished">APRIL 05, 2021 00:00:00
       </time-->
@@ -570,7 +617,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">2 months and 1 week ago
+      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">2 months and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-03-22" itemprop="datePublished">MARCH 22, 2021 00:00:00
       </time-->
@@ -605,7 +652,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">2 months and 3 weeks ago
+      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">3 months and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2021-03-10" itemprop="datePublished">MARCH 10, 2021 00:00:00
       </time-->
@@ -640,7 +687,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">5 months and 2 weeks ago
+      <time class="entry-date" datetime="2020-12-13" itemprop="datePublished">6 months and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2020-12-13" itemprop="datePublished">DECEMBER 13, 2020 00:00:00
       </time-->
@@ -678,7 +725,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">6 months and 2 weeks ago
+      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">7 months and 4 days ago
       </time>
       <!--time class="entry-date" datetime="2020-11-12" itemprop="datePublished">NOVEMBER 12, 2020 00:00:00
       </time-->
@@ -716,7 +763,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">8 months and 2 days ago
+      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">8 months and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-10-01" itemprop="datePublished">OCTOBER 01, 2020 00:00:00
       </time-->
@@ -756,7 +803,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">8 months and 2 weeks ago
+      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">9 months and 4 days ago
       </time>
       <!--time class="entry-date" datetime="2020-09-13" itemprop="datePublished">SEPTEMBER 13, 2020 00:00:00
       </time-->
@@ -796,7 +843,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">9 months and 1 day ago
+      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">9 months and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-09-02" itemprop="datePublished">SEPTEMBER 02, 2020 00:00:00
       </time-->
@@ -834,7 +881,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 1 month ago
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 2 months ago
       </time>
       <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
       </time-->
