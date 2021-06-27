@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-06-16T08:31:06+01:00</updated>
+    <updated>2021-06-27T20:00:50+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,112 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal June 13 - June 28</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_9/"/>
+        <updated>2021-06-24T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_9</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_9.png&quot;&gt;&lt;br/&gt;
+        	&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#inaturalist-pokemon-go-for-real&quot;&gt;iNaturalist, Pokemon Go for real&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#obituary---the-rise-and-fall-of-jonh-mcafee&quot;&gt;Obituary - The rise and fall of Jonh McAfee&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;inaturalist-pokemon-go-for-real&quot;&gt;iNaturalist, Pokemon Go for real&lt;/h1&gt;
+&lt;h5 id=&quot;june-27th&quot;&gt;&lt;em&gt;June 27th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;Last week &lt;a href=&quot;https://www.economist.com/&quot;&gt;The Economist&lt;/a&gt; published another instalment of &lt;a href=&quot;https://www.economist.com/technology-quarterly/2021-06-19&quot;&gt;Technology quarterly&lt;/a&gt;. This one focused on nature conservation, and within their article roster, one spiked my interest. &lt;a href=&quot;https://www.economist.com/technology-quarterly/2021/06/15/how-volunteer-observers-can-help-protect-biodiversity&quot;&gt;Crowdsourced Science&lt;/a&gt; skimmed over the amateur, and sometimes professional, animal sightseeing activities that are getting a boost from new technologies. One reference struck a cord in your author; however, it also felt too short for its value.&lt;/p&gt;
+
+&lt;p&gt;One evening in the lovely setting of Alvito, a locality in the middle of Portuguese Alentejo, an abnormal grass movement brought to my attention a medium-sized spider for a European or a micro-scale critter using &lt;a href=&quot;https://www.youtube.com/watch?v=DI9BUbsLhAg&quot;&gt;Aussie standards&lt;/a&gt;.
+The unfamiliar multilegged insect was rather intriguing and mixing my curiosity with the fear of tangle with it again without noticing it, I’ve decided to take the picture below and share it on a closed Portuguese Facebook science forum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/wolfspider.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Asking for &lt;a href=&quot;https://en.wikipedia.org/wiki/Wisdom_of_the_crowd&quot;&gt;the wisdom of the crowd&lt;/a&gt;, I got some replies with the spider genus, but a fellow forum dweller, besides pointing out the species introduced me to a new world of fun. He recommended installing the &lt;a href=&quot;https://www.inaturalist.org/&quot;&gt;iNaturalist mobile app&lt;/a&gt; and upload the foto afterwards to see if the system could pinpoint the species as well.
+A few minutes later, I was publishing my first observation. I had crossed the path of a Radiated Wolf Spider. The day after, some other iNaturalist users had seen my low-quality picture and corroborated the classification.&lt;/p&gt;
+
+&lt;p&gt;The Economist piece dedicated a scanty sentence to the platform, and I could have none of that. So here are a few more details about it and an invite to join me in this beautiful modern nature conservation world.&lt;/p&gt;
+
+&lt;h2 id=&quot;inaturalist&quot;&gt;iNaturalist&lt;/h2&gt;
+
+&lt;p&gt;iNaturalist results from a collaboration between &lt;a href=&quot;https://www.inaturalist.org/pages/about&quot;&gt;National Geographic and the California Academy of Sciences&lt;/a&gt;. It helps amateurs like me to discover nature around our own dwellings. 
+With approximately 71 million observations, 340 thousand species and 4.2 million users, it is the largest online community of crowdsourced biodiversity data and keeps growing every year.&lt;/p&gt;
+
+&lt;p&gt;If your living on modern planet earth, you’ve probably got the word of Pokemon Go, a game phenomenon that exploded some years ago on all continents. The player was invited to physically move around with the game running to find  Pokemons hidden at specific geographic coordinates. The objective was to collect them and eventually battle with other Pokemon players.&lt;/p&gt;
+
+&lt;p&gt;How about doing it for real? Without the fighting, of course.&lt;/p&gt;
+
+&lt;p&gt;Since my first encounter with the friendly Wolf Spider, I collected a meagre 69 observations of plants, insects, birds, and reptiles, including a Cuban Ground Hutia and a Roughtail Rock Agama. 
+Nowadays, I can even distinguish a Mud Dauber from a Velutina.
+What are those? Well, join me, and you’ll find out.&lt;/p&gt;
+
+&lt;h2 id=&quot;machine-learning-animals&quot;&gt;Machine Learning Animals&lt;/h2&gt;
+
+&lt;p&gt;The requirements to process and distil such a large amount of information aren’t simple. Even before going through the Software Engineering that allows the feat, one can imagine that Machine Learning has an integral part in their pipelines. 
+The team responsible for the platform have been organizing classification competitions since 2017. They proved to be essential to the continuous development of their ML pipeline. Each year the error rate dropped, and it’s already below 10%. For a dataset comprising 2.7 million images with more than 10 thousand species, it is a remarkable result.
+Unfortunately, like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Netflix_Prize&quot;&gt;Netflix Prize&lt;/a&gt;, winning doesn’t mean feasibility, and some of the most accurate models don’t have a good fit with mobile specs, at least for now.&lt;/p&gt;
+
+&lt;h2 id=&quot;aws-of-course&quot;&gt;AWS of course&lt;/h2&gt;
+
+&lt;p&gt;While looking for hints about their tech stack, I’ve tripped in &lt;a href=&quot;https://www.amazon.science/research-awards/success-stories/inaturalist-cvpr-machine-learning-datasets-challenge&quot;&gt;this blog post from Amazon Science&lt;/a&gt; and discovered that iNaturalist had won a &lt;a href=&quot;https://www.amazon.science/research-awards/program-updates/2019-q2-q3-aws-machine-learning-research-awards-recipients-announced&quot;&gt;AWS Machine Learning Research Award in 2019&lt;/a&gt;, and guess what, they are hosted at AWS!
+The prize provides unlimited funds and AWS credits to run the app on their cloud but also allows the project to provide &lt;a href=&quot;https://registry.opendata.aws/inaturalist-open-data/&quot;&gt;the data, free of charge&lt;/a&gt; for anyone that wants to play with it and prepare for the next competition. 
+The dataset might prove invaluable for the next generation of researchers that can combine the expertise of the field with Machine Learning magic, identifyig and tracking biodiversity all over the world.
+Well, nowadays, the probability of having your infrastructure in a cloud behemoth is significant but brought another point of interest for your &lt;a href=&quot;https://www.meetup.com/AWS-User-Group-Lisbon/members/?op=leaders&quot;&gt;biased writer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When writing this piece, I’m about to visit the Moorish Castle in Sintra, at the top of Sintra’s Moutain range, in the midst of the protected forest area. Let’s see what I can find today!&lt;/p&gt;
+
+&lt;h2 id=&quot;ps-other-great-story&quot;&gt;PS: Other Great Story&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wired.com/story/inaturalist-app-disconnection/&quot;&gt;Wired has a great piece about iNaturalist and Seek.&lt;/a&gt;
+Hope that it inspires you to join me in this spectacular app.&lt;/p&gt;
+
+&lt;h1 id=&quot;obituary---the-rise-and-fall-of-jonh-mcafee&quot;&gt;Obituary - The rise and fall of Jonh McAfee&lt;/h1&gt;
+&lt;h5 id=&quot;june-25th&quot;&gt;&lt;em&gt;June 25th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;Near the end of the 90s, I had to face my first boot sector virus after installing a game that resided in a string of floppy disks. Fortunately, I had excellent relations with owners and employees of many computer stores in my town. A quick visit to the nearest one yielded yet another floppy disk, but this one would take the place of my hard drive before booting a Windows 95 operating system. Mr Costa, the shop owner at the time, wrote “Diskete Arranque Macfee” on the glued paper label. Translating and ignoring the typos, one would get “Macfee Boot Disk”. That was my first successful battle with a nasty set of bytes that owned my computer for an afternoon.
+I had to install an antivirus into my machine in the aftermath, and the choice fell without any doubt on the ubiquitous “McAfee Antivírus”.&lt;/p&gt;
+
+&lt;p&gt;June 23. My social feeds got inundated with the announcement that Mr John McAfee presumably ended his life in a Spanish prison where he was imprisoned since October 2020 after Spanish authorities followed a US mandate that sought Mr McAfee for tax evasion charges.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-rise&quot;&gt;The rise&lt;/h2&gt;
+
+&lt;p&gt;After his McAfee Associates Inc. exit, a company that he founded, Mr McAfee had a ruckus of a life until his arrest. Even before becoming a millionaire, he had to overcome the tragedy of losing his father at a very young age and the end of a promising academic career due to his love for an undergrad student that eventually became his first wife.&lt;/p&gt;
+
+&lt;p&gt;From that point on, he spent almost two decades working as a Software Developer and Designer, starting at the Missouri Pacific Railroad and ending his journey as an employee with Lockheed when the idea of developing software that could deal with the emerging threat of computer viruses that were spreading in the 80s was seeded with a copy of Brain in Mr McAfee hands. Drugs and alcohol were a constant until 83 when he declared sobriety after getting support from the AA.&lt;/p&gt;
+
+&lt;p&gt;After digging in many articles and stories, it is hard to understand if Mr McAfee was indeed a high-quality technologist. There is evidence of some high-level work, but his social skills and some examples of his life cast doubt on his software development prowess. Nevertheless, one just requires a genius moment, the will to take the opportunity and the strength to execute. Mr McAfee demonstrated that he had it all in excess, making his vision real in the personal computer consumer market where growth could not be stopped. With some cyber viruses playing havoc with expensive computers systems, users had no choice but to find something that helped them recover a system and protect them from further infections. Mr McAfee built his company on top of that fear.&lt;/p&gt;
+
+&lt;p&gt;The McAfee antivirus bloomed in the 90s; however, the founder already had left the building but not without making a bundle. The complete detachment happened in 94 after selling all of his shares and making his wealth well north of 100 million dollars.&lt;/p&gt;
+
+&lt;p&gt;Between 1994 and 2008, he kept a low social profile but with an active part in society. Thus, according to himself, maintaining his business, properties, and a low profile battle against the drugs that had plagued him.
+At this time, it’s impossible to understand how much he was affected by a considerable period filled with heavy drugs and alcohol, but with examples quite close from yours truly, one can safely assume that they weren’t innocuous to an already troubled mind.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-fall&quot;&gt;The fall&lt;/h2&gt;
+
+&lt;p&gt;In 2008 Mr McAfee started a new period in his life after the sub-prime crises got a large chunk of his wealth and investments. Keeping a millionaire lifestyle and maintaining control of his assets became a burden that he did not want to carry. So he took himself to Belize after mopping up world-encompassing expenses while fleeing from some potential lawsuits building upon American soil.&lt;/p&gt;
+
+&lt;p&gt;One cannot fathom what happened from this point on, but the bright businessman became eccentric, erratic and very dangerous. The best tale that I’ve found was this piece from &lt;a href=&quot;https://www.wired.com/2012/12/ff-john-mcafees-last-stand/&quot;&gt;Wired&lt;/a&gt; with much detail about what transpired until 2012. Be warned that you’ll probably deem Mr McAfee insane after reading the article, and with good reason.&lt;/p&gt;
+
+&lt;p&gt;The troubled businessman never abandoned new ventures and kept investing and creating new companies throughout his life. He mainly was connected with the security market. However, he also dabbled in other areas, maintained an active VC profile, helping startups, and put money behind what he believed. His last investments were in the cryptocurrency world, and some were denounced as scams or pump-and-dump schemes to profit from newly minted cryptocurrencies.&lt;/p&gt;
+
+&lt;p&gt;A declared libertarian, Mr McAfee entered the presidential race in 2015 and eventually made a bid for the Libertarian Party, losing the vote in the Libertarian National Convention. He tried again in 2018, but with US authorities on his heels for tax evasion while building a periplus including Havana of all the places.&lt;/p&gt;
+
+&lt;p&gt;The end of his life in a Spanish prison wasn’t enough, and some of his associates are pinning the event to the Q conspiracies that ramped up in the last years. This further taints Mr McAfee life, and one urges the reader to ignore such nonsense.&lt;/p&gt;
+
+&lt;p&gt;From my point of view, the narrative is straightforward and matches stereotypes that I know well. A brilliant man with the drive to change the world was also prone to fall into the excesses of life, which probably impacted his agency evermore.&lt;/p&gt;
+
+&lt;p&gt;After all, I’ve learned that my “Diskete Arranque Macfee” wasn’t a part of his work but was definitely a part of his legacy. Rest in peace, Mr McAfee.&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal May 31 - June 14</title>
