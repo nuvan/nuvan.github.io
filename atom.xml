@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-06-28T08:21:30+01:00</updated>
+    <updated>2021-06-28T09:24:54+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -71,7 +71,7 @@ Unfortunately, like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Netflix_P
 
 &lt;p&gt;While looking for hints about their tech stack, I’ve tripped in &lt;a href=&quot;https://www.amazon.science/research-awards/success-stories/inaturalist-cvpr-machine-learning-datasets-challenge&quot;&gt;this blog post from Amazon Science&lt;/a&gt; and discovered that iNaturalist had won a &lt;a href=&quot;https://www.amazon.science/research-awards/program-updates/2019-q2-q3-aws-machine-learning-research-awards-recipients-announced&quot;&gt;AWS Machine Learning Research Award in 2019&lt;/a&gt;, and guess what, they are hosted at AWS!
 The prize provides unlimited funds and AWS credits to run the app on their cloud but also allows the project to provide &lt;a href=&quot;https://registry.opendata.aws/inaturalist-open-data/&quot;&gt;the data, free of charge&lt;/a&gt; for anyone that wants to play with it and prepare for the next competition. 
-The dataset might prove invaluable for the next generation of researchers that can combine the expertise of the field with Machine Learning magic, identifyig and tracking biodiversity all over the world.
+The dataset might prove invaluable for the next generation of researchers that can combine the expertise of the field with Machine Learning magic, identifying and tracking biodiversity all over the world.
 Well, nowadays, the probability of having your infrastructure in a cloud behemoth is significant but brought another point of interest for your &lt;a href=&quot;https://www.meetup.com/AWS-User-Group-Lisbon/members/?op=leaders&quot;&gt;biased writer&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When writing this piece, I’m about to visit the Moorish Castle in Sintra, at the top of Sintra’s Moutain range, in the midst of the protected forest area. Let’s see what I can find today!&lt;/p&gt;
