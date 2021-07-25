@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-07-12T10:27:43+01:00</updated>
+    <updated>2021-07-25T19:45:41+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,96 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal July 12 - July 26</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_11/"/>
+        <updated>2021-07-11T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_11</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_11.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Two billionaires went to the edge of Space, and the world rebelled. Well, not entirely, but many voices raised concerns against expensive and environmentally unfriendly trips. Avoiding ethics and morals in this edition, I’m all up for the trips and cheering each successful space hop hoping that we work to go even further.
+But imagine that you’re aboard your private Dragon Crew cabin on your way to Mars. The oxygen scrubber fails, and there are two options. Should you bring your capsule back to Earth for service or replace it mid-flight? While the answer might seem obvious, current affairs will cause you dismay. Even if you think that it would not happen if lives were at stake, let me remind you that in the current Coronavirus pandemic. Many hospitals could not fix their own equipment for respiratory support since vendors don’t supply parts or manuals.
+Two topics for a few minutes of your reading time. Probably a few more to digest it all the way. Join me in another MV Journal edition.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#i-legally-fixit&quot;&gt;i (legally) Fixit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#space-age-kindling-a-short-ramble&quot;&gt;Space Age kindling, a short ramble.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;i-legally-fixit&quot;&gt;i (legally) Fixit&lt;/h1&gt;
+&lt;h5 id=&quot;july-23th&quot;&gt;&lt;em&gt;July 23th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;Imagine yourself on the road, driving to one of your favourite weekend destinations, when a dreadful stinger abandoned on the road inserts itself on a front tire of your brand new car. You get out to check the damage, and with some relief, you find that it was only rubber that got damaged. Mustering some patience and will, you pop the trunk and search for a monkey wrench that should be near the spare tire. After a few minutes of search, you get nothing. You pick your car manual to see where they’ve hidden the goods, and to your surprise, they aren’t hidden at all. They don’t exist. There’s only a phone number within the “tire replacement” section that you can call and ask for assistance. Frustration creeps in, but you set your mind at ease and dial the number. A helpful assistant tells you that you need to take your car to the nearest approved repair shop for a new tire and the replacement service. She also warns you to avoid third-party repair shops or else your vehicle will be rendered unusable. “Unbricking” the car will add to your expense on top of a voided warranty.&lt;/p&gt;
+
+&lt;p&gt;Although this might seem far fetched, it’s more or less what some farming equipment manufacturers ask from their clients. &lt;a href=&quot;https://www.deere.com/en/index.html&quot;&gt;John Deere&lt;/a&gt; is a well-known brand for farming heavy equipment. Every new series brings more tech that locks out owners from trivial repairs to the point that some started to hack their own rigs with shady software. You can find an in-depth piece from &lt;a href=&quot;https://vice.com&quot;&gt;Vice&lt;/a&gt; right &lt;a href=&quot;https://www.vice.com/en/article/v7m8mx/john-deere-promised-farmers-it-would-make-tractors-easy-to-repair-it-lied&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While we might think this is weird, to say the least, for such equipment, it’s what’s happening for more than a decade, with many technology brands around the world being Apple and Samsung, the most notorious ones due to their virtual shelf omnipresence.
+And the problem isn’t only the warnings or soft threats from the vendors. They sign contracts with part manufacturers that impose restrictions on whom they might sell replacements, shielding supply chains from outside buyers, including product owners. Even with a voided warranty and enough skill to repair your equipment, it will be hard to find a seller with compatible parts. If this isn’t enough, vendors go further, creating exotic bindings that require tools that only the original brand produces and sells at a premium. Yes, Apple. We’re looking at you.&lt;/p&gt;
+
+&lt;p&gt;The struggle between consumers and brands for access to replacement hardware and manuals which would allow anyone to repair their own devices has been branded as “The Right to Repair”.
+The problem became more accentuated in the last decade. Still, with some clever footwork, one can go back to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Planned_obsolescencehttps://en.wikipedia.org/wiki/Planned_obsolescence&quot;&gt;Planned Obsolescence&lt;/a&gt; strategy that &lt;a href=&quot;https://en.wikipedia.org/wiki/Brooks_Stevens&quot;&gt;Mr Brooks Stevens&lt;/a&gt; introduced in the middle of the last century. In few words, the main idea is to create new products that improve slightly compared to the previous generation that gets discontinued or deprecated before its valid life expectancy.
+The strategy survived until now, but it was stretched to the point where consumers started to rebel when they are forced to deliver their equipment in authorised brand counters for repair, usually at a premium. The alternative is to buy the new and improved version for a little more money than the repair would cost.&lt;/p&gt;
+
+&lt;p&gt;Lawmakers felt the consumer pressure from some civic movements and “do it yourself” online champions, or DIY as generally referred to. In the United States of America, [iFixit] (https://www.ifixit.com/), a website with DIY repair tutorials, is one of the most prominent defenders of the “Right to Repair”. Mr Kyle Wiens, iFixit CEO, usually denounces vendors’ tactics to block users from essential parts and documentation that would allow anyone to do basic maintenance tasks.
+The “Right to Repair” reached Europe as well, but European Union lawmakers are leading the bureaucratic effort although they’ve started public earings well before the United States. Unfortunately, current legislation since the beginning of the year fell short for the DIY community. Manufacturers need to extend the period where repair parts are available to professionals. It should be no less than ten years, which will further push the life expectancy of electronic products such as smartphones and tablets rendered unusable after 3 to 5 years if any part fails.
+Although the law forces an extension of the planned obsolescence strategy, it left out the owner that wants to buy the parts and avoid the expense of sending their hardware to a repair shop.
+The United Kingdom did something more aligned with the “Right to Repair” movement and well-balanced for consumers and vendors. Lawmakers created a particular class of parts that anyone can replace and another type of parts available to professional repair shops, following more or less the same European Union directives. Any car owner can follow the logic. Tires and lights should be easily replaced, but a gearbox might require professional attention.&lt;/p&gt;
+
+&lt;p&gt;For the United States, the new Biden administration brought lawmakers that already felt that tech companies exert more power than they should. This last week the Federal Trade Commission, or simply FTC, voted unanimously to enforce laws that will make the “Right to Repair” accessible to any product consumer. 
+Also, consumers should be aware that the law was already on their side. Since 1975, the Magnuson Moss Warranty Act prohibits manufacturers from threatening consumers with voided warranties if they open or inspect their equipment. This was actually a surprise for your writer that had the belief that brands were allowed to do what they’ve been doing since I can remember using electronic devices.
+Although the voting did not create anything new but reinforced the existing law, it was a push in the direction for the “Right to Repair” bills produced in many States. Dealing with such laws at the State level will create havoc for manufacturers and consumers, but if the movement propagates to enough States, it will pressure the Senate to move in the same direction.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-right-for-insecurity&quot;&gt;The Right for Insecurity&lt;/h2&gt;
+
+&lt;p&gt;Almost every brand presents a legitimate pair of cross-cutting concerns to avoid “Right to Repair” bills. Safety and security.
+If we are talking about heavy equipment brands, safety is the top concern. Allowing anyone to repair equipment with blades on top of rotors makes one think of horror movies. Still, even smaller electronic pieces of equipment can cause much damage when a battery goes haywire.
+Physical safety should not be taken lightly. Vetting manufacturers that build parts with high defect rates and professionals that don’t follow safety procedures should be possible while allowing good service from third-party repair shops. Also, many component replacement procedures can be safe if appropriately designed. Early generation laptops were made with replaceable batteries, but nowadays, most laptops have soldered batteries sacrificing the user need for a slick design, or so the brand says.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, we should not ignore the security risk of shoddy manufacturers providing parts with firmware backdoors or ignoring safety and security concerns. Even well-known brands put out hardware that can be “bricked” with poor quality software, as we’ve recently seen with NVIDIA RTX 3090 graphic cards. An Amazon Massive Multiplayer Online game reportedly destroys said high-end cards because of a menu frame rate definition. But if even big manufacturers such as NVIDIA can’t produce hardware with safety barriers for these types of incidents, imagine what will happen when anyone can mess around with advanced electronic hardware or heavy equipment controlled by run-of-the-mill software imported from who knows where.&lt;/p&gt;
+
+&lt;p&gt;Some high-end hardware manufacturers are actually taking steps to make hardware and software more secure for the end-user, although using it as leverage to repel the “Right to Repair” movement.
+&lt;a href=&quot;https://www.linkedin.com/in/francisco-ribeiro-3b39547/&quot;&gt;Francisco Ribeiro&lt;/a&gt;, Head of Information Security at XTX Markets, an algorithmic trading company, pointed out in a recent discussion that Apple has been introducing essential security features in their latest chips. Such features use cryptographic techniques to recognise if a particular piece of hardware is legitimate or not and could potentially “brick” your device if a malicious hardware component was detected by the security subsystem.
+While some of us might think that this could be over the top security for the everyday user, I would like to introduce the results of a [recently published paper] (https://arxiv.org/abs/2107.08590).
+The researchers injected a piece of malware into a neural network using “plain” steganography. The code went undetected after running anti-virus software on the whole network.
+A similar concept can be extended to hardware, and security measures like the ones presented by Apple can make the difference between a safe device and a bank account being drained by a remote hacker or a broad ransomware attack because of a single unsecured equipment.&lt;/p&gt;
+
+&lt;h2 id=&quot;incomplete-bureaucracy-yet-again&quot;&gt;Incomplete bureaucracy, yet again&lt;/h2&gt;
+
+&lt;p&gt;Lawmakers shouldn’t dismiss safety and security cross-cutting concerns even when used as a shield against third-party competition.
+While opening devices for repair shops or to any consumer, it should also be required that security and safety standards be met by any hardware manufacturer, following general guidelines and hardware safety boundaries.
+It would be overkill to require electronic device inspections such as those mandated by the European Union for roadworthy vehicles. But failing that, third party hardware manufacturers should be vetted by brands and excluded in case of failure to comply with minimum standards. A solution like this would still maintain much of the control that digital giants already have. Still, it would create the foundation for secure systems that we lack nowadays while allowing anyone to replace components at their will and extending device lifetimes without paying premium prices for the shortage of competition.
+Considering the dangers that technology can bring and with the rapid pace of AI productisation, lawmakers should work more closely with institutions such as the &lt;a href=&quot;https://futureoflife.org&quot;&gt;Future of Life Institute&lt;/a&gt; so that “small tech” can be built on top of secure grounds while catering to consumer needs and the environment.&lt;/p&gt;
+
+&lt;h1 id=&quot;space-age-kindling-a-short-ramble&quot;&gt;Space Age kindling, a short ramble.&lt;/h1&gt;
+&lt;h5 id=&quot;july-27th&quot;&gt;&lt;em&gt;July 27th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;Within a 7 day span, we’ve seen two different companies with distinct backgrounds launching crafts that went to what we call the edge of space.
+Sir Richard Branson and Mr Jefzz Bezos, plus their crews, took each the first human-crewed flight of Virgin Galactic and Blue Orizon, respectively.
+The most recent flights felt short for a technologist and sci-fi fan such as your writer, compared with the moon’s heroic visits that went more than a decade before I was born.
+Last year I could not avoid feeling goosebumps while watching a live stream of the first human-crewed launch from SpaceX on their way to the International Space Station.  Mr Elon Musk was already and still is far ahead of the two space newcomers, although he didn’t go all the way up yet.&lt;/p&gt;
+
+&lt;p&gt;Putting aside some of the worst opinions that we are seeing replicated from social media to opinion columns in reputable newspapers, this is probably the restart of the human space age, benefiting from a healthier type of competition that does not use such events to signal world supremacy nor to make war.
+These companies represent peeks of human innovation in a mountainous landscape of technology. Some might find these couple of flights a heroic feat from company owners; others might feel it was a vain endeavour. I see new steps to move on with human progress.&lt;/p&gt;
+
+&lt;p&gt;Wath to expect now?&lt;/p&gt;
+
+&lt;p&gt;From Virgin Galactic, I don’t expect much more than Space tourism fueling investments for more Space tourism. Sir Richard Branson took a while until getting there. The first announcement of Virgin Galactic was almost two decades ago, and the company prospects still focus on short rides to the edge of space. It almost seems the mission has ended for Virgin Galactic, and it isn’t all that bad. The Space kindle from Virgin Galactic was, and it is essential to keep ambition and competition burning. I hope that the company flourishes and improves on top of this feat recruiting champion execs with broader vision and purpose, making Virgin Galactic genuinely galactic. Right now, we’ll probably see efforts to make it a profitable venture.&lt;/p&gt;
+
+&lt;p&gt;Blue Origin has less hubris on its name but has a far ambitious project than Virgin Galactic at this moment. The company driver is tourism but with the prospect of financing new rocket technology and moon landing equipment. Blue Origin wants to bid NASA contracts side by side with SpaceX bringing welcomed private competition to a game where only States were allowed, commanding large pools of taxpayer money. But even being behind SpaceX, Mr Jeff Bezos is prepared for the long game and pushing rocket technology to its limits without being hasty in the pursuit. He does well if he keeps the focus since, with only two private companies, the is much space to grow in Space.&lt;/p&gt;
+
+&lt;p&gt;And SpaceX? SpaceX is an article by itself that I’ll leave for another day. I cheered when Mr Bob Behnkenn and Mr Doug Hurley were safe in Space within a shiny Crew Dragon craft, occasionally tapping their tactile monitors with happy faces. It was the look and feel that I was expecting from the first spacecraft of this millennia.
+We can only see success for SpaceX for the next few years and with the hope of seeing something that I miss by a decade.&lt;/p&gt;
+
+&lt;p&gt;I’m seeing embers growing in the kindling with the anticipation of still being here when the beginning of a Space Age bursts.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal June 28 - July 12</title>

@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_11/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-july-12-july-26-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-july-12-july-26-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_10/',
       context: document.body
     }).done(function( data ) {
@@ -402,6 +414,43 @@ window.cookieconsent.initialise({
           <div class="grid-row">
             <div class="grid-cell-column">
               <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+  <a href="https://directionwithintent.com/mvjournal/mvjournal_11/" title="MV Journal July 12 - July 26" class="post-teaser">
+    
+      <img src="https://directionwithintent.com/images/Blog_MVJournal_11.png" alt="teaser" itemprop="image" />
+    
+  </a>
+  
+    <p class="post-category">
+      <a href="/shares">mvjournal</a>
+    </p>
+  
+  <h2 class="post-title" itemprop="name">
+    <a href="https://directionwithintent.com/mvjournal/mvjournal_11/">
+      MV Journal July 12 - July 26
+    </a>
+  </h2>
+  <p class="post-excerpt" itemprop="description">
+    Two billionaires went to the edge of Space, and the world rebelled. Well, not entirely, but many voices r...
+  </p>
+  <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
+      <time class="entry-date" datetime="2021-07-11" itemprop="datePublished">2 weeks ago
+      </time>
+      <!--time class="entry-date" datetime="2021-07-11" itemprop="datePublished">JULY 11, 2021 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12" />
+    <div class="comment-like" id="mv-journal-july-12-july-26-share">0</div>
+</div>
+
+</article>
+
+            </div>
+          </div>
+        
+          <div class="grid-row">
+            <div class="grid-cell-column">
+              <article class="tile" itemscope="" itemtype="http://schema.org/Article">
   <a href="https://directionwithintent.com/mvjournal/mvjournal_10/" title="MV Journal June 28 - July 12" class="post-teaser">
     
       <img src="https://directionwithintent.com/images/Blog_MVJournal_10.png" alt="teaser" itemprop="image" />
@@ -423,7 +472,7 @@ Usuall...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-07-11" itemprop="datePublished">yesterday
+      <time class="entry-date" datetime="2021-07-11" itemprop="datePublished">2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-07-11" itemprop="datePublished">JULY 11, 2021 00:00:00
       </time-->
@@ -460,7 +509,7 @@ Usuall...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-06-24" itemprop="datePublished">2 weeks and 4 days ago
+      <time class="entry-date" datetime="2021-06-24" itemprop="datePublished">1 month and 1 day ago
       </time>
       <!--time class="entry-date" datetime="2021-06-24" itemprop="datePublished">JUNE 24, 2021 00:00:00
       </time-->
@@ -497,7 +546,7 @@ Usuall...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-06-13" itemprop="datePublished">4 weeks and 1 day ago
+      <time class="entry-date" datetime="2021-06-13" itemprop="datePublished">1 month and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2021-06-13" itemprop="datePublished">JUNE 13, 2021 00:00:00
       </time-->
@@ -534,7 +583,7 @@ Usuall...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-05-30" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2021-05-30" itemprop="datePublished">1 month and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-05-30" itemprop="datePublished">MAY 30, 2021 00:00:00
       </time-->
@@ -571,7 +620,7 @@ Usuall...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-05-16" itemprop="datePublished">1 month and 3 weeks ago
+      <time class="entry-date" datetime="2021-05-16" itemprop="datePublished">2 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2021-05-16" itemprop="datePublished">MAY 16, 2021 00:00:00
       </time-->
@@ -609,7 +658,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">2 months and 3 weeks ago
+      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">3 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2021-04-18" itemprop="datePublished">APRIL 18, 2021 00:00:00
       </time-->
@@ -646,7 +695,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">2 months and 3 weeks ago
+      <time class="entry-date" datetime="2021-04-18" itemprop="datePublished">3 months and 1 week ago
       </time>
       <!--time class="entry-date" datetime="2021-04-18" itemprop="datePublished">APRIL 18, 2021 00:00:00
       </time-->
@@ -683,7 +732,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">3 months and 1 week ago
+      <time class="entry-date" datetime="2021-04-05" itemprop="datePublished">3 months and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-04-05" itemprop="datePublished">APRIL 05, 2021 00:00:00
       </time-->
@@ -722,7 +771,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">3 months and 3 weeks ago
+      <time class="entry-date" datetime="2021-03-22" itemprop="datePublished">4 months and 5 days ago
       </time>
       <!--time class="entry-date" datetime="2021-03-22" itemprop="datePublished">MARCH 22, 2021 00:00:00
       </time-->
@@ -759,7 +808,7 @@ We start with the last update from Basecamp, and it seems that everyb...
   </p>
   <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12" />
-      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">4 months and 4 days ago
+      <time class="entry-date" datetime="2021-03-10" itemprop="datePublished">4 months and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-03-10" itemprop="datePublished">MARCH 10, 2021 00:00:00
       </time-->
