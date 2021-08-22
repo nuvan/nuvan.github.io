@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-07-27T16:15:21+01:00</updated>
+    <updated>2021-08-22T19:51:29+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,137 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal July 26 - August 23</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_12/"/>
+        <updated>2021-08-22T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_12</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_12.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;It’s no secret that I’m an AWS fanboy, but one shouldn’t be clouded by the halo effects of your favourite brands. AWS is going out of line with Elastic, and we need to talk about it. Yet, we find ourselves in another unusual holiday period. Restrictions here and there make travel a risky business. Still, finally, I’m seeing more energy in the air and people going out, taking advantage of Portugal amazing summer weather…unless we are talking about Blizzard or World of Warcraft, where temperatures are going against climate change predictions. Grab a warm coat and check for yourself down below!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#a-chilling-blizzard-in-the-gamming-industry&quot;&gt;A chilling Blizzard in the Gamming industry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#aws-stretching-elastic-patience&quot;&gt;AWS stretching Elastic patience&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;a-chilling-blizzard-in-the-gamming-industry&quot;&gt;A chilling Blizzard in the Gamming industry&lt;/h1&gt;
+&lt;h5 id=&quot;july-30th&quot;&gt;&lt;em&gt;July 30th&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;Warcraft II made me lose myself behind CRTs, or Cathode-ray tube monitors if you’re a youngster, for so many hours that I’m even ashamed to admit. Before gaming laptops, carrying a desktop from house to house for a weekend, binge playing in multiplayer mode, or just raising up a “civ”, short for civilisation, to crush AI opponents with the glory and might that this earth only saw a few times.
+Warcraft II has a special place in my games pantheon and probably for many more young souls from my generation.
+But the world keeps revolving, and, with internet speeds increasing and ping times going down, MMOG, Massive Multiplayer Online Games took the lion share of gamers attention.
+I’ve lost the train on that trend and kept myself for first-person shooter games such as America’s Army or Unreal Tournament, but I digress.&lt;/p&gt;
+
+&lt;p&gt;Back in the day, digital online games were a boys club as so many other pastimes. They’d made those environments harsh and impenetrable for so many others who just wanted to have fun with things and people they loved. You’ll have a mix of decent people that want to have fun and keep fruitful online relations, but you also have “jocks” and trolls ruining the space for the community.&lt;/p&gt;
+
+&lt;p&gt;Fast forward a decade, and the environment is more mixed but probably less civilised. At Activision Blizzard, we also see the gamer’s environment seeping into the game developers world. Who wondered such a thing? Everybody did, as long as you paid some attention to game shops, developers and C suite bro clubs.
+Well, we’ve seen this behaviour everywhere, didn’t we? It isn’t intrinsic in the gaming industry. It’s just another example of bad group behaviour that goes unpunished for too much time, becoming accepted, even by the victims, that last the ordeal to keep doing what they love.&lt;/p&gt;
+
+&lt;h2 id=&quot;lawsuit-in-the-making&quot;&gt;Lawsuit in the making&lt;/h2&gt;
+
+&lt;p&gt;For the past two years,  Activision Blizzard was under investigation by California’s Department of Fair Employment and Housing for alleged harassment and discrimination of female employees. July 21st, Bloomberg Law reports the result of the inquiry. &lt;a href=&quot;https://news.bloomberglaw.com/daily-labor-report/activision-blizzard-sued-by-california-over-frat-boy-culture&quot;&gt;Blizzard is being sued on multiple accounts&lt;/a&gt;.
+If you have the patience, you can read the full court filing &lt;a href=&quot;https://aboutblaw.com/YJw&quot;&gt;here&lt;/a&gt;.
+Some of the accounts are deeply disturbing, and some stemming right from the top. Presumably, the most problematic is related to the suicide of a female employee on a company trip. Although the event isn’t related to most of the allegations in the court filing, it shows the type of frat culture going around at Blizzard’s HQ.&lt;/p&gt;
+
+&lt;h2 id=&quot;leadership-reaction&quot;&gt;Leadership reaction&lt;/h2&gt;
+
+&lt;p&gt;One would expect that acknowledging the problem and dealing with the lawsuit would be the way to go. Still, Ms Fran Townsend, VP for corporate affairs, corporate secretary, and chief compliance officer since March of this year, made a public written statement striking back the lawsuit. She doubles down on the first Activision Blizzard’s statement that downplayed the events portrayed in the accusation, saying that the company already changed to deal with such issues and that cases were false or distorted. Which one it is?
+Ms Townsend also reinforced the message that the suit is unfair since most of the accounts are outdated, inaccurate, and some are even false. The strategy ricochet pretty fast.
+To be fair, the worst statements came from Activision Blizzard HQ, which holds Blizzard Entertainment amongst other business branches. The latter upper echelon took an empathetic position sharing their concerns and apologies, taking the side of ex and current employees that are victims of the alleged harassment culture. Many ex-leaders also made their apologies public, some acknowledging the behaviours, some others assumed blame for their alleged ignorance about the facts and environment.&lt;/p&gt;
+
+&lt;h2 id=&quot;employee-retaliation&quot;&gt;Employee retaliation&lt;/h2&gt;
+
+&lt;p&gt;Activision Blizzard C-suite’s hardline response wasn’t appreciated by the workforce, to say the least.
+After Ms Townsend statement, several current and ex-employees went public on Twitter sharing their animosity regarding her narrative and recounting some events where such behaviours were blatant.&lt;/p&gt;
+
+&lt;p&gt;I’d like to point out &lt;a href=&quot;https://www.wowhead.com/news/former-blizzard-employees-speak-up-about-activision-blizzard-323560&quot;&gt;the collection of tweets from Ms Christina Womack&lt;/a&gt;, a Former Senior User Experience Designer at Battle.net. This is an excellent example of some of the allegations within the lawsuit. 
+In a united front, &lt;a href=&quot;https://www.wowhead.com/news/activision-blizzard-employees-publish-open-letter-criticizing-activisions-323564?fbclid=IwAR3dTIgCr9KZkRVa4jq7Mjn9NkG-rMRkIVH5m3H9ulX2D7zEgg2IJ220aeU&quot;&gt;Blizzard’s employees presented an open letter condemning the facts pertaining to the lawsuit and the leadership response to it.&lt;/a&gt;
+With more than 3K peers signing the letter, the workforce further organised a walkout to protest managements’ position while demanding structural changes in company policies, from recruitment to career and salary progress.&lt;/p&gt;
+
+&lt;h2 id=&quot;fallout&quot;&gt;Fallout&lt;/h2&gt;
+
+&lt;p&gt;Mr Bobby Kotick, Activision Blizzard’s CEO, tried to make amends with employees, acknowledging that their first reaction wasn’t fitting. Still, they aren’t the only stakeholders feeling the heat from the bombshell.
+It has been a bumpy ride for Activision Blizzard’s stock since Bloomberg  Law, a data analytics and AI company, released the news,
+&lt;a href=&quot;https://www.wowhead.com/news/investor-rights-law-firms-launch-securities-claims-investigations-against-323598&quot;&gt;and some investors weren’t happy with the surprise.&lt;/a&gt;
+Failing to disclose such an essential fact for a publicly-traded company might be a severe breach of their fiduciary duties. Although it is a usual class action suit when a stock is affected by such events that come from nowhere, it adds to Activision Blizzard’s mess. And it does not end here.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-other-lousy-news&quot;&gt;On other lousy news&lt;/h2&gt;
+
+&lt;p&gt;Gamers and content creators aren’t happy, to make matters worse, and it isn’t solely related to Activision Blizzard’s lawsuit.
+While game developers are fighting companies inner demons, they are also being accused of doing shoddy work with Blizzard’s flagship game, World of Warcraft, or WoW as it is usually referred to.
+Two of the most famous content creators, &lt;a href=&quot;https://www.youtube.com/channel/UCXJL3ST-O0J3nqzQyPJtpNg&quot;&gt;Preach Gaming&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/channel/UCOvz3kkYZtCTeXKdiuMG8eg&quot;&gt;MadSeasonShow&lt;/a&gt;, are abandoning the game. Besides their concerns about the recent news about Blizzard’s work environment, they point out some horrible game development decisions in the last years. From &lt;a href=&quot;https://www.gamespot.com/articles/wow-shadowlands-upcoming-shards-of-domination-system-is-leaving-players-frustrated/1100-6493247/&quot;&gt;game mechanics&lt;/a&gt;, including paid level boosts and the WoW Token, which is more or less paying for a win. Level boosts carry your character to a higher power ranking allowing the player to enter into combat in more demanding environments instead of enduring the grind of levelling up. With WoW tokens, the player can buy game currency with real money. Game currency, referred to as WoW gold, allows a player to purchase artefacts. It is another way to pay for progress instead of fighting for it.&lt;/p&gt;
+
+&lt;p&gt;And again, stakeholders battle each other on Twitter, this time with heated arguments flying between system designers and players, with the latter asking for new system designers and developers striking back just like Ms Townsend did. Maybe designers should pay attention to gamer’s complaints about the lousy game mechanics installed for the last four years, just like Activision Blizzard leadership should pay more attention to their poisonous work environment.&lt;/p&gt;
+
+&lt;p&gt;Duarte Faria, a Software Developer at &lt;a href=&quot;https://www.helloprint.com/&quot;&gt;HelloPrint&lt;/a&gt;, plays at Zanity, a WoW guild, says that this is his last tier. Although he assumes that the game doesn’t have the same appeal as before, the latest developments were the final push to change the air.
+One has to consider that WoW was launched in 2004. It is one of the games that endured most and has a fandom that loves the game, sometimes in an unhealthy fashion, with reports of &lt;a href=&quot;https://venturebeat.com/2015/03/05/man-dies-after-19-hour-world-of-warcraft-session/&quot;&gt;gamers dying while playing the game for days in a row.&lt;/a&gt;. 
+The environment was always rude, and after almost 20 years, it is hard to keep it fresh for gamers who grew with it. With an ambience loaded with so many bad feelings, one might think the community could be better with something similar to [Dungeon Keeper], where evil is good.
+It might be the end of an era. I just wonder if we are going to get another Blizzard expansion of it.&lt;/p&gt;
+
+&lt;h1 id=&quot;aws-stretching-elastic-patience&quot;&gt;AWS stretching Elastic patience&lt;/h1&gt;
+
+&lt;p&gt;AWS Glue sparked my interest for a while, and I even did a presentation about it at our humble &lt;a href=&quot;https://www.meetup.com/AWS-User-Group-Lisbon/events/243203888/&quot;&gt;AWS Lisbon User Group&lt;/a&gt;. Unfortunately, it wasn’t suited to my needs, but I did deliver it anyway.&lt;/p&gt;
+
+&lt;p&gt;While spiking my way with Glue, I’ve found that they were using Grok patterns to filter data from text streams. I was familiar with Grok since I’d been working with &lt;a href=&quot;https://www.elastic.co/logstash/&quot;&gt;Logstash&lt;/a&gt; even before being acquired by &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elastic&lt;/a&gt; so it was interesting to see that AWS supported such open-source initiatives.
+My mistake.
+In any of the documents or tutorials was a reference to Logstash or Jordan Sissel, the creator of Logstash and the Grok patterns library that they used.
+It felt odd that no mention was given. Still, I guessed that official documentation was trying to be as straightforward as possible, avoiding references that did not add much for users in general. So I tried to vindicate Jordan with an explicit reference to him at my talk.&lt;/p&gt;
+
+&lt;h2 id=&quot;its-open-source-deal-with-it&quot;&gt;It’s open-source; deal with it&lt;/h2&gt;
+
+&lt;p&gt;AWS uses many open-source artefacts in their products and services. Still, sometimes they just integrate software into AWS and resell it as a product or service using their virtual environments. One example is Elasticsearch.
+It’s hard to understand some open-source licenses and what can you do without infringing them,  but in this case, AWS was, and it is free to use it and sell the service as they see fit. And they do it since 2015 using the brand Amazon Elasticsearch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/awselasticfakepartenership.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was the first moment of tension between both companies since there wasn’t any acknowledged collaboration between them. Elasticsearch, a registered trademark, was being used abusively by Amazon, according to Elastic.&lt;/p&gt;
+
+&lt;h2 id=&quot;fork-you&quot;&gt;Fork you&lt;/h2&gt;
+
+&lt;p&gt;While tension increased with time, Elastic also caught another service provider redhanded with Elastic’s commercial code in their offerings. Of course, this should be a separate issue, but some of that code went in the &lt;a href=&quot;https://opendistro.github.io/for-elasticsearch/&quot;&gt;Open Distro for  Elasticsearch&lt;/a&gt;, a software fork that AWS created in 2019. 
+One can speculate much about the arguments and decisions of such a fork. Still, it was evident that AWS was already preparing for keeping “their” Elasticsearch version protected from future license changes, which happened at the beginning of this year.&lt;/p&gt;
+
+&lt;h2 id=&quot;elastic-limit&quot;&gt;Elastic limit&lt;/h2&gt;
+
+&lt;p&gt;Elasticity ends when a body can’t resist further distorting influences. In January, Elastic reached that point and decided to go back on their 2018 promise of keeping their licences open forever, when they’ve opened &lt;a href=&quot;https://www.elastic.co/what-is/open-x-pack&quot;&gt;X-pack&lt;/a&gt;. Instead, they’ve updated their licencing terms with a Server Side Public License or SSPL and updated their previous statement to reflect the transition. 
+I’ll state again that some licences are complex to navigate for most developers, but I’ll try a crude simplification in this piece. The “new” SSPL tries to prevent third parties from selling services based on “Open Source” artefacts if they don’t provide all source code involved in such offering. This is a brake for big integrators and resellers who can’t establish clear boundaries between services, orchestration, and integration components.&lt;/p&gt;
+
+&lt;h2 id=&quot;fauxpenning&quot;&gt;Fauxpenning&lt;/h2&gt;
+
+&lt;p&gt;SSPL isn’t considered genuinely Open Source by the community, and Elastic knows it well. Licences such as SSPL are referred to as fauxpen, a word derived from “false open”. In a sense, they mimic most of the open-source tenents but limit the user in some way. Nevertheless, Elastic probably saw the license fit as a weapon for fighting tech companies that allegedly abused the Open Source community. Still, it’s obviously a sword with two edges since it removes the freedom of doing whatever you want with the code.
+The license was created by &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; in 2018 with the same objective and targetting the same offender.
+AWS made the same choice that it did now. MongoDB became DocumentDB for AWS customers.&lt;/p&gt;
+
+&lt;h2 id=&quot;we-the-users&quot;&gt;We, the users&lt;/h2&gt;
+
+&lt;p&gt;According to Elastic, the license change will not bring anything new or uncertain for most users and the community for the foreseeable future
+but there are a few caveats.
+The AWS pledge of keeping a fully open-source Elasticsearch, which will be renamed to &lt;a href=&quot;https://opensearch.org/&quot;&gt;OpenSearch&lt;/a&gt;, doesn’t come quite sincere, but it will respect the open-source tenets making it free to use it as one sees fit.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, Elastic began changing existing clients and libraries to refuse connections to OpenSearch clusters, pushing AWS to accelerate development efforts in their own libraries and forks. This is an issue for users that live on the bleeding edge. Migration to a new version requires deciding where to put the chips, especially if you manage hybrid deployments.
+Even if you opt for stable installations, security patches might force you to decide too quickly.&lt;/p&gt;
+
+&lt;p&gt;From my part, and putting ethics on the side, I believe that an integrated environment within AWS will benefit speed of development, deployment and cost control. It is hard to compete with AWS excellent Infrastructure as a Code platform, all of your artefacts in one cloud and, integration features between many services and products. However, if you’re using a  hybrid deployment and your cloud provider is any other than AWS, it will probably be the same, excluding costs that vary between providers.&lt;/p&gt;
+
+&lt;h2 id=&quot;them-the-developers&quot;&gt;Them, the developers&lt;/h2&gt;
+
+&lt;p&gt;Open-source developers and maintainers will have to decide where their efforts should be placed and if compatibility should be a concern. AWS promises to be compatible up to the forked version and states that one of their biggest concerns is to keep backwards compatibility for users happy with older deployments that don’t see updates often. OpenSearch eventually will become a different beast, such as DocumentDB diverged from MongoDB and Aurora from MySQL.
+I don’t believe that we’ll see much enthusiasm from developers that poured their hearts into Elasticsearch codebase, making the switch, maybe excluding some hardliners from the open-source community that don’t align themselves with Elastic “fauxpenning” strategy.&lt;/p&gt;
+
+&lt;p&gt;While one understands the abusive behaviour from AWS, it is also hard to see the mix between paid and non paid software in the Elastic component ensemble that does not flow to the community for many open-source enthusiasts. 
+Nevertheless, this is the case with so many labels that work both fronts and need to make money to pay employees, developers and investors. AWS knows this, but their business will ultimately stand on AWS integrations and a top of the line cloud infrastructure. Selling software on running on the latter is the way to go, but AWS product development follows instead of innovating.&lt;/p&gt;
+
+&lt;p&gt;AWS portfolio also shows that they can endure fights with almost anyone and come out as a winner while building up a panoply of products and services that don’t fall. On the Elastic side, the main problem of trademark abuse will go away with OpenSearch. Leaving AWS quiet, for now, would be wise, but joining forces with companies that suffered the same fate would be fruitful for potential confrontations and to build an open-source movement that makes a trade-off between licencing fundamentalism and intellectual common property protection.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal July 12 - July 26</title>
