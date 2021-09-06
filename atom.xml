@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-08-22T20:13:55+01:00</updated>
+    <updated>2021-09-06T12:59:21+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,102 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal August 23 - September 6</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_13/"/>
+        <updated>2021-09-05T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_13</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_13.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;In our second MV Journal Follow-up, we will review a few topics that stopped at a cliff-hanger…or something similar, I guess, but if someone asks you what the best thing you got from this post was, you can point the person to &lt;a href=&quot;https://mcbroken.com/&quot;&gt;McBroken&lt;/a&gt;. If you’re cruising around the USA, never forget to check if the nearest MacDonalds has a working McFlurry machine. 
+Amazed? The internet produces great things, right? Unless you’re a developer mandated to use a Cloud-based IDE. In that case, I’m not sure we’re going in the right direction, but the verdict is still out here on this one. Let’s have a few words if you get to try one.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-resource-balance-loop---remote-development-ides-are-back-again&quot;&gt;The Resource Balance Loop - Remote Development IDEs are back again&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mv-journal-follow-up&quot;&gt;MV Journal Follow-up&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;the-resource-balance-loop---remote-development-ides-are-back-again&quot;&gt;The Resource Balance Loop - Remote Development IDEs are back again&lt;/h1&gt;
+&lt;h5 id=&quot;august-31&quot;&gt;&lt;em&gt;August 31&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;em&gt;In the olden days of mainframes, from the mid 1970’s to the mid 1980’s, most people used real text-terminals to communicate with large computers. These real text-terminals were neither computers nor emulated text-terminals. They consisted only of a screen, keyboard, and only enough memory to store a screenfull or so of text (a few kilobytes). Users typed in programs, ran programs, wrote documents, issued printing commands, etc. A cable connected the terminal to the computer (often indirectly). It was called a terminal since it was located at the terminal end of this cable. Some text-terminals were called “graphic” but the resolution was poor and the speed slow by today’s standards due to the high cost of memory and the limited speed of the conventional serial port, etc.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Text excerpt from &lt;a href=&quot;https://linux.die.net/HOWTO/Text-Terminal-HOWTO-1.html&quot;&gt;linux.die.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A decade ago ( probably more), I was again at the doctor’s office with yet another case of tonsillitis. The procedure was always the same. A throat inspection to assess the situation and few questions to understand if I had to go with an antibiotics prescription. This time I noticed some differences at the doctor’s desk. A very slim LCD with an inconspicuous “Siemens” sticker, keyboard and mouse. No visible tower.
+After a few seconds, the doctor apologises for the time it took to just get a prescription.  She says, “This is only a monitor. They told me that the computer is at the Hospital.”
+The comment wasn’t completely random since she started the consultation with a few questions, including my occupation.&lt;/p&gt;
+
+&lt;p&gt;It made perfect sense at the time. A closed system for hospitals where all resident activities at the desktop were well-defined. A mainframe alike setup with some slim hosts would be enough for day to day work. The application layer would be a different problem altogether, but the concentration of resources at the Hospital data centre would suffice.
+Back at the office, after recovering from my infirmities, I’ve shared the setup with my manager, and he pointed me out that we were going to have a similar architecture for call centres with “dumb hosts” replacing existing desktops. “Back to the past”, he said.&lt;/p&gt;
+
+&lt;p&gt;In the last decades, we’ve seen a back and forth with resources shifting from computation aggregates, whether data centres or mainframe setups, to user desktops and back again. Reasons vary from security concerns to monetary restrictions, going through systems maintenance and upgrades. For me, it was never clear, and my preference would always fall into capable desktops with good intranet or internet connectivity but primarily for convenience and ignoring all the other corporate aspects that the C suite needs to weigh in.&lt;/p&gt;
+
+&lt;p&gt;In the development world, even with the advent of large scale data processing with Hadoop and all the tools derived from the Map-Reduce revolution, we still saw Engineers and Programmers wanting powerful machines that can run all the tools simultaneously and mimic production environments. Rarely I’ve seen developers working in remote environments and liking the experience. You might need a database running outside your local environment or to interact with a development message queue, but if the developer can contain the technology zoo in a local pen, they will.&lt;/p&gt;
+
+&lt;p&gt;With the Cloud eating Software everywhere, running complex environments locally became almost impossible. Most of the tools aren’t readily available to install locally, and some require too many resources, even for powerful machines. Take, for instance, the very simple SQS from AWS, a message queue only available in the Cloud or Forecast, an AI system design for resource demand forecast also from AWS. Are you guessing where this is going? “Back to the past”, I say.&lt;/p&gt;
+
+&lt;p&gt;Cloud providers and big software players are already moving into the online code editors and pushing developers to the new IDE, the Browser.
+This isn’t new if you’re only doing front-end development since browser development tools tabs are a significant part of the process. We’ve also seen the proliferation of sites such as &lt;a href=&quot;https://codepen.io/&quot;&gt;Codepen&lt;/a&gt; where developers can try examples, edit and run them with the usual mix of HTML, Javascript and CSS, but at the end of the day, you still need to keep your project running locally. Every other task unrelated to front-end technologies isn’t well covered, although it’s possible to see a few solid websites that run C# or Java snippets with environmental constraints such as I/O and connectivity.&lt;/p&gt;
+
+&lt;p&gt;August 11, Github announces that they are migrating all internal development to &lt;a href=&quot;https://github.com/features/codespaces&quot;&gt;Codespaces&lt;/a&gt;
+Mr Cory Wilkerson is a Senior Director of Engineering at GitHub. He paints a rosy picture in his &lt;a href=&quot;https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/&quot;&gt;blog post announcing the shift to the cloud work environment&lt;/a&gt;, but it takes some development iterations to get the feel of such a change. I’m sure that we’ll have an MV Journal Follow-up on this one.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/cloud9/&quot;&gt;Cloud9&lt;/a&gt; is the development environment from AWS. A quick visit to the product website features a “Benefits” header followed by “Code with just a browser”. At first glance, I get scared with such a statement. Whether at Codespaces or Cloud9, the Browser brings a set of hidden moving parts on top of an insecurity layer. It isn’t a benefit per se, although I’m willing to accept that it is a ubiquitous piece of Software with a high level of accessibility, that is it. From a developer standpoint, showing a few code shops at your parent’s computer might be amusing, but doing it professionally requires a sensible setup that goes well beyond the Browser. Check your chair and desk, for instance.&lt;/p&gt;
+
+&lt;p&gt;Microsoft Azure Notebooks is another type of Cloud IDE that packages &lt;a href=&quot;https://jupyter.org/&quot;&gt;Jupyter&lt;/a&gt; Notebooks, the fundamental technology of this product. Jupyter is a non-profit open-source project that provides a Python development environment that primarily targeted data scientists and machine learning enthusiasts. It gives an integrated environment with many pre-installed libraries tools for data processing and graphics display. Nowadays, the project encompasses more programming languages, but the true benefit of this environment lies in its hybrid approach. You can develop your code remotely via your Browser or download the Jupyter Notebook onto your machine and extract all the power from your local machine instead of paying for Azure computation.&lt;/p&gt;
+
+&lt;p&gt;Finally, I would like to mention &lt;a href=&quot;https://observablehq.com/product&quot;&gt;Observable&lt;/a&gt; co-founded by the visualisation guru &lt;a href=&quot;https://github.com/mbostock&quot;&gt;Mike Bostok&lt;/a&gt;. The objective of Observable is to provide a development environment to present data in the best way possible. You can see an Observable Notebook as a refinement of a Jupyter Notebook made purely for data presentation, although it can also take considerable amounts of computation. I could see such an environment feasible for data scientists that focus primarily on data interpretation and presentation, falling into my tonsilitis diagnosing doctor type of work.
+They also provide extension points using third-party packages as long as they are supplied via PyPi, but the breath of visualisation libraries already available will probably deter you from taking the hard path.&lt;/p&gt;
+
+&lt;p&gt;You’ll find many flavours of online editors, and I bet that more will show up from companies like Jetbrains. Still, I’m not old enough to see the dumb terminal approach as a reliable way of doing development work, at least in heterogeneous environments where Engineers have a wide array of skills and don’t fall on narrow domains such as front-end development or data presentation. Nevertheless, I will check Cloud9 for some microservice work at &lt;a href=&quot;https://metric.pt&quot;&gt;Metric&lt;/a&gt; and maybe get converted to the Browser way…but don’t bet on it :)&lt;/p&gt;
+
+&lt;h1 id=&quot;mv-journal-follow-up&quot;&gt;MV Journal Follow-up&lt;/h1&gt;
+&lt;h5 id=&quot;september-3&quot;&gt;&lt;em&gt;September 3&lt;/em&gt;&lt;/h5&gt;
+
+&lt;h2 id=&quot;waking-up-at-basecamp&quot;&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_5/#waking-up-at-basecamp&quot;&gt;Waking up at Basecamp&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;May 20, a couple of weeks after my piece about Basecamp, Mr David Heinemeier, or DHH as he’s known online, published an article with the title &lt;a href=&quot;https://world.hey.com/dhh/after-the-storm-9370f871&quot;&gt;After the storm&lt;/a&gt;.
+Even now, it’s too soon for such a sentiment, but Mr DHH reports that after a minor blip in departing customers, business bounced back and kept growing as expected.
+One of my previous managers usually said, “The cemetery is home for many irreplaceable heroes”, and this sentiment is shared in Mr DHH words regarding departed employees. Life goes on at Basecamp with new employees and customers huddling around the fire of a successful business.&lt;/p&gt;
+
+&lt;h2 id=&quot;market-wars-with-epic-battles&quot;&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_7/#market-wars-with-epic-battles&quot;&gt;Market wars with Epic battles&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;It escalated.
+Epic is pushing buttons all over the world, testing law limits but still waiting for the jury. Australia was the last country to accept Epic’s claims in court, and another legal battle will pit Epic against Apple in this World Market Wars. The strategy looks clear enough for us, mortal bystanders. A good victory in any country might trigger a cascade in the remaining courts and/or push Apple to make changes globally instead of managing each country market as a vertical.
+In between, Apple is losing ground with lawsuits eroding its claims and forcing changes even before Epic enters the ring.
+A class-action suit from 2019 ended in August, with Apple conceding to make changes that allow app developers to redirect users to alternative payment options. This is a step toward an Epic win, but the amusing part lies on the judge. Miss Yvonne Gonzalez-Rogers is the Californian judge overseeing the class-action suit settlement, but she also presides Epic vs Apple.
+Far from California, South Korea dealt a significant blow to every digital Market, and it will make a profit dent on big players such as Apple. 
+The &lt;a href=&quot;http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2Z1F0E7F2Y0Q1S1N3B4Y5U2A2K2P9&quot;&gt;bill&lt;/a&gt; ( I recommend the “translate” option of your favourite Browser to take a peek) establishes that digital market makers need to allow third-party payment systems. Not only that but also added provisions to avoid delays in application approvals and blocks that might be used to deter companies from going outside the app store.
+Apple and Google are indisputable giant whales with their digital markets, but it looks like the law takes the underdog side. Let’s wait again for a few months.&lt;/p&gt;
+
+&lt;h2 id=&quot;ai-pair-programming&quot;&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_10/#ai-pair-programming&quot;&gt;AI Pair Programming&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;First, I’ll start declaring that Copilot is a failure, at least for now.&lt;/p&gt;
+
+&lt;p&gt;Mr Brendan Dolan-Gavitt is an Assistant Professor at NYU Tandon. He noticed some strange configurations in Github’ Copilot Visual Studio Code extension to detect less desirable words. You can follow his tweet sequence about this digital adventure &lt;a href=&quot;https://twitter.com/moyix/status/1433254293352730628&quot;&gt;here&lt;/a&gt;, but one of his findings was very entertaining. The extension uses a black list of words to censor input, and within that set, one can find “q rsqrt”. If you’re not familiar with the string, I’ll help you. Originally it is Q_rqrt, the Quake fast inverse function that Copilot regurgitated as an auto-complete option.
+Mr Brendan tweets reveal much more, but this extension is just one more example of how not to do it.
+But it’s not all. A recent paper suggests that &lt;a href=&quot;https://arxiv.org/abs/2108.09293&quot;&gt;40 per cent of Copilot’s suggestions are erroneous from a security point of view&lt;/a&gt;. This shouldn’t be a shock considering my article. Copilot’s training codebase was feed as is. Who would have guessed that it would drop such foul code?
+I’m keen on loonshots and hope that Copilot becomes a successful tool to help development in many ways, but right now, I defer to my first sentence.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-legally-fixit&quot;&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_11/#i-legally-fixit&quot;&gt;i (legally) Fixit&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Well, this is a tangent to the original article, but it shows that anyone can be impacted by repair restrictions, even the fast-food giant MacDonalds.
+At least in the United States, you’ll need some good alignment from the ice cream gods to get a taste of a Macflurry. The failing ice cream machines are a running joke on the internet, and even MacDonalds took the internet’s side with the tweet:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/macfunny.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Usually, when I went for a surfing bout, I  visited a beach webcam site to see if the surf was actually up. If you want a Macflurry, you better pay a visit to &lt;a href=&quot;https://mcbroken.com/&quot;&gt;McBroken&lt;/a&gt; and see if the local machine is working.
+Not having a Macflurry whenever you want to visit a MacDonalds has become a severe issue for the USA’s Federal Trade Committee or FTC. Funny aside, the FTC is probing MacDonalds since it seems that HQ doesn’t allow franchisees to fix their own machines, which leads to long wait times until customers can get their tasty treat. I’m on FTC’s side on this one for sure.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal July 26 - August 23</title>
@@ -635,7 +731,7 @@ Nevertheless, Google’s Play Store has the most extensive footprint in the Andr
 
 &lt;h1 id=&quot;apple-ad-nudge&quot;&gt;Apple Ad Nudge&lt;/h1&gt;
 
-&lt;p&gt;In 2017 Mr Richard Thaler and Mr Cass Sunstein got one of those calls that you can’t miss. Well, to be accurate, Mr Thaler failed to pick up the 4:00 AM call from Sweden, and one can understand, but that is another story.&lt;/p&gt;
+&lt;p&gt;In 2017 Mr Richard Thaler and Mr Cass Sunstein got one of those calls that one cannot miss. Well, to be accurate, Mr Thaler failed to pick up the 4:00 AM call from Sweden, and any can relate, but that is another story.&lt;/p&gt;
 
 &lt;p&gt;The prize in memory of Mr Alfred Nobel rewarded their work on a controversial theory. Nudge, which is also the name of their book about the subject, tells us, among other things, that the power of default options can be a massive driver of policymaking without compromising a citizen agency. While, in fact, we might argue that some defaults might be pernicious when the agent doesn’t know all the options, one can appreciate the benefits of good default options. Take, for instance, the organ donor option in your driver’s licence or medical id card. Inertia will regulate swats of citizens to ignore the choice, and if the default selection is “not allowed”, it is proven that a large proportion of citizens will ignore the alternative even though they might be inclined to take the altruistic choice. Switch the onus of negation to the subject, and you’ll get near the opposite result contributing positively to society in general.&lt;/p&gt;
 
