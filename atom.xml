@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-09-06T12:59:21+01:00</updated>
+    <updated>2021-09-06T14:00:59+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -59,7 +59,7 @@ Back at the office, after recovering from my infirmities, I’ve shared the setu
 &lt;p&gt;Cloud providers and big software players are already moving into the online code editors and pushing developers to the new IDE, the Browser.
 This isn’t new if you’re only doing front-end development since browser development tools tabs are a significant part of the process. We’ve also seen the proliferation of sites such as &lt;a href=&quot;https://codepen.io/&quot;&gt;Codepen&lt;/a&gt; where developers can try examples, edit and run them with the usual mix of HTML, Javascript and CSS, but at the end of the day, you still need to keep your project running locally. Every other task unrelated to front-end technologies isn’t well covered, although it’s possible to see a few solid websites that run C# or Java snippets with environmental constraints such as I/O and connectivity.&lt;/p&gt;
 
-&lt;p&gt;August 11, Github announces that they are migrating all internal development to &lt;a href=&quot;https://github.com/features/codespaces&quot;&gt;Codespaces&lt;/a&gt;
+&lt;p&gt;August 11, Github announces that they are migrating all internal development to &lt;a href=&quot;https://github.com/features/codespaces&quot;&gt;Codespaces&lt;/a&gt;.
 Mr Cory Wilkerson is a Senior Director of Engineering at GitHub. He paints a rosy picture in his &lt;a href=&quot;https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/&quot;&gt;blog post announcing the shift to the cloud work environment&lt;/a&gt;, but it takes some development iterations to get the feel of such a change. I’m sure that we’ll have an MV Journal Follow-up on this one.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/cloud9/&quot;&gt;Cloud9&lt;/a&gt; is the development environment from AWS. A quick visit to the product website features a “Benefits” header followed by “Code with just a browser”. At first glance, I get scared with such a statement. Whether at Codespaces or Cloud9, the Browser brings a set of hidden moving parts on top of an insecurity layer. It isn’t a benefit per se, although I’m willing to accept that it is a ubiquitous piece of Software with a high level of accessibility, that is it. From a developer standpoint, showing a few code shops at your parent’s computer might be amusing, but doing it professionally requires a sensible setup that goes well beyond the Browser. Check your chair and desk, for instance.&lt;/p&gt;
