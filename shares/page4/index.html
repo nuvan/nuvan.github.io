@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_14/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-september-6-september-20-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-september-6-september-20-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_13/',
       context: document.body
     }).done(function( data ) {
@@ -418,6 +430,70 @@ window.cookieconsent.initialise({
     <div class="sh-elements">
       
         <div class="sh-left">
+          <a href="https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/" title="Code does not wear company colours" class="post-teaser">
+              <img src="https://directionwithintent.com/images/jruby_314x250.jpg" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            software-engineering
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/">
+                Code does not wear company colours
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/">
+                After a few projects and some nasty burns, eventually, any engineer understands that the code doesn’t care. It will c...
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2020-11-12" itemprop="datePublished">10 months and 1 week ago
+      </time>
+      <!--time class="entry-date" datetime="2020-11-12" itemprop="datePublished">NOVEMBER 12, 2020 00:00:00
+      </time-->
+    
+      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
+      <a class="comment-count" href="https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/#disqus_thread"></a>
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="code-does-not-wear-company-colours-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
           <a href="https://directionwithintent.com/product/on-diderots-effect-applications/" title="On Diderot's Effect Applications" class="post-teaser">
               <img src="https://directionwithintent.com/images/diderot_300x300.jpg" alt="teaser">
           </a>
@@ -441,7 +517,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">11 months and 1 week ago
+      <time class="entry-date" datetime="2020-10-01" itemprop="datePublished">11 months and 3 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-10-01" itemprop="datePublished">OCTOBER 01, 2020 00:00:00
       </time-->
@@ -507,7 +583,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">11 months and 4 weeks ago
+      <time class="entry-date" datetime="2020-09-13" itemprop="datePublished">1 year and 6 days ago
       </time>
       <!--time class="entry-date" datetime="2020-09-13" itemprop="datePublished">SEPTEMBER 13, 2020 00:00:00
       </time-->
@@ -573,7 +649,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">1 year and 4 days ago
+      <time class="entry-date" datetime="2020-09-02" itemprop="datePublished">1 year and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2020-09-02" itemprop="datePublished">SEPTEMBER 02, 2020 00:00:00
       </time-->
@@ -637,7 +713,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 4 months ago
+      <time class="entry-date" datetime="2017-04-14" itemprop="datePublished">4 years and 5 months ago
       </time>
       <!--time class="entry-date" datetime="2017-04-14" itemprop="datePublished">APRIL 14, 2017 00:00:00
       </time-->
@@ -660,72 +736,6 @@ window.cookieconsent.initialise({
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/product/avoiding-procrustes-bed/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-left">
-          <a href="https://directionwithintent.com/opinion/ground_and_cloud/" title="An Island and a Cloud." class="post-teaser">
-              <img src="https://directionwithintent.com/images/island_314x250.jpg" alt="teaser">
-          </a>
-        </div>
-        <div class="sh-rigth">
-          <div class="post-category">
-            opinion
-          </div>
-          
-            <div class="post-title">
-              <a href="https://directionwithintent.com/opinion/ground_and_cloud/">
-                An Island and a Cloud.
-              </a>
-            </div>
-            <div class="post-excerpt">
-              <a href="https://directionwithintent.com/opinion/ground_and_cloud/">
-                Apple Prison? More like Apple Island.
-
-
-              </a>
-            </div>
-          
-
-          <div class="post-meta">
-    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2014-10-26" itemprop="datePublished">6 years and 10 months ago
-      </time>
-      <!--time class="entry-date" datetime="2014-10-26" itemprop="datePublished">OCTOBER 26, 2014 00:00:00
-      </time-->
-    
-      <img class="comment-count-icon" src="https://directionwithintent.com/images/icons/comments.svg" alt="" height="12" width="12">
-      <a class="comment-count" href="https://directionwithintent.com/opinion/ground_and_cloud/#disqus_thread"></a>
-        
-    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="an-island-and-a-cloud-share">0</div>
-</div>
-
-
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/opinion/ground_and_cloud/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/opinion/ground_and_cloud/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

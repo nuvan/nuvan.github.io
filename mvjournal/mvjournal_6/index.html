@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_14/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-september-6-september-20-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-september-6-september-20-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_13/',
       context: document.body
     }).done(function( data ) {
@@ -443,7 +455,7 @@ window.cookieconsent.initialise({
 
 <h1 id="apple-ad-nudge">Apple Ad Nudge</h1>
 
-<p>In 2017 Mr Richard Thaler and Mr Cass Sunstein got one of those calls that one cannot miss. Well, to be accurate, Mr Thaler failed to pick up the 4:00 AM call from Sweden, and any can relate, but that is another story.</p>
+<p>In 2017 Mr Richard Thaler and Mr Cass Sunstein got one of those calls that you can’t miss. Well, to be accurate, Mr Thaler failed to pick up the 4:00 AM call from Sweden, and one can understand, but that is another story.</p>
 
 <p>The prize in memory of Mr Alfred Nobel rewarded their work on a controversial theory. Nudge, which is also the name of their book about the subject, tells us, among other things, that the power of default options can be a massive driver of policymaking without compromising a citizen agency. While, in fact, we might argue that some defaults might be pernicious when the agent doesn’t know all the options, one can appreciate the benefits of good default options. Take, for instance, the organ donor option in your driver’s licence or medical id card. Inertia will regulate swats of citizens to ignore the choice, and if the default selection is “not allowed”, it is proven that a large proportion of citizens will ignore the alternative even though they might be inclined to take the altruistic choice. Switch the onus of negation to the subject, and you’ll get near the opposite result contributing positively to society in general.</p>
 
