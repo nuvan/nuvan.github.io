@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-10-04T08:00:53+01:00</updated>
+    <updated>2021-10-18T07:45:23+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -17,9 +17,122 @@
 
     
     <entry>
+        <title>MV Journal October 4 - October 18</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_16/"/>
+        <updated>2021-10-16T00:00:00+01:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_16</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_16.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Did you survive the great social blackout event on the 4th?&lt;/p&gt;
+
+&lt;p&gt;Too dramatic?&lt;/p&gt;
+
+&lt;p&gt;I guess since Twitter and LinkedIn kept humming with the extra pressure from Instagram influencers looking for Twitter Fleets and Facebook rant posts that had to be “threaded”.
+The most significant impact that I’ve felt was on messaging since I rely too much on Facebook Messenger and Whatsapp. &lt;a href=&quot;https://it.slashdot.org/story/21/10/05/2110251/telegram-founder-says-over-70-million-new-users-joined-during-facebook-outage&quot;&gt;Telegram also took the surge hit with many subscribing for its free services&lt;/a&gt; I have a Telegram account, but most of the time, I’m idle.&lt;/p&gt;
+
+&lt;p&gt;Facebook went down for one round taking many services with it. My first bet was related to some Cloudflare issue or AWS ruining the party in some major region, and I was naif, of course. The problem is “always” the same, and if by any chance you’ve been sequestered under a rock, I’ll explain it in our last article. Just remember that this happened one day before &lt;a href=&quot;https://www.cnet.com/tech/computing/windows-11-all-best-features-in-microsofts-new-os-and-how-to-use-them/&quot;&gt;Windows 11 was unleashed&lt;/a&gt;, and I know many that bet on that horse.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Twitch, the streaming service owned by Amazon, forcibly went open-source but let’s not talk much about it [check this link instead] (https://www.theverge.com/2021/10/7/22714160/twitch-hack-security-data-breach-problems).&lt;/p&gt;
+
+&lt;p&gt;And finally, some weeks ago, &lt;a href=&quot;https://stratechery.com/2021/cloudflares-disruption/&quot;&gt;Cloudflare launched R2&lt;/a&gt;, a cloud object storage stepping lightly on AWS S3 toes. Finally, an excellent alternative to avoid the Amazon file storage monopoly. It still misses many integrations and features to compete head-to-head with AWS, but it’s nice to see emboldened contenders getting into a dark red ocean.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#landing-at-futureworks&quot;&gt;Landing at Future.Works&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#netsplit&quot;&gt;Netsplit&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;landing-at-futureworks&quot;&gt;Landing at Future.Works&lt;/h1&gt;
+&lt;h4 id=&quot;october-16&quot;&gt;&lt;em&gt;October 16&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;I’m writing this first paragraph right before Jonh Romero enters &lt;a href=&quot;https://future.works/tech-conference/&quot;&gt;“Future.Works”&lt;/a&gt; main stage to play “a few” Doom deathmatches.
+At the forefront of the COVID-19 vaccination drive, Portugal is gently opening up with some courageous in-person events. Courageous, not because we are still facing a pandemic but because we are starting our everyday lives after one. Investing in events at this time is a risky business that many still avoid at all costs. With the two standard Pfizer jabs, even yours truly is still guessing when to restart in-person AWS User Group Meetups in Lisbon.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+
+    &lt;strong&gt;&lt;em&gt;“So, was it worth it?”&lt;/em&gt;&lt;/strong&gt;
+
+&lt;/p&gt;
+
+&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
+
+&lt;p&gt;Friday, I was able to get to the event near 18 right after leaving the office. With doors closing at 21:30, there was ample time to, at least, sample all booths and select a few for the next day while visiting one or two conference sessions.
+Well, it took 30 minutes to see it all. A small corridor of stands comprising more or less a 500-meter length at the [Lisbon Congress Centre] (https://lisbonvenues.pt/en/lisbon-congress-center/) was enough to host less than twenty companies.
+It felt underwhelming from someone who had the chance of being present at some of “Landing.Jobs Festival” events, the previous version of the tech conference/job fair. Most of the companies are actively recruiting online, and if you’re from the tech industry and an active participant on LinkedIn, there was almost nothing new to see.
+Lisbon is small, and after one lap around the event area, it was enough to bump with many known faces and exchange impressions with visitors.
+The feeling of emptiness was common, but even with such a limited scope, everyone was happy to visit and meet company representatives in person while networking with fellow attendees as possible. COVID-19 etiquette for greetings? What a mess.
+Still, I was happy to meet &lt;a href=&quot;https://www.tecracer.de/&quot;&gt;tecRacer&lt;/a&gt;’s team. They are a german AWS shop planning a new office to scale up their business in Europe. &lt;a href=&quot;https://www.linkedin.com/in/marcobrunner/&quot;&gt;Marco Brunner&lt;/a&gt; is tecRacer’s team lead at their Munich’s office. With a personal connection to Portugal, he was optimistic about their hiring efforts, although they didn’t close any contract at the time.
+With so many good conversations here and there mixed with free beer, time flew and eventually, I’ve lost all conference sessions. It felt good.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
+
+&lt;p&gt;Arriving a bit sooner since the doors should be closing at 18:30, I did not see a significant attendee count difference even considering it was [Jonh Romero]’s(https://en.wikipedia.org/wiki/John_Romero) day.
+Probably many were there just for the chance of seeing and interacting with the living legend and not really to find a job. Event managers everywhere can relate, and a generous budget that gets you a VIP like Jonh Romero might make the difference in such events’ success. WebSummit people know that very well.
+Before Jonh Romero’s deathmatches, I was able to talk for a few minutes with &lt;a href=&quot;https://www.linkedin.com/in/andrericardoladeira/&quot;&gt;André Ladeira&lt;/a&gt;, a business developer for “Landing.jobs” job recruiting platform. Many companies refused his advances while showing availability for remote environments. Without disclosing any booth prices, he pointed out that COVID-19 was a significant deterrent for any sponsorship, even when we see businesses fighting daily battles to retain and recruit IT specialists in many areas.
+With not much to do until the final event, before a few lucky ones head into the traditional boat after-parties, I engaged with a few companies on the floor. Enthusiasm was going down but not for tecRacer. They’ve managed to close three hires.&lt;/p&gt;
+
+&lt;h2 id=&quot;deathmatch&quot;&gt;Deathmatch&lt;/h2&gt;
+
+&lt;p&gt;The main stage had many seats available. Right before the photo below, Jonh Romero had a small queue outside waiting for autographs and pictures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/jonhready.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From an old-timer like me, it felt a bit sad but also a privilege. With few people at the end of the event, attendees had more time and a chance to exchange a few words with Doom’s creator.
+Eight nervous players went to the stage and got a lesson from the master. Miguel, an attendee in the front row by my side, was one of the winners of Day 1 deathmatches which granted him a session with Jonh. I’ve asked him how many kills he was expecting to get. “One would be a victory”, he said. He got three against twenty from Jonh.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-was-it-worth-it&quot;&gt;So, was it worth it?&lt;/h2&gt;
+
+&lt;p&gt;For someone that benefited from a fully discounted ticket, it was.
+It was good to see people coming together again and a company like “Landing.jobs” taking the plunge to lead in-person tech events again. For the last two years, many of us got used to remote settings with streaming sessions happening globally. Going back to what we call “normal life” will take energy and time, and we need more events like this one to ignite our hearts and minds. After this, I’m going to help a bit and restart in-person AWS User Groups again. Even if we are few, it is time to do it again.
+So, a big thanks to “Landing.jobs” to make this happen against the social grain. A few weeks from now, we’ll have WebSummit. Will I see you there?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/end.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;netsplit&quot;&gt;Netsplit.&lt;/h1&gt;
+&lt;h5 id=&quot;september-28&quot;&gt;&lt;em&gt;September 28&lt;/em&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;Internet Relay Chat&lt;/a&gt;, or just IRC, was a popular message exchange system until the first decade of this millennium. The lightweight protocol, implemented by mIRC, an application for users to participate in IRC server groups,  allowed parties to interact privately or publicly amongst themselves.
+For simplicity, an IRC network was an ensemble of chat servers that participated in the network. A user used mIRC or other compatible applications to connect to one of those servers and gain access to an IRC network.
+As you might imagine, most of the connectivity wasn’t high-quality fibre back in the day, and it was usual for some servers to fall out of a distributed network while working for local users. We called it a Netsplit. The phenomenon was evident when it happened. Connected users would see in their client interfaces an announcement barrage of user disconnection messages in public channels that would be replaced by another wall of connections coming in when the network connection was reestablished. Sometimes the Netsplit was only the result of an IRC Cop, an IRC server administrator, disconnecting from the network explicitly for some executive reason. The Facebook outage of October 4th was their own version of a netsplit.&lt;/p&gt;
+
+&lt;p&gt;It happens to everyone, and it will happen again eventually. Internet services outages have many root causes. Usually, they stem from day to day human intervention errors and rarely from &lt;a href=&quot;https://www.zdnet.com/article/lightning-strike-zaps-ec2-ireland/&quot;&gt;a lightning strike&lt;/a&gt; or a &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_2/#ovh-roof-was-on-fire-and-we-dodged-that-bullet&quot;&gt;spontaneus combustion&lt;/a&gt; of a datacentre.&lt;/p&gt;
+
+&lt;p&gt;We still have a fairly distributed network for our Internet needs, and a service outage is often local whether we are talking about a service single-point of failure or availability disparities for clusters of users. Some people can see and interact with a service, but some others can’t. Some services are down, some others still work without any problems (another finish term here).
+While our Internet infrastructure can withstand some disorganization and partial failures, services will fail if they don’t take advantage of those features. When a company or service becomes a significant part of the Internet and concentrates all network elements and core services in a single place or network to avoid that inherent distribution instability, a misconfiguration might be enough for all hell to break loose.
+“It’s always DNS” was probably the most repeated sentence that day by the SysAdmin community worldwide, and it was but not in the usual sense.  The Facebook outage was partially a combination of misconfiguration associated with an internal tool bug that took down the backbone &lt;a href=&quot;https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/&quot;&gt;as explained in their own words&lt;/a&gt;. One of the side effects was the isolation of their centralized DNS infrastructure from the rest of the world, causing a netsplit of every network or datacentre connected to the backbone.&lt;/p&gt;
+
+&lt;h2 id=&quot;spooky-action-at-a-distance&quot;&gt;Spooky action at a distance&lt;/h2&gt;
+
+&lt;p&gt;Einstein famous words “Spooky action at a distance” tried to convey the non-local effects of a quantum measurement. For simplicity sake, if you get a particle measurement in one location, you can instantly know the state of an entangled particle miles away. Facebook absorbed many companies while growing up into the behemoth that we know nowadays. We can count Instagram and Whatsapp within the roster of acquisitions, so the outage extended to those services since they are entangled in the same Facebook network universe. Your writer produced the following meme when WhatsApp returned a plain 500 internal server error:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/meme.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the other hand, there are also different types of secondary internet entanglements that we can see in the extended Internet universe. Due to Facebook size, DNS request failures &lt;a href=&quot;https://blog.cloudflare.com/during-the-facebook-outage/&quot;&gt;cascaded to other services as was seen by Cloudflare&lt;/a&gt; impacting other prominent players.
+So if you observe instability on a brand so large as Facebook, you’ll have a correlated negative effect on the remainder network entangled participants but a positive if you are a competitor.
+Faced with an unresponding service, Internet users turned to other messaging applications such as Telegram and Signal, creating a surge of new signups or inactive accounts becoming active. Within the “social” environment, TikTok and Snap already have their own user universes that share or steal accounts from Facebook services, so users that want to keep consuming content took their attention to traditional sources, newspapers and “internet portals” such as Reddit.&lt;/p&gt;
+
+&lt;h2 id=&quot;funny-aspects&quot;&gt;“Funny” aspects&lt;/h2&gt;
+
+&lt;p&gt;Somewhere in the 80s, the sentence “eat your own dog food” gained traction within the software industry after a &lt;a href=&quot;https://en.wikipedia.org/wiki/Eating_your_own_dog_food#:~:text=In%201988%2C%20Microsoft%20manager%20Paul,term%20spread%20through%20the%20company.&quot;&gt;famous Microsoft internal email&lt;/a&gt;. The idea was to incentivize the use of your own company products and services internally instead. While the principle behind it was in the right place, relying too much on a centralized set of services might become an issue, especially if you don’t manage your disaster recovery plans well.
+Facebook felt this dearly when access to company buildings got affected, but their badge control systems. &lt;a href=&quot;https://www.businessinsider.com/facebook-employees-no-access-conference-rooms-because-of-outage-2021-10&quot;&gt;Many employees weren’t allowed to enter buildings for several hours during the outage&lt;/a&gt; until physical security processes were deployed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tech.slashdot.org/story/21/10/05/2152210/oculus-quest-becomes-a-paperweight-when-facebook-goes-down&quot;&gt;Oculus Quest, Facebook’s virtual reality headset, was also affected&lt;/a&gt;. Users reported that they couldn’t use the device to access their libraries since the product requires a Facebook login to use it if you didn’t buy the expensive version that relieves you from that social burden.&lt;/p&gt;
+
+&lt;p&gt;At last, and still related with the “dogfooding” within Facebook services, messaging got affected as you know already. Teams were unable to communicate and orchestrate properly since every channel was down.
+How do they solve it asks the attentive reader?
+Although there isn’t reliable information about their internal procedures, the rumour is that they went back to a system that works perfectly in such situations, IRC.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
         <title>MV Journal September 20 - October 4</title>
         <link href="https://directionwithintent.com/mvjournal/mvjournal_15/"/>
-        <updated>2021-10-01T00:00:00+01:00</updated>
+        <updated>2021-10-03T00:00:00+01:00</updated>
         <id>https://directionwithintent.com/mvjournal/mvjournal_15</id>
         <author>
 					<name>Nuno Valente</name>

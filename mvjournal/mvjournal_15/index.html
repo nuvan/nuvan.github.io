@@ -131,6 +131,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_16/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-october-4-october-18-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-october-4-october-18-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_15/',
       context: document.body
     }).done(function( data ) {
@@ -647,7 +659,7 @@ Assuming that Mr Zuckerberg meant what he said, this is a good move towards the 
   </a>
 
 					<div class="page-meta">
-	<p>Updated <time datetime="2021-10-01T00:00:00Z" itemprop="datePublished">October 01, 2021</time></p>
+	<p>Updated <time datetime="2021-10-03T00:00:00Z" itemprop="datePublished">October 03, 2021</time></p>
 </div><!-- /.page-meta -->
 				</footer><!-- /.footer -->
 				<aside>
