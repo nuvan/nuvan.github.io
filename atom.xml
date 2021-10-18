@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-10-18T07:45:23+01:00</updated>
+    <updated>2021-10-18T07:49:13+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -37,7 +37,7 @@ The most significant impact that I’ve felt was on messaging since I rely too m
 
 &lt;p&gt;Facebook went down for one round taking many services with it. My first bet was related to some Cloudflare issue or AWS ruining the party in some major region, and I was naif, of course. The problem is “always” the same, and if by any chance you’ve been sequestered under a rock, I’ll explain it in our last article. Just remember that this happened one day before &lt;a href=&quot;https://www.cnet.com/tech/computing/windows-11-all-best-features-in-microsofts-new-os-and-how-to-use-them/&quot;&gt;Windows 11 was unleashed&lt;/a&gt;, and I know many that bet on that horse.&lt;/p&gt;
 
-&lt;p&gt;Meanwhile, Twitch, the streaming service owned by Amazon, forcibly went open-source but let’s not talk much about it [check this link instead] (https://www.theverge.com/2021/10/7/22714160/twitch-hack-security-data-breach-problems).&lt;/p&gt;
+&lt;p&gt;Meanwhile, Twitch, the streaming service owned by Amazon, forcibly went open-source but let’s not talk much about it &lt;a href=&quot;https://www.theverge.com/2021/10/7/22714160/twitch-hack-security-data-breach-problems&quot;&gt;check this link instead&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;And finally, some weeks ago, &lt;a href=&quot;https://stratechery.com/2021/cloudflares-disruption/&quot;&gt;Cloudflare launched R2&lt;/a&gt;, a cloud object storage stepping lightly on AWS S3 toes. Finally, an excellent alternative to avoid the Amazon file storage monopoly. It still misses many integrations and features to compete head-to-head with AWS, but it’s nice to see emboldened contenders getting into a dark red ocean.&lt;/p&gt;
 
@@ -61,7 +61,7 @@ At the forefront of the COVID-19 vaccination drive, Portugal is gently opening u
 &lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
 
 &lt;p&gt;Friday, I was able to get to the event near 18 right after leaving the office. With doors closing at 21:30, there was ample time to, at least, sample all booths and select a few for the next day while visiting one or two conference sessions.
-Well, it took 30 minutes to see it all. A small corridor of stands comprising more or less a 500-meter length at the [Lisbon Congress Centre] (https://lisbonvenues.pt/en/lisbon-congress-center/) was enough to host less than twenty companies.
+Well, it took 30 minutes to see it all. A small corridor of stands comprising more or less a 500-meter length at the &lt;a href=&quot;https://lisbonvenues.pt/en/lisbon-congress-center/&quot;&gt;Lisbon Congress Centre&lt;/a&gt; was enough to host less than twenty companies.
 It felt underwhelming from someone who had the chance of being present at some of “Landing.Jobs Festival” events, the previous version of the tech conference/job fair. Most of the companies are actively recruiting online, and if you’re from the tech industry and an active participant on LinkedIn, there was almost nothing new to see.
 Lisbon is small, and after one lap around the event area, it was enough to bump with many known faces and exchange impressions with visitors.
 The feeling of emptiness was common, but even with such a limited scope, everyone was happy to visit and meet company representatives in person while networking with fellow attendees as possible. COVID-19 etiquette for greetings? What a mess.
@@ -70,7 +70,7 @@ With so many good conversations here and there mixed with free beer, time flew a
 
 &lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
 
-&lt;p&gt;Arriving a bit sooner since the doors should be closing at 18:30, I did not see a significant attendee count difference even considering it was [Jonh Romero]’s(https://en.wikipedia.org/wiki/John_Romero) day.
+&lt;p&gt;Arriving a bit sooner since the doors should be closing at 18:30, I did not see a significant attendee count difference even considering it was &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Romero&quot;&gt;Jonh Romero’s&lt;/a&gt; day.
 Probably many were there just for the chance of seeing and interacting with the living legend and not really to find a job. Event managers everywhere can relate, and a generous budget that gets you a VIP like Jonh Romero might make the difference in such events’ success. WebSummit people know that very well.
 Before Jonh Romero’s deathmatches, I was able to talk for a few minutes with &lt;a href=&quot;https://www.linkedin.com/in/andrericardoladeira/&quot;&gt;André Ladeira&lt;/a&gt;, a business developer for “Landing.jobs” job recruiting platform. Many companies refused his advances while showing availability for remote environments. Without disclosing any booth prices, he pointed out that COVID-19 was a significant deterrent for any sponsorship, even when we see businesses fighting daily battles to retain and recruit IT specialists in many areas.
 With not much to do until the final event, before a few lucky ones head into the traditional boat after-parties, I engaged with a few companies on the floor. Enthusiasm was going down but not for tecRacer. They’ve managed to close three hires.&lt;/p&gt;
