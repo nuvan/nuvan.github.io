@@ -118,6 +118,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_17/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-october-18-november-2-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-october-18-november-2-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_16/',
       context: document.body
     }).done(function( data ) {
@@ -454,6 +466,67 @@ window.cookieconsent.initialise({
     <div class="sh-elements">
       
         <div class="sh-left">
+          <a href="https://directionwithintent.com/mvjournal/mvjournal_17/" title="MV Journal October 18 - November 2" class="post-teaser">
+              <img src="https://directionwithintent.com/images/Blog_MVJournal_17.png" alt="teaser">
+          </a>
+        </div>
+        <div class="sh-rigth">
+          <div class="post-category">
+            mvjournal
+          </div>
+          
+            <div class="post-title">
+              <a href="https://directionwithintent.com/mvjournal/mvjournal_17/">
+                MV Journal October 18 - November 2
+              </a>
+            </div>
+            <div class="post-excerpt">
+              <a href="https://directionwithintent.com/mvjournal/mvjournal_17/">
+                A few minutes before writing this summary, I got the email warning from WebSummit with the title “Opening Night kicks...
+              </a>
+            </div>
+          
+
+          <div class="post-meta">
+    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
+      <time class="entry-date" datetime="2021-11-01" itemprop="datePublished">yesterday
+      </time>
+      <!--time class="entry-date" datetime="2021-11-01" itemprop="datePublished">NOVEMBER 01, 2021 00:00:00
+      </time-->
+        
+    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
+    <div class="comment-like" id="mv-journal-october-18-november-2-share">0</div>
+</div>
+
+
+          <div class="share-this">
+            
+<div class="inline-btn">
+  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/mvjournal/mvjournal_17/&amp;via=nuvan" target="_blank">
+    <div class="base">
+      <i class="fa fa-twitter" aria-hidden="true"></i> 
+      <span>Share on Twitter</span>
+    </div>
+  </a>
+  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_17/" target="_blank">
+    <div class="base">
+      <i class="fa fa-facebook" aria-hidden="true"></i> 
+      <span>Share on Facebook</span>
+      </div>
+  </a>
+</div><!-- /.share-this -->
+
+          </div>
+        </div>
+      
+    </div>
+</article>
+
+      
+        <article class="adapt-tile-to-share">
+    <div class="sh-elements">
+      
+        <div class="sh-left">
           <a href="https://directionwithintent.com/mvjournal/mvjournal_16/" title="MV Journal October 4 - October 18" class="post-teaser">
               <img src="https://directionwithintent.com/images/Blog_MVJournal_16.png" alt="teaser">
           </a>
@@ -479,7 +552,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-10-16" itemprop="datePublished">2 days ago
+      <time class="entry-date" datetime="2021-10-16" itemprop="datePublished">2 weeks and 3 days ago
       </time>
       <!--time class="entry-date" datetime="2021-10-16" itemprop="datePublished">OCTOBER 16, 2021 00:00:00
       </time-->
@@ -540,7 +613,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-10-03" itemprop="datePublished">2 weeks and 1 day ago
+      <time class="entry-date" datetime="2021-10-03" itemprop="datePublished">4 weeks and 2 days ago
       </time>
       <!--time class="entry-date" datetime="2021-10-03" itemprop="datePublished">OCTOBER 03, 2021 00:00:00
       </time-->
@@ -601,7 +674,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-09-19" itemprop="datePublished">4 weeks and 1 day ago
+      <time class="entry-date" datetime="2021-09-19" itemprop="datePublished">1 month and 2 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-09-19" itemprop="datePublished">SEPTEMBER 19, 2021 00:00:00
       </time-->
@@ -662,7 +735,7 @@ window.cookieconsent.initialise({
 
           <div class="post-meta">
     <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-09-05" itemprop="datePublished">1 month and 1 week ago
+      <time class="entry-date" datetime="2021-09-05" itemprop="datePublished">1 month and 4 weeks ago
       </time>
       <!--time class="entry-date" datetime="2021-09-05" itemprop="datePublished">SEPTEMBER 05, 2021 00:00:00
       </time-->
@@ -682,67 +755,6 @@ window.cookieconsent.initialise({
     </div>
   </a>
   <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_13/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-</div><!-- /.share-this -->
-
-          </div>
-        </div>
-      
-    </div>
-</article>
-
-      
-        <article class="adapt-tile-to-share">
-    <div class="sh-elements">
-      
-        <div class="sh-left">
-          <a href="https://directionwithintent.com/mvjournal/mvjournal_12/" title="MV Journal July 26 - August 23" class="post-teaser">
-              <img src="https://directionwithintent.com/images/Blog_MVJournal_12.png" alt="teaser">
-          </a>
-        </div>
-        <div class="sh-rigth">
-          <div class="post-category">
-            mvjournal
-          </div>
-          
-            <div class="post-title">
-              <a href="https://directionwithintent.com/mvjournal/mvjournal_12/">
-                MV Journal July 26 - August 23
-              </a>
-            </div>
-            <div class="post-excerpt">
-              <a href="https://directionwithintent.com/mvjournal/mvjournal_12/">
-                It’s no secret that I’m an AWS fanboy, but one shouldn’t be clouded by the halo effects of your favourite brands. AWS...
-              </a>
-            </div>
-          
-
-          <div class="post-meta">
-    <img class="entry-date-icon" src="https://directionwithintent.com/images/icons/date.svg" alt="" height="12" width="12">
-      <time class="entry-date" datetime="2021-08-22" itemprop="datePublished">1 month and 3 weeks ago
-      </time>
-      <!--time class="entry-date" datetime="2021-08-22" itemprop="datePublished">AUGUST 22, 2021 00:00:00
-      </time-->
-        
-    <img class="comment-like-icon" src="https://directionwithintent.com/images/icons/like.svg" alt="" height="12" width="12">
-    <div class="comment-like" id="mv-journal-july-26-august-23-share">0</div>
-</div>
-
-
-          <div class="share-this">
-            
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Shares&amp;url=https://directionwithintent.com/mvjournal/mvjournal_12/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_12/" target="_blank">
     <div class="base">
       <i class="fa fa-facebook" aria-hidden="true"></i> 
       <span>Share on Facebook</span>

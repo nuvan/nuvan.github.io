@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-10-18T09:52:17+01:00</updated>
+    <updated>2021-11-02T13:33:55+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,129 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal October 18 - November 2</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_17/"/>
+        <updated>2021-11-01T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_17</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_17.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;A few minutes before writing this summary, I got the email warning from WebSummit with the title “Opening Night kicks off soon.”. The clock counter states four hours and a few minutes until the event opens doors.
+As I’ve mentioned in our previous instalment, these mega-events mark the beginning of an “after Covid” era, and in Portugal, they make even more sense considering economic and social factors.
+And, with this social behaviour change, I’m also going to make some changes in our MV Journal format! Considering my availability for this project, these developments will come slowly, and they will start this week with a minor tweak. From now on, the first section, 0, will stay fixed under “News.ceil”. 
+First, did you get the title trick? If you’re a programmer, I hope you do :).
+Second, “News.ceil” will contain an assortment of the most impactful news of the last couple of weeks, some oddities and those little gems from the hidden corners of the interwebs. Without any in-depth analysis but pointing to the best sources for the topics in the webverse, you’ll get a tasty slice of the last fifteen days of tech-related news.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#meta&quot;&gt;Meta&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;newsceil&quot;&gt;News.ceil&lt;/h1&gt;
+
+&lt;p&gt;Apple Events! You got to love them. So over the top, but that is what you should expect from Giga Brands such as this one.
+Within the announcement myriad, Apple stays strong with the strategy of controlling silicon and software pushing &lt;a href=&quot;https://www.theverge.com/2021/10/18/22726444/apple-m1-pro-max-chip-processor-arm-macbook-fastest&quot;&gt;brand new M1 machines&lt;/a&gt; to the market. I’ve discouraged many developers from buying the first iteration but now….oh boy. It seems that nothing can beat the performance of Apple Silicon chips, so grab them while they’re hot. In terms of machine design, let’s praise who decided to kill the touch bar and bring back missed ports!
+One rant, though. Why &lt;a href=&quot;https://www.theverge.com/2021/10/19/22734676/apple-macbook-pro-notch-botch-face-id-missing-feature-design&quot;&gt;the camera notch Apple&lt;/a&gt;? Why? I’ll file this as a design failure for now, and let’s kill this on the next iteration, ok?&lt;/p&gt;
+
+&lt;p&gt;The gaming industry is also bubbling here and there. Christmas is one of those seasons where revenue metrics dictate the success of many shops, but for BigGame, such as EA, it’s just another iteration of some cash cows,   a few experiments going bust and some acquisitions that start to pay off. Nonetheless &lt;a href=&quot;https://www.pcgamer.com/rip-fifa-ea-trademarks-ea-sports-fc/&quot;&gt;EA is tired of paying FIFA for their brand and called it quits&lt;/a&gt;. This is a bold move since gamers like to play with their favourite sports stars and not name gimmicks. Kids want to control Messi and Ronaldo, not Messiah or Reinaldo. Let’s see who gets the next FIFA partnership, but FIFA 22 will mark the end of an era.&lt;/p&gt;
+
+&lt;p&gt;LinkedIn is still one of the most important platforms for tech hiring globally, but it seems that the brand was getting stuck rolling out new verticals and understanding the market of tech contractors that keeps growing every day. Finally, they took the hint, and last week, &lt;a href=&quot;https://techcrunch.com/2021/10/27/linkedin-rolls-out-its-freelance-services-marketplace-globally-after-picking-up-2m-users-in-smaller-us-beta&quot;&gt;they launched a platform for freelancers with a small 2 million user beta in the united states&lt;/a&gt;. For some, this looks like it is too late, but we shouldn’t dismiss the weight of LinkedIn’s brand and the deep pockets of Microsoft. Yes, LinkedIn was bought by Microsoft some years ago. Did you notice it?&lt;/p&gt;
+
+&lt;p&gt;Finally, in the tech business world, Mr Mark Zuccerberg unveiled &lt;a href=&quot;&quot;&gt;Meta&lt;/a&gt; but for this one, just follow the link to my piece for a good read :)&lt;/p&gt;
+
+&lt;p&gt;In the developer world, we also got some exciting news. Following the trend of remote interface development environments or just IDEs, &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_13/#the-resource-balance-loop---remote-development-ides-are-back-again&quot;&gt;that we’ve explored in a previous issue&lt;/a&gt;, &lt;a href=&quot;https://code.visualstudio.com/blogs/2021/10/20/vscode-dev&quot;&gt;Microsoft released a version of Visual Studio completely web-based&lt;/a&gt;. I still didn’t have any time for a quick test drive, but considering the official announcement, it seems that the editor is still for lightweight code changes and not as a fully-fledged editor. Nothing new then, and I’m still sceptical regarding the web-based IDE. Maybe for Engineering Managers or QA teams to inspect code and quickly add a few notes or minor corrections? Let’s see how this trend pans out.&lt;/p&gt;
+
+&lt;p&gt;Intel is again on the news, but this time for open-source software. &lt;a href=&quot;https://venturebeat.com/2021/10/20/intel-open-sources-ai-powered-tool-to-spots-bugs-in-code/&quot;&gt;They released an AI-powered bug catching tool&lt;/a&gt;. This is the type of “Copilot” that I want to support my development efforts. I don’t wish that my IDE tries to auto-complete my code. Maybe some boilerplate structure, but that is it. Now, in terms of automatically generating tests and catching bugs, bring those AI overlords, please.&lt;/p&gt;
+
+&lt;p&gt;And to end this first instalment of News.ceill - you did get the name, right? - Mr Jonh Carmack, Consulting CTO at Oculus VR and nerd god, launched a patch for Oculus Go owners that allow low-level access to the device operating system. Hack away said God when discontinuing an older machine.&lt;/p&gt;
+
+&lt;p&gt;So, I hope you’ve enjoyed this first News.ceil. If you still have time and patience, take a look at Meta. For me, it’s an inevitable future. For many, it’s hell on earth. &lt;a href=&quot;https://fortune.com/2021/10/29/john-carmack-facebook-oculus-metaverse-mark-zuckerberg/&quot;&gt;For Mr Jonh Carmack, it is a mistake&lt;/a&gt;. And you? #TeamMeta or #TeamGetMeOutOfHere?&lt;/p&gt;
+
+&lt;h1 id=&quot;meta&quot;&gt;Meta&lt;/h1&gt;
+&lt;h4 id=&quot;october-31th&quot;&gt;&lt;em&gt;October 31th&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;Hiro Protagonist might be one of the best names ever for a fiction story protagonist, and probably for one of the most relevant Cyberpunk books in the genre, &lt;a href=&quot;https://en.wikipedia.org/wiki/Snow_Crash&quot;&gt;Snow Crash&lt;/a&gt; from Mr &lt;a href=&quot;https://en.wikipedia.org/wiki/Neal_Stephenson&quot;&gt;Neal Stephenson&lt;/a&gt;.
+If you’re not tuned up with this story, Hiro is a Mafia pizza delivery man and a world-renowned hacker that partakes in the widespread Metaverse - please ALWAYS read Metaverse with an ominous tone for entertainment purposes.
+The Metaverse, in the context of Snow Crash, was a virtual medium that connected all the existing virtual worlds, converging them with physical reality. Owned by a single company in terms of virtual real estate, it is the space where mere mortals become whatever they want.&lt;/p&gt;
+
+&lt;p&gt;If you see some similarities with some recent news, take a look at the following paragraph first.&lt;/p&gt;
+
+&lt;p&gt;In 2003, &lt;a href=&quot;https://en.wikipedia.org/wiki/Linden_Lab&quot;&gt;Linden Lab&lt;/a&gt; launched Second Life, a metaverse for your virtual presence, and it still runs today with between half and one million monthly regular users depending on who’s counting.
+Second Life took the web by storm has many other virtual worlds after it but with the difference that it wasn’t a game. Within the hardware and software technological limitations, it was the promised virtual open world for everyone to be whatever they wanted. Users could build infrastructure and engage in business using an official currency, and until today the system tries to replicate every activity that a human can do in the real world.
+Many celebrities accepted invitations to participate in events, politicians made speeches, and even the International Space Station, or ISS, got a replica for space explorers. &lt;a href=&quot;https://marketplace.secondlife.com/p/International-Space-Station/8451946&quot;&gt;Nowadays, you can buy one for yourself&lt;/a&gt;, but Second Life is a virtual world separated from our physical reality. The single point of contact was probably the Linden Dolar that eventually was used as a pseudo digital currency in many domains.&lt;/p&gt;
+
+&lt;p&gt;October 2021, Facebook becomes Meta. We saw a similar move from Google a few years ago when they became Alphabet. Of course, Google and Facebook still exist, but both businesses created a higher entity to envelop all their parts under one corporate name. You can still search on Google, and your social media app will still hold the name Facebook. Nonetheless, there is a significant difference between Alphabet and Meta. While Alphabet was an organizational move, Meta is an objective itself, one that you’ve probably already got a hold of, whether from my previous paragraphs or from the news webstream.&lt;/p&gt;
+
+&lt;p&gt;Meta, &lt;a href=&quot;https://about.fb.com/news/2021/10/facebook-company-is-now-meta/&quot;&gt;as presented by Mr Mark Zuckerberg&lt;/a&gt;, will be - yet another - Metaverse, but one much more ambitious in its reach, one that follows more closely Mr Neal Stephenson’s Metaverse.&lt;/p&gt;
+
+&lt;h2 id=&quot;keynote-impressions&quot;&gt;Keynote Impressions&lt;/h2&gt;
+
+&lt;p&gt;Mr Zuckerberg Meta’s determined vision - the Metaverse - where physical remoteness should not be a barrier for doing anything that you can do with your friends like they were right beside you, although far from reach.
+In the keynote’s first minutes, we are introduced to a world similar to another science fiction writer that got a movie as well recently. Mr Ernest Cline’s Ready Player One depicts a virtual world that matches Mr Zuckerberg’s expectations for his Metaverse. Your virtual self can be whatever you want to be, and you can jump between your local virtual room and augmented physical reality with the flick of your virtual wrist controller.
+While the vision is grand, the words from the keynote are conservative and careful, pointing out that we are still years from the objective and no one knows how many.&lt;/p&gt;
+
+&lt;p&gt;The iterative story starts at Horizon Home, a closed space simulacrum of your ideal home, where you can exist and interact with the environment while inviting friends for shared experiences. You can jump to many other virtual spaces creating an illusion of limitless open-world experiences. The previous ensemble of activities comprises Horizon Worlds, where the Metaverse starts to expand.
+Jumping from your couch directly to a concert probably will not happen that soon, and if it happens, I have serious doubts that your interaction with the live event will be meaningful and satisfying. Consumers’ bland experience will be punished early when the vision boasts an almost realistic interaction with your friends in the crowd.&lt;/p&gt;
+
+&lt;h3 id=&quot;crypto&quot;&gt;Crypto?&lt;/h3&gt;
+
+&lt;p&gt;One of the big announcements was subtly added as a minor side effect of such a world. The NFT auction at an after-party should make politicians in the modern world shudder. If you didn’t feel the force disturbance when an inconspicuous transaction happens during the presentation, you’re still outside the crypto bubble.
+After each presentation segment, we need to recentre our expectations, adding a solid pinch of salt on what we’ve seen, but the simple exchange of something unseen with an avatar getting instantly dressed in an NFT auctioned jacket is that kind of utopia served upon a dystopian plate. For someone that knows and may have used Second Life Metaverse, Linden dollars solved the problem, but the current technology space points into a pseudo decentralized system around blockchains.
+The “NFT” abbreviation isn’t innocent for sure and especially when no explanation of its meaning was added to the conversation.&lt;/p&gt;
+
+&lt;p&gt;Later in the keynote, we get to see a Mr Vishal Shah, Metaverse’s VP presenting the business possibilities to Ms Jackie Aina, owner of FORVR, or Forever Mood, a beauty and wellness brand targetted at black women.
+There is much opportunity to make money from pulling fans to your Horizon home and having unique virtual pop-up sales that mix digital experiences and assets with physical products. Extending actual products to a virtual environment, enhancing them with augmented reality experiences that can be shared with your friends at your home, whether a Horizon home or your physical home, will reinforce the notion of continuity between environments.
+But again, the “NFT” reference is reinforced at this point.
+Cryptocurrencies are already here, and for the last decade, have been touted as the future of money. The reality is that they are unfeasible as a day to day transaction token, and to become that unseen medium of exchange in the keynote, centralization is needed. I’ll leave it to your imagination who will be the cluster of centralized hosts managing the Metaverse currency that also extends to our meatspace reality.&lt;/p&gt;
+
+&lt;h3 id=&quot;gaming&quot;&gt;Gaming&lt;/h3&gt;
+
+&lt;p&gt;Gaming wasn’t forgotten, and how could it be when so many of us got to experience RPGs Metaverses such as World of Warcraft and Runescape?
+It’s probably the stepping stone for many that still aren’t digital children at this point in time. Games are a great way of practising virtual social interaction with peers and will be the single thing to do in the Metaverse for many for a while. We are already seeing some virtual gaming events amassing participant numbers that compete with any sports events.
+Fortnite counted up to 15.3 million users in the last live event &lt;a href=&quot;https://www.statista.com/statistics/1235632/fortnite-biggest-live-events/&quot;&gt;but the number wasn’t very far from previous ones&lt;/a&gt;
+Time to start building your Metaverse gaming rigs?
+Probably not because it seems that everything will be supported by Quest’s systems, the latest Oculus headsets.&lt;/p&gt;
+
+&lt;p&gt;The evolution from standing still VR gaming to a workout activity is almost natural. Exploring worlds in a 3D setting almost implies some body movement to reach, inspect, interact and eventually attack your adversaries. Nevertheless, this is still in the realm of gaming experiences that we might find in any gaming console or personal computer. The transition to games that required fitness is almost trivial, and we already have a few examples from Nintendo Wii well before Quest fitness apps.&lt;/p&gt;
+
+&lt;h3 id=&quot;remotish-work&quot;&gt;Remotish Work&lt;/h3&gt;
+
+&lt;p&gt;Working remotely was forced upon many offices worldwide with the Covid-19 pandemic, which probably helped build and test existing Quest workplace features.
+Remote settings are here to stay, and assuming that we will go back to the old ways is naif, to say the least. Meta’s features for the workplace will be at the forefront of the project, and while it isn’t apparent for many, this is a requirement for a successful Metaverse. We’ve felt the impersonal world of a remote work environment, mixing video group calls with messaging, and we know it will not satisfy our social needs, but we’ve also seen the benefits of living happily with our partners and avoiding commute time that we don’t know how we can live with it again. We’ve understood that location will matter less and less with technology evolving over time. Working through the Metaverse is inescapable, considering our environmental concerns as well, so when do you think your work will only exist through the Metaverse?&lt;/p&gt;
+
+&lt;p&gt;How about learning? Very similar to working, but I don’t date to venture into early ages. I can’t see kids not having virtual environments in formative years, especially when real life will be a mix of virtual with real. Learning what can harm and what can be fun is part of building the self. It should be the same but with an extra technology layer that transforms any human into a super-powered Metaverse user.
+For adults, well, how about that MBA to push your career to the next level? Just teleport to your University and don’t forget to study hard.&lt;/p&gt;
+
+&lt;h3 id=&quot;3darvr-content&quot;&gt;3D/AR/VR Content&lt;/h3&gt;
+
+&lt;p&gt;Content creation is a significant entry barrier, but creating and hosting a website was also a task for technical experts twenty years ago. Nowadays, anyone can quickly create an internet presence with many services and tools for affordable prices in economically developed countries. Meta’s learned with the past shows that they are investing hard into ways for content creators to craft augmented realities and distinct elements that can differentiate their environment from the pack. Providing easy to use tools to creators is one of the most essential pillars for the fast scaling of the Metaverse.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-gear&quot;&gt;The gear&lt;/h3&gt;
+
+&lt;p&gt;Technology and hardware evolution jumps are required if the Metaverse is something appealing for the mass market. &lt;a href=&quot;&quot;&gt;I’ve already covered the evolution and contenders in the augmented reality space&lt;/a&gt; in RayBan Storie’s piece.
+One of the stated objectives for Rayban Stories is to normalize augmented reality behaviour in an open world, and for that, we don’t really require the final technology. Interaction with a “smart glass” device will be a step forward into more rich and complex experiences like the ones that Snap presented with their latest product.
+Mr Zuckerberg also explored some investigation streams, lifting the curtain of experimental products and pure research exercises that look impressive and promise much but unfortunately are still years ahead of us. Nevertheless, this part of the keynote sneak peeks at the investment made into the devices that will allow us to partake in the Metaverse. Meta already has deep pockets, but I guess that the required funds will bring new venture capital money to the table.&lt;/p&gt;
+
+&lt;h3 id=&quot;and-you&quot;&gt;And you?&lt;/h3&gt;
+
+&lt;p&gt;For us, son’s of the digital age, the Metaverse looks like something that will happen no matter who builds it and how it is built. With so many technologies and services popping up from the innovator’s slipstream, we can feel it right around the corner, emerging from a chaotic process. Some bits and pieces of existing technology can be coupled together to create a Metaverse gimmick, but we know that the trick is just entertainment for a short period.
+Meta is the first company to explicitly make a Metaverse its own challenge and final objective while humbly assuming that there is much to be built, skipping the stupidity of a deadline in such a project.
+Just like Tesla’s autopilot seems attainable this decade, I’m also rooting for the same regarding the Metaverse and ready for my Oculus Quest Teleport headgear. The fun part? You don’t have to choose between a red or a blue pill. You can have them both. Are you in?&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+
+    &lt;em&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_16/&quot;&gt;Previous MV Journal Edition&lt;/a&gt;&lt;/em&gt;
+
+&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal October 4 - October 18</title>
