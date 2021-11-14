@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-11-02T13:33:55+00:00</updated>
+    <updated>2021-11-14T19:29:46+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,111 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal November 2 - November 15</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_18/"/>
+        <updated>2021-11-14T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_18</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_18.png&quot;&gt;&lt;br/&gt;
+        	&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#A&quot;&gt;WebSummit. Is that time of the year?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;newsceil&quot;&gt;News.ceil&lt;/h1&gt;
+
+&lt;h3 id=&quot;squidgame-crypto-goes-busscam&quot;&gt;SquidGame crypto goes bus…scam.&lt;/h3&gt;
+
+&lt;p&gt;I’m sure that you’ve been exposed to the cryptocurrency world at this point, and there’s a good chance that you have already bought a few crypto coins here and there. This one is just another example of pseudo currencies’ problems, especially in such a volatile and unregulated market. &lt;a href=&quot;https://edition.cnn.com/2021/11/01/investing/squid-game-cryptocurrency-scam/index.html&quot;&gt;The Squid Game inspired cryptocurrency revealed to be a scam&lt;/a&gt;. “Pump and dump” scams abound in the crypto world, and event the late Mr Mcafee was involved on a few, as we’ve mentioned here.&lt;/p&gt;
+
+&lt;h3 id=&quot;ibm-buys-macdonalds-ai-pie&quot;&gt;IBM buys MacDonalds AI pie.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://corporate.mcdonalds.com/corpmcd/en-us/our-stories/article/ourstories.IBM-McD-Tech-Labs.html&quot;&gt;MacDonals decided to sell McD Tech Labs to IBM for an undisclosed value&lt;/a&gt;. The move shifts gears for the automatic order taking system development that has been dragging since 2019 after the acquisition of the voice recognition startup Apprente. Whether it is with IBM or another AI powerhouse, this was an excellent move since we see many AI projects from non-tech companies go bust too quickly.&lt;/p&gt;
+
+&lt;h3 id=&quot;fifa-nftswho-would-have-guessed&quot;&gt;FIFA NFTs…who would have guessed.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bbc.com/news/technology-59167668&quot;&gt;In a recent investor call, Mr Andrew Wilson, EA’s CEO, pointed out that NFTs are a pillar for the gaming industry’s future within the FIFA franchise&lt;/a&gt;. EA is hinting for FIFA games without the governing body at their back while the latter already announced the split of their exclusive deal with EA. It’s going to get heated in some courts, for sure.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-physical-before-the-metaverse&quot;&gt;Getting Physical before the Metaverse.&lt;/h3&gt;
+
+&lt;p&gt;Meta, formerly known as Facebook, &lt;a href=&quot;https://www.nytimes.com/2021/11/05/technology/facebook-stores-meta-metaverse.html&quot;&gt;is working on a project to open physical stores&lt;/a&gt; before the Metaverse arrival. The idea was rolling well before Meta’s announcement, but it could support AR/VR equipment demo centres to metaverse punters. After so many dystopian movies and books, I can only imagine shelters for people unable to buy expensive equipment to participate in the humanity pseudo sublimation. A Videodrome future might be right around the corner.&lt;/p&gt;
+
+&lt;h3 id=&quot;big-particles-accelerator&quot;&gt;Big Particles Accelerator.&lt;/h3&gt;
+
+&lt;p&gt;After listening about this endeavour, I was almost betting that it was something backed by Mr Elon Musk. &lt;a href=&quot;https://www.spinlaunch.com/&quot;&gt;SpinLaunch&lt;/a&gt;, an American startup based in California, tries to put objects in orbit, skipping the cumbersome rocket launchers and spinning the objects to escape velocity.
+Backed by impressive investors, including Google ventures, Spinlaunch is showing promising results with their first tests. What a loonshot!&lt;/p&gt;
+
+&lt;h3 id=&quot;no-free-lunch-but-java-is-on-oracles-tab-again&quot;&gt;No free lunch, but Java is on Oracle’s tab again.&lt;/h3&gt;
+
+&lt;p&gt;Oracle is reverting their 2018 contentious decision of making developers pay for the JDK.
+&lt;a href=&quot;https://www.infoq.com/news/2021/10/oracle-jdk-free-again&quot;&gt;From version 17 forward, SDKs are free&lt;/a&gt;, but companies can still keep their subscriptions for premium support.
+Oracle’s official JVM lost many users in these last few years while OpenJDK distributions from Amazon, Microsoft and others gained traction, replacing Oracle’s JVMs in many production environments. The move might not be enough to regain lost clients, and I believe we’ll see more initiatives from Oracle to put their JDKs running in developers machines.&lt;/p&gt;
+
+&lt;h3 id=&quot;portugal-is-on-the-world-news&quot;&gt;Portugal is on the world news.&lt;/h3&gt;
+
+&lt;p&gt;No, it wasn’t Websummit.
+This isn’t directly related to tech, but since many of us are embarking on the remote lifestyle, it will significantly impact it.
+&lt;a href=&quot;https://slashdot.org/story/21/11/09/2124228/portugal-makes-it-illegal-for-your-boss-to-text-you-after-work&quot;&gt;The Portuguese government ruled out a set of laws that will protect workers from being contacted outside their regular work hours&lt;/a&gt;. The ruling was echoed by many media outlets and most with a positive view about the decision.
+How many of us tech workers are plagued with an unofficial 24/7 schedule? Probably many.
+How many companies will get cold feet hiring people that at the minimum work friction might pull the “out of hours communication” lever? Time will tell.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-about-a-clippy-avatar&quot;&gt;What about a Clippy avatar?&lt;/h3&gt;
+
+&lt;p&gt;While former Facebook, now Meta, made a splash with their rebranding and Metaverse plans, Microsoft is easing their VR technologies. &lt;a href=&quot;https://www.youtube.com/watch?v=Jd2GK0qDtRg&quot;&gt;Microsoft Mesh&lt;/a&gt; was announced in March, well before Meta and with a small fanfare. &lt;a href=&quot;https://www.ft.com/content/62d4652f-faec-4ef7-b642-1ae7b4262563&quot;&gt;Now, the company plans to roll out their AR/VR technologies in their office collaboration platform Teams&lt;/a&gt;. Making Clippy, the default avatar should be their next step :)&lt;/p&gt;
+
+&lt;h1 id=&quot;websummit-is-that-time-of-the-year-already&quot;&gt;WebSummit. Is that time of the year already?&lt;/h1&gt;
+&lt;h4 id=&quot;november-12th&quot;&gt;&lt;em&gt;November 12th&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;” This is the last Websummit that I’ll visit while an ‘attendee’ “.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I said it thrice.&lt;/p&gt;
+
+&lt;p&gt;This year I was about to comply with my statement but, once again, the allure of a free ticket made me visit the tech conference/startup fair that the Portuguese government subsidized for ten years. While I’m starting this piece with a sour tone, it’s not all bad.&lt;/p&gt;
+
+&lt;p&gt;After getting the news that Multivision got a bundle of free tickets to this year edition, my promise faltered instantly. One knows it’s never free, and in this case, we would need to go through a commercial presentation to sell us the 2022 edition. We’ve dodged that bullet, and some of us got to visit one of the largest tech conferences in the world, or so they tell us.&lt;/p&gt;
+
+&lt;p&gt;My professional and personal schedule weren’t aligned with the dates, but I still got a day of the three and a half-day conference. Three and a half days because the event starts at the end of a day with some presentations and the Night Summit, an informal gathering spread around in multiple venues on Lisbon for attendees, VCs and entrepreneurs to mingle.&lt;/p&gt;
+
+&lt;p&gt;If you’re from out of town and your company paid full for the trip, this year must have been excellent. With a smaller attendee list of around 42K tech denizens, there was ample space to go to every booth and speak with entrepreneurs or peers without getting smothered by the passing crowd. Lisbon is also recouping tourism but still running half full, which provides less hassle in every visit to a restaurant, store, hotel or riverside park.
+But if you’re an entrepreneur looking for funding and customers, this year wasn’t great with less 30K visitors since 2019’s edition. There was less foot traffic to see the small startup booths spread over the four LIF pavilions, or Lisbon International Fair, at Parque das Nações.&lt;/p&gt;
+
+&lt;p&gt;My day usually starts early, and I could get to the venue well before any speakers got on stage. Even so, there was a steady visitor stream going through the motions at the checkpoints and main entrance. I still had to register for the event, but it didn’t take more than 20 minutes from the first checkpoint until I got inside the venue. If you’d arrive a couple hours later, you had to wait for more than one hour as &lt;a href=&quot;https://www.linkedin.com/in/nchattinl/&quot;&gt;Ms Nicole Chattin&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/raquel-albuquerque-409053157/&quot;&gt;Ms Raquel Albuquerque&lt;/a&gt; did, two of my colleagues that also went to the event.
+After getting inside, it looked like a ghost town compared with previous editions, and for an attendee that wanted to browse booths, it was great. With a cup of coffee in hand, I got to see the booth set of the day from beginning to end without having to compromise my attention with a relentless current of patrons.
+Again, I didn’t plan well this visit and was completely unprepared for the day. Nevertheless, right after getting in, I could find a comfortable place to sit and launch Websummit’s mobile app with the multiple stage talk calendar, and I got pleasant surprises.
+From a conversation between Ms Rebecca Parsons, ThoughtWorks CTO, with Christine Spang, Co-founder and CTO at Nylas, to the AWS Lounge with an excellent presentation about the Cloud Development Kit, or just CDK, I almost got a perfect setup of talks on nearby stages.
+The app is your map, calendar and social network for the event’s duration and one of Ms Raquel Albuquerque Websummit favourite features. If you ever want to visit or come back, set it up early before the event. Make your choices and get soon to the venues, or else you’ll miss precious spots in more space-constrained events, such as the CDK presentation that I had to attend outside the AWS Lounge or the ones that Ms Chattin and Ms Raquel lost since the venue was already full. The early bird gets the worm, right?&lt;/p&gt;
+
+&lt;p&gt;If you have never visited a tech event of this size, you don’t know how important it is to plan for the talks and venues to see inside. Although this edition was less complete than the previous ones, you still need to negotiate trips between pavillions from one session to the other. A foot trip can take five to ten minutes which can be enough to lose half of a session that takes twenty minutes. I got lucky this time, even when switching stages was a breeze.&lt;/p&gt;
+
+&lt;p&gt;In Portugal, we use a pair of expressions to mark the dichotomy between good and bad business years. A good business year gets an “It’s a fat cow season” while a bad business year will get the expression “It’s a thin cow season”. The latter applied perfectly to this year brand booths. Fewer goodies and gift bags to spread around. Some booths didn’t even have any representatives for a big chunk of the day. According to &lt;a href=&quot;https://eco.sapo.pt/&quot;&gt;ECO&lt;/a&gt;, a Portuguese digital-only business newspaper, the impact of every edition since 2016 was much lower than expected, with a total gross added value of 252 million euros when the total predicted was 448 million euros. Just for comparison, a single MotoGP event happening one week later had a direct impact of 40 million euros, according to Camilo Lourenço, a Portuguese journalist and broadcaster.
+This shows what many of us already understood after the first Portuguese Websummit edition. Although it is huge from a Portuguese standpoint, it isn’t a significant event in the tech industry. If you want to sample some empirical evidence, try to search for Websummit related news that doesn’t have a Portuguese origin. From Spain, the Czech Republic and the Netherlands, it is near zilch. I took the time of searching via an Irish connection, and there I got a few hits, but not from the good kind. Many articles denounce a suit filed by Websummit against a former partner for breaching fiduciary duty. The same ex-partner sued back for different reasons, but the spat made many digital news shops. &lt;a href=&quot;https://econews.pt/2021/11/12/web-summit-in-shock-with-ex-partner-which-it-accuses-of-diverting-attention-with-new-lawsuit/&quot;&gt;The situation was also echoed here in Portugal by ECO&lt;/a&gt; some days ago.
+While reviewing this piece, there’s another development. &lt;a href=&quot;https://twitter.com/paddycosgrave/status/1459881354448056320&quot;&gt;Mr Paddy Cosgrave issued a public threat on Twitter against the press that echoes the subject&lt;/a&gt;. This isn’t something that we should read from someone that organizes an event where the free press is lauded.
+Legal issues apart, one can’t say that the event is a scam. It impacts the local tech scene and correlates well with the hiring uptick from many known companies that settled in Portugal, but it isn’t the wealth driver that so many punters, some of them active politicians, repeat in every local news media.
+It’s also expensive. One general attendee ticket in 2019 went from 450 euro up to 850 euro. For reference, the minimum wage in Portugal is 740.83 euros. If you’re from abroad, add up lodging and food expenses on top, which is a steep investment, or bet, for many. Unless you’re pitching, investing, building or exploring a network connection, or simply hustling inside, I won’t recommend the setback, especially if you’re living from Portuguese wages.
+Websummit people understand well that it is hard to make an event if you don’t have a crowd. I believe that so many of us got free or heavily discounted tickets just to put some boots on the ground. Celebrity guests like Al Gore, Tony Blair, Evan Williams, Mark Schneider, Stephen Hawking, and many more bring many visitors and build attendances, but it isn’t enough in a “thin cow season”.
+Nonetheless, if you’re paying taxes in Portugal, you’re paying a part of Websummit since the Portuguese government splurges 11 million euros per event every year. When I say every year, it even includes last year, with the event running online only. Good grief.&lt;/p&gt;
+
+&lt;p&gt;So, repeating my mantra,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;” This is the last Websummit that I’ll visit while an ‘attendee’ “.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+
+    &lt;em&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_17/&quot;&gt;Previous MV Journal Edition&lt;/a&gt;&lt;/em&gt;
+
+&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal October 18 - November 2</title>
@@ -983,7 +1088,7 @@ To balance this gloomy event, I want to introduce you to a new world of discover
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;iNaturalist, Pokemon Go for real&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Obituary - The rise and fall of Jonh Macfee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#obituary---the-rise-and-fall-of-jonh-macfee&quot;&gt;Obituary - The rise and fall of Jonh Macfee&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h1 id=&quot;inaturalist-pokemon-go-for-real&quot;&gt;iNaturalist, Pokemon Go for real&lt;/h1&gt;
@@ -2250,54 +2355,6 @@ The fear and anxiety of not being able to entertain the user, makes us create a 
 &lt;h2 id=&quot;my-environment&quot;&gt;My environment&lt;/h2&gt;
 
 &lt;p&gt;Monopoly is a game that I loved to play when I was a kid and even nowadays is a well-spent night with friends, but it is very dangerous in the real world. I hope that none of these companies can achieve a market position that can dry all of their competitors completely, but right now I choose to spend some years in this lovely Apple island with a Google cloudy sky.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>JRuby / JVM encoding flags</title>
-        <link href="https://directionwithintent.com/programming/jruby-jvm-encoding-flags/"/>
-        <updated>2013-02-01T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/programming/jruby-jvm-encoding-flags</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;Once upon a time, I was developing a couple of extensions for &lt;a href=&quot;http://logstash.net/&quot;&gt;Logstash&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;One of my input extensions connected to a SQLServer via JDBC driver and it all worked fine in my OSX machine. But then, an evil Red Hat Enterprise server appeared, took over the control of my processes and started to mess with all of my good JVM configurations (some of them, I didn’t even know that they existed).&lt;/p&gt;
-
-&lt;p&gt;After some suffering, anger and hunger that all debugging processes bring, I’ve found an ancient JVM flag that my evil Red Hat server changed, just to see me cry, after several bad relationships with an assorted number of encodings.&lt;/p&gt;
-
-&lt;p&gt;sun.io.unicode.encoding=UnicodeBig (good OSX)&lt;/p&gt;
-
-&lt;p&gt;sun.io.unicode.encoding=UnicodeLittle ( evil Red Hat)&lt;/p&gt;
-
-&lt;p&gt;Loading up my JVM with -J-Dsun.io.unicode.encoding=UnicodeLittle saved the day.&lt;/p&gt;
-
-&lt;p&gt;By the way, if you ever want to check your encoding flags just add this to your JRuby script:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;require 'java'
-
-java_import java.util.Locale
-java_import java.util.Properties
-java_import java.util.Enumeration
-java_import java.lang.System
-
-{assorted code}
-
-p = System.getProperties();
-keys = p.keys();
-keys.each do |key|
-  value = p.get(key);
-  puts &quot;#{key} : #{value}&quot;
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;With this script, you can print all of your JVM instance flags. Have fun!&lt;/p&gt;
 
         </content>
     </entry>

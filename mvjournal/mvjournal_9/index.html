@@ -131,6 +131,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_18/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-november-2-november-15-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-november-2-november-15-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_17/',
       context: document.body
     }).done(function( data ) {
@@ -490,7 +502,7 @@ To balance this gloomy event, I want to introduce you to a new world of discover
 
 <ol>
   <li><a href="#">iNaturalist, Pokemon Go for real</a></li>
-  <li><a href="#">Obituary - The rise and fall of Jonh Macfee</a></li>
+  <li><a href="#obituary---the-rise-and-fall-of-jonh-macfee">Obituary - The rise and fall of Jonh Macfee</a></li>
 </ol>
 
 <h1 id="inaturalist-pokemon-go-for-real">iNaturalist, Pokemon Go for real</h1>
