@@ -137,6 +137,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_19/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-november-15-november-29-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-november-15-november-29-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_18/',
       context: document.body
     }).done(function( data ) {
@@ -514,9 +526,9 @@ window.cookieconsent.initialise({
 
 <p>I’m sure that you’ve been exposed to the cryptocurrency world at this point, and there’s a good chance that you have already bought a few crypto coins here and there. This one is just another example of pseudo currencies’ problems, especially in such a volatile and unregulated market. <a href="https://edition.cnn.com/2021/11/01/investing/squid-game-cryptocurrency-scam/index.html">The Squid Game inspired cryptocurrency revealed to be a scam</a>. “Pump and dump” scams abound in the crypto world, and event the late Mr Mcafee was involved on a few, as we’ve mentioned here.</p>
 
-<h3 id="ibm-buys-macdonalds-ai-pie">IBM buys MacDonalds AI pie.</h3>
+<h3 id="ibm-buys-macdonalds-ai-pie">IBM buys MacDonald’s AI pie.</h3>
 
-<p><a href="https://corporate.mcdonalds.com/corpmcd/en-us/our-stories/article/ourstories.IBM-McD-Tech-Labs.html">MacDonals decided to sell McD Tech Labs to IBM for an undisclosed value</a>. The move shifts gears for the automatic order taking system development that has been dragging since 2019 after the acquisition of the voice recognition startup Apprente. Whether it is with IBM or another AI powerhouse, this was an excellent move since we see many AI projects from non-tech companies go bust too quickly.</p>
+<p><a href="https://corporate.mcdonalds.com/corpmcd/en-us/our-stories/article/ourstories.IBM-McD-Tech-Labs.html">MacDonald’s decided to sell McD Tech Labs to IBM for an undisclosed value</a>. The move shifts gears for the automatic order taking system development that has been dragging since 2019 after the acquisition of the voice recognition startup Apprente. Whether it is with IBM or another AI powerhouse, this was an excellent move since we see many AI projects from non-tech companies go bust too quickly.</p>
 
 <h3 id="fifa-nftswho-would-have-guessed">FIFA NFTs…who would have guessed.</h3>
 
