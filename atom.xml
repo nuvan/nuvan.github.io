@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-11-29T09:22:31+00:00</updated>
+    <updated>2021-12-13T07:48:30+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,107 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal November 29 - December 13</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_20/"/>
+        <updated>2021-11-28T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_20</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_20.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Right now, I’m thinking about how can I aggregate one month of tech news for the next edition.
+Yes, that’s right. We are going away for almost a month, with our next edition scheduled for January 10th 2022.
+These last few weeks have been busy, and rounding up the list wasn’t easy, but in less than five minutes, you’ll get a nice slice of what’s happened around our IT corner.
+I’m ending this year not with another tech piece but with advice to keep you grounded while navigating our lighting speed information era.
+We’ll see you in a few weeks.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#resolution-ramble&quot;&gt;Resolution Ramble&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;newsceil&quot;&gt;News.ceil&lt;/h1&gt;
+
+&lt;h2 id=&quot;advent-calendars&quot;&gt;Advent Calendars&lt;/h2&gt;
+
+&lt;p&gt;Since 2015, Mr Eric Wastl has put up a set of programming challenges starting on December 1st until Christmas day. The &lt;a href=&quot;#https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt;, as Mr Eric named it, follows an Advent calendar, with a new challenge released every day during the period. This year isn’t different, and traction probably peeked with so many lockdowns everywhere. The Advent of Code is one of the most popular online coding challenges, but it isn’t original nor unique. There are many events with similar characteristics and if you’re interested, check &lt;a href=&quot;#https://www.smashingmagazine.com/2021/12/tech-advent-calendars-web-developers-web-designers-2021/&quot;&gt;this list from Smashing Magazine.&lt;/a&gt;. So whether you want to have fun or train your programming skills for your next challenge, jump in because there’s still time.&lt;/p&gt;
+
+&lt;h2 id=&quot;fleet&quot;&gt;Fleet&lt;/h2&gt;
+
+&lt;p&gt;When Jetbrains brings a new product, it’s almost a sure bet.
+November 29th, Mr Hadi Hariri, the Lead Developer Advocate at Jetbrains, &lt;a href=&quot;# https://blog.jetbrains.com/blog/2021/11/29/welcome-to-fleet/&quot;&gt;released a blog post announcing Fleet&lt;/a&gt;, a lightweight code editor that can scale to a fully-fledged IDE with a single click of a button.
+There isn’t much more to add to what Mr Hadi describes in his blog post, but I’m a fan of lightweight code editors and have big hopes for this one. It is still in early access, so you need to wait a few months until it is publicly released unless you get an invite. No invite here, though.&lt;/p&gt;
+
+&lt;h2 id=&quot;aws-ins-and-outages&quot;&gt;AWS in’s and outages&lt;/h2&gt;
+
+&lt;p&gt;No outage should happen, of course, but this one, although it did not affect my infrastructure, affected me in another way. From time to time, I get the chance to give a Cloud Computing class on top of AWS. This year I repeated the event at ISCTE, a well-known Portuguese University in Lisbon. With the class scheduled two months in advance, I had the time to refine my slides and student challenges. I was excited and ready, but AWS wasn’t in the mood. December 7th, I got swamped with warnings that &lt;a href=&quot;#https://www.theverge.com/2021/12/7/22822332/amazon-server-aws-down-disney-plus-ring-outage&quot;&gt;one AWS region was out, causing havoc to third parties as well in internal operations&lt;/a&gt;. My accounts were still fine, but most of my students couldn’t log in to their brand new accounts. Improvisation was required, and everything went ok but how does one defend the quality of AWS in such circumstances? You tell me.
+Nevertheless, a few days earlier, Meta, the social company formerly known as Facebook and Nasdaq, a USA stock exchange, announced partnerships with the cloud giant right after re:Invent, AWS annual event that showcases new technologies alongside developer conferences. Why can’t I stop uttering “single point of failure”?
+Speaking about re:Invent, it’s unbelievable how AWS can output so many new products and features, but they did it again. Covering all would be too much for an amateur writer like me, but &lt;a href=&quot;#https://acloudguru.com/blog/engineering/aws-reinvent-2021-the-biggest-announcements&quot;&gt;I’ll leave you with an excellent summary from A Cloud Guru&lt;/a&gt;, an e-learning platform focused in Cloud Technologies and System design.&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-for-the-metafuture&quot;&gt;Tools for the Metafuture&lt;/h2&gt;
+
+&lt;p&gt;One of the challenges to bring the Metaverse from a Neal Stephenson concept to reality we still need to develop equipment that shifts our idea of a Second Life alike interface to something crisp and capable of making the experience interesting for everyone. While Meta has already shown a few of their concepts, Sony doesn’t want to stay behind, and on December 8th, &lt;a href=&quot;#https://www.theverge.com/2021/12/8/22823188/sony-technology-day-presentation-vr-oled-screens-robot-grabber&quot;&gt;they’ve flexed R&amp;amp;D muscles revealing some of their current endeavours, including a 4K microdisplay for Augmented Reality experiences.&lt;/a&gt;. Sony already promised a 4K Playstation VR 2. It’s excellent that existing hardware vendors keep pushing technology limits, but a genuine Metaverse experience is still years in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;osseu&quot;&gt;OSS@EU&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#https://news.slashdot.org/story/21/12/10/1619230/the-european-commission-is-making-its-software-open-source-to-benefit-society&quot;&gt;The European Commission announced new rules for Software developed under their roof&lt;/a&gt;. It should be released as Open Source and released to society. While one might wonder what EC produced Software would do for others, it’s still awkward that using public funds for Software development within public institutions doesn’t can be a closed source. Tax-funded work should be available to everyone and exploited accordingly. Let’s see if the trend picks up.&lt;/p&gt;
+
+&lt;h2 id=&quot;autopdrive-pilot-on-autobahn&quot;&gt;Autop…Drive Pilot on Autobahn&lt;/h2&gt;
+
+&lt;p&gt;Mercedes, the German carmaker, got to be the first to receive authorisation from the German government to sell auto-piloted cars. The system should only be used in some sections of the Autobahn, and the limits are pretty humble, but it’s still another step towards driverless cars. Honda, the Japanese builder, already won first place in Japan and Waymo in the United States. While there is much to do until we get the driverless future, it’s still remarkable how governments deal with the situation allowing only local car makers in their own countries. Tesla earned a warning from German courts regarding its publicity about Autopilot since Teslas aren’t entirely driverless, and no authorisation was issued for that feature in Germany.&lt;/p&gt;
+
+&lt;h2 id=&quot;metaworkings&quot;&gt;Metaworkings&lt;/h2&gt;
+
+&lt;p&gt;After Meta’s debut, everyone is waiting for those paradigm shift products that will instantly move us to the promised Metaverse. It’s not going to be like an off/on switch for sure but with some steps marking the transition. &lt;a href=&quot;#https://www.reuters.com/markets/currencies/metas-whatsapp-will-allow-crypto-payments-through-novi-wallet-us-2021-12-09/&quot;&gt;For now, we get a beta test for Novi, Meta’s cryptocurrency&lt;/a&gt;. Selected users will have the opportunity to transfer funds between Whatsapp accounts using the Novi wallet.
+Cryptocurrencies are expected to be the coin of choice in the Metaverse and a part of our global economic system.
+In parallel, Meta opens Horizon Worlds to the United States and Canada without a private invite. The product has been in private beta since 2019, and Mr Vivek Sharma, Meta’s VP of Horizon, thinks that it is time to have regular users since all the work already done will provide rich experiences to everyday users. Europe when?&lt;/p&gt;
+
+&lt;h2 id=&quot;going-deeper-with-neural-networks&quot;&gt;Going deeper with Neural Networks&lt;/h2&gt;
+
+&lt;p&gt;Deepmind, Alphabet’s AI branch, wants to go as deep as possible with their DeepNN models and plans a 280 billion parameter monster to improve GPT-3, an AI system for natural language generation that fits within the Large Language Model class.
+For DeepNN bigger means getting better, and [the most recent published work from Alphabet’s AI shop] (#https://deepmind.com/blog/article/language-modelling-at-scale) shows that there’s still much space for improvements with this type of model class using brute force data to feed it. They also note that some problem categories can’t be brute-forced, but the models need bigger sizes before more abstract concept training.
+Don’t worry. You still have some years before the Eschaton arrives.&lt;/p&gt;
+
+&lt;h1 id=&quot;resolution-ramble&quot;&gt;Resolution Ramble&lt;/h1&gt;
+&lt;h4 id=&quot;december-12th&quot;&gt;&lt;em&gt;December 12th&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;In my view, New year’s resolutions don’t make much sense. I don’t have a quantised and/or cyclic vision of time. January 1st is just another day that streams right after the last day of the previous year.
+Nevertheless, it would be absurd to ignore that we, as a race, attribute meaning to these time markers. Business, in general, will never let us forget such time transitions. “Time is money” and “The deadline is tomorrow”, right?
+Whether celebrating or mourning, time transitions will be kept as a tradition while we endure and progress.&lt;/p&gt;
+
+&lt;p&gt;The last word, progress, is central within MV Journal’s context and objective.&lt;/p&gt;
+
+&lt;p&gt;Information technology, or just IT, is one of the most essential substrates of humanities progress and a very dynamic one, as we can see in a few of our editions. I don’t even scratch the surface of the industry with the small amount of information that I can collect, produce and distil. Sometimes, having a broad idea of the dimension of what we don’t know might overwhelm senses and freeze you in place, where you feel comfortable with your steady horizon.
+Don’t confuse the fear of going beyond your understanding boundaries &lt;a href=&quot;#https://www.youtube.com/watch?v=CGAvsmokB4c&quot;&gt;with the passion for digging in a narrow knowledge domain&lt;/a&gt;. The first one is destructive, while the second might take you to a place that no one has ever been. Never mind the skills and work needed to go deep on a topic and get something new out of it. You’ll build muscles that can’t be taken away from you in normal circumstances.&lt;/p&gt;
+
+&lt;p&gt;In a single day, much happens in this vibrant IT landscape. Visit any established news aggregator such as &lt;a href=&quot;#https://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt; or &lt;a href=&quot;#https://www.techmeme.com/&quot;&gt;Techmeme&lt;/a&gt;, and from hour to hour, you’ll get something new. What might be really important or just another press release becomes blurred. If this happens with the aggregators, imagine the herculean job of combing the internet for fresh information. It’s daunting and nauseous. Eventually, one feels the information overload and avoids it altogether.
+Force a sedentary to run 5Km every day starting right now. How many days until the pleading “I can’t do it anymore.”?&lt;/p&gt;
+
+&lt;p&gt;So what could I suggest that could be taken as a resolution for the new year marker that is up ahead? What to do to avoid being paralysed by information.&lt;/p&gt;
+
+&lt;p&gt;Create a discovery habit.&lt;/p&gt;
+
+&lt;p&gt;Keep pushing your knowledge barriers every day, exploring the landscape with a bird’s eye view, diving deep whenever it warrants your attention and not when the headline draws you to it. A robust exploration habit will give you range and awareness of the information landscape without being overwhelmed with the dept of so many subjects.
+You’ll gain the capacity of dealing with a daily open barrage of information without even blinking, picking only what matters to you, curating your understanding of the world.
+Start now with any of MV Journal’s pieces. Click on the links, find expressions and words that you don’t get entirely. Explore the connections between Machine Learning and Low Code Platforms, Blockchain and Decentralized Autonomous Organizations, Cyberpunk and the Metaverse, &lt;a href=&quot;#https://github.com/romellogoodman/flow-field.js&quot;&gt;Art and Programming&lt;/a&gt;.
+What to do with it? It’s up to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+
+    &lt;em&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_19/&quot;&gt;Previous MV Journal Edition&lt;/a&gt;&lt;/em&gt;
+
+&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal November 15 - November 29</title>
@@ -2373,51 +2474,6 @@ How to do it? There is enough literature to help you with that and I would add v
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Procrustean Beds of Product Management</title>
-        <link href="https://directionwithintent.com/product/avoiding-procrustes-bed/"/>
-        <updated>2017-04-14T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/product/avoiding-procrustes-bed</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/peg_1600x800.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;In the Greek Mythology, Procrustes posed as a gentle caretaker, offered accommodation to any passing traveller. After an invitation for a satisfying meal, he provided a good night’s rest in his exceptional bed. Procrustes described it as having the unique property that its length exactly matched whomsoever lay down upon it. What Procrustes didn’t volunteer was the method by which this “one-size-fits-all” was achieved, namely as soon as the guest lay down Procrustes went to work upon him, stretching him on the rack if he was too short for the bed and chopping off his legs if he was too long. (Adapted from Procrustes — MythWeb (http://www.mythweb.com/teachers/why/basics/procrustes.html))&lt;/p&gt;
-
-&lt;p&gt;In a Product Management position, one can imagine the many procrustean beds that are built for the private residents, i.e., engineering, quality assurance, operations, sales, etc. or for the passing traveller such as prospect trials, consultants, brokers and, existing clients. Let us refer to them as internal if they are to be fitted for in-house stakeholders, or external if they “accommodate” visitors that aren’t part of the company inner circle.
-In this series, I’m going to focus on the external ones and mostly derived from my experience in B2B environments. The ones that may hinder revenue goals directly and create friction in the overall evolution of the product.&lt;/p&gt;
-
-&lt;p&gt;The prospect client’s trial is a moment of utmost importance and, especially when a product or service has a broad and/or complex feature base. It doesn’t stand for itself. It needs an attentive caretaker that invites the freshly arrived visitor to have the best possible experience and, that can steer him on how to take advantage of the available amenities. Eager as we are, to make an excellent first impression and, to close the deal in the shortest amount of time ( because trials always have a cost ) we invite the user to feel at ease and at the same time we push him to experiment our star features. With the least amount of effort, we show him how to achieve our product promised outcomes. While the caretaker and the user roam around, showcasing the product end to end and iterating over the feature spectrum, we fall into the mistake of force fitting the client to the feature, whether the use case applies or not.&lt;/p&gt;
-
-&lt;p&gt;As it should be expected of a product team, we want and need to be creative. We seek inspiration in every problem that we face but sometimes, repeating empty metaphors such as “thinking outside the box”. And regrettably, we try to find solutions on the spot, for the prospect client workflows, habits and, tools, that are allegedly defective, unorganised, inexistent, &lt;insert another=&quot;&quot; problem=&quot;&quot; here=&quot;&quot;&gt;. On the other hand, a small void or even a domain that we’ve managed to exclude from our road-map can bring havoc when a client merely hints the fact of nonexistent work in that regard. Instead, we should take our notes and seclude our selfs, for a moment, where we can summon our creativity and muster our planning abilities towards a well-designed solution. On the spot, thinking and instant client fitting is the moments where we start amputating the prospect expectations and with the best of intentions in mind but ignoring the prospect client true needs and creating product fragilities. Doing this we fall into an uberous mind trap. Let’s delve into one type of this situations. The dreadful and pernicious Workaround.&lt;/insert&gt;&lt;/p&gt;
-
-&lt;p&gt;The Workaround&lt;/p&gt;
-
-&lt;p&gt;It is a well-known term in the Engineering class and many times used ad nauseam. Whether it is the best option at a time of need, laziness, schedule compression, damage control or just a temporary patch. It is a well-known term in the engineering class and many times used ad nauseam. Whether it is the best option at a time of need, laziness, schedule compression, damage control or just a temporary patch. A seasoned Software Engineer evidently used it on several occasions and sometimes wakes a night, shivering with the memories of some that still work on a machine somewhere.&lt;/p&gt;
-
-&lt;p&gt;In Product Development, the Workaround has a very similar set of characteristics. It is some process or small addition that will leverage an alternative pathway of one or more features to attain, what we believe to be a quick win. Sometimes with the objective of solving an unexpected user need or capricious desire. Sometimes it’s a cover up of an edge case that the product team did not address correctly or just ignored because they’ve fallen into a pseudo-statistical fallacy.&lt;/p&gt;
-
-&lt;p&gt;The Workaround trigger usually occurs in a commercial or technical tour of the product. May it be a sincere question that has a genuine need behind or a more technical person that wants to show off his wits. Occasionally can be a snarky remark that may compare his current work environment or another tool that he tried recently with our own, and something is definitely missing in his eyes.
-The fear and anxiety of not being able to entertain the user, makes us create a parallel thread with a request that the product team scramble the issue searching a way to meet our client expectations. It should not be a problem if at that moment a backlog entry is dutifully filled with a good picture of the issue, that popped up from the conversation, and a reasonable amount of time is taken to consider the proposition. It is a problem when we bypass our product development processes, and the proposed solution involves small feature adjustments that didn’t pass a thorough impact analysis. It is a problem when even avoiding the most minor alteration, it is the result of a collage of one or more features, or maybe, just making use of a feature quirk and painting it as a fully fledged product of human ingenuity. Unfortunately, the Workaround, most of the times results in a non-fluid and/or semi-automatic action plan, requiring the user to withstand some pain or to exert himself to do the same thing that he did or have seen in action before. At the exit of the Workaround, we claim victory if a significant amount of work that the user already does in a streamlined fashion or seen it being executed in the same way can be achieved in our product. We think that we’ve kept the user going, but we don’t see that the user is limping on its way. It may take just a small extra effort to vindicate the capabilities of our product but at the cost of an amputation.&lt;/p&gt;
-
-&lt;p&gt;For the attentive and sharp reader, another Procrustean Bed can be found A Posteriori. At the exit of the Workaround and this one with the bed and victim roles switched. This one can kill our product vision and eventually our product. Remember that for the Workaround to be put in place, some small change in our product had to be made. Even when we’ve just managed to pipeline a feature output to another as input, and with some caretaker good will. We’ve adjusted our product to fit that particular prospect or even client need at that precise moment in time without measuring the consequences of those actions. Expectations were created, and new plumbing was added disregarding our architecture, use cases and requirements. To do this, we’ve amputated, rearranged, bypassed and plug it again changing our product morphology. Again, with the best of intentions, to show how exceptional is our team and product. If we exit the Workaround multiple times, it is granted that our product will die in the bed that was made with our client’s hands.&lt;/p&gt;
-
-&lt;p&gt;The Workaround is avoidable, and it should be considered an anti-pattern in product development and management. It is damaging for our client prospects, and it is deadly for our product. Take the necessary precautions when you meet with the prospect of a Workaround and make time for fixing it before the product vitality seeps out from all of those newly created ins and outs.&lt;/p&gt;
-
-&lt;p&gt;Do you know more Procrustean Beds in Product Development and Management? Leave your comments and let’s have a chat.&lt;/p&gt;
-
-&lt;p&gt;Procrustean services and products on the wild&lt;/p&gt;
-
-&lt;p&gt;After reading this piece one might wonder that no procrustean bed should be a success since it destroys vital parts of the client work, team, company, etc. The reality is quite different and a quick inspection of our surroundings with this thought in mind will show us that sometimes people jump into those beds and accept the punishment in exchange of some promise of greatness.&lt;/p&gt;
-
-&lt;p&gt;Twitter is an excellent example of a procrustean bed. In this type of services, critical mass has a bandwagon effect that, most of the users aren’t even forced to lay their content on it, while amputating themselves in colorful headlines that the arbitrary 140 character limit can contain. All of them with the fear of missing out the short exposure and afraid that they will not be a part of a vaporous and fleeting zeitgeist.&lt;/p&gt;
 
         </content>
     </entry>
