@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2021-12-13T07:48:30+00:00</updated>
+    <updated>2022-01-11T08:13:51+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,105 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal December 13 - January 10</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_21/"/>
+        <updated>2022-01-09T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_21</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_21.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;I have to be honest. The last weeks of 2021 weren’t great since I had to isolate myself after being caught by the bug of the decade. With the first week of this year still at home, I avoided a massive list of news that probably already went through the feeds of everyone. So this edition is short, only sporting the News.ceil of the last weeks.
+How’s your end of the year? And how did the new one begun? I hope that everything went well because twenty twenty-two might augur a twenty-twenty too.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;newsceil&quot;&gt;News.ceil&lt;/h1&gt;
+
+&lt;h2 id=&quot;ssh-via-log4j&quot;&gt;SSH via Log4J&lt;/h2&gt;
+
+&lt;p&gt;November 24th 2021, Mr Chen Zhaojun from Alibaba’s Cloud Security Team reported a bug at Apache Foundation Log4j project page, urging them to patch it as soon as possible since it was too critical.
+&lt;a href=&quot;https://github.com/apache/logging-log4j2/pull/608&quot;&gt;The conversation about the issue can be tracked on the project GitHub page.&lt;/a&gt; with a developer pointing out that the problem was raised many months before the 0-day came into effect.
+You’ve probably got some words about it even if you don’t work in the development space. Log4J is a widely used library in many JVM based applications, and it’s almost seen as the default logging library to the extent that even &lt;a href=&quot;https://www.sportskeeda.com/minecraft/minecraft-log4j-exploit-everything-known-far&quot;&gt;videogames such as Minecraft&lt;/a&gt; were affected. I personally know product and library developers that toiled almost 24/7 during the next three days to ship patches and updated binaries with the recommended mitigations.
+It is very likely that even now, you’ll find many applications that cannot be easily upgraded or updated to fix the issue, leaving companies, jobs and data at risk. Are you patched? You better hurry.&lt;/p&gt;
+
+&lt;h2 id=&quot;theranos-one-down-one-to-go&quot;&gt;Theranos. One down, one to go.&lt;/h2&gt;
+
+&lt;p&gt;Thursday, July 23th 2015, the United States vice president at the time, Mr Joe Biden, visited Theranos labs and described the facility as the laboratory of the future.
+Mr John Ioannidis, physician-scientist, writer and Standford University professor, later pointed out many issues with the lab and the company promises that were a mix of sensationalism with corporate propaganda.
+Nevertheless, Mr Biden visit and his statements pushed the company to a stellar status, effectively legitimizing one of the biggest startup frauds in the United States.&lt;/p&gt;
+
+&lt;p&gt;Two days after the beginning of 2022, Ms Elizabeth Holmes left San Jose Califórnia federal court with her verdict. Ms Holmes was found guilty of one count of conspiracy to defraud investors, as well as three wire fraud counts tied to specific investors, and now faces up to twenty years of jail time. Many other accusations have fallen during the trial, and jury deadlock cleared a few others, but even with the alleged sexual abuse of her ex-partner and co-founder, Ms Holmes faces a dire future.
+Mr Sunny Balwani is next in line for the accusation chair. Prospects are also ominous for Mr Balwani, facing a Ms Holmes facsimile list of counts.&lt;/p&gt;
+
+&lt;p&gt;It is a shame that Theranos technologies were failed or merely faked. Many incremental improvements of rapid testing are clear during a pandemic, so one has to imagine a world where diseases are dealt with, years before the first symptom. Can someone pick up the work?&lt;/p&gt;
+
+&lt;p&gt;PS: &lt;a href=&quot;https://www.cnbc.com/2022/01/07/holmes-verdict-complicates-upcoming-trial-of-former-theranos-coo.html&quot;&gt;Check this CNN piece with more details about the trial.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;get-off-my-lawn-says-an-old-aeroplane-to-a-5g-tower&quot;&gt;“Get off my lawn”, says an old aeroplane to a 5G tower&lt;/h2&gt;
+
+&lt;p&gt;At Multivision, it’s almost mandatory that some telco subjects show up. First, let me add that 5G doesn’t cause Covid or any type of satanic plan to take over the world order. So, keeping the previous statement in mind, there might be a few kinks with 5G waves and older equipment that still operate in the same radio spectrum.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reuters.com/world/us/us-faa-details-50-airports-that-will-have-5g-buffer-zones-2022-01-08/&quot;&gt;The American Federal Aviation Administration, or just FAA, asked telecoms to delay their 5G C-Band equipment activation around some airports.&lt;/a&gt; The move comes after several reports that old aircraft are affected by the waves, making altimeters reporting out of range values when ascending and descending from airports.&lt;/p&gt;
+
+&lt;p&gt;Problems between air vehicles and mobile telecommunications aren’t new, of course, but it’s hard to understand how such critical systems don’t go through proximity tests in the equipment development phase.
+Let add a bit more fuel on those 5G conspiracies, shall we?&lt;/p&gt;
+
+&lt;h2 id=&quot;2022-peak-engineering---the-webb&quot;&gt;2022 Peak Engineering - The Webb&lt;/h2&gt;
+
+&lt;p&gt;Don’t get confused with the title. There isn’t a typo.&lt;/p&gt;
+
+&lt;p&gt;The James Webb telescope was one of the most anticipated projects for space exploration. It took nearly ten billion dollars and more than two decades from ideation to deployment.
+January 8th 2022, marked its full deployment in a far earth orbit, specifically in the second Lagrange point, or L2, a whopping 1.5 million kilometres from Earth. For comparison, the Moon is separated from the Earth by 384 400 Kilometres.
+With an expected shelf life of fifteen years, there are high expectations for the scientific tool ensemble that travelled on top of an Ariane booster on Christmas day last year.
+Besides replacing the old Hubble telescope, the four shiny instruments within the James Webb telescope shift the current star gazing paradigm reaching new frontiers. The estimated observability improvement is around one hundredfold making it detect fainter signals outside Earth’s reach.
+More details can be found at the &lt;a href=&quot;https://www.jwst.nasa.gov/&quot;&gt;James Webb NASA page&lt;/a&gt;, but the Wikipedia page is also a great source of content about the project.
+Planet X, we are coming for you.&lt;/p&gt;
+
+&lt;h1 id=&quot;insecurity-ramble&quot;&gt;(In)Security ramble&lt;/h1&gt;
+&lt;h4 id=&quot;january-9th&quot;&gt;&lt;em&gt;January 9th&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;On January 2nd, Impresa, a Portuguese media publisher and owner of several online and offline paper publications, was attacked. All of its online papers were defaced by attackers, and cloud accounts were compromised. As presented in one of the Impresa newspapers addresses, Expresso, Lapsus$ Group left a contact address for ransom negotiation.
+Last year the same group attacked Brazilian governmental institutions, including the Brazilian Health Ministery systems, exposing the private data of many Brasilians.&lt;/p&gt;
+
+&lt;p&gt;In News.ceil, I’ve skimmed the surface of Log4Shell, the endearing name that the Log4j vulnerability got while putting the entire world on alert, forcing operation and security teams to spend more than a whole weekend mitigating the issue. At the same time, many Software Development teams had to ship fresh libraries and products with a fix, update or mitigation.
+Cloudflare CEO, Mr Matthew Prince, posted a tweet showing unusual traffic data flows as circumstantial evidence of data before the 0-day announcement. Since this vulnerability was in the source code since 2013, it’s impossible to know the damage done up to this point.&lt;/p&gt;
+
+&lt;p&gt;I believe that most of the patching effort that occurred in companies affected by the issue was paid with back-patting for the action. The same type of payment that Log4j open-source developers got after an urgent patching code sprint. Let me stress that this is my belief supported by my finicky empirical experience.
+While  I can’t prove that most of these teams worked “for free” or in their usual prevention schedules, it is assured that the volunteers in every open source project will tell you that almost no money is made with their hard work.&lt;/p&gt;
+
+&lt;p&gt;It is appalling.&lt;/p&gt;
+
+&lt;p&gt;What this has to do with Impresa’s situation? The same stinginess and lack of concern with information technology systems lead to attacks that could be prevented. Some of these incidents put jobs, and essential information at risk, sometimes lives when Hospitals or Utilities are involved.
+I’m not talking about heavyweight investments in tools and services to keep an infrastructure somewhat more safe than the typical site but just the required investment in security basics and developers that support the world with their low-cost code. &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_2/&quot;&gt;As mentioned in MV Journal’s second edition, a basic 3-2-1 backup rule&lt;/a&gt; would have left Impresa with the complex but predictable work of rebuilding and deploying its content elsewhere. The official site is working at the moment of writing this piece with a “provisional” warning at the top. We still need to wait for an official word about what happened to all company data, but I don’t believe that we will know it.&lt;/p&gt;
+
+&lt;p&gt;Paid security bug bounties from companies that rely on open-source technologies could prevent many of these situations. Listening to technologists concerns about security issues and promoting SecOps training should be paramount. But when your teams sacrifice, why would management care? The price is the same unless data is completely destroyed or locked out, probably what happened at Impresa. And guess what, those helpful volunteers already patched the library that everyone uses, so let’s ask developers to crunch a bit more overnight and leave infrastructures pristine.&lt;/p&gt;
+
+&lt;p&gt;This piece ending was different when I wrote it the first time. Between yesterday and today, &lt;a href=&quot;https://developers.slashdot.org/story/22/01/09/2336239/open-source-developer-intentionally-corrupts-his-own-widely-used-libraries&quot;&gt;we got the news that Mr Marak Squires, the developer of some well-known Javascript libraries, tainted his code repositories and packages, introducing infinite loops and other problematic code paths, breaking applications that had those dependencies and got updated&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why? For the same concern that I’m sharing in this piece. No one is paying for this code, but everyone uses it and takes profit from it, most of the time ignoring what it does besides what is promoted.
+Obviously, this type of “terrorism” doesn’t solve nor help the cause, but it is just another warning.&lt;/p&gt;
+
+&lt;p&gt;As in-house technologists, we need to push the word that open-source code needs to be paid and that even small donations make a difference. A budget of even 0.1% dedicated to spreading over Patreon, Flatter, et al. could be enough to motivate some of these talented developers to dedicate their valuable time to improve, stabilize and harden the foundations of what we want to call the 4th industrial revolution. If not, what should we expect with AI and distributed systems taking over the world? Nothing good for sure.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+
+    &lt;em&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_20/&quot;&gt;Previous MV Journal Edition&lt;/a&gt;&lt;/em&gt;
+
+&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal November 29 - December 13</title>
@@ -2421,56 +2520,6 @@ Speed would be critical on these moments, but with short bursts at a time or els
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;&lt;a href=&quot;https://auctions.cngcoins.com/lots/view/4-T3UPI/hadrian-ad-117-138-as-25mm-1109-g-12h-rome-mint-struck-circa-ad-129-130&quot;&gt;Tail side of the coin (Hadrian. AD 117-138. Æ As 25mm, 11.09 g, 12h. Rome mint. Struck circa AD 129-130. Galley with five oarsmen left, hortator at the stern. RIC II.3 1306&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Balancing your (good) beliefs with the user needs.</title>
-        <link href="https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs/"/>
-        <updated>2020-09-02T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/product/balancing_your__good__beliefs_with_user_needs</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/model_T_1909_feature_1600x1012.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;“If I had asked people what they wanted, they would have said faster horses.”&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Henry Ford ( not really )&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;From time to time you’ll ear this one (or a variant of) in a discussion for some in-house innovation project that requires guidance whether from the armchair or crowd. It poses as the checkmate move from the belief side of the argument, uttered by a product executive, manager and defended by those without the decision responsibility, where the hubris is strong.&lt;/p&gt;
-
-&lt;p&gt;Forget the sentence’s author and focus on the argument itself ( it’s always the best option ).&lt;/p&gt;
-
-&lt;p&gt;Is it really possible to create something amazing for your potential users that could be a paradigm shift on solving one or even more of their problems and doesn’t require any input from any prospect? Or maybe something more humble but still a change for the better.&lt;/p&gt;
-
-&lt;p&gt;Yes, of course.&lt;/p&gt;
-
-&lt;p&gt;The final user priors aren’t a requirement to build a successful product. Examples of ideas from the ether abound, and it will not be hard to find grand narratives of individualistic creativity.&lt;/p&gt;
-
-&lt;p&gt;Sometimes, the idea fails fast. This is a good scenario for everyone but don’t think that it is over yet. “I’m just ahead of time” and “just you wait and
-see” will be your pause button of the discussion. “I told you so” will be the play action in a far future when something reasonably similar makes the cut. Authorities will excuse themselves of failure using this rhetoric. This one is oh so pernicious because the listener might fall for the narrative fallacy trap and start believing that the messiah is real.
-In &lt;a href=&quot;https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things&quot;&gt;“The Design of Everyday Things”&lt;/a&gt; you’ll find an excellent example but I will not spoil it. Take a look and get back to me if you find it.&lt;/p&gt;
-
-&lt;p&gt;But there is always a but right?&lt;/p&gt;
-
-&lt;p&gt;For developing products, services, companies or truly world impacting ideas, that aren’t only ideology, you don’t need and you shouldn’t play probabilities from the armchair. You can eschew random choices and skew your path in the direction of the best available scenarios.
-How to do it? There is enough literature to help you with that and I would add very little to it. &lt;a href=&quot;https://www.goodreads.com/review/list/13348394-nuno-valente?shelf=product-syllabus&quot;&gt;My product syllabus&lt;/a&gt; reading list might be overwhelming at first but I would point as a starting point &lt;a href=&quot;https://www.goodreads.com/book/show/762542.The_Four_Steps_to_the_Epiphany&quot;&gt;“The Four Steps to the Epiphany: Successful Strategies for Startups That Win“&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The ratio of one success for each ten tries that Steve Blank mentions should be enough of a deterrent to avoid going all in with your future product. Due diligence may help avoid that one to ten and make it a miserable three in ten but surely you can see the better deal.&lt;/p&gt;
-
-&lt;p&gt;Don’t be the victim of your belief in the survivors. Avoid the product hero who’s tunnel vision doesn’t see failure in his path. Go find your clients before they are.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt; &lt;a href=&quot;https://quoteinvestigator.com/2011/07/28/ford-faster-horse&quot;&gt;There is no evidence that Henry Ford said or written those words.&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
