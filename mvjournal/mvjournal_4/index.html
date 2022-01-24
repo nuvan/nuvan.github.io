@@ -131,6 +131,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/mvjournal/mvjournal_22/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#mv-journal-january-10-january-24-share").html(data.count);
+      }
+      else {
+        $("#mv-journal-january-10-january-24-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_21/',
       context: document.body
     }).done(function( data ) {
