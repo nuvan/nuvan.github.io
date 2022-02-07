@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2022-01-24T07:31:15+00:00</updated>
+    <updated>2022-02-07T07:57:58+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,89 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal January 24 - February 7</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_23/"/>
+        <updated>2022-02-06T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_23</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_23.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Facebook lost users. For the first time! Of course, this isn’t the end of Meta’s business, but it will pause some companies publicity investments in the platform, which will impact even more the stock value. The Metaverse needs to happen, and Meta already has something better than Second Life but far from Meta’s five-year plan. The 2021 research and development bill setback the company account by 10 billion dollars. 10, freaking, billion, dollars. Where’s my Metaverse, Mr Mark?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;newsceil&quot;&gt;News.ceil&lt;/h1&gt;
+
+&lt;h2 id=&quot;a-floc-did-not-survive&quot;&gt;A FloC did not survive&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_3/#a-floc-flies-under-the-radar&quot;&gt;As I’ve covered here in a previous edition, the Federated Learning of Cohorts initiative, or just FLoC, was a highly anticipated technology to replace “Cookies”, the small files that can be used to track your web presence.&lt;/a&gt;
+Anticipated and hated.
+The specifications failed to impress the Browser community, and after some scrutiny, it was found out that FLoC could be even more intrusive into users activities.
+Google isn’t quitting since the dreaded cookies will eventually be phased out of every significant browser in the market, making online publicity back to the pre-2000 internet age. Their new approach, Topics, looks more like an educated guess for advertisement targetting and might be the best option available in the coming years. &lt;a href=&quot;https://techcrunch.com/2022/01/25/google-kills-off-floc-replaces-it-with-topics/&quot;&gt;Techcrunch has a great piece explaining its details. Take a look!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gdpr-halloween-story&quot;&gt;GDPR Halloween story&lt;/h2&gt;
+
+&lt;p&gt;General Data Protection Regulation, or just GDPR, is a European legislation bundle that brought us the ubiquitous website pop up to accept all cookies. Well, not actually, but it is how it feels until one reads what happened to an unfortunate owner of an unidentified site. A German court fined the owner setting him back by one hundred euro for using a Google font. Since the Google font isn’t self-hosted, the site shared users IP addresses just by requesting the font from Google servers without asking their permission. One must remember that an IP address is considered personal information under European Union law.
+So, take a quick look at requests coming out of your site, just in case.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-sony-empire-strikes-back&quot;&gt;The Sony Empire strikes back&lt;/h2&gt;
+
+&lt;p&gt;No one has said it, but everyone felt that Sony needed to step up its game after the recent Activision Blizzard Microsoft acquisition.
+Sony did strike back buying Bungee, a game development studio that owns the Destiny franchise, and the original developers of now Microsoft held Halo franchise.
+The 3.6 billion dollar bill doesn’t compare well with the almost 70 billion dollars that Microsoft is ready to deliver for its new shiny game development shop. Bungie doesn’t have much, but it might consolidate Sony VR vertical. As a proud owner of a PS VR system, I can see the improvement space that VR has ahead. Not only regarding the system itself but the available games that don’t innovate so much, keeping the First Person Shooter and Driving categories locked with the same type of controls. Play one, and all look the same.
+Nevertheless, it is good to see Sony not falling behind and keeping the VR race alive.
+From Bungie side, it looks like a welcomed partnership, but this isn’t the first acquisition dance for the company. Microsoft already did it and left out with Halo in its hands, while Bungie became Bungie LLC with Destiny as their only intellectual property. Sony looks is promising a hands-off management style, leaving creativity unbound, but the first years of marriage are always rosy. Let us see how it pans out this time.&lt;/p&gt;
+
+&lt;h2 id=&quot;one-small-step-for-meta-a-steep-drop-in-its-stock-price&quot;&gt;One small step for Meta, a steep drop in its stock price&lt;/h2&gt;
+
+&lt;p&gt;230 billion dollars plus a few million. That was how much Meta’s stock dropped last Thursday after releasing the previous 2021 quarter results.
+If you’re a frequent MV Journal reader, you’ll notice that I’m a big fan of a Metaverse world, and I’m betting that my science fiction passion has something to do with it, so when I’m watching Meta going down, I’m also witnessing my Metaverse dreams coming to an end.
+Mr Mike Isaac is a technology reporter for the New York Times, and in his last piece, he sums up all the challenges that are threatening my AR/VR paradise. They are all too much real, making Meta’s future quite bleak.
+I couldn’t write it better, so I strongly recommend &lt;a href=&quot;https://www.msn.com/en-us/news/scienceandtechnology/-reasons-meta-is-in-trouble/ar-AATs2f8&quot;&gt;paying his article a visit&lt;/a&gt;.
+Unfortunately, Mr Mark Zuckerberg fail to impress with his last communication pushing Instagram Reels, a TikTok clone, to fight TikTok’s market dominance, and I’m just wondering where’s my Metaverse.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-source-sponsorship-this-is-one-way&quot;&gt;Open Source Sponsorship. This is one way.&lt;/h2&gt;
+
+&lt;p&gt;In a previous “ramble”, I’ve mentioned that we need to do much more to drive companies to support the open-source community. Github Sponsors is almost what I would expect, although it isn’t anything new. Github launched this week &lt;a href=&quot;https://github.com/sponsors&quot;&gt;Sponsors&lt;/a&gt;, and it is a clear response to the recent events around famous and widely adopted open-source libraries. Developers followed Twitch streamers and many other digital creators setting up accounts on multiple crowd donation platforms such as Patreon and GoFundMe. The new GitHub product just integrates the sponsorship system within GitHub while allowing prime time access for paying clien…sponsors. It doesn’t feel like open-source to me, but it is a step in the right direction.
+As I’ve mentioned in some private conversations, the sponsorship model should be tackled, keeping the open-source part while still motivating donors to chip in the development costs. A bounded donation target and a value band for each donation could get cheaper when new donors hit the donation target and start diluting costs for everyone. Primetime access could still be an option, and bounties could still speed up essential developments for the community at large.
+So, are you ready to take this up the ladder in your current employer? If you’re the owner, how about setting aside a few bucks for the libraries you use? Let us do our part, shall we?&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptocom&quot;&gt;CryptoCom&lt;/h2&gt;
+
+&lt;p&gt;Since we are part of a company with a significant footprint in the Telecom market, this piece caught my attention. Mr Anthony Levandowski was one of Waymo’s founders and got his name tainted after stealing intellectual property before moving on to another venture. After his release, he rejoined Pronto as his CEO. Pronto is an autonomous driving trucking company that made a splash in the news after completing the first United States cross-country trip with an autonomous vehicle.
+Mr Anthony is proposing a Cyberpunk move, creating a decentralized mobile telecommunications company that relies on user access points or femtocell towers to deliver signals to its users.
+Distributed and decentralized access isn’t new, and 5G already delivers something similar with user WiFi roaming. The business model is a different thing. Mr Anthony plans to pay users that run access points with a cryptocurrency.
+The venture called Pollen Mobile stems from a Pronto secure and anonymous communication system already in use by Pronto’s vehicles. Again, &lt;a href=&quot;https://techcrunch.com/2022/02/02/anthony-levandowskis-latest-moonshot-is-a-peer-to-peer-telecom-network-powered-by-cryptocurrency/&quot;&gt;Techcrunch covers it well&lt;/a&gt; but the whole thing has some eery Jeff Noon’s &lt;a href=&quot;https://www.goodreads.com/book/show/17401136-vurt&quot;&gt;Vurt vibes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;winning-code-competitions-but-still-far-from-programming&quot;&gt;Winning Code Competitions but still far from programming&lt;/h2&gt;
+
+&lt;p&gt;DeepMind shared their most recent Alpha package. AlphaCode threatens to put mid-level programmers out of a job in a few years.
+Mr Oriol Vinyals, the principal research scientist at DeepMind, &lt;a href=&quot;https://www.theverge.com/2022/2/2/22914085/alphacode-ai-coding-program-automatic-deepmind-codeforce&quot;&gt;shared with The Verge&lt;/a&gt; their most recent endeavour. I’ve already covered some AI-assisted Interface Development Environments or just IDEs, and their funny fumbles like complete code regurgitation from their training sets, but AlphaCode is a different beast. It reads the same input given to humans in coding challenges and returns a program that satisfies the expected output. While this is impressive, it is still far from professional coding work. I can safely state that we aren’t losing our jobs soon for one reason. The problem needs to be framed neatly. Bring me a client that can do it, and we might be in hot waters.&lt;/p&gt;
+
+&lt;h2 id=&quot;ai-overlord-infancy&quot;&gt;AI Overlord infancy&lt;/h2&gt;
+
+&lt;p&gt;Again, Meta. Well before the 230 billion wipeout, &lt;a href=&quot;https://ai.facebook.com/blog/ai-rsc/&quot;&gt;Meta’s announced a shiny new supercomputer targetting AI development efforts.&lt;/a&gt;
+Like Tesla, which owns its own AI cluster to process telemetry from cars engaging with the real world, Meta’s also unveiled a centralized super AI cluster targetting image, voice and natural language processing. One of their uses cases is already clear for us all, but it’s stated explicitly at Meta’s AI page - content moderation. One of Meta’s problems and many other user-generated content distributors regards content moderation. Nowadays, thousands of humans comb through flagged content to understand if it should be extracted or fair game, which isn’t scalable or psychologically safe for workers. With so much being shared by users, it is only a matter of time until human moderation doesn’t have enough bandwidth for many bytes, and there is where our AI Overlords will start taking over control.
+Right now, the Meta’s AI cluster is still at a third of its planned capacity, and it will take a couple of years until the project can be considered finished. From my perspective, this is a reasonable timeline since we know that we can run Doom with it, but it isn’t clear if it can manage a mid-quality Crysis 4.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+
+    &lt;em&gt;&lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_22/&quot;&gt;Previous MV Journal Edition&lt;/a&gt;&lt;/em&gt;
+
+&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal January 10 - January 24</title>
@@ -2379,158 +2462,6 @@ This is the most basic alarm that a human can get. Many abnormal external stimul
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;You can find Terry Lambert’s original quote within the linked thread. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>On Diderot's Effect Applications</title>
-        <link href="https://directionwithintent.com/product/on-diderots-effect-applications/"/>
-        <updated>2020-10-01T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/product/on-diderots-effect-applications</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/luxury_living_room_300x300.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;The Diderot Effect is an application of belief reinforcement on a self-identity stereotype within the context of consumption.&lt;/p&gt;
-
-&lt;p&gt;Now take a breather. Too much content in a few words, for sure. Let’s unpack this before going further.&lt;/p&gt;
-
-&lt;h4 id=&quot;a-walkthrough&quot;&gt;A walkthrough&lt;/h4&gt;
-
-&lt;p&gt;In 1988, McCracken ( what a name ), Grant David, from Illinois University, inspired by one of Diderot’s essays, coined the term while drilling down some of the aspects of a consumeristic society in his &lt;a href=&quot;https://www.goodreads.com/book/show/199188.Culture_and_Consumption&quot;&gt;book&lt;/a&gt;.
-The effect is based on the story written by the French philosopher Denis Diderot, where he explains that the mere appropriation of an exquisite gown was the seed for a spending frenzy in luxurious items for his house. The sentiment that took him to disperse his modest fortune in those items gained momentum each time that a new piece was introduced. Later in a cathartic exercise, he spilt all of his feelings on paper, more as an act of punishment than an artistic creation.&lt;/p&gt;
-
-&lt;p&gt;From McCracken ( the name! ) analysis, he distils the Diderot unit as an ensemble of products where the consumer maps his self-identity into. He also notes that the transition from a Diderot unit to another one doesn’t come easy. There is significant surface tension before a person dives into another spending spree since it correlates with the consumer accepting a change in his self-identity.
-When was the last time that you’ve changed?&lt;/p&gt;
-
-&lt;p&gt;I will not go into detail about McCracken’s (I did mention that this name is awesome right?) work, but I will inspect the effect, explore some of its characteristics and try to devise strategies that a Product Manager might employ, increasing his chances of success.&lt;/p&gt;
-
-&lt;p&gt;Creating a spiral of consumption in a wide variety of products isn’t something easy to achieve. However, we can find instances of the effect with relative ease in our social circles if not in one’s own life.
-Take adult (and sometimes the odder young-adult) nostalgia that makes us crave for familiar feelings from a fuzzy past, but without the constraints of that era of course. Creating a retro-looking house that hides modernity behind the design is a way of reinforcing that sentiment that we were meant to live in another era.
-For example, consider &lt;a href=&quot;https://www.smeg.com/&quot;&gt;Smeg&lt;/a&gt;, the Italian brand of vintage-looking kitchen appliances. Buying one 50’s style toaster might be the beginning of a hefty and ever-growing credit card bill on house appliances. You might find other brands like &lt;a href=&quot;https://www.ziyandappliances.com/&quot;&gt;Ziyanda&lt;/a&gt; or &lt;a href=&quot;https://www.kitchenaid.com/&quot;&gt;KitchenAid&lt;/a&gt; to get a matching kettle but without avoiding the bank account set back. And good luck finding original vintage items in working conditions for reasonable prices. An overview of online auctions will set you straight before going into that route.&lt;/p&gt;
-
-&lt;p&gt;But don’t think this is only a rich person’s game, a way of bankrupting the middle class or squeezing innocent French Philosophers. Many sports aficionados usually spend a considerable amount of cash on merchandise and sometimes memorabilia from his favourite team, whether the circus is football, basketball or formula 1. The subject wants to show support and love for the team as much as he wants participation in some way.
-He’s a real &lt;insert sports=&quot;&quot; team=&quot;&quot; here=&quot;&quot;&gt; supporter, and it shows.&lt;/insert&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://pandoraonline.pt/&quot;&gt;Pandora Jewelry&lt;/a&gt; where bracelets can be built upon affordable prices, charm by charm.
-Although the brand instils the feeling that the consumer creates a unique piece that eventually might exchange hands as an heirloom, sometimes it just looks like you’re carrying a case study of the Diogenes syndrome on the wrist ( just my opinion of course ). Buying a bracelet with a charm is just the beginning of a commitment, and you’ll find a new charm for every characteristic of your being.&lt;/p&gt;
-
-&lt;p&gt;Tattoos?  I’ll stop here since you’ve already got the idea.&lt;/p&gt;
-
-&lt;p&gt;However, to understand the facets of this phenomenon, we need to grasp a wider frame of the aspects that influence a consumer decision to absorb a Diderot unit.
-You need to understand that Diderot’s tale doesn’t start with an exquisite gown in his back. The gown was just the first step concerning the consumption phase. Before that, it began with one or more rooms already filled with the luxuries that he denounces or a fictional vision with the same features.
-Well before his first purchase, or some friend offered him the gown ( there is some contention about the origin of the garment ), he already had the chance for appreciating things that would make his study a renaissance king’s room. He had an image of the place where he would like to live. An image created with intromissions on the lives of high placed ones. It could be a vague and stylized idea but enough to fill his own accommodations.&lt;/p&gt;
-
-&lt;p&gt;And here lies the first not so easy trick in a Diderot’s entrapment. The creation of an image that can be split into a puzzle for piecemeal acquisition.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/stylish_ensemble_300x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Although publicity and marketing would be rare things in Diderot’s time, nowadays they are indispensable tools for most of us PMs.
-Consider those innocent images of a stylish laptop on a working desk, surrounded by other good looking items that might not even be at the same technological level. That old looking leather bag? The vintage camera? The open and scribbled moleskin? You can buy all on the online store link right beside the image. Why not add to cart directly from the picture? One by one until you can reproduce the image at your own volition.&lt;/p&gt;
-
-&lt;p&gt;Another aspect of this ideal image is that it can be mixed and matched with other elements. It can become your unique image, instead of being a copy that any other consumer can get. The entrapment needs not only one view of the desired environment but a variety of elements for a wide range of collages, each one depicting the beautiful moments that the consumer will experience with a similar set of items.
-The ensemble exclusivity attribute will avoid the feeling of making a collection of mass-produced items that only require perseverance and a deep enough pocket in exchange for a vulgar lifestyle.&lt;/p&gt;
-
-&lt;h3 id=&quot;digital-diderot&quot;&gt;Digital Diderot&lt;/h3&gt;
-
-&lt;p&gt;Within digital worlds, we can see more and more applications of these principles to keep the user acquiring more virtual goods, coin by coin. Although we associate this behaviour to younger demographics, this is only because we are growing with the technology. I wouldn’t be surprised to see retirees with disposable income, become escapees in virtual realms for fun and glory, flashing their cyber bling, renewed at each software upgrade.
-Another very appealing aspect within the digital environments is the fact that you can be much more volatile regarding the self-identity that you want to imprint on the remaining participants. Cheaper acquisitions that provide sex, ethnic or even race mutations. The liberty to move between Diderot units is much larger than in reality, which benefits not only the digital market creator but also the products created to live within that market.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-long-tail-strikes-again&quot;&gt;The long tail strikes again.&lt;/h3&gt;
-
-&lt;p&gt;Now, the niches. Those are always a good target for the strategy. Take the following statement:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Japanese culture fans will drop their savings into remarkable pieces of serial-produced art of their favourite characters.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Copy-paste my last sentence and replace Japanese culture with Marvel, DC, Star Wars, Pokemon, et al.
-Some of them are authentic art collections, I’ll give you that, but it’s almost trivial to take advantage of the effect on the fans.
-Royalties and deals for the copyright are expensive? You can always get creative like &lt;a href=&quot;https://www.qwertee.com/&quot;&gt;Qwertee&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;on-novelties&quot;&gt;On Novelties&lt;/h3&gt;
-
-&lt;p&gt;And if you only have a single product? A novelty type.
-Take as an example a &lt;a href=&quot;https://gopro.com/en/us/&quot;&gt;GoPro&lt;/a&gt; camera some years ago or the latest abs machine from &lt;a href=&quot;https://www.qvc.com/&quot;&gt;QVC&lt;/a&gt; as novelty examples.
-Applying the effect on this type of product is a bit harder but not impossible. I’ve already provided one of the most important conditions that you need to respect. Your product needs to mingle almost seamlessly with an assorted set of products, and ideally, it should be possible to do it in different contexts. A GoPro camera is an excellent example. From competitive fishing to skydiving, the camera is the same, although the lifestyle and accessories differ. Diderot units can be very different, but the way that GoPro’s marketing campaign placed the camera in different stories making it an essential piece that increases the reward of the experience is an example to copy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/school_300x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s imagine an innovative hand sanitizer bottle. If you’re trying to appeal to parents and kids, maybe you can introduce it on a picture where the classroom material such as pens, glue, pencil and sharpener are all over the table and shared by his friends. In the mix, add a colourful hand sanitizer so that the dirty play stays on the table and doesn’t travel back on the child’s pockets to your pristine home&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Obviously, I’m creating a very speculative scenario, but the principle is that your novelty product, in this case, can be selected for the student lifestyle. It’s a valuable item that will have a positive effect on the usual ensemble of school paraphernalia.&lt;/p&gt;
-
-&lt;p&gt;This exercise can be repeated over and over for multiple scenarios and targets with the same objective. Create a picture where your product merges with the background and don’t be afraid of spreading the publicity between products. Insert your product in already existing Diderot units and take advantage of the spending momentum of the consumer.&lt;/p&gt;
-
-&lt;h3 id=&quot;complementary-goods-not-really&quot;&gt;Complementary Goods? Not really.&lt;/h3&gt;
-
-&lt;p&gt;An Economist would suggest that this is a direct application of a (complementary good)[https://en.wikipedia.org/wiki/Complementary_good], but a more observant thinker notices that it isn’t a requirement and probably isn’t a good fit for the term.
-Just as an example, consider rolling tobacco and papers. The demand for the first is highly correlated with the demand of the second, which in turn will create a price correlation as well. This is an almost perfect example of a complementary good.
-While the correlation between these two products is evident, even considering fringe uses of both, a direct correlation between complex sets of products that benefit from the Diderot’s effect isn’t required.&lt;/p&gt;
-
-&lt;p&gt;You don’t need to create a complementary good ( and it would be harder to coordinate product requirements ), but you should compose the environment where the perceived value or even the return of investment of your product will go up when seen within a collection. And this last sentence segue to another aspect that doesn’t need to be present, but it will help for sure.&lt;/p&gt;
-
-&lt;h3 id=&quot;tag-team-for-the-win&quot;&gt;Tag-team for the win&lt;/h3&gt;
-
-&lt;p&gt;If you’re up to date on your pop-culture trivia, you might recognize the next one. 
-Did you ever notice that charm of a staged house or indeed just a bedroom in an IKEA store?  On the set, if you inspect each item closely by itself, you start losing the interest from few of the more average things, but if you take a few steps back and see the ensemble, it appears that the whole gets an added layer of glossy veneer.&lt;/p&gt;
-
-&lt;p&gt;(The Cheerleader effect)[https://en.wikipedia.org/wiki/Cheerleader_effect] provides a hypothesis with a more sexual tone in the experiments which I’ve tried to avoid in my example. The effect is definitely controverse since it isn’t replicable in any conditions, but I wouldn’t discard it so soon since the result is real on some cultures and contexts.
-The idea seems simple, and it’s mostly an advertising trick. Ensemble images that include your product in between some other attractive buying options will boost the subjective attractiveness index that someone attaches to it. It should be possible to exploit it with some simple A/B testing techniques, and fine-tune the index to the final consumer group.
-Unmistakably, you should avoid the pitfalls of trying to mingle products for different classes of consumers. Don’t try to take pictures of your hand sanitizer in a Ferrari. Your effort to make it more appealing will be blatant and will backfire.&lt;/p&gt;
-
-&lt;h3 id=&quot;jumping-diderot-units&quot;&gt;Jumping Diderot Units&lt;/h3&gt;
-
-&lt;p&gt;To finish this analysis, there is another aspect that a product manager should understand when introducing new products that don’t shake the paradigm and are only marginal improvements of existing ones.
-Considering Diderot’s tale again, one can see clearly that the gown didn’t introduce an objective improvement in the author’s life. One might argue about some minor enhancements regarding comfort but accepting the story as it is, even Diderot’s grants that his old gown was a more superior fit for him.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“Why didn’t I keep it? It was used to me and I was used to it. It molded all the folds of my body without inhibiting it; I was picturesque and handsome. The other one is stiff, and starchy, makes me look stodgy.”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, the first act of change was a trigger for his final sorrow. In between, he got the room that fitted the gown. It wasn’t something new that he introduced in his environment but a change of the old for the new.
-We don’t know if it was an impulse buy or even a gift, but it could be left aside and ignored so to avoid disruption in his house. He accepted the change and identified himself with it.&lt;/p&gt;
-
-&lt;p&gt;Coming back to our study, let us consider that your newly introduced product actually brings an objective improvement that is measurable, and you can point it out to your potential customers. Let us imagine a futuristic desk light that not only adjusts automatically to the ambient light but also follows your vision field whenever you move your head to inspect if someone is creeping beside you while you’re reading a horror story in your bedroom. It even will turn itself on and off according to your eyelid patterns. Cool hum? You see a benefit right from the start comparing it with your night lamp, but unfortunately, the design doesn’t match your old furniture style.&lt;/p&gt;
-
-&lt;p&gt;At this point, the consumer considers if a single appealing item, apparently useful, but not useful enough to disrupt his furniture state of affairs.
-To burst the surface tension, you’ll need to appeal to the inspirational instinct of the buyer.  He needs to see the change at that moment and invest in the modernization of his environment. As I’ve mentioned earlier in the text, the luxury pieces in Diderot’s room had already been seeded by existing high society tastes. Those are the ones that you’ll need to take from the current world around you to create the most bleeding-edge image where everything around the desk light is a requirement for life itself.&lt;/p&gt;
-
-&lt;p&gt;Creating an inspirational context around a product is evidently tricky, and so it is that making the consumer jumping between Diderot’s unit ( in the real world where he has skin in the game ) it’s one of the most challenging manoeuvres to do when it comes to his real self-expression.&lt;/p&gt;
-
-&lt;p&gt;Summing up,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Understand that a Diderot unit needs to be seeded in the mind of the consumer.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The digital selves are an excellent target for consumers since the notion of self-identity is prone to volatility. No skin in the game makes this possible.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The long tail can become a marketeer target again with this strategy.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Novelties can take advantage of the effect as well as long as the product manager is willing to share the stage with others.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Complementary goods isn’t a good description of elements in a Diderot unit. They don’t need to be directly correlated.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Exploit the Cheerleader Effect with A/B  testing of your image ensembles.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Resistance to change is inherently human, so don’t expect to break momentum but try to use the consumer inertia in your advantage.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This one was written amid a pandemic. The hand sanitizer exercise isn’t innocent. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
