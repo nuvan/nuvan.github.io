@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2022-02-07T07:57:58+00:00</updated>
+    <updated>2022-02-25T21:27:17+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,88 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>MV Journal February 7 - February 21</title>
+        <link href="https://directionwithintent.com/mvjournal/mvjournal_24/"/>
+        <updated>2022-02-21T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/mvjournal/mvjournal_24</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_24.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Russia and Ukraine dominate the news, and it seems that the story isn’t ending soon. The tech industry is unphased by the looming European war, but it will have consequences for everybody since energy prices are going through the roof. War isn’t the single culprit, but it will help propel gas prices all over Europe, making inflation even worst. March will start dictating how much it will cost, bearing seven point five per cent inflation in the United States. Fun tim…well, maybe not.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;newsceil&quot;&gt;News.ceil&lt;/h1&gt;
+
+&lt;h2 id=&quot;deprecated-for-life&quot;&gt;Deprecated for life&lt;/h2&gt;
+
+&lt;p&gt;I was but a child when I’ve listened the first time the common utterance “They don’t make things as they used to.”. The Portuguese version, of course. Getting older, I felt that there was some truth in the adage and saw many things get ‘old’ without really losing their features. Sometimes things break apart for extended use, and that is to be expected, but it isn’t hard to have the feeling that things break too soon for the money that we’ve paid for them. With electronics controlled by updatable software, there is another layer to it. The hardware vendor can quit providing new software for a gadget or just stop supporting it. There is no problem if the system can work in standalone mode since everything should work as intended on day one but nowadays, everything is connected and internet dependent. If updates stop, the system will become incompatible with online interfaces and stop working since it was never intended to work in standalone mode.
+A great example can be found in the mobile device industry, where most will have less than five years of life expectancy. We usually put these commercial vendor behaviours under the &lt;a href=&quot;https://en.wikipedia.org/wiki/Planned_obsolescence&quot;&gt;Planned Obsolescence&lt;/a&gt; strategy. There’s more to it than just building fragile devices or refusing to service them, and I’ll advise a quick visit to the link above for more detailed information and history of the term.&lt;/p&gt;
+
+&lt;p&gt;Now, considering all of the above, would you accept a “neuro” device installed in your skull and interfacing directly with your brain? Probably not, but it will not deter many from creating technologies that can “fix” humans with severe imparities in sight, sound and vision. An earing aid is pretty benign and cheap to manufacture. You can get one for as much as three hundred euros and replace their batteries at home or just replace the gadget with an updated one, easy-peasy.
+Now an eyesight cybernetic device that sends signals directly to your visual cortex might be a bit harder to maintain or replace. This is what’s happening with &lt;a href=&quot;https://secondsight.com/&quot;&gt;SecondSight&lt;/a&gt; users, as explained in Ms Eliza Strickland and Mr Mark Harris &lt;a href=&quot;https://spectrum.ieee.org/bionic-eye-obsolete&quot;&gt;piece at IEEE spectrum&lt;/a&gt;. The financial and technical challenges for maintaining technology over a human life are tremendous, especially if one considers the equipment and the manufacturer’s commercial obsolescence. Neuralink, the new kid on the block, should start worrying soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;space-engineering-era-arrives&quot;&gt;Space Engineering era arrives&lt;/h2&gt;
+
+&lt;p&gt;We are seeing a new wave of space enthusiasts building startups and pushing the boundaries of human reach, probably inspired by the &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_11/#space-age-kindling-a-short-ramble&quot;&gt;Space Age kindling&lt;/a&gt;. Mr Elon Musk spearheads this movement on multiple fronts with Starlink, an internet satellite service, being one of them. February 3rd, Starlink sent a new batch of forty-nine small satellites into a fleet of two thousand strong and some. The problem of living at the edge is finding out new issues to solve or facing theoretical ones that become real. This launch faced strong solar winds from a geomagnetical storm that increased drag, impeding the small satellites from reaching their intended orbits. The most probable outcome is a degraded orbit for forty of this set. Since they can’t be stabilized, the group will eventually burn up on reentry soon enough. &lt;a href=&quot;https://www.theverge.com/2022/2/8/22924561/spacex-starlink-satellites-geomagnetic-storm&quot;&gt;The Verge has a piece that covers well the expensive mishap&lt;/a&gt;. Starlink constellation will become a bit dimmer before going brighter again.&lt;/p&gt;
+
+&lt;h2 id=&quot;real-world-nfts&quot;&gt;Real World NFTs&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.alfaromeo.com/&quot;&gt;Alfa Romeo&lt;/a&gt;, the Italian luxury carmaker, was on the news after announcing that their new SUV hybrid model, the Tonale, &lt;a href=&quot;https://www.theverge.com/2022/2/9/22925040/alfa-romeo-nft-service-history-vehicle-data-second-hand-prices&quot;&gt;will have an NFT certificate attached if the buyer wants it&lt;/a&gt;. The idea is to generate a digital certificate that benefits from a Blockchain’s features, such as the authenticity of its records and a distributed ledger. It is now standard practice to have a digital record of car servicing visits. Even my girlfriend tiny Renault Twingo can be tracked at any Renault authorized repair shop. A few clicks, and the Renault employee will know the vehicle’s history within trusted repair shops.&lt;/p&gt;
+
+&lt;p&gt;So why an NFT?&lt;/p&gt;
+
+&lt;p&gt;According to Alfa Romeo’s spokesperson, the NFT will add a credibility layer to the pre-owned car since it will track any problems and make it more valuable than vehicles with a shadowy unknown past. It does not seem much different from what we have nowadays on most brands. Alfa Romeo’s blockchain isn’t public and will be read and updated at authorized dealers, making it impossible to track white label repair shops’ interventions or minor at-home repairs.
+The idea of tracking every car as an NFT and updating the ledger with every action upon it, such as accidents, part identifiers, odometer entries and many more events, is excellent. It would help a car buyer adjust the budget according to the car model and its history. It would boost second-hand cars with great history, making their commercial value a bit higher if the owner took good care of it. Alfa Romeo’s initiative is exciting, and I would applaud it if the chain eventually became public with many more events recorded automatically. Right now, it does not add much to the status quo.&lt;/p&gt;
+
+&lt;h2 id=&quot;fusion-human-action-is-not-advisable&quot;&gt;Fusion. Human action is not advisable.&lt;/h2&gt;
+
+&lt;p&gt;Although still not intelligent per se, computers replace humans in many day-to-day operations. I hope that my readers are very aware of that fact by now, but up to this point in time, we’ve been replacing humans where they become liabilities. Sometimes humans can’t even handle or comprehend well the problem. For those cases, the most recent developments in artificial intelligence might help move the needle when human hands can’t do anything to help besides creating the abstraction. &lt;a href=&quot;https://www.youtube.com/watch?v=yAZFFrisoD4&quot;&gt;If I’m not explaining it well, maybe Dr Otto Octavius might put it in better terms&lt;/a&gt;. Better?
+&lt;a href=&quot;https://www.nature.com/articles/s41586-021-04301-9&quot;&gt;In one of DeepMinds most recent papers&lt;/a&gt;, we have the first steps for controlling the magnetic fields of a Tokamak, a fusion reaction architecture that has many years in the researcher’s limelight. &lt;a href=&quot;https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control&quot;&gt;DeepMind’s blog post might be a lighter reading&lt;/a&gt; and explains perfectly what the AI controller does with the plasma inside the reactor. DeepMinds approach can even be better for a different fusion reactor architecture, the Stellarator, but finding one to tinker with might be difficult nowadays. Also, we need to applaud the scientists working with this since no one became a supervillain…until now.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-end-of-a-virtual-war-era&quot;&gt;The end of a virtual War Era&lt;/h2&gt;
+
+&lt;p&gt;Oh, this one is dear to me. How many hours and college grades did I lose because of America’s Army? Too much to admit. How did I get over this game addiction? With a machine going bust at the end of a more than twelve-hour bout with my good virtual friends Giftspritze and Brainslog. In the slightest chance that they read this piece, hi dudes!
+Unfortunately, the real America’s Army will end the only war we should be fighting, retreating from virtual battlegrounds. &lt;a href=&quot;https://news.americasarmy.com/aapg-shutdown/&quot;&gt;The official announcement can be found on the official game website&lt;/a&gt;.
+The game had a positive impact on the younger generations, with an interactive show and tell about the machines and operations of real soldiers on the field. As a recruiting tool, it surpassed any other initiatives bringing inspired players to the fold.
+It doesn’t look like the Army is abandoning gaming altogether since they keep their Twitch presence and maintain their competition teams for many other games like CS GO.
+It was fun while it lasted, and many thanks to the electricity gods for burning my machine and destroying my game addiction cold turkey.&lt;/p&gt;
+
+&lt;h2 id=&quot;bitcoin-day-to-day-payments-here-we-go-again&quot;&gt;Bitcoin day to day payments. Here we go again.&lt;/h2&gt;
+
+&lt;p&gt;Mr Jack Dorsey is all-in with Bitcoin. Between some announcements and rants, he became one of the most prominent spokespersons of the web3 movement, pushing companies for crypto-asset adoption. With a failed attempt at Twitter, Mr Dorsey is going forward with Block, formerly known as Square, another company of his own creation that targets digital payments. &lt;a href=&quot;https://bitcoinmagazine.com/business/cash-app-integrates-bitcoins-lightning-network&quot;&gt;Last week, Mr Dorsey announced that Spiral, a smaller entity owned by Block, is ready to integrate Bitcoin egress transfers&lt;/a&gt; using the &lt;a href=&quot;https://en.wikipedia.org/wiki/Lightning_Network&quot;&gt;Lightning Network&lt;/a&gt; protocol within Block’s CashAp. Day to day payments is one of the significant hurdles for Bitcoin proponents. The slow transaction speed makes the digital asset unfeasible for everyday transactions that can be well handled by existing card processors. The Lightning Network protocol works on top of Bitcoin, avoiding committing transactions directly to the blockchain until necessary. The protocol relaxes some Bitcoin constraints in exchange for a speedier transaction between two nodes. It’s still on the table if adopting a less secure protocol on top of the Bitcoin ledger will make it viable, but Spiral’s CashApp integration will bring more users to the game since most don’t care about the internals and just want to get rid of banking altogether. Let the digital protocol attacks begin.&lt;/p&gt;
+
+&lt;h2 id=&quot;skip-energy-slumps&quot;&gt;Skip Energy Slumps&lt;/h2&gt;
+
+&lt;p&gt;This pair of news caught my attention individually, but after reviewing my notes for this edition, I saw a connection too strong to not mention them in tandem.
+First, &lt;a href=&quot;https://raghavan.usc.edu/papers/infobatteries-eir21.pdf&quot;&gt;a recent paper proposes the concept of “Information Batteries”.&lt;/a&gt;. Ms Jennifer Switzer from UC San Diego, USA and Mr Barath Raghavan from USC, USA, propose a type of information battery that, using modern computer science algorithms and structures, can execute intensive computations and store results whenever renewable energy is widely available. The information can be seen as energy storage, used at a later stage when such calculations are required or can suffer more changes from subsequent processes.
+In a different topic, Mr Yann LeCun, Chief AI Scientist at Meta, &lt;a href=&quot;&quot;&gt;posted on his social networks promoting Skip&lt;/a&gt;https://www.linkedin.com/feed/update/urn:li:activity:6900792823600549888/, a programming language developed at Meta’s when they were known as Facebook in early 2018. One of the most prominent language features is Caching with Reactive Invalidation, a memoization technique integrated into the programming language core. Are you seeing where this might go? I do, for sure. Maybe Mr LeCun pays attention to my comment and explains why it isn’t so :)&lt;/p&gt;
+
+&lt;h2 id=&quot;second-virtual-life&quot;&gt;Second Virtual Life&lt;/h2&gt;
+
+&lt;p&gt;If you were around this internet hood some ten to fifteen years, you might have been one of Second Life’s visitors. Second Life, the non-acknowledged inspiration of Mr Neal Stephenson’s work, according to yours truly, got much attention from big brands at the time. Some setup shops within the virtual world, providing virtual goods and services directly to virtual users. While the hype lasted, Linden Dollars, Second Life’s currency, boosted outside the virtual world and traded as a bonafide virtual currency.
+We see the same now in Decentraland, a proto metaverse resembling Second Life’s graphic quality, with different technologies and philosophy, blockchains and decentralization. &lt;a href=&quot;https://fortune.com/2022/02/16/jpmorgan-first-bank-join-metaverse/&quot;&gt;JPMorgan, the international investment bank, opened their virtual office with the brand Onyx.&lt;/a&gt; joining many other big and medium brands that are rushing to get the first business opportunities of the Metaverse. Fortune’s article is shallow but provides a glimpse of the past. Maybe of the future as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;meta-digest&quot;&gt;Meta Digest&lt;/h2&gt;
+
+&lt;p&gt;Some companies can generate more news than a journal can handle. One could dedicate a daily series around the FAANG, or maybe MAANG nowadays, and it would probably get flooded with so much content. Meta, by itself, with a worldwide reach and multiple verticals, generates so much communication that it is hard to squeeze its information ceiling in a fifteen-day interval. These last couple of weeks weren’t different.
+&lt;a href=&quot;https://www.theverge.com/2022/2/17/22939297/meta-social-vr-platform-horizon-300000-users&quot;&gt;Starting with Meta’s Horizon Worlds reports a steady user base around three hundred thousand unique users&lt;/a&gt;. Not too shabby for a Metaverse platform, especially when it requires expensive hardware to partake in the experience. Sure that we are still in the early adopter realm, and the product chasm is right around the corner. With the chip shortage probably extending into 2023, it will be hard to sell brand new equipment on the usual spending sprees at year’s end. Go to market strategies will become aggressive if growth doesn’t keep up, but I’m betting on a steady stream of Metaverse enthusiasts until next year. Time flies and Meta’s five-year plan will close their first year around the time of Q3 results, so many investors are crossing their fingers until their knuckles get white.&lt;/p&gt;
+
+&lt;p&gt;While Horizon Worlds shows promise, Novi did not pan out. In an exclusive piece, globes, an Israeli online business news outlet, &lt;a href=&quot;https://en.globes.co.il/en/article-meta-freezes-novi-digital-wallet-project-1001401477&quot;&gt; Facebook is freezing Novi developments&lt;/a&gt;. The project was running in Tel Aviv Meta’s research and development office, leaving around one hundred employees waiting for instructions. After Meta abandoned Diem, their digital currency project, selling all intellectual property to Silvergate Bank, it comes to no surprise that associated projects will need a stern evaluation. With regulators tightening around Meta’s practices, it was understandable that Diem would have no future under Meta’s umbrella.&lt;/p&gt;
+
+&lt;p&gt;Finally, on a less serious note, and probably embarrassing one for many Meta employees. Mr Mark Zuckerberg announced publicly that Meta employees will be known as Metamates from now on. It could have been planned and tried in-house before the universal cringe reaction. The new employee branding tries to bring a lighthearted message about the company and their constituents, but the most impressive part is the alleged source of this idea. The legend says that one employee cold emailed the influential cognitive scientist, Mr Douglas Hofstadter, about the subject. The answer was, “Metamates”. Mr Hofstader, we need to have some words…&lt;/p&gt;
+
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal January 24 - February 7</title>
@@ -2426,45 +2508,6 @@ This is the most basic alarm that a human can get. Many abnormal external stimul
 &lt;p&gt;In the “On Alarm Dum Numbness” series of posts, I’m going to delve into alarm management, hopefully, providing a thought structure that can make you avoid some of my past mistakes when designing alarm systems, or to be more precise, ad hoc sets of alerts and alarms that eventually fail to serve their purpose.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;If you’re curious about this post image, check &lt;a href=&quot;https://www.sciencemag.org/news/2017/06/near-disaster-federal-nuclear-weapons-laboratory-takes-hidden-toll-america-s-arsenal&quot;&gt;this article from Sciencemag&lt;/a&gt; explaining how a disaster was about to happen&lt;/em&gt;&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>Code does not wear company colours</title>
-        <link href="https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors/"/>
-        <updated>2020-11-12T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/software-engineering/the-code-does-not-wear-company-colors</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/jruby_1600x800.jpg&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;After a few projects and some nasty burns, eventually, any engineer understands that the code doesn’t care. It will compile, or it will be interpreted, it will run, and it will fail or succeed, but in the end, it will not care.&lt;/p&gt;
-
-&lt;p&gt;If you’ve been out and about in the community, you’ll probably read or listen something along the lines:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://groups.google.com/g/mailing.freebsd.hackers/c/DylcvbPzW5g?pli=1&quot;&gt;“It is not X programming language job to stop you from shooting your foot. If you so choose to do so, then it is X programming language job to deliver Mr Bullet to Mr Foot in the most efficient way it knows.”&lt;/a&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Code will do what is programmed to do, but it really doesn’t care.&lt;/p&gt;
-
-&lt;p&gt;So, when your sprinkle your company name, that you value so much, on variables, classes, components, agents and even on your bare metal machines (Use the Cloud Luke), code still doesn’t care. It will not read clearer, run faster nor debug quicker even if you try to dress it with your company colours.&lt;/p&gt;
-
-&lt;p&gt;And up to this point, you think that I’m right but not adding much. You do know that code doesn’t care and singularity is far ahead. So why should you bother with names…and why this rambling?&lt;/p&gt;
-
-&lt;p&gt;Well, I’ll end it with a word: Rebranding.&lt;/p&gt;
-
-&lt;p&gt;Drop’s the mic and leaves the building.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;You can find Terry Lambert’s original quote within the linked thread. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 
         </content>
     </entry>
