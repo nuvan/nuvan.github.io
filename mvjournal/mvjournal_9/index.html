@@ -128,6 +128,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/opinion/learning-path-vs-discovery-exploration/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#learning-path-vs-discovery-and-exploration-share").html(data.count);
+      }
+      else {
+        $("#learning-path-vs-discovery-and-exploration-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_24/',
       context: document.body
     }).done(function( data ) {
@@ -500,7 +512,7 @@ window.cookieconsent.initialise({
     });
    
     $.ajax({
-      url: query_url + '/programming/jruby-jvm-encoding-flags/',
+      url: query_url + '/software-engineering/jruby-jvm-encoding-flags/',
       context: document.body
     }).done(function( data ) {
       if(data.count) {
@@ -521,6 +533,16 @@ window.cookieconsent.initialise({
             <nav role="navigation-article" class="menu-article floated">
               <ul>
                 
+                  
+                  <li>
+                    <a href="https://directionwithintent.com/tag/opinion" >OPINION</a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://directionwithintent.com/tag/software-engineering" >SOFTWARE-ENGINEERING</a>
+                  </li>
+                
                 <li>
                   <button type="button" class="js-menu-trigger sliding-menu-button-article black">
                     ☰
@@ -539,6 +561,20 @@ window.cookieconsent.initialise({
     </button>
   <ul class="menu-item">
     
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/tag/software-engineering" class="title">SOFTWARE-ENGINEERING</a>
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -555,7 +591,7 @@ window.cookieconsent.initialise({
 
 
 <div id="page-wrapper">
-<div id="main" role="main">	
+<div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		<nav class="breadcrumbs">
   <a href="https://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="https://directionwithintent.com/mvjournal/">Mvjournal</a> <span class="divider">/</span>
@@ -588,27 +624,27 @@ A few minutes later, I was publishing my first observation. I had crossed the pa
 
 <h2 id="inaturalist">iNaturalist</h2>
 
-<p>iNaturalist results from a collaboration between <a href="https://www.inaturalist.org/pages/about">National Geographic and the California Academy of Sciences</a>. It helps amateurs like me to discover nature around our own dwellings. 
+<p>iNaturalist results from a collaboration between <a href="https://www.inaturalist.org/pages/about">National Geographic and the California Academy of Sciences</a>. It helps amateurs like me to discover nature around our own dwellings.
 With approximately 71 million observations, 340 thousand species and 4.2 million users, it is the largest online community of crowdsourced biodiversity data and keeps growing every year.</p>
 
 <p>If your living on modern planet earth, you’ve probably got the word of Pokemon Go, a game phenomenon that exploded some years ago on all continents. The player was invited to physically move around with the game running to find  Pokemons hidden at specific geographic coordinates. The objective was to collect them and eventually battle with other Pokemon players.</p>
 
 <p>How about doing it for real? Without the fighting, of course.</p>
 
-<p>Since my first encounter with the friendly Wolf Spider, I collected a meagre 69 observations of plants, insects, birds, and reptiles, including a Cuban Ground Hutia and a Roughtail Rock Agama. 
+<p>Since my first encounter with the friendly Wolf Spider, I collected a meagre 69 observations of plants, insects, birds, and reptiles, including a Cuban Ground Hutia and a Roughtail Rock Agama.
 Nowadays, I can even distinguish a Mud Dauber from a Velutina.
 What are those? Well, join me, and you’ll find out.</p>
 
 <h2 id="machine-learning-animals">Machine Learning Animals</h2>
 
-<p>The requirements to process and distil such a large amount of information aren’t simple. Even before going through the Software Engineering that allows the feat, one can imagine that Machine Learning has an integral part in their pipelines. 
+<p>The requirements to process and distil such a large amount of information aren’t simple. Even before going through the Software Engineering that allows the feat, one can imagine that Machine Learning has an integral part in their pipelines.
 The team responsible for the platform have been organizing classification competitions since 2017. They proved to be essential to the continuous development of their ML pipeline. Each year the error rate dropped, and it’s already below 10%. For a dataset comprising 2.7 million images with more than 10 thousand species, it is a remarkable result.
 Unfortunately, like the <a href="https://en.wikipedia.org/wiki/Netflix_Prize">Netflix Prize</a>, winning doesn’t mean feasibility, and some of the most accurate models don’t have a good fit with mobile specs, at least for now.</p>
 
 <h2 id="aws-of-course">AWS of course</h2>
 
 <p>While looking for hints about their tech stack, I’ve tripped in <a href="https://www.amazon.science/research-awards/success-stories/inaturalist-cvpr-machine-learning-datasets-challenge">this blog post from Amazon Science</a> and discovered that iNaturalist had won a <a href="https://www.amazon.science/research-awards/program-updates/2019-q2-q3-aws-machine-learning-research-awards-recipients-announced">AWS Machine Learning Research Award in 2019</a>, and guess what, they are hosted at AWS!
-The prize provides unlimited funds and AWS credits to run the app on their cloud but also allows the project to provide <a href="https://registry.opendata.aws/inaturalist-open-data/">the data, free of charge</a> for anyone that wants to play with it and prepare for the next competition. 
+The prize provides unlimited funds and AWS credits to run the app on their cloud but also allows the project to provide <a href="https://registry.opendata.aws/inaturalist-open-data/">the data, free of charge</a> for anyone that wants to play with it and prepare for the next competition.
 The dataset might prove invaluable for the next generation of researchers that can combine the expertise of the field with Machine Learning magic, identifying and tracking biodiversity all over the world.
 Well, nowadays, the probability of having your infrastructure in a cloud behemoth is significant but brought another point of interest for your <a href="https://www.meetup.com/AWS-User-Group-Lisbon/members/?op=leaders">biased writer</a></p>
 
@@ -668,20 +704,6 @@ At this time, it’s impossible to understand how much he was affected by a cons
 	<p class="author-bio"></p>
 </div><!-- ./author-content -->
 					
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=MV%20Journal%20June%2013%20-%20June%2028&amp;url=https://directionwithintent.com/mvjournal/mvjournal_9/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_9/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-
 					<div class="page-meta">
 	<p>Updated <time datetime="2021-06-24T00:00:00Z" itemprop="datePublished">June 24, 2021</time></p>
 </div><!-- /.page-meta -->
@@ -705,7 +727,7 @@ At this time, it’s impossible to understand how much he was affected by a cons
 		
 		</ul>
 	</nav--><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2024 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+	<p class="copyright">&#169; 2025 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

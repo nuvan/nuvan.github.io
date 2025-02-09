@@ -125,6 +125,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/opinion/learning-path-vs-discovery-exploration/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#learning-path-vs-discovery-and-exploration-share").html(data.count);
+      }
+      else {
+        $("#learning-path-vs-discovery-and-exploration-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_24/',
       context: document.body
     }).done(function( data ) {
@@ -497,7 +509,7 @@ window.cookieconsent.initialise({
     });
    
     $.ajax({
-      url: query_url + '/programming/jruby-jvm-encoding-flags/',
+      url: query_url + '/software-engineering/jruby-jvm-encoding-flags/',
       context: document.body
     }).done(function( data ) {
       if(data.count) {
@@ -518,6 +530,16 @@ window.cookieconsent.initialise({
             <nav role="navigation-article" class="menu-article floated">
               <ul>
                 
+                  
+                  <li>
+                    <a href="https://directionwithintent.com/tag/opinion" >OPINION</a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://directionwithintent.com/tag/software-engineering" >SOFTWARE-ENGINEERING</a>
+                  </li>
+                
                 <li>
                   <button type="button" class="js-menu-trigger sliding-menu-button-article black">
                     ☰
@@ -536,6 +558,20 @@ window.cookieconsent.initialise({
     </button>
   <ul class="menu-item">
     
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/tag/software-engineering" class="title">SOFTWARE-ENGINEERING</a>
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -552,7 +588,7 @@ window.cookieconsent.initialise({
 
 
 <div id="page-wrapper">
-<div id="main" role="main">	
+<div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		<nav class="breadcrumbs">
   <a href="https://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="https://directionwithintent.com/mvjournal/">Mvjournal</a> <span class="divider">/</span>
@@ -603,7 +639,7 @@ To be fair, the worst statements came from Activision Blizzard HQ, which holds B
 <p>Activision Blizzard C-suite’s hardline response wasn’t appreciated by the workforce, to say the least.
 After Ms Townsend statement, several current and ex-employees went public on Twitter sharing their animosity regarding her narrative and recounting some events where such behaviours were blatant.</p>
 
-<p>I’d like to point out <a href="https://www.wowhead.com/news/former-blizzard-employees-speak-up-about-activision-blizzard-323560">the collection of tweets from Ms Christina Womack</a>, a Former Senior User Experience Designer at Battle.net. This is an excellent example of some of the allegations within the lawsuit. 
+<p>I’d like to point out <a href="https://www.wowhead.com/news/former-blizzard-employees-speak-up-about-activision-blizzard-323560">the collection of tweets from Ms Christina Womack</a>, a Former Senior User Experience Designer at Battle.net. This is an excellent example of some of the allegations within the lawsuit.
 In a united front, <a href="https://www.wowhead.com/news/activision-blizzard-employees-publish-open-letter-criticizing-activisions-323564?fbclid=IwAR3dTIgCr9KZkRVa4jq7Mjn9NkG-rMRkIVH5m3H9ulX2D7zEgg2IJ220aeU">Blizzard’s employees presented an open letter condemning the facts pertaining to the lawsuit and the leadership response to it.</a>
 With more than 3K peers signing the letter, the workforce further organised a walkout to protest managements’ position while demanding structural changes in company policies, from recruitment to career and salary progress.</p>
 
@@ -623,7 +659,7 @@ Two of the most famous content creators, <a href="https://www.youtube.com/channe
 <p>And again, stakeholders battle each other on Twitter, this time with heated arguments flying between system designers and players, with the latter asking for new system designers and developers striking back just like Ms Townsend did. Maybe designers should pay attention to gamer’s complaints about the lousy game mechanics installed for the last four years, just like Activision Blizzard leadership should pay more attention to their poisonous work environment.</p>
 
 <p><a href="https://www.linkedin.com/in/duarte-faria/">Duarte Faria</a>, a Software Developer at <a href="https://www.helloprint.com/">HelloPrint</a>, plays at Zanity, a WoW guild, says that this is his last tier. Although he assumes that the game doesn’t have the same appeal as before, the latest developments were the final push to change his gaming habits.
-One has to consider that WoW was launched in 2004. It is one of the games that endured most and has a fandom that loves the game, sometimes in an unhealthy fashion, with reports of <a href="https://venturebeat.com/2015/03/05/man-dies-after-19-hour-world-of-warcraft-session/">gamers dying while playing the game for days in a row.</a>. 
+One has to consider that WoW was launched in 2004. It is one of the games that endured most and has a fandom that loves the game, sometimes in an unhealthy fashion, with reports of <a href="https://venturebeat.com/2015/03/05/man-dies-after-19-hour-world-of-warcraft-session/">gamers dying while playing the game for days in a row.</a>.
 The environment was always rude, and after almost 20 years, it is hard to keep it fresh for gamers who grew with it. With an ambience loaded with so many bad feelings, one might think the community could be better with something similar to [Dungeon Keeper], where evil is good.
 It might be the end of an era. I just wonder if we are going to get another Blizzard expansion of it.</p>
 
@@ -647,12 +683,12 @@ It’s hard to understand some open-source licenses and what can you do without 
 
 <h2 id="fork-you">Fork you</h2>
 
-<p>While tension increased with time, Elastic also caught another service provider redhanded with Elastic’s commercial code in their offerings. Of course, this should be a separate issue, but some of that code went in the <a href="https://opendistro.github.io/for-elasticsearch/">Open Distro for  Elasticsearch</a>, a software fork that AWS created in 2019. 
+<p>While tension increased with time, Elastic also caught another service provider redhanded with Elastic’s commercial code in their offerings. Of course, this should be a separate issue, but some of that code went in the <a href="https://opendistro.github.io/for-elasticsearch/">Open Distro for  Elasticsearch</a>, a software fork that AWS created in 2019.
 One can speculate much about the arguments and decisions of such a fork. Still, it was evident that AWS was already preparing for keeping “their” Elasticsearch version protected from future license changes, which happened at the beginning of this year.</p>
 
 <h2 id="elastic-limit">Elastic limit</h2>
 
-<p>Elasticity ends when a body can’t resist further distorting influences. In January, Elastic reached that point and decided to go back on their 2018 promise of keeping their licences open forever, when they’ve opened <a href="https://www.elastic.co/what-is/open-x-pack">X-pack</a>. Instead, they’ve updated their licencing terms with a Server Side Public License or SSPL and updated their previous statement to reflect the transition. 
+<p>Elasticity ends when a body can’t resist further distorting influences. In January, Elastic reached that point and decided to go back on their 2018 promise of keeping their licences open forever, when they’ve opened <a href="https://www.elastic.co/what-is/open-x-pack">X-pack</a>. Instead, they’ve updated their licencing terms with a Server Side Public License or SSPL and updated their previous statement to reflect the transition.
 I’ll state again that some licences are complex to navigate for most developers, but I’ll try a crude simplification in this piece. The “new” SSPL tries to prevent third parties from selling services based on “Open Source” artefacts if they don’t provide all source code involved in such offering. This is a brake for big integrators and resellers who can’t establish clear boundaries between services, orchestration, and integration components.</p>
 
 <h2 id="fauxpenning">Fauxpenning</h2>
@@ -677,7 +713,7 @@ Even if you opt for stable installations, security patches might force you to de
 <p>Open-source developers and maintainers will have to decide where their efforts should be placed and if compatibility should be a concern. AWS promises to be compatible up to the forked version and states that one of their biggest concerns is to keep backwards compatibility for users happy with older deployments that don’t see updates often. OpenSearch eventually will become a different beast, such as DocumentDB diverged from MongoDB and Aurora from MySQL.
 I don’t believe that we’ll see much enthusiasm from developers that poured their hearts into Elasticsearch codebase, making the switch, maybe excluding some hardliners from the open-source community that don’t align themselves with Elastic “fauxpenning” strategy.</p>
 
-<p>While one understands the abusive behaviour from AWS, it is also hard to see the mix between paid and non paid software in the Elastic component ensemble that does not flow to the community for many open-source enthusiasts. 
+<p>While one understands the abusive behaviour from AWS, it is also hard to see the mix between paid and non paid software in the Elastic component ensemble that does not flow to the community for many open-source enthusiasts.
 Nevertheless, this is the case with so many labels that work both fronts and need to make money to pay employees, developers and investors. AWS knows this, but their business will ultimately stand on AWS integrations and a top of the line cloud infrastructure. Selling software on running on the latter is the way to go, but AWS product development follows instead of innovating.</p>
 
 <p>AWS portfolio also shows that they can endure fights with almost anyone and come out as a winner while building up a panoply of products and services that don’t fall. On the Elastic side, the main problem of trademark abuse will go away with OpenSearch. Leaving AWS quiet, for now, would be wise, but joining forces with companies that suffered the same fate would be fruitful for potential confrontations and to build an open-source movement that makes a trade-off between licencing fundamentalism and intellectual common property protection.</p>
@@ -694,20 +730,6 @@ Nevertheless, this is the case with so many labels that work both fronts and nee
 	<p class="author-bio"></p>
 </div><!-- ./author-content -->
 					
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=MV%20Journal%20July%2026%20-%20August%2023&amp;url=https://directionwithintent.com/mvjournal/mvjournal_12/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_12/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-
 					<div class="page-meta">
 	<p>Updated <time datetime="2021-08-22T00:00:00Z" itemprop="datePublished">August 22, 2021</time></p>
 </div><!-- /.page-meta -->
@@ -731,7 +753,7 @@ Nevertheless, this is the case with so many labels that work both fronts and nee
 		
 		</ul>
 	</nav--><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2024 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+	<p class="copyright">&#169; 2025 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

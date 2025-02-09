@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2024-06-13T23:12:10+01:00</updated>
+    <updated>2025-02-09T20:40:28+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,39 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Learning Path vs Discovery and Exploration</title>
+        <link href="https://directionwithintent.com/opinion/learning-path-vs-discovery-exploration/"/>
+        <updated>2024-12-12T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/opinion/learning-path-vs-discovery-exploration</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/path-vs-discovery2024x1024.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;After attending Cloudflare’s Lisbon Engineering Meetup on using the Rust programming language with Cloudflare Workers, I felt a familiar sense of FOMO. Once again, I was reminded that I knew nothing about Rust, even though I incentivised a few junior developers to explore the technology. After all, Mr Linus Torvalds is optimistic about the technology. But, as before, I relegated it to the back burner for “another time.”&lt;/p&gt;
+
+&lt;p&gt;Yesterday, I finally decided to invest a couple of hours exploring Rust — its typical toolchains, conventions, and quirks. A few years ago, my approach would have been more or less like the following description: I’d dive into Google search results, pick a random tutorial (or sometimes a book), and follow its steps. Along the way, I’d be opening countless tabs to decode syntax nuances, understand idiomatic expectations, or troubleshoot installation issues. After two hours, my “knowledge” would be a disjointed mess scattered across browser tabs, incomplete notes, and perhaps a poorly structured application that did little more than confuse me. If I were following a book, I’d have long abandoned any ambitious goals and resigned myself to completing a simple “Hello, World” CLI.&lt;/p&gt;
+
+&lt;p&gt;But the world has changed.&lt;/p&gt;
+
+&lt;p&gt;This time, I started by selecting a Rust-specialized GPT from ChatGPT’s library. Within minutes, it provided installation instructions and helped me create a basic stock-tracking application. Not long after, I ran the application — only to encounter a classic Rust moment: a thread ‘main’ panicked error. Switching to Cursor AI for debugging, I had the issue fixed in 15 minutes and was already plotting Apple’s stock closing prices and a moving average in a PNG file.&lt;/p&gt;
+
+&lt;p&gt;I went back to ChatGPT with follow-up questions. I asked it to explain the language constructs, the libraries I was using, and how to set up a debugging workflow. When I requested a LinkedList implementation, the code compiled correctly on the first attempt. In the process, I started grasping Rust’s memory model, how Box and Option work, memory allocation and deallocation, and how to better organize my code. Every step of the way, I could adjust the direction of my learning with tailored questions, building both understanding and momentum.&lt;/p&gt;
+
+&lt;p&gt;Instead of following a rigid, pre-defined path—like a YouTube tutorial or a developer blog—I designed my own learning experience. In just two hours, I reached a level of competence where I felt comfortable improving my application’s feature set. What’s more, I can continue exploring Rust on my own terms simply by directing these “tutors” toward the next set of questions I want to tackle. The sense of accomplishment was immense.&lt;/p&gt;
+
+&lt;p&gt;So, what does this mean? This workflow — excluding Cursor AI — has been my norm for over a year now, especially with languages outside my usual orbit, like Swift and Go. A decade ago, I thought access to information had already peaked. Back then, the idea of “better learning tools” simply meant more tutorials or courses.&lt;/p&gt;
+
+&lt;p&gt;Now, it’s clear that the game has changed. We’re no longer constrained to pre-packaged learning paths. Instead, we can customize our tutors, define our goals, and create meaningful outputs—all while aligning the process to our personal needs and interests.&lt;/p&gt;
+
+&lt;p&gt;The world has changed significantly. And I don’t think most of us are prepared for what that means.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>MV Journal February 7 - February 21</title>
@@ -472,7 +505,7 @@ It is hard to see a promising future for Mr Bobby Kotick at Activision Blizzard,
 
 &lt;h2 id=&quot;freshly-minted-unicorn&quot;&gt;Freshly minted Unicorn&lt;/h2&gt;
 
-&lt;p&gt;Great news for the Portuguese tech scene! 
+&lt;p&gt;Great news for the Portuguese tech scene!
 &lt;a href=&quot;https://swordhealth.com/&quot;&gt;SWORD Health&lt;/a&gt;, a Portuguese startup that connects physiotherapists and personal trainers with patients. Their programs provide hand-tailored physiotherapy treatments and exercise plans to handle musculoskeletal pain or simply MSK pain as it is commonly referred to.
 Exercise plans are followed, using specialized equipment and an app that tracks your exercises in real-time. &lt;a href=&quot;https://www.youtube.com/watch?v=lezRV1qTi34&quot;&gt;Take a look at their promo video explaining the process&lt;/a&gt;.
 The company successfully closed a Series B funding round for 25 million, increasing the total funding to 50 million and making the company value soar to two billion dollars.
@@ -669,7 +702,7 @@ Nonetheless, if you’re paying taxes in Portugal, you’re paying a part of Web
         	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_17.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;A few minutes before writing this summary, I got the email warning from WebSummit with the title “Opening Night kicks off soon.”. The clock counter states four hours and a few minutes until the event opens doors.
 As I’ve mentioned in our previous instalment, these mega-events mark the beginning of an “after Covid” era, and in Portugal, they make even more sense considering economic and social factors.
-And, with this social behaviour change, I’m also going to make some changes in our MV Journal format! Considering my availability for this project, these developments will come slowly, and they will start this week with a minor tweak. From now on, the first section, 0, will stay fixed under “News.ceil”. 
+And, with this social behaviour change, I’m also going to make some changes in our MV Journal format! Considering my availability for this project, these developments will come slowly, and they will start this week with a minor tweak. From now on, the first section, 0, will stay fixed under “News.ceil”.
 First, did you get the title trick? If you’re a programmer, I hope you do :).
 Second, “News.ceil” will contain an assortment of the most impactful news of the last couple of weeks, some oddities and those little gems from the hidden corners of the interwebs. Without any in-depth analysis but pointing to the best sources for the topics in the webverse, you’ll get a tasty slice of the last fifteen days of tech-related news.&lt;/p&gt;
 
@@ -1209,7 +1242,7 @@ His last attempt in the electric vehicle market failed in 2010 and was still ins
 				</author>
         <content type="html">
         	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_13.png&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;In our second MV Journal Follow-up, we will review a few topics that stopped at a cliff-hanger…or something similar, I guess, but if someone asks you what the best thing you got from this post was, you can point the person to &lt;a href=&quot;https://mcbroken.com/&quot;&gt;McBroken&lt;/a&gt;. If you’re cruising around the USA, never forget to check if the nearest MacDonalds has a working McFlurry machine. 
+        	&lt;p&gt;In our second MV Journal Follow-up, we will review a few topics that stopped at a cliff-hanger…or something similar, I guess, but if someone asks you what the best thing you got from this post was, you can point the person to &lt;a href=&quot;https://mcbroken.com/&quot;&gt;McBroken&lt;/a&gt;. If you’re cruising around the USA, never forget to check if the nearest MacDonalds has a working McFlurry machine.
 Amazed? The internet produces great things, right? Unless you’re a developer mandated to use a Cloud-based IDE. In that case, I’m not sure we’re going in the right direction, but the verdict is still out here on this one. Let’s have a few words if you get to try one.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -1267,7 +1300,7 @@ One of my previous managers usually said, “The cemetery is home for many irrep
 Epic is pushing buttons all over the world, testing law limits but still waiting for the jury. Australia was the last country to accept Epic’s claims in court, and another legal battle will pit Epic against Apple in this World Market Wars. The strategy looks clear enough for us, mortal bystanders. A good victory in any country might trigger a cascade in the remaining courts and/or push Apple to make changes globally instead of managing each country market as a vertical.
 In between, Apple is losing ground with lawsuits eroding its claims and forcing changes even before Epic enters the ring.
 A class-action suit from 2019 ended in August, with Apple conceding to make changes that allow app developers to redirect users to alternative payment options. This is a step toward an Epic win, but the amusing part lies on the judge. Miss Yvonne Gonzalez-Rogers is the Californian judge overseeing the class-action suit settlement, but she also presides Epic vs Apple.
-Far from California, South Korea dealt a significant blow to every digital Market, and it will make a profit dent on big players such as Apple. 
+Far from California, South Korea dealt a significant blow to every digital Market, and it will make a profit dent on big players such as Apple.
 The &lt;a href=&quot;http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2Z1F0E7F2Y0Q1S1N3B4Y5U2A2K2P9&quot;&gt;bill&lt;/a&gt; ( I recommend the “translate” option of your favourite Browser to take a peek) establishes that digital market makers need to allow third-party payment systems. Not only that but also added provisions to avoid delays in application approvals and blocks that might be used to deter companies from going outside the app store.
 Apple and Google are indisputable giant whales with their digital markets, but it looks like the law takes the underdog side. Let’s wait again for a few months.&lt;/p&gt;
 
@@ -1345,7 +1378,7 @@ To be fair, the worst statements came from Activision Blizzard HQ, which holds B
 &lt;p&gt;Activision Blizzard C-suite’s hardline response wasn’t appreciated by the workforce, to say the least.
 After Ms Townsend statement, several current and ex-employees went public on Twitter sharing their animosity regarding her narrative and recounting some events where such behaviours were blatant.&lt;/p&gt;
 
-&lt;p&gt;I’d like to point out &lt;a href=&quot;https://www.wowhead.com/news/former-blizzard-employees-speak-up-about-activision-blizzard-323560&quot;&gt;the collection of tweets from Ms Christina Womack&lt;/a&gt;, a Former Senior User Experience Designer at Battle.net. This is an excellent example of some of the allegations within the lawsuit. 
+&lt;p&gt;I’d like to point out &lt;a href=&quot;https://www.wowhead.com/news/former-blizzard-employees-speak-up-about-activision-blizzard-323560&quot;&gt;the collection of tweets from Ms Christina Womack&lt;/a&gt;, a Former Senior User Experience Designer at Battle.net. This is an excellent example of some of the allegations within the lawsuit.
 In a united front, &lt;a href=&quot;https://www.wowhead.com/news/activision-blizzard-employees-publish-open-letter-criticizing-activisions-323564?fbclid=IwAR3dTIgCr9KZkRVa4jq7Mjn9NkG-rMRkIVH5m3H9ulX2D7zEgg2IJ220aeU&quot;&gt;Blizzard’s employees presented an open letter condemning the facts pertaining to the lawsuit and the leadership response to it.&lt;/a&gt;
 With more than 3K peers signing the letter, the workforce further organised a walkout to protest managements’ position while demanding structural changes in company policies, from recruitment to career and salary progress.&lt;/p&gt;
 
@@ -1365,7 +1398,7 @@ Two of the most famous content creators, &lt;a href=&quot;https://www.youtube.co
 &lt;p&gt;And again, stakeholders battle each other on Twitter, this time with heated arguments flying between system designers and players, with the latter asking for new system designers and developers striking back just like Ms Townsend did. Maybe designers should pay attention to gamer’s complaints about the lousy game mechanics installed for the last four years, just like Activision Blizzard leadership should pay more attention to their poisonous work environment.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/duarte-faria/&quot;&gt;Duarte Faria&lt;/a&gt;, a Software Developer at &lt;a href=&quot;https://www.helloprint.com/&quot;&gt;HelloPrint&lt;/a&gt;, plays at Zanity, a WoW guild, says that this is his last tier. Although he assumes that the game doesn’t have the same appeal as before, the latest developments were the final push to change his gaming habits.
-One has to consider that WoW was launched in 2004. It is one of the games that endured most and has a fandom that loves the game, sometimes in an unhealthy fashion, with reports of &lt;a href=&quot;https://venturebeat.com/2015/03/05/man-dies-after-19-hour-world-of-warcraft-session/&quot;&gt;gamers dying while playing the game for days in a row.&lt;/a&gt;. 
+One has to consider that WoW was launched in 2004. It is one of the games that endured most and has a fandom that loves the game, sometimes in an unhealthy fashion, with reports of &lt;a href=&quot;https://venturebeat.com/2015/03/05/man-dies-after-19-hour-world-of-warcraft-session/&quot;&gt;gamers dying while playing the game for days in a row.&lt;/a&gt;.
 The environment was always rude, and after almost 20 years, it is hard to keep it fresh for gamers who grew with it. With an ambience loaded with so many bad feelings, one might think the community could be better with something similar to [Dungeon Keeper], where evil is good.
 It might be the end of an era. I just wonder if we are going to get another Blizzard expansion of it.&lt;/p&gt;
 
@@ -1389,12 +1422,12 @@ It’s hard to understand some open-source licenses and what can you do without 
 
 &lt;h2 id=&quot;fork-you&quot;&gt;Fork you&lt;/h2&gt;
 
-&lt;p&gt;While tension increased with time, Elastic also caught another service provider redhanded with Elastic’s commercial code in their offerings. Of course, this should be a separate issue, but some of that code went in the &lt;a href=&quot;https://opendistro.github.io/for-elasticsearch/&quot;&gt;Open Distro for  Elasticsearch&lt;/a&gt;, a software fork that AWS created in 2019. 
+&lt;p&gt;While tension increased with time, Elastic also caught another service provider redhanded with Elastic’s commercial code in their offerings. Of course, this should be a separate issue, but some of that code went in the &lt;a href=&quot;https://opendistro.github.io/for-elasticsearch/&quot;&gt;Open Distro for  Elasticsearch&lt;/a&gt;, a software fork that AWS created in 2019.
 One can speculate much about the arguments and decisions of such a fork. Still, it was evident that AWS was already preparing for keeping “their” Elasticsearch version protected from future license changes, which happened at the beginning of this year.&lt;/p&gt;
 
 &lt;h2 id=&quot;elastic-limit&quot;&gt;Elastic limit&lt;/h2&gt;
 
-&lt;p&gt;Elasticity ends when a body can’t resist further distorting influences. In January, Elastic reached that point and decided to go back on their 2018 promise of keeping their licences open forever, when they’ve opened &lt;a href=&quot;https://www.elastic.co/what-is/open-x-pack&quot;&gt;X-pack&lt;/a&gt;. Instead, they’ve updated their licencing terms with a Server Side Public License or SSPL and updated their previous statement to reflect the transition. 
+&lt;p&gt;Elasticity ends when a body can’t resist further distorting influences. In January, Elastic reached that point and decided to go back on their 2018 promise of keeping their licences open forever, when they’ve opened &lt;a href=&quot;https://www.elastic.co/what-is/open-x-pack&quot;&gt;X-pack&lt;/a&gt;. Instead, they’ve updated their licencing terms with a Server Side Public License or SSPL and updated their previous statement to reflect the transition.
 I’ll state again that some licences are complex to navigate for most developers, but I’ll try a crude simplification in this piece. The “new” SSPL tries to prevent third parties from selling services based on “Open Source” artefacts if they don’t provide all source code involved in such offering. This is a brake for big integrators and resellers who can’t establish clear boundaries between services, orchestration, and integration components.&lt;/p&gt;
 
 &lt;h2 id=&quot;fauxpenning&quot;&gt;Fauxpenning&lt;/h2&gt;
@@ -1419,7 +1452,7 @@ Even if you opt for stable installations, security patches might force you to de
 &lt;p&gt;Open-source developers and maintainers will have to decide where their efforts should be placed and if compatibility should be a concern. AWS promises to be compatible up to the forked version and states that one of their biggest concerns is to keep backwards compatibility for users happy with older deployments that don’t see updates often. OpenSearch eventually will become a different beast, such as DocumentDB diverged from MongoDB and Aurora from MySQL.
 I don’t believe that we’ll see much enthusiasm from developers that poured their hearts into Elasticsearch codebase, making the switch, maybe excluding some hardliners from the open-source community that don’t align themselves with Elastic “fauxpenning” strategy.&lt;/p&gt;
 
-&lt;p&gt;While one understands the abusive behaviour from AWS, it is also hard to see the mix between paid and non paid software in the Elastic component ensemble that does not flow to the community for many open-source enthusiasts. 
+&lt;p&gt;While one understands the abusive behaviour from AWS, it is also hard to see the mix between paid and non paid software in the Elastic component ensemble that does not flow to the community for many open-source enthusiasts.
 Nevertheless, this is the case with so many labels that work both fronts and need to make money to pay employees, developers and investors. AWS knows this, but their business will ultimately stand on AWS integrations and a top of the line cloud infrastructure. Selling software on running on the latter is the way to go, but AWS product development follows instead of innovating.&lt;/p&gt;
 
 &lt;p&gt;AWS portfolio also shows that they can endure fights with almost anyone and come out as a winner while building up a panoply of products and services that don’t fall. On the Elastic side, the main problem of trademark abuse will go away with OpenSearch. Leaving AWS quiet, for now, would be wise, but joining forces with companies that suffered the same fate would be fruitful for potential confrontations and to build an open-source movement that makes a trade-off between licencing fundamentalism and intellectual common property protection.&lt;/p&gt;
@@ -1467,7 +1500,7 @@ The “Right to Repair” reached Europe as well, but European Union lawmakers a
 Although the law forces an extension of the planned obsolescence strategy, it left out the owner that wants to buy the parts and avoid the expense of sending their hardware to a repair shop.
 The United Kingdom did something more aligned with the “Right to Repair” movement and well-balanced for consumers and vendors. Lawmakers created a particular class of parts that anyone can replace and another type of parts available to professional repair shops, following more or less the same European Union directives. Any car owner can follow the logic. Tires and lights should be easily replaced, but a gearbox might require professional attention.&lt;/p&gt;
 
-&lt;p&gt;For the United States, the new Biden administration brought lawmakers that already felt that tech companies exert more power than they should. This last week the Federal Trade Commission, or simply FTC, voted unanimously to enforce laws that will make the “Right to Repair” accessible to any product consumer. 
+&lt;p&gt;For the United States, the new Biden administration brought lawmakers that already felt that tech companies exert more power than they should. This last week the Federal Trade Commission, or simply FTC, voted unanimously to enforce laws that will make the “Right to Repair” accessible to any product consumer.
 Also, consumers should be aware that the law was already on their side. Since 1975, the Magnuson Moss Warranty Act prohibits manufacturers from threatening consumers with voided warranties if they open or inspect their equipment. This was actually a surprise for your writer that had the belief that brands were allowed to do what they’ve been doing since I can remember using electronic devices.
 Although the voting did not create anything new but reinforced the existing law, it was a push in the direction for the “Right to Repair” bills produced in many States. Dealing with such laws at the State level will create havoc for manufacturers and consumers, but if the movement propagates to enough States, it will pressure the Senate to move in the same direction.&lt;/p&gt;
 
@@ -1577,7 +1610,7 @@ This is definitely a domain where AI-assisted development would come in handy. I
 &lt;h2 id=&quot;auto-debugging&quot;&gt;Auto Debugging&lt;/h2&gt;
 
 &lt;p&gt;Instead of curating for clean and correct code, which sometimes can be the source of never-ending discussion in a team of Engineers,  we made our model be trained with as many bugs as possible?
-This is the proposal of some investigators in the United States of America. 
+This is the proposal of some investigators in the United States of America.
 Cutting down the time that developers spend on bug fixing is every programming manager dream. &lt;a href=&quot;https://www.linkedin.com/in/brendan-dolan-gavitt-3b68154/&quot;&gt;Dr Dolan-Gavitt&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/shashank-srikant-965aa125/&quot;&gt;Mr Shashank Srikant&lt;/a&gt; are feeding buggy code into their models that eventually pick up sections of a codebase that can become an issue in the future. If the rate of false positives is low enough to avoid the extra effort of validating such cases, we might reach a productivity increase never seen before.&lt;/p&gt;
 
 &lt;h2 id=&quot;laws-nuisances&quot;&gt;Law’s nuisances&lt;/h2&gt;
@@ -1639,27 +1672,27 @@ A few minutes later, I was publishing my first observation. I had crossed the pa
 
 &lt;h2 id=&quot;inaturalist&quot;&gt;iNaturalist&lt;/h2&gt;
 
-&lt;p&gt;iNaturalist results from a collaboration between &lt;a href=&quot;https://www.inaturalist.org/pages/about&quot;&gt;National Geographic and the California Academy of Sciences&lt;/a&gt;. It helps amateurs like me to discover nature around our own dwellings. 
+&lt;p&gt;iNaturalist results from a collaboration between &lt;a href=&quot;https://www.inaturalist.org/pages/about&quot;&gt;National Geographic and the California Academy of Sciences&lt;/a&gt;. It helps amateurs like me to discover nature around our own dwellings.
 With approximately 71 million observations, 340 thousand species and 4.2 million users, it is the largest online community of crowdsourced biodiversity data and keeps growing every year.&lt;/p&gt;
 
 &lt;p&gt;If your living on modern planet earth, you’ve probably got the word of Pokemon Go, a game phenomenon that exploded some years ago on all continents. The player was invited to physically move around with the game running to find  Pokemons hidden at specific geographic coordinates. The objective was to collect them and eventually battle with other Pokemon players.&lt;/p&gt;
 
 &lt;p&gt;How about doing it for real? Without the fighting, of course.&lt;/p&gt;
 
-&lt;p&gt;Since my first encounter with the friendly Wolf Spider, I collected a meagre 69 observations of plants, insects, birds, and reptiles, including a Cuban Ground Hutia and a Roughtail Rock Agama. 
+&lt;p&gt;Since my first encounter with the friendly Wolf Spider, I collected a meagre 69 observations of plants, insects, birds, and reptiles, including a Cuban Ground Hutia and a Roughtail Rock Agama.
 Nowadays, I can even distinguish a Mud Dauber from a Velutina.
 What are those? Well, join me, and you’ll find out.&lt;/p&gt;
 
 &lt;h2 id=&quot;machine-learning-animals&quot;&gt;Machine Learning Animals&lt;/h2&gt;
 
-&lt;p&gt;The requirements to process and distil such a large amount of information aren’t simple. Even before going through the Software Engineering that allows the feat, one can imagine that Machine Learning has an integral part in their pipelines. 
+&lt;p&gt;The requirements to process and distil such a large amount of information aren’t simple. Even before going through the Software Engineering that allows the feat, one can imagine that Machine Learning has an integral part in their pipelines.
 The team responsible for the platform have been organizing classification competitions since 2017. They proved to be essential to the continuous development of their ML pipeline. Each year the error rate dropped, and it’s already below 10%. For a dataset comprising 2.7 million images with more than 10 thousand species, it is a remarkable result.
 Unfortunately, like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Netflix_Prize&quot;&gt;Netflix Prize&lt;/a&gt;, winning doesn’t mean feasibility, and some of the most accurate models don’t have a good fit with mobile specs, at least for now.&lt;/p&gt;
 
 &lt;h2 id=&quot;aws-of-course&quot;&gt;AWS of course&lt;/h2&gt;
 
 &lt;p&gt;While looking for hints about their tech stack, I’ve tripped in &lt;a href=&quot;https://www.amazon.science/research-awards/success-stories/inaturalist-cvpr-machine-learning-datasets-challenge&quot;&gt;this blog post from Amazon Science&lt;/a&gt; and discovered that iNaturalist had won a &lt;a href=&quot;https://www.amazon.science/research-awards/program-updates/2019-q2-q3-aws-machine-learning-research-awards-recipients-announced&quot;&gt;AWS Machine Learning Research Award in 2019&lt;/a&gt;, and guess what, they are hosted at AWS!
-The prize provides unlimited funds and AWS credits to run the app on their cloud but also allows the project to provide &lt;a href=&quot;https://registry.opendata.aws/inaturalist-open-data/&quot;&gt;the data, free of charge&lt;/a&gt; for anyone that wants to play with it and prepare for the next competition. 
+The prize provides unlimited funds and AWS credits to run the app on their cloud but also allows the project to provide &lt;a href=&quot;https://registry.opendata.aws/inaturalist-open-data/&quot;&gt;the data, free of charge&lt;/a&gt; for anyone that wants to play with it and prepare for the next competition.
 The dataset might prove invaluable for the next generation of researchers that can combine the expertise of the field with Machine Learning magic, identifying and tracking biodiversity all over the world.
 Well, nowadays, the probability of having your infrastructure in a cloud behemoth is significant but brought another point of interest for your &lt;a href=&quot;https://www.meetup.com/AWS-User-Group-Lisbon/members/?op=leaders&quot;&gt;biased writer&lt;/a&gt;&lt;/p&gt;
 
@@ -1811,7 +1844,7 @@ Blue is probably the result of some activist investors who don’t want to sell 
 				</author>
         <content type="html">
         	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_7.png&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;Last week we saw the end of the first legal battle that pitted &lt;a href=&quot;https://www.epicgames.com&quot;&gt;Epic Games&lt;/a&gt; against a technology behemoth, &lt;a href=&quot;https://www.apple.com&quot;&gt;Apple&lt;/a&gt;. &lt;a href=&quot;https://www.epicgames.com/fortnite/en-US/home&quot;&gt;Fortnite’s&lt;/a&gt; owner wants to revolutionize how app markets work and, to that end, made a bold move against the most prominent market makers for mobile applications: Apple and &lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;. 
+        	&lt;p&gt;Last week we saw the end of the first legal battle that pitted &lt;a href=&quot;https://www.epicgames.com&quot;&gt;Epic Games&lt;/a&gt; against a technology behemoth, &lt;a href=&quot;https://www.apple.com&quot;&gt;Apple&lt;/a&gt;. &lt;a href=&quot;https://www.epicgames.com/fortnite/en-US/home&quot;&gt;Fortnite’s&lt;/a&gt; owner wants to revolutionize how app markets work and, to that end, made a bold move against the most prominent market makers for mobile applications: Apple and &lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;.
 While some fight for dollars in digital markets, others try to improve the shopping experience in physical markets. At this side of the pond, a [Sensei] and &lt;a href=&quot;https://www.sonae.pt&quot;&gt;SONAE&lt;/a&gt; joint venture opened the first grab and go cashier-less supermarket experience in Portugal following &lt;a href=&quot;https://www.amazon.com/b?ie=UTF8&amp;amp;node=16008589011&quot;&gt;Amazon GO&lt;/a&gt; lead.
 Save a few minutes of your time and dive in at another MV Journal issue.&lt;/p&gt;
 
@@ -1948,7 +1981,7 @@ Those were simpler times, technologically speaking, and hackers (phreakers if yo
 
 &lt;p&gt;Allegedly, Stuxnet was the product of a USA/Israel joint venture to stifle the atomic efforts from Iran but take this with a teaspoon of salt since nothing is confirmed and several specialists made conjectures about the topic. Nevertheless, the final product is a remarkable piece of Software with a very well-defined purpose in a narrow range of equipment. Too much of a coincidence that Iran saw their nuclear program suffer setbacks from an onslaught of the virus.&lt;/p&gt;
 
-&lt;p&gt;From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar using ransomware software. A few variants can be found, but the modus operandi is usually the same. 
+&lt;p&gt;From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar using ransomware software. A few variants can be found, but the modus operandi is usually the same.
 Infect the target machine via a known vector
 Encrypt data or steal sensitive information.
 Ask for a ransom to decrypt the target’s precious bytes or threaten them with data exposure.
@@ -2003,7 +2036,7 @@ We start with the last update from Basecamp, and it seems that everybody is pack
 &lt;a href=&quot;https://basecamp.com/&quot;&gt;Basecamp&lt;/a&gt;, formerly registered as 37Signals, was founded in 1999 as the typical digital agency focused on the shiny web world that was about to burst. Nevertheless, the company survived through tough times and rebooted itself in 2004, leveraging the work of Mr David Heinemeier Hansson, or DHH as he is known on the web, that culminated in the Ruby On Rails first release. A good mix between European and American stock took the company to stardom and created a Siliconish culture that many developers sought to work for.&lt;/p&gt;
 
 &lt;p&gt;A full remote company that opted out of the Unicorn stables and kept its core values, avoiding what the founders thought would be unsustainable growth and unreasonable demands from investors. And it worked.
-Ruby On Rails became one of the most successful web development frameworks, and version 7 was about to hit the public repositories, &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_3/#ruby-on-rails-7-ever-given-moment&quot;&gt;as we mentioned some weeks ago&lt;/a&gt;. 
+Ruby On Rails became one of the most successful web development frameworks, and version 7 was about to hit the public repositories, &lt;a href=&quot;https://directionwithintent.com/mvjournal/mvjournal_3/#ruby-on-rails-7-ever-given-moment&quot;&gt;as we mentioned some weeks ago&lt;/a&gt;.
 Basecamp becomes a bastion for Open Source within the Ruby environment and sets the tone for remote work in the software development market. Along the way, they &lt;a href=&quot;https://basecamp.com/books&quot;&gt;publish several acclaimed books, one being featured in the bestseller list of the New York Times&lt;/a&gt;. The company strives to share what it takes to become another Basecamp and how to avoid the pitfalls of the startup era.&lt;/p&gt;
 
 &lt;p&gt;Software at Basecamp is opinionated. Obviously, you don’t expect that technology expresses its feelings about the way that it is used. The expression is based on how the Software was designed to steer and encourage end-users to work with it. Opinionate Software imposes work pathways and rules intending to create frictionless experiences. Ruby On Rails is a great example, and the “On Rails” part says it all. The first versions of the framework were groundbreaking. Making a web application with a LAMP stack require the developer to keep architecture traceability from the top of his head. Each iteration could yield a different way of doing things which hampers the integration of new developers of even day-to-day maintenance. Rails leverage the dynamic features of Ruby to establish a working path for every project. A developer could be utterly ignorant of business rules, but diving into a new codebase would be like a walk in the park and a very familiar one indeed.&lt;/p&gt;
@@ -2381,7 +2414,7 @@ My plan failed, and I didn’t buy anything, but some months later, I sold my la
 &lt;p&gt;At the time of writing this piece, BTC rallies again for another all-time high.
 Although Mr Elon isn’t the single responsible for the previous colossal increase in value, surely he had a considerable impact on the virtual currency trading exchanges making him a whale in the market.&lt;/p&gt;
 
-&lt;p&gt;Not only that but from now on, Tesla will accept payments in BTC. 
+&lt;p&gt;Not only that but from now on, Tesla will accept payments in BTC.
 Yes! It seems that some Teslas will roll out from the factories after presenting some cryptographic hashes to the dealer. Fun times indeed!&lt;/p&gt;
 
 &lt;h4 id=&quot;update---no-mountain-is-too-high-for-bitcoin&quot;&gt;Update - No mountain is too high for Bitcoin&lt;/h4&gt;
@@ -2415,7 +2448,7 @@ Mr Andy, responsible for the massive success that AWS is nowadays, will hold the
 
 &lt;p&gt;From time to time, we see some doubtful tech legislation popping up here and there on the globe—some with good intents but usually grounding themselves on ill-informed politicians.&lt;/p&gt;
 
-&lt;p&gt;Australia doesn’t fall behind, and everyone still remembers the TOLA Act, rammed into the Aussie parliament in 2018. A proposal that makes IT companies break their encryption and potentially develop security holes, well known as backdoors, 
+&lt;p&gt;Australia doesn’t fall behind, and everyone still remembers the TOLA Act, rammed into the Aussie parliament in 2018. A proposal that makes IT companies break their encryption and potentially develop security holes, well known as backdoors,
 “Let’s just make Australians safer over Christmas,” said Mr Bill Shorten, leader of the opposition at the time. It’s not a wonder that the IT sector still remains unconvinced. Just ask Atlassian for their thoughts.&lt;/p&gt;
 
 &lt;p&gt;This time we see another controversial law, to say it at least. While it doesn’t seem as dangerous as the TOLA Act, it will significantly impact the average internet information consumer.
@@ -2442,47 +2475,6 @@ While it can be said that Google will also use the full content within one of it
 
 &lt;p&gt;After showing a hard hand, Facebook nevertheless adjusted to the regulation. To be fair, Facebook’s action triggered the Australian parliament to revise some of the law’s most draconian options. One of the most important ones allows for a quick Facebook escape button. The platform will reserve the right to block any disputed content that doesn’t fall in its negotiation perimeter and avoid getting caught with its back against the wall of a forced business.&lt;/p&gt;
 
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>On Alarm Dumb Numbness - A Primer</title>
-        <link href="https://directionwithintent.com/software-engineering/alarm-dumb-numbness-primer/"/>
-        <updated>2020-12-13T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/software-engineering/alarm-dumb-numbness-primer</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/lanl-rods-too-close.png&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;If you’re like most of the human workforce on this planet, you have to wake almost every day at a specific time, adhering to a more or less well-defined schedule. To help you with that particular event of the day, you’ll probably recruit the help of an “alarm clock” to keep you aligned with your job time tables and to avoid a wrong turn on your employment status.&lt;/p&gt;
-
-&lt;p&gt;When your “alarm clock” blares in the morning, you have a few options to &lt;a href=&quot;https://www.youtube.com/watch?v=izWCU4Y61o4&quot;&gt;deal with it&lt;/a&gt;, but the end game is quite clear. Get up and take some action.&lt;/p&gt;
-
-&lt;p&gt;There is a clear objective for this “alarm”. Stop your sleeping cycle. And usually, it is successful. Your senses can’t avoid it if configured adequately in terms of sound/vibration unless you’re affected by some ailment that makes you unconscious or insensitive. The reaction time may vary, of course.&lt;/p&gt;
-
-&lt;p&gt;This is probably the most common artificial “alarm” of the modern world, but this isn’t an alarm (hence the double commas around the alarm word) no matter what they say. Bear with me, please.&lt;/p&gt;
-
-&lt;p&gt;What’s the most trivial alarm that a human being can get without any artificial supplement?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Queue jeopardy think music.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Yes, that’s right.
-Pain.&lt;/p&gt;
-
-&lt;p&gt;Get your hand to close off a flame, and your sensory receptors will send a loud and clear message straight to your brain, making a roundabout in your spinal cord, and back again for that burn familiar feeling.
-This is the most basic alarm that a human can get. Many abnormal external stimuli that put you in danger or directly violate your body integrity, assuming that you don’t have any health condition preventing you from sensing them, will generate an almost instantaneous alarm forcing you to retreat from the pain source.&lt;/p&gt;
-
-&lt;p&gt;Without boring you much more on the primer, from my examples, we can extract two types of event that require an alert system, but only one of those is an alarm. In one situation, an external alert is necessary for some action to be taken. The second one refers to an abnormal event that triggers an internal alarm when a boundary is about to be violated or already was.&lt;/p&gt;
-
-&lt;p&gt;Before going further, it is important to distinguish both since they get confused in the day to day lingo. On System Design and Engineering, the conversation needs to be clear and concise.&lt;/p&gt;
-
-&lt;p&gt;In the “On Alarm Dum Numbness” series of posts, I’m going to delve into alarm management, hopefully, providing a thought structure that can make you avoid some of my past mistakes when designing alarm systems, or to be more precise, ad hoc sets of alerts and alarms that eventually fail to serve their purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If you’re curious about this post image, check &lt;a href=&quot;https://www.sciencemag.org/news/2017/06/near-disaster-federal-nuclear-weapons-laboratory-takes-hidden-toll-america-s-arsenal&quot;&gt;this article from Sciencemag&lt;/a&gt; explaining how a disaster was about to happen&lt;/em&gt;&lt;/p&gt;
 
         </content>
     </entry>

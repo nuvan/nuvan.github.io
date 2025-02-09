@@ -125,6 +125,18 @@ window.cookieconsent.initialise({
   $(document).ready(function(){
     
     $.ajax({
+      url: query_url + '/opinion/learning-path-vs-discovery-exploration/',
+      context: document.body
+    }).done(function( data ) {
+      if(data.count) {
+        $("#learning-path-vs-discovery-and-exploration-share").html(data.count);
+      }
+      else {
+        $("#learning-path-vs-discovery-and-exploration-share").html("0");
+      }
+    });
+   
+    $.ajax({
       url: query_url + '/mvjournal/mvjournal_24/',
       context: document.body
     }).done(function( data ) {
@@ -497,7 +509,7 @@ window.cookieconsent.initialise({
     });
    
     $.ajax({
-      url: query_url + '/programming/jruby-jvm-encoding-flags/',
+      url: query_url + '/software-engineering/jruby-jvm-encoding-flags/',
       context: document.body
     }).done(function( data ) {
       if(data.count) {
@@ -518,6 +530,16 @@ window.cookieconsent.initialise({
             <nav role="navigation-article" class="menu-article floated">
               <ul>
                 
+                  
+                  <li>
+                    <a href="https://directionwithintent.com/tag/opinion" >OPINION</a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://directionwithintent.com/tag/software-engineering" >SOFTWARE-ENGINEERING</a>
+                  </li>
+                
                 <li>
                   <button type="button" class="js-menu-trigger sliding-menu-button-article black">
                     ☰
@@ -536,6 +558,20 @@ window.cookieconsent.initialise({
     </button>
   <ul class="menu-item">
     
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/tag/opinion" class="title">OPINION</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/tag/software-engineering" class="title">SOFTWARE-ENGINEERING</a>
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -552,7 +588,7 @@ window.cookieconsent.initialise({
 
 
 <div id="page-wrapper">
-<div id="main" role="main">	
+<div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		<nav class="breadcrumbs">
   <a href="https://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="https://directionwithintent.com/mvjournal/">Mvjournal</a> <span class="divider">/</span>
@@ -608,7 +644,7 @@ Those were simpler times, technologically speaking, and hackers (phreakers if yo
 
 <p>Allegedly, Stuxnet was the product of a USA/Israel joint venture to stifle the atomic efforts from Iran but take this with a teaspoon of salt since nothing is confirmed and several specialists made conjectures about the topic. Nevertheless, the final product is a remarkable piece of Software with a very well-defined purpose in a narrow range of equipment. Too much of a coincidence that Iran saw their nuclear program suffer setbacks from an onslaught of the virus.</p>
 
-<p>From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar using ransomware software. A few variants can be found, but the modus operandi is usually the same. 
+<p>From this point on, with the WWW spreading like wildfire, every computer becomes a target, and it’s not just fun and games. Some actors become political activists while others just want to create havoc. In between, criminals loot credit cards and exploit human frailties to steal money from their digital pockets. While mayhem and activism get media attention, cybercrime moves volumes of capital under authorities’ radar using ransomware software. A few variants can be found, but the modus operandi is usually the same.
 Infect the target machine via a known vector
 Encrypt data or steal sensitive information.
 Ask for a ransom to decrypt the target’s precious bytes or threaten them with data exposure.
@@ -645,20 +681,6 @@ I would argue that Mr Tegmark could expand those concerns to existing dull techn
 	<p class="author-bio"></p>
 </div><!-- ./author-content -->
 					
-<div class="inline-btn">
-  <a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=MV%20Journal%20May%203%20-%20May%2017&amp;url=https://directionwithintent.com/mvjournal/mvjournal_6/&amp;via=nuvan" target="_blank">
-    <div class="base">
-      <i class="fa fa-twitter" aria-hidden="true"></i> 
-      <span>Share on Twitter</span>
-    </div>
-  </a>
-  <a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://directionwithintent.com/mvjournal/mvjournal_6/" target="_blank">
-    <div class="base">
-      <i class="fa fa-facebook" aria-hidden="true"></i> 
-      <span>Share on Facebook</span>
-      </div>
-  </a>
-
 					<div class="page-meta">
 	<p>Updated <time datetime="2021-05-16T00:00:00Z" itemprop="datePublished">May 16, 2021</time></p>
 </div><!-- /.page-meta -->
@@ -682,7 +704,7 @@ I would argue that Mr Tegmark could expand those concerns to existing dull techn
 		
 		</ul>
 	</nav--><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2024 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+	<p class="copyright">&#169; 2025 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
