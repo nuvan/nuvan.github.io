@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2025-02-11T21:49:48+00:00</updated>
+    <updated>2025-02-11T21:56:37+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -27,7 +27,7 @@
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/path-vs-discovery2024x1024.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;https://directionwithintent.com/images/path-vs-discovery1600x809.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;After attending Cloudflare’s Lisbon Engineering Meetup on using the Rust programming language with Cloudflare Workers, I felt a familiar sense of FOMO. Once again, I was reminded that I knew nothing about Rust, even though I incentivised a few junior developers to explore the technology. After all, Mr Linus Torvalds is optimistic about the technology. But, as before, I relegated it to the back burner for “another time.”&lt;/p&gt;
 
 &lt;p&gt;Yesterday, I finally decided to invest a couple of hours exploring Rust — its typical toolchains, conventions, and quirks. A few years ago, my approach would have been more or less like the following description: I’d dive into Google search results, pick a random tutorial (or sometimes a book), and follow its steps. Along the way, I’d be opening countless tabs to decode syntax nuances, understand idiomatic expectations, or troubleshoot installation issues. After two hours, my “knowledge” would be a disjointed mess scattered across browser tabs, incomplete notes, and perhaps a poorly structured application that did little more than confuse me. If I were following a book, I’d have long abandoned any ambitious goals and resigned myself to completing a simple “Hello, World” CLI.&lt;/p&gt;
