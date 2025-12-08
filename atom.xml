@@ -3,31 +3,157 @@
 
     <title>Direction With Intent</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v4.3.3</generator>
-		<icon>https://directionwithintent.com/apple-touch-icon-precomposed.png</icon>
+		<icon>http://localhost:4000/apple-touch-icon-precomposed.png</icon>
     <subtitle>Think Through. Execute.</subtitle>
-    <link href="https://directionwithintent.com/atom.xml" rel="self"/>
-    <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2025-11-07T19:01:19+00:00</updated>
-    <id>https://directionwithintent.com/</id>
+    <link href="http://localhost:4000/atom.xml" rel="self"/>
+    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
+    <updated>2025-12-08T14:05:46+00:00</updated>
+    <id>http://localhost:4000/</id>
     <author>
 			<name>Nuno Valente</name>
-			<uri>https://directionwithintent.com/</uri>
+			<uri>http://localhost:4000/</uri>
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
     
     <entry>
-        <title>Learning Path vs Discovery and Exploration</title>
-        <link href="https://directionwithintent.com/opinion/learning-path-vs-discovery-exploration/"/>
-        <updated>2024-12-12T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/opinion/learning-path-vs-discovery-exploration</id>
+        <title>There Are No DevOps Engineers*</title>
+        <link href="http://localhost:4000/opinion/there-are-no-devops-engineers/"/>
+        <updated>2025-12-08T00:00:00+00:00</updated>
+        <id>http://localhost:4000/opinion/there-are-no-devops-engineers</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/path-vs-discovery1024x518.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/wa4.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.&lt;/p&gt;
+
+&lt;h2 id=&quot;linkedin-and-the-mythical-devops-engineer&quot;&gt;LinkedIn and the Mythical DevOps Engineer&lt;/h2&gt;
+
+&lt;p&gt;LinkedIn! That place on the web where jobs are plentiful, everyone is living their dream, and good things are shared as a burden that only the OP can understand.
+Sure, we could keep bashing the platform all day, but it still is the place to look for another job, or ideally, to be invited to one. &lt;a href=&quot;https://www.linkedin.com/posts/nunorpvalente_its-been-eight-months-since-i-had-the-pleasure-activity-7398461047180787712-W8hx&quot;&gt;I did it, and so can you!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And among all these dream jobs and humblebrags lies one of the most elusive creatures of the platform: the DevOps Engineer.&lt;/p&gt;
+
+&lt;div style=&quot;display: flex; gap: 10px; margin: 20px 0;&quot;&gt;
+  &lt;div style=&quot;width: 35%;&quot;&gt;
+    &lt;img src=&quot;/images/sanfranlinkedin.png&quot; alt=&quot;LinkedIn DevOps job posting San Francisco&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;p style=&quot;font-size: 0.8em; margin-top: 5px; text-align: center;&quot;&gt;DevOps Engineer job postings in San Francisco.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;width: 65%;&quot;&gt;
+    &lt;img src=&quot;/images/linkedinjobspec.png&quot; alt=&quot;LinkedIn DevOps job posting&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+    &lt;p style=&quot;font-size: 0.8em; margin-top: 5px; text-align: center;&quot;&gt;DevOps role description.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For a few years, it was one of the highest-paid positions in the Software Engineering world. I saw countless Engineers trying to become one, following what the internet threw at them as the “minimum requirements”. From basic version control to becoming an expert in any platform technology, the DevOps Engineer should be able to run a mid-sized startup at the point of their finger while doing A, B, and C funding rounds with infrastructure-as-code. Someone even once told me they saw a DevOps Engineer save an entire village with a Jenkins CI/CD automation that they left at their previous company as a safeguard for a deployment. What a fantastic profession.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Somewhere along the way, the title stopped describing work and started describing a shapeshifting myth and legend.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;back-when-ops-was-ops&quot;&gt;Back When Ops Was Ops&lt;/h2&gt;
+
+&lt;p&gt;Back in the days when clock bugs threatened to stop the world &lt;em&gt;(&lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2000_problem&quot;&gt;Y2K&lt;/a&gt;, anyone?)&lt;/em&gt;, a System Administrator was responsible for keeping busy servers humming, making use of deadly terminal acrobatics to avoid downtime.
+Then the world changed, not overnight, but fast enough that many SysAdmins still remember the sound of spinning disks when they hear the word “uptime”. Nowadays, everything is a container or a virtual machine. Long are the days when your console was a loaded gun, ready to destroy a machine with no “restart from snapshot” to save you.&lt;/p&gt;
+
+&lt;p&gt;The bold System Administrator, besides keeping your lab or data center spinning workloads 24/7, was also responsible for deploying the Software that pesky developers kept churning out every few months. And when they were able to execute a one-shot deployment, there was always a set of scripts and a few other terminal utilities to check whether their loved machines had enough beans to keep them going. Slowly but surely, sometimes (many), the Software did not behave as expected in the developers’ local environment, and the System Administrator had to intervene: stop it, roll it back, uninstall it, and distill a few bad words straight into the heart of a developer’s ego. What an excellent time to be disdained.&lt;/p&gt;
+
+&lt;p&gt;The developers couldn’t understand it. The Software that they hammered out for so many weeks worked so well on their machines. Surely those servers weren’t as new as they should be. Hard drives were prone to bad sectors, after all. Yet the developers did some work, changed a few things, found a couple of memory leaks, and with a brand-new 0.2 version, dropped it in the System Administrator’s lap, ready for another merry-go-round.&lt;/p&gt;
+
+&lt;p&gt;I’ll stop recounting the tension between Development and Operations and all the issues that could be solved if they worked together after a kumbaya sing-along. &lt;strong&gt;Unfortunately, kumbayas rarely scale, so the industry went looking for a structural fix for what was, at its core, a cultural problem.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-philosophy-is-born&quot;&gt;A Philosophy is born&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/patrickdebois/&quot;&gt;Patrick Debois&lt;/a&gt;. Never heard of him? No worries. History says that Mr Patrick shouted the word DevOps to quell yet another incident root-cause-analysis (or just RCA) meeting, where one Operations team was already dismembering a couple of developers for not sharing the database migration file for the deployment process. They mentioned something about decoupling development, but to be honest, I don’t think developer decoupling is the same as software decoupling. I digress yet again. Also, everyone knows that DNS is always the RCA.&lt;/p&gt;
+
+&lt;p&gt;While Mr Patrick merely said out loud what everyone was thinking since the late 90s, early 00s &lt;em&gt;(oh no, the Y2K bug again!)&lt;/em&gt;, it was enough to kickstart a movement to make Software delivery great again &lt;em&gt;(it never was)&lt;/em&gt;. Google was already implementing DevOps before it was a thing with the Site Reliability Engineering practice, although blending fiction with reality in the seminal book &lt;a href=&quot;https://www.goodreads.com/book/show/27968891-site-reliability-engineering&quot;&gt;&lt;em&gt;Site Reliability Engineering: How Google Runs Production Systems&lt;/em&gt;&lt;/a&gt;. But while “the industry” didn’t pay enough attention, the transition from delivering Software on a disc to the Cloud deployment happened in the blink of an eye, more or less like new JavaScript frameworks are born and die. This made many people angry, of course. How can we keep installing new Software without System Administrators’ complaints and poor development practices? Unacceptable.&lt;/p&gt;
+
+&lt;p&gt;Between 2009 and 2016, we saw the rise of the DevOps movement, with the release of seminal works such as &lt;a href=&quot;https://www.goodreads.com/book/show/8686650-continuous-delivery&quot;&gt;&lt;em&gt;Continuous Delivery&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;https://www.goodreads.com/book/show/17255186-the-phoenix-project&quot;&gt;&lt;em&gt;The Phoenix Project&lt;/em&gt;&lt;/a&gt;, and &lt;a href=&quot;https://www.goodreads.com/book/show/26083308-the-devops-handbook&quot;&gt;&lt;em&gt;The DevOps Handbook&lt;/em&gt;&lt;/a&gt;. These were the distillation of the work that front-line engineers were already doing successfully, with &lt;em&gt;The Phoenix Project&lt;/em&gt; being an exceptional outlier for a very good reason.
+Woven as a fictional business novel, it was threaded by the same kind of narrative that Sensei &lt;a href=&quot;https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt&quot;&gt;Eliyahu Goldratt&lt;/a&gt; used in &lt;a href=&quot;https://www.goodreads.com/book/show/113934.The_Goal&quot;&gt;&lt;em&gt;The Goal: A Process of Ongoing Improvement&lt;/em&gt;&lt;/a&gt;. The latter, depicting the nitty-gritty of factory floors and production lines, set the stage for a continuous-improvement mindset in the face of physical resource constraints and humans being human, using a writing style rarely seen in such a context.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We think that Software Delivery is somewhat special until we actually learn a few things.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The supporting beams of what modern Software Delivery required had been around since the 70s, and these were the same tenets we rediscovered after fermenting bleeding-edge practices into yet another fresh contextual philosophy called DevOps.&lt;/p&gt;
+
+&lt;p&gt;And don’t get me wrong: this isn’t cynical. You can’t map the &lt;a href=&quot;https://www.goodreads.com/book/show/376237.Toyota_Production_System&quot;&gt;&lt;em&gt;Toyota Production System&lt;/em&gt;&lt;/a&gt; to Agile out of thin air. The work had to be done.&lt;/p&gt;
+
+&lt;h2 id=&quot;from-movement-to-product&quot;&gt;From Movement to Product&lt;/h2&gt;
+
+&lt;p&gt;But as always, we can’t have nice things for long, and there’s always someone ready to package description into a prescription product… that, guess what, it needs its own operators.&lt;/p&gt;
+
+&lt;p&gt;In the same period, we saw the DevOps movement, philosophy, and context being translated into artifact formats, pipeline blueprints, and the necessary tooling, which, of course, had to be deployed, configured, and managed. The industry installed DevOps in every development shop, IT department, and Network Operations Center, just like any other off-the-shelf tool, and decided it would require a brand-new specialist for the work. This half-truth had to slice and dice a philosophy into concrete practices ready for consumption.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instead of embracing what was already emerging — Site Reliability and Platform Engineering — we decided that we needed a role and a team to “make DevOps happen”.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, don’t forget the tooling, of course.&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-the-devops-engineer&quot;&gt;Enter the DevOps Engineer&lt;/h2&gt;
+
+&lt;p&gt;The figure will be responsible for implementing what all the cool kids are doing with automation to build CI/CD pipelines, manage and orchestrate containerized environments, and describe infrastructure as code, as outlined in that influential company blog post. Guarantee that everything is triggered by a Git commit and that we always do Blue/Green deployments if that was what our socials decided “high-performing teams” were doing that week.
+Since there is “Dev” in the name, the individual should also implement Software to glue all these things seamlessly. And since there is “Ops”, they should also be responsible for installing, configuring, and operating monitoring tools while backing up all data. Well, eventually they’ll have so much free time that they can develop a bespoke observability solution that sees it all end-to-end and provides it as an internal product. Congratulations, you will be the proud father of a custom Internal Developer Platform that enforces Spotify’s Golden Paths with no escape hatch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/devdevopsops.png&quot; alt=&quot;Dev DevOps Ops layers&quot; style=&quot;width: 100%; max-width: 600px; margin: 20px auto; display: block;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve created a brand new layer between Dev and Ops called &lt;em&gt;DevOps&lt;/em&gt;. Fun stuff.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;If you’re paying attention, we are just bundling multiple roles and activities under the same name while forgetting altogether what DevOps actually means.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We are going back to the rigid factory-floor pre-Lean and Agile. The cherry on top is the Taylorist application of DORA metrics to guarantee that we are “Industry standard”. Nothing like that snug feeling of a tightly controlled process.&lt;/p&gt;
+
+&lt;p&gt;Well, rant aside, I can tell you that most, if not all, of those “DevOps Engineer” roles up top are plain and simple &lt;a href=&quot;https://en.wikipedia.org/wiki/Cargo_cult&quot;&gt;Cargo Cult&lt;/a&gt;. But I can already state the opposing argument to this piece: there are actually DevOps Engineers, but you probably aren’t hiring them or even know what they are.&lt;/p&gt;
+
+&lt;p&gt;The DevOps Engineer is found in the characters of &lt;em&gt;The Goal&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Alex Rogo, the aspiring plant manager, understands constraints and how to navigate them with Jonah’s guidance through systems thinking and flow. How, in the end, we realize that the principles are horizontally and vertically cross-cutting, scaling from a single factory floor to the whole set of company production plants. How to envelop the workers who know the constraints of their silos, and can work together in a fluid production line.&lt;/p&gt;
+
+&lt;p&gt;You can map those characters to our beloved &lt;em&gt;Phoenix Project&lt;/em&gt; and find the DevOps Engineer again. When Bill Palmer takes the helm of IT Operations, he is supported by Erik, who leads his growth just like Jonah did with Alex. How they broke the “expedite” cycle when Brent was a major bottleneck just by being competent. Like “expedite” was the word when something needed to be loaded into a truck at Alex’s plant. And not forgetting Patty MacKee, who doesn’t stick to a change management process but insists on revamping and adjusting it after each iteration, something that we also saw from Lou, the knowledgeable CFO from Alex’s management team, both with a keen eye on system design and engineering.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-does-the-devops-engineer-actually-do&quot;&gt;So What Does the DevOps Engineer Actually Do?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Many things, and none of what we usually see in our glorious job posting requirements.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;They design, build, and run systems while working with teams that develop products and services.&lt;/p&gt;
+
+&lt;p&gt;They intervene, change, adapt, and measure.&lt;/p&gt;
+
+&lt;p&gt;They monitor and do it all again and again. Importantly, they are knowledgeable across the entire process.&lt;/p&gt;
+
+&lt;p&gt;They know that to install a pinion &lt;em&gt;(one of my recently favourite words)&lt;/em&gt;, you need a special tool, spare parts, and a logistics pipeline that delivers them to your doorstep.&lt;/p&gt;
+
+&lt;p&gt;They know that a log line in your favourite Observability tool was produced by an affordance in your Web interface.&lt;/p&gt;
+
+&lt;p&gt;They go deeper, broader, and further to make those TikToks blazingly fast on your mobile device &lt;em&gt;(sighs and loud moans)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;They are your System, Mechanical, and Software Engineers who embrace the DevOps philosophy and live by its tenets every day, without being constrained by a fixed set of tools or process expectations.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So yes, the asterisk, right? It’s doing heavy lifting because it’s the most honest part of the title.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;We needed a footnote big enough to contain our collective confusion.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And we still do.&lt;/p&gt;
+
+&lt;p&gt;Now, one of these days we need to talk about the “full-stack developer”…&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Learning Path vs Discovery and Exploration</title>
+        <link href="http://localhost:4000/opinion/learning-path-vs-discovery-exploration/"/>
+        <updated>2024-12-12T00:00:00+00:00</updated>
+        <id>http://localhost:4000/opinion/learning-path-vs-discovery-exploration</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>http://localhost:4000/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;http://localhost:4000/images/path-vs-discovery1024x518.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;After attending Cloudflare’s Lisbon Engineering Meetup on using the Rust programming language with Cloudflare Workers, I felt a familiar sense of FOMO. Once again, I was reminded that I knew nothing about Rust, even though I incentivised a few junior developers to explore the technology. After all, Mr Linus Torvalds is optimistic about the technology. But, as before, I relegated it to the back burner for “another time.”&lt;/p&gt;
 
 &lt;p&gt;Yesterday, I finally decided to invest a couple of hours exploring Rust — its typical toolchains, conventions, and quirks. A few years ago, my approach would have been more or less like the following description: I’d dive into Google search results, pick a random tutorial (or sometimes a book), and follow its steps. Along the way, I’d be opening countless tabs to decode syntax nuances, understand idiomatic expectations, or troubleshoot installation issues. After two hours, my “knowledge” would be a disjointed mess scattered across browser tabs, incomplete notes, and perhaps a poorly structured application that did little more than confuse me. If I were following a book, I’d have long abandoned any ambitious goals and resigned myself to completing a simple “Hello, World” CLI.&lt;/p&gt;
@@ -51,16 +177,16 @@
     
     <entry>
         <title>MV Journal February 7 - February 21</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_24/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_24/"/>
         <updated>2022-01-23T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_24</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_24</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_23.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_23.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Russia and Ukraine dominate the news, and it seems that the story isn’t ending soon. The tech industry is unphased by the looming European war, but it will have consequences for everybody since energy prices are going through the roof. War isn’t the single culprit, but it will help propel gas prices all over Europe, making inflation even worst. March will start dictating how much it will cost, bearing seven point five per cent inflation in the United States. Fun tim…well, maybe not.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -128,16 +254,16 @@
     
     <entry>
         <title>MV Journal January 24 - February 7</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_23/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_23/"/>
         <updated>2022-01-23T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_23</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_23</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_23.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_23.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Facebook lost users. For the first time! Of course, this isn’t the end of Meta’s business, but it will pause some companies publicity investments in the platform, which will impact even more the stock value. The Metaverse needs to happen, and Meta already has something better than Second Life but far from Meta’s five-year plan. The 2021 research and development bill setback the company account by 10 billion dollars. 10, freaking, billion, dollars. Where’s my Metaverse, Mr Mark?&lt;/p&gt;
 
 &lt;ol&gt;
@@ -191,16 +317,16 @@
     
     <entry>
         <title>MV Journal January 10 - January 24</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_22/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_22/"/>
         <updated>2022-01-23T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_22</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_22</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_22.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_22.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;The next edition of MV journal will happen after the Portuguese elections, which I know most of our non-Portuguese readers don’t care much, and after the American Federal Reserve System, January 24th and 25th minutes. The last one might trigger a worldwide cascade of events that will impact us, including the tech sector. The information ripples are already taking down the NASDAQ Composite, a stock market index that includes almost all stocks listed on the Nasdaq stock exchange. Troubled times ahead, but the tech show needs to go on, right?&lt;/p&gt;
 
 &lt;ol&gt;
@@ -273,16 +399,16 @@ Significant acquisitions such as this need to pay in the long run. Gamers are th
     
     <entry>
         <title>MV Journal December 13 - January 10</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_21/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_21/"/>
         <updated>2022-01-09T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_21</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_21</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_21.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_21.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;I have to be honest. The last weeks of 2021 weren’t great since I had to isolate myself after being caught by the bug of the decade. With the first week of this year still at home, I avoided a massive list of news that probably already went through the feeds of everyone. So this edition is short, only sporting the News.ceil of the last weeks.
 How’s your end of the year? And how did the new one begun? I hope that everything went well because twenty twenty-two might augur a twenty-twenty too.&lt;/p&gt;
 
@@ -372,16 +498,16 @@ Obviously, this type of “terrorism” doesn’t solve nor help the cause, but 
     
     <entry>
         <title>MV Journal November 29 - December 13</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_20/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_20/"/>
         <updated>2021-11-28T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_20</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_20</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_20.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_20.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Right now, I’m thinking about how can I aggregate one month of tech news for the next edition.
 Yes, that’s right. We are going away for almost a month, with our next edition scheduled for January 10th 2022.
 These last few weeks have been busy, and rounding up the list wasn’t easy, but in less than five minutes, you’ll get a nice slice of what’s happened around our IT corner.
@@ -473,16 +599,16 @@ What to do with it? It’s up to you.&lt;/p&gt;
     
     <entry>
         <title>MV Journal November 15 - November 29</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_19/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_19/"/>
         <updated>2021-11-28T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_19</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_19</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_19.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_19.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Since Meta, formerly known as Facebook, announced its Metaverse intents, we’ve seen a significant uptick in the web3 word/expression. Is this the new “Cloud”? Let’s scratch the surface and see what we find out but before that, let’s round up these last few days of humans on earth playing with technology.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -585,16 +711,16 @@ These types of associations are being called Decentralized Autonomous Organizati
     
     <entry>
         <title>MV Journal November 2 - November 15</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_18/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_18/"/>
         <updated>2021-11-14T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_18</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_18</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_18.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_18.png&quot;&gt;&lt;br/&gt;
         	&lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#newsceil&quot;&gt;News.ceil&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#A&quot;&gt;WebSummit. Is that time of the year?&lt;/a&gt;&lt;/li&gt;
@@ -690,16 +816,16 @@ Nonetheless, if you’re paying taxes in Portugal, you’re paying a part of Web
     
     <entry>
         <title>MV Journal October 18 - November 2</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_17/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_17/"/>
         <updated>2021-11-01T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_17</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_17</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_17.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_17.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;A few minutes before writing this summary, I got the email warning from WebSummit with the title “Opening Night kicks off soon.”. The clock counter states four hours and a few minutes until the event opens doors.
 As I’ve mentioned in our previous instalment, these mega-events mark the beginning of an “after Covid” era, and in Portugal, they make even more sense considering economic and social factors.
 And, with this social behaviour change, I’m also going to make some changes in our MV Journal format! Considering my availability for this project, these developments will come slowly, and they will start this week with a minor tweak. From now on, the first section, 0, will stay fixed under “News.ceil”.
@@ -813,16 +939,16 @@ Just like Tesla’s autopilot seems attainable this decade, I’m also rooting f
     
     <entry>
         <title>MV Journal October 4 - October 18</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_16/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_16/"/>
         <updated>2021-10-16T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_16</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_16</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_16.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_16.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Did you survive the great social blackout event on the 4th?&lt;/p&gt;
 
 &lt;p&gt;Too dramatic?&lt;/p&gt;
@@ -874,7 +1000,7 @@ With not much to do until the final event, before a few lucky ones head into the
 
 &lt;p&gt;The main stage had many seats available. Right before the photo below, Jonh Romero had a small queue outside waiting for autographs and pictures.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/jonhready.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/jonhready.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;From an old-timer like me, it felt a bit sad but also a privilege. With few people at the end of the event, attendees had more time and a chance to exchange a few words with Doom’s creator.
 Eight nervous players went to the stage and got a lesson from the master. Miguel, an attendee in the front row by my side, was one of the winners of Day 1 deathmatches which granted him a session with Jonh. I’ve asked him how many kills he was expecting to get. “One would be a victory”, he said. He got three against twenty from Jonh.&lt;/p&gt;
@@ -885,7 +1011,7 @@ Eight nervous players went to the stage and got a lesson from the master. Miguel
 It was good to see people coming together again and a company like “Landing.jobs” taking the plunge to lead in-person tech events again. For the last two years, many of us got used to remote settings with streaming sessions happening globally. Going back to what we call “normal life” will take energy and time, and we need more events like this one to ignite our hearts and minds. After this, I’m going to help a bit and restart in-person AWS User Groups again. Even if we are few, it is time to do it again.
 So, a big thanks to “Landing.jobs” to make this happen against the social grain. A few weeks from now, we’ll have WebSummit. Will I see you there?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/end.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/end.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;netsplit&quot;&gt;Netsplit.&lt;/h1&gt;
 &lt;h5 id=&quot;september-28&quot;&gt;&lt;em&gt;September 28&lt;/em&gt;&lt;/h5&gt;
@@ -904,7 +1030,7 @@ While our Internet infrastructure can withstand some disorganization and partial
 
 &lt;p&gt;Einstein famous words “Spooky action at a distance” tried to convey the non-local effects of a quantum measurement. For simplicity sake, if you get a particle measurement in one location, you can instantly know the state of an entangled particle miles away. Facebook absorbed many companies while growing up into the behemoth that we know nowadays. We can count Instagram and Whatsapp within the roster of acquisitions, so the outage extended to those services since they are entangled in the same Facebook network universe. Your writer produced the following meme when WhatsApp returned a plain 500 internal server error:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/meme.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/meme.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On the other hand, there are also different types of secondary internet entanglements that we can see in the extended Internet universe. Due to Facebook size, DNS request failures &lt;a href=&quot;https://blog.cloudflare.com/during-the-facebook-outage/&quot;&gt;cascaded to other services as was seen by Cloudflare&lt;/a&gt; impacting other prominent players.
 So if you observe instability on a brand so large as Facebook, you’ll have a correlated negative effect on the remainder network entangled participants but a positive if you are a competitor.
@@ -926,16 +1052,16 @@ Although there isn’t reliable information about their internal procedures, the
     
     <entry>
         <title>MV Journal September 20 - October 4</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_15/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_15/"/>
         <updated>2021-10-03T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_15</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_15</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_15.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_15.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;After a few MV Journals, I’m finding out that I fall very quickly for stories about technologies with a few decades of history. The fun part is learning that they are even older than I’ve had thought and the impact that they already had in the current iterations.
 This edition will explore two brand new devices, still in early access, that might shape how we will interact with things that keep getting more “smart” and intrusive in our lives while relieving burdens or just helping an ordinary mortal to interact with the Metaverse.&lt;/p&gt;
 
@@ -1011,7 +1137,7 @@ Oh, and by the way, Amazon’s Astro has the following warning on their page:&lt
 
 &lt;p&gt;On September 9th, Thursday morning, Mr Mark Zuckerberg announced Ray-Ban Stories.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/maxresdefault.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/maxresdefault.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Right at the beginning of the video, Mr Mark states something that resonates with every science fiction connoisseur:&lt;/p&gt;
 
@@ -1021,7 +1147,7 @@ Oh, and by the way, Amazon’s Astro has the following warning on their page:&lt
 
 &lt;p&gt;1984, Mr &lt;a href=&quot;https://en.wikipedia.org/wiki/Bruce_Sterling&quot;&gt;Bruce Sterling&lt;/a&gt;, another science fiction Hero, aggregates a set of short stories as a way of consolidating a new literary genre, born some years earlier and deeply rooted in the New Wave science fiction movement. Depending on whom you read, it was a pivotal work for the movement or a nail in the imagination coffin that should not depart from the box he created.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/mirrorshades.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/mirrorshades.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Looks familiar, right?&lt;/p&gt;
 
@@ -1039,7 +1165,7 @@ At the extreme, they transport the user to a different reality, out of “meat s
 
 &lt;p&gt;They didn’t make the cut, but they were probably the first attempt at what I would expect to be a vision wearable.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/dysonhalo.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/dysonhalo.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The 2001 Dyson Halo’s promised augmented reality and a Siri type of virtual assistant, and I could imagine wall street traders at their offices roaming around the room, speaking loudly to the air while sporting such a clunky system. The typical user in the street? Not really.
 After three years of research and investment, Dyson shelved the prototype and took patents to other appliances. I find Mr Dyson’s lack of faith disturbing, but their vacuums are pretty lovely.&lt;/p&gt;
@@ -1049,7 +1175,7 @@ After three years of research and investment, Dyson shelved the prototype and to
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Recon_Instruments&quot;&gt;Recon Instruments&lt;/a&gt;  closed shop in 2017 after being acquired by Intel in 2015. Probably they were the first company to put a successful “smart” eyewear device in the market. Their initial idea was a head-up display system, or simply HUD, integrated into swimmer goggles to inspect simple things like time spent, laps and basic swimmer statistics. Regrettably, a patent on such a system already existed, and the company decided to pivot sports instead of betting on a product with complicated and expensive manufacturing requirements.
 Moving from swimming to Skiing also brought a technological strategy shift. Instead of going with the HUD, Recon switched to a peripheral head-mounted display. The first Transcend goggles were shipped in 2010 and were targeted to winter sports fans.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/recontranscend.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/recontranscend.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The device integrated an LCD screen, GPS and environmental sensors into stylish snow goggles.
 Recon’s eventually created a proper decoupled HUD focusing on their technology objectives rather than the frames. With several product iterations, Jet, the last eyewear system from Recon Instruments, failed to impress the crowd after some poor reviews, and the technology wasn’t par with the expectations of such a device.&lt;/p&gt;
@@ -1058,7 +1184,7 @@ Recon’s eventually created a proper decoupled HUD focusing on their technology
 
 &lt;p&gt;Enterprise Edition 2, launched in 2019, is the most recent version of the Optical Head-Mounted Display, or OHMD, from Google.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/googleglass.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/googleglass.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first batch of Google glasses was shipped in 2013 for selected developers, but they were also was sold to qualified users in the same year.
 Although they weren’t the first ones on the market, they are the best approximation of what one would expect of an eye wearable. Google ran many trials in different domains, testing and experimenting with extracting the best value of the technology. The private consumer market proved difficult, with privacy and security being the most significant problems that couldn’t be solved at the engineering level. To be fair, it isn’t difficult to imagine the clash between Google glass users and other citizens in the most varied environments. Even visual alerts for third parties that a user is recording isn’t enough since such safeguards can be tampered with easily.
@@ -1070,7 +1196,7 @@ The social time-slicing between real and virtual is unavoidable, but for a journ
 
 &lt;p&gt;I present to you the Snapbot.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/snapbot.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/snapbot.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;By Daylen and C.Suthorn / cc-by-sa-4.0 / &lt;a href=&quot;https://commons.wikimedia.org/w/index.php?curid=60390917_&quot;&gt;commons.wikimedia.org, CC BY-SA 4.0&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
@@ -1078,7 +1204,7 @@ The social time-slicing between real and virtual is unavoidable, but for a journ
 
 &lt;p&gt;The most recent product announcement from Snapchat builds on top of existing Spectacles that are only a pair of sunglasses coupled with one or more cameras depending on the version, transforming them into Augmented Reality, or simply AR, eyewear with the potential of using distributed computing for shared virtual experiences.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/spectacles.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/spectacles.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;They are still in preview access for selected AR developers and enthusiasts, but Mr Spiegel’s presentation swole expectations with his short AR demo.
 There’s a chance that Snap brings the first rich HUD displays to the private market and making the best from the current telecommunications technological landscape that still didn’t found good targets for consumer 5G networks.
@@ -1100,16 +1226,16 @@ Assuming that Mr Zuckerberg meant what he said, this is a good move towards the 
     
     <entry>
         <title>MV Journal September 6 - September 20</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_14/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_14/"/>
         <updated>2021-09-19T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_14</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_14</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_14.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_14.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=lLy9_jkqxzc&quot;&gt;Music or Noise&lt;/a&gt;? I’ll let you decide, but at the same time, when this sound was commonplace in many houses, thanks to Sir Sinclair, Mr William Gibson was releasing Neuromancer, one of the most essential books in the Cyberpunk genre. Molly Millions is the quintessential badass cybernetic enhanced girl within Neuromancer’s world that wreaks havoc on the streets. Her mirrorshades, surgically inlaid, augmented her vision and provided some other unspoken enhancements. Imagine Trinity from Matrix or Kusanagi from Ghost in the Shell to grasp an idea of this character. Mirrorshades became a Cyberpunk style token that resists until this day, hiding your corporate fighting intentions from the rest of the world. Ray-ban Stories are nothing like that, but if you squint enough from a distance, you might get a very fuzzy feeling of what the Cyberpunk genre promises.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -1122,7 +1248,7 @@ Assuming that Mr Zuckerberg meant what he said, this is a good move towards the 
 
 &lt;p&gt;On September 9th, Thursday morning, Mr Mark Zuckerberg announced Ray-Ban Stories.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/maxresdefault.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/maxresdefault.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Right at the beginning of the video, Mr Mark states something that resonates with every science fiction connoisseur:&lt;/p&gt;
 
@@ -1132,7 +1258,7 @@ Assuming that Mr Zuckerberg meant what he said, this is a good move towards the 
 
 &lt;p&gt;1984, Mr &lt;a href=&quot;https://en.wikipedia.org/wiki/Bruce_Sterling&quot;&gt;Bruce Sterling&lt;/a&gt;, another science fiction Hero, aggregates a set of short stories as a way of consolidating a new literary genre, born some years earlier and deeply rooted in the New Wave science fiction movement. Depending on whom you read, it was a pivotal work for the movement or a nail in the imagination coffin that should not depart from the box he created.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/mirrorshades.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/mirrorshades.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Looks familiar, right?&lt;/p&gt;
 
@@ -1150,7 +1276,7 @@ At the extreme, they transport the user to a different reality, out of “meat s
 
 &lt;p&gt;They didn’t make the cut, but they were probably the first attempt at what I would expect to be a vision wearable.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/dysonhalo.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/dysonhalo.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The 2001 Dyson Halo’s promised augmented reality and a Siri type of virtual assistant, and I could imagine wall street traders at their offices roaming around the room, speaking loudly to the air while sporting such a clunky system. The typical user in the street? Not really.
 After three years of research and investment, Dyson shelved the prototype and took patents to other appliances. I find Mr Dyson’s lack of faith disturbing, but their vacuums are pretty lovely.&lt;/p&gt;
@@ -1160,7 +1286,7 @@ After three years of research and investment, Dyson shelved the prototype and to
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Recon_Instruments&quot;&gt;Recon Instruments&lt;/a&gt;  closed shop in 2017 after being acquired by Intel in 2015. Probably they were the first company to put a successful “smart” eyewear device in the market. Their initial idea was a head-up display system, or simply HUD, integrated into swimmer goggles to inspect simple things like time spent, laps and basic swimmer statistics. Regrettably, a patent on such a system already existed, and the company decided to pivot sports instead of betting on a product with complicated and expensive manufacturing requirements.
 Moving from swimming to Skiing also brought a technological strategy shift. Instead of going with the HUD, Recon switched to a peripheral head-mounted display. The first Transcend goggles were shipped in 2010 and were targeted to winter sports fans.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/recontranscend.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/recontranscend.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The device integrated an LCD screen, GPS and environmental sensors into stylish snow goggles.
 Recon’s eventually created a proper decoupled HUD focusing on their technology objectives rather than the frames. With several product iterations, Jet, the last eyewear system from Recon Instruments, failed to impress the crowd after some poor reviews, and the technology wasn’t par with the expectations of such a device.&lt;/p&gt;
@@ -1169,7 +1295,7 @@ Recon’s eventually created a proper decoupled HUD focusing on their technology
 
 &lt;p&gt;Enterprise Edition 2, launched in 2019, is the most recent version of the Optical Head-Mounted Display, or OHMD, from Google.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/googleglass.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/googleglass.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first batch of Google glasses was shipped in 2013 for selected developers, but they were also was sold to qualified users in the same year.
 Although they weren’t the first ones on the market, they are the best approximation of what one would expect of an eye wearable. Google ran many trials in different domains, testing and experimenting with extracting the best value of the technology. The private consumer market proved difficult, with privacy and security being the most significant problems that couldn’t be solved at the engineering level. To be fair, it isn’t difficult to imagine the clash between Google glass users and other citizens in the most varied environments. Even visual alerts for third parties that a user is recording isn’t enough since such safeguards can be tampered with easily.
@@ -1181,7 +1307,7 @@ The social time-slicing between real and virtual is unavoidable, but for a journ
 
 &lt;p&gt;I present to you the Snapbot.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/snapbot.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/snapbot.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;By Daylen and C.Suthorn / cc-by-sa-4.0 / &lt;a href=&quot;https://commons.wikimedia.org/w/index.php?curid=60390917_&quot;&gt;commons.wikimedia.org, CC BY-SA 4.0&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
@@ -1189,7 +1315,7 @@ The social time-slicing between real and virtual is unavoidable, but for a journ
 
 &lt;p&gt;The most recent product announcement from Snapchat builds on top of existing Spectacles that are only a pair of sunglasses coupled with one or more cameras depending on the version, transforming them into Augmented Reality, or simply AR, eyewear with the potential of using distributed computing for shared virtual experiences.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/spectacles.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/spectacles.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;They are still in preview access for selected AR developers and enthusiasts, but Mr Spiegel’s presentation swole expectations with his short AR demo.
 There’s a chance that Snap brings the first rich HUD displays to the private market and making the best from the current telecommunications technological landscape that still didn’t found good targets for consumer 5G networks.
@@ -1223,7 +1349,7 @@ His last attempt in the electric vehicle market failed in 2010 and was still ins
 
 &lt;p&gt;I still remember seeing the local grocery store owner programming on a ZX Spectrum system. Without any education besides the primary Portuguese mandatory grade at the time, he read translations from the programming guides and got help from neighbours who understood English for those that weren’t translated. I played question and answer games that he developed while attending patrons and dealing with street rascals, myself included. He also did accounting with the thing, but that was way over my understanding at the time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/sinclair.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/sinclair.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Farewell, Sir Sinclair and thanks for all the computers.&lt;/p&gt;
 
@@ -1232,16 +1358,16 @@ His last attempt in the electric vehicle market failed in 2010 and was still ins
     
     <entry>
         <title>MV Journal August 23 - September 6</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_13/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_13/"/>
         <updated>2021-09-05T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_13</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_13</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_13.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_13.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;In our second MV Journal Follow-up, we will review a few topics that stopped at a cliff-hanger…or something similar, I guess, but if someone asks you what the best thing you got from this post was, you can point the person to &lt;a href=&quot;https://mcbroken.com/&quot;&gt;McBroken&lt;/a&gt;. If you’re cruising around the USA, never forget to check if the nearest MacDonalds has a working McFlurry machine.
 Amazed? The internet produces great things, right? Unless you’re a developer mandated to use a Cloud-based IDE. In that case, I’m not sure we’re going in the right direction, but the verdict is still out here on this one. Let’s have a few words if you get to try one.&lt;/p&gt;
 
@@ -1318,7 +1444,7 @@ I’m keen on loonshots and hope that Copilot becomes a successful tool to help 
 &lt;p&gt;Well, this is a tangent to the original article, but it shows that anyone can be impacted by repair restrictions, even the fast-food giant MacDonalds.
 At least in the United States, you’ll need some good alignment from the ice cream gods to get a taste of a Macflurry. The failing ice cream machines are a running joke on the internet, and even MacDonalds took the internet’s side with the tweet:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/macfunny.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/macfunny.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Usually, when I went for a surfing bout, I  visited a beach webcam site to see if the surf was actually up. If you want a Macflurry, you better pay a visit to &lt;a href=&quot;https://mcbroken.com/&quot;&gt;McBroken&lt;/a&gt; and see if the local machine is working.
 Not having a Macflurry whenever you want to visit a MacDonalds has become a severe issue for the USA’s Federal Trade Committee or FTC. Funny aside, the FTC is probing MacDonalds since it seems that HQ doesn’t allow franchisees to fix their own machines, which leads to long wait times until customers can get their tasty treat. I’m on FTC’s side on this one for sure.&lt;/p&gt;
@@ -1328,16 +1454,16 @@ Not having a Macflurry whenever you want to visit a MacDonalds has become a seve
     
     <entry>
         <title>MV Journal July 26 - August 23</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_12/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_12/"/>
         <updated>2021-08-22T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_12</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_12</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_12.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_12.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;It’s no secret that I’m an AWS fanboy, but one shouldn’t be clouded by the halo effects of your favourite brands. AWS is going out of line with Elastic, and we need to talk about it. Yet, we find ourselves in another unusual holiday period. Restrictions here and there make travel a risky business. Still, finally, I’m seeing more energy in the air and people going out, taking advantage of Portugal amazing summer weather…unless we are talking about Blizzard or World of Warcraft, where temperatures are going against climate change predictions. Grab a warm coat and check for yourself down below!&lt;/p&gt;
 
 &lt;ol&gt;
@@ -1416,7 +1542,7 @@ It felt odd that no mention was given. Still, I guessed that official documentat
 &lt;p&gt;AWS uses many open-source artefacts in their products and services. Still, sometimes they just integrate software into AWS and resell it as a product or service using their virtual environments. One example is Elasticsearch.
 It’s hard to understand some open-source licenses and what can you do without infringing them,  but in this case, AWS was, and it is free to use it and sell the service as they see fit. And they do it since 2015 using the brand Amazon Elasticsearch.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/awselasticfakepartenership.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/awselasticfakepartenership.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This was the first moment of tension between both companies since there wasn’t any acknowledged collaboration between them. Elasticsearch, a registered trademark, was being used abusively by Amazon, according to Elastic.&lt;/p&gt;
 
@@ -1462,16 +1588,16 @@ Nevertheless, this is the case with so many labels that work both fronts and nee
     
     <entry>
         <title>MV Journal July 12 - July 26</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_11/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_11/"/>
         <updated>2021-07-11T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_11</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_11</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_11.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_11.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Two billionaires went to the edge of Space, and the world rebelled. Well, not entirely, but many voices raised concerns against expensive and environmentally unfriendly trips. Avoiding ethics and morals in this edition, I’m all up for the trips and cheering each successful space hop hoping that we work to go even further.
 But imagine that you’re aboard your private Dragon Crew cabin on your way to Mars. The oxygen scrubber fails, and there are two options. Should you bring your capsule back to Earth for service or replace it mid-flight? While the answer might seem obvious, current affairs will cause you dismay. Even if you think that it would not happen if lives were at stake, let me remind you that in the current Coronavirus pandemic. Many hospitals could not fix their own equipment for respiratory support since vendors don’t supply parts or manuals.
 Two topics for a few minutes of your reading time. Probably a few more to digest it all the way. Join me in another MV Journal edition.&lt;/p&gt;
@@ -1552,16 +1678,16 @@ We can only see success for SpaceX for the next few years and with the hope of s
     
     <entry>
         <title>MV Journal June 28 - July 12</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_10/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_10/"/>
         <updated>2021-07-11T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_10</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_10</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_10.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_10.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;This last couple of weeks, Github Copilot was a large chunk of every programmer’s webverse stream.
 Usually, anything that comes out from Github has a vast impact factor, so the reach of Copilot posts shouldn’t be a surprise.
 Github’s new feature, still in preview for selected developers, promises a small AI revolution, adding superpowers to every developer with its programmer’s intent precognition. But is it a step in the right direction?&lt;/p&gt;
@@ -1577,7 +1703,7 @@ Github’s new feature, still in preview for selected developers, promises a sma
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/ivomanueljesus/&quot;&gt;Ivo Jesus&lt;/a&gt;, a freelance Software Engineer and a good friend of mine, shared this Copilot’s suggestion with me.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/memoization.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/memoization.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My Ruby skills aren’t up to the standards nowadays, but he helped me right away, explaining the problem with methods that return falsy values.
 An inexperienced developer would accept the option without blinking to maybe discover the bug in the future.&lt;/p&gt;
@@ -1596,7 +1722,7 @@ Content around the code adds a learning dimension that Codepilot can’t deliver
 &lt;p&gt;Copilot’s training corpus was fed without much avail to its quality from what one sees in the available examples.
 &lt;a href=&quot;http://baishakhir.github.io/uploads/fse2014-lang_study.pdf&quot;&gt;A large scale study on top of Github’s Open Source Software projects, published in Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering&lt;/a&gt; tries to provide answers for a set of questions regarding defect density within a domain, language and language type. The paper has many insights, but one key takeaway can be inferred from the image below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/defectrate.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/defectrate.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As one can see, the study took projects with a defect density between the 10 and 90 percentile. Even so, the indicator floats all over the board. Although we are looking into a study made in 2014, the probability of having a similar defect density nowadays is relatively high.
 Without any code curation before feeding it to Copilot, we directly introduce a similar defect density into the new code. While it is acceptable in an alpha testing phase, taking this to a generally available product would be reckless. One hopes that before moving forward with the product, Github does a much better job with the corpus curation.&lt;/p&gt;
@@ -1640,16 +1766,16 @@ Some companies boast AI similar features such as &lt;a href=&quot;https://www.ou
     
     <entry>
         <title>MV Journal June 13 - June 28</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_9/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_9/"/>
         <updated>2021-06-24T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_9</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_9</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_9.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_9.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Unfortunately, one of the biggest news of these last few weeks it’s the demise of a controversial character that kickstarted a huge company in the consumer and enterprise antivirus business, Jonh McAfee.
 To balance this gloomy event, I want to introduce you to a new world of discovery. So stash your Pokemon Go for a while, and let’s help science while having fun!&lt;/p&gt;
 
@@ -1745,16 +1871,16 @@ At this time, it’s impossible to understand how much he was affected by a cons
     
     <entry>
         <title>MV Journal May 31 - June 14</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_8/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_8/"/>
         <updated>2021-06-13T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_8</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_8</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_8.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_8.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Would you pay 3 dollars per month to get an undo feature in your favourite blogging platform? I wouldn’t, but this is what Twitter is proposing in their new tiered service, Blue. Ok, I’m ranting a bit, but there isn’t much more in Twitter’s proposition.
 On the other hand, how about using volcanoes to mine Bitcoin? Intrigued? Spare a few minutes and get your curiosity satisfied in this fortnight’s MV Journal edition.&lt;/p&gt;
 
@@ -1808,7 +1934,7 @@ Blue is probably the result of some activist investors who don’t want to sell 
 
 &lt;p&gt;Tying it up with our previous article, the tweet below comes directly from Mr Bukele, announcing that Bitcoin is legal tender henceforth within El Salvador borders.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetbukele.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/tweetbukele.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While some other countries are preparing to ignore or forbid one of the most important digital currencies globally, El Salvador made it legal and part of its economic cycle.&lt;/p&gt;
 
@@ -1834,16 +1960,16 @@ Blue is probably the result of some activist investors who don’t want to sell 
     
     <entry>
         <title>MV Journal May 17 - May 31</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_7/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_7/"/>
         <updated>2021-05-30T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_7</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_7</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_7.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_7.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Last week we saw the end of the first legal battle that pitted &lt;a href=&quot;https://www.epicgames.com&quot;&gt;Epic Games&lt;/a&gt; against a technology behemoth, &lt;a href=&quot;https://www.apple.com&quot;&gt;Apple&lt;/a&gt;. &lt;a href=&quot;https://www.epicgames.com/fortnite/en-US/home&quot;&gt;Fortnite’s&lt;/a&gt; owner wants to revolutionize how app markets work and, to that end, made a bold move against the most prominent market makers for mobile applications: Apple and &lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;.
 While some fight for dollars in digital markets, others try to improve the shopping experience in physical markets. At this side of the pond, a [Sensei] and &lt;a href=&quot;https://www.sonae.pt&quot;&gt;SONAE&lt;/a&gt; joint venture opened the first grab and go cashier-less supermarket experience in Portugal following &lt;a href=&quot;https://www.amazon.com/b?ie=UTF8&amp;amp;node=16008589011&quot;&gt;Amazon GO&lt;/a&gt; lead.
 Save a few minutes of your time and dive in at another MV Journal issue.&lt;/p&gt;
@@ -1926,16 +2052,16 @@ Nevertheless, Google’s Play Store has the most extensive footprint in the Andr
     
     <entry>
         <title>MV Journal May 3 - May 17</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_6/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_6/"/>
         <updated>2021-05-16T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_6</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_6</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_6.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_6.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;Security and privacy. If you ask individuals if they want them, they will probably say yes, but few will actively choose them, leaving the community even more exposed to be exploited by businesses and criminals. This week we take a dive into Apple privacy and government insecurity.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -2011,16 +2137,16 @@ I would argue that Mr Tegmark could expand those concerns to existing dull techn
     
     <entry>
         <title>MV Journal April 19 - May 3</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_5/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_5/"/>
         <updated>2021-04-18T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_5</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_5</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_5.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_5.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;This week it is all about scandals!
 We start with the last update from Basecamp, and it seems that everybody is packing up and leaving. On the other hand, a skittish Portuguese Public institution got scared with a Facebook post and shunned the services of a great company.&lt;/p&gt;
 
@@ -2047,11 +2173,11 @@ Basecamp becomes a bastion for Open Source within the Ruby environment and sets 
 
 &lt;p&gt;From Apple&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/dhhapple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/dhhapple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;to Zoom&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/dhhzoom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/dhhzoom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;,there is always a target that they could point out in the Twittersphere.&lt;/p&gt;
 
@@ -2097,7 +2223,7 @@ Trusting in well-established companies with a proven track record is a good rule
 
 &lt;p&gt;November 4 2020, Mr Matthew Prince made a &lt;a href=&quot;https://twitter.com/eastdakota/status/1323947883201142786?lang=en&quot;&gt;poignant tweet&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/mattprincetweet.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/mattprincetweet.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;tagging the Portuguese Prime Minister and Mr Paddy Cosgrave. Mr Matthew is the co-founder and CEO of a well-known company, Cloudflare.&lt;/p&gt;
 
@@ -2133,16 +2259,16 @@ Static assets are cached, but dynamic content is outside of Cloudflare’s contr
     
     <entry>
         <title>MV Journal April 5 - April 19</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_4/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_4/"/>
         <updated>2021-04-18T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_4</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_4</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_3.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_3.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;It seems that we are living through a slow world reboot. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Ever_Given#2021_Suez_Canal_grounding&quot;&gt;traffic of massive boats can flow through international waters unencumbered again&lt;/a&gt;. Pharmaceutical companies trickle jabs to every nation with gradual global adoption revealing minor bugs here and there. Excluding &lt;a href=&quot;https://ourworldindata.org/covid-vaccinations&quot;&gt;early adopters that are far ahead&lt;/a&gt;, we can see a new major version of life rolling out with ease, bringing us to another edition of the MV Journal.
 Yes, you are right. This is sooner than expected, but we are syncing our releases with Multivision’s newsletters.&lt;/p&gt;
 
@@ -2204,16 +2330,16 @@ Most of the companies showed a lack of interest or even repudiated the technolog
     
     <entry>
         <title>MV Journal March 23 - April 06</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_3/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_3/"/>
         <updated>2021-04-05T00:00:00+01:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_3</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_3</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_3.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_3.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;With all eyes and hearts deeply enthralled with the Ever Given fiasco and the Covid-19 season that never ends, it was hard to find those tech gems from these last two weeks. Loosen your seatbelts because this will be a slow and scenic ride, with mildly interesting facts, of course.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -2276,16 +2402,16 @@ There is a way of opting out of the experiment but at the cost of crippling exis
     
     <entry>
         <title>MV Journal March 9 - March 23</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_2/"/>
+        <link href="http://localhost:4000/mvjournal/mvjournal_2/"/>
         <updated>2021-03-22T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_2</id>
+        <id>http://localhost:4000/mvjournal/mvjournal_2</id>
         <author>
 					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
+					<uri>http://localhost:4000/</uri>
 					<email>nuno.valente@gmail.com</email>
 				</author>
         <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_2.png&quot;&gt;&lt;br/&gt;
+        	&lt;img src=&quot;http://localhost:4000/images/Banner_MVJournal_banner_2.png&quot;&gt;&lt;br/&gt;
         	&lt;p&gt;The second edition already? And what a couple of weeks.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -2308,7 +2434,7 @@ There is a way of opting out of the experiment but at the cost of crippling exis
 
 &lt;p&gt;March 10th, I bet many System Administrators got immense heartburn after losing pings to their cherished machines and learning later that their data sublimed after one OVH Strasburg data centre got utterly destroyed by fire while a second one was heavily damaged in the incident.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetovh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/tweetovh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While the fire was still running, the whole Strasburg site had to be disconnected, putting every machine offline and out of businesses reach.
 You can find OVH’s statement in the following &lt;a href=&quot;https://www.ovh.ie/news/press/cpl1786.fire-our-strasbourg-site&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
@@ -2344,7 +2470,7 @@ This week, we will cover another type of digital asset that is taking creators a
 
 &lt;p&gt;But make no mistake. The owner didn’t pick up a physical art piece. The lucky buyer received a data file from the transaction, notwithstanding a unique digital file minted as an NFT.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetbeeple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/tweetbeeple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sure, Mr Beeple. We get the feeling.&lt;/p&gt;
 
@@ -2372,108 +2498,6 @@ NFTs allow for the same type of scarcity in the digital world. An entity can cre
 &lt;p&gt;Consider the games World of Warcraft or Fortnite, where weapons and avatars can be digitally minted. Game collectors could actually own the first sword that brought down Kel’Thuzad or a unique avatar for official competitions of a Battle Royal event.&lt;/p&gt;
 
 &lt;p&gt;In my opinion, we are still some years from having digital assets on par with physical objects, but I would not be surprised if my son’s son invests in NFT markets daily.&lt;/p&gt;
-
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>MV Journal Feb 22 - March 9, Premiere</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_1/"/>
-        <updated>2021-03-10T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_1</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_1.png&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;First, let me give you a warm welcome, reader. This is the first installation of the semimonthly MV Journal article series. This Direction With Intent post series is sponsored by &lt;a href=&quot;https://multivision.pt&quot;&gt;Multivision&lt;/a&gt; and will be part of the official communication for employees, clients and any stakeholder with enough patience for the author. Every couple of weeks, I’ll be writing about the tech-related news and events that sparked our interest or had a global impact on the industry, trying to make a clear divide between facts and opinion. I would also like to thank Multivision for the trust deposited on my content here at Direction With Intent. Although my opinion isn’t necessarily representative of the company and administration, it’s part of the human ensemble that constitutes the company. Every word will be written with the required respect for the reader and responsible for carrying the company brand value.&lt;/p&gt;
-
-&lt;p&gt;Cutting to the chase, here are the topics of this first issue:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#more-fuel-for-the-btc-fire&quot;&gt;More fuel for the BTC fire&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mr-bezos-switches-gears&quot;&gt;Mr Bezos switches gears&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#media-battles-down-under&quot;&gt;Media battles Down Under&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;more-fuel-for-the-btc-fire&quot;&gt;More fuel for the BTC fire&lt;/h2&gt;
-
-&lt;p&gt;A decade ago, I bought my first Bitcoin. At that time, you could carry a wallet in a standard thumb drive and using a third party for storing a Bitcoin was noobish at least.
-My plan was to get a few of those sweet digital hashes and go on a shopping spree in the now-deceased Silk Road dark web marketplace. I didn’t even know how much I would need for whatever illegal stuff I could buy without getting arrested for it :) but feeling like a Black Hat was a thrill.
-My plan failed, and I didn’t buy anything, but some months later, I sold my last BTC for around 100€ and stating to my friends that this bubble should blow up at any moment. And I had a rationale. The protocol doesn’t scale to allow everyone to use it as a debit or credit card with a payment being processed in a matter of minutes or seconds.&lt;/p&gt;
-
-&lt;p&gt;Well…I made a profit, and I should be happy with that…Fun times they say.&lt;/p&gt;
-
-&lt;p&gt;Fast forward a decade and a few “pop” false alarms later, Mr Elon Musk decides to go “all in” and buy 1.5B of Bitcoins.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/coinbasebtc.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At the time of writing this piece, BTC rallies again for another all-time high.
-Although Mr Elon isn’t the single responsible for the previous colossal increase in value, surely he had a considerable impact on the virtual currency trading exchanges making him a whale in the market.&lt;/p&gt;
-
-&lt;p&gt;Not only that but from now on, Tesla will accept payments in BTC.
-Yes! It seems that some Teslas will roll out from the factories after presenting some cryptographic hashes to the dealer. Fun times indeed!&lt;/p&gt;
-
-&lt;h4 id=&quot;update---no-mountain-is-too-high-for-bitcoin&quot;&gt;Update - No mountain is too high for Bitcoin&lt;/h4&gt;
-
-&lt;p&gt;Since this is the first MV Journal release, there is some lag between the written pieces and the date we publish them. Below we can still see that the BTC value at Coindesk is pushing the limits, and even with some less than kosher tweets from Mr Elon, one can still imagine that the rally is far from ending this soon.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/stillrising.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;mr-bezos-switches-gears&quot;&gt;Mr Bezos switches gears&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://image.cnbcfm.com/api/v1/image/104961749-Jeff_doordesk.png?v=1529477304&amp;amp;w=1400&amp;amp;h=950&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The year was 1994. You can see a young Jeff Bezos on top of what serves as a desk but, in reality, is a door supported by four by fours, with a metal reinforcement at the angles.
-Since the beginning, Mr Bezos pushed the company with a groundhoggian philosophy of meeting every new day like day one. That also means that frugality was a keyword when considering any investment. Some decades later, many offices still sport desks made of doors as a homage to those initial years.
-Nowadays, Mr Bezos leads a world conglomerate that ships almost everything you can imagine while being the IT backbone of other mega services such as Netflix and Outsystems. On the side, he still holds the Washington Post, keeping the dying business of the press very much alive.&lt;/p&gt;
-
-&lt;p&gt;The move announced this week shouldn’t be a big surprise for many, although a much delayed one. Since 2016, Mr Bezos created a small circle of trusted execs to help run the empire’s day-to-day. Everyone was waiting that the CEO torch falls into their hands. Andy Jassey was the lucky one if you think that a 24/7 job with thousands of workers relying on your decisions means luck.
-Mr Andy, responsible for the massive success that AWS is nowadays, will hold the keys of all Amazon aspects, from retail to the cloud. A big responsibility for sure and with challenges that Mr Bezos will happily delegate for the following years.&lt;/p&gt;
-
-&lt;p&gt;Mr Bezos is not going anywhere. He lifted himself to the chairman position, but the audience guess is that he’ll be there for the tough days that eventually will meet the company as he already warned.&lt;/p&gt;
-
-&lt;p&gt;From my part, I hope that his efforts focus on the space industry with Blue Origin. Mr Musk has pushed the boundaries of this endeavour, making everyone feel that he doesn’t need competition to accelerate towards the future, but this might not be the case when the business solidifies.&lt;/p&gt;
-
-&lt;p&gt;Here at Multivision, we wish well to Mr Bezos and his transition, hoping to see some of those Blue Origin ships delivering packages to Mars colonies.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;media-battles-down-under&quot;&gt;Media battles Down Under&lt;/h2&gt;
-
-&lt;p&gt;From time to time, we see some doubtful tech legislation popping up here and there on the globe—some with good intents but usually grounding themselves on ill-informed politicians.&lt;/p&gt;
-
-&lt;p&gt;Australia doesn’t fall behind, and everyone still remembers the TOLA Act, rammed into the Aussie parliament in 2018. A proposal that makes IT companies break their encryption and potentially develop security holes, well known as backdoors,
-“Let’s just make Australians safer over Christmas,” said Mr Bill Shorten, leader of the opposition at the time. It’s not a wonder that the IT sector still remains unconvinced. Just ask Atlassian for their thoughts.&lt;/p&gt;
-
-&lt;p&gt;This time we see another controversial law, to say it at least. While it doesn’t seem as dangerous as the TOLA Act, it will significantly impact the average internet information consumer.
-The &lt;a href=&quot;https://www.accc.gov.au/focus-areas/digital-platforms/news-media-bargaining-code&quot;&gt;News Media Bargaining Code&lt;/a&gt; passed the Aussi parliament on 17 February. The law targets the American IT tech giants Facebook and Google, requiring public deals with media agencies to keep the ability to share and maintain links to their media outlets. This law initiative aims to rebalance the news industry, making the aforementioned content distributors liable for paying repurposed content.&lt;/p&gt;
-
-&lt;p&gt;At the time of writing this piece, the table has been set and played. Facebook left the proverbial Aussie news building while Google forged deals with the largest news providers. From now on, links to Australian news content will be “restricted” within Facebook. Take my test in the image as an example.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/nopes.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, you can still share your favourite Australian topics with your groups of friends on Whatsapp. Let’s see for how long.
-On the other hand, and with much more at stake than Facebook, Google accepted paying up, keeping their business intact and even increasing its Google News content portfolio.&lt;/p&gt;
-
-&lt;h4 id=&quot;global-shakedown-an-opinion&quot;&gt;Global shakedown, an opinion.&lt;/h4&gt;
-
-&lt;p&gt;This decision’s ripples are already being felt in other countries, with some elected officials supporting similar initiatives at their borders. We might even see, country by country, a follow up of the same tactic, appeasing local news businesses and voters. The most significant impact will probably come from the EU, which has successfully implemented its creative taxation proposals for companies operating within the Schengen space. The most recent victim is Netflix and other services with a similar expression in the digital streaming domain. In the same political lingo, the consumer is warned that the tax protects local content production. That remains to be measured and seen, as in most cases.
-The same premise applies to the new Aussie law. Nowhere is written that the funds channelled from the tech giant will be used in the news sector.&lt;/p&gt;
-
-&lt;p&gt;One should expect lawmakers to create fair conditions for the consumer and product or service provider, but in this instance, the final consumer is left out of a B2B deal, where a conglomerate of businesses says that another company is using their product or service without their consent. In fact, the product or service is massaged to be relevant in the content providers’ rankings that benefit from the shakedown. It’s served in the businesses on volition, using less than kosher tactics to make them the top of the search or the most shared article of the hour. Instead of paying for the dissemination service, it is the other way around. The dissemination service pays for the privilege of providing content shards and referral traffic to the source.
-While it can be said that Google will also use the full content within one of its products, Facebook will create a social sharing black hole for the current Australian affairs. Independent and amateur content creators and providers will fill in space without asking for money in return. If one of the final objectives is to protect the consumer from false or biased content, the effect will be precisely the opposite.&lt;/p&gt;
-
-&lt;p&gt;Like the TOLA act, we see that the Australian government needs support from the new generations that understand the integrated tech world. Not entirely, but better.&lt;/p&gt;
-
-&lt;h4 id=&quot;update---facebook-falls-in-line&quot;&gt;Update - Facebook falls in line.&lt;/h4&gt;
-
-&lt;p&gt;After showing a hard hand, Facebook nevertheless adjusted to the regulation. To be fair, Facebook’s action triggered the Australian parliament to revise some of the law’s most draconian options. One of the most important ones allows for a quick Facebook escape button. The platform will reserve the right to block any disputed content that doesn’t fall in its negotiation perimeter and avoid getting caught with its back against the wall of a forced business.&lt;/p&gt;
 
 
         </content>
