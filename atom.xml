@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2025-12-08T14:14:10+00:00</updated>
+    <updated>2025-12-21T16:11:30+00:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -15,6 +15,278 @@
 			<email>nuno.valente@gmail.com</email>
 		</author>
 
+    
+    <entry>
+        <title>Pondered Kobayashi Maru Decision</title>
+        <link href="https://directionwithintent.com/opinion/kobayashi-maru/"/>
+        <updated>2025-12-21T00:00:00+00:00</updated>
+        <id>https://directionwithintent.com/opinion/kobayashi-maru</id>
+        <author>
+					<name>Nuno Valente</name>
+					<uri>https://directionwithintent.com/</uri>
+					<email>nuno.valente@gmail.com</email>
+				</author>
+        <content type="html">
+        	&lt;img src=&quot;https://directionwithintent.com/images/widewarpspeed.png&quot;&gt;&lt;br/&gt;
+        	&lt;p&gt;Some of us drilled it, some tried it, some lived it.
+All of us lost — because in this case, the future was predestined.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenge-of-strategic-hiring&quot;&gt;The Challenge of Strategic Hiring&lt;/h2&gt;
+
+&lt;p&gt;I’ve never gone through many job interviews myself. I have, however, conducted hundreds. Almost all were for Software Engineering roles and many for product development where ill-defined problems were the norm and innovation was not optional.&lt;/p&gt;
+
+&lt;p&gt;But even though I was always looking for someone who could face the challenge with a decent amount of creativity, they weren’t responsible for decision-making and setting a path beyond the technical realm. Engineers were expected to challenge it, propose alternatives, stress the system, and execute but never accountable for its future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hiring Software Engineers isn’t easy&lt;/strong&gt; and anyone reading this already knows that. Still, we have tools. We can reasonably evaluate problem-solving skills, software design, technical depth, and even learning capacity. If both interviewer and interviewee are honest, many of these competencies can be observed, tested, and discussed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For strategic and decision-making roles, however, we get into a different dimension entirely.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong. We know some of what to look for (or we fool ourselves into believing that we do). Depending on context, seniority, and organisational maturity, we expect familiarity with budgeting, delivery flows, reporting, stakeholder management. We expect experience, even if by proxy, because no one has ever been something before becoming it.&lt;/p&gt;
+
+&lt;p&gt;But there’s a large grey volume of work that sits beyond the visible horizon. Work that requires navigating uncertainty, committing under incomplete information, and overcoming obstacles where no established framework quite fits. In those moments, lateral thinking doesn’t “solve” the problem, it merely allows movement against a different and sometimes larger and harder wall.&lt;/p&gt;
+
+&lt;p&gt;And then there is failure.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We don’t hire people, we hire results.” True if you accept good ones and bad ones, and the latter are unavoidable when exploration, innovation, or strategy are involved.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;One could even argue that many of these failures are actually excellent results since we found what to avoid but let’s skip this one for now.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-star-trek-parallel&quot;&gt;The Star Trek Parallel&lt;/h2&gt;
+
+&lt;p&gt;“To boldly go where no man has gone before” was the closing narration of the original Star Trek series. It followed the adventures of a spaceship crew exploring what lay beyond the boundaries of human knowledge.&lt;/p&gt;
+
+&lt;p&gt;Right off the bat every crew member was expected to be comfortable with the unknown. At any moment of their mission they would find themselves in unresolved conundrums where only the human moral and ethics matrix was guiding their decisions and often it wasn’t enough. Yet not everyone bore the same burden. Not all were subject to the last-minute decision-making process that happened right before the climax of an episode. Many were engineers and specialists, operating at the edge but within predictable roles and schedules.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the other hand the commander class played a different game.&lt;/strong&gt; At the helm of a life boat, 24/7, their actions would steer lives away or nearer to their demise. How the hell can you measure such decision making capabilities? How do you evaluate competence when you have to face unknown unknowns day in and day out?&lt;/p&gt;
+
+&lt;p&gt;The recently deceased Economics Nobel laureate Daniel Kahneman and his also deceased pal Amos Tversky explored this problem with scientific rigor. One of their findings was that you should value &lt;strong&gt;deliberate practice and after-action reviews&lt;/strong&gt;: Expertise in complex environments isn’t just about experience; it’s about quality experience with feedback. Effective leader development requires a form of “critical event training” where thought processes are reviewed and compared to expert models during after-action reviews. Trainee and tenured decision makers should study history and use fictional and past scenarios as low-cost methods for deliberate practice, receiving expert and peer feedback to improve their decision capacity.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately we can’t spend weeks and months evaluating and training every candidate for a position. Only internal candidates can benefit from such a luxury, where mid-management roles often serve as training grounds. Still, even in constrained interview processes, we can extract meaningful data points, if we choose our tools carefully.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is where the Kobayashi Maru distress beacon shows up on our scanners&lt;/strong&gt; ( Trekkie lingo my friends ).&lt;/p&gt;
+
+&lt;h3 id=&quot;the-original-kobayashi-maru&quot;&gt;The Original Kobayashi Maru&lt;/h3&gt;
+
+&lt;p&gt;In Star Trek, Starfleet cadets are subjected to a simulation with a deceptively simple setup. A civilian vessel, the Kobayashi Maru, is stranded in neutral territory. Entering to rescue it risks triggering a larger conflict. Not entering means leaving civilians to die. If the cadet intervenes, overwhelming enemy forces appear. &lt;strong&gt;Defeat is guaranteed.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The general idea, within Star Trek’s social and philosophical universe, was that the challenge was unwinnable. You need to decide if you lose a significant amount of civilians that you should be protecting at all costs, or if you lose a fight and your entire crew and ship with the probability of saving the stranded civilians. Before you start seeing the exit routes, mind that during the exercise execution issues would pop up left and right, blocking you from many, if not all escape routes to the point of a future captain desperation. Lateral thinking did not break the wall, it merely revealed that many walls exist.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Key Insight:&lt;/strong&gt; If you want to be a Commander, you will have to have the ability to lead when no roadmap exists and, ultimately, accepting failure. How you deal with it will be a deciding factor to make the cut.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-science-says-about-selection-methods&quot;&gt;What Science Says About Selection Methods&lt;/h2&gt;
+
+&lt;p&gt;So should we include such a scenario when hiring for Product Management or other strategic roles? I would like to convince you that you should but at first glance science says no.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decades of research on selection methods tell us that interviews should predict future job performance.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Research Foundation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Palmer &amp;amp; Campion (1997), Personnel Psychology - &lt;a href=&quot;https://www.academia.edu/105554821/A_Review_of_Structure_in_the_Selection_Interview&quot;&gt;A Review of Structure in the Selection Interview&lt;/a&gt;, state that structure in the employment interview refers to the degree of standardization in interview questions and the scoring of responses. Increasing structure generally results in higher reliability, validity, and legal defensibility.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Schmidt &amp;amp; Hunter (1998) on the Psychological Bulletin - &lt;a href=&quot;https://www.researchgate.net/profile/Frank-Schmidt-2/publication/232564809_The_Validity_and_Utility_of_Selection_Methods_in_Personnel_Psychology/links/53e2938f0cf216e8321e0625/The-Validity-and-Utility-of-Selection-Methods-in-Personnel-Psychology.pdf&quot;&gt;The Validity and Utility of Selection Methods in Personnel Psychology&lt;/a&gt; make the case that selection procedures should be chosen based on their validity for predicting job performance. Methods that lack clear job relevance generally show lower validity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;From Levashina et al. (2014), again in Personnel Psychology - &lt;a href=&quot;http://www.morgeson.com/downloads/levashina_hartwell_morgeson_campion_2014.pdf&quot;&gt;Structured interviews improve construct validity&lt;/a&gt;, we learn that structured interviews improve construct validity by reducing contamination from irrelevant factors such as interviewer biases, impression management, and idiosyncratic interpretations of responses.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Broad meta-analyses in the same time range (McDaniel et al. (1994), Schmidt &amp;amp; Hunter (1998), Levashina, Hartwell, Morgeson &amp;amp; Campion (2014)) consistently show that &lt;strong&gt;structured interviews, work-sample tests, cognitive ability tests, and importantly for us, well-designed situational exercises have high predictive validity&lt;/strong&gt;…&lt;/p&gt;
+
+&lt;p&gt;Kohn &amp;amp; Dipboye (1998) - Journal of Applied Psychology - &lt;a href=&quot;https://www.academia.edu/24629285/The_Effects_of_Interview_Structure_on_Recruiting_Outcomes&quot;&gt;The Effects of Interview Structure on Recruiting Outcomes&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stress interviews may elicit anxiety-related reactions that are not representative of typical job performance and may unfairly disadvantage certain applicants.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…but &lt;strong&gt;unstructured interviews, stress interviews, and trick questions do not.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A raw Kobayashi Maru, used as a theatrical no-win trap, would fail spectacularly as an evaluation tool. It teaches only that failure is inevitable. As a data point, it is nearly useless.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But the story doesn’t end there.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-case-for-structured-no-win-scenarios&quot;&gt;The Case for Structured No-Win Scenarios&lt;/h2&gt;
+
+&lt;p&gt;Research also shows that situational judgement and simulation-based exercises are particularly effective when assessing complex competencies such as judgement, decision-making, and adaptability, provided they are structured, job-relevant, and consistently evaluated following the conclusions that we attained previously.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Supporting Research:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Huffcutt &amp;amp; Arthur (1984) - Journal of Applied Psychology - &lt;a href=&quot;https://maamodt.asp.radford.edu/PSYC%20651/Huffcutt%20&amp;amp;%20Arthur%20(1994)%20Interview.pdf&quot;&gt;Hunter and Hunter (1984) validity and utility of alternative predictors of job performance&lt;/a&gt;: Situational interview questions are effective to the extent that they elicit job-related behaviors rather than hypothetical or artificial responses.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lievens, Peeters &amp;amp; Schollaert (2008) - Journal of Occupational and Organizational Psychology - &lt;a href=&quot;https://www.researchgate.net/publication/228362596_Situational_judgment_tests_A_review_of_recent_research&quot;&gt;Situational judgment tests: A review of recent research&lt;/a&gt;: Situational judgment and simulation-based exercises are particularly useful for assessing complex competencies such as judgment, decision-making, and adaptability as they are expressed in ambiguous work contexts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Weekley &amp;amp; Ployhart (2006) - Personnel Psychology - &lt;a href=&quot;https://www.researchgate.net/publication/278033750_Situational_Judgment_Test&quot;&gt;Situational Judgment Tests&lt;/a&gt;: Simulation exercises allow candidates to demonstrate how they diagnose problems, prioritize information, and respond to changing constraints.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I gathered some support for my hypothesis but the moment a scenario is intentionally unsolvable, the evaluation must shift from solution quality to reasoning quality. What matters is how candidates frame the problem, state and work their assumptions, reason about trade-offs, handle uncertainty, and are honest when they are losing. With this we can work with in a structured and measurable manner as long as our scenario proposals are within the job context and expectations.&lt;/p&gt;
+
+&lt;p&gt;So there is a path for designing no-win situational judgement tests as long as we design the scenarios and interview interactions respecting some structural tenets.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Critical Insight:&lt;/strong&gt; The moment a scenario is intentionally unsolvable, the evaluation must shift from &lt;strong&gt;solution quality to reasoning quality&lt;/strong&gt;. What matters is how candidates frame the problem, state and work their assumptions, reason about trade-offs, handle uncertainty, and are honest when they are losing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The moment we want that the scenario becomes “unsolvable by design,” evaluation must shift from solution quality to reasoning quality.&lt;/p&gt;
+
+&lt;p&gt;So to avoid construct contamination with less objective factors and responses we need to explicitly define what is being evaluated (e.g., framing, trade-off reasoning, uncertainty handling).
+A no-win scenario must map directly to real R&amp;amp;D PM work (trade-offs, ambiguity), not abstract cleverness or pressure tolerance ( I committed this mistake in the past: blame Hollywood! ). If the candidate is expected to “crack” or emotionally collapse, the exercise loses validity. Finally, the scenario needs to be close to actual organizational dilemmas, not logical paradoxes or hidden traps, all present in the original Kobayashi Maru but with the caveat that future captains would face war, negotiation and advanced aliens.&lt;/p&gt;
+
+&lt;p&gt;And don’t forget the interviewer biases and bad habits. If the interviewer subconsciously rewards confidence, cleverness, or performative leadership, you lose validity so keeping your evaluation sheet close and fighting human instincts is also part of the exercise.&lt;/p&gt;
+
+&lt;p&gt;How to design your Kobayashi Marus?
+We’ve already covered much terrain. We just need a map for it.&lt;/p&gt;
+
+&lt;p&gt;Let’s call it the “Pondered Kobayashi-Maru Decision” or just PKD.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PKD Requirements:&lt;/strong&gt;
+Kobayashi Maru exercise types are only defensible if:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The exercise must be standardised in both questions and scoring&lt;/li&gt;
+  &lt;li&gt;The evaluation criteria must be explicit and limited to job-relevant constructs&lt;/li&gt;
+  &lt;li&gt;The scenario must resemble real organisational dilemmas, not logical puzzles or hidden traps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ambiguity in content is acceptable; ambiguity in evaluation is not.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-pkd-framework&quot;&gt;The PKD Framework&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Pondered Kobayashi-Maru Decision (PKD)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Not a stunt. Not a trap. Not a stress test dressed up as philosophy.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Designing one starts by accepting a constraint: &lt;strong&gt;you are not testing outcomes. You are testing candidate’s judgement in an adversarial environment that will take them to a loss.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s not about watching candidates fail. It’s about observing how they think when success is no longer an option.&lt;/p&gt;
+
+&lt;p&gt;First, start thinking on the most impactful features that you need on your role. Let’s consider a research and development lead, probably running a few experiments, polishing proofs of concept to a minimal viable product and making bets in a given vertical. This is definitely living on the edge of knowledge and pushing a few boundaries while refining new findings into the next product horizon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For a Product R&amp;amp;D Lead, the work is rarely about optimisation. It’s about placing bets under constraint.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Typical tensions look like this:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learning speed vs organisational risk&lt;/li&gt;
+  &lt;li&gt;Short-term delivery vs long-term platform health&lt;/li&gt;
+  &lt;li&gt;Stakeholder alignment vs technical truth&lt;/li&gt;
+  &lt;li&gt;Evidence quality vs decision urgency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PKDs should sit exactly at the intersection of two or more of these forces, where satisfying one explicitly damages the other.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If the problem has a clean “best practice” answer, it’s not a PKD.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;pkd-scenarios-in-practice&quot;&gt;PKD Scenarios in Practice&lt;/h2&gt;
+
+&lt;p&gt;I’ll suggest a few examples but don’t accept them as recipe. Work your way first, mapping your tensions and breaking points to make them clear in the proposal. &lt;strong&gt;There shouldn’t be any correct answer. Just revealing ones.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-pkd-scenario-1-the-experiment-that-worked-too-well&quot;&gt;📋 PKD Scenario 1: The Experiment That Worked Too Well&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Setup:&lt;/strong&gt; You lead a Product R&amp;amp;D team exploring a new capability adjacent to your core platform. A proof of concept, built quickly, with shortcuts, is showing unexpectedly strong traction with a pilot customer (RAGs, I’m looking at you).&lt;/p&gt;
+
+&lt;p&gt;At the same time, the architecture is not production-ready as expected, security has flagged multiple concerns and let’s make this even more stressful with another team depending on the same components for a regulatory deadline.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Constraint:&lt;/strong&gt; Leadership asks: “We have a quarter to turn this into a customer-facing MVP or else we’ll lose our time-to-market and all work is forfeit. Make it so.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mid-scenario blocks:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Extra headcount is not available&lt;/li&gt;
+  &lt;li&gt;Saying “no” risks losing executive sponsorship for any future initiative&lt;/li&gt;
+  &lt;li&gt;Saying “yes” risks technical debt, security exposure, and reputational damage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What can we evaluate:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How assumptions are surfaced&lt;/li&gt;
+  &lt;li&gt;How trade-offs are articulated, not avoided&lt;/li&gt;
+  &lt;li&gt;Whether the candidate distinguishes learning success from delivery readiness&lt;/li&gt;
+  &lt;li&gt;How they frame losses when all paths have one&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-pkd-scenario-2-the-roadmap-collision&quot;&gt;📋 PKD Scenario 2: The Roadmap Collision&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Setup:&lt;/strong&gt; Your team owns an exploratory product line. Another product group owns a revenue-critical roadmap.&lt;/p&gt;
+
+&lt;p&gt;You found a shared dependency but your R&amp;amp;D work could unblock future growth while their roadmap funds the organisation now and they don’t want to compromise anything. &lt;strong&gt;Priority is singular. There can be only one&lt;/strong&gt; ( sword sound here for my fellow millennials ). Both cannot be prioritised without compromise.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;During the exercise:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stakeholder pressure is asymmetric&lt;/li&gt;
+  &lt;li&gt;Data is partial and politically charged&lt;/li&gt;
+  &lt;li&gt;Delaying either path has visible consequences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Mid-scenario twist:&lt;/strong&gt; You are informed that whichever option you choose, the other team will publicly disagree with the decision.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What this tests:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Decision framing under social and political pressure&lt;/li&gt;
+  &lt;li&gt;Whether the candidate seeks false consensus&lt;/li&gt;
+  &lt;li&gt;How ownership and accountability are expressed&lt;/li&gt;
+  &lt;li&gt;Comfort with visible disagreement and loss of goodwill&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Remember:&lt;/strong&gt; There is no win — only managed loss.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;implementation-guidelines&quot;&gt;Implementation Guidelines&lt;/h2&gt;
+
+&lt;p&gt;Cool stories bro but who’s going to conduct them and how?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A PKD only works if discipline exceeds creativity.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;non-negotiables&quot;&gt;Non-negotiables:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Standardise the prompts:&lt;/strong&gt; Every candidate gets the same information, the same constraints, the same twists.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Standardise the scoring:&lt;/strong&gt; You are evaluating:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Problem framing&lt;/li&gt;
+  &lt;li&gt;Assumption management&lt;/li&gt;
+  &lt;li&gt;Trade-off reasoning&lt;/li&gt;
+  &lt;li&gt;Uncertainty acknowledgement&lt;/li&gt;
+  &lt;li&gt;Ethical clarity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Make reflection part of the exercise:&lt;/strong&gt; Ask what they would review after the decision. Leaders don’t just decide, they learn.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-to-avoid&quot;&gt;What to avoid:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Never reward emotional collapse and charisma.&lt;/strong&gt; Pressure is inherent. Distress is not the signal. Don’t look for James T. Kirk alikes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Always remember:&lt;/strong&gt; Ambiguity in the scenario is acceptable but ambiguity in what you value is not.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The original Kobayashi Maru was about accepting failure as part of command.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A PKD is about something deeper and way harder in every aspect of our lives: how people think when success is no longer available as a strategy.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In Product R&amp;amp;D, that moment comes more often than we like to admit. Better to observe it deliberately than discover it by accident.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>There Are No DevOps Engineers*</title>
@@ -2395,109 +2667,6 @@ One might not care about tracking and even accept paying the price to avoid rand
 There is a way of opting out of the experiment but at the cost of crippling existing features. The user needs to disable all third-party cookies explicitly. If your privacy concerns are serious, you’ve probably made this decision in the past, but consider users that rely on single sign-on portals and need to lose unrelated facilities to avoid experimentation.&lt;/p&gt;
 
 &lt;p&gt;The first FLoC flight is already in the air, and time will tell if the technology stands, but users should be informed that they are part of worldwide social experiments, and be provided with a lever to exit the ride at any time.&lt;/p&gt;
-
-
-        </content>
-    </entry>
-    
-    <entry>
-        <title>MV Journal March 9 - March 23</title>
-        <link href="https://directionwithintent.com/mvjournal/mvjournal_2/"/>
-        <updated>2021-03-22T00:00:00+00:00</updated>
-        <id>https://directionwithintent.com/mvjournal/mvjournal_2</id>
-        <author>
-					<name>Nuno Valente</name>
-					<uri>https://directionwithintent.com/</uri>
-					<email>nuno.valente@gmail.com</email>
-				</author>
-        <content type="html">
-        	&lt;img src=&quot;https://directionwithintent.com/images/Banner_MVJournal_banner_2.png&quot;&gt;&lt;br/&gt;
-        	&lt;p&gt;The second edition already? And what a couple of weeks.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#ovh-roof-was-on-fire-and-we-dodged-that-bullet&quot;&gt;OVH roof was on fire, and we dodged that bullet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#nfts-digital-uniqueness-paying-off&quot;&gt;NFTs Digital Uniqueness paying off&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;ovh-roof-was-on-fire-and-we-dodged-that-bullet&quot;&gt;OVH roof was on fire, and we dodged that bullet&lt;/h2&gt;
-&lt;h5 id=&quot;march-13th&quot;&gt;&lt;em&gt;March 13th&lt;/em&gt;&lt;/h5&gt;
-
-&lt;p&gt;From time to time, I need to have a talk about backups at the office, and if you ever worked with me, you’re already familiar with the rhetorical:&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;
-
-    &lt;strong&gt;&lt;em&gt;“What if our data centre burned to a crisp?”&lt;/em&gt;&lt;/strong&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;For other reasons, I also use the “What if Jonh gets hit by a car?” but I digress. Some years ago, I found out that I wasn’t that original and, this particular type of problem is already known by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Bus_factor&quot;&gt;Bus Factor&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;March 10th, I bet many System Administrators got immense heartburn after losing pings to their cherished machines and learning later that their data sublimed after one OVH Strasburg data centre got utterly destroyed by fire while a second one was heavily damaged in the incident.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetovh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While the fire was still running, the whole Strasburg site had to be disconnected, putting every machine offline and out of businesses reach.
-You can find OVH’s statement in the following &lt;a href=&quot;https://www.ovh.ie/news/press/cpl1786.fire-our-strasbourg-site&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s no secret that Multivision is an OVH client, but fortunately, we weren’t significantly affected by the incident since we only had a few development machines at that location.
-We can only wish the best of luck to every business out there that might stop to a halt after this tragic incident and a speedy OVH recovery as well.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, even if you didn’t get affected by this accident, the event should be enough to remind us all that even the smallest business should always keep in mind the 3-2-1 backup rule:&lt;/p&gt;
-
-&lt;p&gt;3 data copies&lt;/p&gt;
-
-&lt;p&gt;2 types of storage&lt;/p&gt;
-
-&lt;p&gt;1 copy offsite&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;nfts-digital-uniqueness-paying-off&quot;&gt;NFTs Digital Uniqueness paying off&lt;/h2&gt;
-&lt;h5 id=&quot;march-11&quot;&gt;&lt;em&gt;March 11&lt;/em&gt;&lt;/h5&gt;
-
-&lt;p&gt;In our premiere issue, we’ve covered [Bitcoin’s value skyrocketing] (https://directionwithintent.com/mvjournal/mvjournal_1/#more-fuel-for-the-btc-fire), creating digital millionaires in a few weeks, not to mention the people that are saving valuable digital hashes for future speculative movements.
-This week, we will cover another type of digital asset that is taking creators and investors attention.&lt;/p&gt;
-
-&lt;p&gt;Mr Mike Winkelmann, also know in the digital art industry as Beeple sold one of his digital artworks for 69 million dollars with the famous auction house Christie’s.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;
-
-&lt;strong&gt;And what the proud owner got?&lt;/strong&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;This: &lt;a href=&quot;https://onlineonly.christies.com/s/first-open-beeple/beeple-b-1981-1/112924&quot;&gt;Everydays - The First 5000 days&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;But make no mistake. The owner didn’t pick up a physical art piece. The lucky buyer received a data file from the transaction, notwithstanding a unique digital file minted as an NFT.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://directionwithintent.com/images/tweetbeeple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sure, Mr Beeple. We get the feeling.&lt;/p&gt;
-
-&lt;p&gt;Keep up and make the best of it!&lt;/p&gt;
-
-&lt;h3 id=&quot;non-fungible-token--nft--a-primer&quot;&gt;Non-fungible Token ( NFT ), a primer.&lt;/h3&gt;
-
-&lt;p&gt;69 million dollars is a ridiculous amount of money for most mortals, but this wasn’t Mr Beeple’s first rodeo selling an NTF. A month before this record-breaking number, another original Beeple was sold for 6.6 million dollars of &lt;a href=&quot;https://en.wikipedia.org/wiki/Ethereum&quot;&gt;Ether&lt;/a&gt;. The piece was initially sold last year by Mr Beeple himself for the modest amount of 66.666,66 dollars.&lt;/p&gt;
-
-&lt;p&gt;But what’s a Non-fungible Token?&lt;/p&gt;
-
-&lt;p&gt;Based on the ubiquitous Blockchain, the technology allows a user to uniquely identify a collection of bytes making him the de-facto owner of the collection and possible signed copies. Although you can create infinite copies of the same byte collection, it’s always possible to establish the provenance of such a collection and even the transactional history of the ensemble querying the underlying NFT blockchain.&lt;/p&gt;
-
-&lt;p&gt;With the previous explanation in mind, it is easy to understand how to map this digital property set to the physical world. Assume that the author of a book only signs one hundred copies of is the first edition. A first edition might turn the printers for thousands of book copies, but only a fraction will have that valuable scribble of your favourite author.
-NFTs allow for the same type of scarcity in the digital world. An entity can create a set of digitally signed copies that reside in the implementation of a Blockchain. From that point on, the copy can switch hands with a typical transaction in the network.&lt;/p&gt;
-
-&lt;h3 id=&quot;art-but-what-else&quot;&gt;Art, but what else?&lt;/h3&gt;
-
-&lt;p&gt;When writing this article, I explained the technology to a friend of mine in a casual conversation, which made him remember something very similar. He pointed out that the NBA was doing something similar with the &lt;a href=&quot;https://www.nbatopshot.com/&quot;&gt;Top Shot&lt;/a&gt; business. He described that collectors bought “moments” instead of physical cards, giving the impression that it was a brand approved “scam”.&lt;/p&gt;
-
-&lt;p&gt;After some light digging, I’ve found out that they are leveraging NFTs for this endeavour in a partnership between the NBA and Dapper Labs, a well-known software house that develops games using Blockchain.&lt;/p&gt;
-
-&lt;p&gt;My take on NFTs would be precisely this. Every collectable that we might think can be translated to this medium, but not only that.&lt;/p&gt;
-
-&lt;p&gt;Consider the games World of Warcraft or Fortnite, where weapons and avatars can be digitally minted. Game collectors could actually own the first sword that brought down Kel’Thuzad or a unique avatar for official competitions of a Battle Royal event.&lt;/p&gt;
-
-&lt;p&gt;In my opinion, we are still some years from having digital assets on par with physical objects, but I would not be surprised if my son’s son invests in NFT markets daily.&lt;/p&gt;
 
 
         </content>
