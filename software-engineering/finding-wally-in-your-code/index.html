@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+    <script type="text/javascript">
+var host = "directionwithintent.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+<meta charset="utf-8">
+<title>Are You Still Looking for Wallys in Your Code? • Direction With Intent</title>
+<meta name="description" content="This is another Wally-themed episode my friend. Looks like I’m stuck on these, but you do remember those books, right? Where’s Wally? Or Waldo, depending on which side of the Atlantic raised you.
+">
+<meta name="keywords" content="">
+
+	<!-- Twitter Cards -->
+	<!-- https://dev.twitter.com/cards/markup -->
+	<!-- https://dev.twitter.com/cards/types -->
+	<meta name="twitter:title" content="Are You Still Looking for Wallys in Your Code?">
+	
+		<meta name="twitter:description" content="This is another Wally-themed episode my friend. Looks like I’m stuck on these, but you do remember those books, right? Where’s Wally? Or Waldo, depending on which side of the Atlantic raised you.
+">
+	
+	
+		<meta name="twitter:site" content="@nuvan">
+	
+	
+		<meta name="twitter:creator" content="@nuvan">
+	
+	
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content="https://directionwithintent.com/images/wallies-suspicious.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Are You Still Looking for Wallys in Your Code?">
+	
+		<meta property="og:description" content="This is another Wally-themed episode my friend. Looks like I’m stuck on these, but you do remember those books, right? Where’s Wally? Or Waldo, depending on which side of the Atlantic raised you.
+">
+	
+	
+		<meta property="og:image" content="https://directionwithintent.com/images/wallies-suspicious.png">
+	
+	<meta property="og:url" content="https://directionwithintent.com/software-engineering/finding-wally-in-your-code/">
+	<meta property="og:site_name" content="Direction With Intent">
+
+
+
+<link rel="canonical" href="https://directionwithintent.com/software-engineering/finding-wally-in-your-code/">
+
+<link href="https://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
+<link href="https://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+<link rel="shortcut icon" href="https://directionwithintent.com/favicon.png">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="cleartype" content="on">
+<meta name="google" content="notranslate" />
+
+<link rel="stylesheet" href="https://directionwithintent.com/css/main.css">
+
+
+  </head>
+
+  <body>
+    <script src="https://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
+<script src="https://directionwithintent.com/js/main.js"></script>
+<script src="https://directionwithintent.com/js/header_fader.js"></script>
+<script src="https://directionwithintent.com/js/smart-images.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  }
+})});
+</script>
+
+    <header class="header absolute transparent naver">
+    <div id="masthead-article">
+      <div class="inner-wrap">
+        <a href="https://directionwithintent.com" class="site-title white-logo"></a>
+        <nav role="navigation-article" class="menu-article floated">
+          <ul>
+            
+              
+            <!--li>
+              <a class="white" href="https://directionwithintent.com/mvjournal/" >MVJOURNAL</a>
+            </li-->
+          
+              
+            <!--li>
+              <a class="white" href="https://directionwithintent.com/product/" >PRODUCT</a>
+            </li-->
+          
+              
+            <!--li>
+              <a class="white" href="https://directionwithintent.com/opinion/" >OPINION</a>
+            </li-->
+          
+            <li>
+              <button type="button" class="js-menu-trigger sliding-menu-button-article white">
+                ☰
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+</header>
+
+<nav id="slided" role="navigation" class="js-menu sliding-menu-content">
+    <button type="button" class="js-menu-trigger sliding-menu-button menulines-button x2" role="button" aria-label="Toggle Navigation">
+    <span class="menulines white-cross"></span>
+    </button>
+  <ul class="menu-item">
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/mvjournal/" class="title">MVJOURNAL</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/product/" class="title">PRODUCT</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/opinion/" class="title">OPINION</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/software-engineering/" class="title">SOFTWARE-ENGINEERING</a>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="page-wrapper">
+  <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+  
+  <div class="page-lead">
+    <img src="https://directionwithintent.com/images/wallies-suspicious.png" alt="Are You Still Looking for Wallys in Your Code?" class="feature-image">
+  </div>
+
+
+<div id="page-wrapper">
+<div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		<nav class="breadcrumbs">
+  <a href="https://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="https://directionwithintent.com/software-engineering/">Software engineering</a> <span class="divider">/</span>
+</nav><!-- /.breadcrumbs -->
+		<div class="page-title">
+			<h1>Are You Still Looking for Wallys in Your Code?</h1>
+		</div>
+		<div class="inner-wrap">
+			<nav class="toc"></nav><!-- /.toc -->
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>This is another Wally-themed episode my friend. Looks like I’m stuck on these, but you do remember those books, right? <em>Where’s Wally?</em> Or Waldo, depending on which side of the Atlantic raised you.</p>
+
+<p><em>Where’s Wally?</em> was a deliberately chaotic series of illustrated books, stuffed with confusion and distraction, red herrings sprinkled on top, and somewhere in that color maelstrom, one striped character waiting to be found.
+Finding Wally is a somewhat fine-grained search problem akin to so many other mechanical tasks. Cumbersome, sometimes maddening, but ultimately a pattern-matching exercise where your eyes scan, discard, scan again, and bam! There’s the fella.</p>
+
+<p>Now consider a new proposition for the <em>Where’s Wally?</em> saga: once you find the guy, look at what he’s doing. Does it look like he’s doing something illegal? Is he stealing from that vendor? Is he jaywalking in front of a bus? Is he carrying a suspiciously large bag through customs? What type of shenanigans is he up to, hmm? You’ll be the judge, and you win or lose by correctly calling balls and strikes.</p>
+
+<p>This proposition is an entirely different cognitive exercise. You need context. You need to understand the scene around him. You need memory of what’s socially acceptable in that particular frame. You need judgement.</p>
+
+<p><strong>Two steps. One picture. No internet pun here. Completely different skills.</strong></p>
+
+<p>Finding Wally is what we are used to, but judging him brings a whole extra layer of requirements to the table that makes the challenge way more interesting.</p>
+
+<p>What does this teach you about B2B sales? Nothing. But how about code reviews? Let’s turn the page to find it out.</p>
+
+<hr />
+
+<p>A typical code review starts with a change to something that already exists, a chunk of code that changes a previous version of, well, another chunk of code.
+Sometimes you are reviewing a full project with a specific objective. Sometimes it is the first version of something but, most of the time, somebody sends you a diff and asks whether the change should go in.</p>
+
+<p>Upon first inspection, you rarely stay inside that diff. You expand outward. You inspect the surrounding classes, follow a call into another service, look at an interface, check where a value came from, inspect a database migration, or find the consumer of an API that was just changed.</p>
+
+<p>Some would rather start with the tests, regardless of whether the code was actually developed using TDD. Tests can be one of the fastest ways of understanding what the author believes the new behavior should be. And sometimes the difference between what the tests claim has changed and what the implementation actually changes is where the interesting part of the review begins.</p>
+
+<p>The objective is not necessarily to read every line of the repository. It is to build a good-enough picture to understand the change.</p>
+
+<p>This is our first version of finding Wally. And we’ve been doing it with our bare eyes and mushy brains for decades.</p>
+
+<hr />
+
+<p>Humans naturally mix this search process with judgment. We read a little bit, notice something, form a hypothesis, read some more, reconsider it, and perhaps leave a comment. That is not necessarily a bad way of working. In fact, judgment often helps us decide where to look next.</p>
+
+<p>If I notice suspicious shared state, I will probably follow the concurrency paths. If I see a transaction boundary in an unexpected place, I will inspect what sits behind it. If an API contract changed, I will start looking for consumers.</p>
+
+<p>So code review is not really:</p>
+
+<blockquote>
+  <p>read everything, then start thinking.</p>
+</blockquote>
+
+<p>It is more like:</p>
+
+<blockquote>
+  <p>observe, hypothesize, expand the context, revise the hypothesis, judge.</p>
+</blockquote>
+
+<p>The problem comes when we collapse those stages too quickly. We notice something strange and immediately convert it into a review comment.
+<strong>But a suspicious pattern is not yet a review finding.</strong> Sure, some things can be caught early and fixed without full context. A formatting inconsistency. A typo. Dead code. An import that is no longer necessary. These are mechanical on most occasions. They belong close to the Wally-finding side of the exercise.</p>
+
+<p>Other things live somewhere in that liminal space between mechanics and judgment.</p>
+
+<p>A strange variable name may look like a readability problem until you discover that it uses terminology from the business domain. Some duplicated code may actually represent two concepts that happen to look similar today but evolve independently. An abstraction that seems unnecessary locally may exist because of a constraint elsewhere in the system.</p>
+
+<p>And then there are questions that are unmistakably contextual.</p>
+
+<p>Does this implementation make sense within the existing architecture? Does it actually solve the problem we were asked to solve? Is eventual consistency acceptable here? Is the added complexity justified? Is this the right trade-off given the constraints of this system and this organization?</p>
+
+<p>Those questions cannot reliably be answered by staring harder at one block of code. You need the picture with progressively more context and better resolution.</p>
+
+<hr />
+
+<p>This is where LLM-assisted Wally-catching review becomes particularly interesting. A good code-aware model can inspect a lot of material very cheaply.
+It can follow references, compare implementations, inspect tests, look for repeated patterns, identify suspicious error handling, trace where a value is consumed, notice that an interface changed without an obvious corresponding update somewhere else, or simply ask questions about pieces of code that a human reviewer might reasonably skim or ignore.</p>
+
+<p>After hundreds of lines, another configuration file looks remarkably uninteresting. Another mapper looks exactly like the previous three. The fourth test fixture probably feels less exciting than the first (as if test fixtures were ever exciting).</p>
+
+<p>Our friendly LLM has a very useful property here: asking it to inspect one more boring thing costs almost nothing.</p>
+
+<p>But we also know very well that the relevant context of a software system frequently extends well beyond its source code.
+There are deployment constraints, data already sitting in production, feature flags, ADRs, external systems, undocumented agreements between teams, historical decisions, operational incidents, and business requirements that may exist nowhere near Git.</p>
+
+<p>The code repository is just one of the picture artifacts, and a very black-and-white-ish one, if I may say.</p>
+
+<p>For a good code-aware LLM, finding Wally is increasingly the easy part. And even better, it can look at a very large portion of the frame at once, layer the differences on top, follow references repeatedly, and revisit details without the same Saturday-afternoon drop in attention span that we humans know too well.</p>
+
+<p>There is also a legitimate objection around size since many software projects are simply too large to give a model everything at once. But I don’t think the interesting architectural question is whether the whole repository fits inside a context window. The more important question is whether the architecture gives us meaningful boundaries. A large monolith can still be understandable if responsibilities, contracts, and dependencies are clear enough to isolate the relevant slice. A distributed system can be almost impossible to reason about if every service depends implicitly on everything else. Size and architectural quality are not the same thing, and good architecture allows context to be progressively disclosed without exhausting the model’s context window.</p>
+
+<p>If you work with projects where understanding a few-line change requires loading half the company into context, code review might not be the process you need to fix or optimize first. I have reviewed codebases that I would not wish on anyone, so I know that nice boundaries are not guaranteed.</p>
+
+<hr />
+
+<h2><img src="https://directionwithintent.com/images/read-judge-diagram.png" alt="Three approaches compared - Traditional Human Review, Naive AI Review, Better AI-Assisted Review" style="width: 100%; height: auto;" /></h2>
+
+<hr />
+
+<p>The distinction in the picture above matters because the naive version of AI code review is not particularly attractive. A model finds a pattern and immediately tells the developer what to change.</p>
+
+<p>Missing validation.
+<em>Review comment</em>
+Potentially expensive loop.
+<em>Review comment</em>
+Duplicated logic.
+<em>Review comment</em></p>
+
+<p>Soon the pull request contains twenty superficially intelligent observations, and the developer has to review the reviewer. If we are feeling overwhelmed with the current code output, reviews like these will just make it even more frustrating.</p>
+
+<p>And by the way, we didn’t need LLMs for this. So many automated tools already create this type of noise, and you sure do know some “sonars” waiting to get you every time you try pushing code to master. That is not necessarily augmentation unless we are talking about augmenting noise.</p>
+
+<p>A more useful model could be:</p>
+
+<p><strong>detect → gather evidence → expand context → rank suspicion → reason → recommend.</strong></p>
+
+<p>So where does this leave us, carbon-unit humans, in our Wally-judgment book series? Can we leave the Wally-finding to LLMs and reserve the judgment stage for ourselves? Probably not.</p>
+
+<p>Here is where my initial attempt at extending the Wally book series starts becoming a bit more interesting than I first thought. The LLM does not have to stop after finding Wally. A sufficiently capable model can look at what Wally is doing too. It can inspect the architecture around a change, understand existing patterns, compare alternatives, and tell us something like:</p>
+
+<blockquote>
+  <p>This dependency introduces synchronous coupling between two components that were previously independently deployable.</p>
+</blockquote>
+
+<p>Or:</p>
+
+<blockquote>
+  <p>This abstraction duplicates responsibility already owned by another layer and will probably create two competing ways of solving the same problem.</p>
+</blockquote>
+
+<p>Or even:</p>
+
+<blockquote>
+  <p>Given the architecture already present in this repository, I would move this responsibility here instead and keep this interface stable.</p>
+</blockquote>
+
+<p>This already goes way beyond mechanical detection and already enters that liminal judgment space.</p>
+
+<p>And if you’ve been around with our friendly LLM helpers, you already know that they can provide very good judgment indeed.</p>
+
+<p>So I don’t want you to take my analogy as:</p>
+
+<blockquote>
+  <p>Machines find potential problems; humans decide whether they are real.</p>
+</blockquote>
+
+<p><strong>A good model can often decide whether they are real too, and sometimes with high confidence.</strong></p>
+
+<p>If a value can demonstrably be null along one execution path and is unconditionally dereferenced later, that is more than a vague suspicion.
+If two locks can clearly be acquired in opposite orders, there may be a concrete concurrency problem.
+If an API schema says one thing and the implementation returns another, that can often be established from the evidence.</p>
+
+<p>And increasingly, the same thing happens at a higher level. An LLM can reason over several services, understand architectural patterns, inspect ADRs, consume requirements, and challenge an implementation choice. Give it enough relevant context, and it may form an opinion that looks suspiciously similar to what we call engineering judgment.</p>
+
+<p>And I’m perfectly fine with that.</p>
+
+<hr />
+
+<p>The more interesting limitation is context itself, not just the size of the context window we’ve already talked about.</p>
+
+<p>Imagine the model tells me:</p>
+
+<blockquote>
+  <p>This synchronous dependency is architecturally wrong because it introduces availability coupling.</p>
+</blockquote>
+
+<p>And just maybe it is completely right. But then I tell it:</p>
+
+<blockquote>
+  <p>This feature will live for three months, and building the asynchronous mechanism would cost us two weeks. And suddenly the answer probably changes. The synchronous dependency might now be the perfectly sensible trade-off.</p>
+</blockquote>
+
+<p>So we give the LLM that context too, and then perhaps another constraint appears, and another.
+This is much closer to how engineering actually works. The repository doesn’t contain the full system of incentives, constraints, history, and compromises behind every line of code.</p>
+
+<p>Sometimes I know something the model doesn’t. Sometimes the model notices something I don’t. Sometimes one of us is simply wrong.</p>
+
+<p>That is starting to look less like a tuple of <strong>(mechanical assistant, smart human)</strong> and more like <strong>two reasoning systems with different context and different failure modes.</strong></p>
+
+<hr />
+
+<p>However, there is one distinction that remains very real and ties my analogy together in the correct way.</p>
+
+<p><strong>Accountability.</strong></p>
+
+<p>The LLM can tell me that the change is safe, reason over the architecture, propose the corrections, and it can even produce a better solution than the one I had in mind. But when the P1 hits the fan, I cannot finger-point at the model and walk away. I accepted the change, approved the trade-off, and, in the end, I own the system. I pulled the lever on this trolley problem full of code.</p>
+
+<p>The important bits are:</p>
+
+<ul>
+  <li>Human judgment is not inherently superior.</li>
+  <li>Judgment and accountability are not the same thing.</li>
+</ul>
+
+<p>The machine can make the case, but we still put our fingerprints and sign it with blood, not tokens.</p>
+
+<hr />
+
+<p>LLM-assisted code review augments any software engineer’s powers, but not because the model only handles the big boring part.
+It expands how much of the search space we can afford to inspect. It systematically looks at things we might otherwise skim, reminds us about interactions we did not initially follow, and can surface candidate problems before our own attention happens to land on them, if it ever would. It can also reason about those findings, challenge architectural decisions, and propose alternatives.
+Sometimes it can even force us to explain why we disagree, and that last part may be one of the most useful things of all.</p>
+
+<p>If the model tells me:</p>
+
+<blockquote>
+  <p>This design is wrong because of X, Y, and Z,</p>
+</blockquote>
+
+<p>I should not reject the comment merely because I am the architect.</p>
+
+<p>I should be able to explain why the model is missing something, why the trade-off is intentional, or why my original decision still holds. And sometimes I won’t be able to do so. Good. Perfect!</p>
+
+<p>So perhaps my enhanced <em>Where’s Wally?</em> version for software engineers might make some sense.</p>
+
+<p><strong>First, find Wally.</strong>
+<strong>Then understand what Wally is doing.</strong>
+<strong>Then build the case for whether something is wrong.</strong>
+<strong>Check your premises and make the call.</strong></p>
+
+<p>The LLM can increasingly participate in the first three. It can search the scene, gather context, form an opinion, and propose what should happen next. The human role is not to sit on some magical throne of superior judgment. It is to challenge the reasoning, add the context that is missing, weigh the trade-offs, and ultimately own the decision.</p>
+
+<p>Let the machine find Wally and inspect the scene.
+Let it tell you why it thinks Wally is breaking the law.
+Then make it prove the case before you convict him.</p>
+
+<p>Because in the end, the machine can make the case, but you still sign off on it.</p>
+
+<p><em>PS: Don’t yet have a name for such a book.</em></p>
+
+<p><em>PPS: Still want to keep finding Wallys for fun? How about a semicolon instead? Pay a visit to <a href="https://semicolon.trm.sh/">semicolon.trm.sh</a> and go wild :)</em></p>
+
+				<footer class="page-footer">
+					<div class="footer-separator"></div>
+					
+
+<div class="author-content">
+	<h3 class="author-name">Written by <span itemprop="author">Nuno Valente</span></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+					<div class="article-meta">
+	<p class="publish-date">Published <time datetime="2026-08-28T00:00:00Z" itemprop="datePublished">August 28, 2026</time></p>
+</div><!-- /.article-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+</div>
+
+
+  <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<!--ul class="menu-item">
+		
+      
+			<li><a href="https://directionwithintent.com" ></a></li>
+		
+		</ul>
+	</nav--><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2026 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+</footer>
+
+</div>
+
+  </body>
+</html>
