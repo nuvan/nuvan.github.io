@@ -1,10 +1,55 @@
+# Generated deployment repository for directionwithintent.com
+#
+# Contents are produced by ../directionwithintent/publish.sh. Do not edit here.
+#
+# This file is a safety net. Internal source files should never reach this repo
+# because Jekyll excludes them and publish.sh verifies the output, but internal
+# files were published by accident twice before (see commits bb03afd5 and
+# 02c2595e). If those layers ever regress, git will still refuse to stage them.
+
+# Internal planning and tooling, must never be published
+access token
+AGENTS.MD
+AGENTS.md
+FollowUp.md
+typography.md
+README.md
+build.sh
+serve.sh
+publish.sh
+docs/
+features/
+bugs/
+experiments/
+
+# Jekyll source that must never appear here
+_config.yml
+_local_config.yml
+_posts/
+_layouts/
+_includes/
+_plugins/
+_sass/
+_data/
+_templates/
+_site/
+_drafts/
+.jekyll-cache/
+Gemfile
+Gemfile.lock
+.ruby-version
+
+# Build tooling
+Gruntfile.js
+package.json
+.jshintrc
+node_modules
+_asset_bundler_cache
+.sass-cache
+codekit-config.json
+resources
+
+# Editor and OS noise
 .DS_Store
 *.sublime-project
 *.sublime-workspace
-codekit-config.json
-node_modules
-_asset_bundler_cache
-_drafts
-.sass-cache
-Gemfile.lock
-resources
