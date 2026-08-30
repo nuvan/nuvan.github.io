@@ -144,7 +144,7 @@
 <loc>https://directionwithintent.com/mvjournal/archive/</loc>
 </url>
 <url>
-<loc>https://directionwithintent.com/search/</loc>
+<loc>https://directionwithintent.com/mvjournal/</loc>
 </url>
 <url>
 <loc>https://directionwithintent.com/product/</loc>
@@ -157,8 +157,5 @@
 </url>
 <url>
 <loc>https://directionwithintent.com/opinion/</loc>
-</url>
-<url>
-<loc>https://directionwithintent.com/mvjournal/</loc>
 </url>
 </urlset>
