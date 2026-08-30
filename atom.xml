@@ -78,7 +78,7 @@ Sometimes you are reviewing a full project with a specific objective. Sometimes 
 &lt;/blockquote&gt;
 
 &lt;p&gt;The problem comes when we collapse those stages too quickly. We notice something strange and immediately convert it into a review comment.
-&lt;strong&gt;But a suspicious pattern is not yet a review finding.&lt;/strong&gt; Sure, some things can be caught early and fixed without full context. A formatting inconsistency. A typo. Dead code. An import that is no longer necessary. These are mechanical on most occasions. They belong close to the Wally-finding side of the exercise.&lt;/p&gt;
+&lt;strong&gt;But a suspicious pattern is not yet a review finding.&lt;/strong&gt; Sure, some things can be caught early and fixed without full context. A formatting inconsistency. A typo. Dead code. An import that is no longer necessary. These are mechanical on most occasions and they belong close to the Wally-finding side of the exercise.&lt;/p&gt;
 
 &lt;p&gt;Other things live somewhere in that liminal space between mechanics and judgment.&lt;/p&gt;
 
