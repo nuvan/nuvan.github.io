@@ -7,7 +7,7 @@
     <subtitle>Think Through. Execute.</subtitle>
     <link href="https://directionwithintent.com/atom.xml" rel="self"/>
     <link href="https://directionwithintent.com/" rel="alternate" type="text/html"/>
-    <updated>2026-08-29T00:57:20+01:00</updated>
+    <updated>2026-08-30T14:24:10+01:00</updated>
     <id>https://directionwithintent.com/</id>
     <author>
 			<name>Nuno Valente</name>
@@ -48,7 +48,7 @@ Finding Wally is a somewhat fine-grained search problem akin to so many other me
 &lt;p&gt;A typical code review starts with a change to something that already exists, a chunk of code that changes a previous version of, well, another chunk of code.
 Sometimes you are reviewing a full project with a specific objective. Sometimes it is the first version of something but, most of the time, somebody sends you a diff and asks whether the change should go in.&lt;/p&gt;
 
-&lt;p&gt;Upon first inspection, you rarely stay inside that diff. You expand outward. You inspect the surrounding classes, follow a call into another service, look at an interface, check where a value came from, inspect a database migration, or find the consumer of an API that was just changed.&lt;/p&gt;
+&lt;p&gt;Upon first inspection, you rarely stay inside that diff. You’ll probably expand outward, inspect the surrounding classes, follow a call into another service, look at an interface, check where a value came from, and find the consumers of that particular function’s output.&lt;/p&gt;
 
 &lt;p&gt;Some would rather start with the tests, regardless of whether the code was actually developed using TDD. Tests can be one of the fastest ways of understanding what the author believes the new behavior should be. And sometimes the difference between what the tests claim has changed and what the implementation actually changes is where the interesting part of the review begins.&lt;/p&gt;
 
