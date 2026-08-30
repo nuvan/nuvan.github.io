@@ -112,7 +112,9 @@ There are deployment constraints, data already sitting in production, feature fl
 
 &lt;hr /&gt;
 
-&lt;h2&gt;&lt;img src=&quot;https://directionwithintent.com/images/read-judge-diagram.png&quot; alt=&quot;Three approaches compared - Traditional Human Review, Naive AI Review, Better AI-Assisted Review&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;https://directionwithintent.com/images/read-judge-diagram.png&quot; alt=&quot;Three approaches compared - Traditional Human Review, Naive AI Review, Better AI-Assisted Review&quot; style=&quot;width: 100%; height: auto;&quot; /&gt;
+&lt;/figure&gt;
 
 &lt;hr /&gt;
 

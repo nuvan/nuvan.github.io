@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <script type="text/javascript">
 var host = "directionwithintent.com";
@@ -8,18 +8,16 @@ var host = "directionwithintent.com";
 </script>
 <meta charset="utf-8">
 <title>There Are No DevOps Engineers* • Direction With Intent</title>
-<meta name="description" content="* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.
-">
+
+
+<meta name="description" content="* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.">
 <meta name="keywords" content="">
 
 	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
 	<meta name="twitter:title" content="There Are No DevOps Engineers*">
-	
-		<meta name="twitter:description" content="* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.
-">
-	
+	<meta name="twitter:description" content="* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.">
 	
 		<meta name="twitter:site" content="@nuvan">
 	
@@ -32,18 +30,15 @@ var host = "directionwithintent.com";
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
+	
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="There Are No DevOps Engineers*">
-	
-		<meta property="og:description" content="* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.
-">
-	
+	<meta property="og:description" content="* The asterisk is doing serious heavy lifting in the title. It usually does. But this time, it’s carrying an entire argument.">
 	
 		<meta property="og:image" content="https://directionwithintent.com/images/wa4.png">
 	
 	<meta property="og:url" content="https://directionwithintent.com/opinion/there-are-no-devops-engineers/">
 	<meta property="og:site_name" content="Direction With Intent">
-
 
 
 <link rel="canonical" href="https://directionwithintent.com/opinion/there-are-no-devops-engineers/">
@@ -71,27 +66,14 @@ var host = "directionwithintent.com";
 
 
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  }
-})});
-</script>
 
     <header class="header absolute transparent naver">
     <div id="masthead-article">
       <div class="inner-wrap">
-        <a href="https://directionwithintent.com" class="site-title white-logo"></a>
-        <nav role="navigation-article" class="menu-article floated">
+        <a href="https://directionwithintent.com" class="site-title white-logo" aria-label="Direction With Intent home">
+          <span class="visually-hidden">Direction With Intent home</span>
+        </a>
+        <nav role="navigation" aria-label="Main" class="menu-article floated">
           <ul>
             
               
@@ -110,8 +92,12 @@ window.cookieconsent.initialise({
             </li-->
           
             <li>
-              <button type="button" class="js-menu-trigger sliding-menu-button-article white">
-                ☰
+              <button type="button"
+                      class="js-menu-trigger sliding-menu-button-article white"
+                      aria-label="Open menu"
+                      aria-controls="slided"
+                      aria-expanded="false">
+                <span aria-hidden="true">&#9776;</span>
               </button>
             </li>
           </ul>
@@ -120,9 +106,13 @@ window.cookieconsent.initialise({
     </div>
 </header>
 
-<nav id="slided" role="navigation" class="js-menu sliding-menu-content">
-    <button type="button" class="js-menu-trigger sliding-menu-button menulines-button x2" role="button" aria-label="Toggle Navigation">
-    <span class="menulines white-cross"></span>
+<nav id="slided" aria-label="Categories" class="js-menu sliding-menu-content">
+    <button type="button"
+            class="js-menu-trigger sliding-menu-button menulines-button x2"
+            aria-label="Close menu"
+            aria-controls="slided"
+            aria-expanded="false">
+    <span class="menulines white-cross" aria-hidden="true"></span>
     </button>
   <ul class="menu-item">
     
@@ -296,8 +286,9 @@ Since there is “Dev” in the name, the individual should also implement Softw
 					<div class="footer-separator"></div>
 					
 
+
 <div class="author-content">
-	<h3 class="author-name">Written by <span itemprop="author">Nuno Valente</span></h3>
+	<p class="author-name">Written by <span itemprop="author">Nuno Valente</span></p>
 	<p class="author-bio"></p>
 </div><!-- ./author-content -->
 					<div class="article-meta">

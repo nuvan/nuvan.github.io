@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <script type="text/javascript">
 var host = "directionwithintent.com";
@@ -10,14 +10,14 @@ var host = "directionwithintent.com";
 <title>Product • Direction With Intent</title>
 
 
+<meta name="description" content="Think Through. Execute.">
+
 
 	<!-- Twitter Cards -->
 	<!-- https://dev.twitter.com/cards/markup -->
 	<!-- https://dev.twitter.com/cards/types -->
 	<meta name="twitter:title" content="Product">
-	
-		<meta name="twitter:description" content="Think Through. Execute.">
-	
+	<meta name="twitter:description" content="Think Through. Execute.">
 	
 		<meta name="twitter:site" content="@nuvan">
 	
@@ -30,15 +30,15 @@ var host = "directionwithintent.com";
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="Product">
 	
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Product">
+	<meta property="og:description" content="Think Through. Execute.">
 	
 		<meta property="og:image" content="https://directionwithintent.com/images/share01.jpg">
 	
 	<meta property="og:url" content="https://directionwithintent.com/product/">
 	<meta property="og:site_name" content="Direction With Intent">
-
 
 
 <link rel="canonical" href="https://directionwithintent.com/product/">
@@ -66,27 +66,14 @@ var host = "directionwithintent.com";
 
 
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  }
-})});
-</script>
 
     <header class="header absolute transparent naver">
     <div id="masthead-article">
       <div class="inner-wrap">
-        <a href="https://directionwithintent.com" class="site-title white-logo"></a>
-        <nav role="navigation-article" class="menu-article floated">
+        <a href="https://directionwithintent.com" class="site-title white-logo" aria-label="Direction With Intent home">
+          <span class="visually-hidden">Direction With Intent home</span>
+        </a>
+        <nav role="navigation" aria-label="Main" class="menu-article floated">
           <ul>
             
               
@@ -105,8 +92,12 @@ window.cookieconsent.initialise({
             </li-->
           
             <li>
-              <button type="button" class="js-menu-trigger sliding-menu-button-article white">
-                ☰
+              <button type="button"
+                      class="js-menu-trigger sliding-menu-button-article white"
+                      aria-label="Open menu"
+                      aria-controls="slided"
+                      aria-expanded="false">
+                <span aria-hidden="true">&#9776;</span>
               </button>
             </li>
           </ul>
@@ -115,9 +106,13 @@ window.cookieconsent.initialise({
     </div>
 </header>
 
-<nav id="slided" role="navigation" class="js-menu sliding-menu-content">
-    <button type="button" class="js-menu-trigger sliding-menu-button menulines-button x2" role="button" aria-label="Toggle Navigation">
-    <span class="menulines white-cross"></span>
+<nav id="slided" aria-label="Categories" class="js-menu sliding-menu-content">
+    <button type="button"
+            class="js-menu-trigger sliding-menu-button menulines-button x2"
+            aria-label="Close menu"
+            aria-controls="slided"
+            aria-expanded="false">
+    <span class="menulines white-cross" aria-hidden="true"></span>
     </button>
   <ul class="menu-item">
     
@@ -159,7 +154,10 @@ window.cookieconsent.initialise({
   
     <img src="//directionwithintent.com/images/bg01_1600x800_mini.jpg" alt="Direction With Intent" class="hero-image">
     <div class="hero-content">
-      <h1>THINK THROUGH. EXECUTE.</h1>
+      
+      
+        <p class="hero-title">THINK THROUGH. EXECUTE.</p>
+      
       <p>A journal of thought, technology, and deliberate action.</p>
     </div>
   
@@ -184,7 +182,7 @@ window.cookieconsent.initialise({
               
                 <span class="archive-category">PRODUCT</span>
               
-              <h3 class="archive-title">On Diderot's Effect Applications</h3>
+              <h2 class="archive-title">On Diderot's Effect Applications</h2>
               <p class="archive-excerpt">The Diderot Effect is an application of belief reinforcement on a self-identity stereotype within the context of consumption.
 </p>
               <time class="archive-date">01 Oct 2020</time>
@@ -201,7 +199,7 @@ window.cookieconsent.initialise({
               
                 <span class="archive-category">PRODUCT</span>
               
-              <h3 class="archive-title">Hortator, an Antiquity word for the modern times</h3>
+              <h2 class="archive-title">Hortator, an Antiquity word for the modern times</h2>
               <p class="archive-excerpt">Hortator, a Latin word meaning “one who encourages.”
 </p>
               <time class="archive-date">13 Sep 2020</time>
@@ -218,7 +216,7 @@ window.cookieconsent.initialise({
               
                 <span class="archive-category">PRODUCT</span>
               
-              <h3 class="archive-title">Balancing your (good) beliefs with the user needs.</h3>
+              <h2 class="archive-title">Balancing your (good) beliefs with the user needs.</h2>
               <p class="archive-excerpt">“If I had asked people what they wanted, they would have said faster horses.”
 </p>
               <time class="archive-date">02 Sep 2020</time>
@@ -235,7 +233,7 @@ window.cookieconsent.initialise({
               
                 <span class="archive-category">PRODUCT</span>
               
-              <h3 class="archive-title">Procrustean Beds of Product Management</h3>
+              <h2 class="archive-title">Procrustean Beds of Product Management</h2>
               <p class="archive-excerpt">In the Greek Mythology, Procrustes posed as a gentle caretaker, offered accommodation to any passing traveller. After an invitation for a satisfying meal, he provided a good night’s rest in his exc...</p>
               <time class="archive-date">14 Apr 2017</time>
             </div>
@@ -245,8 +243,6 @@ window.cookieconsent.initialise({
     </div>
   </div>
 </div>
-
-<script src="https://directionwithintent.com/js/timeAgo.js"></script>
 
 
 
