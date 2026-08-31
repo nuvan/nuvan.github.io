@@ -12,6 +12,9 @@
 #   teaser   q90, max  800px  cards render at 325px desktop / 356px at 3x mobile
 #   content  q90, max 1230px  .page-content is a fixed 615px column
 #
+# Every image usable as an og:image also gets a JPEG social card, because
+# LinkedIn will not render a WebP preview. See the social cards section below.
+#
 # Images are never upscaled: a master narrower than the cap is only re-encoded.
 # ICC colour profiles are preserved so colours do not shift; EXIF is dropped,
 # which also strips camera and GPS data.
@@ -39,6 +42,10 @@ Roles (subdirectory names):
   hero/       q95, max 2560px
   teaser/     q90, max  800px
   content/    q90, max 1230px
+
+Also regenerates JPEG social cards for every og:image, into images/ and
+_data/social-images.yml, so link previews work on LinkedIn as well as on X,
+Facebook and Slack. This runs even when there are no masters to convert.
 
 Options:
   --dry-run   Show what would be written without writing anything.
@@ -190,9 +197,146 @@ for role in hero teaser content; do
   done
 done
 
+# ---------------------------------------------------------------------------
+# Social card derivatives
+# ---------------------------------------------------------------------------
+# Link unfurlers need a JPEG. LinkedIn does not list WebP among the formats it
+# accepts for og:image, so a WebP-only site shows a text-only card there even
+# though X, Facebook and Slack all render WebP fine. Every image that can become
+# an og:image therefore also gets a JPEG card.
+#
+# Cards are derived from images/ rather than from masters in _images-intake/.
+# Most og:images were published long before this step existed and their masters
+# are no longer in intake, and images/ is what the site actually ships, so
+# deriving from it means the card can never disagree with the page. The extra
+# generation loss is irrelevant at the size a card is displayed.
+#
+# Cards are capped at 1200px, which is what the platforms render at, and are
+# never upscaled, following the same rule as the roles above. Exact dimensions
+# are recorded in _data/social-images.yml so _includes/open-graph.html can
+# declare og:image:width and og:image:height, which lets a crawler lay the card
+# out on first scrape instead of fetching the file to measure it, and can fall
+# back to the original image when no card exists.
+
+SOCIAL_MAXW=1200
+SOCIAL_Q=70
+SOCIAL_MANIFEST="_data/social-images.yml"
+
+# Images the Open Graph include names directly when a post has no feature image.
+# Keep this in sync with _includes/open-graph.html.
+SOCIAL_SITE_DEFAULTS="share01.webp fbprofile.webp"
+
+social_total=0; social_made=0; social_current=0; social_failed=0
+social_rows="$tmp/social-rows"
+: > "$social_rows"
+
+# An og:image is a published post's feature image, plus the site-level defaults.
+#
+# Only files whose name starts with a date are considered, because that is the
+# rule Jekyll itself applies: anything else in _posts is not published. Several
+# drafts live here under a draft_ prefix and reference images that were never
+# compressed, so scanning every file would report failures for images that no
+# live page can ask for.
+#
+# The octal escapes strip any quotes surrounding the front matter value.
+social_names=$(
+  {
+    find _posts -type f -name '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*' -print0 2>/dev/null \
+      | xargs -0 grep -hoE '^[[:space:]]*feature:[[:space:]]+[^[:space:]]+' 2>/dev/null | awk '{print $2}'
+    printf '%s\n' $SOCIAL_SITE_DEFAULTS
+  } | tr -d '\042\047' | sed '/^$/d;/-social\.jpg$/d' | sort -u
+)
+
+if [ -n "$social_names" ]; then
+  printf '\n%s==> social cards  (JPEG for link unfurlers, quality %s, max width %spx)%s\n' \
+    "$bold" "$SOCIAL_Q" "$SOCIAL_MAXW" "$reset"
+
+  while IFS= read -r name; do
+    [ -n "$name" ] || continue
+    social_total=$((social_total+1))
+    stem="${name%.*}"
+    src="$OUT/$name"
+    dest="$OUT/$stem-social.jpg"
+
+    if [ ! -f "$src" ]; then
+      printf '  %-42s %sFAILED%s   referenced but missing from %s/\n' "$name" "$red" "$reset" "$OUT"
+      social_failed=$((social_failed+1)); continue
+    fi
+
+    # Regenerate only when the source is newer, so reruns are cheap.
+    if [ -f "$dest" ] && [ "$dest" -nt "$src" ]; then
+      w=$(sips -g pixelWidth  "$dest" 2>/dev/null | awk -F': ' '/pixelWidth/{print $2}')
+      h=$(sips -g pixelHeight "$dest" 2>/dev/null | awk -F': ' '/pixelHeight/{print $2}')
+      printf '"%s"|%s-social.jpg|%s|%s\n' "$stem" "$stem" "${w:-0}" "${h:-0}" >> "$social_rows"
+      printf '  %-42s %scurrent%s\n' "$name" "$green" "$reset"
+      social_current=$((social_current+1)); continue
+    fi
+
+    natw=$(sips -g pixelWidth "$src" 2>/dev/null | awk -F': ' '/pixelWidth/{print $2}')
+    if [ -z "${natw:-}" ]; then
+      printf '  %-42s %sFAILED%s   could not read dimensions\n' "$name" "$red" "$reset"
+      social_failed=$((social_failed+1)); continue
+    fi
+
+    resample=""
+    note="re-encode only, ${natw}px source"
+    if [ "$natw" -gt "$SOCIAL_MAXW" ]; then
+      resample="--resampleWidth $SOCIAL_MAXW"
+      note="${natw}px -> ${SOCIAL_MAXW}px"
+    fi
+
+    if $DRY_RUN; then
+      printf '  %-42s would write %-34s (%s)\n' "$name" "$stem-social.jpg" "$note"
+      social_made=$((social_made+1)); continue
+    fi
+
+    if ! sips -s format jpeg -s formatOptions "$SOCIAL_Q" $resample "$src" --out "$dest" >/dev/null 2>&1; then
+      printf '  %-42s %sFAILED%s   jpeg encode failed\n' "$name" "$red" "$reset"
+      social_failed=$((social_failed+1)); continue
+    fi
+
+    w=$(sips -g pixelWidth  "$dest" 2>/dev/null | awk -F': ' '/pixelWidth/{print $2}')
+    h=$(sips -g pixelHeight "$dest" 2>/dev/null | awk -F': ' '/pixelHeight/{print $2}')
+    if [ -z "${w:-}" ] || [ -z "${h:-}" ]; then
+      printf '  %-42s %sFAILED%s   could not measure output\n' "$name" "$red" "$reset"
+      social_failed=$((social_failed+1)); continue
+    fi
+    printf '"%s"|%s-social.jpg|%s|%s\n' "$stem" "$stem" "$w" "$h" >> "$social_rows"
+
+    out_kb=$(( $(stat -f%z "$dest") / 1024 ))
+    printf '  %-42s %6sK  %sx%s  %s\n' "$name" "$out_kb" "$w" "$h" "$note"
+    social_made=$((social_made+1))
+  done <<SOCIAL_LIST
+$social_names
+SOCIAL_LIST
+
+  # The manifest is what the template reads, so write it whenever we have rows,
+  # including a run where everything was already current.
+  if ! $DRY_RUN && [ -s "$social_rows" ]; then
+    mkdir -p "$(dirname "$SOCIAL_MANIFEST")"
+    {
+      printf '# Generated by optimize-images.sh. Do not edit by hand.\n'
+      printf '#\n'
+      printf '# Maps an image stem to its JPEG social card and the exact pixel size of that\n'
+      printf '# card, so _includes/open-graph.html can declare og:image:width and\n'
+      printf '# og:image:height. Regenerate by running ./optimize-images.sh\n'
+      sort "$social_rows" | while IFS='|' read -r key file w h; do
+        [ -n "$key" ] || continue
+        printf '%s:\n  file: %s\n  width: %s\n  height: %s\n' "$key" "$file" "$w" "$h"
+      done
+    } > "$SOCIAL_MANIFEST"
+    printf '  %s written, %s entr%s\n' "$SOCIAL_MANIFEST" \
+      "$(grep -c '^  file:' "$SOCIAL_MANIFEST")" \
+      "$([ "$(grep -c '^  file:' "$SOCIAL_MANIFEST")" -eq 1 ] && echo y || echo ies)"
+  fi
+
+  failed=$((failed+social_failed))
+fi
+
 printf '\n%s==> Summary%s\n' "$bold" "$reset"
 if [ "$converted" -eq 0 ]; then
-  printf '  Nothing to convert. Put masters in %s/{hero,teaser,content}/\n' "$INTAKE"
+  printf '  No masters to convert. Put masters in %s/{hero,teaser,content}/\n' "$INTAKE"
+  printf '  social cards: %s written, %s already current\n' "$social_made" "$social_current"
 else
   if $DRY_RUN; then
     printf '  %s file(s) would be converted, %s skipped, %s failed\n' "$converted" "$skipped" "$failed"
@@ -200,6 +344,7 @@ else
     saved=$((total_in-total_out))
     ratio=$(awk -v a="$total_in" -v b="$total_out" 'BEGIN{ if (b>0) printf "%.1fx", a/b; else printf "n/a" }')
     printf '  converted %s, skipped %s, failed %s\n' "$converted" "$skipped" "$failed"
+    printf '  social cards: %s written, %s already current\n' "$social_made" "$social_current"
     printf '  %sK -> %sK  (%s smaller, %sK saved)\n' "$total_in" "$total_out" "$ratio" "$saved"
   fi
 fi
