@@ -17,6 +17,12 @@ README.md
 build.sh
 serve.sh
 publish.sh
+
+# Deny scripts by shape, not by name. optimize-images.sh and migrate-images.py
+# reached this repo because they were simply absent from the list above.
+*.sh
+*.py
+*.rb
 docs/
 features/
 bugs/
