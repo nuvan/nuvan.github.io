@@ -53,17 +53,23 @@ var host = "directionwithintent.com";
 <meta http-equiv="cleartype" content="on">
 <meta name="google" content="notranslate" />
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=Oswald:wght@300;400;700&amp;display=swap">
+
 <link rel="stylesheet" href="https://directionwithintent.com/css/main.css">
 
 
   </head>
 
   <body>
-    <script src="https://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
-<script src="https://directionwithintent.com/js/main.js"></script>
-<script src="https://directionwithintent.com/js/menu.js"></script>
-<script src="https://directionwithintent.com/js/header_fader.js"></script>
-<script src="https://directionwithintent.com/js/smart-images.js"></script>
+    
+<script defer src="https://directionwithintent.com/js/vendor/jquery-1.9.1.min.js"></script>
+<script defer src="https://directionwithintent.com/js/main.js"></script>
+<script defer src="https://directionwithintent.com/js/menu.js"></script>
+<script defer src="https://directionwithintent.com/js/header_fader.js"></script>
+<script defer src="https://directionwithintent.com/js/smart-images.js"></script>
 
 
 
@@ -204,7 +210,7 @@ Sometimes you are reviewing a full project with a specific objective. Sometimes 
 
 <hr />
 
-<p>Humans naturally mix this search process with judgment. We read a little bit, notice something, form a hypothesis, read some more, reconsider it, and perhaps leave a comment. That is not necessarily a bad way of working. In fact, judgment often helps us decide where to look next.</p>
+<p>We naturally mix our search process with our judgment. We read a little bit and notice something, form a hypothesis, read a bit more, reconsider it, and we leave a comment. This is not necessarily a bad way of working and this mixed approach often helps us decide where to look next.</p>
 
 <p>If I notice suspicious shared state, I will probably follow the concurrency paths. If I see a transaction boundary in an unexpected place, I will inspect what sits behind it. If an API contract changed, I will start looking for consumers.</p>
 
@@ -280,7 +286,7 @@ Duplicated logic.
 
 <p>So where does this leave us, carbon-unit humans, in our Wally-judgment book series? Can we leave the Wally-finding to LLMs and reserve the judgment stage for ourselves? Probably not.</p>
 
-<p>Here is where my initial attempt at extending the Wally book series starts becoming a bit more interesting than I first thought. The LLM does not have to stop after finding Wally. A sufficiently capable model can look at what Wally is doing too. It can inspect the architecture around a change, understand existing patterns, compare alternatives, and tell us something like:</p>
+<p>Here is where my initial attempt at extending the Wally book series starts becoming a bit more interesting than I first thought. The LLM does not have to stop after finding Wally. A sufficiently capable model can look at what Wally is doing too. It can inspect the architecture around a change, existing patterns and quickly state:</p>
 
 <blockquote>
   <p>This dependency introduces synchronous coupling between two components that were previously independently deployable.</p>
@@ -339,7 +345,7 @@ This is much closer to how engineering actually works. The repository doesn’t 
 
 <p>Sometimes I know something the model doesn’t. Sometimes the model notices something I don’t. Sometimes one of us is simply wrong.</p>
 
-<p>That is starting to look less like a tuple of <strong>(mechanical assistant, smart human)</strong> and more like <strong>two reasoning systems with different context and different failure modes.</strong></p>
+<p>That is starting to look less like a tuple of <strong>(mechanical assistant, smart human)</strong> and more like <strong>two reasoning systems with different context and failure modes.</strong></p>
 
 <hr />
 

@@ -61,7 +61,7 @@ Sometimes you are reviewing a full project with a specific objective. Sometimes 
 
 &lt;hr /&gt;
 
-&lt;p&gt;Humans naturally mix this search process with judgment. We read a little bit, notice something, form a hypothesis, read some more, reconsider it, and perhaps leave a comment. That is not necessarily a bad way of working. In fact, judgment often helps us decide where to look next.&lt;/p&gt;
+&lt;p&gt;We naturally mix our search process with our judgment. We read a little bit and notice something, form a hypothesis, read a bit more, reconsider it, and we leave a comment. This is not necessarily a bad way of working and this mixed approach often helps us decide where to look next.&lt;/p&gt;
 
 &lt;p&gt;If I notice suspicious shared state, I will probably follow the concurrency paths. If I see a transaction boundary in an unexpected place, I will inspect what sits behind it. If an API contract changed, I will start looking for consumers.&lt;/p&gt;
 
@@ -137,7 +137,7 @@ Duplicated logic.
 
 &lt;p&gt;So where does this leave us, carbon-unit humans, in our Wally-judgment book series? Can we leave the Wally-finding to LLMs and reserve the judgment stage for ourselves? Probably not.&lt;/p&gt;
 
-&lt;p&gt;Here is where my initial attempt at extending the Wally book series starts becoming a bit more interesting than I first thought. The LLM does not have to stop after finding Wally. A sufficiently capable model can look at what Wally is doing too. It can inspect the architecture around a change, understand existing patterns, compare alternatives, and tell us something like:&lt;/p&gt;
+&lt;p&gt;Here is where my initial attempt at extending the Wally book series starts becoming a bit more interesting than I first thought. The LLM does not have to stop after finding Wally. A sufficiently capable model can look at what Wally is doing too. It can inspect the architecture around a change, existing patterns and quickly state:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;This dependency introduces synchronous coupling between two components that were previously independently deployable.&lt;/p&gt;
@@ -196,7 +196,7 @@ This is much closer to how engineering actually works. The repository doesn’t 
 
 &lt;p&gt;Sometimes I know something the model doesn’t. Sometimes the model notices something I don’t. Sometimes one of us is simply wrong.&lt;/p&gt;
 
-&lt;p&gt;That is starting to look less like a tuple of &lt;strong&gt;(mechanical assistant, smart human)&lt;/strong&gt; and more like &lt;strong&gt;two reasoning systems with different context and different failure modes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is starting to look less like a tuple of &lt;strong&gt;(mechanical assistant, smart human)&lt;/strong&gt; and more like &lt;strong&gt;two reasoning systems with different context and failure modes.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
