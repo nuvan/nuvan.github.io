@@ -205,10 +205,10 @@ Github’s new feature, still in preview for selected developers, promises a sma
   <li><a href="#ai-pair-programming">AI Pair Programming</a></li>
 </ol>
 
-<h1 id="ai-pair-programming">AI Pair Programming</h1>
-<h5 id="june-27th"><em>June 27th</em></h5>
+<h2 id="ai-pair-programming">AI Pair Programming</h2>
+<p><em>June 27th</em></p>
 
-<h2 id="copy-paste-generation">Copy Paste generation</h2>
+<h3 id="copy-paste-generation">Copy Paste generation</h3>
 
 <p><a href="https://www.linkedin.com/in/ivomanueljesus/">Ivo Jesus</a>, a freelance Software Engineer and a good friend of mine, shared this Copilot’s suggestion with me.</p>
 
@@ -226,7 +226,7 @@ A feature like Copilot will evidently spread like wildfire if it would be made o
 <p>One of the significant differences between an automatic suggestion and searching for your problem solution online is that the first can be accepted with only one point of view and no criticism. At the same time, the latter usually provides context such as the question made by a fellow developer or multiple responses explaining pros and cons about the solution that someone else offered.
 Content around the code adds a learning dimension that Codepilot can’t deliver at this point. It might be the case that the developer doesn’t even understand a proposed code syntax, just like yours truly at the beginning of this section.</p>
 
-<h2 id="input-curation">Input curation</h2>
+<h3 id="input-curation">Input curation</h3>
 
 <p>Copilot’s training corpus was fed without much avail to its quality from what one sees in the available examples.
 <a href="http://baishakhir.github.io/uploads/fse2014-lang_study.pdf">A large scale study on top of Github’s Open Source Software projects, published in Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering</a> tries to provide answers for a set of questions regarding defect density within a domain, language and language type. The paper has many insights, but one key takeaway can be inferred from the image below.</p>
@@ -236,19 +236,19 @@ Content around the code adds a learning dimension that Codepilot can’t deliver
 <p>As one can see, the study took projects with a defect density between the 10 and 90 percentile. Even so, the indicator floats all over the board. Although we are looking into a study made in 2014, the probability of having a similar defect density nowadays is relatively high.
 Without any code curation before feeding it to Copilot, we directly introduce a similar defect density into the new code. While it is acceptable in an alpha testing phase, taking this to a generally available product would be reckless. One hopes that before moving forward with the product, Github does a much better job with the corpus curation.</p>
 
-<h2 id="unit-testing-pretty-please">Unit Testing, pretty please</h2>
+<h3 id="unit-testing-pretty-please">Unit Testing, pretty please</h3>
 
 <p>Now, with so many caveats when considering a ride with Copilot, where could it excel and bring great value for coders everywhere?
 Tests. You might hate them or love them, but they are invaluable in many codebases, especially volatile ones.
 This is definitely a domain where AI-assisted development would come in handy. Imagine writing a new public method from your favourite editor that adds auto-generated documentation for parameters and return values. Right after closing your public method, you’d get an AI-assist suggestion with a set of unit tests exploring edge and failing cases.</p>
 
-<h2 id="auto-debugging">Auto Debugging</h2>
+<h3 id="auto-debugging">Auto Debugging</h3>
 
 <p>Instead of curating for clean and correct code, which sometimes can be the source of never-ending discussion in a team of Engineers,  we made our model be trained with as many bugs as possible?
 This is the proposal of some investigators in the United States of America.
 Cutting down the time that developers spend on bug fixing is every programming manager dream. <a href="https://www.linkedin.com/in/brendan-dolan-gavitt-3b68154/">Dr Dolan-Gavitt</a> and <a href="https://www.linkedin.com/in/shashank-srikant-965aa125/">Mr Shashank Srikant</a> are feeding buggy code into their models that eventually pick up sections of a codebase that can become an issue in the future. If the rate of false positives is low enough to avoid the extra effort of validating such cases, we might reach a productivity increase never seen before.</p>
 
-<h2 id="laws-nuisances">Law’s nuisances</h2>
+<h3 id="laws-nuisances">Law’s nuisances</h3>
 
 <p>Mr Armin Ronacher, the creator of Flask, a web framework for Pythonistas, shared a troublesome GIF in his Twitter account.
 In a few seconds, he accepts all Copilot suggestions arriving at a <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root#Overview_of_the_code">famous snippet of code</a> developed for a well-known game, Quake III Arena.
@@ -256,7 +256,7 @@ To Mr Armin amazement and amusement, the code suggestions even included the orig
 While we’re in the domain of code snippets, problems like this one can be averted easily and legal actions deflected, but who says that the AI engine was allowed to use those snippets as training examples? At this moment in time, this usage might probably fall into the crevasses of the current law landscape, but one should expect that developers and companies might want some compensation for providing raw digital material for an AI sausage factory or at least, some recognition whenever they allow it.
 If Copilot manages to achieve success, it is expected that its suggestion sophistication becomes even bolder. Why not suggest a lightweight REST Web API with the hints from an introductory documentation comment explaining your endpoints’ purpose?</p>
 
-<h2 id="not-new-as-always">Not new, as always</h2>
+<h3 id="not-new-as-always">Not new, as always</h3>
 
 <p>September 2019, <a href="https://www.linkedin.com/in/bernardo-martinez/">Bernardo Martinez</a>, a Software Engineer working for <a href="https://cabify.com">Cabify</a> and ex-teammate, shared <a href="https://www.tabnine.com/">tabnine’s website</a>, featuring their brand new feature, AI completion.
 Their promise was humbler but, from my point of view, much more enjoyable. Although tabnine’s code completion did not provide complete methods and code snippets, it did speed up typing for a programmer with contextual suggestions.
@@ -264,7 +264,7 @@ It is possible to see the difference after a quick look into tabnine’s site. T
 
 <p>While Github’s Copilot relies on the revolutionary brand new <a href="https://openai.com/blog/gpt-3-apps/">GPT-3 language model</a>, tabnine uses the old GPT-2 version but providing a polished product that a modern developer can rely upon. Copilot’s already shown that it’s a problem about to happen, and maybe the team needs to get back to their desks before rereleasing it publicly again.</p>
 
-<h2 id="ai-is-here-to-develop">AI is here to develop</h2>
+<h3 id="ai-is-here-to-develop">AI is here to develop</h3>
 
 <p>We are seeing AI features being deployed in many domains. Software Engineering isn’t at the bleachers, and we are already feeling the ripples of such technologies.
 Some companies boast AI similar features such as <a href="https://www.outsystems.com/ai/">Outsystems Code Assist</a> within their low-code platform or <a href="https://www.codota.com/">Codota</a>, with a tabnine’s comparable proposal. We will see more promises in the next few years, and few will be impactful for sure, but I believe that a paradigm shift is still far ahead, although one that we might still see within our life span. With that in mind, maybe we should start welcoming our future AI overlo… developers.</p>
