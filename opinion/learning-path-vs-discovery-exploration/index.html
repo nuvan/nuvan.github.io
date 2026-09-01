@@ -182,17 +182,20 @@ var host = "directionwithintent.com";
   </div>
 
 
-<div id="page-wrapper">
+<div id="article-wrapper">
 <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		<nav class="breadcrumbs">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
   <a href="https://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="https://directionwithintent.com/opinion/">Opinion</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
 		<div class="page-title">
 			<h1>Learning Path vs Discovery and Exploration</h1>
 		</div>
 		<div class="inner-wrap">
-			<nav class="toc"></nav><!-- /.toc -->
+			
+			
+			<div class="toc" aria-hidden="true"></div><!-- /.toc layout slot -->
+			
 			<div id="content" class="page-content" itemprop="articleBody">
 				<p>After attending Cloudflare’s Lisbon Engineering Meetup on using the Rust programming language with Cloudflare Workers, I felt a familiar sense of FOMO. Once again, I was reminded that I knew nothing about Rust, even though I incentivised a few junior developers to explore the technology. After all, Mr Linus Torvalds is optimistic about the technology. But, as before, I relegated it to the back burner for “another time.”</p>
 

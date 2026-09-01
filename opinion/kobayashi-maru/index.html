@@ -182,17 +182,20 @@ var host = "directionwithintent.com";
   </div>
 
 
-<div id="page-wrapper">
+<div id="article-wrapper">
 <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		<nav class="breadcrumbs">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
   <a href="https://directionwithintent.com">Home</a> <span class="divider">/</span> <a href="https://directionwithintent.com/opinion/">Opinion</a> <span class="divider">/</span>
 </nav><!-- /.breadcrumbs -->
 		<div class="page-title">
 			<h1>Pondered Kobayashi Maru Decision</h1>
 		</div>
 		<div class="inner-wrap">
-			<nav class="toc"></nav><!-- /.toc -->
+			
+			
+			<div class="toc" aria-hidden="true"></div><!-- /.toc layout slot -->
+			
 			<div id="content" class="page-content" itemprop="articleBody">
 				<p>Some of us drilled it, some tried it, some lived it.
 All of us lost — because in this case, the future was predestined.</p>

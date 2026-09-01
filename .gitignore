@@ -23,6 +23,8 @@ publish.sh
 *.sh
 *.py
 *.rb
+*.yml
+*.yaml
 docs/
 features/
 bugs/
