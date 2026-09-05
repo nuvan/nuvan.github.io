@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://directionwithintent.com/bearings/053-genai-code-synthesis-deal/</loc>
+<lastmod>2026-09-05T17:19:41+01:00</lastmod>
+</url>
+<url>
 <loc>https://directionwithintent.com/software-engineering/jruby-jvm-encoding-flags/</loc>
 <lastmod>2013-02-01T00:00:00+00:00</lastmod>
 </url>
@@ -144,10 +148,10 @@
 <loc>https://directionwithintent.com/mvjournal/archive/</loc>
 </url>
 <url>
-<loc>https://directionwithintent.com/mvjournal/</loc>
+<loc>https://directionwithintent.com/product/</loc>
 </url>
 <url>
-<loc>https://directionwithintent.com/product/</loc>
+<loc>https://directionwithintent.com/bearings/</loc>
 </url>
 <url>
 <loc>https://directionwithintent.com/software-engineering/</loc>
@@ -160,5 +164,8 @@
 </url>
 <url>
 <loc>https://directionwithintent.com/opinion/</loc>
+</url>
+<url>
+<loc>https://directionwithintent.com/mvjournal/</loc>
 </url>
 </urlset>

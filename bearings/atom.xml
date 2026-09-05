@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Direction With Intent Bearings</title>
+  <subtitle>Short observations, shares and commentary.</subtitle>
+  <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
+  <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
+  
+  <updated>2026-09-05T17:19:41+01:00</updated>
+  <id>https://directionwithintent.com/bearings/</id>
+  <author>
+    <name>Nuno Valente</name>
+    <uri>https://directionwithintent.com/</uri>
+  </author>
+  
+  <entry>
+    <title>Bearing from 5 September 2026</title>
+    <link href="https://directionwithintent.com/bearings/053-genai-code-synthesis-deal/"/>
+    <updated>2026-09-05T17:19:41+01:00</updated>
+    <id>https://directionwithintent.com/bearings/053-genai-code-synthesis-deal/</id>
+    <content type="html">&lt;p&gt;The Humble Bundle team has one of the most amazing deals in recent memory, and this one comes “right on time.” With current GenAI tooling, code synthesis will leave human hands, but Product Engineering will still be within human control. For €27.26, you get 19 O’Reilly Software Design and Architecture titles, including Software Architecture: The Hard Parts, The Software Architect Elevator, Learning Domain-Driven Design, Building Event-Driven Microservices, 2e, Building Evolutionary Architectures, 2e, Mastering API Architecture, Designing Distributed Systems, 2e, and many others. I’ve already gone through a few of these, but I’m going to get my own copies this time.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
