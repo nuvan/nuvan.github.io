@@ -21,4 +21,162 @@
 </content>
   </entry>
   
+  <entry>
+    <title>Bearing from 1 September 2026</title>
+    <link href="https://directionwithintent.com/bearings/051-reviewing-genai-code-changes/"/>
+    <updated>2026-09-01T11:04:35+01:00</updated>
+    <id>https://directionwithintent.com/bearings/051-reviewing-genai-code-changes/</id>
+    <content type="html">&lt;p&gt;Are you still looking for Wallys in your code?&lt;/p&gt;
+
+&lt;p&gt;Reviewing code leveraging GenAI changes the process. The review shifts left to the developer and the agent that produced the code, while the developer still owns accountability.&lt;/p&gt;
+
+&lt;p&gt;We are not used to this. Until now, much of that responsibility was tacit, distributed, and usually exercised naively.&lt;/p&gt;
+
+&lt;p&gt;The post focuses on one step of the dev process, code review, but the idea generalizes easily to the whole thing, especially if you are working with a software factory pipeline, whether your lights are on or not.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 14 August 2026</title>
+    <link href="https://directionwithintent.com/bearings/043-charity-majors-it-zeitgeist-talk/"/>
+    <updated>2026-08-14T14:10:24+01:00</updated>
+    <id>https://directionwithintent.com/bearings/043-charity-majors-it-zeitgeist-talk/</id>
+    <content type="html">&lt;p&gt;Can’t recommend enough any conversation with Charity Majors. This one is mostly IT zeitgeist coffee talk but tackles some of my favourite topics atm. Btw, Charity is that front-line commando that you would love to have by your side when those P1s start falling in the dead of the night while you are still dreaming about electric sheep.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 12 August 2026</title>
+    <link href="https://directionwithintent.com/bearings/041-html-over-websockets/"/>
+    <updated>2026-08-12T21:02:56+01:00</updated>
+    <id>https://directionwithintent.com/bearings/041-html-over-websockets/</id>
+    <content type="html">&lt;p&gt;Nice writeup on HTML over WebSockets as an alternative to the JSON API + JS framework SPA approach. Instead of sending JSON and assembling HTML in the browser, the server sends pre-rendered HTML over a persistent WebSocket and the client just places it where it belongs. All rendering logic stays server-side, no API contracts, no client state management. Phoenix LiveView made this popular in 2019, and now there are implementations in Django, Laravel, .NET Blazor, Ruby (Hotwire), and others. The article covers the tradeoffs well: you get real-time bidirectionality and broadcast for free, but you pay with server memory per connection and no offline support.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 5 August 2026</title>
+    <link href="https://directionwithintent.com/bearings/029-evernote-750-vms-migration/"/>
+    <updated>2026-08-05T13:33:22+01:00</updated>
+    <id>https://directionwithintent.com/bearings/029-evernote-750-vms-migration/</id>
+    <content type="html">&lt;p&gt;Fun fact: Evernote had $100M+ ARR in 2017. By 2023 when Bending Spoons acquired it, their user data was stored on 750 manually provisioned VMs on GCP, sharded, with ongoing performance and reliability issues, running a Java 11 monolith. Cloud-native SaaS product from day one btw.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 4 August 2026</title>
+    <link href="https://directionwithintent.com/bearings/026-bmw-idrive-spiderman-promo-backlash/"/>
+    <updated>2026-08-04T14:03:53+01:00</updated>
+    <id>https://directionwithintent.com/bearings/026-bmw-idrive-spiderman-promo-backlash/</id>
+    <content type="html">&lt;p&gt;BMW pushed a Spider-Man promo to millions of dashboards via an over-the-air update, affecting every car running iDrive OS 7 through X. A full-screen banner greets you when you start the car. Remember when Apple “offered” a U2 album and had to make a tool just to remove it? Three years ago a BMW VP said “your car is your last private space.” The software-defined vehicle era is great for digital delivery, but ad-hoc ad delivery like this doesn’t make sense with so many other mechanisms that would actually help drivers and passengers like location based suggestions. Nevertheless, paying for the vehicle and software subscriptions should also allow the user to disable these features.&lt;/p&gt;
+
+&lt;p&gt;#SoftwareDefinedVehicles #AutomotiveInnovation #ConnectedCars #UserPrivacy #DigitalExperience&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 4 August 2026</title>
+    <link href="https://directionwithintent.com/bearings/024-finops-foundation-cloud-financial-management/"/>
+    <updated>2026-08-04T13:49:26+01:00</updated>
+    <id>https://directionwithintent.com/bearings/024-finops-foundation-cloud-financial-management/</id>
+    <content type="html">&lt;p&gt;Found out about this one today. The FinOps Foundation is an official non-profit project of the Linux Foundation dedicated to cloud financial management. They offer a learning path from practitioner to professional and engineer levels, plus specialized tracks for AI costs, containers, and SaaS. All major cloud providers (AWS, Azure, GCP) have complementary training on top. It’s becoming the de facto standard for cloud cost management credentials, with the majority of the Fortune 100 adopting it.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 4 August 2026</title>
+    <link href="https://directionwithintent.com/bearings/023-hotel-wifi-midnight-blizzard-threat/"/>
+    <updated>2026-08-04T13:25:32+01:00</updated>
+    <id>https://directionwithintent.com/bearings/023-hotel-wifi-midnight-blizzard-threat/</id>
+    <content type="html">&lt;p&gt;Going on vacation? Pay attention to your hotel Wi-Fi or just avoid it completely, especially in Europe where you don’t pay roaming through the nose. Midnight Blizzard (Russia/SVR) is running a campaign called CaptiveCrunch that compromises hotel and conference Wi-Fi captive portals to deliver malware and steal credentials from travelers. They hijack DNS/HTTP traffic on guest networks to serve fake browser updates (ClickFix) that drop a full-featured Go RAT, plus a PowerShell stealer that grabs browser cookies, M365 SSO tokens, and Wi-Fi creds. They’re also abusing device code auth flows through the same captive portal redirects.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 31 July 2026</title>
+    <link href="https://directionwithintent.com/bearings/017-llm-chrome-security-bugs/"/>
+    <updated>2026-07-31T15:47:14+01:00</updated>
+    <id>https://directionwithintent.com/bearings/017-llm-chrome-security-bugs/</id>
+    <content type="html">&lt;p&gt;GenAI for the good. LLMs finding, triaging, and fixing Chrome security bugs at scale. Last two releases: 1072 security bugs fixed, more than the previous 23 combined. One of them had been hiding in the codebase for 13 years.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 30 July 2026</title>
+    <link href="https://directionwithintent.com/bearings/012-mcp-spec-goes-stateless/"/>
+    <updated>2026-07-30T14:55:00+01:00</updated>
+    <id>https://directionwithintent.com/bearings/012-mcp-spec-goes-stateless/</id>
+    <content type="html">&lt;p&gt;New MCP spec dropped. The big changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Protocol is now stateless (request/response instead of bidirectional). You can finally deploy servers on serverless/edge without fighting the protocol.&lt;/li&gt;
+  &lt;li&gt;Extensions framework for Apps and Tasks — versioned, so you can add UIs and long-running jobs without messing with core.&lt;/li&gt;
+  &lt;li&gt;Auth is proper OAuth 2.0 / OIDC now. Entra, Okta, etc. just work.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 29 July 2026</title>
+    <link href="https://directionwithintent.com/bearings/009-cyberpunk-rainbows-end-librareome/"/>
+    <updated>2026-07-29T15:24:20+01:00</updated>
+    <id>https://directionwithintent.com/bearings/009-cyberpunk-rainbows-end-librareome/</id>
+    <content type="html">&lt;p&gt;Cyberpunk. What else?&lt;/p&gt;
+
+&lt;p&gt;In Vernor Vinge’s 2006 novel Rainbows End, winner of the 2007 Hugo Award for Best Novel, one strand of the plot revolves around the “Librareome Project.”&lt;/p&gt;
+
+&lt;p&gt;Set in a high-tech 2025, the project digitizes a library by physically shredding its books, photographing the fragments, and digitally reconstructing their contents. It is fast, cheap, and irreversible: the physical collection is sacrificed so that its knowledge can be moved online.&lt;/p&gt;
+
+&lt;p&gt;Nearly two decades later:&lt;/p&gt;
+
+&lt;p&gt;Court filings revealed that Anthropic’s “Project Panama” bought millions of physical books, used hydraulic cutters to remove their bindings, scanned the loose pages at high speed, and sent the remains for recycling. The resulting digital texts were used to help build a private training library for Claude.&lt;/p&gt;
+
+&lt;p&gt;Anthropic may simply be the first case documented in detail. Book-data services now offer AI companies bulk purchases of up to one million physical books while promising to keep the buyers anonymous. Booksellers are reporting suspicious bulk orders, but often cannot verify who is buying the books—or what ultimately happens to them. Some collections contain rare editions and hard-to-find copies.&lt;/p&gt;
+
+&lt;p&gt;The original cover of &lt;em&gt;Rainbows End&lt;/em&gt; carried the line:&lt;/p&gt;
+
+&lt;p&gt;“A novel with one foot in the future.”&lt;/p&gt;
+
+&lt;p&gt;P.S. Read the book.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 11 June 2026</title>
+    <link href="https://directionwithintent.com/bearings/004-traton-genai-hackathon-recap/"/>
+    <updated>2026-06-11T14:16:46+01:00</updated>
+    <id>https://directionwithintent.com/bearings/004-traton-genai-hackathon-recap/</id>
+    <content type="html">&lt;p&gt;This week I was part of the supporting team at a TRATON GenAI Hackathon.&lt;/p&gt;
+
+&lt;p&gt;Two days exploring the usual suspects, Claude, Codex, Kiro, and others, with two goals in mind: produce something we could transport to our day-to-day jobs, and upskill teammates who are only now dropping in, without ever having properly surfed the hype.&lt;/p&gt;
+
+&lt;p&gt;Teams from Sweden, Germany, Portugal, and Brazil came together to freely explore internal systems and unleash their creativity.&lt;/p&gt;
+
+&lt;p&gt;For someone who has already done a few of these, the amazing part is the speed at which we can now produce high-fidelity PoCs, with real use cases, in just two 9-to-5 days. And those days were still sprinkled with group sessions, context switching, and the usual interruptions.&lt;/p&gt;
+
+&lt;p&gt;Last year, in a different setting and context, we pushed the 3-day schedule to the normal extremes these events tend to require. All-nighter, or close to it. Technologies we did not master, or had never properly tried. Tools that were still in the alpha or beta stage. Even then, we already had GenAI-assisted development flows, and I do not think we could have produced an end-to-end case in time without modern development tooling.&lt;/p&gt;
+
+&lt;p&gt;At our GenAI Hackathon, some teams produced end-to-end solutions in less than 8 working hours.&lt;/p&gt;
+
+&lt;p&gt;This was probably the most relaxed hackathon I have ever been involved in. If you do not see what this means for R&amp;amp;D and Innovation work, you are probably not looking closely enough.&lt;/p&gt;
+
+&lt;p&gt;Many will look at this and think: “This should be pretty standard by now. You are late to the game.” Maybe.&lt;/p&gt;
+
+&lt;p&gt;But I think many of us are living in a bubble. There is still a huge crowd outside the loop, just feeling the water temperature. Many are still using these tools without direction and without intent. Others are still too shy to jump in. And that is why promoting these internal events is so important. You’ll easily unlock your company structure ideas, level up your in-house GenAI proficiency, and disseminate knowledge and practices from your experts that you didn’t even know you had.&lt;/p&gt;
+
+&lt;p&gt;P.S. Special props to our Innovation &amp;amp; Engineering Hub teams, especially my Watchdog teammates, for taking home 3 out of 5 wins.&lt;/p&gt;
+
+&lt;p&gt;#GenAI #Hackathon #Innovation #AIToolsForDevelopers #Upskilling&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Bearing from 7 June 2026</title>
+    <link href="https://directionwithintent.com/bearings/002-hierarchical-entity-representation-building/"/>
+    <updated>2026-06-07T15:55:00+01:00</updated>
+    <id>https://directionwithintent.com/bearings/002-hierarchical-entity-representation-building/</id>
+    <content type="html">&lt;p&gt;Recently I was helping an ex-team mate with a personal project that required a hierarchical representation of entities. His example is basically a building, contains flats that contain rooms that contain fixtures. You can extend this to any real estate representation. The problem with this approach without a graph repository is that the engineer usually goes with the naive recursive CTE approach to navigate the model, so why not pre-compute? That’s exactly what the closure table pattern tries to solve, and to be honest I’ve used this one so many times in the past and I did not know that it was a well-known pattern. Another one on the toolbelt :)&lt;/p&gt;
+</content>
+  </entry>
+  
 </feed>
