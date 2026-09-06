@@ -1,8 +1,7 @@
 /* Accessible controller for the off-canvas menu.
  *
- * Deliberately vanilla. Everything else in js/main.js depends on jQuery 1.9.1
- * and removing that dependency is tracked separately, so new behaviour is
- * written without adding to it.
+ * Standalone vanilla JavaScript, like the site's other controllers. No shared
+ * client-side library is required.
  *
  * This replaces the previous jQuery `toggleClass` handlers, which had no
  * concept of state. Explicit open and close is what makes the rest possible:

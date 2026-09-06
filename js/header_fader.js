@@ -1,43 +1,50 @@
-  $(window).on('scroll', function() {
-      if ($(this).scrollTop() > 400 && !$('header').hasClass('fixed') && $('header').hasClass('naver')) {
+/* Switch the photographic header to its fixed light treatment after 400px. */
+(function () {
+  "use strict";
 
-          $(".naver").removeClass('white-logo').addClass('black-logo');
+  var header = document.querySelector("header.naver");
+  if (!header) {
+    return;
+  }
 
-          $("nav ul li a").removeClass('white').addClass('black');
+  var links = document.querySelectorAll("nav ul li a");
+  var buttons = document.querySelectorAll("button");
+  var siteTitles = document.querySelectorAll(".site-title");
+  var scheduled = false;
 
-          $(".site-title").removeClass('white-logo').addClass('black-logo');
+  function toggleClasses(elements, removeClass, addClass) {
+    Array.prototype.forEach.call(elements, function (element) {
+      element.classList.remove(removeClass);
+      element.classList.add(addClass);
+    });
+  }
 
-          $(".header").removeClass('absolute').addClass('fixed');
+  function paint() {
+    scheduled = false;
+    var fixed = window.scrollY > 400;
+    if (fixed === header.classList.contains("fixed")) {
+      return;
+    }
 
-          $("button").removeClass('white').addClass('black');
+    header.classList.toggle("absolute", !fixed);
+    header.classList.toggle("fixed", fixed);
+    header.classList.toggle("transparent", !fixed);
+    header.classList.toggle("bottom-bordered", fixed);
+    header.classList.remove("white-logo");
+    header.classList.add("black-logo");
 
-          $(".header").removeClass('transparent').addClass('bottom-bordered');
+    toggleClasses(links, fixed ? "white" : "black", fixed ? "black" : "white");
+    toggleClasses(buttons, fixed ? "white" : "black", fixed ? "black" : "white");
+    toggleClasses(siteTitles, fixed ? "white-logo" : "black-logo", fixed ? "black-logo" : "white-logo");
+  }
 
-          //$( '.header' ).switchClass( "absolute", "fixed", 1000, "easeInOutQuad" );
-          //$('.naver').animate({opacity : 1}, 'fast', function() {
-          //  $(this).addClass('visible').removeAttr('style');
-          //});
-      } else if ($(this).scrollTop() <= 400 && $('header').hasClass('fixed') && $('header').hasClass('naver')) {
-          //$('.header').switchClass( "fixed", "absolute", 1000, "easeInOutQuad" );
-          $(".header").removeClass('bottom-bordered');
+  function schedulePaint() {
+    if (!scheduled) {
+      scheduled = true;
+      window.requestAnimationFrame(paint);
+    }
+  }
 
-          $("nav ul li a").removeClass('black');
-          $("nav ul li a").addClass('white');
-
-          //if it's a default. defaultnolead should not swith this color
-          $("button").removeClass('black').addClass('white');
-
-          $(".site-title").removeClass('black-logo').addClass('white-logo');
-
-          $(".naver").removeClass('white-logo');
-          $(".naver").addClass('black-logo');
-
-          $(".header").removeClass('fixed');
-          $(".header").addClass('absolute');
-
-          $(".header").addClass('transparent');
-          //$('.naver').animate({opacity : 0}, 'fast', function() {
-          //    $(this).removeClass('visible').removeAttr('style');
-          //});
-      }
-  });
+  window.addEventListener("scroll", schedulePaint, { passive: true });
+  paint();
+}());
