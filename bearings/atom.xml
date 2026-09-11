@@ -5,12 +5,27 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-09-05T17:19:41+01:00</updated>
+  <updated>2026-09-11T16:14:00+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 11 September 2026</title>
+    <link href="https://directionwithintent.com/bearings/058-tailwind-css-just-lost/"/>
+    <updated>2026-09-11T16:14:00+01:00</updated>
+    <id>https://directionwithintent.com/bearings/058-tailwind-css-just-lost/</id>
+    <content type="html">&lt;p&gt;Tailwind CSS just lost its independence. It styles ChatGPT, X, Cloudflare, Reddit and Shopify, it gets installed over 110 million times a week, and as of this week it is a Shopify product.&lt;/p&gt;
+
+&lt;p&gt;Adam Wathan said the quiet part in January, when he laid off three people. Vibe coding tools had wedged themselves between Tailwind and the customers who used to land on the website and buy the templates. Traffic fell. The business that funded a free framework stopped adding up. 110 million installs a week, and not enough of that reach left to pay the people maintaining it.&lt;/p&gt;
+
+&lt;p&gt;So the framework stays MIT-licensed and maintained, the paid side winds down, and Tailwind Plus and ui.sh close to new customers. Shopify keeps a load-bearing piece of its own stack alive and gets the team that builds it. Wathan gets to develop the framework against a real product instead of a template store. Everybody in this particular deal comes out fine.&lt;/p&gt;
+
+&lt;p&gt;The tooling that eats an open-source framework also eats the business that kept it maintained. Tailwind found a large company willing to absorb that. Before you assume the next project will, ask who is going to pay for its upkeep once the traffic it depended on stops arriving.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 5 September 2026</title>
