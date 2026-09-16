@@ -5,12 +5,33 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-09-11T16:14:00+01:00</updated>
+  <updated>2026-09-16T14:06:46+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 16 September 2026</title>
+    <link href="https://directionwithintent.com/bearings/065-jevons-noticed-that-making/"/>
+    <updated>2026-09-16T14:06:46+01:00</updated>
+    <id>https://directionwithintent.com/bearings/065-jevons-noticed-that-making/</id>
+    <content type="html">&lt;p&gt;Jevons noticed that making steam engines more efficient did not cut coal consumption. It raised it. TypeSafe AI named its first model after him, so you know what to expect.&lt;/p&gt;
+
+&lt;p&gt;TypeSafe was in stealth for two years before launching this week. Diogo Almeida, its founder, who worked on the instruction-following research behind ChatGPT at OpenAI, says models have become superhuman at chat while automation falls behind (his take, not mine), and what’s missing now is the interface software could depend on. Type safety to the rescue!&lt;/p&gt;
+
+&lt;p&gt;So their System One class, named after Kahneman’s fast thinking, gives up generating strings entirely. It takes unstructured state in and returns typed values out, always following a pre-defined schema, each with a calibrated probability attached, and samples in parallel instead of one token at a time. Diogo puts end-to-end response time at 70 to 500 milliseconds, pulverizing frontier models that take 3 to 329 seconds, at comparable “intelligence” on these tasks.&lt;/p&gt;
+
+&lt;p&gt;Input is priced at a remarkably low value of $0.042 per million tokens, and output is free. And because schema matching is guaranteed, the first model, Jev, cannot make type errors. Famous last words, folks, but let’s see what they deliver.&lt;/p&gt;
+
+&lt;p&gt;BUT! You know there are always a few. The speed runs come off their own laptops sitting next to their own servers, so your latency will be worse. The eval has no ground truth. It scores agreement with two rival frontier models, so agreeing with a shared mistake checks the box. And, bias alert: the team that builds the model wrote the test workflows.&lt;/p&gt;
+
+&lt;p&gt;Looks like they are carving a blue ocean within the chatbot red ocean, providing a smart if-statement to classify, route, score, and branch when hand-written logic is too brittle and the LLM is too slow to sit in the request hot path. A model that gets a task right 95 percent of the time without noticing or telling you when it is in the 5 percent automates nothing, and that is where calibration comes into play.&lt;/p&gt;
+
+&lt;p&gt;Early access opened this week. Take a look and decide for yourself whether a typed output with an attached probability is a category shift or a very well-typed marketing claim.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 11 September 2026</title>
