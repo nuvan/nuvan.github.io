@@ -5,12 +5,27 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-09-18T16:07:29+01:00</updated>
+  <updated>2026-09-18T17:11:46+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 18 September 2026</title>
+    <link href="https://directionwithintent.com/bearings/074-works-on-my-machine/"/>
+    <updated>2026-09-18T17:11:46+01:00</updated>
+    <id>https://directionwithintent.com/bearings/074-works-on-my-machine/</id>
+    <content type="html">&lt;p&gt;“Works on my machine” just got a URL you can send to people.&lt;/p&gt;
+
+&lt;p&gt;One cloudflared tunnel command, with –url aimed at your local server on port 8000, and Cloudflare hands you a public trycloudflare.com address for whatever is running on your laptop. No account, no DNS, and no certificates, with automatic HTTPS routed through their edge network. Awesome for design previews, QA, webhook testing, and showing someone a thing before it exists IRL.&lt;/p&gt;
+
+&lt;p&gt;Their “secure by default” covers automatic HTTPS and no inbound ports on your machine. It does not cover access control. The generated URL is public and unauthenticated, so whatever your dev server exposes is now on the internet, and random URLs leak through referrers, screenshots, and chat history. Fine for a static preview. Less fine for a stack with a debug console and a .env full of live keys. Cloudflare is clear this is for testing and development only (exactly what we want), with no SLA and a hard cap of 200 concurrent requests.&lt;/p&gt;
+
+&lt;p&gt;Works on my machine, and now on everybody else’s too.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 18 September 2026</title>
