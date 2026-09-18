@@ -5,12 +5,31 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-09-16T14:06:46+01:00</updated>
+  <updated>2026-09-18T16:07:29+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 18 September 2026</title>
+    <link href="https://directionwithintent.com/bearings/069-three-days-after-typesafe/"/>
+    <updated>2026-09-18T16:07:29+01:00</updated>
+    <id>https://directionwithintent.com/bearings/069-three-days-after-typesafe/</id>
+    <content type="html">&lt;p&gt;Three days after TypeSafe put Jev behind a waitlist, we got SemIf in your browser and ready to run.&lt;/p&gt;
+
+&lt;p&gt;SemIf, called OpenJev until earlier today, reproduces the same interface pattern. Instead of making the model write out an answer that your code then parses, it reads the option probabilities straight off a 4B open model’s logits. One forward pass, no text generated, nothing to repair when the model gets creative with its braces.&lt;/p&gt;
+
+&lt;p&gt;The benchmark sets that against the normal way of doing it, the same model generating a compact JSON array of the same answers. Both run a frozen Qwen3.5-4B on one RTX 3090, over the same state and the same 21 binary criteria. Reading the logits took 1.02 seconds and emitted zero output tokens. Generating the array took 5.33 seconds and 111 tokens. That is 5.2x on this setup, nowhere near the 193.6x TypeSafe advertises, and the two methods agreed on only 18 of the 21 criteria.&lt;/p&gt;
+
+&lt;p&gt;On quality, the 4B open model reached 0.845 modal agreement against Jev’s published 0.883, across the 102 rows that could be aligned from public artifacts. The project creator states that this is not TypeSafe’s 711-row aggregate and that no live Jev endpoint was ever called ( or harmed in the process ).&lt;/p&gt;
+
+&lt;p&gt;Typed logits instead of generated strings turns out to be an afternoon on a gaming GPU. So, with all the caveats of the benchmark, you pay TypeSafe for the 0.038 difference.&lt;/p&gt;
+
+&lt;p&gt;The URL still says openjev. Give it a few hours.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 16 September 2026</title>
