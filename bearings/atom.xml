@@ -5,12 +5,29 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-09-23T21:50:37+01:00</updated>
+  <updated>2026-10-02T19:32:33+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 2 October 2026</title>
+    <link href="https://directionwithintent.com/bearings/083-kiro-shipped-workflows-you/"/>
+    <updated>2026-10-02T19:32:33+01:00</updated>
+    <id>https://directionwithintent.com/bearings/083-kiro-shipped-workflows-you/</id>
+    <content type="html">&lt;p&gt;Kiro shipped workflows. You describe the task, the model lays out a graph of agent steps with loops and parallel branches, and the runtime runs it instead of you typing “now review that” every ten minutes.&lt;/p&gt;
+
+&lt;p&gt;Each step gets its own session with fresh context. The reviewer never sees the coder’s reasoning, only its output. Cloudflare built the same rule into their security audit skill, where the agent that verifies a finding is never the agent that found it.&lt;/p&gt;
+
+&lt;p&gt;One of the bundled recipes, investigate, exists only to run a read-only investigation somewhere else and keep its tool output out of your main conversation. That tells you what they think the bottleneck is.&lt;/p&gt;
+
+&lt;p&gt;They built most of the workflow runtime using workflows, each implementation run isolated in its own Git worktree. Dozens per session, five to ten steps each, going nearly 24/7 across the team.&lt;/p&gt;
+
+&lt;p&gt;It is opt-in. Credits scale with whatever work it decides the task needs, so an auto-generated workflow can cost more than the one you would have written.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 23 September 2026</title>
