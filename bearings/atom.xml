@@ -5,12 +5,27 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-10-02T19:32:33+01:00</updated>
+  <updated>2026-10-06T23:07:06+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 6 October 2026</title>
+    <link href="https://directionwithintent.com/bearings/085-mistral-named-its-new/"/>
+    <updated>2026-10-06T23:07:06+01:00</updated>
+    <id>https://directionwithintent.com/bearings/085-mistral-named-its-new/</id>
+    <content type="html">&lt;p&gt;Mistral named its new frontier model le Chonk. Officially. The paper says Mistral Large 4, the launch page says le Chonk, and there is a cat sitting on it. I love that a European lab shipping a trillion-parameter model refused to pretend naming has to be serious.&lt;/p&gt;
+
+&lt;p&gt;One trillion parameters, 49 billion active, natively multimodal, trained from scratch on 3,800 Grace Blackwell GPUs in Mistral’s own European datacenters, fluent in more than 160 languages including every official EU one. Open weights, self-deployable, with the public preview out now and the weights dropping end of month.&lt;/p&gt;
+
+&lt;p&gt;Then there is the cybersecurity result. On a test that asks a model to reproduce a real vulnerability and then patch it, ML4 scores 82%, the highest of any model. Claude Opus 5.5 and GPT-6 Astra score near zero on the same test, because they refuse to do it. Proving a flaw is real is where defending software starts. If your model will not do that work, you do not have a security tool, you have a liability, and open weights running under your own policy are the way around it.&lt;/p&gt;
+
+&lt;p&gt;Forged in Europe, funded by the largest equity round a European tech company has ever raised. Also a cat.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 2 October 2026</title>
