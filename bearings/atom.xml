@@ -5,12 +5,29 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-10-06T23:07:06+01:00</updated>
+  <updated>2026-10-09T18:33:00+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 9 October 2026</title>
+    <link href="https://directionwithintent.com/bearings/088-a-month-after-tailwind/"/>
+    <updated>2026-10-09T18:33:00+01:00</updated>
+    <id>https://directionwithintent.com/bearings/088-a-month-after-tailwind/</id>
+    <content type="html">&lt;p&gt;A month after Tailwind folded into Shopify, Deno is folding into Cloudflare. Ryan Dahl announced the whole team is going, except this time the runtime itself stops too.&lt;/p&gt;
+
+&lt;p&gt;They are not developing a separate runtime and hosting service anymore. The effort goes into Cloudflare’s Workers and Durable Objects model, and Dahl’s new project, celld, is already built on Workers, so the direction was decided before the deal landed.&lt;/p&gt;
+
+&lt;p&gt;One more year of monthly bug and security releases for the Deno runtime, then development ends. It stays open source, so pick it up if you want. Deno Deploy gets six months before it shuts down, with migration help for paying customers moving to Workers. JSR survives, its infrastructure moving to Cloudflare. The man who built Node, then built Deno to fix Node, is now telling you to deploy on somebody else’s network.&lt;/p&gt;
+
+&lt;p&gt;celld coordinates entirely through an S3-compatible bucket, no control plane, no consensus service, which is the same write-ahead-log-on-S3 pattern Cursor’s Continuity post made fashionable this year. It is still shaking out: celld’s own changelog a couple of days ago fixed a bug where a torn WAL header on crash made it skip commits. Durable, distributed, no leader election, until the log itself needs recovering.&lt;/p&gt;
+
+&lt;p&gt;Durable Objects give an agent harness cheap serverless execution, persistent state and WebSockets in one place, and that is what Dahl says he is most excited to work on now. Runtimes used to be the fight. Increasingly it is just whose infrastructure your agents end up running on.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 6 October 2026</title>
