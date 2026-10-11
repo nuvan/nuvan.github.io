@@ -5,12 +5,27 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-10-09T18:33:00+01:00</updated>
+  <updated>2026-10-11T19:35:57+01:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 11 October 2026</title>
+    <link href="https://directionwithintent.com/bearings/091-margaret-hamilton-died-on/"/>
+    <updated>2026-10-11T19:35:57+01:00</updated>
+    <id>https://directionwithintent.com/bearings/091-margaret-hamilton-died-on/</id>
+    <content type="html">&lt;p&gt;Margaret Hamilton died on September 30th, at 90. I call myself a software engineer partly because of her, and so does most of the industry whether we know her name or not.&lt;/p&gt;
+
+&lt;p&gt;She was the first programmer hired onto MIT’s Apollo flight software team, and by 1968 she was running the group writing the Command and Service Module software, more than 400 people on a mission that gave nobody a second chance. Software engineering barely existed as a phrase then, and people kidded her about it. She used it anyway, on purpose, to get the discipline the same respect as any other kind of engineering. It stopped being a joke.&lt;/p&gt;
+
+&lt;p&gt;The famous moment is July 1969, minutes before the Eagle touched down. The guidance computer threw a 1202 alarm, overloaded by a hardware fault, mid-landing. Her team had built the software to drop non-critical tasks and keep the landing-critical ones running, which is exactly what it did. Houston trusted it and let the landing continue. Two men walked on the moon because the error handling held when there was no time left to check it any other way.&lt;/p&gt;
+
+&lt;p&gt;The actual Apollo guidance code her team wrote has been sitting on GitHub since 2015, free to read, 72 kilobytes of memory doing a job nothing today would attempt with a thousand times that.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 9 October 2026</title>
