@@ -5,7 +5,7 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-10-11T19:35:57+01:00</updated>
+  <updated>2026-10-21T23:29:21+02:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
@@ -13,9 +13,41 @@
   </author>
   
   <entry>
+    <title>Bearing from 21 October 2026</title>
+    <link href="https://directionwithintent.com/bearings/096-hackers-1995-hack-the/"/>
+    <updated>2026-10-21T23:29:21+02:00</updated>
+    <id>https://directionwithintent.com/bearings/096-hackers-1995-hack-the/</id>
+    <content type="html">&lt;p&gt;Hackers, 1995: “Hack the Planet!” Good old times.
+OpenAI, present day: “Patch the Planet.”…and here we go again, my friends, with another internet-wide security scare, serious enough to get Japan’s prime minister talking about PHP on X.&lt;/p&gt;
+
+&lt;p&gt;The not-so-brand-new ( will come to this later, just like the PHP team did ) PHP2Shell is actually two CVEs, rated 9.2 by PHP’s own team. A severity of 10.0 spread during the leak and stuck in a few places, but PHP and watchTowr both put the real figure at 9.2 from the start, affecting versions from PHP 5.4 through 8.5. That’s most of the PHP released since 2012, powering a language used by roughly seventy percent of websites whose server-side technology is known.&lt;/p&gt;
+
+&lt;p&gt;Calif, a security research firm, uncovered the flaws in August with help from OpenAI’s GPT-5.6 Sol, under its Patch the Planet program. Wiz independently found related vulnerabilities using its Atlas tooling, Google’s Gemini 4 Argon, and GPT-5.6 Sol.&lt;/p&gt;
+
+&lt;p&gt;Now, PHP’s own developers had already identified the underlying out-of-memory problem back in 2024, during work connected to a security audit. They investigated fixes but couldn’t agree on an approach without potentially breaking compatibility or introducing other problems. There was no demonstrated exploit at the time, so the work stalled and, well, let the future “us” deal with it. I really hope someone said “famous last words” in one of those meetings.&lt;/p&gt;
+
+&lt;p&gt;The bugs themselves are almost mundane. PHP can corrupt its internal state when a request dies from an out-of-memory error at precisely the wrong moment. In other cases, a request finishes but leaves behind references to memory that has already been freed. A later request can then stumble into that stale state instead of starting clean.
+Wiz demonstrated four ways to exploit these problems, grouped into two CVEs. The consequences range from reading sensitive information, including passwords and API keys, from server memory to unauthenticated remote code execution on WordPress, Drupal and Joomla.
+Parts of the vulnerable code have been sitting there for well over a decade!&lt;/p&gt;
+
+&lt;p&gt;But back in the day, chaining these bugs into a working exploit for a particular PHP version and memory layout could have taken an expert team months. Wiz says one researcher managed it in about a week, with AI helping adapt and retest the exploit between attempts.&lt;/p&gt;
+
+&lt;p&gt;And then someone dropped the ball…or the exploit, I might say.&lt;/p&gt;
+
+&lt;p&gt;Information about the vulnerabilities leaked through Hacker News and a watchTowr post on X. Calif accidentally published a proof-of-concept video, and Chainguard released patched images before the agreed disclosure time, giving people a chance to inspect the fixes before everyone else could update.
+PHP brought the release forward by a day, but the internet had already entered Defcon 1 and up to 11 mode.
+Government services in the Netherlands, Denmark, Finland and France went offline as a precaution. The NSA advised organizations that couldn’t patch quickly enough to consider doing the same. Wikimedia pulled supporting services offline, 4chan and Something Awful restricted access, and Japanese online games started suspending services. Even Final Fantasy XIV temporarily stopped accepting new logins.&lt;/p&gt;
+
+&lt;p&gt;Japan’s Prime Minister Sanae Takaichi posted about the vulnerabilities herself, shortly before the scheduled 11 p.m. Tokyo release, telling website operators to prepare for the patch and that taking their sites offline was a reasonable option if they couldn’t update in time.&lt;/p&gt;
+
+&lt;p&gt;A prime minister, personally reminding people to patch PHP. It’s not every Wednesday you see that.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Bearing from 11 October 2026</title>
     <link href="https://directionwithintent.com/bearings/091-margaret-hamilton-died-on/"/>
-    <updated>2026-10-11T19:35:57+01:00</updated>
+    <updated>2026-10-11T20:35:57+02:00</updated>
     <id>https://directionwithintent.com/bearings/091-margaret-hamilton-died-on/</id>
     <content type="html">&lt;p&gt;Margaret Hamilton died on September 30th, at 90. I call myself a software engineer partly because of her, and so does most of the industry whether we know her name or not.&lt;/p&gt;
 
@@ -30,7 +62,7 @@
   <entry>
     <title>Bearing from 9 October 2026</title>
     <link href="https://directionwithintent.com/bearings/088-a-month-after-tailwind/"/>
-    <updated>2026-10-09T18:33:00+01:00</updated>
+    <updated>2026-10-09T19:33:00+02:00</updated>
     <id>https://directionwithintent.com/bearings/088-a-month-after-tailwind/</id>
     <content type="html">&lt;p&gt;A month after Tailwind folded into Shopify, Deno is folding into Cloudflare. Ryan Dahl announced the whole team is going, except this time the runtime itself stops too.&lt;/p&gt;
 
@@ -45,9 +77,9 @@
   </entry>
   
   <entry>
-    <title>Bearing from 6 October 2026</title>
+    <title>Bearing from 7 October 2026</title>
     <link href="https://directionwithintent.com/bearings/085-mistral-named-its-new/"/>
-    <updated>2026-10-06T23:07:06+01:00</updated>
+    <updated>2026-10-07T00:07:06+02:00</updated>
     <id>https://directionwithintent.com/bearings/085-mistral-named-its-new/</id>
     <content type="html">&lt;p&gt;Mistral named its new frontier model le Chonk. Officially. The paper says Mistral Large 4, the launch page says le Chonk, and there is a cat sitting on it. I love that a European lab shipping a trillion-parameter model refused to pretend naming has to be serious.&lt;/p&gt;
 
@@ -62,7 +94,7 @@
   <entry>
     <title>Bearing from 2 October 2026</title>
     <link href="https://directionwithintent.com/bearings/083-kiro-shipped-workflows-you/"/>
-    <updated>2026-10-02T19:32:33+01:00</updated>
+    <updated>2026-10-02T20:32:33+02:00</updated>
     <id>https://directionwithintent.com/bearings/083-kiro-shipped-workflows-you/</id>
     <content type="html">&lt;p&gt;Kiro shipped workflows. You describe the task, the model lays out a graph of agent steps with loops and parallel branches, and the runtime runs it instead of you typing “now review that” every ten minutes.&lt;/p&gt;
 
@@ -79,7 +111,7 @@
   <entry>
     <title>Bearing from 23 September 2026</title>
     <link href="https://directionwithintent.com/bearings/081-mr-darios-we-must/"/>
-    <updated>2026-09-23T21:50:37+01:00</updated>
+    <updated>2026-09-23T22:50:37+02:00</updated>
     <id>https://directionwithintent.com/bearings/081-mr-darios-we-must/</id>
     <content type="html">&lt;p&gt;Mr. Dario’s “We Must Pace the Frontier” was published on September 12th, 2026, and was essentially a call for détente in the GenAI battle for supremacy. The document presents catastrophic scenarios where LLM-based agents could take over our information infrastructure in less than a year. Insane.&lt;/p&gt;
 
@@ -110,7 +142,7 @@
   <entry>
     <title>Bearing from 18 September 2026</title>
     <link href="https://directionwithintent.com/bearings/074-works-on-my-machine/"/>
-    <updated>2026-09-18T17:11:46+01:00</updated>
+    <updated>2026-09-18T18:11:46+02:00</updated>
     <id>https://directionwithintent.com/bearings/074-works-on-my-machine/</id>
     <content type="html">&lt;p&gt;“Works on my machine” just got a URL you can send to people.&lt;/p&gt;
 
@@ -125,7 +157,7 @@
   <entry>
     <title>Bearing from 18 September 2026</title>
     <link href="https://directionwithintent.com/bearings/069-three-days-after-typesafe/"/>
-    <updated>2026-09-18T16:07:29+01:00</updated>
+    <updated>2026-09-18T17:07:29+02:00</updated>
     <id>https://directionwithintent.com/bearings/069-three-days-after-typesafe/</id>
     <content type="html">&lt;p&gt;Three days after TypeSafe put Jev behind a waitlist, we got SemIf in your browser and ready to run.&lt;/p&gt;
 
@@ -144,7 +176,7 @@
   <entry>
     <title>Bearing from 16 September 2026</title>
     <link href="https://directionwithintent.com/bearings/065-jevons-noticed-that-making/"/>
-    <updated>2026-09-16T14:06:46+01:00</updated>
+    <updated>2026-09-16T15:06:46+02:00</updated>
     <id>https://directionwithintent.com/bearings/065-jevons-noticed-that-making/</id>
     <content type="html">&lt;p&gt;Jevons noticed that making steam engines more efficient did not cut coal consumption. It raised it. TypeSafe AI named its first model after him, so you know what to expect.&lt;/p&gt;
 
@@ -165,7 +197,7 @@
   <entry>
     <title>Bearing from 11 September 2026</title>
     <link href="https://directionwithintent.com/bearings/058-tailwind-css-just-lost/"/>
-    <updated>2026-09-11T16:14:00+01:00</updated>
+    <updated>2026-09-11T17:14:00+02:00</updated>
     <id>https://directionwithintent.com/bearings/058-tailwind-css-just-lost/</id>
     <content type="html">&lt;p&gt;Tailwind CSS just lost its independence. It styles ChatGPT, X, Cloudflare, Reddit and Shopify, it gets installed over 110 million times a week, and as of this week it is a Shopify product.&lt;/p&gt;
 
@@ -180,7 +212,7 @@
   <entry>
     <title>Bearing from 5 September 2026</title>
     <link href="https://directionwithintent.com/bearings/053-genai-code-synthesis-deal/"/>
-    <updated>2026-09-05T17:19:41+01:00</updated>
+    <updated>2026-09-05T18:19:41+02:00</updated>
     <id>https://directionwithintent.com/bearings/053-genai-code-synthesis-deal/</id>
     <content type="html">&lt;p&gt;The Humble Bundle team has one of the most amazing deals in recent memory, and this one comes “right on time.” With current GenAI tooling, code synthesis will leave human hands, but Product Engineering will still be within human control. For €27.26, you get 19 O’Reilly Software Design and Architecture titles, including Software Architecture: The Hard Parts, The Software Architect Elevator, Learning Domain-Driven Design, Building Event-Driven Microservices, 2e, Building Evolutionary Architectures, 2e, Mastering API Architecture, Designing Distributed Systems, 2e, and many others. I’ve already gone through a few of these, but I’m going to get my own copies this time.&lt;/p&gt;
 </content>
@@ -189,7 +221,7 @@
   <entry>
     <title>Bearing from 1 September 2026</title>
     <link href="https://directionwithintent.com/bearings/051-reviewing-genai-code-changes/"/>
-    <updated>2026-09-01T11:04:35+01:00</updated>
+    <updated>2026-09-01T12:04:35+02:00</updated>
     <id>https://directionwithintent.com/bearings/051-reviewing-genai-code-changes/</id>
     <content type="html">&lt;p&gt;Are you still looking for Wallys in your code?&lt;/p&gt;
 
@@ -204,7 +236,7 @@
   <entry>
     <title>Bearing from 14 August 2026</title>
     <link href="https://directionwithintent.com/bearings/043-charity-majors-it-zeitgeist-talk/"/>
-    <updated>2026-08-14T14:10:24+01:00</updated>
+    <updated>2026-08-14T15:10:24+02:00</updated>
     <id>https://directionwithintent.com/bearings/043-charity-majors-it-zeitgeist-talk/</id>
     <content type="html">&lt;p&gt;Can’t recommend enough any conversation with Charity Majors. This one is mostly IT zeitgeist coffee talk but tackles some of my favourite topics atm. Btw, Charity is that front-line commando that you would love to have by your side when those P1s start falling in the dead of the night while you are still dreaming about electric sheep.&lt;/p&gt;
 </content>
@@ -213,7 +245,7 @@
   <entry>
     <title>Bearing from 12 August 2026</title>
     <link href="https://directionwithintent.com/bearings/041-html-over-websockets/"/>
-    <updated>2026-08-12T21:02:56+01:00</updated>
+    <updated>2026-08-12T22:02:56+02:00</updated>
     <id>https://directionwithintent.com/bearings/041-html-over-websockets/</id>
     <content type="html">&lt;p&gt;Nice writeup on HTML over WebSockets as an alternative to the JSON API + JS framework SPA approach. Instead of sending JSON and assembling HTML in the browser, the server sends pre-rendered HTML over a persistent WebSocket and the client just places it where it belongs. All rendering logic stays server-side, no API contracts, no client state management. Phoenix LiveView made this popular in 2019, and now there are implementations in Django, Laravel, .NET Blazor, Ruby (Hotwire), and others. The article covers the tradeoffs well: you get real-time bidirectionality and broadcast for free, but you pay with server memory per connection and no offline support.&lt;/p&gt;
 </content>
@@ -222,7 +254,7 @@
   <entry>
     <title>Bearing from 5 August 2026</title>
     <link href="https://directionwithintent.com/bearings/029-evernote-750-vms-migration/"/>
-    <updated>2026-08-05T13:33:22+01:00</updated>
+    <updated>2026-08-05T14:33:22+02:00</updated>
     <id>https://directionwithintent.com/bearings/029-evernote-750-vms-migration/</id>
     <content type="html">&lt;p&gt;Fun fact: Evernote had $100M+ ARR in 2017. By 2023 when Bending Spoons acquired it, their user data was stored on 750 manually provisioned VMs on GCP, sharded, with ongoing performance and reliability issues, running a Java 11 monolith. Cloud-native SaaS product from day one btw.&lt;/p&gt;
 </content>
@@ -231,7 +263,7 @@
   <entry>
     <title>Bearing from 4 August 2026</title>
     <link href="https://directionwithintent.com/bearings/026-bmw-idrive-spiderman-promo-backlash/"/>
-    <updated>2026-08-04T14:03:53+01:00</updated>
+    <updated>2026-08-04T15:03:53+02:00</updated>
     <id>https://directionwithintent.com/bearings/026-bmw-idrive-spiderman-promo-backlash/</id>
     <content type="html">&lt;p&gt;BMW pushed a Spider-Man promo to millions of dashboards via an over-the-air update, affecting every car running iDrive OS 7 through X. A full-screen banner greets you when you start the car. Remember when Apple “offered” a U2 album and had to make a tool just to remove it? Three years ago a BMW VP said “your car is your last private space.” The software-defined vehicle era is great for digital delivery, but ad-hoc ad delivery like this doesn’t make sense with so many other mechanisms that would actually help drivers and passengers like location based suggestions. Nevertheless, paying for the vehicle and software subscriptions should also allow the user to disable these features.&lt;/p&gt;
 
@@ -242,7 +274,7 @@
   <entry>
     <title>Bearing from 4 August 2026</title>
     <link href="https://directionwithintent.com/bearings/024-finops-foundation-cloud-financial-management/"/>
-    <updated>2026-08-04T13:49:26+01:00</updated>
+    <updated>2026-08-04T14:49:26+02:00</updated>
     <id>https://directionwithintent.com/bearings/024-finops-foundation-cloud-financial-management/</id>
     <content type="html">&lt;p&gt;Found out about this one today. The FinOps Foundation is an official non-profit project of the Linux Foundation dedicated to cloud financial management. They offer a learning path from practitioner to professional and engineer levels, plus specialized tracks for AI costs, containers, and SaaS. All major cloud providers (AWS, Azure, GCP) have complementary training on top. It’s becoming the de facto standard for cloud cost management credentials, with the majority of the Fortune 100 adopting it.&lt;/p&gt;
 </content>
@@ -251,7 +283,7 @@
   <entry>
     <title>Bearing from 4 August 2026</title>
     <link href="https://directionwithintent.com/bearings/023-hotel-wifi-midnight-blizzard-threat/"/>
-    <updated>2026-08-04T13:25:32+01:00</updated>
+    <updated>2026-08-04T14:25:32+02:00</updated>
     <id>https://directionwithintent.com/bearings/023-hotel-wifi-midnight-blizzard-threat/</id>
     <content type="html">&lt;p&gt;Going on vacation? Pay attention to your hotel Wi-Fi or just avoid it completely, especially in Europe where you don’t pay roaming through the nose. Midnight Blizzard (Russia/SVR) is running a campaign called CaptiveCrunch that compromises hotel and conference Wi-Fi captive portals to deliver malware and steal credentials from travelers. They hijack DNS/HTTP traffic on guest networks to serve fake browser updates (ClickFix) that drop a full-featured Go RAT, plus a PowerShell stealer that grabs browser cookies, M365 SSO tokens, and Wi-Fi creds. They’re also abusing device code auth flows through the same captive portal redirects.&lt;/p&gt;
 </content>
@@ -260,7 +292,7 @@
   <entry>
     <title>Bearing from 31 July 2026</title>
     <link href="https://directionwithintent.com/bearings/017-llm-chrome-security-bugs/"/>
-    <updated>2026-07-31T15:47:14+01:00</updated>
+    <updated>2026-07-31T16:47:14+02:00</updated>
     <id>https://directionwithintent.com/bearings/017-llm-chrome-security-bugs/</id>
     <content type="html">&lt;p&gt;GenAI for the good. LLMs finding, triaging, and fixing Chrome security bugs at scale. Last two releases: 1072 security bugs fixed, more than the previous 23 combined. One of them had been hiding in the codebase for 13 years.&lt;/p&gt;
 </content>
@@ -269,7 +301,7 @@
   <entry>
     <title>Bearing from 30 July 2026</title>
     <link href="https://directionwithintent.com/bearings/012-mcp-spec-goes-stateless/"/>
-    <updated>2026-07-30T14:55:00+01:00</updated>
+    <updated>2026-07-30T15:55:00+02:00</updated>
     <id>https://directionwithintent.com/bearings/012-mcp-spec-goes-stateless/</id>
     <content type="html">&lt;p&gt;New MCP spec dropped. The big changes:&lt;/p&gt;
 
@@ -284,7 +316,7 @@
   <entry>
     <title>Bearing from 29 July 2026</title>
     <link href="https://directionwithintent.com/bearings/009-cyberpunk-rainbows-end-librareome/"/>
-    <updated>2026-07-29T15:24:20+01:00</updated>
+    <updated>2026-07-29T16:24:20+02:00</updated>
     <id>https://directionwithintent.com/bearings/009-cyberpunk-rainbows-end-librareome/</id>
     <content type="html">&lt;p&gt;Cyberpunk. What else?&lt;/p&gt;
 
@@ -309,7 +341,7 @@
   <entry>
     <title>Bearing from 11 June 2026</title>
     <link href="https://directionwithintent.com/bearings/004-traton-genai-hackathon-recap/"/>
-    <updated>2026-06-11T14:16:46+01:00</updated>
+    <updated>2026-06-11T15:16:46+02:00</updated>
     <id>https://directionwithintent.com/bearings/004-traton-genai-hackathon-recap/</id>
     <content type="html">&lt;p&gt;This week I was part of the supporting team at a TRATON GenAI Hackathon.&lt;/p&gt;
 
@@ -338,7 +370,7 @@
   <entry>
     <title>Bearing from 7 June 2026</title>
     <link href="https://directionwithintent.com/bearings/002-hierarchical-entity-representation-building/"/>
-    <updated>2026-06-07T15:55:00+01:00</updated>
+    <updated>2026-06-07T16:55:00+02:00</updated>
     <id>https://directionwithintent.com/bearings/002-hierarchical-entity-representation-building/</id>
     <content type="html">&lt;p&gt;Recently I was helping an ex-team mate with a personal project that required a hierarchical representation of entities. His example is basically a building, contains flats that contain rooms that contain fixtures. You can extend this to any real estate representation. The problem with this approach without a graph repository is that the engineer usually goes with the naive recursive CTE approach to navigate the model, so why not pre-compute? That’s exactly what the closure table pattern tries to solve, and to be honest I’ve used this one so many times in the past and I did not know that it was a well-known pattern. Another one on the toolbelt :)&lt;/p&gt;
 </content>
