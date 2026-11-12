@@ -5,12 +5,31 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-10-31T12:14:33+00:00</updated>
+  <updated>2026-11-12T11:34:51+00:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 12 November 2026</title>
+    <link href="https://directionwithintent.com/bearings/106-seven-months-after-localstack/"/>
+    <updated>2026-11-12T11:34:51+00:00</updated>
+    <id>https://directionwithintent.com/bearings/106-seven-months-after-localstack/</id>
+    <content type="html">&lt;p&gt;Seven months after LocalStack archived its Community Edition and put an auth token in front of everyone’s CI, AWS ships AWS Emulator free as in free beer (and, being CC0, free as in speech too).
+The tool was written entirely by our friendly agent bots (see, I’m your friend, and I’d like to survive Skynet), and following the new tradition of “If I’m not writing or reading it, why not Rust?”&lt;/p&gt;
+
+&lt;p&gt;As always, you can use AWS_ENDPOINT_URL to point your existing CLI scripts, SDK tests, and coding agents to the in-memory AWS API simulator. Each instance gets its own port, keys, and state, so parallel test suites and agents never see each other’s tables. The generated access keys all start with EMULATOR (a small mercy for anyone who has pasted the wrong credentials into the wrong terminal).&lt;/p&gt;
+
+&lt;p&gt;AWS publishes a fidelity score per service, ‘k’ of ‘n’ tests matching real AWS on status code, body, and exact error message, and the suite is public on GitHub (when available, zing), failing tests included. Unsupported operations return a 501 instead of pretending.&lt;/p&gt;
+
+&lt;p&gt;Before you delete your LocalStack config, consider the existing gaps. AWS Emulator fidelity is closer to the real thing on the control plane (create a bucket, describe a table), but coverage is mixed on the data plane, so be careful about going all in using complex CloudFormation, Terraform, or CDK stacks. It still does not evaluate IAM policies, so a request AWS would deny can succeed locally, and it is a single account with no cross-account or cross-Region behaviour. Your application state lives in memory only.&lt;/p&gt;
+
+&lt;p&gt;AWS provides Debian and RPM packages, but for Windows and macOS you get a Dockerfile to build your container locally.
+Telemetry is on by default, so be mindful of it with your CI flow.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 31 October 2026</title>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+    <script type="text/javascript">
+var host = "directionwithintent.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Seven months after LocalStack archived its Community Edition and put an auth token in front of everyone&#39;s… • Direction With Intent</title>
+<meta name="description" content="The tool was written entirely by our friendly agent bots (see, I&#39;m your friend, and I&#39;d like to survive Skynet), and following the new tradition of &quot;If I&#39;m…">
+<meta name="keywords" content="aws, testing, genai">
+<link rel="canonical" href="https://directionwithintent.com/bearings/106-seven-months-after-localstack/">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Seven months after LocalStack archived its Community Edition and put an auth token in front of everyone&#39;s…">
+<meta name="twitter:description" content="The tool was written entirely by our friendly agent bots (see, I&#39;m your friend, and I&#39;d like to survive Skynet), and following the new tradition of &quot;If I&#39;m…">
+<meta name="twitter:image" content="https://directionwithintent.com/notes/assets/106-seven-months-after-localstack/note-106-social.jpg">
+<meta name="twitter:image:alt" content="Test your applications against AWS locally with AWS Emulator | Amazon Web Services">
+<meta name="twitter:site" content="@nuvan">
+<meta name="twitter:creator" content="@nuvan">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Seven months after LocalStack archived its Community Edition and put an auth token in front of everyone&#39;s…">
+<meta property="og:description" content="The tool was written entirely by our friendly agent bots (see, I&#39;m your friend, and I&#39;d like to survive Skynet), and following the new tradition of &quot;If I&#39;m…">
+<meta property="og:url" content="https://directionwithintent.com/bearings/106-seven-months-after-localstack/">
+<meta property="og:site_name" content="Direction With Intent">
+<meta property="og:image" content="https://directionwithintent.com/notes/assets/106-seven-months-after-localstack/note-106-social.jpg">
+<meta property="og:image:alt" content="Test your applications against AWS locally with AWS Emulator | Amazon Web Services">
+
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+<meta property="article:published_time" content="2026-11-12T11:34:51+00:00">
+
+
+<meta property="article:section" content="Bearings">
+<meta property="article:tag" content="aws">
+<meta property="article:tag" content="testing">
+<meta property="article:tag" content="genai">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SocialMediaPosting",
+  "headline": "Seven months after LocalStack archived its Community Edition and put an auth token in front of everyone's…",
+  "description": "The tool was written entirely by our friendly agent bots (see, I'm your friend, and I'd like to survive Skynet), and following the new tradition of \"If I'm…",
+  "url": "https://directionwithintent.com/bearings/106-seven-months-after-localstack/",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://directionwithintent.com/bearings/106-seven-months-after-localstack/"
+  },
+  "datePublished": "2026-11-12T11:34:51+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Nuno Valente"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://directionwithintent.com/notes/assets/106-seven-months-after-localstack/note-106-social.jpg",
+    "width": 1200,
+    "height": 627
+  },
+  "articleSection": "Bearings",
+  "inLanguage": "en",
+  "keywords": ["aws","testing","genai"]
+}
+</script>
+
+
+
+<link href="https://directionwithintent.com/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Atom Feed">
+<link href="https://directionwithintent.com/bearings/atom.xml" type="application/atom+xml" rel="alternate" title="Direction With Intent Bearings Feed">
+<link href="https://directionwithintent.com/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+<link rel="shortcut icon" href="https://directionwithintent.com/favicon.png">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="cleartype" content="on">
+<meta name="google" content="notranslate" />
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=Oswald:wght@300;400;700&amp;display=swap">
+
+
+<link rel="stylesheet" href="https://directionwithintent.com/css/main.css?v=7ed128c3f5f0">
+
+  </head>
+
+  <body>
+    
+<script defer src="https://directionwithintent.com/js/menu.js"></script>
+<script defer src="https://directionwithintent.com/js/header_fader.js"></script>
+<script defer src="https://directionwithintent.com/js/smart-images.js"></script>
+
+
+
+
+    
+
+<header class="header absolute bottom-bordered note-header">
+    <div id="masthead-article">
+      <div class="inner-wrap">
+        <a href="https://directionwithintent.com" class="site-title black-logo" aria-label="Direction With Intent home">
+          <span class="visually-hidden">Direction With Intent home</span>
+        </a>
+        <nav aria-label="Main" class="menu-article floated">
+          <ul>
+            
+            
+            
+              <li class="nav-links">
+                <a class="black" href="https://directionwithintent.com/software-engineering/">Software Engineering</a>
+              </li>
+            
+              <li class="nav-links">
+                <a class="black" href="https://directionwithintent.com/product/">Product</a>
+              </li>
+            
+              <li class="nav-links">
+                <a class="black" href="https://directionwithintent.com/opinion/">Opinion</a>
+              </li>
+            
+            
+              <li class="nav-links is-feature">
+                <a class="black" href="https://directionwithintent.com/bearings/">Bearings</a>
+              </li>
+            
+            
+            
+              <li class="nav-links is-archive">
+                <a class="black" href="https://directionwithintent.com/mvjournal/">MV Journal</a>
+              </li>
+            
+            <li class="nav-trigger">
+              <button type="button"
+                      class="js-menu-trigger sliding-menu-button-article black"
+                      aria-label="Open menu"
+                      aria-controls="slided"
+                      aria-expanded="false">
+                <span aria-hidden="true">&#9776;</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+</header>
+
+<nav id="slided" aria-label="Browse" class="js-menu sliding-menu-content">
+    <button type="button"
+            class="js-menu-trigger sliding-menu-button menulines-button x2"
+            aria-label="Close menu"
+            aria-controls="slided"
+            aria-expanded="false">
+    <span class="menulines white-cross" aria-hidden="true"></span>
+    </button>
+  <ul class="menu-item">
+    
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/software-engineering/" class="title">Software Engineering</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/product/" class="title">Product</a>
+        
+      </li>
+    
+      <li>
+            
+          
+        <a href="https://directionwithintent.com/opinion/" class="title">Opinion</a>
+        
+      </li>
+    
+    
+    <li class="is-feature">
+      <a href="https://directionwithintent.com/bearings/" class="title">Bearings</a>
+      <p class="excerpt">Signals, observations and ideas for finding direction.</p>
+    </li>
+    
+    
+    
+    <li class="is-archive">
+      <a href="https://directionwithintent.com/mvjournal/" class="title">MV Journal</a>
+    </li>
+    
+    <li>
+      <a href="https://directionwithintent.com/writing/" class="title">All Writing</a>
+      <p class="excerpt">Everything published, grouped by year.</p>
+    </li>
+    <li class="is-utility">
+      <a href="https://directionwithintent.com/about/" class="title">About</a>
+      <p class="excerpt">About Nuno Valente and Direction With Intent.</p>
+    </li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+
+<div id="page-wrapper">
+  <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+  <div id="main" role="main" class="note-page">
+  <article class="wrap note-page__wrap" itemscope itemtype="https://schema.org/SocialMediaPosting">
+    <h1 class="visually-hidden" itemprop="headline">Bearing</h1>
+    <header class="note-page__header">
+      <p class="note-page__eyebrow">Bearing</p>
+      <time itemprop="datePublished" datetime="2026-11-12T11:34:51+00:00">12 November 2026 · 11:34</time>
+    </header>
+
+    
+    <div class="note-page__content" itemprop="articleBody">
+      <p>Seven months after LocalStack archived its Community Edition and put an auth token in front of everyone’s CI, AWS ships AWS Emulator free as in free beer (and, being CC0, free as in speech too).
+The tool was written entirely by our friendly agent bots (see, I’m your friend, and I’d like to survive Skynet), and following the new tradition of “If I’m not writing or reading it, why not Rust?”</p>
+
+<p>As always, you can use AWS_ENDPOINT_URL to point your existing CLI scripts, SDK tests, and coding agents to the in-memory AWS API simulator. Each instance gets its own port, keys, and state, so parallel test suites and agents never see each other’s tables. The generated access keys all start with EMULATOR (a small mercy for anyone who has pasted the wrong credentials into the wrong terminal).</p>
+
+<p>AWS publishes a fidelity score per service, ‘k’ of ‘n’ tests matching real AWS on status code, body, and exact error message, and the suite is public on GitHub (when available, zing), failing tests included. Unsupported operations return a 501 instead of pretending.</p>
+
+<p>Before you delete your LocalStack config, consider the existing gaps. AWS Emulator fidelity is closer to the real thing on the control plane (create a bucket, describe a table), but coverage is mixed on the data plane, so be careful about going all in using complex CloudFormation, Terraform, or CDK stacks. It still does not evaluate IAM policies, so a request AWS would deny can succeed locally, and it is a single account with no cross-account or cross-Region behaviour. Your application state lives in memory only.</p>
+
+<p>AWS provides Debian and RPM packages, but for Windows and macOS you get a Dockerfile to build your container locally.
+Telemetry is on by default, so be mindful of it with your CI flow.</p>
+
+    </div>
+    
+
+    
+
+    
+    
+    <section class="note-page__source" aria-label="Shared source">
+      
+
+
+
+
+
+
+
+<a class="note-source note-source--with-image" href="https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/">
+
+  
+  <span class="note-source__image">
+    <img src="https://directionwithintent.com/notes/assets/106-seven-months-after-localstack/note-106-44cbdc177c462eb1.webp"
+         alt=""
+         role="presentation"
+         width="1230"
+         height="615"
+         loading="lazy" decoding="async">
+  </span>
+  
+  <span class="note-source__content">
+    <strong>Test your applications against AWS locally with AWS Emulator | Amazon Web Services</strong>
+    <span>AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK…</span>
+    <small>Amazon Web Services</small>
+  </span>
+  
+  <span class="note-source__open" aria-hidden="true">↗</span>
+  
+
+</a>
+
+
+    </section>
+    
+
+    
+    <ul class="note-tags" aria-label="Topics">
+      <li>#aws</li><li>#testing</li><li>#genai</li>
+    </ul>
+    
+
+    
+<nav class="note-navigation" aria-label="Bearing navigation">
+  
+  <a class="note-navigation__link note-navigation__link--previous" rel="prev" href="/bearings/100-yesterday-we-talked-with/">
+    <span class="note-navigation__direction">Previous bearing</span>
+    <span class="note-navigation__excerpt">Yesterday we talked with our future AI overlords in heaven, and heaven haiku&#39;d back. Google sent a command in…</span>
+  </a>
+  
+  
+</nav>
+
+
+
+    <footer class="note-page__footer">
+      <a href="https://directionwithintent.com/bearings/">← <span>All Bearings</span></a>
+    </footer>
+  </article>
+</div>
+
+
+  <footer role="contentinfo" id="site-footer">
+	
+	
+	<nav aria-label="Sections" class="menu bottom-menu">
+		<ul class="footer-nav">
+			
+			
+				<li>
+					<a href="https://directionwithintent.com/software-engineering/">Software Engineering</a>
+				</li>
+			
+				<li>
+					<a href="https://directionwithintent.com/product/">Product</a>
+				</li>
+			
+				<li>
+					<a href="https://directionwithintent.com/opinion/">Opinion</a>
+				</li>
+			
+			
+			<li class="is-feature">
+				<a href="https://directionwithintent.com/bearings/">Bearings</a>
+			</li>
+			
+			
+			
+				<li class="is-archive">
+					<a href="https://directionwithintent.com/mvjournal/">MV Journal</a>
+				</li>
+			
+			<li class="is-archive">
+				<a href="https://directionwithintent.com/writing/">All Writing</a>
+			</li>
+			<li class="is-archive">
+				<a href="https://directionwithintent.com/about/">About</a>
+			</li>
+			<li class="is-feed">
+				<a href="https://directionwithintent.com/atom.xml">RSS</a>
+			</li>
+			
+			<li class="is-feed">
+				<a href="https://directionwithintent.com/bearings/atom.xml">Bearings RSS</a>
+			</li>
+			
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	
+	<p class="copyright">&#169; 2026 <a href="https://directionwithintent.com">Direction With Intent - Think Through. Execute.</a>.</p>
+</footer>
+
+</div>
+
+  </body>
+</html>
