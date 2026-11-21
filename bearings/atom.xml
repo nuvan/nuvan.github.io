@@ -5,12 +5,27 @@
   <link href="https://directionwithintent.com/bearings/atom.xml" rel="self"/>
   <link href="https://directionwithintent.com/bearings/" rel="alternate" type="text/html"/>
   
-  <updated>2026-11-12T11:34:51+00:00</updated>
+  <updated>2026-11-21T23:27:52+00:00</updated>
   <id>https://directionwithintent.com/bearings/</id>
   <author>
     <name>Nuno Valente</name>
     <uri>https://directionwithintent.com/</uri>
   </author>
+  
+  <entry>
+    <title>Bearing from 21 November 2026</title>
+    <link href="https://directionwithintent.com/bearings/113-it-is-very-probable/"/>
+    <updated>2026-11-21T23:27:52+00:00</updated>
+    <id>https://directionwithintent.com/bearings/113-it-is-very-probable/</id>
+    <content type="html">&lt;p&gt;It is very probable that if you ask a frontier model for a custom dropdown, you’ll get a nested div monster with a JavaScript library on top, instead of a plain appearance: base-select. Ask it for any UI at all, and there is a fair chance it arrives in a thick coat of Tailwind utility classes, whether your project uses Tailwind or not. Back in September I wrote about Tailwind being installed over 110 million times a week while its own business struggled because agents were writing the classes for everyone (I suspect not all of those installs were entirely voluntary, so please wink if you are in distress).&lt;/p&gt;
+
+&lt;p&gt;Chrome’s answer to the legacy-pattern habit is Modern Web Guidance, now stable at 1.0: a set of skills you install into your coding agent (npx modern-web-guidance@latest install) that injects short, task-scoped guides based on what you are asking for, whatever the model or harness.&lt;/p&gt;
+
+&lt;p&gt;Version 1.0 has 200-plus guides across accessibility, performance, security, privacy, forms and UX, each reviewed by a domain expert, and it is now a cross-browser effort with Firefox and Edge joining Chrome. Guides carry Baseline compatibility data and fallbacks, so you get @supports queries and polyfills matched to your browser targets rather than Chrome-only code. A legacy-scan command looks for safe modernisation spots in an existing codebase.&lt;/p&gt;
+
+&lt;p&gt;Whether it also cures the reflex of reaching for Tailwind on every div, the release notes do not say. You can always try the famous prompt “One shot, no bugs or Tailwind bro”.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Bearing from 12 November 2026</title>
@@ -402,15 +417,6 @@ Government services in the Netherlands, Denmark, Finland and France went offline
 &lt;p&gt;P.S. Special props to our Innovation &amp;amp; Engineering Hub teams, especially my Watchdog teammates, for taking home 3 out of 5 wins.&lt;/p&gt;
 
 &lt;p&gt;#GenAI #Hackathon #Innovation #AIToolsForDevelopers #Upskilling&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Bearing from 7 June 2026</title>
-    <link href="https://directionwithintent.com/bearings/002-hierarchical-entity-representation-building/"/>
-    <updated>2026-06-07T15:55:00+01:00</updated>
-    <id>https://directionwithintent.com/bearings/002-hierarchical-entity-representation-building/</id>
-    <content type="html">&lt;p&gt;Recently I was helping an ex-team mate with a personal project that required a hierarchical representation of entities. His example is basically a building, contains flats that contain rooms that contain fixtures. You can extend this to any real estate representation. The problem with this approach without a graph repository is that the engineer usually goes with the naive recursive CTE approach to navigate the model, so why not pre-compute? That’s exactly what the closure table pattern tries to solve, and to be honest I’ve used this one so many times in the past and I did not know that it was a well-known pattern. Another one on the toolbelt :)&lt;/p&gt;
 </content>
   </entry>
   
