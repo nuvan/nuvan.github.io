@@ -7,9 +7,9 @@
     return;
   }
 
-  var links = document.querySelectorAll("nav ul li a");
-  var buttons = document.querySelectorAll("button");
-  var siteTitles = document.querySelectorAll(".site-title");
+  var links = header.querySelectorAll("nav ul li a");
+  var buttons = header.querySelectorAll("button");
+  var siteTitles = header.querySelectorAll(".site-title");
   var scheduled = false;
 
   function toggleClasses(elements, removeClass, addClass) {
