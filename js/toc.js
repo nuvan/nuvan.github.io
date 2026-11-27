@@ -38,7 +38,8 @@
       event.preventDefault();
       suppressHighlight = true;
       clearTimeout(resumeTimer);
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      target.scrollIntoView({ behavior: reducedMotion ? "instant" : "smooth", block: "start" });
       history.pushState(null, "", link.hash);
       activate(index);
       resumeTimer = setTimeout(function () {
